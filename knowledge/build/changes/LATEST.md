@@ -1,7 +1,7 @@
-# Änderungsbericht Wissens-DB – 2026-11-05T2041Z
+# Änderungsbericht Wissens-DB – 2026-11-05T2053Z
 
 **Swap:** ja – lotse.sqlite ist neu  
-**Links:** {'links': 26287, 'frisch_ok': 5818, 'quelle': '/Users/arne/_Coding/_reimedy_svhack/knowledge/build/links/links.jsonl', 'formulare_live': 953}  
+**Links:** {'links': 26287, 'frisch_ok': 6103, 'quelle': '/Users/arne/_Coding/_reimedy_svhack/knowledge/build/links/links.jsonl', 'formulare_live': 953}  
 **Embeddings:** minishlab/potion-multilingual-128M (neu 0, Cache 30478)
 
 ## Gates
@@ -38,7 +38,7 @@
 - ✓ **golden (a roh): Ich muss mir frei nehmen um die Mama zu pflegen**: {'erwartet': ['familienhospizkarenz', 'pflegekarenz'], 'begriffe': None, 'top5': ['pflegekarenz', 'pflegekarenzgeld', 'pflegegeld', 'angehoerigen_unterstuetzung_ersatzpflege', 'gesundheitsangebote_svs'], 'modus': 'hybrid'}
 - ✓ **golden (b umgeschrieben): Ich muss mir frei nehmen um die Mama zu pflegen**: {'erwartet': ['familienhospizkarenz', 'pflegekarenz'], 'begriffe': ['Pflegekarenz', 'Pflegeteilzeit'], 'top5': ['pflegekarenz', 'pflegekarenzgeld', 'pflegegeld', 'angehoerigen_unterstuetzung_ersatzpflege', 'gesundheitsangebote_svs'], 'modus': 'hybrid'}
 - ✓ **links_demo_formulare_100**: {'live': '6/7', 'fallback_lokal+elternseite': ['fsw_bedarfsmeldung_wg'], 'fehlt': []}
-- ✓ **links_formulare_95**: 617/617 = 100%
+- ✓ **links_formulare_95**: 492/492 = 100%
 - ✓ **leistung_hat_quelle**: alle mit Quelle
 - ✓ **icd_hint_policy**: ok (vom Build entfernt: 0)
 
@@ -70,6 +70,6 @@
 - entfernt: 0 
 - Statuswechsel: 
 - Konflikte: pflegegeld: ['antrag: widerspruch']; wohn_pflegehaus_fsw: ['antrag: widerspruch']; reha_onkologisch: ['antrag: widerspruch']; zahnspange_kfo: ['kosten: zahlen_abweichend']; mundhygiene_kinder: ['zustaendig: zahlen_abweichend']; reha_medizinisch: ['kosten: zahlen_abweichend', 'antrag: widerspruch']; wochengeld: ['antrag: widerspruch']; krankengeld: ['kosten: zahlen_abweichend']; foerderung_24h_betreuung: ['antrag: widerspruch']; behindertenpass: ['antrag: widerspruch']; zahnersatz: ['kosten: zahlen_abweichend']; kinderbetreuungsgeld: ['kosten: zahlen_abweichend']
-- Stellen: {'neu': 0, 'entfernt': 0, 'geaendert': 0}  Formulare: {'neu': 0, 'entfernt': 0, 'geaendert': 0} (geänderte Formulare = neue Version → Feld-Mapping B5 prüfen)
+- Stellen: {'neu': 0, 'entfernt': 0, 'geaendert': 0}  Formulare: {'neu': 0, 'entfernt': 0, 'geaendert': 153} (geänderte Formulare = neue Version → Feld-Mapping B5 prüfen)
 
 **0 neue Einträge in `review_queue.jsonl`.**

@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-05T20:52:43+00:00",
+  "built_at": "2026-11-05T20:57:38+00:00",
   "quellen": {
     "aek_wien": {
       "status": "ok",
@@ -316,11 +316,11 @@
     "alias_vorschlaege": [
       {
         "kandidat": "zahnbehandlung_zahnersatz",
-        "seed": "zahnbehandlung"
+        "seed": "zahnersatz"
       },
       {
         "kandidat": "zahnbehandlung_zahnersatz",
-        "seed": "zahnersatz"
+        "seed": "zahnbehandlung"
       },
       {
         "kandidat": "krankenstand_fit2work",

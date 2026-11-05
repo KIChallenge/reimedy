@@ -378,7 +378,11 @@ def main():
             "geprueft_am": (lk or qlk or {}).get("checked_at"),
             "last_ok_at": (lk or {}).get("last_ok_at") or ((qlk or {}).get("last_ok_at") if url_status == "ersetzt_b" else None),
         }
-        rec["gefunden_auf"] = [json.loads(x) for x in rec["gefunden_auf"]]
+        det = [json.loads(x) for x in rec["gefunden_auf"]]
+        rec["gefunden_auf"] = det  # [{source, formular_id, url, zeile}] – knowledge-db liest formular_id daraus
+        rec["gefunden_auf_urls"] = sorted({d["url"] for d in det if d.get("url")})
+        rec["alias_ids"] = sorted({d["formular_id"] for d in det if d.get("formular_id") and d["formular_id"] != fid})
+        rec["url_pdf"] = url_live if url_status in ("live", "ersetzt_a") and sha else None
         # Seed: lokal vs. live
         if seed_m:
             st = seed_status[seed_m[0]["formular_id"]]
@@ -419,6 +423,9 @@ def main():
                                    "neu_sha256": sha, "felder_diff": d, "b5_mapping_pruefen": bool(d["entfernt"] or d["neu"]),
                                    "url": url_live, "created_at": stamp})
                 hist.append(v)
+            rec["version"] = next(v["version"] for v in hist if v["sha256"] == sha)
+        else:
+            rec["version"] = None
         if url_status in ("tot",) and art in LOTSE_ARTEN:
             review.append({"typ": "formular_link_tot_ohne_ersatz", "formular_id": fid, "url": rec["url_original"],
                            "fehler": (lk or {}).get("error"), "created_at": stamp})

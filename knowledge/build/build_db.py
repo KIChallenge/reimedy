@@ -529,6 +529,10 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
         for fld in ("url_pdf", "name", "traeger", "felder", "art", "sha256", "version", "gefunden_auf", "leistung_ids", "quelle_url"):
             if lv.get(fld) not in (None, "", []):
                 r[fld] = lv[fld]
+        if lv and not lv.get("url_pdf"):
+            r["url_pdf"] = None  # kb-links ist kanonisch: keine bestätigte Datei-URL → keine (Quell-URL wäre ungeprüft)
+        if lv.get("eltern_url"):
+            r["quelle_url"] = lv["eltern_url"]
         con.execute("INSERT INTO formulare VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
             k, r.get("name"), r.get("traeger"), r.get("url_pdf"), r.get("local_pdf"),
             None if r.get("fillable") is None else int(bool(r.get("fillable"))), jdump(r.get("felder") or []),
@@ -542,6 +546,7 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
 
     # Kanten
     edges = []
+    unbekannt_fl = set()
     for lid, m in merged.items():
         for dep in m.get("abhaengigkeiten") or []:
             dep = tax.canon(dep)
@@ -553,7 +558,10 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
     for k, r in fo.items():
         for lid in r.get("leistung_ids") or []:
             lid = tax.canon(lid)
-            edges.append((lid, k, "antrag_formular", ",".join(r["_sources"]), int(lid not in merged)))
+            if lid not in merged:  # Formular nennt eine Leistung, die keine Quelle definiert → melden statt Kante ins Leere
+                unbekannt_fl.add((k, lid))
+                continue
+            edges.append((lid, k, "antrag_formular", ",".join(r["_sources"]), 0))
     for k, r in st.items():
         for lid in r.get("zustaendig_fuer") or []:
             lid = tax.canon(lid)
@@ -585,6 +593,7 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
         "ohne_quelle": sorted(lid for lid, m in merged.items() if not m.get("quellen")),
         "alias_vorschlaege": alias_vor,
         "kanten_ins_leere": [e[:3] for e in edges if e[4]],
+        "formular_leistung_ids_unbekannt": sorted(f"{f}→{l}" for f, l in unbekannt_fl),
     }
     report["stellen"] = {"total": len(st), "mit_geo": sum(1 for r in st.values() if r.get("geo"))}
     report["formulare"] = {"total": len(fo), "live_kanonisch": len(live)}

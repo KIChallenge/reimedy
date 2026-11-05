@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-05T20:52:43+00:00",
+ "built_at": "2026-11-05T20:57:38+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -161219,7 +161219,7 @@
    "name": "Antrag auf Auszahlung eines Rezeptgebührenguthabens",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.840319&portal=bvaebbportal&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"rezeptgebuehrenbefreiung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161279,7 +161279,7 @@
    "name": "Antrag auf Auszahlung eines Rezeptgebührenguthabens bei Verlassenschaft",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.840320&portal=bvaebbportal&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"rezeptgebuehrenbefreiung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161299,7 +161299,7 @@
    "name": "Rezeptgebührenkonto - Antrag auf Neufestsetzung der Rezeptgebührenobergrenze",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.840318&portal=bvaebbportal&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"rezeptgebuehrenbefreiung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161399,7 +161399,7 @@
    "name": "Finanzamtsbestätigung (Bestätigung über bezahlte Behandlungsbeiträge / Rezeptgebühren)",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.840310&portal=bvaebbportal&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"rezeptgebuehrenbefreiung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161409,7 +161409,7 @@
    "name": "Kontaktformular",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.856077&portal=bvaebbportal&layout=withNav",
+   "url_pdf": null,
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\", \"krankentransport\", \"kur\", \"pflegegeld\", \"reha_onkologisch\", \"rezeptgebuehrenbefreiung\", \"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161429,7 +161429,7 @@
    "name": "e-Services: Pflegegeldgutachten",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.857297&portal=bvaebbportal&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161469,7 +161469,7 @@
    "name": "Body-Mass-Index (BMI)",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.840435&portal=bvaebbportal&layout=withNav",
+   "url_pdf": null,
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\", \"krankentransport\", \"kur\", \"pflegegeld\", \"reha_onkologisch\", \"rezeptgebuehrenbefreiung\", \"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161479,7 +161479,7 @@
    "name": "Feedback zur Website",
    "traeger": "BVAEB",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.841899&portal=bvaebbportal&layout=withNav",
+   "url_pdf": null,
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\", \"krankentransport\", \"kur\", \"pflegegeld\", \"reha_onkologisch\", \"rezeptgebuehrenbefreiung\", \"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "bvaeb,linkcheck"
@@ -161639,7 +161639,7 @@
    "name": "FSW Bedarfsmeldung Senior:innen-WG (Basispaket)",
    "traeger": "FSW",
    "local_pdf": "_Source/Anträge und Formulare/Bedarfsmeldung-Senior_innen-Wohngemeinschaft_Basispaket.1736522017.pdf",
-   "url_pdf": "https://www.fsw.at/p/seniorinnen-wohngemeinschaften-basispaket",
+   "url_pdf": null,
    "leistung_ids": "[\"senior_innen_wg_fsw\", \"senior_innen_wg_fsw\", \"senior_innen_wg_fsw\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "fsw,linkcheck,seed,svbox_local"
@@ -162049,7 +162049,7 @@
    "name": "Pflegekarenz/Pflegeteilzeit - Antrag auf Pflegekarenzgeld",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1002",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegekarenz\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162079,7 +162079,7 @@
    "name": "Familienhospizkarenz - Antrag auf Pflegekarenzgeld",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1008",
+   "url_pdf": null,
    "leistung_ids": "[\"familienhospizkarenz\", \"pflegekarenz\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162089,7 +162089,7 @@
    "name": "Heimvertrag - Muster",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://broschuerenservice.sozialministerium.gv.at/Home/Download?publicationId=108",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegeheim\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162099,7 +162099,7 @@
    "name": "Ansuchenformular 24HB-Förderung",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1171",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162129,7 +162129,7 @@
    "name": "Ansuchenform_Bulgarisch",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1185",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162139,7 +162139,7 @@
    "name": "Ansuchenform_Kroatisch",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1186",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162149,7 +162149,7 @@
    "name": "Ansuchenform_Rumänisch",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1187",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162159,7 +162159,7 @@
    "name": "Ansuchenform_Slowakisch",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1188",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162169,7 +162169,7 @@
    "name": "Ansuchenform_Ungarisch",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/1189",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162179,7 +162179,7 @@
    "name": "Gewerbe - Anmeldung",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.gisa.gv.at/at.gv.wien.fshost-gisa-at/user/formular.aspx?pid=f3cbbd2e05c54d8d889b1bddcb648fa2&pn=Bebb476a7b4514f0b90abff604e4e5fda",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162209,7 +162209,7 @@
    "name": "Pensionsversicherung – Nachkauf von Schul-, Studien- und Ausbildungszeiten",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.892417&portal=pvportal&LO=1&layout=withNav&svtcode=02",
+   "url_pdf": null,
    "leistung_ids": "[\"pension_allgemein\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162239,7 +162239,7 @@
    "name": "Kein Formular bzw. keine Vorlage verfügbar",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/290",
+   "url_pdf": null,
    "leistung_ids": "[\"pension_allgemein\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162259,7 +162259,7 @@
    "name": "Gemeindeauswahl",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/gemeindeauswahl/form/459",
+   "url_pdf": null,
    "leistung_ids": "[\"behindertenpass\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162269,7 +162269,7 @@
    "name": "Behindertenausweis nach § 29b StVO - Gehbehindertenausweis",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/520",
+   "url_pdf": null,
    "leistung_ids": "[\"behindertenpass\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162289,7 +162289,7 @@
    "name": "Kein Formular bzw. keine Vorlage verfügbar",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://www.oesterreich.gv.at/de/formsearch/form/819",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162319,7 +162319,7 @@
    "name": "Versicherungserklärung für Selbständige (GSVG/FSVG) – SVS",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.899586&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162329,7 +162329,7 @@
    "name": "Familienbeihilfe - Direktauszahlung volljähriges Kind - Beih20",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": "https://afs-formulare.bmf.gv.at/IDOC/FormServlet?fid=8262",
+   "url_pdf": null,
    "leistung_ids": "[\"familienbeihilfe\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162369,7 +162369,7 @@
    "name": "Behindertenpass - Antrag bundesweit",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/01_BEHINDERTENPASS_Antrag_bundesweit_fertig.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"behindertenpass\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162379,7 +162379,7 @@
    "name": "Antrag: Parkausweis",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/02_BEHINDERTENPASS_Parkausweis_29bStVO_Antrag_bundesweit_fer.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"parkausweis_29b\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162399,7 +162399,7 @@
    "name": "Ansuchen Pflegekurse",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/Ansuchen-Pflegekurse.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegekurse_zuwendung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162409,7 +162409,7 @@
    "name": "Antrag Pflegekarenzgeld Kinderreha",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Antrag_Pflegekarenzgeld_Kinderreha.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegekarenzgeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162429,7 +162429,7 @@
    "name": "Ansuchen auf Gewährung eines Zuschusses zur Unterstützung der 24-Stunden-Betreuung",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Ansuchen_final.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162439,7 +162439,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit BG END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_BG_END.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162449,7 +162449,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit HR END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_HR_END.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162459,7 +162459,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit HU END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_HU_END.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162469,7 +162469,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit PL END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_PL_END.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162479,7 +162479,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit RO END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_RO_END.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162489,7 +162489,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit SK END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_SK_END.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162499,7 +162499,7 @@
    "name": "24-Stunden-Betreuung: Wechsel oder den Zusatz von Betreuungspersonen - rumänisch",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_wechsel_oder_zusaetzliche_selbst_betreuungskr_4.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162509,7 +162509,7 @@
    "name": "24-Stunden-Betreuung: Wechsel oder den Zusatz von Betreuungspersonen - slowakisch",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_wechsel_oder_zusaetzliche_selbst_betreuungskr_6.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162519,7 +162519,7 @@
    "name": "Zuschuss zur Unterstützung der 24-Stunden-Betreuung - Wechsel und/oder zusätzliche selbständige Betreuungskraft",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Wechsel_oder_zusaetzliche_selbst_Betreuungskr_fi.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162529,7 +162529,7 @@
    "name": "Pflegekarenzgeld: Antrag Familienhospizkarenz",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/pflege_pflegekarenzgeld_familienhospizkarenz_antrag_bundeswe.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegekarenzgeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162539,7 +162539,7 @@
    "name": "Pflegekarenzgeld: Antrag Pflegekarenz",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegekarenzgeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162549,7 +162549,7 @@
    "name": "Antrag: Pflegende Angehörige",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegende_Angehoerige/pflege_pflegende_Angehoerige_antrag_bundesweit.docx",
+   "url_pdf": null,
    "leistung_ids": "[\"angehoerigen_unterstuetzung_ersatzpflege\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162559,7 +162559,7 @@
    "name": "24-Stunden-Betreuung: Kontoüberweisung",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/sms_antrag_pflege_24h_konto-ueberweisung.doc",
+   "url_pdf": null,
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162589,7 +162589,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.854400&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"gesundheitshunderter_svs\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162629,7 +162629,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.908620&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162659,7 +162659,7 @@
    "name": "Onlineformular",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.854397&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"wochengeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162739,7 +162739,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.855905&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162749,7 +162749,7 @@
    "name": "Formular – Ein Tag im Zeichen Ihrer Vorsorge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.911063&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162799,7 +162799,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.884091&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162819,7 +162819,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.913770&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162909,7 +162909,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.855896&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -162929,7 +162929,7 @@
    "name": "svs.at/svsgosupport",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.905013&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -163019,7 +163019,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.855902&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -163089,7 +163089,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.861120&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"gesundheitshunderter_svs\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -163119,7 +163119,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.908619&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"
@@ -163129,7 +163129,7 @@
    "name": "Online Antrag – Formulare & Anträge",
    "traeger": "SVS",
    "local_pdf": null,
-   "url_pdf": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.887343&portal=svsportal&LO=4&layout=withoutNav",
+   "url_pdf": null,
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,svs"

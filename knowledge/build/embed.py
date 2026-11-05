@@ -15,7 +15,7 @@ import sys
 import time
 from pathlib import Path
 
-from common import BUILD
+from common import BUILD, rel
 
 DEFAULT_MODEL = "minishlab/potion-multilingual-128M"  # Benchmark 7/7 (ARCHITEKTUR §1); Override: emb_model.txt / LOTSE_EMB_MODEL
 CACHE_DIR = BUILD / "emb_cache"
@@ -160,5 +160,5 @@ def build_vectors(con: sqlite3.Connection, items: dict[str, list[tuple[int, str]
     if len(pruned) != len(cache) or stats["neu_berechnet"]:
         save_cache(model, pruned)
     stats["sekunden"] = round(time.time() - t0, 1)
-    stats["cache_datei"] = str(cache_path(model).relative_to(BUILD.parent.parent))
+    stats["cache_datei"] = rel(cache_path(model))
     return stats

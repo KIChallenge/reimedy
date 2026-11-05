@@ -91,7 +91,7 @@ def run(db: Path = DB_PATH, golden=True) -> list[dict]:
         # Ausnahme: kein öffentliches PDF beim Träger (kb-links url_status=keine_url) + lokale Kopie + Elternseite live
         fallback = [r[0] for r in con.execute(
             f"SELECT f.formular_id FROM formulare f JOIN links l ON l.url=f.quelle_url AND {fresh} "
-            f"WHERE f.url_status='keine_url' AND f.local_pdf IS NOT NULL AND f.formular_id IN ({','.join('?' * len(DEMO_FORMULARE))})",
+            f"WHERE f.url_status IN ('keine_url','ersetzt_b') AND f.local_pdf IS NOT NULL AND f.formular_id IN ({','.join('?' * len(DEMO_FORMULARE))})",
             DEMO_FORMULARE)]
         fehlt = [f for f in DEMO_FORMULARE if f not in ok_demo and f not in fallback]
         gate("links_demo_formulare_100", not fehlt,

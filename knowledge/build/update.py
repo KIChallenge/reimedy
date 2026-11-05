@@ -33,14 +33,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import BUILD, DB_PATH, ROOT, SOURCES  # noqa: E402
+from common import BUILD, DB_PATH, ROOT, SOURCES, STATE_DIR, rel  # noqa: E402
 import build_db  # noqa: E402
 import gates  # noqa: E402
 import links as linkmod  # noqa: E402
 
-CHANGES = BUILD / "changes"
-LOGS = BUILD / "logs"
-QUEUE = BUILD / "review_queue.jsonl"
+CHANGES = STATE_DIR / "changes"
+LOGS = STATE_DIR / "logs"
+QUEUE = STATE_DIR / "review_queue.jsonl"
 LINKCHECK_BUDGET_MIN = 15  # linkcheck.py prüft nur Links älter als 20 h; Rest im nächsten Lauf
 
 
@@ -57,7 +57,7 @@ def run_ingest(src: Path, ts: str, timeout: int, extra: list[str]):
         status = f"timeout nach {timeout}s"
     except FileNotFoundError as e:
         status = f"fehler ({e})"
-    return src.name, status, round(time.time() - t0, 1), str(log.relative_to(ROOT))
+    return src.name, status, round(time.time() - t0, 1), rel(log)
 
 
 def diff(old: dict, new: dict) -> dict:
@@ -172,11 +172,11 @@ def run_linkcheck(ts: str, timeout: int):
             out.append(f"## {script.name} exit {p.returncode}\n{p.stdout[-4000:]}\n--- stderr ---\n{p.stderr[-4000:]}")
             if p.returncode != 0:
                 log.write_text("\n".join(out), encoding="utf-8")
-                return {"status": f"fehler in {script.name} (exit {p.returncode})", "log": str(log.relative_to(ROOT))}
+                return {"status": f"fehler in {script.name} (exit {p.returncode})", "log": rel(log)}
         except subprocess.TimeoutExpired:
             return {"status": f"timeout in {script.name} nach {timeout}s"}
     log.write_text("\n".join(out), encoding="utf-8")
-    return {"status": "ok", "log": str(log.relative_to(ROOT))}
+    return {"status": "ok", "log": rel(log)}
 
 
 def merge_links_queue(ts: str) -> int:
@@ -215,11 +215,11 @@ def main():
     ap.add_argument("--timeout", type=int, default=900)
     a = ap.parse_args()
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%MZ")
-    snap = BUILD / "snapshot.json"
+    snap = STATE_DIR / "snapshot.json"
     old = json.loads(snap.read_text(encoding="utf-8")) if snap.exists() else {}
-    (BUILD / "snapshots").mkdir(exist_ok=True)
+    (STATE_DIR / "snapshots").mkdir(parents=True, exist_ok=True)
     if snap.exists():
-        shutil.copy(snap, BUILD / "snapshots" / f"{ts}_vorher.json")
+        shutil.copy(snap, STATE_DIR / "snapshots" / f"{ts}_vorher.json")
 
     ingest = []
     if not a.skip_ingest and not a.links_only:
@@ -242,7 +242,7 @@ def main():
         report = json.loads(sqlite3.connect(DB_PATH).execute("SELECT value FROM meta WHERE key='report'").fetchone()[0])
     else:
         print("[2/5] Build → lotse.sqlite.new")
-        report = build_db.build(quiet=True, swap=False, embeddings=False if a.no_embeddings else None)
+        report = build_db.build(DB_PATH, quiet=True, swap=False, embeddings=False if a.no_embeddings else None)
         new = Path(report["_new_path"])
     print("[3/5] Linkcheck")
     lc = {"status": "übersprungen (--no-linkcheck), vorhandene links.jsonl geladen"} if a.no_linkcheck else run_linkcheck(ts, a.timeout)
@@ -265,7 +265,7 @@ def main():
     con.close()
     report["gates"] = res
     if not ok and not a.force:
-        print(f"\n✗ Gates rot → KEIN Swap. Kandidat liegt in {new.relative_to(ROOT)}; laufende API nutzt weiter die alte DB.")
+        print(f"\n✗ Gates rot → KEIN Swap. Kandidat liegt in {rel(new)}; laufende API nutzt weiter die alte DB.")
         swapped = False
     else:
         print("[5/5] Swap lotse.sqlite.new → lotse.sqlite" + (" (FORCE trotz roter Gates)" if not ok else ""))
@@ -283,7 +283,7 @@ def main():
                                         encoding="utf-8")
     write_md(CHANGES / f"{ts}.md", ts, ingest, d, report, n_queue, res, swapped)
     shutil.copy(CHANGES / f"{ts}.md", CHANGES / "LATEST.md")
-    print(f"\nÄnderungsbericht: {(CHANGES / f'{ts}.md').relative_to(ROOT)}   Review-Queue +{n_queue}   Swap: {swapped}")
+    print(f"\nÄnderungsbericht: {rel(CHANGES / f'{ts}.md')}   Review-Queue +{n_queue}   Swap: {swapped}")
     return 0 if ok else 1
 
 

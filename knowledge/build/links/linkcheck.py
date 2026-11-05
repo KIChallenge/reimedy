@@ -374,7 +374,7 @@ def write_jsonl(p: Path, rows):
 
 FIELD_ORDER = ["url", "kind", "kinds", "final_url", "http_status", "ok", "content_type", "bytes", "sha256", "checked_at",
                "last_ok_at", "fail_count", "first_seen", "error", "method", "etag", "last_modified", "unveraendert",
-               "check_via", "ersetzt_durch", "ersatz_regel", "refs"]
+               "check_via", "ersetzt_durch", "ersatz_regel", "eltern_url", "refs"]
 
 
 def ordered(r: dict) -> dict:
@@ -387,6 +387,34 @@ def save(links: dict, pdf_meta: dict):
 
 
 # --------------------------------------------------------------------------- Ersatzregeln §3.2
+_LINES: dict = {}
+
+
+def _line(fpath: Path, n: int) -> str | None:
+    if fpath not in _LINES:
+        try:
+            _LINES[fpath] = fpath.read_text(encoding="utf-8").splitlines()
+        except Exception:
+            _LINES[fpath] = []
+    ls = _LINES[fpath]
+    return ls[n - 1] if 0 < n <= len(ls) else None
+
+
+def eltern_url(rec: dict) -> str | None:
+    """Seite, auf der der Link gefunden wurde (quelle_url des Formular-/Stellen-Eintrags), ungeprüft."""
+    for ref in rec.get("refs") or []:
+        if ref.get("file") in ("formulare.jsonl", "seed_formulare.jsonl", "stellen.jsonl") and ref.get("feld") != "quelle_url":
+            src = ref["source"]
+            fpath = (KNOWLEDGE / "build" / ref["file"]) if src == "seed" else SOURCES / src / "out" / ref["file"]
+            try:
+                q = json.loads(_line(fpath, ref["line"]) or "{}").get("quelle_url")
+            except Exception:
+                q = None
+            if q and clean_url(q) != rec["url"]:
+                return clean_url(q)
+    return None
+
+
 def parent_page(rec: dict, links: dict) -> str | None:
     """Elternseite: quelle_url des Formulars (aus refs) bzw. die Seite, auf der der Link gefunden wurde."""
     for ref in rec.get("refs") or []:
@@ -394,8 +422,7 @@ def parent_page(rec: dict, links: dict) -> str | None:
             src = ref["source"]
             fpath = (KNOWLEDGE / "build" / ref["file"]) if src == "seed" else SOURCES / src / "out" / ref["file"]
             try:
-                line = fpath.read_text(encoding="utf-8").splitlines()[ref["line"] - 1]
-                q = json.loads(line).get("quelle_url")
+                q = json.loads(_line(fpath, ref["line"]) or "{}").get("quelle_url")
             except Exception:
                 q = None
             if q and q != rec["url"]:
@@ -426,6 +453,7 @@ def apply_ersatz(links: dict, pdf_meta: dict) -> None:
         if r.get("ok") and r.get("sha256"):
             by_sha[r["sha256"]].append(r.get("final_url") or u)
     for u, r in links.items():
+        r["eltern_url"] = eltern_url(r)
         r.pop("ersetzt_durch", None)
         r.pop("ersatz_regel", None)
         if r.get("ok"):

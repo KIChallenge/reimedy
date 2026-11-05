@@ -33,11 +33,11 @@ from urllib.parse import parse_qs, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_db import HINT_POLICY_ICD, hint_allowed  # noqa: E402
-from common import BUILD, DB_PATH, code_norm, fts_query, norm  # noqa: E402
+from common import BUILD, DB_PATH, STATE_DIR, code_norm, fts_query, norm, rel  # noqa: E402
 from links import FORMULAR_ARTEN_AUSBLENDEN, LINK_MAX_AGE_DAYS  # noqa: E402
 from taxonomy import Taxonomie  # noqa: E402
 
-MISSES = BUILD / "misses.jsonl"
+MISSES = STATE_DIR / "misses.jsonl"
 SYNONYME = BUILD / "query_synonyme.json"
 
 
@@ -403,7 +403,7 @@ class Lotse:
             return None
         if r["zeigen"] == 0:
             # Ausnahme: Antrag ohne öffentliches PDF (z. B. fsw_bedarfsmeldung_wg) → lokale Kopie + Elternseite statt verschwinden
-            if not (r.get("local_pdf") and r.get("url_status") == "keine_url" and r["art"] in ("antrag", "beilage")):
+            if not (r.get("local_pdf") and r.get("url_status") in ("keine_url", "ersetzt_b") and r["art"] in ("antrag", "beilage")):
                 return None
         d = dict(r)
         d.pop("url_status", None)
@@ -415,9 +415,9 @@ class Lotse:
         el = self.link(d.pop("quelle_url", None))
         if not d["url_pdf"] and d.get("local_pdf"):
             d["hinweis"] = "Kein öffentlich herunterladbares PDF bestätigt – lokale Kopie (SV-Box) nur als Fallback, Stand prüfen"
-            if el and el.get("url"):
-                d["online_seite"], d["online_seite_geprueft_am"] = el["url"], el.get("geprueft_am")
-                d["hinweis"] += "; aktuelle Fassung auf der Seite des Trägers"
+        if not d["url_pdf"] and el and el.get("url"):
+            d["online_seite"], d["online_seite_geprueft_am"] = el["url"], el.get("geprueft_am")
+            d["hinweis"] = (d.get("hinweis", "") + "; " if d.get("hinweis") else "") + "Formular auf der Seite des Trägers herunterladen"
         return d
 
     def formular(self, formular_id: str) -> dict:
@@ -551,7 +551,7 @@ class Lotse:
 
     def health(self) -> dict:
         rep = _j(self._meta("report"), {})
-        return self._envelope({"db": str(self.db_path), "built_at": self.built_at,
+        return self._envelope({"db": self.db_path.name, "built_at": self.built_at,
                                "quellen": [dict(r) | {"errors_json": None, "manifest_json": None}
                                            for r in self.con.execute("SELECT * FROM quellen")],
                                "leistungen": rep.get("leistungen", {}).get("nach_status"),

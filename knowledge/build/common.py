@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import unicodedata
 from pathlib import Path
@@ -10,7 +11,19 @@ BUILD = Path(__file__).resolve().parent
 KNOWLEDGE = BUILD.parent
 ROOT = KNOWLEDGE.parent
 SOURCES = KNOWLEDGE / "sources"
-DB_PATH = BUILD / "lotse.sqlite"
+# Container (B8): DB_PATH zeigt auf das Volume (z. B. /data/lotse.sqlite), damit das nächtliche update.py ohne Redeploy tauscht.
+DB_PATH = Path(os.environ.get("DB_PATH") or BUILD / "lotse.sqlite")
+# Laufzeit-Zustand (snapshot, build_report, changes, review_queue, misses, logs) liegt neben der DB → überlebt Redeploys.
+STATE_DIR = Path(os.environ.get("STATE_DIR") or DB_PATH.parent)
+
+
+def rel(p) -> str:
+    """Pfad relativ zum Repo (für Berichte/Health), sonst nur der Dateiname – nie absolute lokale Pfade ausliefern."""
+    p = Path(p)
+    try:
+        return str(p.resolve().relative_to(ROOT))
+    except ValueError:
+        return p.name
 
 SOURCE_IDS = ["oegk", "aek_wien", "fsw", "svs", "bvaeb", "sozdok_ris", "gesundheit_gv", "oesterreich_gv", "svbox_local"]
 BEREICHE = {"A": "Vorsorge", "B": "Gesundheitsförderung", "C": "Behandlung/Reha/Nachsorge",

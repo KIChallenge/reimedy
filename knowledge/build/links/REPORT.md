@@ -1,4 +1,4 @@
-# Live-Links – Bericht (Stand 2026-11-05 20:51 UTC)
+# Live-Links – Bericht (Stand 2026-11-05 20:52 UTC)
 
 Erzeugt von `report.py`. Code: `linkcheck.py` → `formulare_live.py` → `report.py` (alle in `knowledge/build/links/`).
 
@@ -219,14 +219,14 @@ python3 knowledge/build/links/report.py
 ```
 
 **`links.jsonl`** → Tabelle `links` (eine Zeile pro URL, Schlüssel `url` = URL wie in den Quellen, ohne `#Fragment`):
-`url, kind (formular_pdf|online_antrag|stelle|quelle|seite), kinds[], final_url, http_status, ok, content_type, bytes, sha256 (nur PDFs), checked_at, last_ok_at, fail_count, first_seen, error, method (HEAD|GET|GET-Range), check_via ('manifest' = aus frischem Quell-Manifest übernommen), ersetzt_durch, ersatz_regel (a_gleicher_sha256|a_relative_url_repariert|b_elternseite|c_ausblenden_review), refs[{source,file,line,feld,id}]`.
+`url, kind (formular_pdf|online_antrag|stelle|quelle|seite), kinds[], final_url, http_status, ok, content_type, bytes, sha256 (nur PDFs), checked_at, last_ok_at, fail_count, first_seen, error, method (HEAD|GET|GET-Range), check_via ('manifest' = aus frischem Quell-Manifest übernommen), ersetzt_durch, eltern_url (Fundseite), ersatz_regel (a_gleicher_sha256|a_relative_url_repariert|b_elternseite|c_ausblenden_review), refs[{source,file,line,feld,id}]`.
 Nicht-Web-Kennungen (`sozdok:`, `file:`) stehen mit `error='keine_web_url'`, `ok=null` drin – nicht als Link ausliefern.
 
 **API-Regel:** eine URL nur ausliefern, wenn `ok` und `last_ok_at` < 7 Tage; sonst `ersetzt_durch` (mit Hinweis „Formular dort herunterladen“ bei `b_elternseite`), sonst ausblenden. Ausgeliefert wird `final_url`; `geprueft_am` = `checked_at`.
 
 **`formulare_live.jsonl`** → ersetzt die `formulare`-Tabelle (kanonisch, dedupliziert):
-`formular_id` (Seed-ID, sonst Träger-ID), `name, traeger, art (antrag|beilage|merkblatt|tarif_vertrag|info_seite|video|sonstiges), art_grund, lotse_zeigen (bool – nur diese als Formular zeigen), url_status (live|ersetzt_a|ersetzt_b|tot|keine_url|ungeprueft), url (live bzw. Ersatz-URL), url_original, online_url, quelle_url, quelle_url_ok, content_type, sha256, bytes, pages, fillable, n_felder, felder[{name,typ,label}] (aus dem LIVE-PDF), leistung_ids[], wer_fuellt_aus, local_pdf (nur Fallback), lokal_vs_live (nur Seeds), gefunden_auf[{source,formular_id,url,zeile}], geprueft_am, last_ok_at`.
-Join zu `leistungen.antrag.formular_id`: über `formular_id` **oder** über `gefunden_auf[].formular_id` (die alten Quell-IDs bleiben dort erhalten).
+`formular_id` (Seed-ID, sonst Träger-ID), `name, traeger, art (antrag|beilage|merkblatt|tarif_vertrag|info_seite|video|sonstiges), art_grund, lotse_zeigen (bool – nur diese als Formular zeigen), url_status (live|ersetzt_a|ersetzt_b|tot|keine_url|ungeprueft), url (live bzw. Ersatz-URL), url_original, online_url, quelle_url, quelle_url_ok, content_type, sha256, bytes, pages, fillable, n_felder, felder[{name,typ,label}] (aus dem LIVE-PDF), leistung_ids[], wer_fuellt_aus, local_pdf (nur Fallback), lokal_vs_live (nur Seeds), url_pdf (Datei-URL, nur wenn live/ersetzt_a und PDF), version, alias_ids[] (alle deduplizierten Quell-formular_ids), gefunden_auf[{source,formular_id,url,zeile}], gefunden_auf_urls[], geprueft_am, last_ok_at`.
+Join zu `leistungen.antrag.formular_id`: über `formular_id` **oder** `alias_ids[]` (die alten Quell-IDs bleiben dort erhalten).
 
 **`formular_versionen.jsonl`**: `formular_id, version, sha256, url, n_felder, felder_hash, felder[], first_seen, last_seen, diff_zur_vorversion{entfernt,neu,gleich}`.
 

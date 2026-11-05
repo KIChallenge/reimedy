@@ -12,7 +12,7 @@ import json
 import sqlite3
 from pathlib import Path
 
-from common import BUILD, jdump
+from common import BUILD, jdump, rel
 
 LINKS_DIR = BUILD / "links"
 LINK_MAX_AGE_DAYS = 7
@@ -49,9 +49,12 @@ def read_formulare_live(links_dir: Path = LINKS_DIR):
         if not f.get("formular_id"):
             continue
         f = dict(f)
-        f.setdefault("url_pdf", f.get("url"))
-        if not f.get("url_pdf"):
-            f["url_pdf"] = f.get("url")
+        st = f.get("url_status")
+        if "url_pdf" not in f:  # älteres Format: url = Datei-URL, außer bei Elternseiten-Ersatz
+            f["url_pdf"] = f.get("url") if st not in ("ersetzt_b", "tot", "keine_url") else None
+        if st == "ersetzt_b" and f.get("url"):
+            f["eltern_url"] = f["url"]  # Elternseite: „Formular dort herunterladen", NIE als PDF ausgeben
+            f["quelle_url"] = f.get("quelle_url") or f["url"]
         ga = f.get("gefunden_auf") or []
         f.setdefault("alias_ids", [g.get("formular_id") for g in ga if isinstance(g, dict) and g.get("formular_id")])
         f["zeigen"] = f.get("lotse_zeigen", True) is not False
@@ -70,5 +73,5 @@ def load_links(con: sqlite3.Connection, links_dir: Path = LINKS_DIR) -> dict:
                     [r.get(c) for c in COLS] + [jdump({k: v for k, v in r.items() if k not in COLS and k not in ("refs", "kinds")})])
     n_ok = con.execute("SELECT count(*) FROM links WHERE ok AND last_ok_at IS NOT NULL AND "
                        f"julianday('now') - julianday(last_ok_at) < {LINK_MAX_AGE_DAYS}").fetchone()[0]
-    return {"links": len(rows), "frisch_ok": n_ok, "quelle": str(links_dir / "links.jsonl"),
+    return {"links": len(rows), "frisch_ok": n_ok, "quelle": rel(links_dir / "links.jsonl"),
             "formulare_live": len(read_formulare_live(links_dir))}
