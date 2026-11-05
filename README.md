@@ -54,6 +54,10 @@ Docker: `docker build -t sv-knowledgebase . && docker run -p 8765:8765 sv-knowle
 - Nachts (Coolify Scheduled Task): `DB_PATH=/data/lotse.sqlite python knowledge/build/update.py`. Der Lauf baut `/data/lotse.sqlite.new`, prüft die Gates und tauscht atomar. Die laufende API lädt beim nächsten Request neu (mtime).
 - `/health` gibt keine absoluten lokalen Pfade aus.
 
+## Formulare
+
+Einen Teil der Formulare haben wir aufbereitet: die Demo-Formulare und weitere, insgesamt 138 von 350. Dafür gibt es ein geprüftes Template mit Feldern, Bedeutung und Empfänger (`knowledge/build/forms/`, Details in `REPORT.md`). Für alle anderen Formulare versucht der Lotse das Ausfüllen **live**, sobald eines angefordert wird: Er erkennt die Felder per LLM aus dem Original-PDF, markiert alle Angaben zur Prüfung und kennzeichnet sie klar als „nicht vorab geprüft“.
+
 ## Grenzen
 
 Kein Medizinprodukt. Die Wissensbasis enthält keine Diagnose-, Befund-, Risiko- oder Therapieaussagen. ICD-, ATC- und EKO-Daten dienen nur der administrativen Zuordnung. Leistungsangaben sind Kandidaten mit Quelle; über einen Anspruch entscheidet der zuständige Träger.
