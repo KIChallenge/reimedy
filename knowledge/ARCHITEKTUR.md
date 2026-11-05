@@ -61,3 +61,27 @@ Regeln:
 6. Änderungsbericht `changes/<datum>.md` und Review-Queue.
 
 Scheduling: Coolify Scheduled Task (B8) nachts; lokal per Hand. Demo-Story: „Stand der Daten: heute 04:00, 1.234 Links geprüft, 3 Formulare geändert."
+
+## 8. Formulare: alle ausfüllbar, als PDF speicherbar, an die richtige Stelle versendbar (Vorgabe Arne, 05.11. abends)
+
+Stand der Messung: Der Lotse zeigt 349 Formulare (antrag/beilage/merkblatt). Davon haben **77 AcroForm-Felder** und **272 sind flache Druck-PDFs**. Von den 6.747 AcroForm-Feldern haben nur 2.953 ein Label. In Michi (Branch `b5-comms`) sind erst 4 Formulare von Hand gemappt.
+
+**Prinzip:** Ausfüllen ist **datengetrieben**, nicht pro Formular programmiert. Die Wissensbasis liefert für jedes Formular ein geprüftes **Template**, Michi füllt generisch.
+
+### 8.1 Wissensbasis (dieses Repo) liefert
+1. **Feld-Ontologie** `knowledge/build/forms/ontologie.json`: kanonische Schlüssel, z. B. `person.vorname`, `person.familienname`, `person.svnr`, `person.geburtsdatum`, `person.geschlecht`, `person.staatsbuergerschaft`, `person.familienstand`, `adresse.strasse|hausnr|stiege|tuer|plz|ort|land`, `kontakt.telefon|email`, `versicherung.traeger`, `versicherte_person.*` (bei Mitversicherung), `vertreter.*` + `vertreter.rolle` (Vollmacht/Erwachsenenvertretung), `bank.iban|bic|kontoinhaber`, `pension.bezieht|traeger`, `pflegegeld.bezieht|stufe|traeger`, `arbeitgeber.*`, `aufenthalt.temporaer.*`, `datum.heute`, `ort.heute`, `unterschrift.*`, `arzt.*` (wird nie von Michi gefüllt). Das ist der **Vertrag mit Michi** und wird nur additiv geändert.
+2. **Template je Formular und Version** `knowledge/build/forms/templates/<formular_id>@<sha256[:12]>.json`:
+   `{formular_id, sha256, pages, quelle: acroform|generiert, felder:[{feld_id, acro_name|null, page, bbox[x0,y0,x1,y1] (PDF-Punkte), typ: text|checkbox|radio|datum|zahl|unterschrift, label_wörtlich, semantik: <ontologie-key>|null, wer: versicherte|arzt|behoerde|unterschrift, pflicht: bool, max_zeichen, format (z. B. TTMMJJJJ, Kästchen pro Zeichen)}], geprueft: {methode, am}}`
+   - AcroForm: Widgets plus bbox aus dem PDF, Label aus dem nächstliegenden Text. `semantik` per Regeln, sonst per LLM-Zuordnung (offline, Ergebnis eingefroren).
+   - Flache PDFs: Ausfüllbereiche erkennen (Linien, Unterstriche, Kästchen, Tabellenzellen über pymupdf/pdfplumber-Geometrie plus Label-Text). Bei reinen Bild-PDFs zuerst OCR (Vision). Danach erzeugen wir zusätzlich eine **AcroForm-angereicherte Kopie**, damit auch die Nutzer:in ein ausfüllbares PDF bekommt.
+   - **Prüfung:** Jedes Template wird mit einer Testperson probegefüllt, gerendert und visuell geprüft (Vision-Check: Text in der richtigen Box, nichts überlappt). Nur geprüfte Templates gibt die API aus (`geprueft`).
+   - Ändert sich die Formularversion (sha256 aus §3.3), wird das Template neu erzeugt und kommt in die Review-Queue.
+3. **Empfänger je Formular** `knowledge/build/forms/empfaenger.jsonl`: `{formular_id, traeger, abteilung, kanal: [online|email|post|fax|persoenlich], aufloesung: "landesstelle_nach_plz"|"fix"|"auszahlende_stelle", stelle_ids[], online_url, email, post_adresse, hinweis}`. Die Zuständigkeitsregel ist deterministisch, z. B. Pflegegeld → auszahlende Pensionsstelle, ÖGK → Landesstelle nach Wohnort, FSW nur Wien.
+4. **Träger-Register** (alle SV-Träger mit Landesstellen, Kontakten und Zuständigkeiten: ÖGK + 9 Landesstellen, SVS, BVAEB, PVA, AUVA, KFAs, Dachverband) als Tabelle `traeger`, Endpunkt `GET /traeger`.
+5. API (additiv): `GET /formular/<id>/template`, `GET /formular/<id>/pdf` (Live-PDF bzw. AcroForm-angereicherte Kopie, Cache nach sha256), `GET /formular/<id>/empfaenger?plz=&traeger=`, `GET /forms/ontologie`, `GET /traeger`.
+
+### 8.2 Michi (Repo reimedy-svhack) macht
+- **Generischer Filler:** AcroForm-Felder setzen, flache PDFs per Overlay in die bbox schreiben (pymupdf `insert_textbox`, Kästchenformat beachten). Ampel je Feld: grün = aus Quelle (Dokument/Vault), gelb = bitte prüfen, rot = nur die Person selbst (Unterschrift, Einkommen, IBAN). Fehlende Pflichtfelder fragt Michi als gezielte Rückfrage nach, sie werden nicht geraten.
+- **Speichern:** Das ausgefüllte PDF kommt in den Vault der Person, dazu Download und Eintrag unter „Kommunikation".
+- **Versand:** über eine **Mock-Träger-API** mit demselben Interface wie ein späterer echter Adapter: `POST /mock-traeger/{traeger}/eingang` (PDF + Metadaten + Begleitschreiben + Vertretungsnachweis) → `{aktenzeichen, eingang_am, status}`. Danach Statusereignisse (eingegangen → in Bearbeitung → Rückfrage → Bescheid) entlang der Demo-Zeitachse und eine Kopie an Mailpit. Empfänger kommt aus `/formular/<id>/empfaenger`.
+- Die handgemappten 4 Formulare aus `b5-comms` dienen als Regressionstest, nicht als Sonderweg.
