@@ -1,5 +1,5 @@
 {
- "_hinweis": "Kuratierte Taxonomie (ersetzt aliases.json). varianten = DIESELBE Leistung (werden gemergt). eltern = teil_von (eigene Leistung, Kante). nicht_verwechseln_mit / alternative_zu = Kanten, kein Merge. traeger_auspraegungen = Quell-IDs, die als Träger-Ausprägung in die Leistung wandern. Automatisch: <id>_<oegk|svs|bvaeb|pva|auva> wird Träger-Ausprägung von <id>, wenn <id> hier steht.",
+ "_hinweis": "Kuratierte Taxonomie (ersetzt aliases.json). varianten = DIESELBE Leistung (werden gemergt). eltern = teil_von (eigene Leistung, Kante). nicht_verwechseln_mit / alternative_zu = Kanten, kein Merge. traeger_auspraegungen = Quell-IDs, die als Träger-Ausprägung in die Leistung wandern. Automatisch: <id>_<oegk|svs|bvaeb|pva|auva> wird Träger-Ausprägung von <id>, wenn <id> hier steht. kurz_einfach (+kurz_einfach_quelle) = kuratierte Kurzbeschreibung, ersetzt Werbe-/Teasertexte der Quelle (Original bleibt als Variante).",
  "leistungen": [
   {
    "id": "pflegegeld",
@@ -352,7 +352,9 @@
    "typ": "bund",
    "traeger": [],
    "eltern": null,
-   "varianten": [],
+   "varianten": [
+    "angehoerigen_entlastung"
+   ],
    "nicht_verwechseln_mit": [],
    "alternative_zu": [],
    "traeger_auspraegungen": {}
@@ -809,7 +811,8 @@
    "varianten": [
     "hausarzt_primaerversorgung",
     "hausarzt",
-    "primaerversorgung"
+    "primaerversorgung",
+    "hausarzt_kontrolle"
    ],
    "nicht_verwechseln_mit": [],
    "alternative_zu": [],
@@ -1241,6 +1244,66 @@
    "nicht_verwechseln_mit": [],
    "alternative_zu": [],
    "traeger_auspraegungen": {}
+  },
+  {
+   "id": "ernaehrungsberatung",
+   "name": "Ernährungsberatung und -angebote (ÖGK)",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "kurz_einfach": "Die ÖGK bietet Angebote zu gesunder Ernährung: Webinare, Vorträge, Kurse, Videos und Rezepte. In manchen Bundesländern gibt es auch Ernährungsberatung in Kundenservice-Stellen.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.895359&portal=oegkportal"
+  },
+  {
+   "id": "jugendlichenuntersuchung",
+   "name": "Jugendlichenuntersuchung (ÖGK)",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "kurz_einfach": "Kostenloser Gesundheits-Check der ÖGK für Jugendliche von 15 bis 18 Jahren, einmal im Jahr. Die Einladung kommt mit der Post; Lehrlinge werden oft in der Berufsschule oder im Betrieb untersucht.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.893239&portal=oegkportal"
+  },
+  {
+   "id": "mentale_gesundheit_angebote",
+   "name": "Mentale Gesundheit: Angebote der ÖGK",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "kurz_einfach": "Die ÖGK bietet zum Thema mentale Gesundheit Tipps, Vorträge, Videos, Broschüren und kostenlose Webinare. Manche Kurse werden für ÖGK-Versicherte gefördert.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal"
+  },
+  {
+   "id": "trittsicher_sturzpraevention",
+   "name": "Trittsicher & aktiv (ÖGK)",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "kurz_einfach": "Programm „Trittsicher & aktiv“ der ÖGK für ältere Menschen, um im Alltag sicherer auf den Beinen zu sein. Fragen und Buchung über die Kontaktstelle im jeweiligen Bundesland.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.901313&portal=oegkportal"
   }
  ]
 }

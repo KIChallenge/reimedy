@@ -38,7 +38,7 @@ uv run python knowledge/build/search.py --serve       # HTTP-API auf :8765
 uv run python knowledge/build/update.py               # Ingest → Build → Linkcheck → Gates → Swap
 ```
 
-API: `GET /health` · `GET /search?q=` · `GET /leistung/<id>` · `GET /stellen?plz=&typ=&leistung_id=` · `GET /formular/<id>` · `POST /triggers` · `GET /codes/...` · `POST /codes/hints`
+API: `GET /health` · `GET /search?q=` · `GET /leistung/<id>` · `GET /stellen?plz=&typ=&leistung_id=` · `GET /formular/<id>` · `POST /triggers` · `GET /codes/...` · `POST /codes/hints` · `GET /traeger?plz=&bundesland=` (Träger-Register mit Landesstellen + zuständiger Stelle) · `GET /traeger/<id>`
 
 Docker: `docker build -t sv-knowledgebase . && docker run -p 8765:8765 sv-knowledgebase`
 

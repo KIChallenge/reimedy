@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-05T20:58:36+00:00",
+ "built_at": "2026-11-05T21:59:05+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -3772,7 +3772,12 @@
    "stand": "2026-11-05T19:05:56Z"
   },
   {
-   "_entschieden": {},
+   "_entschieden": {
+    "kurz_einfach": {
+     "durch": "taxonomie",
+     "original": "Das Sprichwort „Du bist, was du isst“ bringt es auf den Punkt: Eine ausgewogene und gesunde Ernährung ist Balsam für Körper, Geist und Seele."
+    }
+   },
    "_raw_ids": [
     "ernaehrungsberatung"
    ],
@@ -3794,7 +3799,8 @@
     "Einmal im Monat bieten wir Ernährungsberatungen im Kundenservice der Österreichischen Gesundheitskasse Bischofshofen, Hallein, Tamsweg und Zell am See an."
    ],
    "innerhalb_sv": true,
-   "kurz_einfach": "Das Sprichwort „Du bist, was du isst“ bringt es auf den Punkt: Eine ausgewogene und gesunde Ernährung ist Balsam für Körper, Geist und Seele.",
+   "kurz_einfach": "Die ÖGK bietet Angebote zu gesunder Ernährung: Webinare, Vorträge, Kurse, Videos und Rezepte. In manchen Bundesländern gibt es auch Ernährungsberatung in Kundenservice-Stellen.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.895359&portal=oegkportal",
    "leistung_id": "ernaehrungsberatung",
    "name": "Ernährungsberatung und -angebote",
    "quellen": [
@@ -3816,6 +3822,7 @@
     "Ernährung",
     "Ernährungsberatung"
    ],
+   "typ": "sv",
    "voraussetzungen": [
     {
      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.897588&portal=oegkportal",
@@ -8194,7 +8201,12 @@
    "stand": "2026-11-05T18:58:40Z"
   },
   {
-   "_entschieden": {},
+   "_entschieden": {
+    "kurz_einfach": {
+     "durch": "taxonomie",
+     "original": "Jung und gesund – diese beiden Eigenschaften hängen nicht immer automatisch zusammen."
+    }
+   },
    "_raw_ids": [
     "jugendlichenuntersuchung"
    ],
@@ -8285,7 +8297,8 @@
    ],
    "innerhalb_sv": true,
    "kosten": "Die Einladung zur kostenlosen Untersuchung kommt mit der Post. Der Gesundheitscheck ist kostenlos. Alles wird zu hundert Prozent vertraulich behandelt.",
-   "kurz_einfach": "Jung und gesund – diese beiden Eigenschaften hängen nicht immer automatisch zusammen.",
+   "kurz_einfach": "Kostenloser Gesundheits-Check der ÖGK für Jugendliche von 15 bis 18 Jahren, einmal im Jahr. Die Einladung kommt mit der Post; Lehrlinge werden oft in der Berufsschule oder im Betrieb untersucht.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.893239&portal=oegkportal",
    "leistung_id": "jugendlichenuntersuchung",
    "name": "Jugendlichenuntersuchung",
    "quellen": [
@@ -8307,6 +8320,7 @@
    "trigger_im_dokument": [
     "Jugendlichenuntersuchung"
    ],
+   "typ": "sv",
    "voraussetzungen": [
     {
      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.893239&portal=oegkportal",
@@ -11598,7 +11612,12 @@
    "stand": "2026-11-05T18:58:40Z"
   },
   {
-   "_entschieden": {},
+   "_entschieden": {
+    "kurz_einfach": {
+     "durch": "taxonomie",
+     "original": "Gönnen Sie sich Glücksmomente."
+    }
+   },
    "_raw_ids": [
     "mentale_gesundheit_angebote"
    ],
@@ -11623,7 +11642,8 @@
    ],
    "innerhalb_sv": true,
    "kosten": "Wie das geht, zeigt Ihnen die Österreichische Gesundheitskasse und unterstützt Sie mit hilfreichen Tipps, Vorträgen, Videos, Broschüren und weiteren kostenlosen Webinaren. Für Versicherte der ÖGK gibt es eine Förderung – die Kurskosten betragen dann statt 240 Euro nur 65 Euro (begrenztes Kontingent). Lächeln verringert durch die Ausschüttung von neurochemischen Stoffen wie Dopamin und Endorphinen die körpereigene Stressreaktion.",
-   "kurz_einfach": "Gönnen Sie sich Glücksmomente.",
+   "kurz_einfach": "Die ÖGK bietet zum Thema mentale Gesundheit Tipps, Vorträge, Videos, Broschüren und kostenlose Webinare. Manche Kurse werden für ÖGK-Versicherte gefördert.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal",
    "leistung_id": "mentale_gesundheit_angebote",
    "name": "Mentale Gesundheit: Angebote und Beratung",
    "quellen": [
@@ -11650,6 +11670,7 @@
     "Mentale Gesundheit",
     "Erste Hilfe für die Seele"
    ],
+   "typ": "sv",
    "voraussetzungen": [
     {
      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.899627&portal=oegkportal",
@@ -19770,7 +19791,12 @@
    "stand": "2026-01-01"
   },
   {
-   "_entschieden": {},
+   "_entschieden": {
+    "kurz_einfach": {
+     "durch": "taxonomie",
+     "original": "Stürze zählen zu den größten Gefahrenquellen im Alltag älterer Menschen."
+    }
+   },
    "_raw_ids": [
     "trittsicher_sturzpraevention"
    ],
@@ -19789,7 +19815,8 @@
    ],
    "confidence": "niedrig",
    "innerhalb_sv": true,
-   "kurz_einfach": "Stürze zählen zu den größten Gefahrenquellen im Alltag älterer Menschen.",
+   "kurz_einfach": "Programm „Trittsicher & aktiv“ der ÖGK für ältere Menschen, um im Alltag sicherer auf den Beinen zu sein. Fragen und Buchung über die Kontaktstelle im jeweiligen Bundesland.",
+   "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.901313&portal=oegkportal",
    "leistung_id": "trittsicher_sturzpraevention",
    "name": "Trittsicher & aktiv (Sturzprävention)",
    "quellen": [
@@ -19806,6 +19833,7 @@
     "Sturz",
     "Trittsicher"
    ],
+   "typ": "sv",
    "review_status": "kandidat",
    "sources": [
     "oegk"

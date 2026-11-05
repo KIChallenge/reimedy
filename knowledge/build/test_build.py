@@ -287,3 +287,32 @@ def test_http_stellen_leistung_und_leistung_id(tmp_path, monkeypatch):
         d = _json.load(urllib.request.urlopen(f"{base}/stellen?plz=1030&{param}=mobile_pflege_fsw", timeout=3))
         ids[param] = [s["stelle_id"] for s in d["stellen"]]
     assert ids["leistung"] == ids["leistung_id"] == ["fsw_beratungszentrum_pflege"]
+
+
+def test_traeger_register(tmp_path):
+    from common import plz_bundesland
+    assert [plz_bundesland(p) for p in ("1030", "3100", "2425", "4020", "5280", "5020", "6900", "6020", "7000", "8010", "9020", "9900")] == \
+        ["W", "N", "B", "O", "O", "S", "V", "T", "B", "St", "K", "T"]
+    _, L = build(tmp_path)
+    r = L.traeger(plz="9020")
+    t = {x["id"]: x for x in r["traeger"]}
+    assert t["oegk"]["zustaendig"]["stelle"]["name"] == "ÖGK Kärnten"
+    assert t["pva"]["zustaendig"]["stelle"]["email"] == "pva-lsk@pv.at"
+    assert t["oegk"]["reimedy_ref"] == {"vocabulary_id": "Austrian_Payer", "concept_code": "2000000001", "concept_id": 2000000001}
+    assert t["kfa"]["zustaendig"]["status"] == "rueckfrage"
+    assert L.traeger("fsw", plz="8010")["traeger"][0]["zustaendig"]["status"] == "nicht_zustaendig"
+
+
+def test_kurz_einfach_override_und_varianten(tmp_path):
+    s = make_sources(tmp_path)
+    w(s / "src_k/out/leistungen.jsonl", [
+        {"leistung_id": "mentale_gesundheit_angebote", "name": "Mentale Gesundheit", "kurz_einfach": "Gönnen Sie sich Glücksmomente.",
+         "quellen": [{"url": "https://www.oegk.at/x"}]},
+        {"leistung_id": "angehoerigen_entlastung", "name": "Entlastung", "quellen": [{"url": "https://g.example"}]},
+    ])
+    build_db.build(tmp_path / "k.sqlite", s, quiet=True, embeddings=False, links_dir=tmp_path / "nolinks")
+    L = Lotse(tmp_path / "k.sqlite", log_misses=False, hybrid=False)
+    m = L.get_leistung("mentale_gesundheit_angebote")
+    assert "Glücksmomente" not in m["kurz_einfach"] and m["kurz_einfach_quelle"]
+    assert L.get_leistung("angehoerigen_entlastung")["leistung_id"] == "pflegende_angehoerige_unterstuetzung"
+    assert L.get_leistung("hausarzt_kontrolle")["leistung_id"] == "hausarzt_pve"

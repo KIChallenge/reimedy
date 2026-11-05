@@ -17,6 +17,33 @@ DB_PATH = Path(os.environ.get("DB_PATH") or BUILD / "lotse.sqlite")
 STATE_DIR = Path(os.environ.get("STATE_DIR") or DB_PATH.parent)
 
 
+BL_NORM = {"NÖ": "N", "OÖ": "O", "ST": "St", "STMK": "St", "St": "St"}
+
+
+def plz_bundesland(plz) -> str | None:
+    """PLZ → Bundesland-Kürzel (W N B O S St K T V). Grob, aber mit den bekannten Ausnahmen:
+    6700–6999 Vorarlberg, 99xx Osttirol (Tirol), 5280–5299/4xxx Innviertel (OÖ), 2xxx-Teile/7xxx Burgenland."""
+    p = str(plz or "").strip()
+    if not (len(p) == 4 and p.isdigit()):
+        return None
+    n = int(p)
+    if n < 2000:
+        return "W"
+    if 2000 <= n < 4000:
+        return "B" if 2421 <= n <= 2491 else "N"
+    if 4000 <= n < 5000:
+        return "O"
+    if 5000 <= n < 6000:
+        return "O" if 5100 <= n <= 5299 or 5310 <= n <= 5360 else "S"
+    if 6000 <= n < 7000:
+        return "V" if n >= 6700 else "T"
+    if 7000 <= n < 8000:
+        return "B"
+    if 8000 <= n < 9000:
+        return "St"
+    return "T" if n >= 9900 else "K"
+
+
 def rel(p) -> str:
     """Pfad relativ zum Repo (für Berichte/Health), sonst nur der Dateiname – nie absolute lokale Pfade ausliefern."""
     p = Path(p)

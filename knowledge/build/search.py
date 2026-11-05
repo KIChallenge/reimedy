@@ -33,7 +33,7 @@ from urllib.parse import parse_qs, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_db import HINT_POLICY_ICD, hint_allowed  # noqa: E402
-from common import BUILD, DB_PATH, STATE_DIR, code_norm, fts_query, norm, rel  # noqa: E402
+from common import BL_NORM, BUILD, DB_PATH, STATE_DIR, code_norm, fts_query, norm, plz_bundesland, rel  # noqa: E402
 from links import FORMULAR_ARTEN_AUSBLENDEN, LINK_MAX_AGE_DAYS  # noqa: E402
 from taxonomy import Taxonomie  # noqa: E402
 
@@ -549,6 +549,61 @@ class Lotse:
                                "hinweis": "Kandidaten zum Prüfen (z. B. Zuständigkeit, Antrag) – kein Anspruch, keine medizinische Aussage. "
                                           + self.CODE_HINWEIS})
 
+    # ------------------------------------------------------------------ Träger-Register (§8.1.4)
+    def _url_kuratiert(self, url, stand):
+        """Link-Regel; kuratierte Träger-URLs, die der Linkcheck (noch) nicht kennt, tragen den Kuratierungsstand."""
+        lk = self.link(url)
+        if lk and lk.get("url"):
+            return lk["url"], lk.get("geprueft_am")
+        if lk and lk.get("link_status") == "ungeprueft":
+            return url, stand
+        return None, None
+
+    def _ts(self, r):
+        d = {k: r[k] for k in r.keys()}
+        d["url"], d["url_geprueft_am"] = self._url_kuratiert(d["url"], d["stand"])
+        d["quelle_url"], _ = self._url_kuratiert(d["quelle_url"], d["stand"])
+        return {k: v for k, v in d.items() if v is not None}
+
+    def traeger(self, traeger_id: str | None = None, plz: str | None = None, bundesland: str | None = None) -> dict:
+        """Alle Träger (oder einer) mit Landesstellen/Stellen. Mit plz/bundesland zusätzlich die ZUSTÄNDIGE Stelle
+        je Träger (aufloesung=landesstelle_nach_bundesland). Referenz auf reimedy-Server über (vocabulary_id, concept_code)."""
+        bl = BL_NORM.get(bundesland, bundesland) if bundesland else plz_bundesland(plz)
+        sql, args = "SELECT * FROM traeger", []
+        if traeger_id:
+            sql += " WHERE id=?"
+            args.append(traeger_id)
+        out = []
+        for t in self.con.execute(sql, args).fetchall():
+            d = {k: t[k] for k in t.keys()}
+            for f in ("sparten", "zentrale_json", "online_json"):
+                d[f.replace("_json", "")] = _j(d.pop(f), None)
+            if d.get("zentrale") and d["zentrale"].get("url"):
+                d["zentrale"]["url"], d["zentrale"]["url_geprueft_am"] = self._url_kuratiert(d["zentrale"]["url"], d["stand"])
+            d["quelle_url"], _ = self._url_kuratiert(d["quelle_url"], d["stand"])
+            d["reimedy_ref"] = ({"vocabulary_id": d.pop("reimedy_vocabulary_id"), "concept_code": d.pop("reimedy_concept_code"),
+                                 "concept_id": d.pop("reimedy_concept_id")} if d.get("reimedy_concept_code") else None)
+            for k in ("reimedy_vocabulary_id", "reimedy_concept_code", "reimedy_concept_id"):
+                d.pop(k, None)
+            stellen = [self._ts(r) for r in self.con.execute(
+                "SELECT * FROM traeger_stellen WHERE traeger_id=? ORDER BY rolle, bundesland, name", (t["id"],))]
+            d["stellen"] = stellen
+            if bl:
+                if d["nur_bundesland"] and d["nur_bundesland"] != bl:
+                    d["zustaendig"] = {"status": "nicht_zustaendig", "grund": f"nur für Bundesland {d['nur_bundesland']}"}
+                elif d["aufloesung"] == "landesstelle_nach_bundesland":
+                    hit = [s for s in stellen if s.get("bundesland") == bl and s.get("rolle") in ("landesstelle", "aussenstelle")]
+                    hit.sort(key=lambda s: s.get("rolle") != "landesstelle")
+                    d["zustaendig"] = ({"status": "landesstelle", "bundesland": bl, "stelle": hit[0]} if hit else
+                                       {"status": "zentrale", "bundesland": bl, "grund": "keine Landesstelle für dieses Bundesland im Register"})
+                elif d["aufloesung"] == "regional_unbekannt":
+                    d["zustaendig"] = {"status": "rueckfrage", "grund": d.get("kontakt_hinweis")}
+                else:
+                    d["zustaendig"] = {"status": "zentrale"}
+            out.append(d)
+        return self._envelope({"plz": plz, "bundesland": bl, "traeger": out,
+                               "hinweis_plz": "Bundesland aus PLZ abgeleitet (grob, Grenzfälle per bundesland= überschreiben)" if plz and not bundesland else None})
+
     def health(self) -> dict:
         rep = _j(self._meta("report"), {})
         return self._envelope({"db": self.db_path.name, "built_at": self.built_at,
@@ -638,6 +693,9 @@ def serve(port=8765, db=DB_PATH, host=None):
                 return self._send(L.lookup_code(unquote(m[1]), unquote(m[2])))
             if p == "/codes":
                 return self._send(L.search_codes(q.get("q", ""), q.get("system")))
+            if p == "/traeger" or (m := re.fullmatch(r"/traeger/([a-z_]+)", p)):
+                tid = q.get("id") or (m[1] if p != "/traeger" else None)
+                return self._send(L.traeger(tid, q.get("plz"), q.get("bundesland")))
             if p == "/misses":
                 return self._send(L.misses())
             self._send({"error": "unbekannter Pfad", "pfade": ["/health", "/search", "/leistung/<id>", "/stellen", "/formular/<id>", "/triggers (POST)", "/misses"]}, 404)

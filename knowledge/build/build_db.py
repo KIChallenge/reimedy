@@ -73,6 +73,12 @@ CREATE TABLE codes(system TEXT, code TEXT, label_de TEXT, label_einfach TEXT, pa
   hints_entfernt TEXT, quelle_url TEXT, stand TEXT, source_id TEXT, data_json TEXT, PRIMARY KEY(system, code));
 CREATE INDEX codes_parent ON codes(system, parent);
 CREATE VIRTUAL TABLE codes_fts USING fts5(system UNINDEXED, code, label, tokenize="unicode61 remove_diacritics 2");
+CREATE TABLE traeger(id TEXT PRIMARY KEY, name TEXT, typ TEXT, sparten TEXT, personenkreis TEXT, aufloesung TEXT,
+  nur_bundesland TEXT, zentrale_json TEXT, online_json TEXT, kontakt_hinweis TEXT, quelle_url TEXT, stand TEXT,
+  confidence TEXT, reimedy_vocabulary_id TEXT, reimedy_concept_code TEXT, reimedy_concept_id INT);
+CREATE TABLE traeger_stellen(id TEXT PRIMARY KEY, traeger_id TEXT, rolle TEXT, bundesland TEXT, name TEXT, adresse TEXT,
+  plz TEXT, ort TEXT, telefon TEXT, email TEXT, url TEXT, quelle_url TEXT, stand TEXT, hinweis TEXT, herkunft TEXT, stelle_id TEXT);
+CREATE INDEX ts_tr ON traeger_stellen(traeger_id, bundesland);
 CREATE TABLE extras(source_id TEXT, file TEXT, leistung_id TEXT, data_json TEXT);
 CREATE INDEX ex_lid ON extras(leistung_id);
 """
@@ -213,6 +219,13 @@ def merge_leistungen(cands: list[dict], tax: Taxonomie):
                         kind = "zahlen_abweichend"
                 if kind:
                     conflicts.append({"feld": f, "art": kind, "varianten": variants})
+        # kurz_einfach: kuratierter Text aus der Taxonomie ersetzt Werbe-/Teasersätze der Quelle (Original bleibt Variante)
+        te_k = tax.entries.get(lid) or {}
+        if te_k.get("kurz_einfach"):
+            if out.get("kurz_einfach") and out["kurz_einfach"] != te_k["kurz_einfach"]:
+                out.setdefault("_entschieden", {})["kurz_einfach"] = {"durch": "taxonomie", "original": out["kurz_einfach"]}
+            out["kurz_einfach"] = te_k["kurz_einfach"]
+            out["kurz_einfach_quelle"] = te_k.get("kurz_einfach_quelle")
         # innerhalb_sv entscheidet die kuratierte Taxonomie (typ sv|land|bund|verein), Quellvarianten bleiben sichtbar
         te = tax.entries.get(lid)
         if te and te.get("typ"):
@@ -313,6 +326,51 @@ def merge_simple(recs, key):
         base["_sources"] = sorted({r["_source_id"] for r in rs})
         out[k] = base
     return out
+
+
+# --------------------------------------------------------------------------- Träger-Register (§8.1.4)
+TRAEGER_FILE = BUILD / "traeger.json"
+
+
+def load_traeger(con, stellen: dict) -> dict:
+    """traeger.json (kuratiert, offizielle Kontaktseiten) + Landesstellen aus unseren Ingest-stellen (aus_stellen)."""
+    from common import BL_NORM
+    if not TRAEGER_FILE.exists():
+        return {"total": 0, "grund": "traeger.json fehlt"}
+    data = json.loads(TRAEGER_FILE.read_text(encoding="utf-8"))
+    n_ls = 0
+    for t in data["traeger"]:
+        rk = t.get("reimedy") or {}
+        con.execute("INSERT INTO traeger VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+            t["id"], t["name"], t["typ"], jdump(t.get("sparten") or []), t.get("personenkreis"), t.get("aufloesung"),
+            t.get("nur_bundesland"), jdump(t.get("zentrale")), jdump(t.get("online")), t.get("kontakt_hinweis"),
+            t.get("quelle_url"), data.get("stand"), t.get("confidence", "hoch"),
+            rk.get("vocabulary_id"), rk.get("concept_code"), rk.get("concept_id")))
+        for s in t.get("landesstellen") or []:
+            con.execute("INSERT INTO traeger_stellen VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+                s["id"], t["id"], "landesstelle", s["bundesland"], s["name"], s.get("adresse"), s.get("plz"), s.get("ort"),
+                s.get("telefon"), s.get("email"), s.get("url"), s.get("quelle_url"), s.get("stand"), s.get("hinweis"),
+                "kuratiert", None))
+            n_ls += 1
+        a = t.get("aus_stellen")
+        if a:
+            for sid, r in stellen.items():
+                if a["source_id"] not in r["_sources"] or (a.get("typ") and r.get("typ") != a["typ"]):
+                    continue
+                bl = BL_NORM.get(r.get("bundesland"), r.get("bundesland"))
+                nm = (r.get("name") or "")
+                rolle = "landesstelle" if "Landesstelle" in nm else ("aussenstelle" if "Außenstelle" in nm else "stelle")
+                plz = str(r.get("plz") or "") or None
+                ort = None
+                if r.get("adresse") and plz and plz in r["adresse"]:
+                    ort = r["adresse"].split(plz, 1)[1].strip(" ,") or None
+                con.execute("INSERT OR IGNORE INTO traeger_stellen VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+                    f"{t['id']}:{sid}", t["id"], rolle, bl, nm, (r.get("adresse") or "").split(",")[0] or None, plz, ort,
+                    r.get("telefon"), r.get("email"), r.get("url"), r.get("quelle_url"), r.get("stand") or r.get("fetched_at"),
+                    None, f"stellen:{a['source_id']}", sid))
+                n_ls += 1
+    return {"total": len(data["traeger"]), "stellen": n_ls,
+            "mit_reimedy_concept": sum(1 for t in data["traeger"] if t.get("reimedy"))}
 
 
 # --------------------------------------------------------------------------- Codes
@@ -540,6 +598,8 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
             ",".join(r["_sources"]), lv.get("geprueft_am") or r.get("stand") or r.get("fetched_at"), jdump(r["_variants"]),
             r.get("art"), r.get("sha256"), r.get("version"), jdump(r.get("gefunden_auf") or []), int(bool(lv)),
             int(lv.get("zeigen", True)) if lv else 1, lv.get("url_status")))
+
+    report["traeger"] = load_traeger(con, st)
 
     # Codes (Schema E): nur administrativ. Hint-Policy als Sicherheitsnetz.
     report["codes"] = load_codes(con, all_codes, tax, merged)

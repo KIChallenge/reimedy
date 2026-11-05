@@ -1,0 +1,612 @@
+{
+ "_hinweis": "Träger-Register (ARCHITEKTUR §8.1.4) → knowledge/build/traeger.json",
+ "stand": "2026-11-05",
+ "traeger": [
+  {
+   "id": "oegk",
+   "name": "Österreichische Gesundheitskasse (ÖGK)",
+   "typ": "sv",
+   "sparten": [
+    "KV"
+   ],
+   "personenkreis": "Unselbständig Erwerbstätige (ASVG), ASVG-Pensionist:innen, Arbeitslose, Mitversicherte",
+   "aufloesung": "landesstelle_nach_bundesland",
+   "zentrale": {
+    "adresse": "Wienerbergstraße 15-19",
+    "plz": "1100",
+    "ort": "Wien",
+    "telefon": "+43 5 0766-0",
+    "email": "office@oegk.at",
+    "url": "https://www.oegk.at"
+   },
+   "online": {
+    "portal": "https://www.meineoegk.at",
+    "app": "Meine ÖGK"
+   },
+   "quelle_url": "https://www.oegk.at/kontakt",
+   "reimedy": {
+    "vocabulary_id": "Austrian_Payer",
+    "concept_code": "2000000001",
+    "concept_id": 2000000001
+   },
+   "landesstellen": [
+    {
+     "id": "oegk_b",
+     "traeger_id": "oegk",
+     "bundesland": "B",
+     "name": "ÖGK Burgenland",
+     "adresse": "Siegfried Marcus-Straße 5",
+     "plz": "7000",
+     "ort": "Eisenstadt",
+     "telefon": "+43 5 0766-13",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_k",
+     "traeger_id": "oegk",
+     "bundesland": "K",
+     "name": "ÖGK Kärnten",
+     "adresse": "Kempfstraße 8",
+     "plz": "9021",
+     "ort": "Klagenfurt am Wörthersee",
+     "telefon": "+43 5 0766-16",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_n",
+     "traeger_id": "oegk",
+     "bundesland": "N",
+     "name": "ÖGK Niederösterreich",
+     "adresse": "Kremser Landstraße 3",
+     "plz": "3100",
+     "ort": "St. Pölten",
+     "telefon": "+43 5 0766-12",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_o",
+     "traeger_id": "oegk",
+     "bundesland": "O",
+     "name": "ÖGK Oberösterreich",
+     "adresse": "Gruberstraße 77, Postfach 61",
+     "plz": "4021",
+     "ort": "Linz",
+     "telefon": "+43 5 0766-14",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_s",
+     "traeger_id": "oegk",
+     "bundesland": "S",
+     "name": "ÖGK Salzburg",
+     "adresse": "Engelbert-Weiß-Weg 10",
+     "plz": "5020",
+     "ort": "Salzburg",
+     "telefon": "+43 5 0766-17",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_st",
+     "traeger_id": "oegk",
+     "bundesland": "St",
+     "name": "ÖGK Steiermark",
+     "adresse": "Josef-Pongratz-Platz 1",
+     "plz": "8010",
+     "ort": "Graz",
+     "telefon": "+43 5 0766-15",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_t",
+     "traeger_id": "oegk",
+     "bundesland": "T",
+     "name": "ÖGK Tirol",
+     "adresse": "Klara-Pölt-Weg 2",
+     "plz": "6020",
+     "ort": "Innsbruck",
+     "telefon": "+43 5 0766-18",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_v",
+     "traeger_id": "oegk",
+     "bundesland": "V",
+     "name": "ÖGK Vorarlberg",
+     "adresse": "Jahngasse 4",
+     "plz": "6850",
+     "ort": "Dornbirn",
+     "telefon": "+43 5 0766-19",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "oegk_w",
+     "traeger_id": "oegk",
+     "bundesland": "W",
+     "name": "ÖGK Wien",
+     "adresse": "Wienerbergstraße 15-19",
+     "plz": "1100",
+     "ort": "Wien",
+     "telefon": "+43 5 0766-11",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.oegk.at/kontakt",
+     "stand": "2026-11-05",
+     "hinweis": "Kundenservicestellen je Bezirk: stellen mit typ=traeger, source oegk"
+    }
+   ],
+   "aus_stellen": {
+    "source_id": "oegk",
+    "typ": "traeger"
+   },
+   "kontakt_hinweis": "Landesstellen haben keine eigene E-Mail-Adresse; Anfragen über das Online-Formular der jeweiligen Landesstelle."
+  },
+  {
+   "id": "pva",
+   "name": "Pensionsversicherungsanstalt (PVA)",
+   "typ": "sv",
+   "sparten": [
+    "PV"
+   ],
+   "personenkreis": "Pensionsversicherung unselbständig Erwerbstätiger (ASVG); entscheidet über Pflegegeld ihrer Pensionist:innen; Reha",
+   "aufloesung": "landesstelle_nach_bundesland",
+   "zentrale": {
+    "adresse": "Friedrich-Hillegeist-Straße 1",
+    "plz": "1020",
+    "ort": "Wien",
+    "telefon": "+43 (0)5 03 03",
+    "email": "pva@pv.at",
+    "url": "https://www.pv.at"
+   },
+   "quelle_url": "https://www.pv.at/kontakt",
+   "reimedy": null,
+   "landesstellen": [
+    {
+     "id": "pva_b",
+     "traeger_id": "pva",
+     "bundesland": "B",
+     "name": "PVA Landesstelle Burgenland",
+     "adresse": "Ödenburger Straße 8",
+     "plz": "7000",
+     "ort": "Eisenstadt",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lsb@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_k",
+     "traeger_id": "pva",
+     "bundesland": "K",
+     "name": "PVA Landesstelle Kärnten",
+     "adresse": "Südbahngürtel 10",
+     "plz": "9020",
+     "ort": "Klagenfurt am Wörthersee",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lsk@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_n",
+     "traeger_id": "pva",
+     "bundesland": "N",
+     "name": "PVA Landesstelle Niederösterreich",
+     "adresse": "Kremser Landstraße 5",
+     "plz": "3100",
+     "ort": "St. Pölten",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lsn@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_o",
+     "traeger_id": "pva",
+     "bundesland": "O",
+     "name": "PVA Landesstelle Oberösterreich",
+     "adresse": "Terminal Tower, Bahnhofplatz 8",
+     "plz": "4020",
+     "ort": "Linz",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lso@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_s",
+     "traeger_id": "pva",
+     "bundesland": "S",
+     "name": "PVA Landesstelle Salzburg",
+     "adresse": "Schallmooser Hauptstraße 11",
+     "plz": "5020",
+     "ort": "Salzburg",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lss@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_st",
+     "traeger_id": "pva",
+     "bundesland": "St",
+     "name": "PVA Landesstelle Steiermark",
+     "adresse": "Eggenberger Straße 3",
+     "plz": "8020",
+     "ort": "Graz",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lsg@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_t",
+     "traeger_id": "pva",
+     "bundesland": "T",
+     "name": "PVA Landesstelle Tirol",
+     "adresse": "Ing.-Etzel-Straße 13",
+     "plz": "6020",
+     "ort": "Innsbruck",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lst@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_v",
+     "traeger_id": "pva",
+     "bundesland": "V",
+     "name": "PVA Landesstelle Vorarlberg",
+     "adresse": "Zollgasse 6",
+     "plz": "6850",
+     "ort": "Dornbirn",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lsv@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "pva_w",
+     "traeger_id": "pva",
+     "bundesland": "W",
+     "name": "PVA Landesstelle Wien",
+     "adresse": "Friedrich-Hillegeist-Straße 1",
+     "plz": "1020",
+     "ort": "Wien",
+     "telefon": "+43 (0)5 03 03",
+     "email": "pva-lsw@pv.at",
+     "url": null,
+     "quelle_url": "https://www.pv.at/kontakt",
+     "stand": "2026-11-05",
+     "hinweis": "Während der Generalsanierung: Kund*innenzentrum Ghegastraße 1, 1030 Wien (Beratung und Begutachtung)"
+    }
+   ]
+  },
+  {
+   "id": "svs",
+   "name": "Sozialversicherungsanstalt der Selbständigen (SVS)",
+   "typ": "sv",
+   "sparten": [
+    "KV",
+    "PV",
+    "UV"
+   ],
+   "personenkreis": "Gewerbetreibende, Neue Selbständige, Freiberufler:innen, Bäuerinnen und Bauern",
+   "aufloesung": "landesstelle_nach_bundesland",
+   "zentrale": {
+    "telefon": "050 808 808",
+    "url": "https://www.svs.at"
+   },
+   "online": {
+    "portal": "https://www.svs.at",
+    "app": "svsGO"
+   },
+   "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+   "reimedy": {
+    "vocabulary_id": "Austrian_Payer",
+    "concept_code": "2000000002",
+    "concept_id": 2000000002
+   },
+   "kontakt_hinweis": "Vorsprache in allen Kundencentern nur mit Terminvereinbarung.",
+   "landesstellen": [
+    {
+     "id": "svs_w",
+     "traeger_id": "svs",
+     "bundesland": "W",
+     "name": "SVS-Kundencenter Wien",
+     "adresse": "Wiedner Hauptstraße 84-86",
+     "plz": "1051",
+     "ort": "Wien",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_n",
+     "traeger_id": "svs",
+     "bundesland": "N",
+     "name": "SVS-Kundencenter Niederösterreich",
+     "adresse": "Neugebäudeplatz 1",
+     "plz": "3100",
+     "ort": "St. Pölten",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_b",
+     "traeger_id": "svs",
+     "bundesland": "B",
+     "name": "SVS-Kundencenter Burgenland",
+     "adresse": "Siegfried Marcus-Straße 5",
+     "plz": "7000",
+     "ort": "Eisenstadt",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_o",
+     "traeger_id": "svs",
+     "bundesland": "O",
+     "name": "SVS-Kundencenter Oberösterreich",
+     "adresse": "Hanuschstraße 34",
+     "plz": "4020",
+     "ort": "Linz",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_st",
+     "traeger_id": "svs",
+     "bundesland": "St",
+     "name": "SVS-Kundencenter Steiermark",
+     "adresse": "Körblergasse 115",
+     "plz": "8010",
+     "ort": "Graz",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_k",
+     "traeger_id": "svs",
+     "bundesland": "K",
+     "name": "SVS-Kundencenter Kärnten",
+     "adresse": "Feldkirchner Straße 52",
+     "plz": "9020",
+     "ort": "Klagenfurt am Wörthersee",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_s",
+     "traeger_id": "svs",
+     "bundesland": "S",
+     "name": "SVS-Kundencenter Salzburg",
+     "adresse": "Auerspergstraße 24",
+     "plz": "5020",
+     "ort": "Salzburg",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_t",
+     "traeger_id": "svs",
+     "bundesland": "T",
+     "name": "SVS-Kundencenter Tirol",
+     "adresse": "Klara-Pölt-Weg 1",
+     "plz": "6020",
+     "ort": "Innsbruck",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    },
+    {
+     "id": "svs_v",
+     "traeger_id": "svs",
+     "bundesland": "V",
+     "name": "SVS-Kundencenter Vorarlberg",
+     "adresse": "Schloßgraben 14",
+     "plz": "6800",
+     "ort": "Feldkirch",
+     "telefon": "050 808 808",
+     "email": null,
+     "url": null,
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+     "stand": "2026-11-05"
+    }
+   ]
+  },
+  {
+   "id": "bvaeb",
+   "name": "Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau (BVAEB)",
+   "typ": "sv",
+   "sparten": [
+    "KV",
+    "UV",
+    "PV (Eisenbahn/Bergbau)"
+   ],
+   "personenkreis": "Beamt:innen und Vertragsbedienstete des Bundes (KV), Eisenbahn- und Bergbaubedienstete",
+   "aufloesung": "landesstelle_nach_bundesland",
+   "zentrale": {
+    "adresse": "Josefstädter Straße 80",
+    "plz": "1080",
+    "ort": "Wien",
+    "telefon": "050405-23700",
+    "email": "postoffice@bvaeb.at",
+    "url": "https://www.bvaeb.at"
+   },
+   "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.854342&portal=bvaebbportal",
+   "reimedy": {
+    "vocabulary_id": "Austrian_Payer",
+    "concept_code": "2000000003",
+    "concept_id": 2000000003
+   },
+   "aus_stellen": {
+    "source_id": "bvaeb",
+    "typ": "traeger"
+   },
+   "kontakt_hinweis": "Landesstelle Wien ist auch für Niederösterreich und Burgenland zuständig (Außenstellen St. Pölten, Eisenstadt)."
+  },
+  {
+   "id": "auva",
+   "name": "Allgemeine Unfallversicherungsanstalt (AUVA)",
+   "typ": "sv",
+   "sparten": [
+    "UV"
+   ],
+   "personenkreis": "Unfallversicherung unselbständig Erwerbstätiger, Schüler:innen, Studierender",
+   "aufloesung": "fix",
+   "zentrale": {
+    "url": "https://www.auva.at"
+   },
+   "quelle_url": "https://www.auva.at",
+   "reimedy": null,
+   "landesstellen": [],
+   "kontakt_hinweis": "Adressen nach dem Standortumzug in Wien nicht verlässlich belegt – Kontakt über https://formular.auva.at/allgemeine-anfrage. Im Register bewusst ohne Adresse.",
+   "confidence": "niedrig"
+  },
+  {
+   "id": "kfa",
+   "name": "Krankenfürsorgeanstalten (KFA)",
+   "typ": "kfa",
+   "sparten": [
+    "KV"
+   ],
+   "personenkreis": "Bestimmte Landes- und Gemeindebedienstete (statt BVAEB/ÖGK); ca. 15 regionale Anstalten",
+   "aufloesung": "regional_unbekannt",
+   "zentrale": null,
+   "quelle_url": "https://rechnungshof.gv.at/rh/home/home/004.746_KFA_Salzburg_Steyr.pdf",
+   "reimedy": {
+    "vocabulary_id": "Austrian_Payer",
+    "concept_code": "2000000004",
+    "concept_id": 2000000004
+   },
+   "landesstellen": [],
+   "kontakt_hinweis": "KFAs sind keine SV-Träger und gehören nicht zum Dachverband. Der Lotse fragt nach der konkreten Anstalt (steht auf der e-card bzw. im Dienstvertrag).",
+   "confidence": "mittel"
+  },
+  {
+   "id": "dachverband",
+   "name": "Dachverband der österreichischen Sozialversicherungsträger",
+   "typ": "sv_dach",
+   "sparten": [],
+   "personenkreis": "Keine Leistungen an Versicherte; koordiniert die Träger, betreibt u. a. sozialversicherung.at und MeineSV",
+   "aufloesung": "fix",
+   "zentrale": {
+    "adresse": "Kundmanngasse 21",
+    "plz": "1030",
+    "ort": "Wien",
+    "url": "https://www.sozialversicherung.at"
+   },
+   "online": {
+    "portal": "https://www.meinesv.at"
+   },
+   "quelle_url": "https://www.sozialversicherung.at/cdscontent/?contentid=10007.844507",
+   "reimedy": null,
+   "landesstellen": []
+  },
+  {
+   "id": "fsw",
+   "name": "Fonds Soziales Wien (FSW)",
+   "typ": "land",
+   "sparten": [
+    "Pflege und Betreuung",
+    "Behindertenhilfe",
+    "Wohnungslosenhilfe"
+   ],
+   "personenkreis": "Menschen mit Hauptwohnsitz in Wien",
+   "aufloesung": "fix",
+   "nur_bundesland": "W",
+   "zentrale": {
+    "adresse": "Guglgasse 7–9",
+    "plz": "1030",
+    "ort": "Wien",
+    "telefon": "01 24 5 24",
+    "email": "kundinnenservice@fsw.at",
+    "url": "https://www.fsw.at"
+   },
+   "quelle_url": "https://www.fsw.at/p/hilfe-kontakt",
+   "reimedy": null,
+   "aus_stellen": {
+    "source_id": "fsw"
+   },
+   "landesstellen": []
+  },
+  {
+   "id": "sozialministeriumservice",
+   "name": "Sozialministeriumservice (SMS)",
+   "typ": "bund",
+   "sparten": [
+    "Behindertenpass",
+    "Förderung 24-Stunden-Betreuung",
+    "Pflegekarenzgeld",
+    "Unterstützungsfonds"
+   ],
+   "personenkreis": "bundesweit; Landesstellen je Bundesland",
+   "aufloesung": "landesstelle_nach_bundesland",
+   "zentrale": {
+    "url": "https://www.sozialministeriumservice.gv.at"
+   },
+   "quelle_url": "https://www.sozialministeriumservice.gv.at",
+   "reimedy": null,
+   "aus_stellen": {
+    "source_id": "sozialministeriumservice",
+    "typ": "traeger"
+   },
+   "landesstellen": [],
+   "kontakt_hinweis": "Im Ingest bisher nur die Landesstelle Wien; andere Bundesländer → zentrale Website."
+  }
+ ]
+}

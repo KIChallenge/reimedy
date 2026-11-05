@@ -103,6 +103,22 @@ def run(db: Path = DB_PATH, golden=True) -> list[dict]:
         quote = ok / tot if tot else 0
         gate("links_formulare_95", quote >= 0.95, f"{ok}/{tot} = {quote:.0%}")
 
+    # 3b Träger-Register (§8.1.4): ÖGK, PVA, SVS je 9 Landesstellen mit Adresse; BVAEB je Bundesland erreichbar
+    if con.execute("SELECT name FROM sqlite_master WHERE name='traeger'").fetchone():
+        fehl = {}
+        for tid in ("oegk", "pva", "svs"):
+            bl = {r[0] for r in con.execute("SELECT bundesland FROM traeger_stellen WHERE traeger_id=? AND rolle='landesstelle' "
+                                             "AND adresse IS NOT NULL AND plz IS NOT NULL", (tid,))}
+            if len(bl) < 9:
+                fehl[tid] = sorted({"W", "N", "B", "O", "S", "St", "K", "T", "V"} - bl)
+        bv = {r[0] for r in con.execute("SELECT bundesland FROM traeger_stellen WHERE traeger_id='bvaeb' AND adresse IS NOT NULL")}
+        if not {"W", "N", "B", "O", "S", "St", "K", "T", "V"} <= bv:
+            fehl["bvaeb"] = sorted({"W", "N", "B", "O", "S", "St", "K", "T", "V"} - bv)
+        n = con.execute("SELECT count(*) FROM traeger").fetchone()[0]
+        gate("traeger_register", not fehl and n >= 9, fehl or f"{n} Träger, Landesstellen vollständig")
+    else:
+        gate("traeger_register", False, "Tabelle traeger fehlt")
+
     # 4 Leistung ohne Quelle, ICD-Hint-Policy
     ohne = [r[0] for r in con.execute("SELECT leistung_id, data_json FROM leistungen")
             if not json.loads(r[1]).get("quellen")]
