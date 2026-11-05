@@ -1,4 +1,4 @@
-# Live-Links – Bericht (Stand 2026-11-05 20:52 UTC)
+# Live-Links – Bericht (Stand 2026-11-05 22:05 UTC)
 
 Erzeugt von `report.py`. Code: `linkcheck.py` → `formulare_live.py` → `report.py` (alle in `knowledge/build/links/`).
 
@@ -26,11 +26,11 @@ Erzeugt von `report.py`. Code: `linkcheck.py` → `formulare_live.py` → `repor
 
 ### 2.1 Alle URLs (die die API ausliefern kann)
 
-URLs gesamt 26287, davon Web 15065 (Rest: `sozdok:`/`file:`-Kennungen ohne Web-Link). Geprüft: 6295 (davon 800 über frisches `manifest.json` der Quelle, ohne eigenen Request).
+URLs gesamt 26288, davon Web 15066 (Rest: `sozdok:`/`file:`-Kennungen ohne Web-Link). Geprüft: 6296 (davon 800 über frisches `manifest.json` der Quelle, ohne eigenen Request).
 
 | kind | URLs | geprüft | ok | Quote ok/geprüft |
 |---|---|---|---|---|
-| formular_pdf | 873 | 873 | 872 | 99.9 % |
+| formular_pdf | 874 | 874 | 873 | 99.9 % |
 | online_antrag | 124 | 124 | 117 | 94.4 % |
 | stelle | 9497 | 3477 | 3300 | 94.9 % |
 | quelle | 743 | 743 | 741 | 99.7 % |
@@ -51,22 +51,23 @@ Noch nicht geprüft sind vor allem die ~7.600 Arzt-Websites aus `wien_ogd` (Host
 | seed_kandidat | 11 | 0 | 0 | 100.0 % |
 | sozialministeriumservice | 24 | 0 | 0 | 100.0 % |
 | svs | 235 | 0 | 0 | 100.0 % |
+| zusatz | 1 | 0 | 0 | 100.0 % |
 
 ## 3. Kanonische Formular-Registry (`formulare_live.jsonl`)
 
-953 kanonische Formulare (dedupliziert über sha256 und `final_url`). Mehrfach gefunden: 40.
+954 kanonische Formulare (dedupliziert über sha256 und `final_url`). Mehrfach gefunden: 40.
 
 | art | n | davon live | lotse_zeigen |
 |---|---|---|---|
-| antrag | 311 | 216 | 311 |
+| antrag | 310 | 215 | 310 |
 | tarif_vertrag | 303 | 303 | 0 |
 | sonstiges | 283 | 261 | 0 |
-| beilage | 33 | 32 | 33 |
+| beilage | 32 | 31 | 32 |
 | info_seite | 16 | 16 | 0 |
-| merkblatt | 5 | 5 | 5 |
+| merkblatt | 8 | 8 | 8 |
 | video | 2 | 2 | 0 |
 
-`url_status`: live 835, online 102, ersetzt_b 15, ersetzt_a 1
+`url_status`: live 836, online 102, ersetzt_b 15, ersetzt_a 1
 
 Regel: Die Lotse-API zeigt nur `lotse_zeigen=true` (art ∈ antrag|beilage|merkblatt **und** Link live oder ersetzt). `tarif_vertrag` (ÄK-Wien-Verträge/Tarife für Ärzt:innen), `info_seite` (HTML statt Datei), `video`, `sonstiges` (Broschüren) erscheinen nicht als Formular.
 

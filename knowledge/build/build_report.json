@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-05T21:59:05+00:00",
+  "built_at": "2026-11-05T22:05:07+00:00",
   "quellen": {
     "aek_wien": {
       "status": "ok",
@@ -243,18 +243,18 @@
     "hints_ohne_leistung_im_graph": []
   },
   "links": {
-    "links": 26287,
-    "frisch_ok": 6103,
+    "links": 26288,
+    "frisch_ok": 6104,
     "quelle": "knowledge/build/links/links.jsonl",
-    "formulare_live": 953
+    "formulare_live": 954
   },
   "embeddings": {
     "aktiv": true,
     "modell": "minishlab/potion-multilingual-128M",
-    "neu_berechnet": 4,
-    "aus_cache": 30474,
+    "neu_berechnet": 0,
+    "aus_cache": 30478,
     "dim": 256,
-    "sekunden": 2.6,
+    "sekunden": 0.5,
     "cache_datei": "knowledge/build/emb_cache/minishlab__potion-multilingual-128M.npz"
   },
   "leistungen": {
@@ -346,8 +346,8 @@
     "mit_geo": 9141
   },
   "formulare": {
-    "total": 953,
-    "live_kanonisch": 953
+    "total": 954,
+    "live_kanonisch": 954
   },
   "seed_fehler": [],
   "linkcheck": {
@@ -975,7 +975,7 @@
       "gate": "links_formulare_95",
       "ok": true,
       "hart": true,
-      "detail": "492/492 = 100%"
+      "detail": "493/493 = 100%"
     },
     {
       "gate": "traeger_register",

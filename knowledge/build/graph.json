@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-05T21:59:05+00:00",
+ "built_at": "2026-11-05T22:05:07+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -26203,6 +26203,13 @@
    "nach": "svs_73b8e92b48",
    "typ": "antrag_formular",
    "source_id": "linkcheck,svs",
+   "dangling": 0
+  },
+  {
+   "von": "rezeptgebuehrenbefreiung",
+   "nach": "oegk_rezeptgebuehrenbefreiung",
+   "typ": "antrag_formular",
+   "source_id": "linkcheck",
    "dangling": 0
   },
   {
@@ -162014,6 +162021,16 @@
    "leistung_ids": "[\"psychotherapie\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oegk"
+  },
+  {
+   "formular_id": "oegk_rezeptgebuehrenbefreiung",
+   "name": "Antrag auf Rezeptgebührenbefreiung (ÖGK)",
+   "traeger": "ÖGK",
+   "local_pdf": null,
+   "url_pdf": "https://www.oegk.at/cdscontent/load?contentid=10008.785277&version=1779440677",
+   "leistung_ids": "[\"rezeptgebuehrenbefreiung\"]",
+   "wer_fuellt_aus": "versicherte",
+   "source_id": "linkcheck"
   },
   {
    "formular_id": "oegk_tarife_der_oegk_zahngesundheitszentren",

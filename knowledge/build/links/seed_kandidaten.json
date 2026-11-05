@@ -32,5 +32,20 @@
   },
   "_online_antrag": {
     "pva_pal080": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.892452&portal=pvportal&LO=1&layout=withNav&svtcode=02"
-  }
+  },
+  "_zusatz_formulare": [
+    {
+      "formular_id": "oegk_rezeptgebuehrenbefreiung",
+      "name": "Antrag auf Rezeptgebührenbefreiung (ÖGK)",
+      "traeger": "ÖGK",
+      "art": "antrag",
+      "leistung_ids": [
+        "rezeptgebuehrenbefreiung"
+      ],
+      "wer_fuellt_aus": "versicherte",
+      "url_pdf": "https://www.oegk.at/cdscontent/load?contentid=10008.785277&version=1779440677",
+      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.870471&portal=oegkportal",
+      "_hinweis": "Fehlt im oegk-Ingest (Link-Text 'Leeres Formular herunterladen'); manuell recherchiert 2026-11-05 auf der Seite 'Rezeptgebühr und Rezeptgebührenbefreiung'."
+    }
+  ]
 }

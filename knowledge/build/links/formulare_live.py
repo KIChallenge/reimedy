@@ -75,6 +75,7 @@ RE_ANTRAG = re.compile(r"antrag|ansuchen|anmeldung|abmeldung|erklaerung|bedarfsm
                        r"formular|einverstaendnis|zustimmung|einwilligung|verzicht|anzeige|bekanntgabe|aenderung|ersuchen|"
                        r"rueckerstattung|kostenerstattung|bescheinigung|verordnungsschein|befreiung", re.I)
 RE_MERKBLATT = re.compile(r"merkblatt|ausfuellhilfe|ausfuellanleitung|hinweise zum|information zum antrag|erlaeuterung", re.I)
+RE_INFO_START = re.compile(r"^(information|informationen|info|infoblatt|informationsblatt|merkblatt|hinweis|hinweise)\b", re.I)
 RE_BROSCHUERE = re.compile(r"broschuere|folder|ratgeber|leitfaden|ueberblick|flyer|magazin|jahresbericht|"
                            r"information|infoblatt|praesentation|programm|tipps|handbuch|leporello|plakat|english|englisch", re.I)
 
@@ -96,8 +97,12 @@ def klassifiziere(e: dict, link: dict | None, meta: dict | None) -> tuple[str, s
     if src == "aek_wien" or e.get("wer_fuellt_aus") == "arzt" and RE_TARIF.search(txt):
         if RE_TARIF.search(txt) or src == "aek_wien":
             return "tarif_vertrag", "ÄK-Wien-Vertrags-/Tarifdokument (für Ärzt:innen)"
+    if e.get("art"):  # kuratiert (z. B. _zusatz_formulare)
+        return e["art"], "kuratiert"
     if RE_MERKBLATT.search(txt):
         return "merkblatt", "Name: Merkblatt/Ausfüllhilfe"
+    if RE_INFO_START.search(name) and (RE_ANTRAG.search(txt) or RE_BEILAGE.search(txt)):  # Infoblatt zu einem Antrag
+        return "merkblatt", "Name beginnt mit Information/Infoblatt (Infoblatt, kein Antrag)"
     if RE_BEILAGE.search(txt) and not re.search(r"^antrag", name):
         return "beilage", "Name: Beilage/Beiblatt/Nachweis"
     if RE_ANTRAG.search(txt):
@@ -123,6 +128,11 @@ RE_JUNK_TITLE = re.compile(r"^(dokument\d*|untitled|docHdl|ohne titel|microsoft 
 def clean_title(t: str | None) -> str | None:
     if not t:
         return None
+    if "Ã" in t:
+        try:
+            t = t.encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
     t = re.sub(r"^microsoft (word|excel) - ", "", t.strip(), flags=re.I)
     t = re.sub(r"\.(dotx?|docx?|xlsx?|pdf)$", "", t, flags=re.I).strip(" _-")
     if len(t) < 6 or RE_JUNK_TITLE.search(t) or re.match(r"^DocHdl", t):
@@ -213,6 +223,11 @@ def main():
         for i, d in enumerate(load_jsonl(f), 1):
             d["_source"], d["_line"] = src, i
             entries.append(d)
+    # Kuratierte Zusatz-Formulare, die in keiner Quelle stehen (links/seed_kandidaten.json → _zusatz_formulare)
+    for i, d in enumerate(kand.get("_zusatz_formulare") or [], 1):
+        d = {k: v for k, v in d.items() if not k.startswith("_")}
+        d["_source"], d["_line"] = "zusatz", i
+        entries.append(d)
     seeds = load_jsonl(SEED)
     for i, d in enumerate(seeds, 1):
         d["_source"], d["_line"] = "seed", i

@@ -141,6 +141,9 @@ def collect() -> dict[str, dict]:
             add(u, "online_antrag", "seed_kandidat", kand.name, 0, "online_antrag", fid)
         for fid, u in (kd.get("_elternseiten") or {}).items():
             add(u, "quelle", "seed_kandidat", kand.name, 0, "elternseite", fid)
+        for i, z in enumerate(kd.get("_zusatz_formulare") or [], 1):
+            add(z.get("url_pdf"), "formular_pdf", "zusatz", kand.name, i, "url_pdf", z.get("formular_id"))
+            add(z.get("quelle_url"), "quelle", "zusatz", kand.name, i, "quelle_url", z.get("formular_id"))
     return out
 
 
