@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="VO-EKO=PARA=54=40=2020-03-23=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="VO-EKO=PARA=54=47=2004-06-17=2004-07-01" dokidSource="VO-EKO=PARA=54=47=2004-06-17=2004-07-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkrvo="VO-EKO" dokart="VO" titaen="6. Änderung der Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkaen="6. Änd VO-EKO" urheber="DVSV" beschdat="2020-01-22" pubdat="2020-03-23" ikra="2020-01-01" sichtbarkeit="p" gldnr="54">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2005-10-04"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" begseite="1" jahrgang="2020"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="0" level="3" halign="c" typ="para">Regeln über die Abrechnung des Finanzierungs-Sicherungs-Beitrages
+<br/>(gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="609" abs="19" ursprung="p">§ 609 Abs. 19</rvolink> ASVG)</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 54.</gldsym> (1) Der Dachverband stellt pro vertriebsberechtigtem Unternehmen den Arzneimittelumsatz des jeweiligen Kalenderjahres auf Basis der Meldungen der Krankenversicherungsträger im Rahmen der maschinellen Heilmittelabrechnung und der Fabriks-/Depotabgabepreise fest. Dieser ist bei der Schlussrechnung des Dachverbandes für das jeweilige Kalenderjahr heranzuziehen. Für die in 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="55" ursprung="u">§ 55</rvolink> vorgesehenen Akontierungen ist der Arzneimittelumsatz des zweitvorangegangenen Kalenderjahres heranzuziehen.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Von diesem Arzneimittelumsatz pro vertriebsberechtigtem Unternehmen wird der Sockelbetrag nach <rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="53" abs="2" ursprung="u">§ 53 Abs. 2</rvolink> abgezogen.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(3) Der Dachverband stellt in der Folge den betroffenen vertriebsberechtigten Unternehmen Rechnungen zuzüglich 20 % Umsatzsteuer (einschließlich Akontierungen) entsprechend der folgenden Bestimmungen.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(4) Für das Jahr 2004 ist abweichend von den Bestimmungen der Abs. 1 bis 3 wie folgt vorzugehen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Der Arzneimittelumsatz pro vertriebsberechtigtem Unternehmen ist wie in Abs. 1 und 2 beschrieben festzustellen.</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Der pauschale Beitrag in Höhe von 23 Millionen Euro zuzüglich 20 % Umsatzsteuer ist anteilig auf die vertriebsberechtigten Unternehmen zu verteilen, deren Arzneimittelumsatz gemäß Z 1 den Sockelbetrag übersteigt.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

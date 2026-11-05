@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=80=2022-0.866.211=2022-12-13=2023-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=80=2022-0.866.211=2022-12-13=2023-01-01" dokidSource="RechnVorschr_SV=PARA=80=BMG-96181/0005-I/B/11=2009-12-14=2009-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMSGPK" sichtbarkeit="p" titaen="54. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="54. Änd RechnVorschr SV" pubdat="2022-12-13" ikra="2023-01-01" gldnr="80" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2022-0.866.211" jahrgang="2022"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">AUFBAU DER KOSTENRECHNUNG</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 80.</gldsym> Die Kostenrechnung hat zu bestehen aus:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Kostenartenrechnung (<rvolink ursprung="p" gldnr="81" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§§ 81</rvolink>, 
+<rvolink ursprung="u" gldnr="85" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">85</rvolink>, 
+<rvolink ursprung="u" gldnr="93" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">93</rvolink>),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Kostenstellenrechnung (<rvolink ursprung="p" gldnr="82" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§§ 82</rvolink>, 
+<rvolink ursprung="u" gldnr="87" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">87</rvolink>, 
+<rvolink ursprung="u" gldnr="95" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">95</rvolink>),</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Darstellung der Kostenstruktur - Betriebsabrechnungsbogen (<rvolink ursprung="u" gldnr="82" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§§ 82</rvolink>, 
+<rvolink ursprung="u" gldnr="90" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">90</rvolink>, 
+<rvolink ursprung="u" gldnr="97" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">97</rvolink>),</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Berichterstattung über die Kostenstruktur (<rvolink ursprung="u" abs="6" gldnr="90" gldsort="50" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§§ 90 Abs. 6</rvolink>, 
+<rvolink ursprung="u" gldnr="97" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">97</rvolink>).</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AMS_AnweisV_2004=PARA=3=120=2004-03-10=2004-02-09"><rvo>
+<metadaten gldnr="3" ikra="2004-02-09" pubdat="2004-03-10" urheber="BMWA" dokart="V" abkaen="AMS AnweisV 2004 StF" titaen="AMS-Anweisungsverordnung 2004 StF" abkrvo="AMS AnweisV 2004" sichtbarkeit="p" titrvo="AMS-Anweisungsverordnung 2004" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2004-03-15" perskz="mayerhof"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-11-18"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="II" nrpuborg="120" begseite="1" jahrgang="2004"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Gebarungssicherheit</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 3.</gldsym> (1) Vor der Weitergabe ist technisch und organisatorisch sicherzustellen, dass ein elektronischer Zahlungs- und Verrechnungsauftrag nur mit technischer Freigabe durch eine zur Approbation berechtigte Person (Anordnungsbefugte/r) freigegeben werden kann, wobei diese Person eine andere Person als der Ersteller des Zahlungs- und Verrechnungsauftrages sein muss (Vieraugenprinzip).</absatz>
+<absatz typ="abs" halign="j">(2) Weiters ist sicherzustellen, dass stichprobenartig (zB nach Zufallsalgorithmus) Zahlungs- und Verrechnungsaufträge vor der Anweisung und Weitergabe von einer dritten Person (Supervisor) geprüft werden.</absatz>
+<absatz typ="abs" halign="j">(3) Der Vorstand des Arbeitsmarktservice hat Betragsgrenzen bzw. Gebarungsvorgänge festzusetzen, ab bzw. bei denen vor der Genehmigung und Freigabe zwingend die Zustimmung der Landesgeschäftsstelle einzuholen ist (Sechsaugenprinzip).</absatz>
+<absatz typ="abs" halign="j">(4) Bei jeder Geschäftsstelle ist durch das AMS sicherzustellen, dass stichprobenartig systematische Kontrollen (zB nach Zufallsalgorithmus usw.) im Nachhinein durchgeführt werden. Diese Kontrolle ist durch geeignete organisatorische und personelle Vorkehrungen zu gewährleisten.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

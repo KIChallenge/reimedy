@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=8=2024-0.844.908=2024-12-20=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=8=2022-0.866.211=2022-12-13=2023-01-01" dokidSource="RechnVorschr_SV=PARA=8=2022-0.866.211=2022-12-13=2023-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" titaen="56. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="56. Änd RechnVorschr SV" urheber="BMSGPK" pubdat="2024-12-20" ikra="2026-01-01" sichtbarkeit="p" berkz="KVL; UVL; PVL; " gldnr="8" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2024-0.844.908" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">GLIEDERUNG DER ERFOLGSRECHNUNG FÜR DIE TRÄGER DER UNFALL- UND PENSIONSVERSICHERUNG SOWIE FÜR DIE VERSORGUNGSANSTALT DES ÖSTERREICHISCHEN NOTARIATES</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 8.</gldsym> In der Erfolgsrechnung gemäß 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="2" lit="b" ursprung="p">§ 1 Abs. 2 lit. b</rvolink> sind folgende Posten gesondert auszuweisen:</absatz>
+<absatz typ="abs" halign="j">(1) Gliederung der Erfolgsrechnung für die <b>Träger der Unfallversicherung:</b>
+</absatz>
+<absatz typ="abs" halign="j">E R T R Ä G E:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Beiträge für</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Pflichtversicherte,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>freiwillig Versicherte,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Höherversicherte,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Zusatzversicherte;</listelem>
+</literaliste>
+<schluss typ="Lit">Summe der Beiträge;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Entschädigung für Kriegsgefangene;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Verzugszinsen und Beitragszuschläge;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Ersätze für Leistungsaufwendungen;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Kostenbeteiligungen;</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>sonstige betriebliche Erträge;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Erträge;</schluss>
+</liste>
+<absatz typ="abs" halign="j">A U F W E N D U N G E N:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Renten:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Versehrtenrenten,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Betriebsrenten,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Versehrtengeld,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Witwenrenten,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Witwerrenten,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Waisenrenten,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Eltern- und Geschwisterrenten,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Übergangsrenten und Übergangsbetrag,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>Rentenabfertigungen und –abfindungen; <i>(Anm.: 54. Erg. ÜB: gilt ab der Erstellung des Rechnungsabschlusses 2022)</i></listelem>
+<listelem>
+<symbol stellen="2">j)</symbol><i>(aufgehoben durch die 54. Erg.)</i></listelem>
+</literaliste>
+<schluss typ="Lit">Rentenaufwand;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Beihilfen:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Witwenbeihilfen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Witwerbeihilfen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Entschädigung für Kriegsgefangene;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Bestattungskostenbeitrag;</listelem>
+<listelem>
+<symbol>5.</symbol> Zuschüsse für Entgeltfortzahlung;</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Unfallheilbehandlung;</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Körperersatzstücke und andere Hilfsmittel;</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Rehabilitation;</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Unfallverhütung, Präventionsberatung und Erste-Hilfe-Leistung:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Unfallverhütung,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Präventionsberatung,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Erste-Hilfe-Leistung;</listelem>
+</literaliste>
+<schluss typ="Ziff">Summe Prävention;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">10.</symbol>Beiträge zur Krankenversicherung der Rentner;</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Fahrtspesen und Transportkosten für Leistungsempfänger:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Fahrtspesen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Transportkosten;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">12.</symbol>Sozialgerichtskosten;</listelem>
+</ziffernliste><ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">13.</symbol>vertrauensärztlicher Dienst und sonstige Betreuung;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Versicherungsleistungen;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">14.</symbol>Verwaltungs- und Verrechnungsaufwand:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>eigener,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Vergütungen an Sozialversicherungsträger,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>sonstige Vergütungen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">15.</symbol>Abschreibungen</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>vom Anlagevermögen (exklusive Verwaltungsbereich),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>vom Umlaufvermögen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">16.</symbol>sonstige betriebliche Aufwendungen;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Aufwendungen;</schluss>
+</liste>
+<absatz typ="abs" halign="j">
+<b>Betriebsergebnis;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vermögenserträgnisse von</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Wertpapieren,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Darlehen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Geldeinlagen,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Verkauf von Finanzvermögen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Finanzaufwendungen</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Zinsaufwendungen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>aus Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>aus dem An- und Verkauf von Wertpapieren;</listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" halign="j">
+<b>Finanzergebnis;</b>
+</absatz>
+<absatz typ="abs" halign="j">
+<b>Finanz- und Betriebsergebnis;</b>
+</absatz>
+<absatz typ="abs" halign="j">Beiträge des Bundes;</absatz>
+<absatz typ="abs" halign="j">
+<b>Ergebnis der gewöhnlichen Geschäftstätigkeit;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>außerordentliche Erträge;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>außerordentliche Aufwendungen;</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">
+<b>außerordentliches Ergebnis;</b>
+</absatz>
+<absatz typ="abs" halign="j">
+<b>Jahresüberschuss/Jahresfehlbetrag;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Auflösung von Rücklagen;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Zuweisung an Rücklagen;</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">
+<b>Bilanzgewinn/Bilanzverlust.</b>
+</absatz>
+<absatz typ="abs" halign="j">(2) Gliederung der Erfolgsrechnung für die <b>Träger der Pensionsversicherung mit Ausnahme des Pensionsinstitutes der Linz AG:</b>
+</absatz>
+<absatz typ="abs" halign="j">E R T R Ä G E:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Beiträge für</listelem>
+</ziffernliste>
+<literaliste ebene="3">
+<listelem>
+<symbol stellen="2">a)</symbol>Erwerbstätige,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Teilversicherte gem. <rvolink abkrvo="ApG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3" abs="1" ziff="2" ursprung="u">§ 3 Abs.1 Z.2</rvolink><nolink> APG</nolink>,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>freiwillig Versicherte,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Überweisungsbeträge;</listelem>
+</literaliste>
+<schluss typ="Lit">Zwischensumme;</schluss>
+<literaliste ebene="3">
+<listelem>
+<symbol stellen="2">e)</symbol>Höherversicherte,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Einkauf von Schul- und Studienzeiten,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Abgeltungsbeträge für vor dem 1.1. 1955 Geborene,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>sonstige Beiträge;</listelem>
+</literaliste>
+<schluss typ="Lit">Summe der Beiträge;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>2.</symbol>Ausfallhaftung des Bundes;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Ausgleichszulagen;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Entschädigung für Kriegsgefangene und Rentenleistungen für Heimopfer;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Verzugszinsen und Beitragszuschläge;</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Ersätze für Leistungsaufwendungen;</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Kostenbeteiligungen;</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>sonstige betriebliche Erträge;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Erträge;</schluss>
+</liste>
+<absatz typ="abs" halign="j">A U F W E N D U N G E N:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Pensionen:</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Alterspensionen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Pensionen der geminderten Arbeitsfähigkeit,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Hinterbliebenen Pensionen,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Einmalzahlungen;</listelem>
+</literaliste>
+<schluss typ="Lit">Pensionsaufwand;</schluss>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Ausgleichszulagen;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Entschädigung für Kriegsgefangene und Rentenleistungen für Heimopfer;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Überweisungsbeträge und Beitragserstattungen;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Gesundheitsvorsorge und Rehabilitation;</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Beiträge zur Krankenversicherung der Pensionisten;</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Fahrtspesen und Transportkosten für Leistungsempfänger;</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Sozialgerichtskosten;</listelem></ziffernliste>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">9.</symbol>vertrauensärztlicher Dienst und sonstige Betreuung;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Versicherungsleistungen;</schluss>
+</liste>
+<liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="3">10.</symbol>Ersätze für Rehabilitationsgeld inkl. KV-Beiträge;</listelem>
+            </ziffernliste>
+          </liste><liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">11.</symbol>Verwaltungs- und Verrechnungsaufwand:</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>eigener,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Vergütungen an Sozialversicherungsträger;</listelem>
+</literaliste>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">12.</symbol>Abschreibungen</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>vom Anlagevermögen (exklusive Verwaltungsbereich),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>vom Umlaufvermögen;</listelem>
+</literaliste>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">13.</symbol>sonstige betriebliche Aufwendungen;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Aufwendungen;</schluss>
+</liste>
+<absatz typ="abs" halign="j">
+<b>Betriebsergebnis;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vermögenserträgnisse von</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Wertpapieren,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Darlehen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Geldeinlagen,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Verkauf von Finanzvermögen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Finanzaufwendungen</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Zinsaufwendungen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>aus Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>aus dem An- und Verkauf von Finanzvermögen;</listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" halign="j">
+<b>Finanzergebnis;</b>
+</absatz>
+<absatz typ="abs" halign="j">
+<b>Ergebnis der gewöhnlichen Geschäftstätigkeit;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>außerordentliche Erträge;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>außerordentliche Aufwendungen;</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">
+<b>außerordentliches Ergebnis;</b>
+</absatz>
+<absatz typ="abs" halign="j">
+<b>Jahresüberschuss/Jahresfehlbetrag;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Auflösung von Rücklagen;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Zuweisung an Rücklagen;</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">
+<b>Bilanzgewinn/Bilanzverlust.</b>
+</absatz>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">(3) Gliederung der Erfolgsrechnung der <b>Versorgungsanstalt des österreichischen Notariates:</b>
+</absatz>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">E R T R Ä G E :</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Beiträge:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Pflichtversicherte,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Nachversicherungen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Überweisungsbeträge,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Solidaritätsbeiträge;</listelem>
+</literaliste>
+<schluss typ="Lit">Summe der Beiträge;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Entschädigung für Kriegsgefangene;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Verzugszinsen;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Kostenbeteiligungen;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>sonstige betriebliche Erträge;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Erträge;</schluss>
+</liste>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">A U F W E N D U N G E N :</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Pensionen:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Alterspensionen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Berufsunfähigkeitspensionen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Berufsunfähigkeitsgeld,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Hinterbliebenen Pensionen,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Einmalzahlungen;</listelem>
+</literaliste>
+<schluss typ="Lit">Pensionsaufwand;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Entschädigung für Kriegsgefangene;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Bestattungskostenbeiträge;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Überweisungsbeträge;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Fahrtspesen und Transportkosten für Leistungsempfänger;</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Sozialgerichtskosten;</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>vertrauensärztlicher Dienst und sonstige Betreuung;</listelem></ziffernliste>
+<schluss typ="Ziff">Summe der Versicherungsleistungen;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">8.</symbol>Verwaltungs- und Verrechnungsaufwand;</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Abschreibungen:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>vom Anlagevermögen (exklusive Verwaltungsbereich),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>vom Umlaufvermögen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">10.</symbol>sonstige betriebliche Aufwendungen;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Aufwendungen;</schluss>
+</liste>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">
+<b>Betriebsergebnis;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vermögenserträgnisse:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Wertpapieren,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Darlehen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Geldeinlagen,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Verkauf von Finanzvermögen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Finanzaufwendungen:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Zinsaufwendungen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>aus Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>aus dem An- und Verkauf von Finanzvermögen;</listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">
+<b>Finanzergebnis;</b>
+</absatz>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">
+<b>Ergebnis der gewöhnlichen Geschäftstätigkeit;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>außerordentliche Erträge;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>außerordentliche Aufwendungen;</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">
+<b>außerordentliches Ergebnis;</b>
+</absatz>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">
+<b>Jahresüberschuss/Jahresfehlbetrag;</b>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Auflösung von Rücklagen;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Zuweisung an Rücklagen;</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j" keepwithnext="0" widowctrl="1">
+<b>Bilanzgewinn/Bilanzverlust.</b>
+</absatz>
+<absatz typ="abs" halign="j">(4) Gliederung der Erfolgsrechnung für das <b>Pensionsinstitut der Linz AG</b>:</absatz>
+<liste>
+<schluss typ="Abs">E R T R Ä G E :</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Beiträge für</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>pflichtversicherte Erwerbstätige,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>freiwillig Versicherte,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>sonstige Beiträge;</listelem>
+</literaliste>
+<schluss typ="Lit">Summe der Beiträge;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Verzugszinsen und Beitragszuschläge;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Ersätze für Leistungsaufwendungen;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>sonstige betriebliche Erträge;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Erträge;</schluss>
+</liste>
+<absatz typ="satz" halign="j">A U F W E N D U N G E N :</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Pensionen:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Alterspensionen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Pensionen der geminderten Arbeitsfähigkeit,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Hinterbliebenen Pensionen,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Einmalzahlungen,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>sonstige Pensionsaufwendungen;</listelem>
+</literaliste>
+<schluss typ="Lit">Pensionsaufwand;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Überweisungsbeträge und Beitragserstattungen;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Beiträge zur Krankenversicherung der Pensionisten;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Sozialgerichtskosten;</listelem></ziffernliste>
+<schluss typ="Ziff">Summe der Versicherungsleistungen;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">5.</symbol>Verwaltungs- und Verrechnungsaufwand;</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Abschreibungen</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>vom Anlagevermögen (exklusive Verwaltungsbereich),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>vom Umlaufvermögen;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">7.</symbol>sonstige betriebliche Aufwendungen;</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Summe der Aufwendungen;</schluss>
+<schluss typ="Ziff">
+<b>Betriebsergebnis;</b>
+</schluss>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Vermögenserträgnisse von</listelem>
+</ziffernliste>
+<literaliste ebene="3">
+<listelem>
+<symbol stellen="2">a)</symbol>Wertpapieren,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Darlehen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Geldeinlagen,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Verkauf von Finanzvermögen;</listelem>
+</literaliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">2.</symbol>Finanzaufwendungen</listelem>
+</ziffernliste>
+<literaliste ebene="3">
+<listelem>
+<symbol stellen="2">a)</symbol>Zinsaufwendungen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>aus Haus- und Grundbesitz,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>aus dem An- und Verkauf von Finanzvermögen;</listelem>
+</literaliste>
+<schluss typ="Ziff">
+<b>Finanzergebnis;</b>
+</schluss>
+<schluss typ="Ziff">
+<b>Ergebnis der gewöhnlichen Geschäftstätigkeit;</b>
+</schluss>
+<schluss typ="Ziff">1. außerordentliche Erträge;</schluss>
+<schluss typ="Ziff">2. außerordentliche Aufwendungen;</schluss>
+<schluss typ="Ziff">
+<b>außerordentliches Ergebnis;</b>
+</schluss>
+<schluss typ="Ziff">
+<b>Jahresüberschuss/Jahresfehlbetrag;</b>
+</schluss>
+<schluss typ="Ziff">1. Auflösung von Rücklagen;</schluss>
+<schluss typ="Ziff">2. Zuweisung von Rücklagen;</schluss>
+<schluss typ="Ziff">
+<b>Bilanzgewinn/Bilanzverlust.</b>
+</schluss>
+</liste>
+
+<absatz typ="abs" halign="j">(5) Gliederung der Erfolgsrechnung nach dem Nachtschwerarbeitsgesetz für die Träger der Pensionsversicherung nach dem ASVG:</absatz>
+          <absatz typ="satz" halign="j">ERTRÄGE</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Ersatzleistung des Bundes;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Ersätze für Leistungsaufwendungen;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Kostenbeteiligungen;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Deckung des Fehlbetrages aus der Pensionsversicherung.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="satz" halign="j">AUFWENDUNGEN</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Sonderruhegeld;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Beiträge (Aufwand) für die Krankenversicherung der Empfänger von Sonderruhegeld;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Gesundheitsvorsorge:</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Heilverfahren in eigenen Anstalten,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Heilverfahren in fremden Anstalten,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Beiträge zu Kuraufenthalten und sonstigen Leistungen;</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Barleistungen während des Heilverfahrens;</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">4.</symbol>Fahrtspesen und Transportkosten.</listelem>
+            </ziffernliste>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

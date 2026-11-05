@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=24=156=2005-11-30=2005-12-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-12-01" sichtbarkeit="p" gldnr="24" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">4. Abschnitt 
+<br/>Krankengeld 
+<br/>(
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="138" bereich="F" ursprung="p">§§ 138 ff.</rvolink> ASVG)</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Arbeitsunfähigkeitsmeldung</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 24. </gldsym>(1) Beginn und Ende der Arbeitsunfähigkeit werden für Anspruchsberechtigte, die Anspruch
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>auf Krankengeld oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>auf Fortzahlung des Entgelts</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">haben, durch den Vertragsarzt, die Vertrags-Gruppenpraxis bzw. durch eine eigene Einrichtung der Kasse gemeldet. Mit dem Einlangen dieser Meldung wird der Anspruchsberechtigte von der ansonsten ihm obliegenden Meldeverpflichtung befreit.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die Kasse kann die Richtigkeit von Krankmeldungen und Gesundmeldungen überprüfen und aus medizinischen Gründen einen davon abweichenden Zeitpunkt des Beginnes und des Endes der Arbeitsunfähigkeit bestimmen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Wird der Anspruchsberechtigte von einem Wahlarzt oder einer Wahl-Gruppenpraxis behandelt und bescheinigt dieser bzw. diese die Arbeitsunfähigkeit, hat dies der Anspruchsberechtigte unverzüglich der Kasse unter Vorlage der ärztlichen Bescheinigung zu melden. Die Feststellung der Arbeitsunfähigkeit (Beginn und Ende) obliegt dem von der Kasse hiezu beauftragten Arzt. Ist dieser Arzt ein Vertragsarzt der Kasse, bleibt der Anspruch des Anspruchsberechtigten auf Rückersatz für die Inanspruchnahme des Wahlarztes unberührt.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

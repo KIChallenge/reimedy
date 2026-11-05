@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=92=96181=2005-02-03=2005-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=92=96181=2005-02-03=2005-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMGF" berkz="OV; " sichtbarkeit="p" titaen="37. Änderung der Rechtsvorschriften für die Sozialversicherungsträger und den Hauptverband" abkaen="37. Änd RechnVorschr SV" pubdat="2005-02-03" ikra="2005-01-01" gldnr="92" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="schaff" zeitpunkt="2003-04-07"/>
+<dfeintrag zeitpunkt="2004-02-13" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-02-09"/>
+<dfeintrag zeitpunkt="2005-02-09" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-06-06"/>
+</aendprot>
+<puborgane><puborgan puborg="Erlass" nrpuborg="96181" jahrgang="2005"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">GLIEDERUNG DER EIGENEN EINRICHTUNGEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 92.</gldsym> Für die Zwecke der Kostenrechnung sind die eigenen Einrichtungen der Sozialversicherungsträger wie folgt zu gliedern:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Allgemeine Krankenanstalten</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Unfallkrankenhäuser</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Rehabilitationszentren (mit Ausnahme der AUVA)</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Zu dieser Gruppe zählen Einrichtungen, die der Rehabilitation dienen, Sonderkrankenanstalten, Lungenheilstätten, Kuranstalten und Kurheime.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>Rehabilitationszentren der AUVA</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Großambulatorien</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Zu dieser Gruppe zählen alle organisatorisch selbständigen Einrichtungen, die der Untersuchung oder Behandlung von Personen dienen, die einer Anstaltspflege nicht bedürfen, sofern diese Einrichtungen über mehr als eine medizinische Fachrichtung verfügen.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">6.</symbol>Sonstige eigene Einrichtungen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen:</schluss>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Genesungsheime, Erholungsheime,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Kleinambulatorien (d.s. Ambulatorien mit einer medizinischen Fachrichtung wie z.B. Zahnambulatorien, Röntgenambulatorien u.ä.),</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Gesundenuntersuchungsstellen, Tbc-Untersuchungsstellen, Frauenberatungsstellen, Krebsuntersuchungsstellen, Jugendlichenuntersuchungsstellen u.ä.</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>das Forschungs- und Musterzentrum für Arbeitsmedizin und Sicherheitstechnik der AUVA.</listelem>
+</literaliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

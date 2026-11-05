@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="SVS-KrankenO_2024=PARA=2=66=2025-12-19=2026-01-01"><rvo dokidCms="SVS-KrankenO_2024=PARA=2=82=2023-12-18=2024-01-01" dokidSource="SVS-KrankenO_2024=PARA=2=82=2023-12-18=2024-01-01">
+      <metadaten nichtanzeigen="n" titrvo="SVS-Krankenordnung 2024" abkrvo="SVS-KrankenO 2024" dokart="KrankenO" titaen="2. Änderung der SVS-Krankenordnung 2024" abkaen="2. Änd SVS-KrankenO 2024" urheber="SVS" beschdat="2025-12-16" pubdat="2025-12-19" ikra="2026-01-01" sichtbarkeit="p" gldart="PARA" gldnr="2" gldsort="50">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="66" jahrgang="2025"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="g1min" halign="c" level="2">2. Abschnitt <br/>Gemeinsame Bestimmungen für Versicherte und Angehörige nach dem <nolink>GSVG</nolink> und <nolink>BSVG</nolink></ueberschrift>
+          <ueberschrift typ="g2" halign="c" level="3">1. Unterabschnitt <br/>Nachweis der Anspruchsberechtigung</ueberschrift>
+          <ueberschrift typ="para" halign="c" level="4">Nachweis der Anspruchsberechtigung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 2.</gldsym> (1) Die Anspruchsberechtigung ist gegenüber dem Vertragsarzt und den übrigen Vertragspartnern grundsätzlich vor Inanspruchnahme der Leistung nachzuweisen. Erst durch den erfolgten Nachweis ist eine vertragliche Inanspruchnahme der Leistungen gesichert.</absatz>
+          <absatz typ="abs" halign="j">(2) Der Nachweis der Anspruchsberechtigung erfolgt</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>bei Vertragspartnern, die am e-card System teilnehmen, durch Verwendung der im Rahmen des ELSY zu verwendenden Chipkarte, insbesondere der e-card (der Besitz der e-card allein ist weder ein Nachweis für ein bestehendes Versicherungsverhältnis noch für eine etwaige Anspruchsberechtigung) oder einer Bürgerkarte nach <nolink>§ 4</nolink> E-Government-Gesetz (BGBl. I Nr. 10/2004 idF BGBl. I Nr. 7/2008) bzw. bei Sperre der e-card durch Vorlage des Ersatzbeleges (<rvolink abkrvo="SVS-KrankenO 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="3" abs="7" ursprung="u">§ 3 Abs. 7</rvolink>);</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>bei Inanspruchnahme anderer Vertragspartner durch Vorweisen einer ärztlichen Verordnung (Zuweisung) bzw. eines Rezeptes.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2a) Versicherte sind verpflichtet, auch bei der Inanspruchnahme von ärztlicher Hilfe durch Wahlärzte und Wahl-Gruppenpraxen die innerhalb des ELSY zu verwendende e-card vorzulegen.</absatz><absatz typ="abs" halign="j">(3) Versicherte (Angehörige) sind verpflichtet, auf Verlangen der SVS oder auf Verlangen einer behandelnden Stelle (z. B. Vertragsarzt, Wahlarzt, Krankenanstalt) Auskünfte über ihre Identität zu geben und die Richtigkeit dieser Auskünfte durch Urkunden (z. B. amtliche Lichtbildausweise) oder Zeugen zu bescheinigen. Für den Fall, dass nach Namensänderungen noch keine neue e-card vorgelegt werden kann, ist die Namensänderung durch eine amtliche Urkunde zu beweisen.</absatz>
+          <absatz typ="abs" halign="j">(4) Kann bei der Inanspruchnahme eines Vertragsarztes die e-card nicht vorgelegt werden, ist diese längstens innerhalb von 14 Tagen nachzubringen. Soweit vertraglich vorgesehen, ist auf Verlangen des Vertragsarztes ein Erlag für die erbrachte Behandlung zu leisten.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

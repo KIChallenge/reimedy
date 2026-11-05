@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="veraendW=ZAHL=50==1111-11-11=1111-11-11" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="veraendW=ZAHL=50==1111-11-11=1111-11-11">
+<metadaten gldnr="50" sichtbarkeit="p" berkz="KVL; UVL; PVL; KGALV; VMB; PFLEGE; EU; SVABK; ALLE; OV; DR; REGR; VPAR; KA; RSP; AN; AG; SELB; BEA; NOT; SONST; INTERN; HIST; KOMPL;" ikra="1111-11-11" pubdat="1111-11-11" urheber="Bund" abkaen="veraendW StF" titaen="veränderliche Werte Übersichtstabellen StF" dokart="K" abkrvo="veraendW" titrvo="veränderliche Werte Übersichtstabellen" gldsort="130" gldart="ZAHL">
+<schlagw>
+<textelem>volle freie Station im Ausgleichszulagenrecht - Zollausschlussgebiete</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag zeitpunkt="2002-02-12" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2002-02-13"/>
+<dfeintrag zeitpunkt="2002-02-20" perskz="polzer"/>
+<dfeintrag perskz="schaff" zeitpunkt="2003-04-08"/>
+<dfeintrag zeitpunkt="2004-01-14" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-05-10"/>
+<dfeintrag perskz="glueck" zeitpunkt="2006-02-16"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>50.</gldsym>
+</absatz>
+<ueberschrift level="1" halign="c" typ="para"> volle freie Station im Ausgleichszulagenrecht - Zollausschlussgebiete</ueberschrift>
+<absatz typ="satz" halign="j">
+<rvolink abkrvo="ASVG" gldart="PARA" gldnr="292" gldsort="70" abs="3">§ 292 Abs. 3</rvolink> - Art. VII Abs. 5 der 41. 
+<nolink>ASVGNov,</nolink>
+<nolink>Art. III Abs. 5</nolink> der 10. GSVGNov, Art. III Abs. 8 der 9. 
+<nolink>BSVG</nolink> Novelle, vgl. 
+<rvolink ursprung="u" abs="4" gldnr="594" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 594 Abs. 4</rvolink> ASVG, 
+<rvolink ursprung="u" abs="4" gldnr="290" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="GSVG">§ 290 Abs. 4</rvolink> GSVG und 
+<rvolink ursprung="u" abs="7" gldnr="279" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="BSVG">§ 279 Abs. 7</rvolink> BSVG, 
+<rvolink ursprung="u" abs="5B" gldnr="199" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="B-KUVG">§ 199 Abs. 5 B</rvolink>
+<gdash/>KUVG</absatz>
+<table style="border-color:black;border-collapse:collapse;margin-left:88,55pt" cellpadding="3" cellspacing="0" border="0">
+<tr h-start="0">
+<td class="right" valign="top" align="left" width="212.625" h-xval="3180">
+<absatz typ="tabtext">ab 2002</absatz>
+</td>
+<td class="left" valign="top" align="left" width="276.450004577637" h-xval="7320">
+<absatz typ="tabtext">entfällt wegen Währungsunion, siehe Ausgleichszulagen</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="right" valign="top" align="left" width="212.625" h-xval="3180">
+<absatz typ="tabtext">2001</absatz>
+</td>
+<td class="left" valign="top" align="left" width="276.450004577637" h-xval="7320">
+<absatz typ="tabtext">488,50 DM</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="right" valign="top" align="left" width="212.625" h-xval="3180">
+<absatz typ="tabtext">2000</absatz>
+</td>
+<td class="left" valign="top" align="left" width="276.450004577637" h-xval="7320">
+<absatz typ="tabtext">484,60 DM</absatz>
+</td>
+</tr>
+</table>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

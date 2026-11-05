@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_OEGK_2025=ANH=1=72=2025-12-19=2025-12-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KrankenO_OEGK_2025=ANH=1=72=2025-12-19=2025-12-20">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Österreichischen Gesundheitskasse 2025" abkrvo="KrankenO OEGK 2025" dokart="KrankenO" titaen="Krankenordnung der Österreichischen Gesundheitskasse 2025 Stammfassung" abkaen="KrankenO OEGK 2025 StF" urheber="ÖGK" beschdat="2025-12-09" pubdat="2025-12-19" ikra="2025-12-20" sichtbarkeit="p" gldart="ANH" gldnr="1" gldsort="150">
+        <puborgane><puborgan puborg="avsv" nrpuborg="72" jahrgang="2025">avsv   Nr. 72/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <absatz typ="satz"><gldsym> </gldsym></absatz><ueberschrift typ="anlage" halign="r" level="1">Anhänge</ueberschrift>
+          <ueberschrift typ="anlage" halign="r"><nolink>Anhang 1</nolink></ueberschrift>
+          <ueberschrift typ="g1" halign="c" level="2">Leistungen, für die eine <br/>ärztliche Bewilligung durch den medizinischen Dienst erforderlich ist</ueberschrift>
+          <absatz typ="abs" halign="j">Folgende Leistungen bedürfen vor ihrer Anwendung einer ärztlichen Bewilligung durch den Medizinischen Dienst:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Logopädische Behandlung (<rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="66" abs="5" ursprung="u">§ 66 Abs. 5</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Ergotherapeutische Behandlung (<rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="66" abs="6" ursprung="u">§ 66 Abs. 6</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Physiotherapeutische Behandlung (<rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="66" abs="4" ursprung="u">§§ 66 Abs. 4</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Psychotherapeutische Behandlung (<rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="66" abs="3" ursprung="u">§ 66 Abs. 3</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="3">4a.</symbol>Klinisch-psychologische Behandlung (<rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="66" abs="3a" ursprung="u">§ 66 Abs. 3a</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Medizinische Hauskrankenpflege ab der 5. Woche,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Geplante Behandlungen und Untersuchungen, sofern es sich um</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>eine geplante Behandlung und Untersuchung in einem EU-Staat, EWR-Staat oder der Schweiz nach den EU-Verordnungen zur Koordinierung der Systeme der sozialen Sicherheit oder</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>eine geplante Behandlung und Untersuchung in einem EU-Staat, EWR-Staat oder der Schweiz in den Fällen des <rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="67" abs="1" ursprung="u">§ 67 Abs. 1</rvolink> oder</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>eine geplante Behandlung und Untersuchung in Vertrags- bzw. Nichtvertrags-Staaten handelt,</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">7.</symbol>Computertomographie (CT), Kernspintomographie (MRT), nuklearmedizinische Untersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>Kosmetische Behandlung,</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>Sterilisation, Schwangerschaftsunterbrechung, Geschlechtsumwandlung,</listelem>
+              <listelem>
+                <symbol stellen="3">10.</symbol>HELP-Therapie (Lipidapherese),</listelem>
+              <listelem>
+                <symbol stellen="3">11.</symbol>Operative Maßnahmen zur Gewichtsreduktion,</listelem>
+              <listelem>
+                <symbol stellen="3">12.</symbol>Flugtransporte,</listelem>
+              <listelem>
+                <symbol stellen="3">13.</symbol>Krankentransporte mit Ausnahme von Transporten in Fällen der Ersten Hilfe, zur Dialyse sowie zur Chemo- oder Strahlentherapie,</listelem>
+              <listelem>
+                <symbol stellen="3">14.</symbol>Heimdialyse,</listelem>
+              <listelem>
+                <symbol stellen="3">15.</symbol>Ambulante Tumorbehandlungen durch eine punktförmige Bestrahlung des Tumors mit Protonen oder mit Kohlenstoffionen nach der Empfehlung durch das für die Krankenanstalt zuständige multidisziplinäre Tumorboard.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="satz" halign="j">
+            <wechsel typ="s"/>
+          </absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

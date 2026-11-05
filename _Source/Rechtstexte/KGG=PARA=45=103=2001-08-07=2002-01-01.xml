@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=45=103=2001-08-07=2002-01-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Karenzgeldgesetz" abkrvo="KGG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="Gesamtstand KGG idF 103/2001" abkaen="Gesamtstand KGG idF 103/2001" beschdat="2001-07-04" pubdat="2001-08-07" ikra="2002-01-01" gldnr="45">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2001-09-05"/>
+<dfeintrag zeitpunkt="2003-05-08" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-13" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="103" begseite="1593" jahrgang="2001"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Höhe des Krankenversicherungsbeitrages
+</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 45.</gldsym> Die Höhe des Krankenversicherungsbeitrages richtet sich nach
+
+<rvolink abkrvo="FLAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="39j" abs="3" ursprung="u">§ 39j Abs. 3</rvolink> bis 
+<rvolink abkrvo="FLAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="39j" abs="6" ursprung="u">6 </rvolink>des Familienlastenausgleichsgesetzes 1967, BGBl.
+Nr. 376.
+</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

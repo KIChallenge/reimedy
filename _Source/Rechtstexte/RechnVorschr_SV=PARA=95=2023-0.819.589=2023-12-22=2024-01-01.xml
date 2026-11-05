@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=95=2023-0.819.589=2023-12-22=2024-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=95=2022-0.866.211=2022-12-13=2023-01-01" dokidSource="RechnVorschr_SV=PARA=95=2022-0.866.211=2022-12-13=2023-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMSGPK" sichtbarkeit="p" titaen="55. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="55. Änd RechnVorschr SV" pubdat="2023-12-22" ikra="2024-01-01" gldnr="95" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2023-0.819.589" jahrgang="2023"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">KOSTENSTELLEN DER EIGENEN EINRICHTUNGEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 95.</gldsym> Für die Kostenstellen der eigenen Einrichtung gelten die Bestimmungen des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="87" ursprung="u">§ 87</rvolink> entsprechend.</absatz>
+<absatz typ="abs" halign="j">(1) Kostenstellen für die <b>allgemeinen Krankenanstalten</b> im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="92" ziff="1" ursprung="u">§ 92 Z 1</rvolink>:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">I.</symbol>Allgemeine Kostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Leitung,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Verwaltung,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Küche,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Wäscheversorgung,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Reinigungsdienst,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Materialverwaltung,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Energieversorgung,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Werkstätten,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>sonstige;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">II.</symbol>Hauptkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Augenheilkunde,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Chirurgie,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Frauenheilkunde und Geburtshilfe,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Hals-, Nasen- und Ohrenkrankheiten,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Haut- und Geschlechtskrankheiten,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Innere Medizin,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Kinderheilkunde,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Nerven- und Geisteskrankheiten,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Orthopädie,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Unfallchirurgie,</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Urologie,</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>Zahn-, Mund- und Kieferheilkunde,</listelem>
+<listelem>
+<symbol stellen="3">13.</symbol>Ambulanz (extern);</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="4">III.</symbol>Hilfskostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Heilmittellager (Apotheke),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Radiologie,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Labor,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Physiotherapie,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Hydrotherapie,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>EKG,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Isotopenlabor (Nuklearmedizin),</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Ambulanz (intern),</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Sterilisation,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Blutbank,</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Anästhesiedienst,</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>Operationsbereich,</listelem>
+<listelem>
+<symbol stellen="3">13.</symbol>Gipsbereich,</listelem>
+<listelem>
+<symbol stellen="3">14.</symbol>lntensivstation,</listelem>
+<listelem>
+<symbol stellen="3">15.</symbol>Beschäftigungstherapie,</listelem>
+<listelem>
+<symbol stellen="3">16.</symbol>sonstige;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">IV.</symbol>Nebenkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Personalwohnungen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>sonstige.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Kostenstellen für die <b>Unfallkrankenhäuser</b> im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="92" ziff="2" ursprung="u">§ 92 Z 2</rvolink>:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">I.</symbol>Allgemeine Kostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Leitung,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Verwaltung,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Küche,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Wäscheversorgung,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Reinigungsdienst,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Materialverwaltung,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Energieversorgung,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Werkstätten,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>sonstige,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Gebäude und Grundstücke;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">II.</symbol>Hauptkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Erstversorgungsbereich,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Stationsbereich (excl. IBST),</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Stationsbereich (IBST),</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Ambulanz,</listelem><listelem>
+<symbol stellen="2">5.</symbol>Nachbehandlungsbereich;<br/><i>(Anm. zu Z 4 und 5: 54. Erg. ÜB: gilt ab der Erstellung der Kostenrechnung 2023) </i></listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="4">III.</symbol>Hilfskostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Heilmittellager (Apotheke),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Radiologie,<br/><i>(Anm.: 54. Erg. ÜB: gilt ab der Erstellung der Kostenrechnung 2023) </i></listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Labor,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Operationsbereich,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Gipsbereich,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Physiotherapie,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Hydrotherapie,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Ergotherapie,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>sonstige;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">IV.</symbol>Nebenkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Personalwohnungen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>sonstige.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(3) Kostenstellen für <b>Rehabilitationszentren (mit Ausnahme der AUVA)</b> im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="92" ziff="3" ursprung="u">§ 92 Z 3</rvolink>:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">I.</symbol>Allgemeine Kostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Leitung,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Verwaltung,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Küche,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Wäscheversorgung,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Reinigungsdienst,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Materialverwaltung,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Energieversorgung,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Werkstätten,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>sonstige;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">II.</symbol>Hauptkostenstellen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Eigene Einrichtung;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="4">III.</symbol>Hilfskostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Diagnostik,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Therapie;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">IV.</symbol>Nebenkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Personalwohnungen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>sonstige.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(4) Kostenstellen für die <b>Rehabilitationszentren der AUVA</b> im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="92" ziff="4" ursprung="u">§ 92 Z 4</rvolink>:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">I.</symbol>Allgemeine Kostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Leitung,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Verwaltung,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Küche,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Wäscheversorgung,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Reinigungsdienst,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Materialverwaltung,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Energieversorgung,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Werkstätten,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>sonstige,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Gebäude und Grundstücke;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">II.</symbol>Hauptkostenstellen<br/><i>(Anm. zu Abschnitt II: 54. Erg. ÜB: gilt ab der Erstellung der Kostenrechnung 2023)</i></listelem>
+<listelem>
+<symbol stellen="2">1.</symbol>Stationsbereiche,</listelem><listelem>
+<symbol stellen="2">2.</symbol>Ambulanz;</listelem></ziffernliste>
+
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="4">III.</symbol>Hilfskostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Heilmittellager (Apotheke<gt/>,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Radiologie,<br/><i>(Anm.: 54. Erg. ÜB: gilt ab der Erstellung der Kostenrechnung 2023) </i></listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Labor,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Operations- und Untersuchungsbereich,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Orthopädietechnik,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Physiotherapie,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Hydrotherapie,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Ergotherapie,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Sprachtherapie (nur 
+<nolink>RZ</nolink> Meidling),</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Psychologie (nur 
+<nolink>RZ</nolink> Meidling),</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Freizeitbereich,</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>sonstige;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">IV.</symbol>Nebenkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Personalwohnungen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>sonstige.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(5) Kostenstellen <b>für Großambulatorien</b> im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="92" ziff="5" ursprung="u">§ 92 Z 5</rvolink>:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">I.</symbol>Allgemeine Kostenstellen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Leitung und Verwaltung;</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">II.</symbol>Hauptkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Augenheilkunde,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Chirurgie,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Frauenheilkunde,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Hals-, Nasen- und Ohrenkrankheiten (Logopädie),</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Haut- und Geschlechtskrankheiten,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Innere Medizin,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Nerven- und Geisteskrankheiten einschl. Psychotherapie,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Orthopädie,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Urologie,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Nierendialyse,</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Gesundenuntersuchung,</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>Laboratorien,</listelem>
+<listelem>
+<symbol stellen="3">13.</symbol>Radiologie,</listelem>
+<listelem>
+<symbol stellen="3">14.</symbol>Lungenkrankheiten,</listelem>
+<listelem>
+<symbol stellen="3">15.</symbol>Diabetikerambulanz,</listelem>
+<listelem>
+<symbol stellen="3">16.</symbol>physikalische und balneologische Behandlung,</listelem>
+<listelem>
+<symbol stellen="3">17.</symbol>Nuklearmedizin,</listelem>
+<listelem>
+<symbol stellen="3">18.</symbol>Jugendlichenuntersuchung,</listelem>
+<listelem>
+<symbol stellen="3">19.</symbol>Kinderheilkunde,</listelem>
+<listelem>
+<symbol stellen="3">20.</symbol>Zahn-, Mund- und Kieferheilkunde,</listelem>
+<listelem>
+<symbol stellen="3">21.</symbol>Rheumaambulanz;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="4">III.</symbol>Hilfskostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Heilmittellager (Apotheke),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Aufnahmeambulanz,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>OP-Einrichtungen,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>kleine physikalische Behandlungen,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>sonstige;</listelem>
+</ziffernliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">IV.</symbol>Nebenkostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Personalwohnungen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>sonstige.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(6) Kostenstellen für <b>sonstige eigene Einrichtungen</b> im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="92" ziff="6" ursprung="u">§ 92 Z 6</rvolink>:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">I.</symbol>Allgemeine Kostenstellen</listelem>
+<listelem>
+<symbol stellen="3">II.</symbol>Hauptkostenstelle (= eigene Einrichtung)</listelem>
+<listelem>
+<symbol stellen="4">III.</symbol>Hilfskostenstellen</listelem>
+<listelem>
+<symbol stellen="3">IV.</symbol>Nebenkostenstellen</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">Die Kostenstellen zu I, III und IV sind nur bei Bedarf (für innerbetriebliche Zwecke) zu bilden.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

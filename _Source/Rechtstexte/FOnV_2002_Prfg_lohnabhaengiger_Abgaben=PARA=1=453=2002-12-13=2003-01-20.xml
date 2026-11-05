@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="FOnV_2002_Prfg_lohnabhaengiger_Abgaben=PARA=1=453=2002-12-13=2003-01-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="FOnV_2002_Prfg_lohnabhaengiger_Abgaben=PARA=1=453=2002-12-13=2003-01-20">
+<metadaten gldnr="1" ikra="2003-01-20" pubdat="2002-12-13" urheber="BMF" dokart="V" abkaen="FOnV 2002 Prfg lohnabhängiger Abgaben StF" abkrvo="FOnV 2002 Prfg lohnabhängiger Abgaben" sichtbarkeit="p" titaen="Verordnung des Bundesministers für Finanzen betreffend die Datenübermittlung im Zusammenhang mit der gemeinsamen Prüfung lohnabhängiger Abgaben StF" titrvo="Verordnung des Bundesministers für Finanzen betreffend die Datenübermittlung im Zusammenhang mit der gemeinsamen Prüfung lohnabhängiger Abgaben" gldsort="70" gldart="PARA">
+<anm>Rechtsgrundlage: § 14 Abs. 2 Kommunalsteuergesetz 1993</anm><aendprot>
+<dfeintrag zeitpunkt="2003-01-20" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-01-20"/>
+<dfeintrag zeitpunkt="2003-01-20" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-01-20"/>
+</aendprot>
+<puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="453" begseite="3905" jahrgang="2002"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="para">(ohne Titel)</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 1.</gldsym> (1) Die Übermittlung jener Daten, die eine wesentliche Voraussetzung zur Wahrnehmung der Aufgaben im Zusammenhang mit der Kommunalsteuerprüfung darstellen, welche gemäß 
+<rvolink ursprung="u" abs="1" gldnr="14" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="KommStG 1993">§ 14 Abs. 1</rvolink> Kommunalsteuergesetz von den für die Lohnsteuerprüfung zuständigen Finanzämtern (
+<rvolink ursprung="u" gldnr="81" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="EStG">§ 81</rvolink>
+<nolink>EStG</nolink> 1988) und von den für die Sozialversicherungsprüfung zuständigen Krankenversicherungsträgern (
+<rvolink ursprung="u" abs="1" gldnr="41a" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 41a Abs. 1</rvolink> und 
+<rvolink ursprung="u" abs="2" gldnr="41a" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">2</rvolink>
+<nolink>ASVG</nolink>) durchzuführen ist, erfolgt im Weg des Verfahrens FinanzOnline (FinanzOnline-Verordnung - FOnV 2002).</absatz>
+<absatz typ="abs" halign="j">(2) Teilnehmer im Sinne des <rvolink ursprung="u" gldnr="3" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="FOnV 2002">§ 3</rvolink> FOnV 2002 sind alle im Bundesgebiet gelegenen Gemeinden.</absatz>
+<absatz typ="abs" halign="j">(3) Die Anmeldung zur automationsunterstützten Datenübermittlung hat nach <rvolink ursprung="u" gldnr="18" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="FOnV 2002">§ 18</rvolink> FOnV 2002, jedoch ausschließlich persönlich, zu erfolgen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

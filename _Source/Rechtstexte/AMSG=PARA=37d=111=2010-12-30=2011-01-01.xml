@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AMSG=PARA=37d=111=2010-12-30=2011-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AMSG=PARA=37d=111=2010-12-30=2011-01-01">
+<metadaten titrvo="Arbeitsmarktservicegesetz" abkrvo="AMSG" dokart="BG" titaen="BudgetbegleitG 2011" abkaen="BudgBeglG 2011" urheber="Bund" pubdat="2010-12-30" ikra="2011-01-01" sichtbarkeit="p" gldart="PARA" gldnr="37d" gldsort="70" nichtanzeigen="n" beschdat="2010-12-20">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2003-10-20"/>
+<dfeintrag zeitpunkt="2004-01-29" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2004-08-04"/>
+<dfeintrag zeitpunkt="2004-08-04" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2004-08-04"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="111" begseite="130" jahrgang="2010"/></puborgane></metadaten>
+<nutzdaten>
+
+<abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          
+          <ueberschrift typ="para" halign="c" level="4">Aktivierungsbeihilfe</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 37d.</gldsym> (1) Aktivierungsbeihilfe kann Arbeitgebern gewährt werden, die im Auftrag des AMS ArbeitnehmerInnen mit dem Zweck der Wiedereingliederung in den Arbeitsmarkt im Rahmen eines Sozialökonomischen Betriebes oder eines Gemeinnützigen Beschäftigungsprojektes gemäß <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" abs="7" ursprung="u">§ 9 Abs. 7</rvolink><nolink> AlVG</nolink> beschäftigen.</absatz>
+          <absatz typ="abs" halign="j">(2) Aktivierungsbeihilfe kann für jede gemäß Abs. 1 beschäftigte Person in der Höhe des durchschnittlichen Arbeitslosengeldes des letzten Kalenderjahres zuzüglich der bei Bezug eines derartigen Arbeitslosengeldes anfallenden Aufwendungen für Kranken-, Pensions- und Unfallversicherung jeweils für längstens ein Jahr gewährt werden.</absatz>
+        </abschnitt></nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

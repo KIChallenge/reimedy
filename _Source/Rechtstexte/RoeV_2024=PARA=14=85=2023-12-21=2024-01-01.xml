@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="RoeV_2024=PARA=14=85=2023-12-21=2024-01-01"><rvo dokidCms="RoeV_2024=PARA=14=85=2023-12-21=2024-01-01">
+      <metadaten titrvo="Richtlinien über die ökonomische Verschreibweise von Heilmitteln und Heilbehelfen 2024" abkrvo="RoeV 2024" dokart="RL DVSV" urheber="DVSV" beschdat="2023-12-20" pubdat="2023-12-21" ikra="2024-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Richtlinien über die ökonomische Verschreibweise von Heilmitteln und Heilbehelfen 2024 StF" abkaen="RoeV 2024 StF" gldart="PARA" gldnr="14" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="85" jahrgang="2023">avsv   Nr. 85/2023 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="false">
+          <ueberschrift typ="para" halign="c" level="1">Gültigkeit von Kassenrezepten</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 14.</gldsym>
+            <b/>(1) Ein Kassenrezept oder eine Suchtgiftverschreibung (inkl. jene zur Substitutionstherapie) ist gültig, wenn Folgendes vermerkt bzw. enthalten ist:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>im Rezeptkopf:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>der zuständige Krankenversicherungsträger;</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>eine e-Rezept ID, sofern ein e-Rezept ausgestellt wurde;</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Vorname, Familienname und die 10-stellige Versicherungsnummer (wenn keine Versicherungsnummer eruiert werden kann, jedenfalls das Geburtsdatum) des Patienten/der Patientin, für den das Heilmittel bestimmt ist;</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>bei Inanspruchnahme von Leistungen durch in anderen EU-Mitgliedsstaaten, EWR-Staaten und der Schweiz versicherte Personen mit der Europäischen Krankenversicherungskarte (EKVK) oder mit einer diese Karte ersetzende Anspruchsbescheinigung ist jedenfalls auch die bis zu 20-stellige persönliche Kennnummer anzuführen. Soweit vorhanden müssen diese Daten mit den Angaben am Kassenrezept übereinstimmen. Der Apotheker/die Apothekerin hat jedoch nicht für die Richtigkeit der Angaben einzustehen;</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>wenn das Kassenrezept eine Verschreibung für Angehörige enthält, auch Vorname, Familienname und Versicherungsnummer des/der Versicherten;</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>für nicht krankenversicherte Personen, die der Österreichischen Gesundheitskasse aufgrund gesetzlicher Vorschrift oder aufgrund eines zwischenstaatlichen Abkommens zur Betreuung zugeteilt sind, ein auf die rechtliche Grundlage der Betreuung durch die Österreichische Gesundheitskasse hindeutender Vermerk (z. B. „KOVG“);</listelem>
+              <listelem>
+                <symbol stellen="2">g)</symbol>bei einer Suchtgiftverordnung (inkl. jener Substitutionstherapie) hat die Suchtgiftvignette entsprechend den Bestimmungen der Suchtgiftverordnung auf dem Rezept angebracht zu sein. Bei einer Suchtgiftverordnung im Wege des „elektronischen Rezepts“ (e-Rezept) des elektronischen Verwaltungssystems gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="31a" ursprung="u">§ 31a</rvolink><nolink> ASVG</nolink> hat die Kennzeichnung als Suchtgiftverschreibung über ein in e-Rezept bereitgestelltes Kennzeichnungsfeld zu erfolgen.</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">2.</symbol>in der Rezeptur:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>das Ausstellungsdatum;</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>das verordnete Heilmittel;</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>die Darreichungsform und die zahlenmäßige Angabe der Menge und der Stärke des verordneten Heilmittels, soweit dies für die eindeutige Identifizierung erforderlich ist;</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>die Gebrauchsanweisung, wenn eine solche nach <nolink>§ 3 Abs. 1 lit. e</nolink> des Rezeptpflichtgesetzes erforderlich ist.</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">3.</symbol>als Signum:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>ein Abdruck des Vertragsarztstempels, des Stempels einer zur Verordnung berechtigten Person oder einer Vertragseinrichtung oder des Stempels einer eigenen Einrichtung der Krankenversicherungsträger; bei Fehlen eines Stempels der in Blockschrift oder Maschinschrift beigesetzte Name und Berufssitz sowie die Vertragspartnernummer des Arztes/der Ärztin; bei EDV bedruckten Papierrezepten ersetzt der Aufdruck des Namens, der Adresse und der Vertragspartnernummer die Stampiglie; bei e-Rezepten sind Name, Berufssitz und Vertragspartnernummer der verschreibenden Person im e-Rezept Datensatz gespeichert.</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>die eigenhändige Unterschrift des/der verschreibenden Vertragsarztes/Vertragsärztin, der zur Verordnung berechtigten Person, des Arztes/der Ärztin einer Vertragseinrichtung oder einer eigenen Einrichtung des Krankenversicherungsträgers; wird ein elektronisches Kassenrezept ausschließlich in einem dem Stand der Technik entsprechend abgesicherten Netzwerk nach <nolink>§ 6 Abs. 1 Z 1</nolink> GTelG verwendet, kann eine elektronische Signatur verwendet werden.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Ist eine allfällige Befreiung von der Rezeptgebühr von der zur Verordnung berechtigten Person ersichtlich zu machen, muss auf dem Rezept ein zweiter Abdruck der Stampiglie der zur Verordnung berechtigten Person bzw. ein zweites Mal der in Blockschrift (Maschinschrift) beigesetzte Name und Berufssitz sowie die Vertragspartnernummer der zur Verordnung berechtigten Person in dem dafür vorgesehenen Feld enthalten sein.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

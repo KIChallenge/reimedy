@@ -1,0 +1,130 @@
+{
+ "source_id": "svbox_local",
+ "fetched_at": "2026-11-05T19:05:56Z",
+ "n_docs": 935,
+ "n_leistungen": 39,
+ "n_formulare": 7,
+ "n_codes": 13596,
+ "n_stellen": 2,
+ "urls": [
+  {
+   "url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
+   "sha256": "25fb952ab5090a3323fc36dbce862508fba22e596bbfa3f372b1df596314d41b",
+   "etag": null,
+   "last_modified": "2026-10-27T13:36:20Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Leistungskataloge/Zahnärzte Honorarordnung_2026_aktuellste_Version_MAI_070526.pdf",
+   "sha256": "28beabb61ae094c556ab853dfd6e175526e0d46e8823ae7233c56c78746d9b9e",
+   "etag": null,
+   "last_modified": "2026-10-27T13:33:52Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Leistungskataloge/ÖGK Honorarordnung-fuer-Vertragsaerzte-und-Vertragsgruppenpraxen.pdf",
+   "sha256": "9fed66f704daf89866fe6b44be84e40c4fd1bd8eb3c005aee9dccbfcb3feb063",
+   "etag": null,
+   "last_modified": "2026-10-27T13:33:24Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Medikamenten Erstattungskodex/Zeichenerklärungen und Abkürzungen.pdf",
+   "sha256": "cd62a79bfada9d2b72e7b2f0c52c49605d0d18d51721822a710febd827b028dc",
+   "etag": null,
+   "last_modified": "2023-12-05T14:39:00Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Medikamenten Erstattungskodex/atccode.txt",
+   "sha256": "34c3dc66b47129ba454f279df2cbd0d85dba72a37a0d5397de470c0f9a320290",
+   "etag": null,
+   "last_modified": "2026-09-18T04:18:46Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Medikamenten Erstattungskodex/indtext.txt",
+   "sha256": "9c7e87e3c2997f7e598c8f679ef600dd49bd2ff04151c954996849eac4ba9718",
+   "etag": null,
+   "last_modified": "2026-09-17T12:17:40Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Medikamenten Erstattungskodex/indtext_v2.txt",
+   "sha256": "561a2830a34b553cb56a158632924bae279ab1884559bd290d5d918059946ace",
+   "etag": null,
+   "last_modified": "2026-09-17T12:17:40Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Medikamenten Erstattungskodex/medikament.txt",
+   "sha256": "bea691a69334cbb0b9c05eaeea392716f6f17e66d4c995f30585f376ae493428",
+   "etag": null,
+   "last_modified": "2026-09-23T05:28:46Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Medikamenten Erstattungskodex/regeltext.txt",
+   "sha256": "c4b41f7cb6e8788bb6e0d3dfef1a939079a368208a423b3664a1f25159771637",
+   "etag": null,
+   "last_modified": "2026-09-23T05:29:00Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Medikamenten Erstattungskodex/regeltext_v2.txt",
+   "sha256": "ee31db3b50e725f7e96ed82d38061ff40ad162eada6abb7b03b5f8db25a587b1",
+   "etag": null,
+   "last_modified": "2026-09-23T05:28:48Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Anträge und Formulare/Antrag Kur und Reha.pdf",
+   "sha256": "45c4d2ae292b2167163af22f9e5b6cb7762580f850b57c6801f360240344e155",
+   "etag": null,
+   "last_modified": "2026-10-28T05:56:20Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Anträge und Formulare/Antrag-auf-Zuschuss-zu-Fahrtkosten_Wien.pdf",
+   "sha256": "60b5a65fff292df62bb3f1f6d947ff97eafb226ac9886476f74f721a1e405830",
+   "etag": null,
+   "last_modified": "2026-10-28T05:55:48Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Anträge und Formulare/Bedarfsmeldung-Senior_innen-Wohngemeinschaft_Basispaket.1736522017.pdf",
+   "sha256": "b20c818f9d2e1bc96fc83df1bb87b5388964b0607bbdabe91633a545dcbb0eec",
+   "etag": null,
+   "last_modified": "2026-10-28T05:53:12Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Anträge und Formulare/FSW-Antrag-Beilage-Einrichtungswunsch.1779345450.pdf",
+   "sha256": "5bb8a3fa5e4730e96beb50ae4fee5fc3865164347df13794151737ddf4fc40fd",
+   "etag": null,
+   "last_modified": "2026-10-28T05:53:06Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Anträge und Formulare/PAL080_0125_Mpfl_052026.pdf",
+   "sha256": "c12f29f6bd732ded90a43d64a1579235fa86ef9689e45291966b822a7926b2ce",
+   "etag": null,
+   "last_modified": "2026-10-28T05:55:08Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Anträge und Formulare/Reha_n_Unfall_052026.pdf",
+   "sha256": "bcddb76fbd36b42af84816d9e346a40775862815e2d3af7e3cfc02c45ae662c2",
+   "etag": null,
+   "last_modified": "2026-10-28T05:54:36Z",
+   "status": "updated"
+  },
+  {
+   "url": "file:_Source/Anträge und Formulare/fsw-antrag-auf-foerderung-von-leistungen.1779095804.pdf",
+   "sha256": "ae20ab1c963a2e98c30e7b29bc8e5a974619180cc7b337b568bffee00876582b",
+   "etag": null,
+   "last_modified": "2026-10-28T05:53:02Z",
+   "status": "updated"
+  }
+ ]
+}

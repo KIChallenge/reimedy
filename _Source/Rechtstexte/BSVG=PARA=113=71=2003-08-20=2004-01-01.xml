@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="BSVG=PARA=113=71=2003-08-20=2004-01-01"><rvo dokidCms="BSVG=PARA=113=71=2003-08-20=2004-01-01">
+<metadaten pubdat="2003-08-20" abkaen="BudgBeglG 2003" dokart="BG" titaen="BudgBeglG 2003" abkrvo="BSVG" sichtbarkeit="p" ikra="2004-01-01" gldnr="113" titrvo="Bauern-Sozialversicherungsgesetz" urheber="Bund" berkz="KVL; UVL; PVL; VMB; SELB; " gldart="PARA" indbr="66.02.04" gldsort="70" beschdat="2003-06-11" nichtanzeigen="n">
+<uebrecht>
+<rvolink verwart="d" abkrvo="BSVG" ursprung="a" abs="9" gldart="PARA" gldnr="262">§ 262 Abs. 9 BSVG</rvolink>
+<rvolink verwart="d" abkrvo="BSVG" ursprung="a" abs="9a" gldart="PARA" gldnr="262">§ 262 Abs. 9a BSVG</rvolink>
+<rvolink gldsort="70" verwart="d" abkrvo="BSVG" ursprung="a" gldart="PARA" gldnr="287">§ 287 BSVG</rvolink>
+<rvolink ursprung="u" abkrvo="BSVG" verwart="d" gldart="PARA" gldsort="70" gldnr="287" abs="4" pubdat="2003-08-20" ikra="2003-08-21" puborg="BGBl." gldpuborg="I" nrpuborg="71" jahrgang="2003" typ="e">§ 287 Abs. 4 BSVG</rvolink>
+<rvolink ursprung="u" abkrvo="BSVG" verwart="d" gldart="PARA" gldsort="70" gldnr="247" abs="4" pubdat="1993-05-26" ikra="1993-05-27" puborg="BGBl." nrpuborg="337" jahrgang="1993" typ="e">§ 247 Abs. 4 und 6 BSVG</rvolink>
+</uebrecht>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="71" begseite="1205" jahrgang="2003"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Bemessungsgrundlage </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 113.</gldsym> (1) Bemessungsgrundlage für die Leistungen aus der Pensionsversicherung ist die Summe der 480 höchsten monatlichen Gesamtbeitragsgrundlagen (<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="118" ursprung="u">§ 118</rvolink>) aus dem Zeitraum vom erstmaligen Eintritt in die Versicherung bis zum Ende des letzten vor dem Stichtag liegenden Kalenderjahres, geteilt durch 560. Liegen weniger als 480 Beitragsmonate vor, so ist die Bemessungsgrundlage die Summe der monatlichen Gesamtbeitragsgrundlagen aus den vorhandenen Beitragsmonaten, geteilt durch die um ein Sechstel erhöhte Zahl dieser Beitragsmonate. Liegen in dem genannten Zeitraum vorläufige Beitragsgrundlagen nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="25a" ursprung="u">§ 25a</rvolink><nolink> GSVG</nolink>, die zum Stichtag noch nicht nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="25" abs="6" ursprung="u">§ 25 Abs. 6</rvolink><nolink> GSVG</nolink> nachbemessen worden sind, so gelten diese vorläufigen Beitragsgrundlagen als Beitragsgrundlagen nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="25" abs="2" ursprung="u">§ 25 Abs. 2</rvolink><nolink> GSVG</nolink>. Die Bemessungsgrundlage ist auf Cent aufzurunden.</absatz>
+<absatz typ="abs" halign="j">(2) Die Zahl der Gesamtbeitragsgrundlagen nach Abs. 1 vermindert sich, so weit dadurch die Bemessungsgrundlage 180 Beitragsmonate nicht unterschreitet,</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>um Zeiten der Erziehung von Kindern im Sinne des <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="107a" abs="2" ursprung="u">§ 107a Abs. 2</rvolink>, wobei höchstens 36 Monate je Kind zu berücksichtigen und <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="107a" abs="3" ursprung="u">§ 107a Abs. 3 bis 6</rvolink> - mit Ausnahme des Abs. 3 erster Satz - entsprechend anzuwenden sind, sowie</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>um die Zahl der während der Zeit einer Familienhospizkarenz nach den <nolink>§§ 14a</nolink> und <nolink>14b</nolink> AVRAG erworbenen Beitragsmonate.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">
+(3) Bei der Anwendung des Abs. 1 bleiben außer Betracht: 
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol></listelem>
+</ziffernliste>
+</liste>
+<liste>
+<literaliste ebene="2">
+<listelem>
+<symbol>a)</symbol>Beitragsmonate nach diesem Bundesgesetz,
+die vor dem 1. Jänner 1972 liegen, es sei denn, daß Beitragsmonate nur in diesem Zeitraum vorhanden sind;</listelem>
+<listelem>
+<symbol>b)</symbol>Beitragsmonate nach dem<nolink> Allgemeinen Sozialversicherungsgesetz</nolink>, die vor dem 1. Jänner 1956 liegen, es sei denn, daß Beitragsmonate nur in diesem Zeitraum vorhanden sind;  </listelem>
+<listelem>
+<symbol>c)</symbol>Beitragsmonate nach dem<nolink> Gewerblichen Sozialversicherungsgesetz</nolink>, die vor dem 1. Jänner 1958 liegen, es sei denn, daß Beitragsmonate nur in diesem Zeitraum vorhanden sind;  </listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>2.</symbol>Beitragsmonate der freiwilligen Versicherung, die auch Zeiten enthalten, während welcher Krankengeld, Arbeitslosengeld, Notstandshilfe oder Karenzgeld aus gesetzlicher Versicherung bezogen wurde, wenn es für den Versicherten günstiger ist; dies gilt entsprechend auch für Beitragsmonate der Pflichtversicherung, welche Zeiten enthalten, während welcher berufliche Maßnahmen der Rehabilitation (<rvolink abkrvo="BSVG" gldnr="153" ursprung="p" gldart="PARA" verwart="d">§ 153</rvolink> dieses Bundesgesetzes sowie 
+<rvolink abkrvo="ASVG" gldnr="198" ursprung="p" gldart="PARA" verwart="d">§§ 198</rvolink> bzw. 
+<rvolink abkrvo="ASVG" gldnr="303" ursprung="p" gldart="PARA" verwart="d">303</rvolink> des<nolink> Allgemeinen Sozialversicherungsgesetzes</nolink> und <rvolink abkrvo="GSVG" gldnr="161" ursprung="p" gldart="PARA" verwart="d">§ 161</rvolink> des<nolink> Gewerblichen Sozialversicherungsgesetzes</nolink>) gewährt wurden bzw. Zeiten einer Beschäftigung enthalten, zu deren Ausübung ihn diese Maßnahmen befähigt haben;  </listelem>
+<listelem>
+<symbol>3.</symbol>Beitragsmonate der Pflichtversicherung, die Zeiten enthalten, während welcher der Versicherte eine Beihilfe zur Deckung des Lebensunterhaltes gemäß 
+§ 20 Abs. 2 lit. c in Verbindung mit<nolink> § 25 Abs. 1</nolink> des Arbeitsmarktförderungsgesetzes, BGBl. Nr. 31/1969, oder eine Beihilfe zur Deckung des Lebensunterhaltes durch das Arbeitsmarktservice bezogen hat;  </listelem>
+<listelem>
+<symbol>4.</symbol>Beitragsmonate der Pflichtversicherung, die Zeiten nach den 
+<rvolink typ="e" gldsort="70" abkrvo="ASVG" gldnr="225" abs="1" ziff="5" ursprung="u" gldart="PARA" verwart="d">§§ 225 Abs. 1 Z 5 zweiter Halbsatz</rvolink> bzw. 
+<rvolink abkrvo="ASVG" gldnr="226" abs="2" lit="c" ursprung="p" gldart="PARA" verwart="d">226 Abs. 2 lit. c zweiter Halbsatz</rvolink> des<nolink> Allgemeinen Sozialversicherungsgesetzes</nolink> enthalten;  </listelem>
+<listelem>
+<symbol>5.</symbol>Beitragsmonate der Pflichtversicherung, die Zeiten enthalten, für die aus Anlaß der Aufnahme in das pensionsversicherungsfreie Dienstverhältnis vom Dienstnehmer an den Dienstgeber ein besonderer Pensionsbeitrag geleistet worden ist, sofern für diese Zeiten ein Überweisungsbetrag nach 
+<rvolink abkrvo="BSVG" gldnr="167" ursprung="p" gldart="PARA" verwart="d">§ 167</rvolink> dieses Bundesgesetzes bzw. 
+<rvolink abkrvo="ASVG" gldnr="311" ursprung="p" gldart="PARA" verwart="d">§ 311</rvolink> des<nolink> Allgemeinen Sozialversicherungsgesetzes</nolink> bzw.  <rvolink abkrvo="GSVG" gldnr="175" ursprung="p" gldart="PARA" verwart="d">§ 175</rvolink> des<nolink> Gewerblichen Sozialversicherungsgesetzes</nolink> geleistet worden ist;  </listelem>
+<listelem>
+<symbol>6.</symbol>Beitragsmonate der Pflichtversicherung, die Zeiten des Bezuges einer Lehrlingsentschädigung gemäß<nolink> § 17</nolink> des Berufsausbildungsgesetzes enthalten.  </listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">
+(4) Die Bemessungsgrundlage nach Abs. 1 ist für alle Versicherungsmonate anzuwenden, sofern in diesem Bundesgesetz nichts anderes bestimmt wird. 
+</absatz>
+<absatz typ="abs" halign="j">(5) <i>(Anm.: aufgehoben durch BGBl. I Nr. 71/2003)</i></absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

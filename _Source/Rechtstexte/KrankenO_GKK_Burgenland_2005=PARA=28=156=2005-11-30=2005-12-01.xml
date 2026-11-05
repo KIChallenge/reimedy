@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=28=156=2005-11-30=2005-12-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-12-01" sichtbarkeit="p" gldnr="28" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">5. Abschnitt 
+<br/>Kostenerstattung 
+<br/>(
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="131" ursprung="p">§ 131</rvolink> ASVG)</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Kostenerstattung bei Inanspruchnahme von Wahlärzten oder Wahl-Gruppenpraxen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 28. </gldsym>Der Anspruchsberechtigte hat dem Wahlarzt oder der Wahl-Gruppenpraxis das vollständige Honorar vor Einreichung der Honorarnote bei der Kasse zu zahlen. Für die Kostenerstattung muss der Anspruchsberechtigte der Kasse die Originalhonorarnote übergeben. Die Honorarnote muss folgende Angaben enthalten:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vor- und Familienname des Anspruchsberechtigten,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Versicherungsnummer,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Wohnadresse,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>bei Behandlung eines Angehörigen außerdem die unter Z 1 bis 3 angeführten Personaldaten des Angehörigen,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die Zahlungsbestätigung, statt dessen kann auch der verwendete Einzahlungsnachweis (Zahlschein, Erlagschein, Kontoauszug) im Original übergeben werden; liegt kein Einzahlungsnachweis vor, kann im begründeten Einzelfall der Anspruchsberechtigte die Zahlung mit eigenhändiger Unterschrift bestätigen,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>das Ausstellungsdatum,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>genaue Angaben über die ärztlichen Leistungen, und zwar</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>die Diagnose und Therapie,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>die Zahl der Ordinationen, Visiten, Nachtordinationen, Sonn- und Feiertagsordinationen und bei Sonn- und Feiertagsordinationen sowie Nachtvisiten und Nachtordinationen auch die entsprechende Begründung,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>die Sonderleistungen,</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">8.</symbol>das Datum, an dem die Leistungen erbracht wurden, bei Nachtvisiten und Nachtordinationen auch die Uhrzeit,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>bei Inanspruchnahme einer Wahl-Gruppenpraxis den Namen und das Fachgebiet des behandelnden Arztes der Gruppenpraxis.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

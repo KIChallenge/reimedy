@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=18=103=2001-08-07=1111-11-11"><rvo>
+<metadaten gldnr="18" ikra="1111-11-11" pubdat="2001-08-07" beschdat="2001-07-04" abkaen="Gesamtstand KGG idF 103/2001" titaen="Gesamtstand KGG idF 103/2001" sichtbarkeit="p" urheber="Bund" dokart="BG" abkrvo="KGG" titrvo="Karenzgeldgesetz" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2001-09-05" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-08"/>
+<dfeintrag zeitpunkt="2003-05-09" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-13" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="103" begseite="1593" jahrgang="2001"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Nicht Alleinstehende
+</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 18.</gldsym> Unter den Voraussetzungen des 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="17" ursprung="p">§ 17</rvolink> erhalten einen Zuschuß
+nicht alleinstehende Mütter bzw. Väter, das sind Mütter bzw. Väter,
+die ledig, geschieden oder verwitwet sind und mit dem Vater bzw. der
+Mutter des Kindes nach den Vorschriften des Meldegesetzes 1991 an
+derselben Adresse angemeldet sind oder anzumelden wären
+(Lebensgemeinschaft).
+</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

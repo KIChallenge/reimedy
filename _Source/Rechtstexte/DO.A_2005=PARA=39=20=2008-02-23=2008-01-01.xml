@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.A_2005=PARA=39=20=2008-02-23=2008-01-01"><rvo dokidCms="DO.A_2005=PARA=39=94=2005-10-21=2005-10-27">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.A 2005" dokart="DO" titaen="75. Änderung der Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkaen="75. Änd DO.A 2005" urheber="Hauptverband" beschdat="2008-02-06" pubdat="2008-02-23" ikra="2008-01-01" sichtbarkeit="p" gldnr="39">
+<uebrecht>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="123" typ="e">§ 123 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="124" typ="e">§ 124 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="127" typ="e">§ 127 DO.A 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-08"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-11-09"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-11-09"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-11-17"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="20" jahrgang="2008"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Einreihung der zahntechnischen Angestellten</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 39. </gldsym>(1) Die zahntechnischen Angestellten sind unter Bedachtnahme auf <rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="36" ursprung="u">§ 36</rvolink> ausschließlich nach den Bestimmungen der folgenden Absätze in die dort angeführten Gehaltsgruppen einzureihen.</absatz>
+<absatz halign="j" typ="abs">(2) In Gehaltsgruppe I sind Zahntechnische Hilfskräfte einzureihen.</absatz>
+<absatz halign="j" typ="abs">(3) In Gehaltsgruppe II sind einzureihen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Zahntechnikergehilfen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Zahntechnikerassistenten,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Zahntechnikergesellen,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Zahntechnikermeister.</listelem>
+</ziffernliste>
+</liste>
+<absatz halign="j" typ="abs">(4) In Gehaltsgruppe III sind bestellte ständige Stellvertreter der Leiter der Zahntechnik einzureihen.</absatz>
+<absatz halign="j" typ="abs">(5) In Gehaltsgruppe IV sind bestellte Leiter der Zahntechnik einzureihen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

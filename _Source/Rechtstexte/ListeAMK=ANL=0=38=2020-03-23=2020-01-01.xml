@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="ListeAMK=ANL=0=38=2020-03-23=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="ListeAMK=ANL=0=38=2020-03-23=2020-01-01" dokidSource="ListeAMK=ANL=1=34=2004-03-31=2004-04-01">
+<metadaten gldart="ANL" gldsort="150" titrvo="Liste nicht erstattungsfähiger Arzneimittelkategorien  gemäß § 351c Abs. 2 ASVG" abkrvo="ListeAMK" dokart="sonstiges" titaen="1. Änderung der Liste nicht erstattungsfähiger Arzneimittelkategorien " abkaen="1. Änd ListeAMK" urheber="Hauptverband" beschdat="2020-01-22" pubdat="2020-03-23" ikra="2020-01-01" sichtbarkeit="p" gldnr="0" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="avsv" nrpuborg="38" jahrgang="2020"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="r" typ="anlage">Anlage gemäß 
+<rvolink abkrvo="ListeAMK" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="2" ursprung="p">§ 1 Abs. 2</rvolink>
+</ueberschrift>
+<table border="0" cellspacing="0" cellpadding="3" style="border-color:black;border-collapse:collapse;margin-left:4,25pt" h-maxcols="4">
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext"/>
+</td>
+<td width="122.6667" align="left" valign="middle" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittelkategorie</absatz>
+</td>
+<td width="236" align="left" valign="middle" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext">Spezifizierung</absatz>
+</td>
+<td width="226.6667" align="left" valign="middle" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Begründung</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">1</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Behandlung in Krankenanstalten</absatz>
+</td>
+<td width="236" align="justify" valign="top" class=" top left bottom right" h-xval="5790">
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Arzneimittel, die im Allgemeinen aufgrund des Anwendungsgebietes, der Behandlungsqualität, der notwendigen Überwachung und/oder der Sicherheitsvorkehrungen für Fertigstellung, Anwendung oder Entsorgung nicht im niedergelassenen Bereich verwendbar sind;</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Arzneimittel, deren Anwendung im Allgemeinen nur im Rahmen eines Aufenthaltes in einer Krankenanstalt, einer Leistungserbringung in einer Krankenanstalt oder im Zusammenhang mit einer Leistungserbringung einer Krankenanstalt medizinisch zweckmäßig und vertretbar ist.</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel, die überwiegend zur Behandlung in Krankenanstalten und/oder unter ständiger Beobachtung verwendbar sind, dienen im Allgemeinen nicht zur Krankenbehandlung im niedergelassenen Bereich im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG. Dies wird bereits durch den 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="351c" abs="2" ursprung="u">§ 351c Abs. 2</rvolink> ASVG festgehalten.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">2</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Prophylaxe</absatz>
+</td>
+<td width="236" align="justify" valign="top" class=" top left bottom right" h-xval="5790">
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Arzneimittel zur Krankheitsverhütung (z.B. Reise-Prophylaxe)</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Arzneimittel für den Einsatz in der Primärprävention</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Mittel zur Eigenblutvorsorge</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zur Prophylaxe werden zu einem Zeitpunkt angewendet, zu dem noch keine Krank§ 120heit im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG vorliegt. Somit ist keine Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG notwendig. Dies wird bereits durch den 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="351c" abs="2" ursprung="u">§ 351c Abs. 2</rvolink> ASVG festgehalten.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">3</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel mit offensichtlich nicht ausreichendem Nachweis einer therapeutischen Wirkung</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext">Insbesondere: Homöopathika, Arzneimittel zur Bachblütentherapie, Arzneimittel zur Wärmetherapie, Umstimmungsmittel, Arzneimittel zur Aromatherapie,  Anthroposophika, niedrigdosierte Venenmittel, Nootropika, niedrigdosierte Magnesiumarzneimittel, Organ- und Zelltherapie, Immunstimulantien, apothekeneigene Arzneispezialitäten mit einer Zulassung gemäß 
+<rvolink abkrvo="AMG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="17" ursprung="u">§ 17</rvolink> AMG, Arzneimittel mit einer Zulassung gemäß 
+<rvolink abkrvo="AMG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="17a" ursprung="u">§ 17a</rvolink> AMG, Badezusätze, Medizinalweine und weinhaltige Zubereitungen</absatz>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="30b" abs="1" ziff="4" ursprung="u">§ 30b Abs. 1 Z 4</rvolink> ASVG sind nur Arzneispezialitäten erstattungsfähig, die nach den Erfahrungen im In- und Ausland und nach dem aktuellen Stand der Wissenschaft eine therapeutische Wirkung und einen Nutzen für Patienten im Sinne der Ziele der Krankenbehandlung (
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG) annehmen lassen. Daraus ergibt sich, dass Arzneimittel mit offensichtlich nicht ausreichendem Nachweis einer therapeutischen Wirkung im Allgemeinen nicht zur Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG geeignet sind.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">4</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Empfängnisverhütung</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext"/>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zur Empfängnisverhütung dienen der Verhinderung des Eintritts einer Schwangerschaft. Sie werden daher nicht zur Therapie einer Krankheit im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG eingesetzt, und dienen daher nicht der Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">5</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Ausübung des Geschlechtsverkehrs </absatz>
+</td>
+<td width="236" align="justify" valign="top" class=" top left bottom right" h-xval="5790">
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Arzneimittel zur Anreizung bzw. Verstärkung des Sexualtriebes</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Arzneimittel, die bei vorhandenem Sexualtrieb die Ausübung des Geschlechtsverkehrs ermöglichen</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zur Anreizung bzw. Verstärkung des Sexualtriebes werden nicht zur Therapie einer Krankheit im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG eingesetzt, und dienen somit nicht der Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG.
+<br/>Bei der Verwendung von Arzneimitteln, die bei vorhandenem Sexualtrieb die Ausübung des Geschlechtsverkehrs ermöglichen, kann zwar eine Krankheit im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG vorliegen; diese wird jedoch durch das verwendete Arzneimittel nicht beeinflusst oder behandelt, weil durch dieses lediglich die Ausübung des Geschlechtsverkehrs ermöglicht wird, ohne im Sinne einer Krankenbehandlung die zugrundliegende Störung körperlicher und/oder psychischer Natur zu beheben.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">6</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel mit überwiegend kosmetischer Wirkung</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext"/>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel mit überwiegend kosmetischer Wirkung werden zur Beeinflussung des äußerlichen Erscheinungsbildes verwendet. Sie dienen daher nicht der Behandlung eines regelwidrigen Körperzustandes, der die Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG notwendig macht.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">7</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel für die körperliche Hygiene</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext">Insbesondere: zur Reinigung oder Pflege der Haut, der Haare, der Nägel, der Zähne, der Mundhöhle</absatz>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel für die körperliche Hygiene dienen der Pflege und Reinigung des Körpers; somit liegt keine Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink>  ASVG vor.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">8</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Förderung von Wachstum und Qualität von Haaren und Nägeln</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext"/>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zur Förderung von Wachstum und Qualität von Haaren und Nägeln werden nicht zur Therapie einer Krankheit im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG eingesetzt und dienen daher nicht der Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">9</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Leistungssteigerung bzw. zur Steigerung des Wohlbefindens</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext">Insbesondere: Roborantien, Eiweißpräparate, Dopingmittel</absatz>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zur Leistungssteigerung bzw. zur Steigerung des Wohlbefindens dienen der Förderung oder Verbesserung der normalen Körperfunktionen. Sie werden daher nicht im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG eingesetzt und dienen daher nicht der Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">10</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zum Ersatz der Nahrungsaufnahme, zur Nahrungsergänzung und/oder zum Ausgleich alimentärer Defizite</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext">Arzneimittel mit wirksamkeitsbestimmenden Inhaltsstoffen in einer Menge/Konzentration, die durch Nahrungsaufnahme erzielbar und zumutbar ist, insbesondere Fette, Öle, Spurenelemente, Mineralstoffe und -wässer, Aminosäuren, Vitamine</absatz>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zum Ersatz der Nahrungsaufnahme, zur Nahrungsergänzung und/oder zum Ausgleich alimentärer Defizite werden nicht im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG eingesetzt und dienen daher nicht der Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">11</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Entwöhnung vom Nikotingebrauch</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext"/>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zur Entwöhnung vom Nikotingebrauch werden nicht zur Therapie einer Krankheit im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="120" ursprung="u">§ 120  </rvolink> ASVG eingesetzt und dienen daher nicht der Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">12</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur Unterstützung von gewichtsreduzierenden Maßnahmen</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext">Insbesondere: Appetitzügler, Resorptionshemmer</absatz>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Arzneimittel zur Unterstützung von gewichtsreduzierenden Maßnahmen dienen nicht zur Behandlung einer der Übergewichtigkeit allenfalls zugrundeliegenden körperlichen oder geistigen Störung. Sie werden daher nicht zur Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG eingesetzt. Nachhaltige Gewichtsreduktionen können durch diätische Maßnahmen und Lebensstiländerungen erzielt werden.</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="28" align="left" valign="top" class=" top left bottom right" h-xval="420">
+<absatz typ="tabtext">13</absatz>
+</td>
+<td width="122.6667" align="left" valign="top" class=" top left bottom right" h-xval="2250">
+<absatz typ="tabtext">Arzneimittel zur medizinischen Vorbereitung einer assistierten Reproduktion</absatz>
+</td>
+<td width="236" align="left" valign="top" class=" top left bottom right" h-xval="5790">
+<absatz typ="tabtext"/>
+</td>
+<td width="226.6667" align="left" valign="top" class=" top left bottom right" h-xval="9180">
+<absatz typ="tabtext">Eine assistierte Reproduktion ist keine Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG, weil durch sie die Störungen, welche die Unfruchtbarkeit verursachen, nicht medizinisch beeinflusst werden. Daher ist die Verwendung von Arzneimitteln zur Vorbereitung eines derartigen medizinischen Eingriffes nicht als Krankenbehandlung im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="133" abs="2" ursprung="u">§ 133 Abs. 2</rvolink> ASVG zu sehen.</absatz>
+</td>
+</tr>
+</table>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

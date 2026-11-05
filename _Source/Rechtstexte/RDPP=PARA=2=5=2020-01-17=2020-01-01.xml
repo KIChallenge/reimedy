@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RDPP=PARA=2=5=2020-01-17=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RDPP=PARA=2=5=2020-01-17=2020-01-01" dokidSource="RDPP=PARA=2=17=2005-03-01=2002-02-01">
+<metadaten gldnr="2" sichtbarkeit="p" ikra="2020-01-01" pubdat="2020-01-17" beschdat="2020-01-14" urheber="DVSV" abkaen="SV-OG AnpVerl" titaen="SV-OG Anpassungsverlautbarung" dokart="RL DVSV" abkrvo="RDPP" titrvo="Richtlinien zur Erstellung von Dienstpostenplänen für die Sozialversicherungsträger" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<anm>Wiederverlautbarung: avsv Nr.: 17/2005 am 1. März 2005</anm>
+<aendprot>
+<dfeintrag zeitpunkt="2002-04-24" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-03-21"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="5" jahrgang="2020" begseite="9"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="para">Verpflichtung zur Erstellung eines Dienstpostenplanes</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 2.</gldsym> (1) Die Sozialversicherungsträger haben unter Rücksichtnahme auf</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>ihre wirtschaftliche Lage sowie</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die ihnen übertragenen Aufgaben</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="satz" halign="j">die Zahl der Dienstposten für alle Gruppen von Beschäftigten auf das unumgänglich notwendige Maß zu beschränken und unter Bedachtnahme auf die gesetzlichen Bestimmungen (insbesondere <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="460" abs="1" ursprung="u">§ 460 Abs. 1</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="SVSG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="45" abs="1" ursprung="u">§ 45 Abs. 1</rvolink> SVSG, <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="159" ursprung="u">§ 159</rvolink><nolink> B-KUVG</nolink>) für ihren Bereich jährlich einen Dienstpostenplan in Vollzeitäquivalenten zu erstellen.</absatz>
+<absatz typ="abs" halign="j">(2) Im Hinblick auf die unterschiedlichen Aufgaben und die verschiedenartige Organisation der einzelnen Versicherungsträger sehen diese <nolink>Richtlinien nur allgemeine Grundsätze vor, die bei der Erstellung des Dienstpostenplanes</nolink> zu berücksichtigen sind.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

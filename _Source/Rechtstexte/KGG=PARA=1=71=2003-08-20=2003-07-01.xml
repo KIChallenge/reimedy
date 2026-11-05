@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=1=71=2003-08-20=2003-07-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KGG=PARA=1=71=2003-08-20=2003-07-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Karenzgeldgesetz" abkrvo="KGG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="BudgBeglG 2003" abkaen="BudgBeglG 2003" beschdat="2003-06-11" pubdat="2003-08-20" ikra="2003-07-01" gldnr="1" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2001-09-05"/>
+<dfeintrag zeitpunkt="2003-05-08" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-09"/>
+<dfeintrag zeitpunkt="2003-05-13" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-13"/>
+<dfeintrag zeitpunkt="2003-09-18" perskz="polzer"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="71" begseite="1232" jahrgang="2003"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="g1">Abschnitt 1 
+<br/>Leistungsarten </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 1.</gldsym> Als Karenzgeldleistungen werden nach Maßgabe dieses
+Bundesgesetzes gewährt: </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>das Karenzgeld;
+  </listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Teilzeitbeihilfe für unselbständig Erwerbstätige;</listelem>
+<listelem>
+<symbol>3.</symbol>der Zuschuß zum Karenzgeld oder zur Teilzeitbeihilfe;
+  </listelem>
+<listelem>
+<symbol>4.</symbol>die Wiedereinstellungsbeihilfe.
+</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

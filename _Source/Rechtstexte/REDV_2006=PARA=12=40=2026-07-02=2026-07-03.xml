@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=12=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=12=87=2006-07-28=2006-07-29" dokidSource="REDV_2006=PARA=12=87=2006-07-28=2006-07-29">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="12" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-07-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">4. Abschnitt 
+<br/>Aufgaben der ITSV-GmbH</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Steuerung und Koordination durch die ITSV-GmbH</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 12.</gldsym> (1) Die IT-Services der Sozialversicherung GmbH, Firmenbuch HG Wien FN 255932x, in der Folge ITSV-GmbH genannt, ist als gemeinsame Gesellschaft der österreichischen Sozialversicherungsträger eingerichtet. Ausschließlich diese Gesellschaft hat, soweit nicht für konkrete Projekte auf gesetzlicher Basis eigene Organisationseinheiten oder Gesellschaften bestehen oder eingerichtet werden (z. B. nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="31b" ursprung="u">§ 31b</rvolink> oder 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="81" abs="2" ursprung="u">§ 81 Abs. 2</rvolink><nolink> ASVG</nolink>), für die Sozialversicherungsträger folgende Aufgaben zu übernehmen, dies nur im Rahmen der gesetzlichen Zuständigkeiten der Sozialversicherungsträger, ohne deren Ermessensspielräumen zu beeinträchtigen:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>sozialversicherungsinterne Steuerung und Koordination der Einrichtung, der Betreuung sowie des Betriebes von Standardprodukten und IT-Infrastruktur in Zusammenarbeit mit den Sozialversicherungsträgern,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Steuerung und Koordination der Konsolidierung der Rechenzentren der Sozialversicherungsträger mit dem Ziel der Schaffung von trägerübergreifenden Dienstleistungsrechenzentren,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Initiierung von Standardprodukten und IT-Infrastrukturprojekten,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Definition von Standards in Zusammenarbeit mit den Sozialversicherungsträgern,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Durchführung der Projektbegleitung nach 
+<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" ursprung="p">§ 6</rvolink>.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Diese spezifischen Steuerungs- und Koordinationsaufgaben der ITSV-GmbH beziehen sich auf alle Sozialversicherungsträger. Dies gilt hinsichtlich der Sozialversicherungsträger, die nicht Gesellschafter der ITSV-GmbH sind, jedoch nur insoweit, als die einschlägigen Maßnahmen zusätzlich von einem zuständigen Verwaltungskörper des Dachverbandes (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="30" abs="3" ursprung="u">§ 30 Abs. 3</rvolink><nolink> ASVG</nolink>) oder dieses Sozialversicherungsträgers beschlossen werden oder in anderen, allgemein verbindlichen Anordnungen enthalten sind.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

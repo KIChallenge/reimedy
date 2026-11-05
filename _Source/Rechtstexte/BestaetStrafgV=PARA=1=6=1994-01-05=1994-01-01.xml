@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="BestaetStrafgV=PARA=1=6=1994-01-05=1994-01-01"><rvo dokidCms="BestaetStrafgV=PARA=1=6=1994-01-05=1994-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Bestätigungsverordnung Strafgefangene" abkrvo="BestätStrafgV" dokart="V" titaen="Bestätigungsverordnung Strafgefangene StF" abkaen="BestätStrafgV" urheber="BMAS" pubdat="1994-01-05" ikra="1994-01-01" sichtbarkeit="p" gldnr="1">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2004-04-16"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-02-16"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." nrpuborg="6" stkpuborg="5" begseite="385" jahrgang="1994"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="g1">Verordnung des Bundesministers für Arbeit und Soziales 
+<br/>über die Bestätigung der Arbeitslosenversicherung 
+<br/>für Strafgefangene</ueberschrift>
+<absatz halign="j" typ="promkleinlsatz">Auf Grund des 
+<rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="66 a" abs="4" ursprung="p">§ 66 a Abs. 4</rvolink> des Arbeitslosenversicherungsgesetzes 1977 (AlVG), BGBl. Nr. 609, in der Fassung des Bundesgesetzes BGBl. Nr. 799/1993 wird im Einvernehmen mit dem Bundesminister für Justiz verordnet:</absatz>
+<ueberschrift level="2" halign="c" typ="para">(ohne Titel)</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 1.</gldsym> Zum Nachweis der arbeitslosenversicherungspflichtigen Zeiten während einer Strafhaft hat der Arbeitslose eine Bestätigung der Justizanstalt, die die Entlassung durchführt, beizubringen. Diese Bestätigung hat zu enthalten:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>den Familien- und Vornamen des ehemaligen Strafgefangenen, dessen Sozialversicherungsnummer und Staatsbürgerschaft;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Beginn und Ende der Anhaltung;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Zeiträume der Arbeitslosenversicherungspflicht;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die maßgebliche Höhe der Beitragsgrundlage;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die Bezeichnung der Justizanstalt.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

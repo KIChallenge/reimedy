@@ -1,0 +1,13 @@
+# Rohdaten der Crawler (werden von ingest.py neu geladen, nicht versionieren)
+knowledge/sources/*/raw/
+knowledge/sources/reimedy_kb/repo/
+# Gebaute Datenbank (reproduzierbar aus out/*.jsonl)
+knowledge/build/*.sqlite
+knowledge/build/*.sqlite-*
+knowledge/build/*.new
+knowledge/build/snapshots/
+*.log
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store

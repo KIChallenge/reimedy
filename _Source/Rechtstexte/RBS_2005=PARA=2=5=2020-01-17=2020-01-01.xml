@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RBS_2005=PARA=2=5=2020-01-17=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RBS_2005=PARA=2=5=2020-01-17=2020-01-01" dokidSource="RBS_2005=PARA=2=111=2005-11-05=2005-11-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien für die Befreiung vom Service-Entgelt 2005" abkrvo="RBS 2005" dokart="RL DVSV" titaen="SV-OG Anpassungsverlautbarung" abkaen="SV-OG AnpVerl" urheber="DVSV" beschdat="2020-01-14" pubdat="2020-01-17" ikra="2020-01-01" sichtbarkeit="p" gldnr="2" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-29"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-03-21"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="5" jahrgang="2020" begseite="4"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="para">Gesetzliche Befreiung sowie Befreiung bei besonderer sozialer Schutzbedürftigkeit</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 2. </gldsym>(1) Das Service-Entgelt darf von Gesetzes wegen nicht eingehoben werden von:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Beziehern einer Pension nach dem 
+<nolink>ASVG</nolink> oder 
+<nolink>GSVG</nolink>,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol><i>(Anm.: aufgehoben durch avsv Nr. 5/2020)</i></listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Beziehern von Sonderunterstützung nach 
+<rvolink abkrvo="SUG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="1" ursprung="p">§ 1 Abs. 1</rvolink> des 
+<nolink>Sonderunterstützungsgesetzes,</nolink>
+</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Personen, die eine einkommensabhängige Rentenleistung nach dem Kriegsopferversorgungsgesetz 1957, dem 
+<nolink>Heeresversorgungsgesetz</nolink> oder dem 
+<nolink>Opferfürsorgegesetz</nolink> beziehen,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Personen, die in der Krankenversicherung der Kriegshinterbliebenen sowie in der Krankenversicherung der Hinterbliebenen nach dem 
+<nolink>Heeresversorgungsgesetz</nolink> versichert sind,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>als Angehörigen geltenden Kindern (
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="123" abs="2" ziff="2" ursprung="p">§ 123 Abs. 2 Z 2</rvolink> bis 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="123" abs="2" ziff="6" ursprung="u">6</rvolink>
+<nolink>ASVG</nolink>) und Angehörige der Personen nach Z 1 bis 4,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Versicherten nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="8" abs="1" ziff="1" lit="c" ursprung="p">§ 8 Abs. 1 Z 1 lit. c</rvolink>
+<nolink>ASVG</nolink> (Präsenzdiener) und deren Angehörigen,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Versicherten nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="8" abs="1" ziff="4" ursprung="p">§ 8 Abs. 1 Z 4</rvolink>
+<nolink>ASVG</nolink> (Zivildiener) und deren Angehörigen.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die nachstehend angeführten Bezieher bestimmter Geldleistungen sind wegen besonderer sozialer Schutzbedürftigkeit vom Service-Entgelt befreit:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Bezieher einer Provision, einer Witwenprovision oder einer Waisenprovision mit Ergänzungszulage von der Generaldirektion der österreichischen Bundesforste,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol><i>(Anm.: aufgehoben durch avsv Nr. 5/2020)</i></listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Bezieher eines Vorschusses gemäß 
+<rvolink abkrvo="ARÜG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="18" ursprung="p">§ 18</rvolink>
+<nolink>ARÜG</nolink>, BGBl. Nr. 290/1961.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Personen, die gemäß <rvolink abkrvo="EinbezV KV ASVG allg" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" ziff="17" ursprung="u">§ 1 Z 17</rvolink> und 
+<rvolink abkrvo="EinbezV KV ASVG allg" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" ziff="19" ursprung="u">19</rvolink> der Verordnung des Bundesministers für Arbeit und Soziales über die Durchführung der Krankenversicherung für die gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" ursprung="u">§ 9</rvolink>
+<nolink>ASVG</nolink> in die Krankenversicherung einbezogenen Personen krankenversichert sind (Asylwerber in Bundesbetreuung und unterstützungswürdige hilfs- und schutzbedürftige Fremde nach Artikel 2 der Vereinbarung gemäß Artikel 15a 
+<nolink>B-VG</nolink> über gemeinsame Maßnahmen zur vorübergehenden Grundversorgung für hilfs- und schutzbedürftige Fremde), sind vom Service-Entgelt befreit.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

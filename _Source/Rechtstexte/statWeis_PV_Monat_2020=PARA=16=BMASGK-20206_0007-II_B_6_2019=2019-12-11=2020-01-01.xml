@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="statWeis_PV_Monat_2020=PARA=16=BMASGK-20206/0007-II/B/6/2019=2019-12-11=2020-01-01"><rvo dokidCms="statWeis_PV_Monat_2020=PARA=16=BMASGK-20206/0007-II/B/6/2019=2019-12-11=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Monatsstatistik StatistikWeis PV 2020" abkrvo="statWeis PV Monat 2020" dokart="Weisung" titaen="Monatsstatistik StatistikWeis PV 2020 StF" abkaen="statWeis PV Monat 2020 StF" urheber="BMASGK" pubdat="2019-12-11" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="16" gldsort="80">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0007-II/B/6/2019">Erlass   Nr. BMASGK-20206/0007-II/B/6/2019</puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Versichertenstand</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 16.</gldsym> (1) Für die Erstellung dieser Statistik sind die <wwwlink ursprung="u" url="/fs/Formular_PV30-4_ab_2020.pdf" gldart="KEIN" typ="e">Formular PV30/4</wwwlink>, <wwwlink ursprung="u" url="/fs/Formular_PV301-4_ab_2020.pdf" gldart="KEIN" typ="e">PV301/4</wwwlink> und <wwwlink ursprung="u" url="/fs/Formular_PV302-4_ab_2020.pdf" gldart="KEIN" typ="e">PV302/4</wwwlink> zu verwenden.</absatz>
+          <absatz typ="abs" halign="j">(2) In Spalte 2 und 3 sind die im jeweiligen Berichtsmonat bei der Sozialversicherungsanstalt der Selbstständigen für den Rechenkreis gemäß <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="4" abs="3" lit="a" ursprung="u">§ 4 Abs. 3 lit. a</rvolink> RV (GSVG und <nolink>FSVG</nolink>) einlangenden An- bzw. Abmeldungen in der Pensionsversicherung zu zählen.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Formulare sind für den Wirkungsbereich der Pensionsversicherung für den Rechenkreis gemäß <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="4" abs="3" lit="a" ursprung="u">§ 4 Abs. 3 lit. a</rvolink> RV (GSVG und <nolink>FSVG</nolink>) zu erstellen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

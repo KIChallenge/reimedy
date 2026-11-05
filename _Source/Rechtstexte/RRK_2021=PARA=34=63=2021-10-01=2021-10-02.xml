@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RRK_2021=PARA=34=63=2021-10-01=2021-10-02" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RRK_2021=PARA=34=63=2021-10-01=2021-10-02">
+      <metadaten titrvo="Richtlinien für die Erbringung von Leistungen im Rahmen der Rehabilitation sowie von Leistungen im Rahmen der Festigung der Gesundheit und der Gesundheitsvorsorge (RRK 2021)" abkrvo="RRK 2021" dokart="RL DVSV" titaen="Richtlinien für die Erbringung von Leistungen im Rahmen der Rehabilitation sowie von Leistungen im Rahmen der Festigung der Gesundheit und der Gesundheitsvorsorge (RRK 2021) Stammfassung" abkaen="RRK 2021 StF" urheber="DVSV" beschdat="2021-09-22" pubdat="2021-10-01" ikra="2021-10-02" sichtbarkeit="p" gldart="PARA" gldnr="34" gldsort="50" nichtanzeigen="n">
+        <puborgane><puborgan puborg="avsv" nrpuborg="63" jahrgang="2021">avsv   Nr. 63/2021 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Meldung der Versicherten</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 34.</gldsym> (1) Der Krankenversicherungsträger meldet dem Pensionsversicherungs- oder Unfallversicherungsträger im Sinne des Abs. 2 die von ihm ausgewählten Fälle mittels elektronischer Datenfernübertragung in einem bundeseinheitlich festgelegten Datensatz. Dieser Datensatz hat jedenfalls folgenden Angaben zu enthalten:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Name der versicherten Person,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Versicherungsnummer der versicherten Person,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Anschrift der versicherten Person,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Beginn der Arbeitsunfähigkeit,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Diagnose im ICD 10 – Code und Klartext,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Name und Telefonnummer der ärztlichen Ansprechperson beim Krankenversicherungsträger sowie Angabe der täglichen Erreichbarkeit,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Krankenhausaufenthalte der versicherten Person während der Arbeitsunfähigkeit.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="satz" halign="j">Weitere beim Krankenversicherungsträger vorhandene Unterlagen (z. B. medizinische Befunde, Gutachten, bezogene Heilmittel, Heilbehelfe oder Hilfsmittel) sind nur auf gesonderte Anforderung des Pensionsversicherungsträgers oder Unfallversicherungsträgers zu übermitteln.</absatz>
+          <absatz typ="abs" halign="j">(2) Als Pensionsversicherungsträger im Sinn des Abs. 1 gilt die Landesstelle des Bundeslandes der Pensionsversicherungsanstalt, in dem die versicherte Person ihren Wohnsitz hat. Als Unfallversicherungsträger im Sinn des Abs. 1 gilt die AUVA.</absatz>
+          <absatz typ="abs" halign="j">(3) Spätestens zum Zeitpunkt der ersten Kontaktaufnahme mit der versicherten Person zur Prüfung der Einleitung von Maßnahmen der Rehabilitation hat der Pensions- oder Unfallversicherungsträger die Person in geeigneter Weise über die erfolgte Meldung an den Pensions- oder Unfallversicherungsträger durch den Krankenversicherungsträger zu informieren. Der Pensionsversicherungs- oder Unfallversicherungsträger gibt dem Krankenversicherungsträger seine Entscheidung und eine kurze Begründung für diese Entscheidung mittels elektronischer Datenfernübertragung in einem bundeseinheitlich festgelegten Datensatz bekannt. Gleichzeitig ist auch mit der versicherten Person im Falle einer (vorherigen) Kontaktaufnahme über die getroffene Entscheidung in geeigneter Weise zu informieren.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

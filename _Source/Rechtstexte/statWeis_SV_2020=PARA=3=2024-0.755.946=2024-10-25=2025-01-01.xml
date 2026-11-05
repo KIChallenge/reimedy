@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="statWeis_SV_2020=PARA=3=2024-0.755.946=2024-10-25=2025-01-01"><rvo dokidCms="statWeis_SV_2020=PARA=3=2024-0.755.946=2024-10-25=2025-01-01" dokidSource="statWeis_SV_2020=PARA=3=2024-0.755.946=2024-10-25=2025-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020" abkrvo="statWeis SV 2020" dokart="Weisung" titaen="3. Änderung der Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020" abkaen="3. Änd statWeis SV 2020" urheber="BMSGPK" pubdat="2024-10-25" ikra="2025-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="3" berkz="KVL; ">
+        
+      <puborgane><puborgan puborg="Erlass" nrpuborg="2024-0.755.946" jahrgang="2024"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Beschäftigtenstatistik</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 3.</gldsym> (1) Datengrundlage für die Beschäftigtenstatistiken sind die Datenbanken (VD, ZPV, KVA) des Dachverbandes. Auszuwerten sind Versicherungsverhältnisse von:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Beschäftigte</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Geringfügig Beschäftigte</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Freie Dienstverträge (eine Teilmenge von Z 1)</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Geringfügig freie Dienstverträge (eine Teilmenge von Z 2)</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die Auswertungen sind nach Alter, Geschlecht, Wirtschaftszweigen, Bundesländern und Staatszugehörigkeit zu gliedern. Zu erfassen sind alle Qualifikationen aus der Versicherungsdatei laut beiliegender Qualifikationstabelle. Diese <wwwlink ursprung="u" url="/fs/Zuordnung Qual unselbständig Beschäftigten_20250101.pdf" gldart="KEIN" typ="e">Tabelle</wwwlink> ist vom Dachverband in Abstimmung mit dem Sozialministerium und dem AMS aktuell zu halten.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Wirtschaftszweige (ÖNACE 2025 Klassifikation) sind auf Basis der Daten des 
+Unternehmensregisters von Statistik Austria zu bestimmen. Dazu ist in regelmäßigen 
+Abständen ein Abgleich mit dem Unternehmensregister durchzuführen.</absatz>
+          <absatz typ="abs" halign="j">(4) Zählungstag ist der letzte Tag des jeweiligen Berichtsmonates.</absatz>
+          <absatz typ="abs" halign="j">(5) Die Statistiken sind spätestens bis zum 3. Werktag nach dem 10. des dem Berichtsmonat folgenden Monats zu erstellen. Fällt der 10. des Folgemonats auf ein Wochenende oder einen Feiertag, so tritt an dessen Stelle der nächstfolgende Werktag. Die Auswertungen sind dem Sozialministerium und dem AMS zusätzlich in Form von Datensätzen zu übermitteln.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

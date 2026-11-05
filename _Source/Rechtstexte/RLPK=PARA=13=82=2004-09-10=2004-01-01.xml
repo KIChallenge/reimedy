@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RLPK=PARA=13=82=2004-09-10=2004-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RLPK=PARA=13=82=2004-09-10=2004-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinie über die Pensionskassenzusage für Dienstnehmer der österreichischen Sozialversicherungsträger (Pensionskassenrichtlinie)" abkrvo="RLPK" dokart="RL DVSV" urheber="DVSV" sichtbarkeit="p" beschdat="2004-04-13" pubdat="2004-09-10" ikra="2004-01-01" titaen="Richtlinie über die Pensionskassenzusage für Dienstnehmer der österreichischen Sozialversicherungsträger (Pensionskassenrichtlinie) StF" abkaen="RLPK StF" berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; AN; AG; SELB; BEA; NOT; " gldnr="13" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2004-09-14"/>
+</aendprot>
+<puborgane><puborgan puborg="avsv" nrpuborg="82" jahrgang="2004"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="c" typ="para">Waisenpension</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 13. </gldsym>(1) Anspruch auf Waisenpension haben nach dem Tod des Anwartschaftsberechtigten / Leistungsberechtigten dessen Kinder im Sinne des 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="252" abs="1" ursprung="u">§ 252 Abs. 1</rvolink> ASVG, sofern und solange diese nachweislich einen Anspruch auf eine Pensionsleistung gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="260" ursprung="u">§ 260</rvolink> ASVG haben.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Die Höhe der Waisenpension beträgt nach dem Tod</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>des Anwartschaftsberechtigten 20%, bei Vollwaisen 40% der fiktiven Berufsunfähigkeitspension;</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>des Leistungsberechtigten 20%, bei Vollwaisen 40% jener Pension, auf die der Leistungsberechtigte im Zeitpunkt seines Todes Anspruch gehabt hat.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

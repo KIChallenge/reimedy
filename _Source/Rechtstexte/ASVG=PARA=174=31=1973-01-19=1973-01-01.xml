@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASVG=PARA=174=31=1973-01-19=1973-01-01"><rvo dokidCms="ASVG=PARA=174=31=1973-01-19=1973-01-01">
+<metadaten pubdat="1973-01-19" abkaen="29. ASVGNov" dokart="BG" titaen="Allgemeines SozialversicherungsG - 29. Novelle" abkrvo="ASVG" sichtbarkeit="p" ikra="1973-01-01" fassung="33" gldnr="174" titrvo="Allgemeines Sozialversicherungsgesetz" urheber="Bund" beschdat="1972-12-16" berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; AN; AG; SELB; " gldart="PARA" indbr="66.01.01" gldsort="70" nichtanzeigen="n">
+
+<puborgane><puborgan puborg="BGBl." nrpuborg="31" jahrgang="1973" begseite="403">BGBl.   Nr. 31/1973 , S.403</puborgan>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Eintritt des Versicherungsfalles </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 174.</gldsym> Der Versicherungsfall gilt als eingetreten: 
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>bei Arbeitsunfällen mit dem Unfallereignis; 
+</listelem>
+<listelem>
+<symbol>2.</symbol>bei Berufskrankheiten mit dem Beginn der Krankheit (<rvolink abkrvo="ASVG" gldnr="120" abs="1" ziff="1" ursprung="p" gldart="PARA" verwart="d">§ 120 Abs. 1 Z 1</rvolink>) oder, wenn dies für den Versicherten günstiger ist, mit dem Beginn der Minderung der Erwerbsfähigkeit (<rvolink abkrvo="ASVG" gldnr="203" ursprung="p" gldart="PARA" verwart="d">§ 203</rvolink>). </listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="SchwerarbeitsV=PARA=3=104=2006-03-09=2007-01-01"><rvo dokidCms="SchwerarbeitsV=PARA=3=104=2006-03-09=2007-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Schwerarbeitsverordnung" abkrvo="SchwerarbeitsV" dokart="V" titaen="Schwerarbeitsverordnung StF" abkaen="SchwerarbeitsV StF" urheber="BMSG" pubdat="2006-03-09" ikra="2007-01-01" sichtbarkeit="p" gldnr="3" nichtanzeigen="n">
+<anm>Rechtsgrundlage: § 607 Abs. 14 ASVG; § 298 Abs. 13a GSVG; § 287 Abs. 13a BSVG; § 4 Abs. 4 APG</anm><aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-03-20"/>
+</aendprot>
+<puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="104" begseite="1" jahrgang="2006"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="para">Schwere körperliche Arbeit</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 3.</gldsym> Ob eine bestimmte Tätigkeit als schwere körperliche Arbeit im Sinne des 
+<rvolink abkrvo="SchwerarbeitsV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="1" ziff="4" ursprung="u">§ 1 Abs. 1 Z 4</rvolink> gilt, ist nach den in der 
+<rvolink ursprung="u" abkrvo="SchwerarbeitsV" verwart="d" gldart="ANL" gldsort="150" gldnr="0" typ="e">Anlage</rvolink> zu dieser Verordnung festgeschriebenen Grundsätzen festzustellen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

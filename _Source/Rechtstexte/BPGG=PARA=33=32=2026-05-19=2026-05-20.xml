@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="BPGG=PARA=33=32=2026-05-19=2026-05-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="BPGG=PARA=33=32=2026-05-19=2026-05-20" dokidSource="BPGG=PARA=33=109=2024-07-19=2024-07-20">
+<metadaten pubdat="2026-05-19" abkaen="MaiNov 32/2026" dokart="BG" titaen="Mainovelle 32/2026" abkrvo="BPGG" sichtbarkeit="p" ikra="2026-05-20" gldnr="33" titrvo="Bundespflegegeldgesetz" urheber="Bund" berkz="PFLEGE; AN; SELB; " gldart="PARA" indbr="66.03.11" gldsort="70" nichtanzeigen="n" beschdat="2026-04-23">
+<uebrecht><rvolink ursprung="u" abkrvo="BSVG" verwart="s" gldart="PARA" gldsort="70" gldnr="48c" abs="4" typ="e" pubdat="2011-07-29" ikra="2012-01-01" puborg="BGBl." gldpuborg="I" nrpuborg="58" jahrgang="2011">§ 48c Abs. 4 BPGG idF 58/2011</rvolink><rvolink ursprung="u" abkrvo="BSVG" verwart="s" gldart="PARA" gldsort="70" gldnr="48c" abs="10" typ="e" pubdat="2011-07-29" ikra="2012-01-01" puborg="BGBl." gldpuborg="I" nrpuborg="58" jahrgang="2011">§ 48c Abs. 10 BPGG idF 58/2011</rvolink><rvolink ursprung="u" abkrvo="BPGG" verwart="s" gldart="PARA" gldsort="70" gldnr="48b" abs="1" pubdat="2010-12-30" ikra="2012-01-01" puborg="BGBl." gldpuborg="I" nrpuborg="111" jahrgang="2010" typ="e">§ 48b Abs. 1 idF BGBl. I Nr. 111/2010 mit IKRA 1. 1. 2012</rvolink><rvolink ursprung="u" abkrvo="BPGG" verwart="s" gldart="PARA" gldsort="70" gldnr="48b" abs="4" pubdat="2010-12-30" ikra="2012-01-01" puborg="BGBl." gldpuborg="I" nrpuborg="111" jahrgang="2010" typ="e">§ 48b Abs. 4 idF BGBl. I Nr. 111/2010 mit IKRA 1. 1. 2012</rvolink></uebrecht><aendprot>
+<dfeintrag perskz="Schwing" zeitpunkt="2006-10-09"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="32" begseite="1" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Mitwirkung </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 33.</gldsym> (1) Die Entscheidungsträger und die übrigen Träger der Sozialversicherung, die Bezirksverwaltungsbehörden und Ämter der Landesregierungen sind verpflichtet, auf Verlangen einander sowie den Gerichten die zur Feststellung der Gebührlichkeit und Höhe des Pflegegeldes erforderlichen personenbezogenen Daten betreffend Generalien der Anspruchsberechtigten oder Anspruchswerber, Versicherungsnummer, Zugehörigkeit zum anspruchsberechtigten Personenkreis (<rvolink abkrvo="BPGG" gldnr="3" ursprung="p" gldart="PARA" verwart="d">§§ 3</rvolink> und <rvolink abkrvo="BPGG" gldnr="3a" ursprung="p" gldart="PARA" verwart="d">3a</rvolink>), Art und Einschätzung der Gesundheitsschädigung, das sind personenbezogene Daten aus ärztlichen Befunden und Sachverständigengutachten, sowie Art und Höhe von pflegebezogenen Geldleistungen zu übermitteln. </absatz>
+<absatz typ="abs" halign="j">(2) Die Entscheidungsträger (<rvolink abkrvo="BPGG" gldnr="22" ursprung="p" gldart="PARA" verwart="d">§ 22</rvolink>) sind verpflichtet, dem Dachverband der Sozialversicherungsträger auf Verlangen folgende personenbezogene Daten zur automationsunterstützten Besorgung der Statistik der Pflegevorsorge im Einzelfall zu übermitteln: </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>Versicherungsnummer der Bezieher von Pflegegeld und Ordnungsbegriff des Entscheidungsträgers </listelem>
+<listelem>
+<symbol>2.</symbol>Geschlecht der Bezieher von Pflegegeld </listelem>
+<listelem>
+<symbol>3.</symbol>Postleitzahl und Bundesland des Wohnsitzes der Pflegegeldbezieher </listelem>
+<listelem>
+<symbol>4.</symbol>Art der Grundleistung, zu der das Pflegegeld gewährt wird </listelem>
+<listelem>
+<symbol>5.</symbol>Stufe des Pflegegeldes </listelem>
+<listelem>
+<symbol>6.</symbol>Art der Behinderung </listelem>
+<listelem>
+<symbol>7.</symbol>Art und Höhe der anrechenbaren Geldleistung gemäß <rvolink abkrvo="BPGG" gldnr="7" ursprung="p" gldart="PARA" verwart="d">§ 7</rvolink>
+</listelem>
+<listelem>
+<symbol>8.</symbol>Ruhen des Pflegegeldes und Ruhensgrund gemäß <rvolink abkrvo="BPGG" gldnr="12" ursprung="p" gldart="PARA" verwart="d">§ 12</rvolink>
+</listelem>
+<listelem>
+<symbol>9.</symbol>Übergang, Übergangsgrund und Höhe der übergehenden Leistung gemäß <rvolink abkrvo="BPGG" gldnr="13" ursprung="p" gldart="PARA" verwart="d">§ 13</rvolink>
+</listelem>
+<listelem>
+<symbol>10.</symbol>Höhe des Betrages, mit dem das Pflegegeld gemäß <rvolink abkrvo="BPGG" gldnr="20" ursprung="p" gldart="PARA" verwart="d">§ 20</rvolink> durch Sachleistungen ersetzt wurde </listelem>
+<listelem>
+<symbol>11.</symbol>Höhe und Grund der Ausgleichszahlungen gemäß <rvolink abkrvo="BPGG" gldnr="44" ursprung="p" gldart="PARA" verwart="d">§ 44</rvolink>
+</listelem>
+<listelem>
+<symbol>12.</symbol>Höhe der Leistungen bei Auslandsaufenthalt gemäß <rvolink abkrvo="BPGG" gldnr="46" ursprung="p" gldart="PARA" verwart="d">§ 46</rvolink> bzw. <rvolink abkrvo="ASVG" gldnr="500" ursprung="p" gldart="PARA" verwart="d">§ 500</rvolink> <nolink>ASVG</nolink> und Aufenthaltsstaat </listelem>
+<listelem>
+<symbol>13.</symbol>Auszahlungsbetrag der Pflegegelder </listelem>
+<listelem>
+<symbol>14.</symbol>Datum und Art der Anträge </listelem>
+<listelem>
+<symbol>15.</symbol>Datum und Art der Erledigungen</listelem>
+<listelem>
+                <symbol stellen="4">16.</symbol>Betreuungs- und Hilfsmaßnahmen sowie das Gesamtausmaß des festgestellten Pflegebedarfes</listelem><listelem>
+                <symbol stellen="3">17.</symbol>Höhe des Betrages, der gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="18" abs="2an" ursprung="u">§ 18 Abs. 2 an</rvolink> den Empfänger des Kostenersatzes ausbezahlt wird</listelem><listelem>
+                <symbol stellen="4">18.</symbol>ICD 10 Code.</listelem></ziffernliste>
+</liste>
+
+<absatz typ="abs" halign="j">(3) Die Bezirksverwaltungsbehörden, die Ämter der Landesregierungen, die Sozialhilfeverbände, der Fonds Soziales Wien, die Gemeinden, die Abgabenbehörden des Bundes, die öffentlichen und privaten Krankenanstalten, die Krankenfürsorgeanstalten, die privaten stationären Betreuungs- und Pflegeeinrichtungen sowie die gesetzlichen beruflichen Vertretungen der Rechtsanwälte sind verpflichtet, auf begründetes Ersuchen der Entscheidungsträger oder der Gerichte im Ermittlungsverfahren zur Durchführung dieses Bundesgesetzes mitzuwirken, wenn dies im Interesse der Einfachheit, Zweckmäßigkeit und Kostenersparnis gelegen ist. Die Mitwirkungspflicht umfasst auch die Übermittlung von personenbezogenen Daten im Sinne des Abs. 1.</absatz>
+<absatz typ="abs" halign="j">(4) Ist in Angelegenheiten nach diesem Bundesgesetz der in <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="1" ziff="3" ursprung="u">§ 22 Abs. 1 Z 3</rvolink> genannte Entscheidungsträger zuständig, so hat die Bundesrechenzentrum GmbH als Auftragsverarbeiter gemäß <nolink>Art. 4 Z 8</nolink> der Datenschutz-Grundverordnung an der Berechnung und Zahlbarstellung des Pflegegeldes sowie an der Durchführung von Verfahren nach diesem Bundesgesetz mitzuwirken.</absatz>
+<absatz typ="abs" halign="j">(5) Die Ämter der Landesregierungen, der Landesschulrat für Oberösterreich, die Österreichische Post <nolink>AG</nolink>, die Telekom Austria <nolink>AG</nolink> und die Österreichische Postbus <nolink>AG</nolink> sind verpflichtet, der Versicherungsanstalt öffentlich Bediensteter als Entscheidungsträger gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="1" ziff="3" ursprung="u">§ 22 Abs. 1 Z 3</rvolink> sowie der Pensionsversicherungsanstalt als Entscheidungsträger gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="1" ziff="5" ursprung="u">§ 22 Abs. 1 Z 5</rvolink> sämtliche für die Übernahme der Pflegegeldfälle auf Grund des Bundesgesetzes BGBl. I Nr. 58/2011 erforderlichen personenbezogenen Daten in elektronisch verwertbarer Form zeitgerecht zu überlassen.</absatz>
+          <absatz typ="abs" halign="j">(6) Der Dachverband der Sozialversicherungsträger hat zur Fest stellung der Voraussetzungen oder der Höhe einer pflegebezogenen Leistung der Sozialhilfe oder der Bedarfsorientierten Mindestsicherung sowie für das damit im Zusammenhang stehende Kostenerstattungs- und Rückersatzverfahren den Ländern auf Anfrage folgende hiefür erforderliche personenbezogene Daten elektronisch durch eine Abfragemöglichkeit bei der Bundespflegegeld-Datenbank zur Verfügung zu stellen:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Pflegegeldstufe, Anweisungsbetrag der Leistung und Anweisungsmonat,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Beginn der Leistung,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Datum und Grund der Einstellung des Leistungsbezuges.</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">Die beim Dachverband der Sozialversicherungsträger dafür anfallenden Kosten sind von den Ländern zu ersetzen.</schluss>
+          </liste><absatz typ="abs" halign="j">(6a) Der Dachverband der Sozialversicherungsträger ist ermächtigt einmal jährlich, folgende personenbezogene Daten der pflegebedürftigen Person in pseudonymisierter Form unter Verwendung des bPKGH aus der Anwendung Pflegegeldinformation – PFIF an die Gesundheit Österreich GmbH zum Zweck der Planung, Qualitätssicherung und Qualitätsberichtserstattung im österreichischen Gesundheits- und Sozialwesen zur Erfüllung der Aufgaben der Gesellschaft gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" ursprung="u">§ 4</rvolink> des Bundesgesetzes über die Gesundheit Österreich GmbH, BGBl. I Nr. 132/2006, sowie an die Bundesministerin für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz für Zwecke der Statistik als Grundlage zur Planung und Steuerung des österreichischen Gesundheitswesens, zur Qualitätssicherung für wissenschaftliche Zwecke sowie zur Umsetzung von Public-Health-Maßnahmen elektronisch zu übermitteln:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Pflegegeldstufe,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Anzahl der Ruhenstage pro Monat sowie der Grund für das Ruhen (<rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="12" ursprung="u">§ 12</rvolink><nolink> BPGG</nolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Erschwerniszuschlag,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Geburtsjahr,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Geschlecht,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Bundesland,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Übergang des Pflegegeldanspruchs nach <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="13" ursprung="u">§ 13</rvolink><nolink> BPGG</nolink> sowie der Grund für den Übergang nach <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="13" ursprung="u">§ 13</rvolink><nolink> BPGG</nolink>,</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>Information, dass die Person verstorben ist,</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>ICD 10 Code.</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">Die Herstellung eines Personenbezugs bei der Verarbeitung der in diesem Absatz genannten Daten ist untersagt, soweit es nicht für die Erfüllung der vorgesehenen Aufgaben erforderlich ist. Die übermittelten personenbezogenen Daten sind von Gesundheit Österreich GmbH und der Bundesministerin für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz zu löschen, sobald sie für die in diesem Absatz festgelegten Zwecke nicht mehr erforderlich sind, jedoch spätesten nach 15 Jahren.</schlussteil>
+          </liste><absatz typ="abs" halign="j">(7) Die Sozialversicherungsanstalt der Selbständigen ist ermächtigt, personenbezogene Daten gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="33a" abs="3a" ursprung="u">§ 33a Abs. 3a</rvolink><nolink> BPGG</nolink> zum Zweck der Vermeidung einer Unterversorgung der pflegebedürftigen Person an die Entscheidungsträger zu übermitteln.</absatz><absatz typ="abs" halign="j">(8)<i> (Anm.: aufgehoben durch BGBl. I Nr. 32/2026)</i></absatz>
+        </abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

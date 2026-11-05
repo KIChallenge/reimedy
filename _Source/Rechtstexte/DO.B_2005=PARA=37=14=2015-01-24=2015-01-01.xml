@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.B_2005=PARA=37=14=2015-01-24=2015-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.B_2005=PARA=37=14=2015-01-24=2015-01-01" dokidSource="DO.B_2005=PARA=37=23=2008-02-29=2008-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung B für die Ärzte und Dentisten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.B 2005" dokart="DO" titaen="85. Änderung der Dienstordnung B für die Ärzte bei den Sozialversicherungsträgern Österreichs 2005" abkaen="85. Änd DO.B 2005" urheber="Hauptverband" beschdat="2014-12-16" pubdat="2015-01-24" ikra="2015-01-01" sichtbarkeit="p" gldnr="37">
+<uebrecht>
+<rvolink abkrvo="DO.B 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="116" typ="e">§ 116 DO.B 2005</rvolink>
+</uebrecht>
+
+
+<puborgane><puborgan puborg="avsv" nrpuborg="14" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Einreihung der in 
+<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="36" abs="1" ziff="1" ursprung="p">§ 36 Abs. 1 Z 1</rvolink> angeführten Ärzte</ueberschrift>
+<absatz halign="j" typ="abs">
+<gldsym>§ 37.</gldsym> Ärzte, die nicht in Krankenanstalten (<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="6" ursprung="u">§ 1 Abs. 6</rvolink>) beschäftigt sind, sind nach Maßgabe des <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="36" ursprung="u">§ 36</rvolink> nach den Bestimmungen der folgenden Ziffern in Gehaltsgruppe A einzureihen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Der leitende Arzt eines Versicherungsträgers (einer Landesstelle, Landesgeschäftsstelle).</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Bestellte ständige Stellvertreter des leitenden Arztes eines Versicherungsträgers (einer Landesstelle, Landesgeschäftsstelle).</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Fachärzte (§ 31 Abs. 2 ÄrzteG oder § 54 ZÄG).</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Ärzte für Allgemeinmedizin (<nolink>§ 31 Abs. 1</nolink>
+<nolink> ÄrzteG</nolink> 1998).</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Approbierte Ärzte (<nolink>§ 31 Abs. 1</nolink>
+<nolink> ÄrzteG</nolink> 1998).</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Zahnärzte (§ 5 ZÄG).</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

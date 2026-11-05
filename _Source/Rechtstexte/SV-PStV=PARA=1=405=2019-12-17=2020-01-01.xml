@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="SV-PStV=PARA=1=405=2019-12-17=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="SV-PStV=PARA=1=239=2004-06-11=2004-09-12" dokidSource="SV-PStV=PARA=1=239=2004-06-11=2004-09-12">
+<metadaten gldart="PARA" gldsort="70" titrvo="Personenstandsdatenverordnung" abkrvo="SV-PStV" dokart="V" titaen="1. Änderung der Personenstandsdatenverordnung" abkaen="1. Änd SV-PStV" urheber="BMSG" pubdat="2019-12-17" ikra="2020-01-01" sichtbarkeit="p" gldnr="1">
+<anm>Rechtsgrundlage, vgl. 
+<rvolink typ="e" abs="5" gldnr="360" gldsort="70" gldart="PARA" verwart="d" ursprung="u" abkrvo="ASVG">§ 360 Abs. 5 ASVG</rvolink> sowie Erläuterungen vgl.  
+<matlink typ="e" ursprung="u" dokart="EBzV">EBzSV-PStV</matlink>.</anm>
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2004-06-14"/>
+<dfeintrag zeitpunkt="2004-06-15" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-02-11"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="405" begseite="1" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="1" halign="c" typ="para">Gegenstand</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 1.</gldsym> Diese Verordnung regelt den Umfang und die Art der von den Personenstandsbehörden an die Österreichische Gesundheitskasse nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="360" abs="5" ursprung="u">§ 360 Abs. 5</rvolink> ASVG zu übermittelnden Daten sowie deren Verwendung bei den Versicherungsträgern.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

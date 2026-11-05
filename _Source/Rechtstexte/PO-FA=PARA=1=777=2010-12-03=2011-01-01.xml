@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="PO-FA=PARA=1=777=2010-12-03=2011-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="PO-FA=PARA=1=777=2010-12-03=2011-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Prüfungsordnung für die Fachausbildung gemäß § 21c DO.A" abkrvo="PO-FA" dokart="PO" titaen="3. Änderung der Prüfungsordnung für die Fachausbildung gemäß § 21c DO.A" abkaen="3. Änd PO-FA" urheber="DVSV" beschdat="2010-11-16" pubdat="2010-12-03" ikra="2011-01-01" sichtbarkeit="p" gldnr="1" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-07-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-12-18"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-12-18"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="777" jahrgang="2010"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">ABSCHNITT I</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="g2">Struktur der Fachausbildung</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 1.</gldsym> (1) Die Fachausbildung besteht aus zwei Teilen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Der erste Teil der Prüfung (Zulassungsprüfung) umfasst die schriftliche Beantwortung von Prüfungsfragen aus den Prüfungsgegenständen gemäß 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" abs="5" ursprung="u">§ 9 Abs. 5</rvolink>.</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Der zweite Teil der Fachausbildung besteht aus einem Grundseminar, Förderkursen, Workshops, einem Intensivseminar und endet mit einer schriftlichen Haus- oder Klausurarbeit und mit einer darauf folgenden mündlichen Abschlussprüfung.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Voraussetzung für die Zulassung zum ersten Teil der Fachausbildung (Zulassungsprüfung) ist, soweit nicht <rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="21a" abs="4" ursprung="u">§ 21a Abs. 4</rvolink> <nolink>DO.A</nolink> anzuwenden ist, die erfolgreiche Ablegung der A-Prüfung, der Grundschulung mit Abschlussprüfung oder der Grundausbildung mit Abschlussprüfung.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Voraussetzung für die Zulassung zum zweiten Teil der Fachausbildung ist die erfolgreiche Ablegung des ersten Teils der Fachausbildung oder des ersten Teils der allgemeinen Fachausbildung (<rvolink abkrvo="PO-AFA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="8" abs="5" ursprung="u">§ 8 Abs. 5</rvolink> PO-AFA).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Prüfungen sind nicht öffentlich.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

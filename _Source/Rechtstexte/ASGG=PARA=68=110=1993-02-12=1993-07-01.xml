@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASGG=PARA=68=110=1993-02-12=1993-07-01"><rvo dokidCms="ASGG=PARA=68=110=1993-02-12=1993-07-01">
+<metadaten pubdat="1993-02-12" abkaen="BPGG StF" dokart="BG" titaen="BundespflegegeldG Stammfassung" abkrvo="ASGG" sichtbarkeit="p" ikra="1993-07-01" fassung="4" gldnr="68" titrvo="Arbeits- und Sozialgerichtsgesetz" urheber="Bund" beschdat="1993-01-19" berkz="OV; RSP;" gldart="PARA" indbr="14.02.2017" gldsort="70">
+<anm>Diese Fassung wurde auf Grund der Änderung des ASGG § 68  im Rahmen des Bundespflegegeldgesetzes, BGBl.Nr.110/1993, erstellt.</anm>
+<aendprot>
+<dfeintrag perskz="Altdaten" zeitpunkt="2001-07-08"/>
+<dfeintrag zeitpunkt="2003-06-05" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2003-06-05"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2006-10-18"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." nrpuborg="110" jahrgang="1993"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift typ="para" halign="c" level="4"/>
+<absatz typ="abs" halign="j">
+<gldsym>§ 68.</gldsym> (1) Hat der Versicherungsträger in den Fällen des 
+<rvolink abkrvo="ASVG" gldnr="362" ursprung="p" gldart="PARA" verwart="d">§ 362</rvolink> ASVG den Antrag zurückgewiesen und vermag der Versicherte dem Gericht eine wesentliche Änderung des zuletzt festgestellten Gesundheitszustandes glaubhaft zu machen, so hat es das gerichtliche Verfahren ohne Rücksicht auf den 
+<rvolink abkrvo="ASGG" gldnr="67" abs="1" ziff="1" ursprung="p" gldart="PARA" verwart="d">§ 67 Abs. 1 Z 1</rvolink> durchzuführen und in der Sache selbst zu entscheiden. Der 
+<rvolink abkrvo="ASGG" gldnr="67" abs="2" ursprung="p" gldart="PARA" verwart="d">§ 67 Abs. 2</rvolink> ist sinngemäß anzuwenden.</absatz>
+<absatz typ="abs" halign="j">(2) Hat ein Versicherungsträger in den Fällen des <rvolink abkrvo="BPGG" gldnr="25" abs="2" ursprung="p" gldart="PARA" verwart="d">§ 25 Abs. 2</rvolink> BPGG den Antrag zurückgewiesen und vermag der Versicherte dem Gericht eine wesentliche Änderung der Anspruchsvoraussetzungen glaubhaft zu machen, so ist der Abs. 1 sinngemäß anzuwenden.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

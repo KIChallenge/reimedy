@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=96=21.181=1999-07-21=2000-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=96=21.181=1999-07-21=2000-01-01">
+<metadaten gldnr="96" ikra="2000-01-01" pubdat="1999-07-21" abkaen="Kunsttext 32. Änd RechnVorschr SV" titaen="Gesamtstand idF 32. Änderung der Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Hauptverband - Rechnungsvorschriften RV" sichtbarkeit="p" berkz="OV;" urheber="BMSG" dokart="Weisung" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2003-04-07" perskz="schaff"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-13"/>
+</aendprot>
+<puborgane><puborgan puborg="Erlass" nrpuborg="21.181" jahrgang="1999"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">ABGRENZUNG DER KOSTENSTELLEN DER EIGENEN EINRICHTUNGEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 96.</gldsym>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">I.</symbol>Allgemeine Kostenstellen</listelem>
+</ziffernliste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Leitung</listelem>
+</ziffernliste>
+<schluss typ="Lit">Hierunter fallen die Kosten der ärztlichen Leitung, der Pflegedienstleitung und der Verwaltungsleitung einschließlich der Kosten der Sekretariate des ärztlichen Leiters und des Verwaltungsleiters.</schluss>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">2.</symbol>Verwaltung</listelem>
+</ziffernliste>
+<schluss typ="Lit">Hierunter fallen die Kosten der Krankenhauskanzlei (Kanzlei der eigenen Einrichtung) einschließlich der Kosten aller Verwaltungsangestellten im medizinischen Bereich (Schreibdienst im medizinischen Bereich, Verrechnung, Datenkontrolle, Archivierung, Statistik usw.).</schluss>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">3.</symbol>Wäscheversorgung</listelem>
+</ziffernliste>
+<schluss typ="Lit">Hierunter fallen auch die Kosten für Wäschereinigung.</schluss>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">4.</symbol>Reinigungsdienst</listelem>
+</ziffernliste>
+<schluss typ="Lit">Hierunter fallen z.B. die Kosten für die Gebäudereinigung.</schluss>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">5.</symbol>Gebäude und Grundstücke</listelem>
+</ziffernliste>
+<schluss typ="Lit">Hierunter fallen die Kosten für die Bereitstellung von Räumlichkeiten, die der Gesamtversorgung des Betriebes dienen, bzw. ausschließlich dem Personal zur Verfügung stehen - jedoch ohne direkten Zusammenhang mit der Leistungserstellung (Stations- bzw. Ambulanzbetrieb) - und anderen Kostenstellen nicht direkt zugerechnet werden können (z.B. Eingangshalle, Gänge, Stiegen, Aufzüge, Buffeträumlichkeiten, Personalspeiseraum, Personalgarderoben, Sanitärräume für Personal) sowie die Kosten für die Betreuung der Liegenschaft (Außenanlagen; insbesondere Garten- und Sportstättenpflege, Schneeräumung usw.).</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">II.</symbol>Hauptkostenstellen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die Kosten für die im 
+<rvolink ursprung="u" gldnr="95" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§ 95</rvolink> angeführten Hauptkostenstellen.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="4">III.</symbol>Hilfskostenstellen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die Kosten für die im 
+<rvolink ursprung="u" gldnr="95" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§ 95</rvolink> angeführten Hilfskostenstellen.</schluss>
+<schluss typ="Ziff">Für die Hilfskostenstellen Diagnostik und Therapie (
+<rvolink ursprung="u" abs="3" gldnr="95" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§ 95 Abs. 3</rvolink>, Abschn. 111) gilt nachstehende Abgrenzung:</schluss>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">1.</symbol>Unter Diagnostik sind u.a. nachstehende einzelne Kostenstellen zu erfassen:</listelem>
+</ziffernliste>
+<schluss typ="Lit">Kreislauf- und Lungenuntersuchung (EKG), Labor, Endoskopie, Ultraschalluntersuchung, Röntgen- und Nuklearmedizin, Radiologie, Anästhesie, sonstiger Untersuchungsbereich.</schluss>
+<ziffernliste ebene="2">
+<listelem>
+<symbol stellen="2">2.</symbol>Unter Therapie sind nachstehende einzelne Kostenstellen zu erfassen: </listelem>
+</ziffernliste>
+<schluss typ="Lit">Heilmittellager (Apotheke), Sterilisation, Beschäftigungstherapie, lntensivstation, medizinische Versorgung, Bewegungstherapie, Orthopädie, Physiotherapie, Hydro-(Balneo-)Therapie, Sprachtherapie, Psychotherapie, Freizeitbereich.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="3">IV.</symbol>Nebenkostenstellen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die Kosten für die im 
+<rvolink ursprung="u" gldnr="95" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§ 95</rvolink> angeführten Nebenkostenstellen.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

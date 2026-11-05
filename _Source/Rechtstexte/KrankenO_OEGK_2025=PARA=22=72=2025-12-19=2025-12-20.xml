@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_OEGK_2025=PARA=22=72=2025-12-19=2025-12-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2025_0072_1766398362055">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Österreichischen Gesundheitskasse 2025" abkrvo="KrankenO OEGK 2025" dokart="KrankenO" titaen="Krankenordnung der Österreichischen Gesundheitskasse 2025 Stammfassung" abkaen="KrankenO OEGK 2025 StF" urheber="ÖGK" beschdat="2025-12-09" pubdat="2025-12-19" ikra="2025-12-20" sichtbarkeit="p" gldart="PARA" gldnr="22" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="72" jahrgang="2025">avsv   Nr. 72/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Ergotherapie</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 22.</gldsym> (1) Ergotherapeutische Behandlungen können durch Vertragsergotherapeuten/Vertragsergotherapeutinnen iSd <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="135" abs="1" ziff="1" ursprung="u">§ 135 Abs. 1 Z 1</rvolink><nolink> ASVG</nolink> (in eigenen Einrichtungen sowie durch andere zur Durchführung dieser Behandlungen berechtigte Vertragspartner/Vertragspartnerinnen), über Verordnung (Zuweisung) durch</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="3">1. </symbol>eine/n Vertragsärztin/Vertragsarzt für Allgemeinmedizin,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>eine/n Vertragsfachärztin/Vertragsfacharzt,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>eine nach Ziffer 1 bis 2 entsprechende eigene Einrichtung der Österreichischen Gesundheitskasse,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>eine nach Ziffer 1 bis 2 entsprechende Vertrags-Gruppenpraxis oder Vertragseinrichtung der Österreichischen Gesundheitskasse</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">auf Rechnung der Österreichischen Gesundheitskasse in Anspruch genommen werden.</schlussteil>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Wird die Behandlung von Personen, welche zur freiberuflichen Ausübung des ergotherapeutischen Dienstes berechtigt sind, aber keinen Vertrag mit der Österreichischen Gesundheitskasse haben, erbracht, erstattet die Österreichische Gesundheitskasse dem/der Versicherten (Angehörigen) Kosten nach <rvolink abkrvo="Satzung OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="23" ursprung="u">§ 23</rvolink> der Satzung, sofern eine ärztliche Verordnung (Zuweisung) nach Abs. 1 vorliegt. Selbiges gilt auch für <rvolink abkrvo="VAEisenbKrankenO" verwart="d" typ="e" gldart="KEIN" gldsort="0" ursprung="u">Kostenzuschüsse</rvolink> nach der Satzung (<rvolink abkrvo="Satzung OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="38" ursprung="u">§ 38</rvolink> iVm <rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="ANH" gldsort="150" gldnr="7" ursprung="u">Anhang 7</rvolink>).</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

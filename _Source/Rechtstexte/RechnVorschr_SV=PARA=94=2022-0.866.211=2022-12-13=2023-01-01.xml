@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=94=2022-0.866.211=2022-12-13=2023-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=94=2022-0.866.211=2022-12-13=2023-01-01" dokidSource="RechnVorschr_SV=PARA=94=21.181=2002-11-20=2003-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMSGPK" sichtbarkeit="p" titaen="54. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="54. Änd RechnVorschr SV" pubdat="2022-12-13" ikra="2023-01-01" gldnr="94" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2022-0.866.211" jahrgang="2022"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">ABGRENZUNG DER KOSTENARTEN DER EIGENEN EINRICHTUNGEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 94.</gldsym> (1) Personalkosten</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Verwaltungspersonal</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hierunter angeführten Kosten entsprechen den Bezügen nach der 
+<nolink>DO.A</nolink> und der EDO.Ang. ohne ärztliches Hilfspersonal.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Ärzte, Dentisten und Pharmazeuten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hierunter angeführten Kosten entsprechen den Bezügen nach der 
+<nolink>DO.B</nolink> für Ärzte und Dentisten bzw. nach der 
+<nolink>DO.A</nolink> für Pharmazeuten.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Pflege- und ärztliches Hilfspersonal</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hierunter angeführten Kosten entsprechen den Bezügen nach der 
+<rvolink abkrvo="DO.A" verwart="d" typ="e" gldsort="0" ursprung="u">DO.A</rvolink> (ärztliches Hilfspersonal, z.B. Schwestern) und der 
+<rvolink abkrvo="DO.C" verwart="d" typ="e" gldsort="0" ursprung="u">DO.C</rvolink> (Sanitätshilfsdienst, z.B. Krankenträger, Operationsgehilfen).</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>Haus- und sonstiges Personal</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hierunter angeführten Kosten entsprechen den Bezügen nach der 
+<rvolink abkrvo="DO.C" verwart="d" typ="e" gldsort="0" ursprung="u">DO.C</rvolink>, ausgenommen Sanitätshilfsdienst.</schluss>
+</liste>
+<absatz typ="abs" halign="j">(2) Medizinische Kosten und Verpflegung</absatz>
+<liste>
+<schluss typ="Ziff">Hierunter sind jene Kosten zu verstehen, die Aufwendungen im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="11" ursprung="u">§ 11</rvolink> Abschn. I Z 3 sind. Unter der Post „Bäder“ sind nur solche zu verstehen, die außerhalb der eigenen Einrichtungen verabreicht werden.</schluss>
+</liste>
+<absatz typ="abs" halign="j">(3) Außerordentliche Kosten </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Pensionen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter sind jene Kosten zu verstehen, die Aufwendungen im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="11" ursprung="u">§ 11</rvolink> Abschn. I Z 1 lit. f sind.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Abfertigungen und Sterbegelder</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter sind jene Kosten zu verstehen, die Aufwendungen im Sinne des 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="11" ursprung="u">§ 11</rvolink> Abschn. I Z 1 lit. g sind.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Sonstige a. o. Kosten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Unter dieser Position ist z.B. die Dienstgeberabgabe für Zwecke der Finanzierung der Errichtung der Untergrundbahn (LGBl. für Wien, Nr. 17 vom 15. Dezember 1969) nachzuweisen.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

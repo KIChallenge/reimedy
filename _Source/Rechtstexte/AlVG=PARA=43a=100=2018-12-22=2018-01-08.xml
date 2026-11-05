@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AlVG=PARA=43a=100=2018-12-22=2018-01-08" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AlVG=PARA=43a=136=2004-12-10=2005-01-01" dokidSource="AlVG=PARA=43a=136=2004-12-10=2005-01-01">
+<metadaten gldnr="43a" ikra="2018-01-08" pubdat="2018-12-22" abkaen="SV-OG" titaen="Sozialversicherungs-OrganisationsG" sichtbarkeit="p" urheber="Bund" dokart="BG" abkrvo="AlVG" titrvo="Arbeitslosenversicherungsgesetz" gldsort="70" gldart="PARA" beschdat="2018-12-13" nichtanzeigen="n">
+<uebrecht>
+<rvolink typ="e" abs="78" gldnr="79" gldsort="70" gldart="PARA" verwart="d" ursprung="u" abkrvo="AlVG">§ 79 Abs. 78 AlVG</rvolink>
+</uebrecht>
+<anm>Mit dem Bundesministeriengesetz 2000, BGBl. I Nr. 16/2000 wurde festgelegt, dass die Angelegenheiten der Arbeitslosenversicherung ab 1. 4. 2000 in den Wirkungsbereich des Bundesministeriums für Wirtschaft und Arbeit fallen ( Abschnitt L  des Teiles 2 der Anlage zu § 2).</anm>
+<aendprot>
+<dfeintrag zeitpunkt="2004-02-11" perskz="polzer"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-20"/>
+<dfeintrag zeitpunkt="2004-06-02" perskz="glueck"/>
+<dfeintrag perskz="polzer" zeitpunkt="2004-07-26"/>
+<dfeintrag zeitpunkt="2004-07-26" perskz="polzer"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-12-27"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="100" begseite="149" jahrgang="2018"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Ohne Titel - (Abgeltung des Aufwandes der Krankenversicherungsträger)</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 43a.</gldsym> (1) Zur Abgeltung des Aufwandes der Träger der Krankenversicherung auf Grund des 
+<rvolink ursprung="u" lit="b" ziff="2" abs="2" gldnr="122" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 122 Abs. 2 Z 2 lit. b</rvolink> des 
+<nolink>Allgemeinen Sozialversicherungsgesetzes</nolink> und des 
+<rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="40" abs="3" ursprung="u">§ 40 Abs. 3</rvolink> ist aus Mitteln der Arbeitslosenversicherung für jeweils ein Kalenderjahr bis spätestens Ende Feber des darauffolgenden Jahres an den jeweils zuständigen Träger der Krankenversicherung ein Betrag zu entrichten, der vom Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz unter Heranziehung folgender Kriterien zu berechnen ist:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Zahl der Tage gemäß 
+<rvolink ursprung="p" lit="b" ziff="2" abs="2" gldnr="122" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 122 Abs. 2 Z 2 lit. b</rvolink>
+<nolink>ASVG</nolink> auf der Grundlage der Bescheide nach 
+<rvolink ursprung="u" gldnr="10" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="AlVG">§§ 10</rvolink>, 
+<rvolink ursprung="u" gldnr="11" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="AlVG">11</rvolink> und 
+<rvolink ursprung="u" abs="2" gldnr="25" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="AlVG">25 Abs. 2</rvolink> und der Tage gemäß 
+<rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="40" abs="3" ursprung="p">§ 40 Abs. 3</rvolink>,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>tägliche Beitragsgrundlage gemäß 
+<rvolink ursprung="u" lit="c" abs="6" gldnr="44" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 44 Abs. 6 lit. c</rvolink> des Allgemeinen Sozialversicherungsgesetzes und</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>davon der Beitrag gemäß 
+<rvolink ursprung="p" lit="f" ziff="1" abs="1" gldnr="51" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 51 Abs. 1 Z 1 lit. f</rvolink> des Allgemeinen Sozialversicherungsgesetzes.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Abs. 1 gilt sinngemäß zur Abgeltung des Aufwandes der Träger der Krankenversicherung auf Grund des <rvolink ursprung="u" ziff="3" abs="2" gldnr="122" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 122 Abs. 2 Z 3</rvolink> des Allgemeinen Sozialversicherungsgesetzes.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

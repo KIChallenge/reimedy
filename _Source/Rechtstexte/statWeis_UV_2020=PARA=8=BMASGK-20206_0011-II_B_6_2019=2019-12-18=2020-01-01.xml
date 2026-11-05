@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="statWeis_UV_2020=PARA=8=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="statWeis_UV_2020=PARA=8=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen der Unfallversicherungsträger 2020" abkrvo="statWeis UV 2020" dokart="Weisung" titaen="Statistische Weisungen für die Unfallversicherung 2020 StF" abkaen="statWeis UV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="8">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0011-II/B/6/2019">Erlass   Nr. BMASGK-20206/0011-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Unfall-Statistik</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 8.</gldsym> (1) Die Unfallstatistik hat a) die im Berichtsjahr statistisch erfassten anerkannten Arbeitsunfälle (Dienstunfälle) und Berufskrankheiten für die Versichertenkategorien I (unselbständig Erwerbstätige), II (selbständig Erwerbstätige) und IIIb (sonstige im Schadensfall geschützte Personen) sowie b) die im letzten abgeschlossenen Schuljahr (Studienjahr) eingetretenen Arbeitsunfälle für die Versichertenkategorie IIIa (Schüler und Studenten) zu umfassen.</absatz>
+          <absatz typ="abs" halign="j">(2) Im Rahmen der Unfall-Statistik sind die folgenden Statistiken zu erstellen:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Arbeitsunfälle nach Tätigkeiten, Abweichung, Kontakt (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="9" ursprung="u">§ 9</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Schüler- und Studentenunfälle (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="10" ursprung="u">§ 10</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Arbeitsunfälle nach Altersgruppen und Geschlecht (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="11" ursprung="u">§ 11</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Berufskrankheiten (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="12" ursprung="u">§ 12</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Anerkannte Versicherungsfälle nach Kategorien und Geschlecht (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="13" ursprung="u">§ 13</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Anerkannte Versicherungsfälle nach Bundesländern (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="14" ursprung="u">§ 14</rvolink>)</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=1=106=2006-10-13=2006-11-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="1. Änderung der Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkaen="1. Änd KrankenO GKK Burgenland 2005" urheber="GKK Bgl" beschdat="2006-08-29" pubdat="2006-10-13" ikra="2006-11-01" sichtbarkeit="p" gldnr="1" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-10-17"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="106" jahrgang="2006"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="c">
+<b>Sprachliche Gleichbehandlung</b>
+</absatz>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">Soweit in dieser Krankenordnung personenbezogene Bezeichnungen nur in männlicher Form angeführt sind, beziehen sie sich auf Frauen und Männer in gleicher Weise. Bei der Anwendung auf bestimmte Personen ist die jeweils geschlechtsspezifische Form zu verwenden.</absatz>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">1. Abschnitt 
+<br/>Ärztliche Hilfe und gleichgestellte Leistungen 
+<br/>(
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="135" ursprung="p">§ 135</rvolink>
+<nolink>ASVG</nolink>)</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="g2">1. Unterabschnitt 
+<br/>Ärztliche Hilfe</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Allgemeines</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 1. </gldsym>(1) Ärztliche Hilfe wird von der Kasse durch</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vertragsärzte,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Vertrags-Gruppenpraxen,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>eigene Einrichtungen (z.B. Ambulatorien),</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Vertragseinrichtungen,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Wahlärzte,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Wahl-Gruppenpraxen oder</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Wahleinrichtungen</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">geleistet, soweit sie ausreichend und zweckmäßig ist sowie das Maß des Notwendigen nicht überschreitet. Wahlarzt ist jeder freiberuflich tätige Arzt, der mit der Kasse keinen Vertrag über die Sachleistungsverrechnung (Abs. 2) abgeschlossen hat. Wahl-Gruppenpraxis ist jede Gruppenpraxis, die mit der Kasse keinen Vertrag über die Sachleistungensverrechnung nach Abs. 2 abgeschlossen hat. Wahleinrichtung ist eine behördlich bewilligte Einrichtung, die mit der Kasse keinen Vertrag über die Sachleistungsverrechnung (Abs. 2) abgeschlossen hat.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Ärztliche Hilfe als Sachleistung wird nach <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="u">§ 5</rvolink>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>bei einem Vertragsarzt,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>bei einer Vertrags-Gruppenpraxis,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>bei einer Vertragseinrichtung,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>in einer eigenen Einrichtung</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">durch direkte Verrechnung der erbrachten Leistung zwischen dem Vertragspartner (eigener Einrichtung) und der Kasse erbracht.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Bei ärztlicher Hilfe durch einen Wahlarzt, eine Wahl-Gruppenpraxis oder eine Wahleinrichtung werden die Kosten, die dem Anspruchsberechtigten für die Leistung erwachsen, nach den <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="28" bereich="F" ursprung="u">§§ 28 ff.</rvolink> erstattet.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) In einem Kalendervierteljahr können nicht</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>mehrere Vertragsärzte für Allgemeinmedizin oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>mehrere Vertragsfachärzte des gleichen Fachgebietes</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">auf Rechnung der Kasse in Anspruch genommen werden, ausgenommen die Fälle, in denen nach 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5b" ursprung="u">§ 5b</rvolink> etwas anderes bestimmt ist.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

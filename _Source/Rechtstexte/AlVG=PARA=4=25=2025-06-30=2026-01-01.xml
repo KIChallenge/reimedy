@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AlVG=PARA=4=25=2025-06-30=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AlVG=PARA=4=104=2007-12-28=2009-01-01" dokidSource="AlVG=PARA=4=104=2007-12-28=2009-01-01">
+<metadaten titrvo="Arbeitslosenversicherungsgesetz" abkrvo="AlVG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="Budgetbegleitgesetz 2025" abkaen="BudgetbegleitG 2025" pubdat="2025-06-30" ikra="2026-01-01" gldart="PARA" gldnr="4" gldsort="70" beschdat="2025-06-16" nichtanzeigen="n">
+
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2004-02-11"/>
+<dfeintrag zeitpunkt="2004-02-20" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2004-06-02"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="25" begseite="31" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Meldungen zur Arbeitslosenversicherung</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 4.</gldsym> (1) Dienstgeber sowie gemäß <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3" ursprung="u">§ 3</rvolink> in die Arbeitslosenversicherung einbezogene Personen sind verpflichtet, dem zuständigen Sozialversicherungsträger alle für die Durchführung der Arbeitslosenversicherung maßgebenden Daten mitzuteilen.</absatz>
+<absatz typ="abs" halign="j">(2) Die arbeitslosenversicherungspflichtig beschäftigte Person hat die gemäß Abs. 1 vorgeschriebenen Meldungen zu erstatten, wenn</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>der Dienstgeber die Vorrechte der Exterritorialität genießt oder wenn dem Dienstgeber im Zusammenhang mit einem zwischenstaatlichen Vertrag oder der Mitgliedschaft Österreichs bei einer internationalen Organisation besondere Privilegien oder Immunitäten eingeräumt sind oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>der Dienstgeber im Inland keine Betriebsstätte (Niederlassung, Geschäftsstelle, Niederlage) hat und für diesen keine Meldepflicht besteht.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(3) Die An- und Abmeldungen arbeitslosenversicherungspflichtiger Personen zur gesetzlichen Krankenversicherung gelten auch als Meldungen zur Arbeitslosenversicherung.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

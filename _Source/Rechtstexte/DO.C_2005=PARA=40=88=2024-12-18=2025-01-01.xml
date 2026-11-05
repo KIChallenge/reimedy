@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.C_2005=PARA=40=88=2024-12-18=2025-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.C_2005=PARA=40=19=2016-02-11=2016-01-01" dokidSource="DO.C_2005=PARA=40=19=2016-02-11=2016-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.C 2005" dokart="DO" titaen="98. Änderung der Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkaen="98. Änd DO. C 2005" urheber="DVSV" beschdat="2024-12-17" pubdat="2024-12-18" ikra="2025-01-01" sichtbarkeit="p" gldnr="40" nichtanzeigen="n">
+<uebrecht>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="111" typ="e">§ 111 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="114" typ="e">§ 114 DO.C 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-29"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-02-07"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="88" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Vorarbeiterzulage</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 40.</gldsym> (1) Arbeiter:innen, denen die Aufsicht über drei oder mehr zugeteilte Arbeitskräfte ausdrücklich durch mindestens einen Monat ununterbrochen übertragen ist, gebührt eine Vorarbeiterzulage im Ausmaß der von 7,5 % bis 15 % der jeweiligen ständigen Bezüge gemäß <rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34" abs="2" ziff="1" ursprung="u">§ 34 Abs. 2 Z 1</rvolink>.</absatz>
+
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Eine Vorarbeiterzulage im Ausmaß der in Abs. 1 angeführten Prozentsätze gebührt auch Arbeitern, denen die Aufsicht über fünf oder mehr zugeteilte Arbeitskräfte ausdrücklich für die Dauer der Vertretung von Vorarbeitern übertragen ist, wenn</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>nicht ohnehin Anspruch auf Vorarbeiterzulage gemäß Abs. 1 besteht;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Vertretung innerhalb eines Kalenderjahres insgesamt mindestens 18 Arbeitstage dauert;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>aus der Vertretung nicht ein Anspruch auf Verwendungszulage gemäß <rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="42" abs="1" ursprung="u">§ 42 Abs. 1</rvolink> oder auf vorübergehende Einreihung gemäß <rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="35" abs="4" ursprung="u">§ 35 Abs. 4</rvolink> erwächst.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">Der Prozentsatz ist im Einzelfall vom Versicherungsträger nach Maßgabe des gemäß Abs. 1 jeweils in Betracht kommenden Rahmens festzusetzen.</absatz>
+<absatz halign="j" typ="abs">(3) Die Bestellung in Funktionen, für die eine Vorarbeiterzulage gemäß Abs. 1 gebührt, kann in begründeten Fällen für maximal ein Jahr zur Probe vorgenommen werden.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

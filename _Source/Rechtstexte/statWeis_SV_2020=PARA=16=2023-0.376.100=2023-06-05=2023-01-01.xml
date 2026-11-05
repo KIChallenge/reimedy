@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="statWeis_SV_2020=PARA=16=2023-0.376.100=2023-06-05=2023-01-01"><rvo dokidCms="statWeis_SV_2020=PARA=16=2023-0.376.100=2023-06-05=2023-01-01" dokidSource="statWeis_SV_2020=PARA=16=20206/0015-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020" abkrvo="statWeis SV 2020" dokart="Weisung" titaen="2. Änderung der Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020" abkaen="2. Änd statWeis SV 2020" urheber="BMASGK" pubdat="2023-06-05" ikra="2023-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="16" berkz="KVL; ">
+        
+      <puborgane><puborgan puborg="Erlass" nrpuborg="2023-0.376.100" jahrgang="2023"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1"> Pflegegeldstatistik - Ergänzende Auswertungen zu den Anspruchsberechtigten </ueberschrift><absatz typ="abs" halign="j">
+            <gldsym>§ 16.</gldsym> (1) Die Anspruchsberechtigten sind je Bundesland nach Pflgeggeldstufe und Geschlecht auszuwerten. </absatz>
+          <absatz typ="abs" halign="j">(2) Die Anspruchsberechtigten der unten angeführten Gruppen sind nach Entscheidungsträger, Pflegegeldstufe und Geschlecht auszuwerten:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Anrechenbare Geldleistung gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="7" ursprung="u">§ 7</rvolink><nolink> BPGG</nolink></listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Ruhen des Pflegegeldanspruches gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="12" ursprung="u">§ 12</rvolink><nolink> BPGG</nolink></listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Übergang des Pflegegeldanspruches gem. <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="13" ursprung="u">§ 13</rvolink><nolink> BPGG</nolink></listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Ausgleichszahlung</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol><i>(aufgehoben durch Erlass 2023-0.376.100)</i></listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

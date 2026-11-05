@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="statWeis_SV_2020=PARA=5=20206/0015-II/B/6/2019=2019-12-18=2020-01-01"><rvo dokidCms="statWeis_SV_2020=PARA=5=20206/0015-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020" abkrvo="statWeis SV 2020" dokart="Weisung" titaen="Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020 (Neufassung) StF " abkaen="statWeis SV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="5" berkz="KVL; ">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="20206/0015-II/B/6/2019">Erlass   Nr. 20206/0015-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Beitragsgrundlagenstatistik nach Lohnstufen und Alter</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 5.</gldsym> (1) Es sind sowohl die Versicherungstage als auch die Personen in Lohnstufen und Alter einzureihen. Die Betragsgruppen sind mit je 60 Euro zu staffeln, wobei die erste Betragsgruppe den Bereich bis 90 Euro umfasst. Das Alter ergibt sich als Differenz zwischen Berichtsjahr und Geburtsjahr.</absatz>
+          <absatz typ="abs" halign="j">(2) Zu erfassen sind alle Versicherungstage bzw. die Anzahl der Personen der jeweiligen Personengruppe - siehe Absatz (3) – eines Jahres, für die eine Tagesbeitragsgrundlage vorgesehen ist.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Formulare sind für folgende Personengruppen zu erstellen:</absatz>
+          <liste>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Beitragszeit Pflichtversicherung ASVG Arbeiter</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Beitragszeit Pflichtversicherung <nolink>ASVG</nolink> Angestellter</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Beitragszeit Pflichtversicherung GSVG/FSVG</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Beitragszeit Pflichtversicherung <nolink>BSVG</nolink></listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Freie DienstnehmerInnen nach <rvolink ursprung="u" abkrvo="ASVG" verwart="d" gldart="PARA" gldsort="80" gldnr="4" abs="4" typ="e">§ 4 Abs. 4</rvolink> ASVG</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Freiwillige Versicherungen (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="16a" ursprung="u">§§ 16a</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="17" ursprung="u">17</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="18a" ursprung="u">18a</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="18b" ursprung="u">18b</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="19a" ursprung="u">19a</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="12" ursprung="u">§ 12</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="9" ursprung="u">§ 9</rvolink><nolink> BSVG</nolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">g)</symbol>Nach den jeweiligen Zeiten der Teilversicherung in der Pensionsversicherung (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="8" abs="1" ziff="2" ursprung="u">§ 8 Abs. 1 Z 2</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="3" abs="3" ursprung="u">§ 3 Abs. 3</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="4a" abs="1" ursprung="u">§ 4a Abs.1</rvolink><nolink> BSVG</nolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">h)</symbol>Pensionsvorschuss</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(4) Die Auswertungen sind getrennt nach Geschlecht sowie für Versicherungstage und Personen zu erstellen. Bei Personengruppen mit Sonderzahlungen sind die Auswertungen sowohl mit als auch ohne Einbeziehung der Sonderzahlungen zu erstellen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="Satzung_PI_Linz_AG_2024=PARA=61=71=2024-10-28=2024-10-29"><rvo dokidCms="Satzung_PI_Linz_AG_2024=PARA=61=71=2024-10-28=2024-10-29">
+      <metadaten nichtanzeigen="n" titrvo="Satzung des Pensionsinstitutes der Linz AG 2024" abkrvo="Satzung PI Linz AG 2024" dokart="Satzung" titaen="Satzung des Pensionsinstitutes der Linz AG 2024 StF" abkaen="Satzung PI Linz AG 2024 StF" urheber="PI Linz" beschdat="2024-10-09" pubdat="2024-10-28" ikra="2024-10-29" sichtbarkeit="p" gldart="PARA" gldnr="61" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="71" jahrgang="2024">avsv   Nr. 71/2024 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Versicherungstechnische Bilanz</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 61.</gldsym> (1) Durch den Aktuar (<rvolink abkrvo="Satzung PI Linz AG 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="17" ursprung="u">§ 17</rvolink>) ist zum 31. Dezember eines jeden Jahres eine versicherungstechnische Bilanz zu erstellen. Diese ist in regelmäßigen Abständen, mindestens jedoch alle drei Jahre, vom Prüfaktuar (<rvolink abkrvo="Satzung PI Linz AG 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="18" ursprung="u">§ 18</rvolink>) zu überprüfen.</absatz>
+          <absatz typ="abs" halign="j">(2) Die den Rücklagen zugeordneten Vermögenswerte sind mit folgenden Werten anzusetzen:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Auf einen festen Geldbetrag lautende Forderungen dürfen, soweit in Z 3 nichts anderes bestimmt ist, höchstens zum Nennwert angesetzt werden.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Aktiva in fremder Währung sind mit dem Devisen-Mittelkurs anzusetzen.</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Auf den Inhaber lautende Schuldverschreibungen, in denen die Zahlung einer bestimmten Geldsumme versprochen wird (Teilschuldverschreibungen, Pfandbriefe, Kommunalschuldverschreibungen und fundierte Bankschuldverschreibungen), Aktien, Wertpapiere über Partizipationskapital im Sinne des <nolink>§ 23 Abs. 4</nolink> BWG oder <nolink>§ 73c Abs. 1</nolink> VAG in den jeweils gültigen Fassungen, über Ergänzungskapital im Sinne des <nolink>§ 23 Abs. 7</nolink> BWG oder <nolink>§ 73c Abs. 2</nolink> VAG in den jeweils gültigen Fassungen, über Genussrechte und über Optionsrechte und Genussscheine gemäß <nolink>§ 6</nolink> Beteiligungsfondsgesetz in der jeweils gültigen Fassung sind mit dem jeweiligen Börsenkurs oder dem jeweiligen Preis am anerkannten Wertpapiermarkt anzusetzen.</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Auf den Inhaber lautende Schuldverschreibungen, in denen die Zahlung einer bestimmten Geldsumme versprochen wird, sind entgegen Z 3 dann mit dem vereinbarten Tilgungskurs für die frühestmögliche Tilgung anzusetzen, wenn der Verwaltungsrat des Pensionsinstitutes beschließt, die Schuldverschreibung zumindest bis zum Zeitpunkt der frühestmöglichen Tilgung so lange nicht zu veräußern, als der Tageskurs niedriger ist als der vereinbarte Tilgungskurs. Ist der Einstandskurs niedriger als der Tilgungskurs, so ist die Kursdifferenz linear auf die Restlaufzeit zu verteilen und die Bewertung entsprechend anzupassen, sofern der Tageskurs nicht höher ist als der errechnete Wert. Die Restlaufzeit der Schuldverschreibung darf zum Zeitpunkt des Rechnungsabschlusses maximal 30 Jahre betragen. Diese Bewertung ist nur für die Dauer der unveränderten Bonität des Emittenten zulässig.</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Anteilsscheine von Kapitalanlagefonds sind mit dem Rückgabepreis im Sinne des <nolink>§ 10 Abs. 2</nolink> <nolink>InvFG</nolink> 1993 in der jeweils gültigen Fassung oder vergleichbarer Regelungen in den OECD-Mitgliedstaaten anzusetzen.</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Andere Sachwerte, insbesondere Liegenschaften, sind mit dem Verkehrswert anzusetzen; die Feststellung der Verkehrswerte ist mindestens alle drei Jahre durch geeignete Prüfer vorzunehmen; insbesondere Auf- und Abwertungen sind zu begründen.</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Commercial papers sind mit dem Marktwert zu bewerten; existiert für einen Vertrag kein liquider Markt, so kann als Marktwert jener rechnerische Wert herangezogen werden, der sich aus der Zugrundelegung von Marktbedingungen ergibt.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Bei Ermittlung des Gesamtwertes der Vermögenswerte zum Abschluss-Stichtag sind erkennbare Risiken und drohende Verluste, die in dem Geschäftsjahr oder in einem früheren Geschäftsjahr entstanden sind, zu berücksichtigen, selbst wenn diese Umstände erst zwischen dem Abschluss-Stichtag und dem Tag der Aufstellung des Jahresabschlusses bekannt geworden sind. Notwendige Wertberichtigungen sind bei der Bewertung der einzelnen Vermögensgegenstände selbst zu berücksichtigen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="842" paperw="595.35" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

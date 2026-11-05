@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MKO_2016=PARA=12=161=2019-12-09=2020-01-01"><rvo dokidCms="MKO_2016=PARA=12=161=2019-12-09=2020-01-01" dokidSource="MKO_2016=PARA=12=161=2019-12-09=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Musterkrankenordnung 2016" abkrvo="MKO 2016" dokart="MusterR" titaen="7. Änderung der Musterkrankenordnung 2016" abkaen="7. Änd MKO 2016" urheber="Hauptverband" beschdat="2019-10-22" pubdat="2019-12-09" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="12" gldsort="70">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="161" jahrgang="2019"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="4">Einschränkungen für die Ausstellung einer EKVK</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 12.</gldsym> (1) Eine EKVK wird von der Kasse ausnahmslos nur dann ausgestellt, wenn die Identität der betroffenen Person (Versicherungsnummer, bereichsspezifisches Personenkennzeichen, allenfalls durch Eintragung in das Ergänzungsregister für natürliche Personen) eindeutig ist; hiezu sind bei Bedarf im Einzelfall zwecks Feststellung der Identität auf Wunsch der Kasse</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die Unterlagen vorzulegen, aus denen Angaben nach <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="4" ziff="2" ursprung="u">§ 4 Abs. 4 Z 2</rvolink> hervorgehen,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>die Anträge zu stellen, die zur Vergabe von Versicherungsnummer und bereichsspezifischem Personenkennzeichen notwendig sind und</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>das Ergebnis der durch diese Anträge eingeleiteten Verfahren der Kasse unaufgefordert mitzuteilen.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Eine EKVK wird in folgenden Fällen nicht ausgestellt:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Für Benützer und Benützerinnen, deren rechtliche Situation hinsichtlich des Schutzes im Krankheitsfall auf einem Aufenthalt im Inland beruht, wie z. B.</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>für Versicherte nach <nolink>§ 1 Z 17</nolink> <nolink>oder Z 19</nolink> (Asylwerber/Asylwerberinnen in Bundesbetreuung, Grundversorgte) der Verordnung über die Durchführung der Krankenversicherung für die gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" ursprung="u">§ 9</rvolink><nolink> ASVG</nolink> in die Krankenversicherung einbezogenen Personen, BGBl. Nr. 420/1969 idF BGBl. II Nr. 262/2010 (Einbeziehungsverordnung),</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>für Versicherte oder Anspruchsberechtigte nach <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="66a" ursprung="u">§ 66a</rvolink><nolink> AlVG</nolink> oder den <rvolink abkrvo="StVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="76" ursprung="u">§§ 76</rvolink>, <rvolink abkrvo="StVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="77" ursprung="u">77</rvolink><nolink> Strafvollzugsgesetz</nolink> – <nolink>StVG</nolink> (Strafgefangene) und sonst gerichtlich oder polizeilich angehaltene Personen (Festgenommene, Untersuchungshäftlinge),</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>für Personen, denen Reisen ins Ausland aus anderen Gründen nicht erlaubt sind (Bewohner/innen von geschlossenen Anstalten).</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">2.</symbol>Für Personen, die nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="u">§ 5</rvolink><nolink> GSVG</nolink> von der Krankenversicherung ausgenommen sind, es sei denn, dies wird von einem dem Dachverband angehörenden Versicherungsträger verlangt.</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Für Personen, die nach <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="1" ziff="2" ursprung="u">§ 2 Abs. 1 Z 2</rvolink><nolink> B-KUVG</nolink> wegen Zugehörigkeit zu einer Krankenfürsorgeanstalt von der Krankenversicherung ausgenommen sind, es sei denn, dies wird von einem dem Dachverband angehörenden Versicherungsträger verlangt oder die jeweilige Krankenfürsorgeanstalt nimmt an der e-card-Ausstellung allgemein teil.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Eine EKVK mit den Garantiefristen des <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="11" abs="1" ziff="1" ursprung="u">§ 11 Abs. 1 Z 1</rvolink> und <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="11" abs="1" ziff="2" ursprung="u">2</rvolink> wird in folgenden Fällen nicht ausgestellt:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Für Versicherte, die ihre EKVK als verloren oder gestohlen angeben, ohne dies unverzüglich nach <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13" ursprung="u">§ 13</rvolink> gemeldet zu haben.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Für Personen, für die bereits von einem anderen in- oder ausländischen Sozialversicherungsträger eine EKVK ausgestellt, aber dazu der Kasse mitgeteilt wurde (z. B <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="321" ursprung="u">§ 321</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="183" ursprung="u">§ 183</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="171" ursprung="u">§ 171</rvolink><nolink> BSVG</nolink> und <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="119" ursprung="u">§ 119</rvolink><nolink> B-KUVG</nolink>, Art. 84 Abs. 2 der <nolink>Wanderarbeitnehmerverordnung</nolink> oder <nolink>Art. 76 Abs. 2</nolink> der Koordinierungsverordnung), dass diese EKVK unberechtigt verwendet wurde, unabhängig davon, ob diese andere EKVK als verloren gemeldet wurde, ob bereits ein Schaden festgestellt oder Verfolgungsmaßnahmen eingeleitet wurden. Das Ausstellungsverbot für diesen Fall endet mit dem Ablauf der Garantiefrist der früher ausgestellten Karte.</listelem>
+            </ziffernliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

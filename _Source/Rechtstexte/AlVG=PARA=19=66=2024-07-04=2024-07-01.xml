@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AlVG=PARA=19=66=2024-07-04=2024-07-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AlVG=PARA=19=82=2008-06-26=2009-01-01" dokidSource="AlVG=PARA=19=82=2008-06-26=2009-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Arbeitslosenversicherungsgesetz" abkrvo="AlVG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="Julinovelle 66/2024" abkaen="JuliNov 66/2024" pubdat="2024-07-04" ikra="2024-07-01" gldnr="19" beschdat="2024-06-13" nichtanzeigen="n">
+
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2004-02-11"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="66" begseite="1" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Fortbezug</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 19.</gldsym> (1) Arbeitslosen, die das zuerkannte Arbeitslosengeld nicht bis zur zulässigen Höchstdauer in Anspruch nehmen, ist der Fortbezug des Arbeitslosengeldes für die restliche zulässige Bezugsdauer zu gewähren, </absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>wenn die Geltendmachung innerhalb eines Zeitraumes von fünf Jahren, gerechnet vom Tag des letzten Bezuges des Arbeitslosengeldes, erfolgt und</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>wenn, abgesehen von der Anwartschaft, die Voraussetzungen für den Anspruch erfüllt sind.</listelem>
+</literaliste>
+</liste>
+<absatz typ="satz" halign="j">Die Frist nach lit. a verlängert sich darüber hinaus um Zeiträume gemäß <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="15" ursprung="u">§ 15</rvolink> und gemäß <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="81" abs="10" ursprung="u">§ 81 Abs. 10</rvolink>.</absatz>
+<absatz typ="abs" halign="j">(2) Der Anspruch auf Fortbezug des Arbeitslosengeldes ist nicht gegeben, wenn der Arbeitslose die Voraussetzungen für eine neue Anwartschaft erfüllt.</absatz>
+<absatz typ="abs" halign="j">(3) Durch den Bezug von Karenzgeld ist ein allfälliger Anspruch auf Fortbezug von Arbeitslosengeld nicht mehr gegeben, es sei denn, daß das Kind, dessen Geburt Anlaß für die Gewährung des Karenzgeldes war, während des Bezuges des Karenzgeldes gestorben ist. </absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

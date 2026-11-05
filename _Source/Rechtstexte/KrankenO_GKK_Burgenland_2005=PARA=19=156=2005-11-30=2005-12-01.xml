@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=19=156=2005-11-30=2005-12-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KrankenO_GKK_Burgenland_2005=PARA=19=156=2005-11-30=2005-12-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-12-01" sichtbarkeit="p" gldnr="19" nichtanzeigen="n">
+<uebrecht>
+
+<textelem>§ 56 KrankenO GKK Burgenland 2005</textelem></uebrecht>
+<anm>Der Absatz 2 des § 19 tritt rückwirkend mit 1. Jänner 2005 in Kraft.</anm>
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">2. Abschnitt 
+<br/>Zahnbehandlung und Zahnersatz 
+<br/>(
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="153" ursprung="p">§ 153</rvolink> ASVG)</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 19. </gldsym>(1) Zahnbehandlung und Zahnersatz werden erbracht:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>durch Vertragsfachärzte für Zahn-, Mund- und Kieferheilkunde (Vertragszahnärzte),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>durch zahnärztliche Vertrags-Gruppenpraxen,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>durch Zahnärzte in Vertrags-Gruppenpraxen,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>in eigenen Einrichtungen der Kasse (Zahnambulatorien),</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>in Vertragseinrichtungen,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>durch Wahlzahnärzte und Wahleinrichtungen,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>durch zahnärztliche Wahl-Gruppenpraxen,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>durch Zahnärzte in Wahl-Gruppenpraxen.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">Wahlzahnarzt ist jeder freiberuflich tätige Zahnarzt, der mit der Kasse keinen Vertrag über die Sachleistungsverrechnung (Abs. 2) abgeschlossen hat. Wahl-Gruppenpraxis ist jede Gruppenpraxis, die mit der Kasse keinen Vertrag über die Sachleistungsverrechnung nach Abs. 2 abgeschlossen hat. Wahleinrichtung ist eine behördlich bewilligte Einrichtung, die mit der Kasse keinen Vertrag über die Sachleistungsverrechnung (Abs. 2) abgeschlossen hat.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Der Anspruchsberechtigte hat Anspruch auf Zahnbehandlung und Zahnersatz durch einen Vertragszahnarzt, eine zahnärztliche Vertrags-Gruppenpraxis, einen Zahnarzt in einer Vertrags-Gruppenpraxis oder durch eine eigene Einrichtung (Vertragseinrichtung) durch direkte Verrechnung der erbrachten Leistung zwischen Vertragspartner und Kasse, wenn er</absatz>
+<liste>
+<strichliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>die E-Card oder</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>den Überweisungs-, Behandlungs-, Zuweisungsschein oder sonstigen Beleg, welcher die Wirkung eines dieser Scheine hat, gemeinsam mit der E-Card</listelem>
+</strichliste>
+</liste>
+<liste>
+<schluss typ="Abs">vorlegt. Dabei gelten 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="4" ursprung="p">§ 1 Abs. 4</rvolink> sowie die 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" bereich="BIS" bis="13" ursprung="u">§§ 2 bis 13</rvolink> sinngemäß.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Der Anspruchsberechtigte muss sich nach einer entsprechenden Aufforderung der Kasse einer Vor- oder Nachbegutachtung durch einen von der Kasse beauftragten Arzt unterziehen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Vor Beginn der Behandlung muss der Anspruchsberechtigte eine Genehmigung der Kasse einholen, wenn</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>kieferorthopädische Behandlungen (Kieferregulierungen) oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>der unentbehrliche Zahnersatz</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">auf Rechnung der Kasse in Anspruch genommen werden sollen. Dies gilt auch für Zuschüsse zu diesen Leistungen sowie für Zuschüsse zu Leistungen der Zahnbehandlung nach den Bestimmungen der Satzung. Diese Genehmigung wird ungültig, wenn sie nicht innerhalb von drei Monaten verwendet wird. Die Kasse kann, wenn besondere Gründe vorhanden sind, auf die vorherige Genehmigung verzichten.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Wenn der Anspruchsberechtigte vor der Anfertigung des unentbehrlichen Zahnersatzes eine Mundsanierung oder die sonstigen notwendigen Maßnahmen verweigert, übernimmt die Kasse keine Kosten für den unentbehrlichen Zahnersatz.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(6) Wird die Behandlung von einem Wahlzahnarzt, von einer zahnärztlichen Wahl-Gruppenpraxis, einem Zahnarzt in einer Wahl-Gruppenpraxis oder einer Wahleinrichtung durchgeführt, erstattet die Kasse die Kosten nach <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="31" ursprung="u">§ 31</rvolink>.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

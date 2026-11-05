@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RMH_2005=PARA=3=16=2006-02-21=2006-02-27" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RMH_2005=PARA=3=16=2006-02-21=2006-02-27">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien für das Zusammenarbeiten der Krankenversicherungsträger bei der maschinellen Heilmittelabrechnung zur Erzielung einer ökonomischen und einfachen Verwaltung 2005" abkrvo="RMH 2005" dokart="RL DVSV" titaen="Wiederverlautbarung der Richtlinien für das Zusammenarbeiten der Krankenversicherungsträger bei der maschinellen Heilmittelabrechnung zur Erzielung einer ökonomischen und einfachen Verwaltung" abkaen="RMH WV" urheber="Hauptverband" beschdat="2005-10-19" pubdat="2006-02-21" ikra="2006-02-27" sichtbarkeit="p" berkz="KVL; VMB; OV; AN; SELB; BEA; " gldnr="3" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-02-21"/>
+</aendprot>
+<puborgane><puborgan puborg="avsv" nrpuborg="16" jahrgang="2006"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="para">Taxierung der abgegebenen Heilmittel sowie 
+<br/>Kontrolle der Abrechnungsunterlagen und 
+<br/>Kontrolle der Einhaltung der Abgabebestimmungen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 3. </gldsym>(1) Die abrechnenden Krankenversicherungsträger haben anhand der einzelnen den Rechnungen beigelegten Krankenkassenrezepte den Taxbetrag zu erfassen. Dabei ist zu kontrollieren, ob die Vorschriften über die Taxierung sowie die Abgabebestimmungen (
+<rvolink ursprung="u" abkrvo="RöV 2005" verwart="d" gldsort="0" typ="e">RöV</rvolink>, Vereinbarung für die Expedition und Taxierung) von der abgebenden Stelle eingehalten worden sind.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Insbesondere ist zu prüfen,
+</absatz>
+<liste>
+<strichliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>ob die das Heilmittel expedierende Stelle zur Abgabe des Heilmittels in der in Rechnung gestellten Packungsgröße bzw. Arzneiform und Stärke für Rechnung des Krankenversicherungsträgers berechtigt war,</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>ob die Taxierung auf dem Krankenkassenrezept richtig ist,</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>ob die Verrechnung von Zusatzgebühren nach den Bestimmungen der Arzneitaxe zulässig ist.</listelem>
+</strichliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Ist die Taxierung unrichtig oder sind die Abgabebestimmungen nicht eingehalten worden, sind entsprechende Differenzanzeigen zu erstellen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die übersandten Rechnungen sind auf Richtigkeit und auf Vollständigkeit (Apothekennummer, Abrechnungsmonat, Versicherungsträger, Anzahl der Rezepte, Taxbetrag, eingehobene Rezeptgebühr - getrennt für die einzelnen Versichertengruppen - sowie den zu gewährenden Nachlass, die Umsatzsteuer und den Rechnungsbetrag) zu kontrollieren.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

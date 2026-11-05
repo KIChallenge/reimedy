@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=9a=156=2005-11-30=2005-01-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-01-01" sichtbarkeit="p" gldnr="9a" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Verzicht und Kartenrückgabe von E-Card oder EKVK</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 9a. </gldsym>(1) Auf die Ausstellung einer E-Card oder einer auf deren Rückseite angebrachten EKVK kann im Vorhinein nicht verzichtet werden. Eine Nichtverwendung der E-Card kommt allerdings in folgenden Fällen in Betracht:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>dauernde Übersiedlung ins Ausland,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>dauernder Aufenthalt in einer Krankenanstalt oder einem Pflegeheim,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>dauernder Aufenthalt in sonstigen Anstalten, in denen die Verwendung einer E-Card nicht in Betracht kommt.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) In den in Abs. 1 genannten Fällen kann auf die Verwendung der E-Card auf Dauer verzichtet und die Karte der Kasse zurückgegeben werden, unabhängig davon, von welcher Kasse die E-Card (EKVK) seinerzeit ausgestellt wurde. Vor der Neuausstellung einer E-Card innerhalb von fünf Jahren nach einer solchen Rückgabe sind dann, wenn nicht aus anderen Gründen ohnedies eine neue E-Card auszustellen wäre, die Ausstellungskosten pauschaliert mit der Höhe des Service-Entgelts nach <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5c" abs="1" ursprung="u">§ 5c Abs. 1</rvolink> zu ersetzen. Die Neuausstellung einer EKVK ist nach Ablauf eines Kalenderjahres kostenlos.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Karten, die nicht mehr verwendet werden können (z. B. E-Cards und EKVKs verstorbener Benützer), deren Garantiezeitraum als EKVK aber noch nicht abgelaufen ist, sind der Kasse zurückzugeben oder zu vernichten.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

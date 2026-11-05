@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASVG=PARA=459b=120=2016-12-30=2017-04-01"><rvo dokidCms="ASVG=PARA=459b=120=2016-12-30=2017-04-01" dokidSource="ASVG=PARA=459b=62=2010-08-18=2010-01-01">
+<metadaten pubdat="2016-12-30" abkaen="Deregulierungs- und AnpassungsG 2016 - Inneres" dokart="BG" titaen="Deregulierungs- und AnpassungsG 2016 - Inneres" abkrvo="ASVG" sichtbarkeit="p" ikra="2017-04-01" fassung="50" gldnr="459b" titrvo="Allgemeines Sozialversicherungsgesetz" urheber="Bund" beschdat="2016-12-14" berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; AN; AG; SELB; " gldart="PARA" indbr="66.01.01" gldsort="70" nichtanzeigen="n">
+<durchfv>
+<rvolink ursprung="u" abkrvo="Datenübermittlung an den HV der Sozialversicherungsträger" verwart="d" gldsort="0" typ="e">Datenübermittlung an den HV der Sozialversicherungsträger</rvolink>
+</durchfv>
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="120" begseite="10" jahrgang="2016"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Mitwirkung der Abgabenbehörden des Bundes hinsichtlich des Bezuges einer Familienbeihilfe </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 459b.</gldsym> (1) Die Abgabenbehörden des Bundes haben den Trägern der Sozialversicherung nach Maßgabe des Abs. 3 folgende Daten zu übermitteln:</absatz>
+
+<liste><strichliste ebene="1"><listelem><symbol> </symbol>Name (Familienname und Vorname),Versicherungsnummer und Anschrift</listelem></strichliste></liste><liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>1.</symbol>der Person, für die Anspruch auf Familienbeihilfe nach 
+<rvolink ursprung="u" lit="b" abs="1" gldnr="2" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="FLAG">§ 2 Abs. 1 lit. b</rvolink>, 
+<rvolink ursprung="u" lit="c" abs="1" gldnr="2" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="FLAG">c</rvolink> und 
+<rvolink ursprung="u" lit="f" abs="1" gldnr="2" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="FLAG">f</rvolink> sowie nach 
+<rvolink ursprung="u" abs="4" gldnr="8" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="FLAG">§ 8 Abs. 4 bis 7</rvolink> des Familienlastenausgleichsgesetzes 1967 besteht, und</listelem>
+<listelem>
+<symbol>2.</symbol>des Anspruchsberechtigten gemäß 
+<rvolink typ="e" gldsort="70" abkrvo="FLAG" gldnr="2" abs="2" ursprung="u" gldart="PARA" verwart="d">§ 2 Abs. 2</rvolink> des 
+<nolink>Familienlastenausgleichsgesetzes</nolink> 1967.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Die übermittelten Daten dürfen nur zur Feststellung des Bestandes und des Umfanges von Leistungen nach diesem Bundesgesetz verwendet werden. </absatz>
+<absatz typ="abs" halign="j">(3) Das Verfahren der Übermittlung und der Zeitpunkt der erstmaligen Übermittlung von den in Abs. 1 genannten Daten sind vom Bundesminister für Finanzen im Einvernehmen mit dem Bundesminister für Umwelt, Jugend und Familie und dem Bundesminister für Arbeit, Soziales und Konsumentenschutz nach Maßgabe der technisch-organisatorischen Möglichkeiten zu bestimmen.   </absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

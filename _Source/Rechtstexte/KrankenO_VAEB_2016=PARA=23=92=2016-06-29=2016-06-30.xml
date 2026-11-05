@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="KrankenO_VAEB_2016=PARA=23=92=2016-06-29=2016-06-30"><rvo dokidCms="KrankenO_VAEB_2016=PARA=23=92=2016-06-29=2016-06-30">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Versicherungsanstalt für Eisenbahnen und Bergbau 2016" abkrvo="KrankenO VAEB 2016" dokart="KrankenO" titaen="Krankenordnung der Versicherungsanstalt für Eisenbahnen und Bergbau 2016 StF" abkaen="KrankenO VAEB 2016 StF" urheber="VAEB" beschdat="2016-06-22" pubdat="2016-06-29" ikra="2016-06-30" sichtbarkeit="p" gldart="PARA" gldnr="23" gldsort="70">
+        <puborgane><puborgan puborg="avsv" nrpuborg="92" jahrgang="2016">avsv   Nr. 92/2016 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Physiotherapie</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 23.</gldsym> (1) Physiotherapeutische Behandlungen können bei Vertragspartnern/Vertragspartnerinnen (eigenen Einrichtungen) der Anstalt, die zur Durchführung dieser Behandlungen berechtigt sind, über Verordnung (Zuweisung) durch</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>einen Vertragsarzt/eine Vertragsärztin, eine Vertrags-Gruppenpraxis oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>eine eigene Einrichtung (Vertragseinrichtung)</listelem>
+            </ziffernliste>
+          </liste>
+          <liste><schluss typ="Abs">auf Rechnung der Anstalt in Anspruch genommen werden.</schluss></liste>
+          <absatz typ="abs" halign="j">(2) Wird die Behandlung von einer Person durchgeführt, die zwar zur Behandlung berechtigt ist, aber keinen Vertrag mit der Anstalt hat, erstattet die Anstalt dem/der Anspruchsberechtigten Kosten nach den <rvolink abkrvo="KrankenO VAEB 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="33" ursprung="u">§§ 33 ff</rvolink>, sofern eine ärztliche Verordnung nach Abs.1 vorliegt.</absatz>
+          <absatz typ="abs" halign="j">(3) Verordnete bzw. bewilligte physiotherapeutische Behandlungen können grundsätzlich nur dann auf Rechnung der Versicherungsanstalt für Eisenbahnen und Bergbau in Anspruch genommen werden, wenn die verordnete bzw. bewilligte Behandlungsserie innerhalb von 3 Monaten ab der Verabreichung der ersten Behandlung abgeschlossen wird. Sobald für den Patienten/die Patientin absehbar ist, dass die Behandlungsserie nicht in der Frist von 3 Monaten beendet werden kann, hat er/sie unverzüglich schriftlich an die Versicherungsanstalt für Eisenbahnen und Bergbau heranzutreten und dies zu begründen. In begründeten Einzelfällen kann diese Frist auf 6 Monate erstreckt werden.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

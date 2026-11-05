@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="Ausnahmen_von_der_Einhebung_des_Behandlungsbeitrages-Ambulanz=PARA=6=120=2001-03-09=2001-03-10"><rvo dokidCms="Ausnahmen_von_der_Einhebung_des_Behandlungsbeitrages-Ambulanz=PARA=6=120=2001-03-09=2001-03-10">
+      <metadaten nichtanzeigen="n" titrvo="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz" abkrvo="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz" dokart="V" titaen="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz StF" abkaen="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz StF" urheber="BMSG" pubdat="2001-03-09" ikra="2001-03-10" sichtbarkeit="p" gldart="PARA" gldnr="6" gldsort="70">
+        <anm>Rechtsgrundlage: § 135a Abs. 4 ASVG</anm><puborgane>
+          <puborgan puborg="BGBl." gldpuborg="II" nrpuborg="120" begseite="713" jahrgang="2001">BGBl. II  Nr. 120/2001 , S.713</puborgan>
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Erforderlichkeit des Ambulanzbesuches</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 6.</gldsym> Erforderliche Untersuchungs- oder Behandlungsmethoden stehen im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="135a" abs="2" ziff="6" ursprung="u">§ 135a Abs. 2 Z 6</rvolink><nolink> ASVG</nolink> jedenfalls dann nicht in geeigneter Weise oder nur unzureichend zur Verfügung, wenn die Ambulanz – sei es mit oder ohne ärztliche Überweisung – besucht wird</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>um bei Gefahr im Verzug erste ärztliche Hilfe zu erhalten oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>weil diese Untersuchungs- oder Behandlungsmethoden entweder nicht in den Gesamtverträgen nach Abschnitt II des Sechsten Teiles des <nolink>ASVG</nolink> enthalten sind oder nur unzureichend von Vertragspartnern in der freien Praxis angeboten werden oder</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>im Zusammenhang mit einer geplanten Operation, insbesondere zu deren Vorbereitung oder Anmeldung, wenn der Ambulanzbesuch einen stationären Aufenthalt zur Folge hat, oder</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>in der Zeit zwischen 19 Uhr und 8 Uhr oder an einem Samstag oder Sonntag oder Feiertag, wenn der zu behandelnden Person der Besuch zu einem anderen Zeitpunkt nicht zumutbar war.</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">Das Gleiche gilt, wenn es sich um den Besuch einer Ambulanz handelt, die für die betreffende Person ein exklusives Leistungsangebot bereitstellt, wie etwa eine Drogenambulanz, eine Dialyseambulanz oder eine Schmerzambulanz.</schluss>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

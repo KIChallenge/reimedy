@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.C_2005=ANL=3=78=2025-12-22=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.C_2005=ANL=3=88=2024-12-18=2025-01-01" dokidSource="DO.C_2005=ANL=3=88=2024-12-18=2025-01-01">
+<metadaten gldart="ANL" gldsort="150" titrvo="Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.C 2005" dokart="DO" titaen="99. Änderung der Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkaen="99. Änd DO.C 2005" urheber="DVSV" beschdat="2025-12-18" pubdat="2025-12-22" ikra="2026-01-01" sichtbarkeit="p" gldnr="3" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="avsv" nrpuborg="78" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift halign="c" typ="para" keepwithnext="1" level="2" widowctrl="1">Kostenersatz gemäß <rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="54" abs="3" ursprung="u">§ 54 Abs. 3</rvolink></ueberschrift>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>Anlage 3</gldsym>
+</absatz>
+
+<table id="Tabelle2" cellspacing="0" style="border-collapse:collapse;margin-left:-2.5pt;margin-right:-6pt">
+            <tr h-start="-50">
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="6896">
+                <liste>
+                  <aufzaehlung ebene="1" art="betrag">
+                    <listelem>
+                      <symbol stellen="2">1.</symbol>Frühstück<tab align="r" position="333.15" leader="p"/>€ 1,83 </listelem>
+                  </aufzaehlung>
+                </liste>
+              </td>
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7321">
+                <absatz typ="tabtext">
+                  <nbsp/>
+                </absatz>
+              </td>
+            </tr>
+            <tr h-start="-50">
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="6896">
+                <liste>
+                  <aufzaehlung ebene="1" art="betrag">
+                    <listelem>
+                      <symbol stellen="2">2.</symbol>Gabelfrühstück oder Jause<tab align="r" position="333.15" leader="p"/>€ 1,62</listelem>
+                  </aufzaehlung>
+                </liste>
+              </td>
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7321">
+                <absatz typ="tabtext">
+                  <nbsp/>
+                </absatz>
+              </td>
+            </tr>
+            <tr h-start="-50">
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="6896">
+                <liste>
+                  <aufzaehlung ebene="1" art="betrag">
+                    <listelem>
+                      <symbol stellen="2">3.</symbol>Mittagessen<tab align="r" position="333.15" leader="p"/>€ 4,78</listelem>
+                  </aufzaehlung>
+                </liste>
+              </td>
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7321">
+                <absatz typ="tabtext">
+                  <nbsp/>
+                </absatz>
+              </td>
+            </tr>
+            <tr h-start="-50">
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="6896">
+                <liste>
+                  <aufzaehlung ebene="1" art="betrag">
+                    <listelem>
+                      <symbol stellen="2">4.</symbol>Abendessen<tab align="r" position="333.15" leader="p"/>€ 4,15</listelem>
+                  </aufzaehlung>
+                </liste>
+              </td>
+              <td style="vertical-align:middle;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7321">
+                <absatz typ="tabtext" halign="l">.</absatz>
+              </td>
+            </tr>
+            <tr height="0" h-start="-50">
+              <td width="464" style="border:none" twips="6946" h-xval="6896"/>
+              <td width="29" style="border:none" twips="425" h-xval="7321"/>
+            </tr>
+          </table></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=5=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=5=127=2018-07-03=2018-07-04" dokidSource="REDV_2006=PARA=5=127=2018-07-03=2018-07-04">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="5" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">3. Abschnitt 
+<br/>Standardprodukte</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Beschlussfassung zur Einrichtung, zur Betreuung und Betrieb 
+<br/>von Standardprodukten und IT-Infrastruktur</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 5.</gldsym> (1) Von der Konferenz werden Beschlüsse über
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>strategische Ziele der Sozialversicherung, welche auch IT-Ziele inkludieren, über die Einrichtung von Competence Centren bzw. Dienstleistungszentren auf den Grundlagen des jeweils eingerichteten Zielsteuerungssystems (z. B. Inhalte einer Balanced Scorecard),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die von Sozialversicherungsträgern oder nach dem 4. Abschnitt von der ITSV-GmbH erarbeiteten Vorschläge über die Einrichtung, die Betreuung und den Betrieb von Standardprodukten sowie deren Organisation und über die IT-Infrastruktur sowie</listelem>
+<listelem>
+                <symbol stellen="3">3.</symbol>den Ausstieg eines Sozialversicherungsträgers aus einem Standardprodukt aufgrund besonderer Umstände und die dazu erforderlichen Rahmenbedingungen</listelem></ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">gefasst. Ein Beschluss durch die Konferenz ist nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="30" abs="3" ursprung="u">§ 30 Abs. 3</rvolink><nolink> ASVG</nolink> verbindlich.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Beschlüsse nach Abs. 1 Z 2 können auch in Teilbeschlüssen ergehen (z. B. für Planungsphase, Einrichtungsphase und laufenden Betrieb eines Projekts), sie haben nach den Grundsätzen der Beschlüsse der Konferenz nachfolgende Vorgaben näher zu gestalten:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Die für die Einrichtung, die Betreuung sowie den Betrieb als ausschließlich zuständig zu bestimmenden Auftragsverarbeiter, wobei diese vorher zugestimmt haben müssen und deren Bestellung im Anhang zu diesen Richtlinien kundzumachen ist. Als STP-Auftragsverarbeiter kann nur ein Sozialversicherungsträger oder die ITSV-GmbH bestimmt werden. Ein Sozialversicherungsträger kann die ITSV-GmbH auch nach den Regeln des 6. Abschnittes zur Mitarbeit heranziehen.</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Den Kostenrahmen für die Einrichtung, die Betreuung und den Betrieb eines Standardproduktes bzw. einer IT-Infrastruktur einschließlich der Auswirkungen im Fall seiner Nichteinhaltung.</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Die für die Anwendung des Standardproduktes/IT-Infrastruktur in Betracht kommenden Sozialversicherungsträger.</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Die Aufteilung der Kosten, wofür als Grundsatz die Aufteilung nach Verbandsbeitragspunkten gilt.</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Die Festlegung, welcher bzw. welche STP-Auftragsverarbeiter für alle betroffenen Sozialversicherungsträger die Aufgaben nach dem Datenschutzrecht durchzuführen oder zumindest einbringungsgerecht vorzubereiten haben.</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Den Fertigstellungstermin, allfällige Meilensteine und Vorgaben über die Durchführung des Rollouts einschließlich der Auswirkungen, welche die Nichteinhaltung einer dieser Vorgaben auslöst.</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Soweit erforderlich, weitere Rechte und Pflichten der für den Einsatz des Standardproduktes (der IT-Infrastruktur) in Betracht kommenden Sozialversicherungsträger und andere Organisationsmaßnahmen.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Beschlüsse über die EDV-Organisation und strategische Ziele des einzelnen Sozialversicherungsträgers erfolgen durch die Verwaltungskörper dieses Sozialversicherungsträgers. Die Ziele des einzelnen Sozialversicherungsträgers müssen jedoch kompatibel mit den Gesamtzielen der österreichischen Sozialversicherung sein (kein Zielkonflikt nach den Regeln des Zielsteuerungssystems gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="441f" ursprung="u">§ 441f</rvolink><nolink> ASVG</nolink>).</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

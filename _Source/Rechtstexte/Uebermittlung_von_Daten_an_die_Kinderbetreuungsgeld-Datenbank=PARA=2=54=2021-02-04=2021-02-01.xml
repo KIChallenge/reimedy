@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="Uebermittlung_von_Daten_an_die_Kinderbetreuungsgeld-Datenbank=PARA=2=54=2021-02-04=2021-02-01"><rvo dokidCms="Uebermittlung_von_Daten_an_die_Kinderbetreuungsgeld-Datenbank_2021=PARA=2=54=2021-02-04=2021-02-01">
+      <metadaten titrvo="Verordnung des Bundesministers für Finanzen betreffend die Übermittlung von Daten an die Kinderbetreuungsgeld-Datenbank" abkrvo="Uebermittlung von Daten an die Kinderbetreuungsgeld-Datenbank" dokart="V" titaen="Übermittlung von Daten an die Kinderbetreuungsgeld-Datenbank StF" abkaen="Übermittlung von Daten an die Kinderbetreuungsgeld-Datenbank StF" urheber="BMF" pubdat="2021-02-04" ikra="2021-02-01" sichtbarkeit="p" nichtanzeigen="n" gldart="PARA" gldnr="2" gldsort="80">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="54" begseite="1" jahrgang="2021">BGBl. II  Nr. 54/2021 , S.1</puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="f" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Daten</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 2.</gldsym> (1) Die zu übermittelnden Daten sind:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die Adresse (einschließlich Staatencode zur Postleitzahl) sowie das verschlüsselte bereichsspezifische Personenkennzeichen Sozialversicherung des Kindes;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>hinsichtlich der Person, die Anspruch auf Familienbeihilfe oder auf Ausgleichszahlung hat</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="1">–</symbol>das verschlüsselte bereichsspezifische Personenkennzeichen Sozialversicherung,</listelem>
+              <listelem>
+                <symbol stellen="1">–</symbol>die Adresse (einschließlich Staatencode zur Postleitzahl),</listelem>
+              <listelem>
+                <symbol stellen="1">–</symbol>die Leistungsart (Familienbeihilfe oder Ausgleichszahlung) und</listelem>
+              <listelem>
+                <symbol stellen="1">–</symbol>der zuerkannte oder abgelehnte beantragte Anspruchszeitraum (Beginn und Ende).</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Anstelle von bzw. ergänzend zu den in Abs. 1 angeführten Daten ist dem anfragenden Krankenversicherungsträger mitzuteilen, wenn sich der angefragte Fall noch in Bearbeitung befindet oder die Anfrage aus einem anderen Grund nicht verarbeitet werden konnte.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="41" paperh="842" paperw="595" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

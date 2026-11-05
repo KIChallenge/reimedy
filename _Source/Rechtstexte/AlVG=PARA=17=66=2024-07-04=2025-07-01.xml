@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AlVG=PARA=17=66=2024-07-04=2025-07-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AlVG=PARA=17=63=2010-08-18=2010-08-01" dokidSource="AlVG=PARA=17=63=2010-08-18=2010-08-01">
+<metadaten beschdat="2024-06-13" gldart="PARA" gldsort="70" titrvo="Arbeitslosenversicherungsgesetz" abkrvo="AlVG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="Julinovelle 66/2024" abkaen="JuliNov 66/2024" pubdat="2024-07-04" ikra="2025-07-01" gldnr="17">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2004-02-11"/>
+<dfeintrag zeitpunkt="2004-07-26" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2004-07-26"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="66" begseite="1" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para"> </ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 17. </gldsym> (1) Das Arbeitslosengeld gebührt frühestens ab Antragstellung, wenn sämtliche gesetzlichen Voraussetzungen erfüllt sind und der Anspruch nicht nach <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="16" ursprung="u">§ 16</rvolink> ruht.</absatz>
+
+
+
+
+<absatz typ="abs" halign="j">(2) Das Arbeitslosengeld gebührt für jene Tage rückwirkend, an denen die rechtzeitige Antragstellung nicht möglich war, weil</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>der Beginn der Arbeitslosigkeit auf einen Samstag, Sonntag oder gesetzlichen Feiertag fällt,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>die regionale Geschäftsstelle wegen höherer Gewalt wie Naturkatastrophen oder Epidemien nicht erreichbar oder geschlossen war oder</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>ein Lehrling von der Beendigung seines Lehrverhältnisses nach <nolink>§ 14 Abs. 2 lit. d</nolink> des Berufsausbildungsgesetzes (BAG), BGBl. Nr. 142/1969, oder <nolink>§ 271 Abs. 1 Z 10</nolink> des Landarbeitsgesetzes 2021 (LAG), BGBl. I Nr. 78/2021, erst bei Rückkehr von der Berufsschule Kenntnis erlangt,</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">und die Antragstellung am ersten darauffolgenden Werktag erfolgt.</schlussteil>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Ist die Unterlassung einer rechtzeitigen Antragstellung auf einen Fehler der Behörde, der Amtshaftungsfolgen auslösen kann, wie zum Beispiel eine mangelnde oder unrichtige Auskunft, zurückzuführen, so kann die zuständige Landesgeschäftsstelle die regionale Geschäftsstelle amtswegig unter Berücksichtigung der Zweckmäßigkeit und der Erfolgsaussichten in einem Amtshaftungsverfahren zu einer Zuerkennung des Arbeitslosengeldes ab einem früheren Zeitpunkt, ab dem die übrigen Voraussetzungen für die Gewährung der Leistung vorliegen, ermächtigen.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

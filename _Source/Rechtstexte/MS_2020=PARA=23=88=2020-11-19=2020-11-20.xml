@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MS_2020=PARA=23=88=2020-11-19=2020-11-20"><rvo dokidCms="MS_2020=PARA=23=88=2020-11-19=2020-11-20">
+      <metadaten titrvo="Mustersatzung 2020" abkrvo="MS 2020" dokart="MusterR" urheber="DVSV" sichtbarkeit="p" nichtanzeigen="n" titaen="Mustersatzung 2020 StF" abkaen="MS 2020 StF" beschdat="2020-10-21" pubdat="2020-11-19" ikra="2020-11-20" gldart="PARA" gldnr="23" gldsort="80">
+        <puborgane><puborgan puborg="avsv" nrpuborg="88" jahrgang="2020">avsv   Nr. 88/2020 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Heilbehelfe</ueberschrift>
+          <ueberschrift typ="para" halign="c">(<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="137" ursprung="u">§ 137</rvolink><nolink> ASVG</nolink>)</ueberschrift><absatz typ="abs" halign="j">
+            <gldsym>§ 23.</gldsym> (1) Die Kasse übernimmt die Kosten für notwendige Heilbehelfe höchstens bis zum ...fachen der täglichen Höchstbeitragsgrundlage (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="108" abs="3" ursprung="u">§ 108 Abs. 3</rvolink><nolink> ASVG</nolink>), jedoch begrenzt mit der Höhe der tatsächlichen Kosten.</absatz>
+          <absatz typ="abs" halign="j">(2) Die Kasse übernimmt die Kosten der Instandsetzung notwendiger Heilbehelfe höchstens bis zum ...fachen der täglichen Höchstbeitragsgrundlage (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="108" abs="3" ursprung="u">§ 108 Abs. 3</rvolink><nolink> ASVG</nolink>), wenn die Instandsetzung zweckentsprechend ist, jedoch begrenzt mit der Höhe der tatsächlichen Kosten.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Kasse übernimmt die Kosten für Kontaktlinsen höchstens bis zum Achtfachen der täglichen Höchstbeitragsgrundlage (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="108" abs="3" ursprung="u">§ 108 Abs. 3</rvolink><nolink> ASVG</nolink>) unter Berücksichtigung der Mindestgebrauchsdauer gemäß <nolink>§ 32</nolink> der Krankenordnung, sofern keine Direktverrechnung aufgrund von vertraglichen Regelungen erfolgen kann, jedoch begrenzt mit der Höhe der tatsächlichen Kosten, bei Vorliegen folgender Indikationen:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Anisometropie ab 3 Dioptrien bei nachweislich vorhandenem Binokularsehen,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Regulärer Astigmatismus ab 3 Dioptrien,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Irregulärer Astigmatismus,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Keratokonus,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Hochgradige Myopie ab 6 Dioptrien,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Hypermetropie ab 6 Dioptrien,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Aphakie,</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>bei Erosion oder rezidivierender Erosion (nicht als Dauerversorgung),</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>nach Nasenbeinoperationen (postoperativ bis zu 12 Wochen),</listelem>
+              <listelem>
+                <symbol stellen="3">10.</symbol>Progrediente Myopie bei nachweislicher Dioptrienzunahme von mindestens einer Dioptrie pro Jahr bei Kindern und Jugendlichen bei Behandlung mit peripher Defokus modifizierten Kontaktlinsen oder Orthokeratologie-Linsen.</listelem>
+            </ziffernliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

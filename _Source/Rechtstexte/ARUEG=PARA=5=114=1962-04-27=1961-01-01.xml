@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="ARUEG=PARA=5=114=1962-04-27=1961-01-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" sichtbarkeit="p" titaen="Gesamtstand des Auslandsrenten-Übernahmegesetzes idF 114/1962" abkaen="Kunsttext 114/1962 ARÜG" beschdat="1962-04-05" pubdat="1962-04-27" ikra="1961-01-01" titrvo="Auslandsrenten-Übernahmegesetz" abkrvo="ARÜG" dokart="BG" urheber="Bund" gldnr="5">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2003-07-23"/>
+<dfeintrag zeitpunkt="2003-07-23" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-07-23"/>
+<dfeintrag zeitpunkt="2003-07-23" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-07-08"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." nrpuborg="114" jahrgang="1962"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="g1">ABSCHNITT II. 
+<br/>Pensionsversicherung.</ueberschrift>
+<ueberschrift level="2" halign="c" typ="para">Berücksichtigung von Rentenansprüchen.</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 5.</gldsym> (1) Ein Rentenanspruch im Sinne des Abschnittes I ist in der österreichischen Pensions(Renten)versicherung zu berücksichtigen, wenn vor dem 27. November 1961 die Rente aus der Versicherung in dem anderen Staate (
+<rvolink abkrvo="ARÜG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="3" ursprung="u">§ 1 Abs. 3</rvolink>, 
+<rvolink abkrvo="ARÜG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3" ursprung="u">§ 3</rvolink>) zuerkannt war</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>auf Grund des Versicherungsfalles des Alters, jedoch erst von dem Tage an, an dem das Anfallsalter für eine Altersrente aus der österreichischen Pensions(Renten)versicherung vollendet ist,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>auf Grund eines Versicherungsfalles der geminderten Arbeitsfähigkeit, wenn diese geminderte Arbeitsfähigkeit bis zur Einbringung des Antrages auf Feststellung der auf Grund dieses Leistungsanspruches aus der österreichischen Versicherung zu gewährenden Rente oder bis zu dem vor der Antragstellung eingetretenen Tod des Versicherten gedauert hat,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>auf Grund des Versicherungsfalles des Todes, wenn anspruchsberechtigte Hinterbliebene nach den Bestimmungen der österreichischen Pensionsversicherung vorhanden sind.</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">Für die Feststellung der Rente gelten die allgemeinen Voraussetzungen für die entsprechenden Renten der österreichischen Pensionsversicherung als erfüllt.</schluss>
+</liste>
+<absatz typ="abs" halign="j">(2) Für die Bemessung der Rente sind die Zeiten nach <rvolink abkrvo="ARÜG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" ursprung="u">§ 6</rvolink> zu berücksichtigen. Erreichen diese Zeiten nicht das Ausmaß der für die Rente in der österreichischen Pensions(Renten)versicherung erforderlichen Wartezeit, so sind der Rentenbemessung Zeiten in diesem Ausmaß zugrunde zu legen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

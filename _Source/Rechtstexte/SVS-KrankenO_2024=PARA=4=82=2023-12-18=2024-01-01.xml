@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="SVS-KrankenO_2024=PARA=4=82=2023-12-18=2024-01-01"><rvo dokidCms="SVS-KrankenO_2024=PARA=4=82=2023-12-18=2024-01-01">
+      <metadaten nichtanzeigen="n" titrvo="SVS-Krankenordnung 2024" abkrvo="SVS-KrankenO 2024" dokart="KrankenO" titaen="SVS-Krankenordnung 2024 StF" abkaen="SVS-KrankenO 2024 StF" urheber="SVS" beschdat="2023-12-12" pubdat="2023-12-18" ikra="2024-01-01" sichtbarkeit="p" gldart="PARA" gldnr="4" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="82" jahrgang="2023">avsv   Nr. 82/2023 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="4">Meldepflicht im Zusammenhang mit der e-card</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 4.</gldsym> (1) Der Versicherte ist verpflichtet, jede Änderung seiner Personaldaten oder der seiner Angehörigen bzw. der für den Fortbestand der Anspruchsberechtigung maßgeblichen Verhältnisse unverzüglich der SVS mitzuteilen.</absatz>
+          <absatz typ="abs" halign="j">(2) Der Versicherte (Angehörige) hat sich nach Erhalt einer neuen Karte davon zu überzeugen, dass die e-card in allen optisch lesbaren Teilen richtig ausgestellt ist. Fehler (z. B. bei der Namensschreibweise, bei Namenswechsel oder bei der Angabe der Versicherungsnummer) und Unstimmigkeiten sind unverzüglich der SVS mitzuteilen, die die Ausstellung einer berichtigten e-card veranlasst. Es liegt kein Fehler in der Namensschreibweise vor, wenn Abweichungen auf die Zeichensätze oder Datenfeldlängen zurückzuführen sind.</absatz>
+          <absatz typ="abs" halign="j">(3) Vom Verlust einer e-card ist die SVS unverzüglich zu benachrichtigen.</absatz>
+          <absatz typ="abs" halign="j">Hinsichtlich der Meldepflichten eines Signators nach dem Signatur- und Vertrauensdienstegesetz (<nolink>§ 5</nolink> <nolink>SVG</nolink>) ist der Sozialversicherungsträger Empfangsstelle für Meldungen betreffend Zertifikate,</absatz>
+          <liste>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>die vom Dachverband als Zertifizierungsdiensteanbieter ausgestellt wurden oder</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>die aufgrund eines Vertrages mit dem Dachverband über die Ausstellung von Zertifikaten im Rahmen des elektronischen Verwaltungssystems (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="31a" bereich="F" ursprung="u">§§ 31a ff</rvolink><nolink> ASVG</nolink>) von einem anderen Zertifizierungsdiensteanbieter ausgestellt wurden, wenn dies im Einvernehmen mit dem Dachverband so vorgesehen ist.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">Die Verlustmeldung an die SVS umfasst das Verlangen nach Widerruf oder Sperre eines solchen Zertifikates auf Grund der signaturrechtlichen Bestimmungen.</absatz>
+          <absatz typ="abs" halign="j">Bei Verlust oder Beschädigung von e-cards, die auf einen auffallend sorglosen Umgang zurückzuführen sind, hat der Versicherte für die Neuausstellung einen Ersatz im Ausmaß von 5,00 € zu leisten.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

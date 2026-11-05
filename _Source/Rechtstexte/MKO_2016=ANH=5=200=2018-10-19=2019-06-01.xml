@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MKO_2016=ANH=5=200=2018-10-19=2019-06-01"><rvo dokidCms="MKO_2016=ANH=5=200=2018-10-19=2019-06-01" dokidSource="MKO_2016=ANH=5=200=2018-10-19=2019-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Musterkrankenordnung 2016" abkrvo="MKO 2016" dokart="MusterR" titaen="5. Änderung der Musterkrankenordnung 2016" abkaen="5. Änd MKO 2016" urheber="Hauptverband" beschdat="2018-10-02" pubdat="2018-10-19" ikra="2019-06-01" sichtbarkeit="p" gldart="ANH" gldnr="5" gldsort="140">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="200" jahrgang="2018"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Leistungsarten, für die eine elektronische Administrationsunterstützung durch das elektronische Kommunikationsservice (eKOS) besteht</ueberschrift>
+          <absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>Anhang 5</gldsym>
+</absatz>
+          <absatz typ="abs" halign="j">Für folgende Leistungsarten besteht eine elektronische Administrationsunterstützung durch eKOS:</absatz>
+          
+        <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Computertomographie,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Magnetresonanztomographie,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Nuklearmedizinische Untersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Humangenetische Untersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Klinisch-psychologische Diagnostik,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Knochendichtemessung,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Röntgenuntersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>Röntgentherapien,</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>Sonographien.</listelem>
+            </ziffernliste>
+          </liste></abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

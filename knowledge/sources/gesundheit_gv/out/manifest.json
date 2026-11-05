@@ -1,0 +1,3352 @@
+{
+ "source_id": "gesundheit_gv",
+ "fetched_at": "2026-11-05T19:08:44Z",
+ "n_docs": 2276,
+ "urls": [
+  {
+   "url": "https://pflege.gv.at/de",
+   "status": 200,
+   "sha256": "baca2152d824d9482dc2454dedefa67f6b31a6cc2bd30348dcbe3075e67ecdda",
+   "etag": "\"1793790062\"",
+   "last_modified": "Wed, 04 Nov 2026 11:01:02 GMT",
+   "fetched_at": "2026-11-05T18:58:15Z",
+   "raw": "9ede22fe2145c233b05971f028e9f622ea4a1dd1.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/24-Stunden-Betreuung-Burgenland",
+   "status": 200,
+   "sha256": "c6fc56dde8b4ca81d8dd609c5a821cf6eb9d42b28583ab82d8d0832272f48ebd",
+   "etag": "\"1793798172\"",
+   "last_modified": "Wed, 04 Nov 2026 13:16:12 GMT",
+   "fetched_at": "2026-11-05T18:58:16Z",
+   "raw": "16903de8603cb9814ba36f830b71cddd01f7929e.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/24-stunden-betreuung",
+   "status": 200,
+   "sha256": "3638d61e9147f35d9cdc7f0cd8fc837bcbe2a8ac8954f62f1647ec48ef171ab5",
+   "etag": "\"1793790812\"",
+   "last_modified": "Wed, 04 Nov 2026 11:13:32 GMT",
+   "fetched_at": "2026-11-05T18:58:17Z",
+   "raw": "aa6406e588fc9b61d328a27db6d312d27ef85534.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/Barrierefreiheit",
+   "status": 200,
+   "sha256": "45e25890fdc2b0d383e65f1bef34dfb13f242880616e8de96a05ab18909ac245",
+   "etag": "\"1793809649\"",
+   "last_modified": "Wed, 04 Nov 2026 16:27:29 GMT",
+   "fetched_at": "2026-11-05T18:58:19Z",
+   "raw": "6b1c5546f61a9374405a082aa79530694c014a83.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/allgemeines",
+   "status": 200,
+   "sha256": "ffb43945bf46f8166b95b0d4a02584868a3287e1affffe7e9223d36002503c71",
+   "etag": "\"1793793759\"",
+   "last_modified": "Wed, 04 Nov 2026 12:02:39 GMT",
+   "fetched_at": "2026-11-05T18:58:20Z",
+   "raw": "e0d04128bb04dec97d4061335aa740091de32018.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/alltag",
+   "status": 200,
+   "sha256": "f395d2d14552b77b7530636bdd5a6b49994762305503c86e444a6494a7cc8f44",
+   "etag": "\"1793795677\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:37 GMT",
+   "fetched_at": "2026-11-05T18:58:22Z",
+   "raw": "33f458bc88b292244cdcd55085e6ef346a18cd6a.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/altenheime-pflegeheime",
+   "status": 200,
+   "sha256": "88c0027d19c5fa66dcd40d28cfddd25c9a3f44c02762541f1e4f27c326ccc4a0",
+   "etag": "\"1793788534\"",
+   "last_modified": "Wed, 04 Nov 2026 10:35:34 GMT",
+   "fetched_at": "2026-11-05T18:58:23Z",
+   "raw": "48c1f92ef642f304fd74eac6ce9f75becbf38561.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angebot-im-krankenhaus-kinder",
+   "status": 200,
+   "sha256": "824539ed5f59fe38bef55c5714a146d575436d2dc3878a429c293bc93b2dccd6",
+   "etag": "\"1793820088\"",
+   "last_modified": "Wed, 04 Nov 2026 19:21:28 GMT",
+   "fetched_at": "2026-11-05T18:58:24Z",
+   "raw": "23b67d1164386fe9d410d8426bb1fcacd353a7fb.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angebot-zur-betreuung-bis-zum-tod",
+   "status": 200,
+   "sha256": "1a00f8793f1301e42919d26e64b88d086eaa3ed612661df2d384d4aca7bba05e",
+   "etag": "\"1793800282\"",
+   "last_modified": "Wed, 04 Nov 2026 13:51:22 GMT",
+   "fetched_at": "2026-11-05T18:58:25Z",
+   "raw": "058f1f37e7028d4ac04497988c194c04162393f5.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angebot-zur-betreuung-eines-kindes-bis-zu-dessen-tod",
+   "status": 200,
+   "sha256": "d2fbddb89befdb250685c8f7b737e2c40fe841ecf91a4ab491381c375844074c",
+   "etag": "\"1793810424\"",
+   "last_modified": "Wed, 04 Nov 2026 16:40:24 GMT",
+   "fetched_at": "2026-11-05T18:58:27Z",
+   "raw": "af9a9bf11a3f6a50dfb1a51b674b925808a1cf83.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angebote-fuer-den-trauerfall",
+   "status": 200,
+   "sha256": "62a828f70fd9bff0afa457f7d57bcbba79830aefcb976889c0a535a1fb49d7e9",
+   "etag": "\"1793809762\"",
+   "last_modified": "Wed, 04 Nov 2026 16:29:22 GMT",
+   "fetched_at": "2026-11-05T18:58:29Z",
+   "raw": "25be30edb02a2614378b462c27145286bb66b9df.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angebote-im-krankenhaus",
+   "status": 200,
+   "sha256": "6e06076fd9792c114d2a43fd70353eb1c8504c52f3fa854f87868c625c2f5114",
+   "etag": "\"1793800827\"",
+   "last_modified": "Wed, 04 Nov 2026 14:00:27 GMT",
+   "fetched_at": "2026-11-05T18:58:31Z",
+   "raw": "afd69f9b6dc293037f2708d8148fbf0983761d02.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angebote-zur-betreuung-eines-kindes-zu-hause",
+   "status": 200,
+   "sha256": "c473cab71a4d53669dbda1a6d83860dc8688d3ff55cb0246bd535bb187606907",
+   "etag": "\"1793798666\"",
+   "last_modified": "Wed, 04 Nov 2026 13:24:26 GMT",
+   "fetched_at": "2026-11-05T18:58:32Z",
+   "raw": "f9694178c06241e7d43daba8700b253d69df753c.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angebote-zur-betreuung-zu-hause",
+   "status": 200,
+   "sha256": "8e4cf52c054cdb267b7463953151411e8615f189becfda622afea041880d302e",
+   "etag": "\"1793801285\"",
+   "last_modified": "Wed, 04 Nov 2026 14:08:05 GMT",
+   "fetched_at": "2026-11-05T18:58:34Z",
+   "raw": "fa1f2db37931832c503946133593e931b26b27c4.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/angehoerigenbonus",
+   "status": 200,
+   "sha256": "fe5e5d9bced2299b4f5177daf07cb4fa4dc11a34db4fe800d1de76ba4ffdcb49",
+   "etag": "\"1793788036\"",
+   "last_modified": "Wed, 04 Nov 2026 10:27:16 GMT",
+   "fetched_at": "2026-11-05T18:58:35Z",
+   "raw": "679852db08dd935e0c57a2c415ddb8e1d40b14a7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/anleitung-der-weg-zum-pflegegeld",
+   "status": 200,
+   "sha256": "7f4e6a9441b6fa2d0f97b7a533525d49c46543b1a92a4377e2de81cc335612ba",
+   "etag": "\"1793788291\"",
+   "last_modified": "Wed, 04 Nov 2026 10:31:31 GMT",
+   "fetched_at": "2026-11-05T18:58:36Z",
+   "raw": "e7f6e5b63d686d6a39133fb12512288c7597b7d1.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/antrag-auf-pflegegeld-stellen",
+   "status": 200,
+   "sha256": "4b033df49df2ebbad1afae7650849a12e40466a7c5fb5906133a00f60aeb3e93",
+   "etag": "\"1793788439\"",
+   "last_modified": "Wed, 04 Nov 2026 10:33:59 GMT",
+   "fetched_at": "2026-11-05T18:58:37Z",
+   "raw": "1e1f9703bd9da9ee7a25f48ee2ac873453263119.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/behindertenpass",
+   "status": 200,
+   "sha256": "2b6e77af99d49c2ff2387f3ba22cfbc308fb0fd59d5ef23a69cbd29b733ad67d",
+   "etag": "\"1793793385\"",
+   "last_modified": "Wed, 04 Nov 2026 11:56:25 GMT",
+   "fetched_at": "2026-11-05T18:58:39Z",
+   "raw": "8ebe09d99005e0596d10a2231cefdcf5c133b384.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/beratungsangebote",
+   "status": 200,
+   "sha256": "712aa8d64b2f4de921f96946ddec290f72398662fef33f2bd5280dca6d5efcdb",
+   "etag": "\"1793791340\"",
+   "last_modified": "Wed, 04 Nov 2026 11:22:20 GMT",
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "raw": "e56933f61e7e92c4231fd4ebcb36cdb415d638f1.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/beratungsstellen-fuer-menschen-mit-behinderungen",
+   "status": 200,
+   "sha256": "f825a587a1ab1085edc31120eddfc0b324b69e9638f3a658f6f815fbb38a2103",
+   "etag": "\"1793791464\"",
+   "last_modified": "Wed, 04 Nov 2026 11:24:24 GMT",
+   "fetched_at": "2026-11-05T18:58:41Z",
+   "raw": "0ce1f348166b27878bff1838c02d809de6f4c10c.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/beratungsstellen-im-bundesland",
+   "status": 200,
+   "sha256": "7f14a50cd3fec61c154889aa5247f18b049fc1e15c696d6228257b454f631c48",
+   "etag": "\"1793793428\"",
+   "last_modified": "Wed, 04 Nov 2026 11:57:08 GMT",
+   "fetched_at": "2026-11-05T18:58:43Z",
+   "raw": "d8ab38dab8700381446b36b4b208ec172138650d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/beratungsstellen-oesterreichweit",
+   "status": 200,
+   "sha256": "dac13d3eb163980f4e747d27588e49f0c391bc7c5cfb6558e90a6f7532c0c0f4",
+   "etag": "\"1793800192\"",
+   "last_modified": "Wed, 04 Nov 2026 13:49:52 GMT",
+   "fetched_at": "2026-11-05T18:58:44Z",
+   "raw": "1017e0655134bad608d66785d8948f2fc9fe5859.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/besuchsdienst-begleitdienst",
+   "status": 200,
+   "sha256": "64690115f789b3df9cd4bbde08d4461cac9e0192794cc9647b5dadc3e174ded7",
+   "etag": "\"1793791340\"",
+   "last_modified": "Wed, 04 Nov 2026 11:22:20 GMT",
+   "fetched_at": "2026-11-05T18:58:45Z",
+   "raw": "5fdb875becf84fb4d606c645c3db2bbc3951eabb.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/bewegung-in-den-alltag-bringen",
+   "status": 200,
+   "sha256": "74ccdac4d63fcc5316b0adc8e3025afaaaad5c23b371950482aa1a8ea58d0f35",
+   "etag": "\"1793810397\"",
+   "last_modified": "Wed, 04 Nov 2026 16:39:57 GMT",
+   "fetched_at": "2026-11-05T18:58:47Z",
+   "raw": "d56f99ceb450cac8532d5599763e83018353f49d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/bewegung-kinder-und-jugendliche",
+   "status": 200,
+   "sha256": "32c968a3fa4986fce42431e6a912616910891579d1d39e31720b0a2d8097817b",
+   "etag": "\"1793797622\"",
+   "last_modified": "Wed, 04 Nov 2026 13:07:02 GMT",
+   "fetched_at": "2026-11-05T18:58:48Z",
+   "raw": "ed72b0dbbd8e9750bfcb8f11ea85c55f79821c4c.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/community-nursing",
+   "status": 200,
+   "sha256": "87587942b175f04fa48e044d544d240af5f86b0b36827e7d8c5110405c820d14",
+   "etag": "\"1793796545\"",
+   "last_modified": "Wed, 04 Nov 2026 12:49:05 GMT",
+   "fetched_at": "2026-11-05T18:58:50Z",
+   "raw": "b048b66057d51df652c3145500516060f821c4b2.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/das-angehoerigengespraech",
+   "status": 200,
+   "sha256": "470088431d4e5fccc79e6f9c9ae0c043e8a5161db4a9ec3d367288d473e84bc9",
+   "etag": "\"1793794023\"",
+   "last_modified": "Wed, 04 Nov 2026 12:07:03 GMT",
+   "fetched_at": "2026-11-05T18:58:51Z",
+   "raw": "258567210873e0315cc2eb466cc4b25f69dd20e7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/demenz-selbsthilfegruppen",
+   "status": 200,
+   "sha256": "074ea2a2df743eaaa48008755352fdf744baa295407c44929719b691aa89fb17",
+   "etag": "\"1793795685\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:45 GMT",
+   "fetched_at": "2026-11-05T18:58:52Z",
+   "raw": "bf7a025f474b0b23eece5290a0d02e98f45bc27e.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/einsamkeit-durch-krankheit",
+   "status": 200,
+   "sha256": "528cf4bb75baeebbef21265072b18858a753887f9f592fc87a05bc94d3ee0309",
+   "etag": "\"1793810842\"",
+   "last_modified": "Wed, 04 Nov 2026 16:47:22 GMT",
+   "fetched_at": "2026-11-05T18:58:53Z",
+   "raw": "17e3da5a2117b099e352aee8b125345306b3e3b1.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/entlastungs-und-erholungsmoeglichkeiten",
+   "status": 200,
+   "sha256": "642174b451c87a0c6ce949548df452d0ccee525ec8255afd1928ce5b6487818c",
+   "etag": "\"1793795483\"",
+   "last_modified": "Wed, 04 Nov 2026 12:31:23 GMT",
+   "fetched_at": "2026-11-05T18:58:55Z",
+   "raw": "5871f844872ced2edaf55b3880d564b4c12541a7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/entlastungsangebote-f%C3%BCr-eltern",
+   "status": 200,
+   "sha256": "5406bfa02ad32ee1dd083670cbba15e6922c7bf0c2f5f9bb2ac5f63150d8ddf9",
+   "etag": "\"1793788544\"",
+   "last_modified": "Wed, 04 Nov 2026 10:35:44 GMT",
+   "fetched_at": "2026-11-05T18:58:57Z",
+   "raw": "cc278b2ea7b49c3bb01f90d371fd47503dcb57b9.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/erhoehte-familienbeihilfe",
+   "status": 200,
+   "sha256": "a9add8b9e79ae0f3ef18e30763b2f0ca648581629572b6cfa78485e797cb3e2f",
+   "etag": "\"1793797674\"",
+   "last_modified": "Wed, 04 Nov 2026 13:07:54 GMT",
+   "fetched_at": "2026-11-05T18:58:59Z",
+   "raw": "eecfd6fdaf541766b6a770f91ba3eb42df1d78b7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/erwachsene-allgemeine-informationen",
+   "status": 200,
+   "sha256": "fc0f62eab6babf3a3b4348c7d49723aab89b7588368f7491414994d04463bd04",
+   "etag": "\"1793803404\"",
+   "last_modified": "Wed, 04 Nov 2026 14:43:24 GMT",
+   "fetched_at": "2026-11-05T18:59:00Z",
+   "raw": "e1345f336c50c11aab26398a7fa1a0bd5c91bbe2.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/erwachsenenvertretung",
+   "status": 200,
+   "sha256": "6b297b534904fab55ce2a76d7aa20621ff312154829701288ed0c7957acb9aca",
+   "etag": "\"1793788145\"",
+   "last_modified": "Wed, 04 Nov 2026 10:29:05 GMT",
+   "fetched_at": "2026-11-05T18:59:02Z",
+   "raw": "4cf7460dc4f9434c18aa501755933560e1107f9b.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/essen-auf-raedern",
+   "status": 200,
+   "sha256": "4d958c32e11bc7ba33a6304cac3a075d9b2e6b4c70881a0ec08cefebd5239a05",
+   "etag": "\"1793791435\"",
+   "last_modified": "Wed, 04 Nov 2026 11:23:55 GMT",
+   "fetched_at": "2026-11-05T18:59:03Z",
+   "raw": "3be5c4e9958a3528ae7e00f24b2582421a3ce2ca.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/fahrten-transportdienste-und-parken",
+   "status": 200,
+   "sha256": "ddf423396106f0d80405fdcaf1346da05edf4481a3aa15d307a795edb723ed83",
+   "etag": "\"1793798864\"",
+   "last_modified": "Wed, 04 Nov 2026 13:27:44 GMT",
+   "fetched_at": "2026-11-05T18:59:05Z",
+   "raw": "8b712db0aafb9cd26eab38804547694e6063b687.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/fahrtkostenersatz-bei-therapie",
+   "status": 200,
+   "sha256": "2b20ed1b6eaedaf58aab905383649cc37b0c92666312d8d329fd13dcc350989c",
+   "etag": "\"1793803614\"",
+   "last_modified": "Wed, 04 Nov 2026 14:46:54 GMT",
+   "fetched_at": "2026-11-05T18:59:07Z",
+   "raw": "68d636b182e8726818c72b3e65d84ea8c0f910be.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/faq",
+   "status": 200,
+   "sha256": "c6a9034d57283b58a0379ce3362ee211798940487a3faa8507daf3a84825af12",
+   "etag": "\"1793790710\"",
+   "last_modified": "Wed, 04 Nov 2026 11:11:50 GMT",
+   "fetched_at": "2026-11-05T18:59:08Z",
+   "raw": "1d9a98d64eb67f47d328c8f2885768e31cd29dd3.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/finanzielle-hilfe-durch-vereine",
+   "status": 200,
+   "sha256": "7a0a77aabe3d193d1f60eb6b789b6fc879602271fbf8404dc87be257f1fb4ec7",
+   "etag": "\"1793796243\"",
+   "last_modified": "Wed, 04 Nov 2026 12:44:03 GMT",
+   "fetched_at": "2026-11-05T18:59:09Z",
+   "raw": "1d35225eb772444c861e533193b51a6ff961c9dd.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/finanzielle-unterstuetzung-fuer-pflegekurse",
+   "status": 200,
+   "sha256": "ce1897efab4fd43f97d4781df6e9677c4317ba0445e2c6436961e878a3f49654",
+   "etag": "\"1793810516\"",
+   "last_modified": "Wed, 04 Nov 2026 16:41:56 GMT",
+   "fetched_at": "2026-11-05T18:59:10Z",
+   "raw": "a3b82e0c1b81d9ff45263219bd7a806cc481925d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/finanzielle-unterstuetzung-und-versicherungsschutz",
+   "status": 200,
+   "sha256": "2522330a42098caa4e63c0aabbf362ba3b94f496d915ce6df05a440d4f3a3db9",
+   "etag": "\"1793803535\"",
+   "last_modified": "Wed, 04 Nov 2026 14:45:35 GMT",
+   "fetched_at": "2026-11-05T18:59:12Z",
+   "raw": "10d22bafd56b5a902374c7f301ebdbe98690c691.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/finanzielle-unterstuetzung-und-versicherungsschutz-fuer-pflegende-angehoerige",
+   "status": 200,
+   "sha256": "1c19006f1e11a5f36233725e79965475fec8a67c79f57c333fc11e4a9f34c311",
+   "etag": "\"1793795776\"",
+   "last_modified": "Wed, 04 Nov 2026 12:36:16 GMT",
+   "fetched_at": "2026-11-05T18:59:13Z",
+   "raw": "09d69962defaaea2a695c05e391b5c38a5384e29.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/finanzielles",
+   "status": 200,
+   "sha256": "40034db75b68e760e2717fb889cde5889cece89d6153bdb942cf79b8c3a5f3fc",
+   "etag": "\"1793795676\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:36 GMT",
+   "fetched_at": "2026-11-05T18:59:15Z",
+   "raw": "75d82860388a6d6237a6e0b43d4ac690674a5409.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/foerderung-fuer-24-stunden-betreuung",
+   "status": 200,
+   "sha256": "0dd00dcd194c2a409517670b4284140bce2f1d68d7bff8a541ee6c51995c56b6",
+   "etag": "\"1793789989\"",
+   "last_modified": "Wed, 04 Nov 2026 10:59:49 GMT",
+   "fetched_at": "2026-11-05T18:59:17Z",
+   "raw": "2f3df596f0618f01540ff7c5f5482d2bb7584472.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/foerderungen-allgemein",
+   "status": 200,
+   "sha256": "4013e189b75a0815fb9988fa0ed4868263c71c90a1879740b430a1b71edcc948",
+   "etag": "\"1793788577\"",
+   "last_modified": "Wed, 04 Nov 2026 10:36:17 GMT",
+   "fetched_at": "2026-11-05T18:59:19Z",
+   "raw": "0bdbfd87122ab4bffb37dcfb89f0ec4ee792652a.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/gebuehrenbefreiung",
+   "status": 200,
+   "sha256": "84fb80f3d189ac0609cc7d39076ec6a01df1446d10b3cec3a04aa988ccb2d43b",
+   "etag": "\"1793792799\"",
+   "last_modified": "Wed, 04 Nov 2026 11:46:39 GMT",
+   "fetched_at": "2026-11-05T18:59:20Z",
+   "raw": "d1c62646997ad5c9fb51f49b21040c9f5eb87be9.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/gesetze-und-rechte",
+   "status": 200,
+   "sha256": "b858f0c96150991db8da8a1eb743e16395a7e09db86ac7f26863415f0a506079",
+   "etag": "\"1793810222\"",
+   "last_modified": "Wed, 04 Nov 2026 16:37:02 GMT",
+   "fetched_at": "2026-11-05T18:59:22Z",
+   "raw": "c12b9cd1c79ce2b10b0dce1f998ceb456c437f0d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/gesundheit-kinder-und-jugendliche",
+   "status": 200,
+   "sha256": "81ec3e28f14e8baec46e33499aea8484e917f58e193ed051fcdfb35aee6c4dc2",
+   "etag": "\"1793815623\"",
+   "last_modified": "Wed, 04 Nov 2026 18:07:03 GMT",
+   "fetched_at": "2026-11-05T18:59:23Z",
+   "raw": "ee3674bdf1d2b1852be3bf9f7a5ec5476a4339ab.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/gesundheitsaktionen-der-sozialversicherung-fuer-selbstaendige",
+   "status": 200,
+   "sha256": "8430ba2a9ea7e6da2c63789691c6856142319f1a0678e45d8da119ffa3b14e1e",
+   "etag": "\"1793803440\"",
+   "last_modified": "Wed, 04 Nov 2026 14:44:00 GMT",
+   "fetched_at": "2026-11-05T18:59:25Z",
+   "raw": "f54e36cc8e549fdd741d0b99f73095d49f177bcf.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/gesundheitsfoerderung-in-schule-und-beruf",
+   "status": 200,
+   "sha256": "d4f0e1cc0093915b70fb00020e95344f2f110f52a36f9c2a6da4beff2ad1f3c3",
+   "etag": "\"1793802716\"",
+   "last_modified": "Wed, 04 Nov 2026 14:31:56 GMT",
+   "fetched_at": "2026-11-05T18:59:27Z",
+   "raw": "fffb9721fb747c739dd09e9182c808c338075c67.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/gewalt-und-alter",
+   "status": 200,
+   "sha256": "f5a53fcad3ab8be44e49f1f3c1cba2cd0fa41af07997dae62d8afbd26e554cda",
+   "etag": "\"1793798299\"",
+   "last_modified": "Wed, 04 Nov 2026 13:18:19 GMT",
+   "fetched_at": "2026-11-05T18:59:28Z",
+   "raw": "422e8426c199fdca101fc725f184e996ebcc4dbd.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/grundsaetzliches",
+   "status": 200,
+   "sha256": "d1e757384ed79f420c822ad6491569cd1d33b88122f98a5346c16c47c3097366",
+   "etag": "\"1793797517\"",
+   "last_modified": "Wed, 04 Nov 2026 13:05:17 GMT",
+   "fetched_at": "2026-11-05T18:59:29Z",
+   "raw": "e7586c5e312a68f6d1e112c2dc458c6fbb94f580.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/hausbesuche-durch-diplomierte-gesundheits-und-krankenpflegepersonen",
+   "status": 200,
+   "sha256": "af27703b7168d7e7dadd861079fa8fd88b15893577fa6a31ea39a6b167c9f17c",
+   "etag": "\"1793810431\"",
+   "last_modified": "Wed, 04 Nov 2026 16:40:31 GMT",
+   "fetched_at": "2026-11-05T18:59:31Z",
+   "raw": "d92feda48de0b9a8009c601217640af8d75e4ee3.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/hauskrankenpflege",
+   "status": 200,
+   "sha256": "71bcb99f462371bd6cc14d8590b44d79c7f96e16bac9ec0ee142d5e6bb82ff6b",
+   "etag": "\"1793793938\"",
+   "last_modified": "Wed, 04 Nov 2026 12:05:38 GMT",
+   "fetched_at": "2026-11-05T18:59:32Z",
+   "raw": "04a0054b9f0956bcd3fe6ac561ddb913d786c789.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/heimhilfe-haushaltshilfe",
+   "status": 200,
+   "sha256": "6fccf0c2418266b9e6b3695f24852b9b72c2e0db5abe2169b813a99102321acd",
+   "etag": "\"1793789540\"",
+   "last_modified": "Wed, 04 Nov 2026 10:52:20 GMT",
+   "fetched_at": "2026-11-05T18:59:34Z",
+   "raw": "75309490fcb4c5469e0252ee0f0d47f557412d8b.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/herausforderungen-in-der-pflege",
+   "status": 200,
+   "sha256": "b2a9b68599238847a5b75573dc3998c387d41e8026fb978f53b33f89fa24f3d9",
+   "etag": "\"1793809839\"",
+   "last_modified": "Wed, 04 Nov 2026 16:30:39 GMT",
+   "fetched_at": "2026-11-05T18:59:35Z",
+   "raw": "b4d54d1000d031298a444fbefedbf2e621c48507.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/hinweis-zu-demenz-selbsthilfegruppen",
+   "status": 200,
+   "sha256": "36144ccffdfffdf1ee8ae44da945481669f62b61f5b40100163521187b9e23a0",
+   "etag": "\"1793795689\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:49 GMT",
+   "fetched_at": "2026-11-05T18:59:36Z",
+   "raw": "f4c8a15417c25d166079a54e33eb5ce584eb2405.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/impressum",
+   "status": 200,
+   "sha256": "f77d9d799019dce960c6605503c900ec94d1e496cf59228acced21f2ad22a255",
+   "etag": "\"1793837263\"",
+   "last_modified": "Thu, 05 Nov 2026 00:07:43 GMT",
+   "fetched_at": "2026-11-05T18:59:38Z",
+   "raw": "fac55b4487eddd0d690c50fd02e445971e31182d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/interessengemeinschaft-pflegender-angehoeriger",
+   "status": 200,
+   "sha256": "906e0074c8cf1af5937a6b1bcb10abba2a27b61493c90d36db04867322370589",
+   "etag": "\"1793810363\"",
+   "last_modified": "Wed, 04 Nov 2026 16:39:23 GMT",
+   "fetched_at": "2026-11-05T18:59:39Z",
+   "raw": "6c744eab02cfa829816a5c42649ae99e98c06a6b.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/kinder-allgemeine-informationen",
+   "status": 200,
+   "sha256": "a063de284161877ad8fea8becec30491fb20b26adb9ecaa5e1cfd9097f6985fa",
+   "etag": "\"1793819686\"",
+   "last_modified": "Wed, 04 Nov 2026 19:14:46 GMT",
+   "fetched_at": "2026-11-05T18:59:41Z",
+   "raw": "3b942f22a6ec8f8ab44d8ad8c9a88c4ac5572728.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/kostenersatz-f%C3%BCr-hilfsmittel",
+   "status": 200,
+   "sha256": "d285cae00509b1595fc851b8520872234ca645557122444f886ed6918279bf88",
+   "etag": "\"1793798805\"",
+   "last_modified": "Wed, 04 Nov 2026 13:26:45 GMT",
+   "fetched_at": "2026-11-05T18:59:42Z",
+   "raw": "07839b7b7cf87632f960dfade78cd5d6d5c926ad.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/kurzzeitpflege-ersatzpflege-und-urlaubspflege",
+   "status": 200,
+   "sha256": "02908866c685f9eb3f26a3af48ba8b0e0da7f602ccfdd007a6e8778fb19729a3",
+   "etag": "\"1793792965\"",
+   "last_modified": "Wed, 04 Nov 2026 11:49:25 GMT",
+   "fetched_at": "2026-11-05T18:59:43Z",
+   "raw": "26c3d718f224f9159c18512ea07797955c371a44.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/leben-am-lebensende",
+   "status": 200,
+   "sha256": "bcd1fecf7b01e6e2382bd70209881b7bdc6d1a9479d7bee3d2a072bb78283f71",
+   "etag": "\"1793803382\"",
+   "last_modified": "Wed, 04 Nov 2026 14:43:02 GMT",
+   "fetched_at": "2026-11-05T18:59:44Z",
+   "raw": "d8a53b25a495012d42a92d72d1dd86d23e674ac3.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/leben-am-lebensende-erwachsene",
+   "status": 200,
+   "sha256": "cc9b00edfd60f9371f5f3dfa786a6bd3a66ed26647a81dfd3aea903d064b38a9",
+   "etag": "\"1793797986\"",
+   "last_modified": "Wed, 04 Nov 2026 13:13:06 GMT",
+   "fetched_at": "2026-11-05T18:59:46Z",
+   "raw": "0449a87765a4a4b45e24a578562359094558e048.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/leben-am-lebensende-kinder-jugendliche-und-junge-erwachsene",
+   "status": 200,
+   "sha256": "58f1d6835524ebbbf6aec3723d7e4e20ad9e80185f539172f538bb0965341150",
+   "etag": "\"1793791356\"",
+   "last_modified": "Wed, 04 Nov 2026 11:22:36 GMT",
+   "fetched_at": "2026-11-05T18:59:47Z",
+   "raw": "6d6804144c58dcf6a2aa1507a7478eeb1894da6f.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/leben-mit-behinderung",
+   "status": 200,
+   "sha256": "0a3636c5a9ed1a8addc2aad996f04ec264876a3a49797a8ab8e16456114eebde",
+   "etag": "\"1793791342\"",
+   "last_modified": "Wed, 04 Nov 2026 11:22:22 GMT",
+   "fetched_at": "2026-11-05T18:59:48Z",
+   "raw": "48e582af32da9c49e11113ce7988f394a45840ce.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/leicht-lesen",
+   "status": 200,
+   "sha256": "b9a061fbc24939082e6c4e46651bfe0c1a3af72cb31b5c6e2ed883d603a809e6",
+   "etag": "\"1793810550\"",
+   "last_modified": "Wed, 04 Nov 2026 16:42:30 GMT",
+   "fetched_at": "2026-11-05T18:59:50Z",
+   "raw": "0155c9d2dbe1cee4b127fc82f83240e94b3d487b.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/mobilitaet-fuer-menschen-mit-behinderung",
+   "status": 200,
+   "sha256": "c7a917669c3b3bf962c2d9d60a132de66314e0c5148843fcfc8f68099c0ef216",
+   "etag": "\"1793795679\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:39 GMT",
+   "fetched_at": "2026-11-05T18:59:53Z",
+   "raw": "15552a9727c3224fd25b649e33b64c046bd77bc9.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/patientenverfuegung",
+   "status": 200,
+   "sha256": "b0f19dd19d57aa5812c3665d857ff95fac54c57b5422d70bd62b980277900f09",
+   "etag": "\"1793788546\"",
+   "last_modified": "Wed, 04 Nov 2026 10:35:46 GMT",
+   "fetched_at": "2026-11-05T18:59:54Z",
+   "raw": "21fdc0ecdf72ab6d3efd0b03b298b8e8401e02c0.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-bei-bestimmten-erkrankungen",
+   "status": 200,
+   "sha256": "59393f255e5f0ed4b826a9a54f47f8fbce8ed77f56ccec52e05d2d24c2e998ea",
+   "etag": "\"1793822256\"",
+   "last_modified": "Wed, 04 Nov 2026 19:57:36 GMT",
+   "fetched_at": "2026-11-05T18:59:57Z",
+   "raw": "770d28b4a61c2dabf936266694eff103fa315348.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-in-alternativen-wohnformen",
+   "status": 200,
+   "sha256": "9dbb39928fdbfbc77dda76a832f2ff9439c55a3bd705c7ae3df164eb259d2cc4",
+   "etag": "\"1793792084\"",
+   "last_modified": "Wed, 04 Nov 2026 11:34:44 GMT",
+   "fetched_at": "2026-11-05T19:00:00Z",
+   "raw": "b162f6c6cfd8b9c0909800827c028cfeabc2c9bb.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-in-bestimmten-lebenssituationen",
+   "status": 200,
+   "sha256": "60ae60a17b458f15100cdb4fb004332397f25364413b0ce0ecd5dda97931ca8e",
+   "etag": "\"1793796307\"",
+   "last_modified": "Wed, 04 Nov 2026 12:45:07 GMT",
+   "fetched_at": "2026-11-05T19:00:03Z",
+   "raw": "30c419886b39db72e43cdbe51c211d235d1dddc7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-und-betreuung-von-kindern-und-jugendlichen",
+   "status": 200,
+   "sha256": "86a237f6f8bd12f907e2575dc651990c88a73975738aaa38f030485f38ee1a9b",
+   "etag": "\"1793799770\"",
+   "last_modified": "Wed, 04 Nov 2026 13:42:50 GMT",
+   "fetched_at": "2026-11-05T19:00:05Z",
+   "raw": "f4bb1029850f91d5d77ebcaa48d87d5da8a9dc5e.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-und-betreuung-von-kindern-und-jugendlichen-in-einrichtungen",
+   "status": 200,
+   "sha256": "bb304eda14672bcf4d9148216871fc0157ed90f41fe4589f62c4228f2de2151a",
+   "etag": "\"1793799767\"",
+   "last_modified": "Wed, 04 Nov 2026 13:42:47 GMT",
+   "fetched_at": "2026-11-05T19:00:06Z",
+   "raw": "3d94b0499ae32cb2901c9f9ceb7c500a1ebdcbb5.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-und-betreuung-von-kindern-und-jugendlichen-zu-hause",
+   "status": 200,
+   "sha256": "839c842ddb9acd42b2f43f7458f431ce16f93c239d57ddb3ca386d60c477902f",
+   "etag": "\"1793810261\"",
+   "last_modified": "Wed, 04 Nov 2026 16:37:41 GMT",
+   "fetched_at": "2026-11-05T19:00:08Z",
+   "raw": "d6ecaac4915339c2a5eb8156df1561863b08109c.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-und-betreuung-zu-hause",
+   "status": 200,
+   "sha256": "ad99856e087b8744da58ce6810697f4b9b82919fd0520d40543f109ef7d52e20",
+   "etag": "\"1793787621\"",
+   "last_modified": "Wed, 04 Nov 2026 10:20:21 GMT",
+   "fetched_at": "2026-11-05T19:00:09Z",
+   "raw": "34a5d22ba60195402fe4eb1f35b77a83ab651730.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-und-betreuungsberufe",
+   "status": 200,
+   "sha256": "555205480287c5b9b644aea7f6ad257d0b9e1a379a48e9a36318651c271c0b0c",
+   "etag": "\"1793791736\"",
+   "last_modified": "Wed, 04 Nov 2026 11:28:56 GMT",
+   "fetched_at": "2026-11-05T19:00:10Z",
+   "raw": "2bafc7f4874c2e238a07437532624882f8a3c594.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflege-und-betreuungseinrichtungen",
+   "status": 200,
+   "sha256": "6c4483df199e03d2fdad7053c01c0dc803b03318e3693ba5ba5ba2329cacdfd0",
+   "etag": "\"1793791433\"",
+   "last_modified": "Wed, 04 Nov 2026 11:23:53 GMT",
+   "fetched_at": "2026-11-05T19:00:12Z",
+   "raw": "f9413239e6cae4669a720d42e4a055c49683eb32.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegefreistellung-pflegeteilzeit-und-pflegekarenz",
+   "status": 200,
+   "sha256": "fe14238ca4906b6eca6ec68e1e4fc9be49c765ce37fc7992550d3ff9cf9beb50",
+   "etag": "\"1793790247\"",
+   "last_modified": "Wed, 04 Nov 2026 11:04:07 GMT",
+   "fetched_at": "2026-11-05T19:00:13Z",
+   "raw": "017bb2afd1b8697e8c1266ff0e79ae439f100d23.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegegeld",
+   "status": 200,
+   "sha256": "d1fa767d2aeccaaf17c515364fc41a30930a0495e5caffda6e09bdf0d703a1fb",
+   "etag": "\"1793792662\"",
+   "last_modified": "Wed, 04 Nov 2026 11:44:22 GMT",
+   "fetched_at": "2026-11-05T19:00:15Z",
+   "raw": "49336a22ee72b08f96646f68a4bcce2ab5f86729.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegegeld-allgemein",
+   "status": 200,
+   "sha256": "6d125da5cd8770114e74752bd7bd30925f3a0975873f5ab032d8a80d060724dc",
+   "etag": "\"1793796858\"",
+   "last_modified": "Wed, 04 Nov 2026 12:54:18 GMT",
+   "fetched_at": "2026-11-05T19:00:16Z",
+   "raw": "8a466ff5e58be5ccb87a6ff2b83cda519c5f5316.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegegeld-f%C3%BCr-kinder-und-jugendliche",
+   "status": 200,
+   "sha256": "844c60499d9795036002100a7f054f684f3ab75c4739fb23d7137b4b74d3173d",
+   "etag": "\"1793788288\"",
+   "last_modified": "Wed, 04 Nov 2026 10:31:28 GMT",
+   "fetched_at": "2026-11-05T19:00:18Z",
+   "raw": "8fcf9f613d873ddd1d787cf0335f3504fa873fb7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegegeldklage",
+   "status": 200,
+   "sha256": "7b16b84a02c3fbffb9e49692b789312de2347968aab0d9ac61f6049c92c89690",
+   "etag": "\"1793787598\"",
+   "last_modified": "Wed, 04 Nov 2026 10:19:58 GMT",
+   "fetched_at": "2026-11-05T19:00:19Z",
+   "raw": "900fe7e0dc2d0b62eb2e35372a0ce90d8b4a8174.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegegeldstufen",
+   "status": 200,
+   "sha256": "a51cb319ae10d897abbafd0fc1f4299fbcda4064b9d4020ff0b824096f3fe2e6",
+   "etag": "\"1793787406\"",
+   "last_modified": "Wed, 04 Nov 2026 10:16:46 GMT",
+   "fetched_at": "2026-11-05T19:00:21Z",
+   "raw": "e7d79c29102fcd860d53eaf0b071a06c307f4b33.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegekarenzgeld",
+   "status": 200,
+   "sha256": "a6840a89d916fa825539a999741e153905d36088228eb9087ed550877b34b825",
+   "etag": "\"1793788947\"",
+   "last_modified": "Wed, 04 Nov 2026 10:42:27 GMT",
+   "fetched_at": "2026-11-05T19:00:23Z",
+   "raw": "b933a1a8f1a5da7ca997ee8233b99a7774abbb96.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegereform-2022-2024",
+   "status": 200,
+   "sha256": "f0543a8a721b49168d1c816bc25361e0c2c78798f14b2cc5e7c6e2135539579f",
+   "etag": "\"1793795672\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:32 GMT",
+   "fetched_at": "2026-11-05T19:00:24Z",
+   "raw": "bd3693959b2bc77b37696146ca0206e8f7d3abf3.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/pflegewegweiser",
+   "status": 200,
+   "sha256": "7691d818d88260f26078a54c71f5b0eee60f5a30156dc81d902f6ae8b3e9072c",
+   "etag": "\"1793796251\"",
+   "last_modified": "Wed, 04 Nov 2026 12:44:11 GMT",
+   "fetched_at": "2026-11-05T19:00:25Z",
+   "raw": "15b2805ed46df94738164507dd349739540b3fbe.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/psychosoziale-gesundheit",
+   "status": 0,
+   "fetched_at": "2026-11-05T19:00:38Z"
+  },
+  {
+   "url": "https://pflege.gv.at/de/rat-hilfe",
+   "status": 200,
+   "sha256": "0ad717222e398d444ee36cff367a49a5b2241283dd9086ea5cc72f3d7cf86248",
+   "etag": "\"1793800206\"",
+   "last_modified": "Wed, 04 Nov 2026 13:50:06 GMT",
+   "fetched_at": "2026-11-05T19:00:40Z",
+   "raw": "229c315893a124351a8dd4fef83b7729ece13b48.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/reha-f%C3%BCr-kinder-und-jugendliche",
+   "status": 200,
+   "sha256": "77c1d73fc25a9b4ec1a6d6e0c8f5b9beae32e451a6aa682fb89dba02d377e92d",
+   "etag": "\"1793793863\"",
+   "last_modified": "Wed, 04 Nov 2026 12:04:23 GMT",
+   "fetched_at": "2026-11-05T19:00:41Z",
+   "raw": "34d3d5f5f8bc48c1c28c187fa44013c3f61275c4.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/rehabilitation-fuer-pflegende-und-betreuende-angehoerige",
+   "status": 200,
+   "sha256": "93070a68fcb54ac8044121d24367f1aae1c08373a1d051c5f2af64308a1ad98c",
+   "etag": "\"1793793785\"",
+   "last_modified": "Wed, 04 Nov 2026 12:03:05 GMT",
+   "fetched_at": "2026-11-05T19:00:43Z",
+   "raw": "836968ccc98e348f5df12ce1884b49fc1e01b418.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/rezeptgebuehren",
+   "status": 200,
+   "sha256": "2dd288edbb336be34a5ea95206538a9a8dcb20ab07c7576ad6984eb3153de314",
+   "etag": "\"1793793681\"",
+   "last_modified": "Wed, 04 Nov 2026 12:01:21 GMT",
+   "fetched_at": "2026-11-05T19:00:45Z",
+   "raw": "ad4aae9f853ab9209d2d88d14614a828aa384496.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/rundfunkgebuehren",
+   "status": 200,
+   "sha256": "f97f0a0b1f15daa0635e45e5641a5cdaae3cf5431a77f99be2974ebfd759ffd2",
+   "etag": "\"1793797692\"",
+   "last_modified": "Wed, 04 Nov 2026 13:08:12 GMT",
+   "fetched_at": "2026-11-05T19:00:46Z",
+   "raw": "a6cc5d742d83a1f397d41d1a67f4740ac18ead50.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/schulungen",
+   "status": 200,
+   "sha256": "f83a49ff14da1f70195f140c723327c2b3d3009f7288a97eab6c1175bc2d4174",
+   "etag": "\"1793810252\"",
+   "last_modified": "Wed, 04 Nov 2026 16:37:32 GMT",
+   "fetched_at": "2026-11-05T19:00:48Z",
+   "raw": "3fe936530907963a9dff303100dcf27db6682485.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/schulungsangebote-und-informationsmaterial",
+   "status": 200,
+   "sha256": "9c568e5d96567f98e54be23957d8dfdc14e6142b44ec58c0d6a8f5fa89f3ec3c",
+   "etag": "\"1793791386\"",
+   "last_modified": "Wed, 04 Nov 2026 11:23:06 GMT",
+   "fetched_at": "2026-11-05T19:00:49Z",
+   "raw": "a0c2978e98e798ac694cf7ee06adde5f4199cbb3.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/selbstbestimmt-leben",
+   "status": 200,
+   "sha256": "6fdf5b425c5ad5c46e7041004378ce324b2c39f4eb890b1a8beff7b2d273f0f0",
+   "etag": "\"1793795361\"",
+   "last_modified": "Wed, 04 Nov 2026 12:29:21 GMT",
+   "fetched_at": "2026-11-05T19:00:50Z",
+   "raw": "7b7365840e75f5e41b645f7a964c7008c56f07f9.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/selbsthilfegruppen",
+   "status": 200,
+   "sha256": "1a13e711e62d26b009a4170e3a3aca9fa78e43205526dca1c417e69d9c066854",
+   "etag": "\"1793795675\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:35 GMT",
+   "fetched_at": "2026-11-05T19:00:52Z",
+   "raw": "4565c7b3217306f5a1faf4c765a1661b138d875f.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/sicherheit-und-notfaelle",
+   "status": 200,
+   "sha256": "2dde79467e998197742c4c3be5d7060b5845d42c238b1d2deb86fb90c3a842a8",
+   "etag": "\"1793810393\"",
+   "last_modified": "Wed, 04 Nov 2026 16:39:53 GMT",
+   "fetched_at": "2026-11-05T19:00:53Z",
+   "raw": "8773ee3dd73a6a499803a42b7a8d542ed4922b5e.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/so-bekommen-sie-finanzielle-unterstuetzung-und-kommen-zu-ihrem-recht",
+   "status": 200,
+   "sha256": "84923471c4c68f5467bc285e6a12778da1d8e1b569889a59e3542db77464b131",
+   "etag": "\"1793791408\"",
+   "last_modified": "Wed, 04 Nov 2026 11:23:28 GMT",
+   "fetched_at": "2026-11-05T19:00:55Z",
+   "raw": "dffb57092408249fb8e3ead8afd936daa10d649d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/so-bleiben-sie-aktiv-und-gesund-im-Alter",
+   "status": 200,
+   "sha256": "682964c3a1acb7cedab01e7e26c00998549c525281e7e3e3c81a55b48fe28192",
+   "etag": "\"1793822269\"",
+   "last_modified": "Wed, 04 Nov 2026 19:57:49 GMT",
+   "fetched_at": "2026-11-05T19:00:57Z",
+   "raw": "c245f3f79dc5bd368c4a0495412cfa1b9e1515bd.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/so-finden-pflegende-angehoerige-rat-und-hilfe",
+   "status": 200,
+   "sha256": "7c013339c0664fc392f89b52203c4cdc9eb48941f5c383565b99a79ec3d25f01",
+   "etag": "\"1793798879\"",
+   "last_modified": "Wed, 04 Nov 2026 13:27:59 GMT",
+   "fetched_at": "2026-11-05T19:00:58Z",
+   "raw": "d3eea29bfa9bb2b06a785ccf3f0ee1440aef5314.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/so-finden-sie-die-passende-pflege-und-betreuung",
+   "status": 200,
+   "sha256": "06e2b428aed9578744cda88fcbd712697b47b21e4e4e2aea9611f67a17ca5a78",
+   "etag": "\"1793792254\"",
+   "last_modified": "Wed, 04 Nov 2026 11:37:34 GMT",
+   "fetched_at": "2026-11-05T19:01:00Z",
+   "raw": "8c300528a0d632392dd8849be9b1732aaf968501.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/tageszentrum",
+   "status": 200,
+   "sha256": "dc2f9a998ae4439ce1d6ab1c7e1fab6c057e8c2c6d2992cadfdf82271e5c902b",
+   "etag": "\"1793797778\"",
+   "last_modified": "Wed, 04 Nov 2026 13:09:38 GMT",
+   "fetched_at": "2026-11-05T19:01:01Z",
+   "raw": "e3e43bca301963953c1907c9081a81f7c69686eb.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/therapiekostenersatz",
+   "status": 200,
+   "sha256": "5f72066de111b70d552663c2db8b37710ea7a47d51e280fa5d4b86c281d1f11d",
+   "etag": "\"1793790036\"",
+   "last_modified": "Wed, 04 Nov 2026 11:00:36 GMT",
+   "fetched_at": "2026-11-05T19:01:03Z",
+   "raw": "4d2347b7280d2b645be08724fb371eacb7549983.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/uebergangspflege",
+   "status": 200,
+   "sha256": "9ee33c3cdc9b3cf65c2cb5fecaf3b7dac576a6555b5080db786ffd9c8f3a047e",
+   "etag": "\"1793791367\"",
+   "last_modified": "Wed, 04 Nov 2026 11:22:47 GMT",
+   "fetched_at": "2026-11-05T19:01:06Z",
+   "raw": "b77677e7c977bbb764e2612cd98ed60c8ff8667e.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/unterstuetzung-finden",
+   "status": 200,
+   "sha256": "1e49796a358d8db37ac630b91f7841f058993b99a22242b801e9f800b7c1e4c4",
+   "etag": "\"1793799148\"",
+   "last_modified": "Wed, 04 Nov 2026 13:32:28 GMT",
+   "fetched_at": "2026-11-05T19:01:08Z",
+   "raw": "c993feeb4dc0eb4f3fe51118ff7635042556d0a2.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/unterstuetzung-fuer-die-pflege-von-behinderten-kindern",
+   "status": 200,
+   "sha256": "d57979f8b8493754ceff3087a0cb2067d646121f0b9e01ce9346d2361f2ab3cc",
+   "etag": "\"1793905268\"",
+   "last_modified": "Thu, 05 Nov 2026 19:01:08 GMT",
+   "fetched_at": "2026-11-05T19:01:09Z",
+   "raw": "76b079532b35987b88b85905186271aa0c9bc58c.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/unterstuetzung-und-begleitung",
+   "status": 200,
+   "sha256": "8b2febaa39625d3fb7abc5864df50b71d53ead3dab2b1c0b4e5c2a1f8929bdc9",
+   "etag": "\"1793795677\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:37 GMT",
+   "fetched_at": "2026-11-05T19:01:11Z",
+   "raw": "eccad868b84a5511f8cabf808358c70cae5d97df.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/unterstuetzungsmoeglichkeiten-fuer-zu-hause",
+   "status": 200,
+   "sha256": "0a4cac151c87cac02f8226312c6694b1cc6c41402e556a43a8d4b8c000b0a364",
+   "etag": "\"1793795627\"",
+   "last_modified": "Wed, 04 Nov 2026 12:33:47 GMT",
+   "fetched_at": "2026-11-05T19:01:13Z",
+   "raw": "2eab719ed4bd8549e98195d546a63f86b3e572f7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/versicherungsschutz-f%C3%BCr-pflegende-angeh%C3%B6rige",
+   "status": 200,
+   "sha256": "d6148d0deb9687043ad6ab1c1abd6063f4f24a545b41d109b4e26149a782dfa2",
+   "etag": "\"1793798617\"",
+   "last_modified": "Wed, 04 Nov 2026 13:23:37 GMT",
+   "fetched_at": "2026-11-05T19:01:14Z",
+   "raw": "8344ee3b39d4ada0f510e8d8d678d42646b2457d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/versicherungsschutz-waehrend-der-pflege-eines-behinderten-kindes",
+   "status": 200,
+   "sha256": "40404b20140f25066b264cb5df247c67f13772100aa558ce71e9caffc1c736bd",
+   "etag": "\"1793795166\"",
+   "last_modified": "Wed, 04 Nov 2026 12:26:06 GMT",
+   "fetched_at": "2026-11-05T19:01:16Z",
+   "raw": "a86ad606b00245b7f033dba631a2b4bcf270b6fe.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/verweigerung-in-der-pflege",
+   "status": 200,
+   "sha256": "762a6754f6fae3a7f74d00cf6a3fcb57247329242d8eac43e1bbf34c01ffd8a7",
+   "etag": "\"1793791344\"",
+   "last_modified": "Wed, 04 Nov 2026 11:22:24 GMT",
+   "fetched_at": "2026-11-05T19:01:17Z",
+   "raw": "787d5bb3743710ddaca10cf276686025af026a72.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/vorsorgemoeglichkeiten",
+   "status": 200,
+   "sha256": "efe51edd235449b34e18146d4430a4efacad93f514ec28c82596e0c904d5b6d9",
+   "etag": "\"1793804142\"",
+   "last_modified": "Wed, 04 Nov 2026 14:55:42 GMT",
+   "fetched_at": "2026-11-05T19:01:18Z",
+   "raw": "05fa1e161b0f9f1b1dd267c180114362b2a024d4.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/vorsorgevollmacht",
+   "status": 200,
+   "sha256": "9012b2e1e9108080167936da508de3a716342ec37d8ee41a977eb01650af6c99",
+   "etag": "\"1793797988\"",
+   "last_modified": "Wed, 04 Nov 2026 13:13:08 GMT",
+   "fetched_at": "2026-11-05T19:01:20Z",
+   "raw": "bfe0533161a26ad8e66b58348686522e607494ce.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wann-sollten-sie-zu-einer-abklaerung-gehen",
+   "status": 200,
+   "sha256": "d1d7f189741369a98f16305cafeaf3c9697dccb388dc1c2487772413c87d9e0f",
+   "etag": "\"1793798477\"",
+   "last_modified": "Wed, 04 Nov 2026 13:21:17 GMT",
+   "fetched_at": "2026-11-05T19:01:21Z",
+   "raw": "b4ace4dcf094882030a1d5f82af42316a2cbcc1d.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/was-finden-sie-auf-pflege.gv.at",
+   "status": 200,
+   "sha256": "3c31867b0a7c16b40be9e1fd0f6e2fd2f63ade3047880d350aaf825447f230db",
+   "etag": "\"1793795671\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:31 GMT",
+   "fetched_at": "2026-11-05T19:01:23Z",
+   "raw": "094e2c390d73994dc5e3d024722cb6d63513e482.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/was-koennen-sie-tun-um-das-risiko-einer-erkrankung-einzuschraenken",
+   "status": 200,
+   "sha256": "3006aba3d305078e3cc2524e69f41307bbeee276c64980f738c5dc869dccdcf0",
+   "etag": "\"1793793175\"",
+   "last_modified": "Wed, 04 Nov 2026 11:52:55 GMT",
+   "fetched_at": "2026-11-05T19:01:24Z",
+   "raw": "bb2ccb4ffeb6046cf264b9f8c747d7996f29d1b1.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/welche-behandlungs-und-unterstuetzungsmoeglichkeiten-gibt-es",
+   "status": 200,
+   "sha256": "d77547436e31b3bca303e0d4b765d799518a6d86f1ec1ab789f34605f6da94b0",
+   "etag": "\"1793802700\"",
+   "last_modified": "Wed, 04 Nov 2026 14:31:40 GMT",
+   "fetched_at": "2026-11-05T19:01:26Z",
+   "raw": "d2e36e8741c6128b6c212bfc7e5a5d598c2327fd.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-bleibe-ich-geistig-fit",
+   "status": 200,
+   "sha256": "26d083a7f1c6f6a04b98dc5300d3a34be22020341fcf6d826ffbc6e1ad33c699",
+   "etag": "\"1793832885\"",
+   "last_modified": "Wed, 04 Nov 2026 22:54:45 GMT",
+   "fetched_at": "2026-11-05T19:01:27Z",
+   "raw": "be2c96fceca94d92c7a4807c902c8ffccce1f645.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-bleibe-ich-gesellschaftlich-aktiv",
+   "status": 200,
+   "sha256": "07faffc22bd7571330b445445fb70339dc4cfb5828ef5f3e89eeb8bd408a1b0e",
+   "etag": "\"1793809862\"",
+   "last_modified": "Wed, 04 Nov 2026 16:31:02 GMT",
+   "fetched_at": "2026-11-05T19:01:28Z",
+   "raw": "b10727fb1d916bcae8865f57b835b36529ae0aa7.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-bleibe-ich-im-kopf-fit",
+   "status": 200,
+   "sha256": "7f0ee407a5751cf011daee0e77397588588ab2ed4a3e79d23ea88ec4e3ac36fc",
+   "etag": "\"1793810582\"",
+   "last_modified": "Wed, 04 Nov 2026 16:43:02 GMT",
+   "fetched_at": "2026-11-05T19:01:30Z",
+   "raw": "a2caee165091d5e2cdff40ec9a5e6443d163c944.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-bleibe-ich-koerperlich-fit",
+   "status": 200,
+   "sha256": "c306d0acb0440f11a8da28942f6e807ce86fa0f5f05af4886d3638db7de44cfb",
+   "etag": "\"1793810855\"",
+   "last_modified": "Wed, 04 Nov 2026 16:47:35 GMT",
+   "fetched_at": "2026-11-05T19:01:31Z",
+   "raw": "db357c67eca93074a82c7c43554264c8d0dbc307.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-koennen-angehoerige-den-alltag-mit-betroffenen-gestalten",
+   "status": 200,
+   "sha256": "6a53da49ba26772f810b780aed6754bcc3c6dbb55c72054d2760749fb714e02c",
+   "etag": "\"1793810509\"",
+   "last_modified": "Wed, 04 Nov 2026 16:41:49 GMT",
+   "fetched_at": "2026-11-05T19:01:32Z",
+   "raw": "aafd0365b5d94d2a463f7f8eeac8929a7728af15.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-koennen-betroffene-ihren-alltag-gestalten",
+   "status": 200,
+   "sha256": "528ed613a124bd038a029c3e9681d638d746081912711c934a4c98e6cbf67f75",
+   "etag": "\"1793795687\"",
+   "last_modified": "Wed, 04 Nov 2026 12:34:47 GMT",
+   "fetched_at": "2026-11-05T19:01:34Z",
+   "raw": "0d7c9a8da6297453cf77455b2e53da4cb2127c86.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-schlafe-ich-gut",
+   "status": 200,
+   "sha256": "8237bdf27b836de0316b2bc4ce9886783c825c60af426561307e7500971e49c4",
+   "etag": "\"1793799522\"",
+   "last_modified": "Wed, 04 Nov 2026 13:38:42 GMT",
+   "fetched_at": "2026-11-05T19:01:35Z",
+   "raw": "6c130274ad77532890544b81dca170b506ab82db.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wie-vermeide-ich-einen-sturz",
+   "status": 200,
+   "sha256": "2c4ec508af8b0243455287d4d02efa1aa78142dea61fce9a4375bae2929d9c18",
+   "etag": "\"1793799205\"",
+   "last_modified": "Wed, 04 Nov 2026 13:33:25 GMT",
+   "fetched_at": "2026-11-05T19:01:36Z",
+   "raw": "5e6701353f90338e46af2815178ad5a368c191ac.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wissen-und-materialien-fuer-den-pflegealltag",
+   "status": 200,
+   "sha256": "deffa900ceb35776ca4044c3585cd856925da36ecc39ee501e0652f7b8e0dd02",
+   "etag": "\"1793804709\"",
+   "last_modified": "Wed, 04 Nov 2026 15:05:09 GMT",
+   "fetched_at": "2026-11-05T19:01:37Z",
+   "raw": "7828c69d3f6293facc212c597b3d290bc8ed3859.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wo-bekommen-sie-eine-diagnose",
+   "status": 200,
+   "sha256": "c6a3af01b72268f9c3c1c366b995e5e636d0006b687dbb5ac673b3b2593a88cd",
+   "etag": "\"1793797783\"",
+   "last_modified": "Wed, 04 Nov 2026 13:09:43 GMT",
+   "fetched_at": "2026-11-05T19:01:39Z",
+   "raw": "c9a076bdd95875dc53dc9eb2cbb933c6755984e0.html"
+  },
+  {
+   "url": "https://pflege.gv.at/de/wohnen",
+   "status": 200,
+   "sha256": "8c104744881474d8bfd4f31b3f49a2763f9d320f84324e7cdd6683070ed43c7a",
+   "etag": "\"1793801767\"",
+   "last_modified": "Wed, 04 Nov 2026 14:16:07 GMT",
+   "fetched_at": "2026-11-05T19:01:40Z",
+   "raw": "254b4a866485a0dc370fb520904aa61780f59c7a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen.html",
+   "status": 200,
+   "sha256": "c6c4a847b24d42081b36a48646d741d8163aa403c60464b4058550b274689472",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:41Z",
+   "raw": "d2ad3d2ec27ae6762d901a4ebf09f0fd4b1c53b7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch.html",
+   "status": 200,
+   "sha256": "716fd8c6ae907593322d905db5016786c366c551868a9a9232e9adca1e914783",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:43Z",
+   "raw": "dbc37e7acc301e764366f5c15c640fbb23c830a3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/aerztliches-aufklaerungsgespraech.html",
+   "status": 200,
+   "sha256": "3a98c6d26e6d73603600075ba3a27da55f3936c6bd88518e0d668b2b31c93920",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:44Z",
+   "raw": "f789ab070b96843b0963a3b3466a4ce4cf9081ce.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/beim-kinderarzt.html",
+   "status": 200,
+   "sha256": "2f54c3a51e2c8d02d314cf5f627c2bc4be3dfb5af60a9e70b2294faf661e8612",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:45Z",
+   "raw": "ebed5657a33d03e3fd7f8ba33045230324f621cc.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/e-card.html",
+   "status": 200,
+   "sha256": "d41c0ae98304740c8d880d96bd64844a7cee8c459022ff4b89f1bd968eacfc44",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:47Z",
+   "raw": "6e613fc5e095987f565b43ae265e703ba363fc76.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/gut-vorbereitet.html",
+   "status": 200,
+   "sha256": "e47ca5f84b666090073f3eedc04b1f436fe0b198170370c5ecc63bc6b51dfd20",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:48Z",
+   "raw": "69466cccd30ccc0a1ad0847b2e9514a349b74fd2.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/medizinischer-befund1.html",
+   "status": 200,
+   "sha256": "fdd2bddef2b91bb7c9b409809149af15eb876c0e2180d5e7bacd9ddeb7ffcbfc",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:49Z",
+   "raw": "cd95e54c500dfc8867b6cbb078c26b7489165bc6.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/ordinationsformen.html",
+   "status": 200,
+   "sha256": "7305914686ff2fd81cd631e8517e8cc5a87b3d55783c8fc209b385f60302a537",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:51Z",
+   "raw": "2e911101beb2086d2bc38f2bd04b3b0e98ae2581.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/patientenrechte.html",
+   "status": 200,
+   "sha256": "08f4b61d47b84aa3fbea608feb06d9504f903be5682258352e1b5865821679fb",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:52Z",
+   "raw": "d161a26a22588c7bf182f2782e34fdae1cf38854.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/suche-arzt.html",
+   "status": 200,
+   "sha256": "be4495b3a0ece46f108252085acbfe1741c55c7a9742254901b62f4ce46570b1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:54Z",
+   "raw": "4e6eab7a392ba7fedfa1aea343c72496721c431a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/ueberweisung-facharzt1.html",
+   "status": 200,
+   "sha256": "0de5bfbb095b9902bed6a4d9bb824d1e1ea43864f0ab07aa1ab39ea6791663ef",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:55Z",
+   "raw": "8726062ee21726249a5b1638ec2ac7ecb67e30f3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/wahlarzt-kosten.html",
+   "status": 200,
+   "sha256": "a82595b647e1f7c20c8a79b77cc43a75482bbf48652f6cac090d06c7c32f3679",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:56Z",
+   "raw": "1929d5ea3e60a6b01d68a85cb8e8aba141390e3a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/was-passiert-beim-arzt.html",
+   "status": 200,
+   "sha256": "155e36edbc8ef0daddb13acf87edc3f4b86cfc5eb246acba8fd36a33ce72288b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:58Z",
+   "raw": "487769597b3093f3d0ac6a3ccd3e2e1e6b476984.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/was-zahlt-sozialversicherung.html",
+   "status": 200,
+   "sha256": "f27600cb440148430a4a1ba5ffa884536ac5a3e22333c560566c15e91b181665",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:01:59Z",
+   "raw": "b2247f85e39546b9762ee52ccd5819a665315bf1.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/arztbesuch/zum-arzt-in-einem-anderen-bundesland.html",
+   "status": 200,
+   "sha256": "ea051dde84c67f65b852055adbdacb010fbcad02a2405215b90af0513ad24ba0",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:00Z",
+   "raw": "ea03dfee849b5e711c0f8c2b3c38cdbc2a9fb898.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga.html",
+   "status": 200,
+   "sha256": "f7c5a0dd948335286ed6fb9af79452c25f32cd29a2c664ccd469c85df19a35ed",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:02Z",
+   "raw": "51fb9d6f0b439db27440336f40340f00c41c6d79.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/barrierefreiheit-meinghp.html",
+   "status": 200,
+   "sha256": "7501541e5a3448c70e53e5baa99de23844b608f2dffb08f56ab34b714e7f998f",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:03Z",
+   "raw": "320d3f53f1fe0e2249b848610b5fe64253613e43.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/datenschutz-meinghp.html",
+   "status": 200,
+   "sha256": "cc47ea8c80957d82711f5382f5314b5f069a22033fb69f5d823e4a73a82ee5e7",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:04Z",
+   "raw": "eb387840080f29299d104fd6b2a5ce551adc161e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/e-befund.html",
+   "status": 200,
+   "sha256": "2732c718d399b4f25423884a289894803e310a799eb71856c87f3c102b77e028",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:06Z",
+   "raw": "5e38dfc96530d7c2f2b0194186a9643c130521b3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/e-medikation.html",
+   "status": 200,
+   "sha256": "1c8cbaa8d0026bc5414b0dbf4e2ad12dc42f8a9146a495439603e39be5c14a84",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:07Z",
+   "raw": "a627a946f04cc5328b323ce4d8f2ecb50d74c01e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/elektronischer-impfpass.html",
+   "status": 200,
+   "sha256": "78b04f4e98aff326b75fc718e01151c8fc81d89a63165c59ae13d3c43546f0c2",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:09Z",
+   "raw": "a0b981cd46a8520c686c22d6116a0f1b29d8af98.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/elga-login-teilnahme.html",
+   "status": 200,
+   "sha256": "55dc23fe7e5befab8243505679fe0041ed62461d2eeb8045f8e04619facfb482",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:10Z",
+   "raw": "ab10c135551f63159d854d23e0e580dd58f7253e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/elga-ombudsstelle.html",
+   "status": 200,
+   "sha256": "58c8a22da13d7765dd82ff86e0627f511ae3ad404a64b321b75925901c7a555c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:12Z",
+   "raw": "9b81e37c85540061e54da5171d09fa6e6a255790.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/elga-was-ist-das.html",
+   "status": 200,
+   "sha256": "e5900bd164fed90db61749d3824d2de09c1789beca9e120af3845d82f2cc6c9c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:13Z",
+   "raw": "8e2b942380f23af6f82164415783070d1884ddaf.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/faq-meinghp.html",
+   "status": 200,
+   "sha256": "1ae33d154c5b2102f76e97602fd0544f95d59f361edd887dbb084a4a885fb194",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:15Z",
+   "raw": "4dbb02613d29d2a359922bdea77e14c259e2917d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/hilfe-formularservice.html",
+   "status": 200,
+   "sha256": "e335583af75cb78adf2d74608c40b9499413d021b2ebfc0bfcf297b7272ffac5",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:16Z",
+   "raw": "ee4c33a94ea81bfe325bec724df43b4c03070a9a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/hilfe-formularservice/browserinfo.html",
+   "status": 200,
+   "sha256": "5cea75151a1cef006a125afa2e0d00bfe8c232a769399d8e347a29bd928fc7be",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:18Z",
+   "raw": "befb71f56581dbafc3752546fe3c8291a954921d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/hilfe-formularservice/formulare.html",
+   "status": 200,
+   "sha256": "0921fcfb5a5a52e9c30cabad262acc9aaf077da79ada27650b4896d73ec5e2c4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:19Z",
+   "raw": "a0472386c43418f4c259555558684f7fb4b1b560.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/hilfe-formularservice/login.html",
+   "status": 200,
+   "sha256": "6791e7416663cb5d615beedc24f495b436dd6b44781c79902dc5f1e8604ca39c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:21Z",
+   "raw": "80049d54cc176e62e7f23276d14a6f53d8dfa0f6.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/hilfe-formularservice/vertretungsregelung.html",
+   "status": 200,
+   "sha256": "3d969368b6662b30874ba7867e442f455f5c382d9e7d51a773f84dc88ac4223e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:22Z",
+   "raw": "0c6fe0ecf70b4bd1f09e75d062373348cb80f701.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/hilfestellung-elga-gda.html",
+   "status": 200,
+   "sha256": "7dcab45ee0b856766e62b469686874bafe3f5ff73cf79d549e8f6819c66d674f",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:23Z",
+   "raw": "bfa50030454347418b0fd54a52f3a9199720fd84.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/kontakt-meinghp.html",
+   "status": 200,
+   "sha256": "a7a287ae07344ecc56616f37fa94f81254bfd72d4469557e56455f0fded4ba90",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:25Z",
+   "raw": "b775ad48a831fa9a53657e78c4b07d5899d1a743.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung.html",
+   "status": 200,
+   "sha256": "11461067b3cecb924676bbe9f6fcd4e7a5c74ec156c38740087794c3d84c9645",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:26Z",
+   "raw": "273f9b57b8c23178b88cdc114884cec304c53ecf.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/bildungsnetzwerk.html",
+   "status": 200,
+   "sha256": "4d6b59e56e1f9597aefa1baf14e79fd714f051980eea9c0409c8c73ebb6887c4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:27Z",
+   "raw": "03a7cf74aecb768944cf773a28923cba4360833d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/care-leaver.html",
+   "status": 200,
+   "sha256": "e19316f4407bdd4ff57507ce3c23eb829389c6a0b63d52672fbd6876be35c3fc",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:29Z",
+   "raw": "83ce05bcf5331248e2fe915b5deb761eda43461f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/gesunde-gemeinden.html",
+   "status": 200,
+   "sha256": "e57ec75bfc51d6de437e56d6fd6d53eba19807b73c18b5757090b68b6fc0812b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:30Z",
+   "raw": "a9e88ebb727f911fa1eb46a33d110a3b9a73ca07.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/gesunde-lebenswelten.html",
+   "status": 200,
+   "sha256": "bb5c9a772f99eca046addb9c8820426974b00cee1334a24367ea2e646739ba73",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:32Z",
+   "raw": "f021024e94725685bde5e4d68091b2986a65900b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/gesundheitskompetenz.html",
+   "status": 200,
+   "sha256": "e1e232172baa2bec778fb103493866de0e7c77723443e4d4eb6403f19fde9ec1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:33Z",
+   "raw": "afd6ab2fe051113626b54b58b1b2900e1ecf0e53.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/gesundheitsziele.html",
+   "status": 200,
+   "sha256": "53a5a80450a5ecf03f223ad0b063ee342074e9ee2199e36a310aa1d6800fcd7b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:34Z",
+   "raw": "860866e9727284efbbef90a495a07d6e5017a185.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/hiap.html",
+   "status": 200,
+   "sha256": "4947381d3d86679cebd25a182f4ea404d86ea4f503c60604c48ed0a9158ec022",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:36Z",
+   "raw": "2d10a525b70c8ab3922ccb5e695a7cd580ef857d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/migration-gesundheitsfoerderung.html",
+   "status": 200,
+   "sha256": "651696eba2b575b4b2a2a342833296b3536777bff96a879b349b9d4d05e8c534",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:38Z",
+   "raw": "6177d6d6bbe0646192ab9a7034d2560bc13270f4.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/netzwerk-gesunde-staedte.html",
+   "status": 200,
+   "sha256": "697a3ae9d9b8b4e7d23b3cf4bebefc88bf5670df48a38663f8f84b3f5e22f3cd",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:39Z",
+   "raw": "c20bb1e4e662802e4487e2f1ebe6d06a47f9c74b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitsfoerderung/who-ziele.html",
+   "status": 200,
+   "sha256": "2b5ff0c786e277d840a0841456b95d65f9b49d7e94fb57a6a4a42b72072c76e7",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:41Z",
+   "raw": "49a1bcfa7c7c6b39571c9cf515dcc4f2f8d1fb81.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitswesen.html",
+   "status": 200,
+   "sha256": "41ee40a94347edacc8765b63d1563b77d059411877d5a9ec9c56166d4157d62d",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:42Z",
+   "raw": "21c6aee24d98b86d974ed85634f61dae0110ff4a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitswesen/finanzierung.html",
+   "status": 200,
+   "sha256": "af80ce3f60e424d7b6c44150994090d13383a79d8a5cdca358616174d6af685e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:43Z",
+   "raw": "75544b3e093d2d2dda029a09a854ecfcd6152ff4.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitswesen/gesundheitsreform.html",
+   "status": 200,
+   "sha256": "7c3a1d5ec89cdf4379f2d05c68a45fa2bcddec5db70f7dc4b7ed771e3a1410d1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:45Z",
+   "raw": "a2cf9c689b1e79760ff8cbe74f8bbc468d13e1da.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitswesen/gesundheitssystem.html",
+   "status": 200,
+   "sha256": "9af94f33e7c2d61768b0cc53e9dfb56e887cb135a9247b1c00ae79ae9ad3546b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:46Z",
+   "raw": "e9ae53364ddcd98e67ce254361aa8d9d58b976dc.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitswesen/planung.html",
+   "status": 200,
+   "sha256": "216db258dd4e59e5628f5de9bdc672f418805a039be622e20656929e1b33e06a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:48Z",
+   "raw": "5a1a102266cda92251f073474166a0687ff35ac2.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/gesundheitswesen/qualitaet.html",
+   "status": 200,
+   "sha256": "73a94b19c6eb1c3b36050fec2a5a32d0c7d4fa21283fc93d52c9143f92b99bd0",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:49Z",
+   "raw": "76e8e88b9d5ba14b8f6529f4e07a4e98e85e23ce.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/heilbehelfe-hilfsmittel.html",
+   "status": 200,
+   "sha256": "8a550f322f7fb6a72bc9176949181fe895c535f2afdb516a2407b715b5b98aec",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:50Z",
+   "raw": "4397eacb2a539deb291106317469626ce361df30.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/institutionen/arge-selbsthilfe.html",
+   "status": 200,
+   "sha256": "f597e774b014f989012f2b6eab073d3c907860a3f65d1f9df77b055c8911e5f9",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:52Z",
+   "raw": "88077f615760a50285d55fb7d7e5915bb5fbfb6a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt.html",
+   "status": 200,
+   "sha256": "626f95d2025d8effe8d3fdf0217c146cef2d3078fadedff2823d646c158fd843",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:53Z",
+   "raw": "084770004b43a71380d71282e67ef273e23927b9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/entlassungstag-krankenhaus.html",
+   "status": 200,
+   "sha256": "7465a28158a46c1b9471076551327db282351fa1cacf635ba1e2359ee7fc11bb",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:54Z",
+   "raw": "d8b2acf3fac28d8cf4e733b20a0c1a87218d9a71.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/gesundheitsfoerdernde-krankenhaeuser.html",
+   "status": 200,
+   "sha256": "0026c80c3396f108457ed32e57d03511f78941b3e696e6cd663eb0c1399498f1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:56Z",
+   "raw": "b19c41e16dd6a567ae88c236fda0e04d097869fc.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/gut-vorbereitet-ins-krankenhaus.html",
+   "status": 200,
+   "sha256": "8f86afffe6c76809ac2ab6ab1c96f726a6a416a9cbbf8f023e203ba8f0e65551",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:57Z",
+   "raw": "3b910bb6f806ed3e79f688984590c20f57d706fa.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/im-krankenhaus.html",
+   "status": 200,
+   "sha256": "d32c24d2c63123dce247db0ede241ccace6eba4e3dc8425efb876f1e978ca64b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:02:58Z",
+   "raw": "4c1377d4fe325d2cc627f0f09b09d9e7ed3bb30a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/intensivmedizin.html",
+   "status": 200,
+   "sha256": "e690a42fb2611f61fc4ef9869688aef6f5a293f6132b5cf791e7fbea78cd9385",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:00Z",
+   "raw": "3eca30ee1a5d7baf0960d5312798740aadff3f04.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/kinder-im-krankenhaus.html",
+   "status": 200,
+   "sha256": "ca0da56de0061380cd0730760a02b0e2b38f694e1e6037c40a09bc707fb78880",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:01Z",
+   "raw": "d7a64afa48997c256b86db4439acf0eabc7e74b7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/kuraufenthalt.html",
+   "status": 200,
+   "sha256": "7f0ad9b6277f05a1cbb3968db591eed239bccafc2d23308b3cad482d317129d4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:02Z",
+   "raw": "fda6a2bf195e65da96d2093e326ebb784a42ff94.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/nosokomiale-infektionen.html",
+   "status": 200,
+   "sha256": "a1c4513f524f7095ba017374287c59540880eca6e2c1c048536d60d46cdb6ef5",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:04Z",
+   "raw": "f0ff8a38ed636042c6b099d6dd49afde4a66c619.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/selbstbehalt-krankenhaus.html",
+   "status": 200,
+   "sha256": "cacc86bb7f9c5be553d17836457eca37b586d896e00ddee510b25d70b8bc85fe",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:05Z",
+   "raw": "730f425494aaf226987715c2ee0dc1e44cee83e1.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/system-krankenhaus.html",
+   "status": 200,
+   "sha256": "baff07123e25656bb39551e694efc23c8baada08778c304d67f81ce3b5e9cd6b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:06Z",
+   "raw": "ba4ece3d093bb22333a517e57266203c4e6a9118.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/krankenhausaufenthalt/transport-ins-krankenhaus.html",
+   "status": 200,
+   "sha256": "412e176897008c8115ec340a74bf02a75cf148c31d31904cbe8147a6eaf7fc5b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:08Z",
+   "raw": "ea0fa175af262cecd14428c2770330efe98a6005.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha.html",
+   "status": 200,
+   "sha256": "bac39ca2b2b17a0920cd161ba96b9d422765549fe758c00b6679354722cd359b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:09Z",
+   "raw": "bfacd2e2c67bb39882ab4de967f1f2223dbd63b9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/berufliche-rehabilitation.html",
+   "status": 200,
+   "sha256": "632032e469da9bca1c96347bc0856c3d6b506dd477cefb5a9deb432362203c07",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:10Z",
+   "raw": "9fa57826b00e53b470868d64d297d4af83aaf859.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/kinder-reha.html",
+   "status": 200,
+   "sha256": "409173054d66bb43dea84d8cb0f63f0d3deddf6ede7bc9524e3cc71cfd9d9a31",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:12Z",
+   "raw": "7fc03d1df1abe795e629b8513905bce97e1eeacc.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/kur-aufenthalt.html",
+   "status": 200,
+   "sha256": "c1737862037a973c77cb20fe1b02311c9b7281a8b7722891538ab503e55bddcd",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:13Z",
+   "raw": "5347b058b65f98dc567559f1c879fd7f3b4d80a1.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/medizinische-rehabilitation.html",
+   "status": 200,
+   "sha256": "4531898982426942023a608f934cdcb7676ed76cc30254bcc73883df86d9acc7",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:14Z",
+   "raw": "ac4704577f56e9be2b7e6d4ae02825fc8eea0e03.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/soziale-rehabilitation.html",
+   "status": 200,
+   "sha256": "fd359a197125c7f5f7ca4c07400a163b3b9467713ad19598c91b8425e3a49131",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:16Z",
+   "raw": "f461793406ae583beb798cdbe6e6620b6ceae0ee.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/palliativ-hospizversorgung.html",
+   "status": 200,
+   "sha256": "55458817d513a8d2cfeb86220bf8c92d713962a07c07eed82200b5f395fe7d05",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:17Z",
+   "raw": "9b59a9d01331778473fbcd1a3c5e7bb5fbb704aa.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/palliativ-hospizversorgung/hospiz-palliativ-angehoerige-zugehoerige.html",
+   "status": 200,
+   "sha256": "46af87fbdec56946f328193079bc440fe8db044a17688d85c48d12ef4d7fe733",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:18Z",
+   "raw": "4fa54bbb96990f64176dc2b2d5fe1f1ff7fea724.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/palliativ-hospizversorgung/hospiz-palliativ-einrichtungen.html",
+   "status": 200,
+   "sha256": "6cdc242b3ef1c3e684f48aee74e7e6c1e704224fc96551e876f62271b8020024",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:20Z",
+   "raw": "36b69faec96bfe03831d7dcd81b226868790a164.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/palliativ-hospizversorgung/hospiz-palliativ-koerper.html",
+   "status": 200,
+   "sha256": "bf0a97c1634a0ed1013de1197605671f4b07562536f40ce498d00801c5bc28cc",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:21Z",
+   "raw": "89e529fdf53c37b15ce7daed0c935f5310b208db.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/palliativ-hospizversorgung/hospiz-palliativ-psyche-spiritualitaet.html",
+   "status": 200,
+   "sha256": "ad4483ba428073412d057ad612236edab8c00de579872679ab4f3fb971b3fbc8",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:23Z",
+   "raw": "fd0d141841fad1660badaf8b2231121b94d5d339.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/palliativ-hospizversorgung/hospiz-palliativ-soziales.html",
+   "status": 200,
+   "sha256": "5146517d55c95dbd0c788de3c3ec280148993ca03acb47eeeeddb4ea447b8030",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:24Z",
+   "raw": "944765d5462f796f2ef39c8cdc3b315fd1fb7965.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/palliativ-hospizversorgung/palliativ-hopizversorgung-basisinfo.html",
+   "status": 200,
+   "sha256": "292273f692b93eedcab7c718fb51984a80f30bddf47aff97ca0a19517c0c4220",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:25Z",
+   "raw": "464436fe5a1d0afacd5768ade4cdb7d5732ce7c9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte.html",
+   "status": 200,
+   "sha256": "b8eac768c32fcb5f6edc4dd6d089cffa3c5b97486023542728536219bbb0b809",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:26Z",
+   "raw": "0274d40e0a6596544e2c282f8aebb927180fe0ea.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/behandlungsfehler.html",
+   "status": 200,
+   "sha256": "b2406a55adf9ebdc6c347b67cb7f4ca2ed7ed906c8794e2b2e5ed52bf7dbe365",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:28Z",
+   "raw": "8f39c881f4fe881c3fd1f49901fe42c994538d15.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/freiheitsbeschraenkungen.html",
+   "status": 200,
+   "sha256": "31af4efa6c7153f5e05e206e035748ab3cd9c84c91a5612363a00852a51b06a0",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:29Z",
+   "raw": "9c0fbe311173266b611b54898e32f84453afab68.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/patientencharta.html",
+   "status": 200,
+   "sha256": "b08eee5fdd680c655f0cff5077e4e4ff768111ab1f2ffceecfb0d907e409ccef",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:31Z",
+   "raw": "16c4b57e01206b3baa639ae4caf0545b2073e21a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/patienteninformation.html",
+   "status": 200,
+   "sha256": "86cccc0adda218a5f2f5e0a3ea7a80c5436494854be526994d516b2f216761b6",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:32Z",
+   "raw": "f1e219147703383c00f46c694227728528cf8ec6.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/patientenverfuegung.html",
+   "status": 200,
+   "sha256": "3df205315d590fb8c8545497127147fa706977ff95de3d6d7f1513de65e9a08a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:33Z",
+   "raw": "cf6e30e197e00f7e42b12a4de0778180ca43912e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/psychiatrie.html",
+   "status": 200,
+   "sha256": "dadbb71781bc99c342c6c68ca952456a13bcaae00199982af848b8b0148c1339",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:34Z",
+   "raw": "31c2da2c745ca756c227cf498e2d1056a4e7c621.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/recht-auf-behandlung.html",
+   "status": 200,
+   "sha256": "3fca249dfec428b1e4010af6836dd651f73ed6ba5d71f965f056759efe2deaf4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:36Z",
+   "raw": "e1894e665b2da85877547a8a2932dfebc91d37eb.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/sachwalterschaft.html",
+   "status": 0,
+   "fetched_at": "2026-11-05T19:03:42Z"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/sterbeverfuegungsgesetz.html",
+   "status": 200,
+   "sha256": "01db3033da0c54f7703e6cab8f9eeddaf5f1f45bd453d77e21852fab37b0eb4a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:43Z",
+   "raw": "62b430d164e09c95d9ac548af9621b86e1355c75.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/vorsorgevollmacht.html",
+   "status": 200,
+   "sha256": "75ef690487aa7d3801a9b75d371afcf0867d933274c357c560fc7ce8a8ec5f26",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:45Z",
+   "raw": "18584095c1cc4fce83df7e8440b0ce7f69105c63.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/patientenrechte/widerspruch-organspenden.html",
+   "status": 200,
+   "sha256": "8e5f1314326de4af58389b1837768074b39efdad074f7633dc95947e1f292839",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:46Z",
+   "raw": "b9ba47c4050f8ee88a12ae706bc3f8cf8c001b0a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/primaerversorgung.html",
+   "status": 200,
+   "sha256": "e7906647e08b79770638b78d6d06bc2ed89ac4c96c54f5dc86ae9f5f11289241",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:47Z",
+   "raw": "768264ab4dfa4c0f5e62ef7c1a555886bbf5fb8e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/primaerversorgung/Wichtige-Begriffe-in-der-Primaerversorgung.html",
+   "status": 200,
+   "sha256": "15b5e42e0aafabf3e1a1d92e3cac3883e3b2d14fd017883e640acd7b892846f7",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:49Z",
+   "raw": "610ba69ffd42a9837a1b3b561b4b4e308d7e0f88.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/primaerversorgung/entwicklungen.html",
+   "status": 200,
+   "sha256": "717a812bc7411de4568731097b11d283d7b9a548bc6bc8165ac4440692d53c1e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:50Z",
+   "raw": "73466bc0174e3383d580cbada6f5fd3d284c5996.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/primaerversorgung/expertenmeinungen.html",
+   "status": 200,
+   "sha256": "a5a2e78427e34ca0399341e816fd7e50e14bb385e676cd16412845a3349526bd",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:52Z",
+   "raw": "3841ed29f7cddf91b91e4a4656f0e68efd1113bd.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/primaerversorgung/faq.html",
+   "status": 200,
+   "sha256": "c3b0a9fd83877adf56fed63efd64cab6ac1bab9906acaed078f74ad5d8a25c12",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:53Z",
+   "raw": "c886dbb13f1d8bcb954c8c6ef8e03f6891a62f9a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/primaerversorgung/primaerversorgungseinheiten.html",
+   "status": 200,
+   "sha256": "9221e3e040e8ce9263b0c3ab80b9714d1dc3a4bf22d1b0a96fc635253a2d1929",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:55Z",
+   "raw": "99d52bb1f4cff9ec990bc9fd39c151d2f1a99852.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/krankheiten/krebs/brustkrebs/frueherkennung.html",
+   "status": 200,
+   "sha256": "36c2d3999cecab2935de38b691ac87280cfbc581bcd79bf416d7f0dc52104245",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:57Z",
+   "raw": "bb24b0ea1f593259ab9aa92d67c8e3741bc80ad7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/krankheiten/krebs/darmkrebs/frueherkennung-diagnose.html",
+   "status": 200,
+   "sha256": "7b15a4d20a870500a2db913af02684ff2eba3700bb5456f16f7f4cbca6a5ef9a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:03:58Z",
+   "raw": "85f594e05848c63b7ce1c0165f496ef4c708f11f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/krankheiten/krebs/eierstock-gebaermutterhalskrebs/gebaermutterhalskrebs.html",
+   "status": 200,
+   "sha256": "1b6923619774968fa336889fa747d0b3f16cdf7f414f477780d485c1d9f2de96",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:00Z",
+   "raw": "b5471ff6ef5f350641c64978e67fc45e685c8950.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/krankheiten/krebs/hautkrebs/frueherkennung.html",
+   "status": 200,
+   "sha256": "910c0ebe8872807846e1cfba6e939aa8bdb0db5ee6945c0203fb66d813b10e38",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:01Z",
+   "raw": "107b41af1f3bc9dbeb2b8cb6fe1c31093b4b9df7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/krankheiten/krebs/hoden-prostatakrebs/prostata-frueherkennung.html",
+   "status": 200,
+   "sha256": "4ff30b4339ba3653f4417d53a41f4117ead2ccd8b17fc77079b903ad5a22d517",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:03Z",
+   "raw": "b1eea141d36062e7395e6f470a0b7609759e865d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/altern.html",
+   "status": 200,
+   "sha256": "315db0fc4f17336062cae28377184e713f26bf30aaf16df166b5a6faa5204fd9",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:04Z",
+   "raw": "2bec1c9c1254a0a190c4e16f116969b4ef46277a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/altern/aelter-werden.html",
+   "status": 200,
+   "sha256": "10d535d39cca6c3ff53c2b34b302ef8529e01506783663a8932b019c9b402945",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:05Z",
+   "raw": "9f937f402963b2b8fc3e00765feb2ae3c9a97151.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/altern/bewegung-senioren.html",
+   "status": 200,
+   "sha256": "de47eb580d99d76296878e68af5c33bf6cc91cba8a5e69eb8343dbbbada4c580",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:06Z",
+   "raw": "5d06bd930f5694f8357b673b5761876e3498f7fb.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/altern/wohnen-im-alter.html",
+   "status": 200,
+   "sha256": "1db64c0f735ed97bfc266ac17ec9d947cbb5ece0d26643991a7121a4e87e2f6d",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:08Z",
+   "raw": "a25122694927873a2bdb1139a582eeb61a0e2653.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/altern/wohnen-im-alter/pflegende-angehoerige-entlastungen-unterstuetzungen.html",
+   "status": 200,
+   "sha256": "55ab61239a574eb1b4ae666cf7935a2880d4223d5d10e16db90fb75c7af96de5",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:09Z",
+   "raw": "42c9ecbe9310deb8c6a3dff749bd5ad14f49a670.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/altern/wohnen-im-alter/senoirenheim-pflegeheim.html",
+   "status": 200,
+   "sha256": "606b85fe17d6e9bb3697d1f8cfdeaa6d87c680e6eb81a853c986fff761ed1b7f",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:11Z",
+   "raw": "2a92663f556546aaf5cdb2efe827a3b5d19c487b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung.html",
+   "status": 200,
+   "sha256": "9de69a0c499d93f96c0e8f9aaae018ac747ab5e82fee8537368fca9077f8a445",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:12Z",
+   "raw": "b72eeb27ddbf194c77fafdfe0f8dd644ff28eab5.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport.html",
+   "status": 200,
+   "sha256": "8b864ad3f3a21a46beef9dc86065906d6821501a50366e353530d27f290b7c75",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:13Z",
+   "raw": "873a552e223b8b550ab5d696f74840cb023478a9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport/bewegungsempfehlungen-erwachsene-chronische-erkrankungen.html",
+   "status": 0,
+   "fetched_at": "2026-11-05T19:04:20Z"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport/bewegungsempfehlungen-erwachsene.html",
+   "status": 200,
+   "sha256": "7ed3be04ea40236ff9f8031639a1883c66ed221a357c457cc62a993c36bf8ced",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:21Z",
+   "raw": "0c83771e8a776b7b493777e429bc31c681d991c9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport/bewegungsempfehlungen-frauen-schwangerschaft.html",
+   "status": 200,
+   "sha256": "d08fc93ff0c8dc3718c5b5c44d0727d400d9891de76438a5f37413da4726231e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:22Z",
+   "raw": "ea1876880987278cc22597d852f488ae2585806b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport/bewegungsempfehlungen-jugendliche.html",
+   "status": 200,
+   "sha256": "6ad56ce1faf46b0821e04ef77e765af751e12191ee2329cc6f7adcfcf07d76af",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:24Z",
+   "raw": "5c70135dac908b462491261d30ba7a3c0ece96b2.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport/bewegungsempfehlungen-kinder.html",
+   "status": 200,
+   "sha256": "372938e6e52e5aabc30ecd3a212c71b56557acb853666a5f35834c8d7b9021b7",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:25Z",
+   "raw": "963164efe8af065e356f272319da5253da4acadd.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport/bewegungsempfehlungen-senioren.html",
+   "status": 200,
+   "sha256": "6e0e51c804ac341f5260e497e3e18a5b605626f168dafb6a2fcd631d716cd2d2",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:27Z",
+   "raw": "256e66cc653b355e33dc3b7935e74e0f67defc3f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/gesund-durch-sport/bewegungsempfehlungen-sicherheit.html",
+   "status": 200,
+   "sha256": "b22068deddffd97ffdc05821158cdd8171852a64de2ddc8f0343969264fa9125",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:29Z",
+   "raw": "d2eb94aa2e956df23f408586e09ef3f2f25d9b33.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/warum-bewegung.html",
+   "status": 200,
+   "sha256": "33a3e8ee5cad5845f5542e8d872fee73557313bf62ee64bed159812f08525b3a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:30Z",
+   "raw": "a7bcadd4da0b19400a007cbf2baf57bcb2905a2f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/bewegung/was-ist-bewegung.html",
+   "status": 200,
+   "sha256": "9c9f2f8c4fce06ae1ff765b2b9d8544dfe2bb5f57ac018ce6360eb587a5308ae",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:32Z",
+   "raw": "06d2c2a9ff3e9cbbf7099114774e4d8d17b6496e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/eltern.html",
+   "status": 200,
+   "sha256": "d0c7e235c2d551812541670ee2bae463bcb39d7a69e22800044108be0a3f5931",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:33Z",
+   "raw": "c59fdab3b93909c64dc89a3faf4a83b4d6bdfc0b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/eltern/eltern-kind-pass.html",
+   "status": 200,
+   "sha256": "46db41220d0da9d753a01fadc87d0baa77fbff2025e554951370128ceff7442e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:34Z",
+   "raw": "78e7b178ae678bb3046b0f4febf194bfc6012ecb.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/eltern/eltern-kind-pass/eltern-kind-pass-untersuchungen.html",
+   "status": 200,
+   "sha256": "0ec09a0042ff8cedeaf0b8603317ad104e5be04a70f8f3206ba5937d75cbf11b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:35Z",
+   "raw": "169198146fdf687a7a0e7ab1a0711aae4a750fea.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/eltern/eltern-kind-pass/kindesuntersuchungen.html",
+   "status": 200,
+   "sha256": "15a04870b3b3eb55da9ed368ae4d249e2240cc3900d49ec762a5ee13465f10c8",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:37Z",
+   "raw": "897e9f1f7e6c504871692033bec6aef8376b155f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/eltern/eltern-kind-pass/untersuchungen-schwangerschaft.html",
+   "status": 200,
+   "sha256": "a40995dad550938b3cafafb2bb697fd29a36c2c8d7fe2ddfea76641af01a1c5c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:38Z",
+   "raw": "51966dbf3f4c9d55c5503d7688d50f4e6b45b98f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/eltern/schwangerschaft/vorbereitung/vorsorge.html",
+   "status": 200,
+   "sha256": "0e281528325a28ff0853b880e061c31e48b35921e8e1eb0780e77581cb843ce4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:40Z",
+   "raw": "db05163467e54cda430cbba035adcc9e0bad1855.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/ernaehrung.html",
+   "status": 200,
+   "sha256": "d05861fd23f60aab5f91c7566431adee983a66cf78bdb881aa465e9e0c92d862",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:41Z",
+   "raw": "9811a9d6c4478be2122af89279e2394a4618451a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/ernaehrung/gesunde-ernaehrung.html",
+   "status": 200,
+   "sha256": "934641e77683ce66040357ef4fb2b3563554f47e35465bfad31e8337417c05e3",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:42Z",
+   "raw": "bd2934a685af8146333c5ad1bd246c30f914b75c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide.html",
+   "status": 200,
+   "sha256": "479533b8f3685a3787f54f22d282523c6e19603e9b21c83b3ff800803c1df597",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:44Z",
+   "raw": "ff676b53a046de8feb693f91526f48c569ceb561.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/frauengesundheit.html",
+   "status": 200,
+   "sha256": "ea787296ebb016f0659aec271454fa8b76265373939ea24c727d893cd5ed706b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:45Z",
+   "raw": "5020238f81b49df6a3711477b0a24fefa0712a3c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/frauengesundheit/erster-frauenarztbesuch.html",
+   "status": 200,
+   "sha256": "3732dd00c062a93caaed4a8382adc5756fa3d519751f511bd38053e587c8d5fc",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:46Z",
+   "raw": "5707ec5550202aed46b6acc4250e673253873126.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge.html",
+   "status": 200,
+   "sha256": "3d4dd7ebca82a6c84ad5ca24c4b6a7a3d6d3877fe8146b15f85f2ba834abf600",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:47Z",
+   "raw": "79899ecaf2da268d3f3a7be06069b4ba625dc29c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen.html",
+   "status": 200,
+   "sha256": "18b6f30e5474b1ac6c0cbdd3317e8d3e58ecc60dc976f45db6cd33a3d0f33ca3",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:49Z",
+   "raw": "d39b3eb500bffe1f3fe76a1b567a4602720cc68c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/Impfdokumentation.html",
+   "status": 200,
+   "sha256": "c7dd5b86cd21bdd2f68b13afa70d6ec5f456c7770345c8c7adf400cda502f56a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:50Z",
+   "raw": "93e23fce927ef2e256e9f1f9b4be0cb0a72c81e1.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/impfreaktion.html",
+   "status": 200,
+   "sha256": "5ddba50920284551eb71b3be14c50542fc663a61815be313d45ba161f158297f",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:51Z",
+   "raw": "244ff5be612743c0e33a5823aa9f909cb350c41b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/impfschutz.html",
+   "status": 200,
+   "sha256": "0dc7ff6b256624f4fab58d2d1973b27e240bd20b9a6a4eb20a55783ef4ff17bf",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:53Z",
+   "raw": "8781a332a5ce5c360ce4daed4d04c9663f09c71c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/impfstoff-zulassung.html",
+   "status": 200,
+   "sha256": "04fa2ceb9e654d6abe27298fd568d781956e5e8bd6f1f3eecedaaf94854a69e8",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:54Z",
+   "raw": "565f8ee01cd01f735c06993180f41b4cda259f19.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/impfstoffarten.html",
+   "status": 200,
+   "sha256": "52a02a6bc299eee999ca696507ce70526cc0790e73398781c0685cfc6dd43a84",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:56Z",
+   "raw": "e07a019af1b0f7a94fe1ce9e25fcb6201867a2d8.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/impfung-schule.html",
+   "status": 200,
+   "sha256": "2abbf2cb7a3d1cd296a13028bb53847d20b4067de2cdf19621c28e52c59afa94",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:57Z",
+   "raw": "da94c30f106dce66b9bab97ad127dad18433414d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/impfungen-erwachsene.html",
+   "status": 200,
+   "sha256": "f704b7a6942c604c689d548c91cf03e33e0d96a3bb33919c01dcc5152029e3d2",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:04:58Z",
+   "raw": "b03f9c7b6b6d697b8e545e1334bad3da1cd63f93.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/impfungen-zielgruppen.html",
+   "status": 200,
+   "sha256": "2a3f9473426d8eef51c434d7b27498853589d7eb9b2651a2c26df8ced67cbcc4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:00Z",
+   "raw": "22a2ab59fa8083eaee5412e93b1f108ad08bde63.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/kinderimpfungen.html",
+   "status": 200,
+   "sha256": "9459c8a5ce090799b93c83cdd0cc9b33d35c68707535c7289e0fb06fb431b2ce",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:01Z",
+   "raw": "936ef8aab4289ef3808c2355d84c102afd6842d9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/impfungen/ueberblick.html",
+   "status": 200,
+   "sha256": "1239f57008d88efb3e57ae640e3d4f7ddd4c59db9b1dd6ac8001e2b9ee76d78d",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:02Z",
+   "raw": "cb202f1ea7335ea228a9d37a925d338e957795e4.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/nichtrauchen.html",
+   "status": 200,
+   "sha256": "621ca665cdcffed416a7b278611ca2e96f1dbd67947c15bedea250a8789fb6c8",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:04Z",
+   "raw": "466a6df482e5293dc1aca1023bca78901ae7a95c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/nichtrauchen/nichtraucherschutz.html",
+   "status": 200,
+   "sha256": "467aecb875c78e0a0f798cbd619d8febe06acccb982d82e04cdca269e19f779e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:05Z",
+   "raw": "2bb77f267565e90bd6c00f21de2d5449b1476981.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/nichtrauchen/praevention.html",
+   "status": 200,
+   "sha256": "e7c4fa392a4d62536ff9664e82549389a5a20a8bce9e2c4aff57bef6af3a7bb2",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:07Z",
+   "raw": "329734147a5fb085f07d28519ebd6608af1e5f38.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/vorsorgeuntersuchung.html",
+   "status": 200,
+   "sha256": "0a5577d4394816bc095da8b1a79e50f9bde7447140b4f6d554a27da83427667c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:08Z",
+   "raw": "76609d9846780c6a8f5f8fe351ca921925d14f3d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/vorsorgeuntersuchung/ablauf.html",
+   "status": 200,
+   "sha256": "a901cdb6934c47ee3d0777182425dfa829308922a1785c207d319fd26f87ca27",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:09Z",
+   "raw": "7bf0457955e51242a3d0f8a6d1b96ae1d9e7ce60.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/vorsorgeuntersuchung/jugendlichenuntersuchung.html",
+   "status": 200,
+   "sha256": "9353e09e6a75920cfb2b2f92960d0c5aafcfcc5cf4e554403593ad2f80b9f35c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:11Z",
+   "raw": "59ac087a7a7038b5658637f4dc1cbeaa137cd115.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/gesundheitsvorsorge/vorsorgeuntersuchung/was-wird-gemacht.html",
+   "status": 200,
+   "sha256": "cba4d90ed9f1bcfe8b395f5c890eb7006d0dbf4b866463d189729e64a8b05b97",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:12Z",
+   "raw": "6537546933877989e489c49c69d93aaa755fb89d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/psyche-seele.html",
+   "status": 200,
+   "sha256": "bc1f9be93657506dd249df3441a0a3337e2a5ba6009784f4cc2a2bb2c56d23d1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:13Z",
+   "raw": "95824c77a1b0ad60bfb3aa0ee00dae96d33372b3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/psyche-seele/krisenintervention.html",
+   "status": 200,
+   "sha256": "696c2e8a848ab62e9528c021ee4a96c2ab18bead7c65855669942165241657ff",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:14Z",
+   "raw": "1050584baf198906884448f0388c9d81c71677c8.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/psyche-seele/praevention.html",
+   "status": 200,
+   "sha256": "6f15cc51922e0b440f9cf3a114b7e1de6a021b088c75f8cd5a9e5bafcf753e70",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:16Z",
+   "raw": "ad5d5721cb829dc991e94d930d3c0d44245a0842.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/psyche-seele/psychische-belastungen.html",
+   "status": 200,
+   "sha256": "653b1ae281668eb1c4e17f87d4b76bacff9cf13888df64c3c2dba3aee020f3db",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:17Z",
+   "raw": "6a7baec803c396f9d98fabb042db3f978d3b8773.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/leben/stress.html",
+   "status": 200,
+   "sha256": "1f24bc1bbcadb8c21332796e81aeee5f6c6cd979aacc917eaab20a31194f3999",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:18Z",
+   "raw": "7b81094ffce6ab3f3a9db810528f8c1499e4cb33.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/lebenslagen.html",
+   "status": 200,
+   "sha256": "d217ed922228b8bd00335edf8a135a20f45bc2506aaec51a84e454ee4eb4b933",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:19Z",
+   "raw": "e5bc2ce85973a844c837ec51423323d479d8bfc3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/lebenslagen/aelter-werden.html",
+   "status": 200,
+   "sha256": "acd0da35843215fc8cbe67931f254f21316bf07ce61b38869bbbd28bc09a079a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:21Z",
+   "raw": "45feab5b1596c10e8cfdb7f59ddea6043aa1c177.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/lebenslagen/gesund-bleiben.html",
+   "status": 200,
+   "sha256": "59642812f350cc31644816957e2666f78d26964b5e2a57d9572438153a46baef",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:22Z",
+   "raw": "f6368aa26683589dda1367dc1b57f0c94e86f849.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/lebenslagen/teenager.html",
+   "status": 200,
+   "sha256": "0cbcc94675886e67fda0fba2bafe8bf93b8cfe1320ff55bae29c77e7ee3c4b8b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:23Z",
+   "raw": "d28913a9ed7cbf3d3e01d7d32324bea287f6af6b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/lebenslagen/wir-erwarten-ein-kind.html",
+   "status": 200,
+   "sha256": "d3b39f22ce47773e7d623fbfe655ca82d89b6f5d6a33c8ef3e98090235cb1e69",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:24Z",
+   "raw": "427d8511960eb4efcbe01880bfd0a5fcf1fdeb55.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/news/aktuelles/aktuell-2025/bewegt-im-park-2025.html",
+   "status": 200,
+   "sha256": "f3f0d10bb17cb99105a1732c1a54ab7dce28bf2b1292118eb35d76bc28b50b44",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:25Z",
+   "raw": "75bd118e65aee764a98f00972e1ab7258750517e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/news/aktuelles/aktuell-2025/brustkrebsmonat-2025.html",
+   "status": 200,
+   "sha256": "3a13297d3d11ececbfa1ffa13dfd4f66dc024833eabb7d6abf916852bcc002ea",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:27Z",
+   "raw": "4de861ae7ec412c4db844099aa51705bb8262fc3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/news/aktuelles/aktuell-2026/bewegt-im-park.html",
+   "status": 200,
+   "sha256": "c7df9a273ae6f1e0b05e403dc8faa2dd384216d1c98196ffcd65ab0a720c8b1a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:28Z",
+   "raw": "7bdc877967cefbbd7f6056a6518c0ab388574fc8.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/news/aktuelles/aktuell-2026/eltern-kind-pass-neue-untersuchungen.html",
+   "status": 200,
+   "sha256": "aba2f51e6724ad72b3872dcfd91205cf33ff91dcfaf20a3d9c535840f23aa446",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:29Z",
+   "raw": "bde3da1f3e9598abd7c659a3d662b7f4b3c781f6.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/news/aktuelles/aktuell-2026/rauchfrei-telefon-20.html",
+   "status": 200,
+   "sha256": "21ed7663192016de236904a6d391bcf8ac3ccad3f72d424e6851e27ddaecb455",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:30Z",
+   "raw": "253175f7d92dfb61961cb252fb35934e5f57e29b.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen.html",
+   "status": 200,
+   "sha256": "9978e945f2485e23c0b3c008597931a2efa1526d1bb02ac68b269d295e9eac52",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:32Z",
+   "raw": "800394864ffa179c86788133e8130ec4d6ff17a3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/elga.html",
+   "status": 200,
+   "sha256": "22547518f3921e60b9191a4a261fb56231063351397e473205ccef258376e58f",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:33Z",
+   "raw": "7fc5e1b732da122e35fe3e1df081894663067721.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben.html",
+   "status": 200,
+   "sha256": "5649077d7353c9afe2b1072f5388681e4e259eaad23c5e568542667a787eb0be",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:34Z",
+   "raw": "58e561e74c4965d736018c2878af3d27f30619aa.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/bewegung/bewegung-beratung-hilfe.html",
+   "status": 200,
+   "sha256": "cf900828988600c9d7b4dd62ec46589ce749be5dff947ae9f883a9870e4bc7cc",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:35Z",
+   "raw": "04204d03b451f0866c15ba912eadac07dacaaa5e.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/bewegung/gesund-leben-beratung.html",
+   "status": 200,
+   "sha256": "9f007f42152289815f52ffd554e8e444623d1c8e8191bd843dafd099e65b1e03",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:37Z",
+   "raw": "5271590aa20b28b1031a61d9f478c8eea07e74a2.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/eltern-kind/babyklappen-und-babynester-in-oesterreich.html",
+   "status": 200,
+   "sha256": "d3857d40a4b681cdcad2656a232853d1054f01c9eded055fd1551a0f0879bd28",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:38Z",
+   "raw": "3b87792a3952b863278b176257bd65ea1985ed44.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/eltern-kind/elternberatung.html",
+   "status": 200,
+   "sha256": "3030ba59c5f75edc6eb799140cd27841b0cabd6accf5cb101e23e9e6bfcae6c0",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:39Z",
+   "raw": "26079f2ebb48b3e6444b58cbf9a8fc54faa6bc11.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/eltern-kind/fruehe-kindheit.html",
+   "status": 200,
+   "sha256": "fc6435b04ce97dedc532db044d554379579fd2b05efc65ead42ab87726af9e54",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:40Z",
+   "raw": "d17cd60e5399d6eef261cb968ab9164b1fd8efa7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/eltern-kind/geburtsvorbereitung.html",
+   "status": 200,
+   "sha256": "607e91586fb9cbc3bd8499e63ea146d326f6b3b9494fe6586d100de41cb92583",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:41Z",
+   "raw": "90745de7f5626e597f3acad64faa0861e1c8e699.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/eltern-kind/schwangerschaftsberatung.html",
+   "status": 200,
+   "sha256": "998b937d5da1b8e381b8c2834e848f8fa308f29a84129958aee1f2f9fdb1e723",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:43Z",
+   "raw": "ab74bf4e69e23a35b497374d8fde4eeb8f27de87.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/ernaehrung/ernaehrung-programme.html",
+   "status": 200,
+   "sha256": "c99cd1f9fa935a5f6f0823d76b4f7694fd44b2129e042783818b253558e96408",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:44Z",
+   "raw": "d7343b7c53d1d8d77c7f8470f6dd628c0fda9f5a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesunde-lebenswelten/berufsberatung.html",
+   "status": 200,
+   "sha256": "88fbc78be246e1cba8d72503707f66218bf34d5e9ddf6fdb5729e868067267d1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:45Z",
+   "raw": "5fd68dad0f85d403a003cad1e384219c64a847e0.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesunde-lebenswelten/bewegte-schule.html",
+   "status": 200,
+   "sha256": "3aec890b3c01083d5416965d88be749dada6272ffab2e46217742eec3e8d9ef4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:46Z",
+   "raw": "3aa4aa28428bd6f2c71d4692e69e6be0446d8637.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesunde-lebenswelten/familienberatung.html",
+   "status": 200,
+   "sha256": "cc95a9db70c2eb6fcc1cd183a1db28ce6d4df49270966a6f6659502606733624",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:48Z",
+   "raw": "ecfe010cb1309be1e32f52592fbefc2eb3056ea7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesunde-lebenswelten/hilfe-bei-schulangst.html",
+   "status": 200,
+   "sha256": "7bda1c0d59d2c4757cd213743a48c3f72cdc5545d52bac7207fb8eba143ec642",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:49Z",
+   "raw": "aed9611f00e171ba77f0df5fe9d0c2b6164b5864.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesunde-lebenswelten/kindergarten-beratung.html",
+   "status": 200,
+   "sha256": "3c21db296dc3e11b17cf78d8c0f2e81b6345585dca9e7985bb157cfcc021efb9",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:50Z",
+   "raw": "17149308a7ff0b6b3c8ac771380b77a29c1dd6be.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesunde-lebenswelten/schulberatung.html",
+   "status": 200,
+   "sha256": "379a4fd8cae38552890d324ef71317acb89d1a11d565ec1df86971db75774bf4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:52Z",
+   "raw": "2e9fef09e6516e0961b339d83f9fc971097ce56c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesundheitsvorsorge1/gesundheitsvorsorge.html",
+   "status": 200,
+   "sha256": "5d51eec9f41ef2324bd9faed211ed903b2650a349f3cb55750b61236c98c15b3",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:53Z",
+   "raw": "52636c23899b6ad314eeb23628fc877bb2fdb819.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesundheitsvorsorge1/impfaktionen.html",
+   "status": 200,
+   "sha256": "f54c74599d0de23333b349cdee99b877863516ccf50f6a498aaa37aa0be719aa",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:54Z",
+   "raw": "ed066eb23dbdb35dac889e9de9dcda028731e373.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesundheitsvorsorge1/impfen.html",
+   "status": 200,
+   "sha256": "db0b626861817127f3f3366a3cb66f8494f679bf269b55edb967fd818098a76c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "raw": "987a3a37ebaf2fc2ef6f122c1036ab7d7e590aba.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/kids-teens/internet-sucht.html",
+   "status": 200,
+   "sha256": "10c182e6e3c64506f9017dd52c2ae13e00256f7792548ff121be0841dca5e5b2",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:57Z",
+   "raw": "5510dd4965ba1db58bb4c81e1d2e2fc6be28dda9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/kids-teens/jugend-cannabis-beratung-hilfe.html",
+   "status": 200,
+   "sha256": "c2a88e04dea8613ad1631105065e8d83a8f8b059601d448b371fe650320fb96d",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:05:58Z",
+   "raw": "f20440aeb2873403cf1a268c54528b4f5ebe4383.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/kids-teens/jugendberatung.html",
+   "status": 200,
+   "sha256": "07f10202b53d7b64afaa2179eae8c94b6c26e264c3457e74b520c8c14c28bebe",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:00Z",
+   "raw": "54b99d5d7d367af4277523709569c880890d39b5.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/kids-teens/jugendliche-und-alkohol.html",
+   "status": 200,
+   "sha256": "117903b9479958ec175acd6f531f96b8693a22017c85ea2a43bdd74f44bbb85e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:01Z",
+   "raw": "6224797e904eca001bf17e05fe8453d61b13cdc9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/psyche-seele/hilfe-psyche.html",
+   "status": 200,
+   "sha256": "5fb77dbf85817c4932320c43868765fd3e58ad8bc4482c7c7dca65931ddf9ab5",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:02Z",
+   "raw": "b64f7f16ac88a61f446ef4b86079a6746dadf3a2.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/psyche-seele/psychotherapie-adressen.html",
+   "status": 200,
+   "sha256": "b37dd088170e88235a300dee4d43afebbafca156082e9be8ab0e2143afdb8e2d",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:03Z",
+   "raw": "83ab4790f23e64a50d92b4497268dbeb4c61c2e9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/psyche-seele/psychotherapie.html",
+   "status": 200,
+   "sha256": "90bc4715cf18cc2bda76073dcbc4e8dd092cf0d5f53f4a14d4c113ad9b7460d6",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:05Z",
+   "raw": "2683498f0aa14751ba26400871983c4ea99e9635.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/sexualitaet-verhuetung/sexualitaet.html",
+   "status": 200,
+   "sha256": "0797bccd1c89c11da12197d5c1d3f8910d345efd932e9543f9ed59771b5f265a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:06Z",
+   "raw": "a04a01793f0fb3346e5f1ac828c389b4870d8db9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/sexualitaet-verhuetung/verhuetung-beratung.html",
+   "status": 200,
+   "sha256": "3c327284a3acac9989bc77c4c9819f0e45ce99703e0711349cc27fd958d28a1c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:07Z",
+   "raw": "8e16762d1acb8cfcd44f8fe2b3da56ae4f776879.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/umwelt-gesundheit/mensch-natur-beratungsstellen.html",
+   "status": 200,
+   "sha256": "96b43dd9066ace3775b2b8350231b0bba0adaa3b4a89ad2d9f07244a8a895fce",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:08Z",
+   "raw": "29ae63e6920eb1bed86710e3dea9e1371fe47b23.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/umwelt-gesundheit/umwelt.html",
+   "status": 200,
+   "sha256": "56334a086f9507eb7939a391e98b79128678a929046203e4bdac8eb3b720f908",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:09Z",
+   "raw": "c97206c084aa8cd33a2d5eab6bf5165a1a9d1ba6.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem.html",
+   "status": 200,
+   "sha256": "04f9725e0e2e7a4341ea8d7fc00b2dd6c8fe5298fa6ba1ba49d8c9afea162886",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:11Z",
+   "raw": "f3fd9918f59d159a4f13c343fb1719fd8f1d4491.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/gesundheitsberufe/gesundheitsberufe1.html",
+   "status": 200,
+   "sha256": "05eeed4629a85472f0f623f265c804cf2d39172e6b5740220d00d1b73d4dbd22",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:12Z",
+   "raw": "503a579435b375fe4cf19c30728ad146502174a8.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/gesundheitsfoerderung-gesellschaft/migranten-psychosoziale-angebote.html",
+   "status": 200,
+   "sha256": "e33199fc7c7d021abb8c31b9706d18307210d9347fa97609bb8273135307426e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:13Z",
+   "raw": "2063f3d0d25142352ab94644604f5ee9b013bc8c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/gesundheitsfoerderung-gesellschaft/migrantinnen-migranten.html",
+   "status": 200,
+   "sha256": "3696b8d099d5ebb79765195c8325da6511588df29a0677d243c255278d980dc8",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:14Z",
+   "raw": "22f88cbbd224192d5c51fd60ce79493ecab5d48a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/gesundheitsleistungen/gesundheitsberatung.html",
+   "status": 200,
+   "sha256": "cfe289c90a6f6ebb7a975aac41752d6380283cc611ca7ff2ecd7a9bc2e57bb1f",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:16Z",
+   "raw": "f546213d327207903b6dc02bc403c4a35d41f94c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/gesundheitsleistungen/komplementaemedizin.html",
+   "status": 200,
+   "sha256": "8ac85330d3d5d403911830b8a9edcaa35612a4d35461215d95826ec6cc57a8c1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:17Z",
+   "raw": "7a53ff32343f8be40579eefc837f0d537c0be6a5.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/gesundheitsleistungen/palliativ-beratung-hilfe.html",
+   "status": 200,
+   "sha256": "ef60fb5c551b71a8171956a2b15f426cef4ea5bbc758ddc4d01ecd10dd2d0001",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:18Z",
+   "raw": "920be3554415a6cfd7d03daddfbbd322aefdbf73.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/patientenrechte/patientenanwaltschaft.html",
+   "status": 200,
+   "sha256": "4e6b0028616d46d96ab8d4bbcf044a6fced5672aebb92ec0600a1d1fd87ba767",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:19Z",
+   "raw": "19f815c461492633bffb14d783cab2677cae1233.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesundheitssystem/tests-gutachten/gentests.html",
+   "status": 200,
+   "sha256": "ccc55f7adff79277d0bc5350bd0bf0bd18b033df95273c9a8249fb7d4da04cdd",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:21Z",
+   "raw": "c8e348f4b4aed4f2f192382f262d03827555d63f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten.html",
+   "status": 200,
+   "sha256": "9737445ec09a2c7da87eb1937724c0cb297c6c2d9d198f2b0eb7924c2fee0f9b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:22Z",
+   "raw": "97045cfeaae1c9524256ed0cca50828f01659a03.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/abhaengigkeit-sucht/nikotinsucht-beratung.html",
+   "status": 200,
+   "sha256": "064c65b0a24566b8ab5c9ffd99f4da6b713dc0c2d5bfc3a72c167d8152a074d4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:23Z",
+   "raw": "9b764bf636cdf3f9f95234cd860d5042ed4be3d7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/abhaengigkeit-sucht/sucht-beratung.html",
+   "status": 200,
+   "sha256": "9e5874118457fe4ec61383d232fbb47aee3f85055377a0ce8028aed73f6f44e1",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:24Z",
+   "raw": "c2b7faf7bd48045c70ddd5ed425ee1b8ebf7821c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/allergien/allergie-beratung.html",
+   "status": 200,
+   "sha256": "abbfe78fd229892becb443b526e9e04bf3c6e5ffabb49744edca3d77fdd9eb9d",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:26Z",
+   "raw": "5ec78056cb32370c73411aae93b5a4d8d7b1d665.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/allergien/nahrungsmittel-intoleranzen-allergien.html",
+   "status": 200,
+   "sha256": "b70d139a56fa2438dc11783db71d4690d990dd38845575c79f31b91138ffc107",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:27Z",
+   "raw": "7c30f9eca4cbda486a2265cd5f0318fc73a3ee1f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/atemwege-lunge/asthma.html",
+   "status": 200,
+   "sha256": "81f5901ca453f8606f0c4b8223fb23d5bbcb8c3a504aedd26d736bbcaba68465",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:28Z",
+   "raw": "049bc02f196926ae224ef4eb5506740183d5b1e1.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/gehirn-nerven/angehoerige-schlaganfall.html",
+   "status": 200,
+   "sha256": "0951f3b7b3bb79680d130acc45b06ddc071de6ec28b32c90d2fbe1918feec324",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:29Z",
+   "raw": "b978f0235d7abdddaa0c675c21d983cb2ee7a40d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/gehirn-nerven/beratung-schlaganfall.html",
+   "status": 200,
+   "sha256": "7d8b938d25df9d4efaffbf7adebf14926f426aba8ebaf474f2c542ee712faae7",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:31Z",
+   "raw": "60dbecaa29fb77d312f5ee7ac61e042b4af84e02.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/gehirn-nerven/dachverband-selbsthilfegruppen.html",
+   "status": 200,
+   "sha256": "0b0c9e17fa0130c8e9160f087a815e56a393d897c5af13b553577edad5914ef8",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:32Z",
+   "raw": "8080ceac03826fea9b6e99b62da00e6ab82f639d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/gehirn-nerven/demenz-beratung.html",
+   "status": 200,
+   "sha256": "fa01ed74f5b22d133eca0de7cc66ff2236d449d2b65af79dcccc0e8e2421d58c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:33Z",
+   "raw": "3cd95a022b0ad05a14b46ff2a6dea0ffa7823e45.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/gehirn-nerven/finanzielle-unterstuetzung.html",
+   "status": 200,
+   "sha256": "b69ead7f535d29335288413927476d3ff7369e1a6062eab3a30e0b1869d77a80",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:34Z",
+   "raw": "c353d68e5bd2b65a1a33146cfdd5e54f233a7a34.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/infektionen-immunsystem/aids-hilfe.html",
+   "status": 200,
+   "sha256": "db93d39609c1df0dcddd817ca9efc093c1fb047bb32c56a3d834af7d132d291c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:36Z",
+   "raw": "0277113743f5635e09592c3ca8488447e8d84291.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/infektionen-immunsystem/geschlechtskrankheiten-beratung-hilfe.html",
+   "status": 200,
+   "sha256": "dc5203da776e5369a8308ab4133d7ccb649f59e8e91921da040eab23c319d383",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:37Z",
+   "raw": "0f760a2ad2da090921c6864938ea80c38b12c8fb.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/infektionen-immunsystem/pais-anlaufstellen.html",
+   "status": 200,
+   "sha256": "4e21b4db2b67db6e430f4ea33a13cadaf38d7e77c895851fb4dcb851310fd98e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:38Z",
+   "raw": "caed22556150872e8055f0290c87331b69fcefa9.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/krebserkrankungen/brustkrebshilfe.html",
+   "status": 200,
+   "sha256": "05e70feeb8904e9f6dec34ebac8114b722cbfc7ce77f681a357f9305eb5a5a7e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:39Z",
+   "raw": "225ae8fb055297e79a2f7508bfc9b6d8cc37aa8d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/krebserkrankungen/krebs-kinder-beratung.html",
+   "status": 200,
+   "sha256": "f22e5525e24e425b1efdbd2e2a068985ea9c7d2da10f918ffd5bddb2fa7edd5c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:41Z",
+   "raw": "426de4d6642666665cc512b889adcd96914aa2ab.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/krebserkrankungen/krebshilfe.html",
+   "status": 200,
+   "sha256": "fce91a97cde9be86ecec01bec394efbe4308fe8e3bcaf5aa9c10d9b171efd23c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:42Z",
+   "raw": "a00b50e0b1d56690636fbfb8e2b98ee86c2637b7.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/nieren-harnblase/nieren.html",
+   "status": 200,
+   "sha256": "ee9766f8791ddf04d97f12f24519a7e47a3a912d1b6499ea422fdf3b32b88c0e",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:43Z",
+   "raw": "f1e42b9c056a93a0222ca1a41187c41cbc1cf486.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/psyche/essstoerungen.html",
+   "status": 200,
+   "sha256": "b21025acc6f7c4beb7146ef4bfb94b7c73c47c0c095dac4865d2c650a56de033",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:45Z",
+   "raw": "4bccb090853a816e28604e3c5c2a333f715713ea.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/psyche/psychische-krankheiten.html",
+   "status": 200,
+   "sha256": "ee475c285b0306da0ed5c3ef25745371ec93f16466dd378e6c6154cebd806f06",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:46Z",
+   "raw": "df6cbce75d5291733592136a2e163e1eebde4f4c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/psyche/psychosozialer-dienst.html",
+   "status": 200,
+   "sha256": "a876c519a093e118034222f621dac6eb4202e2fd24a05bc038271e9317955bf5",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:47Z",
+   "raw": "772e2b3b822a74671b4f7c3cf7649ef139f11df6.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/seltene-erkrankungen/seltene-erkrankungen1.html",
+   "status": 200,
+   "sha256": "aeb3b15846ca0b95bbe5782e7eb75cf203d52281f0369d6205d5398b2d9cdad9",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:49Z",
+   "raw": "761c2a31959523fd4126393a691d5d245be03594.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/beratungsstellen/krankheiten/stoffwechsel-hormone/diabetes-beratung.html",
+   "status": 200,
+   "sha256": "aa200a0a64694f18c8e86a2f09981a57a7d1cc1d9c0f151285b0158caee79e5a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:50Z",
+   "raw": "1898f7efcc423215c2839d44da8b211b1207c28d.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/elektronischer-eltern-kind-pass.html",
+   "status": 200,
+   "sha256": "4d4dc1ef1aa58a673ae97318de4f99b0cce21daaa5f7372c10f71e1d6e9ede2b",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:51Z",
+   "raw": "db609dcf882eb4ae8cdeffd7b41b2e51fdfab828.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/gesundheitssuche.html",
+   "status": 200,
+   "sha256": "5e92a5cb727d64d1478166f25c13eb9f0ab0b9ec4f11ff1214c4aa0c34f4120a",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:52Z",
+   "raw": "2588f4356799f5bea7a3097dc00b83314471973a.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/kontaktstelle-patientenmobilitaet.html",
+   "status": 200,
+   "sha256": "c8c34a37fe598c17493806a36da41c9f59a54b949746d1f5f947199a6b159104",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:53Z",
+   "raw": "d09afbdc0f685d0abc0fd9f870a8c9a0645953d3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen.html",
+   "status": 200,
+   "sha256": "d51b42519ad7f374c74ab1a1452a91ca493142d0e4daa6a6291ce28485f8bc49",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:55Z",
+   "raw": "1effb304a3f304a0357511775ff89bb8ffb37994.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen/frauenarztbesuch.html",
+   "status": 200,
+   "sha256": "cdb706d1ad5e011c9df1bf43a86d2553a4ad35d309fc9410a6e5f63a0d70ebfb",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:56Z",
+   "raw": "096e4fdd8aec10e1497d95e0520b3bb79c34c8d5.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen/herz-kreislauf-erkrankung-vorbeugung.html",
+   "status": 200,
+   "sha256": "f11691296bfe4495672f0f70f040a87e2e73c635a3110d708eead44ce3251f76",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:57Z",
+   "raw": "c5339e7bd466dd433f1047cfe2c0847594519d3f.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen/impfungen.html",
+   "status": 200,
+   "sha256": "678e340ac2ad9b163986bce0f78a4ccebe3d1722a32de450edf6f4099c8401b8",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:58Z",
+   "raw": "71959fe06f1895fa3c1e046d9ac599e3b58cdb77.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen/meine-gesundheit-foerdern.html",
+   "status": 200,
+   "sha256": "90c30f1a1714e21e1cc94e8fa2d38d11c6579701f8084ef410045abb63c08dae",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:06:59Z",
+   "raw": "e1c5cef168fcd2efc4a2fc00fea31d1ea68e57d3.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen/meine-gesundheit-foerdern/bewegung.html",
+   "status": 200,
+   "sha256": "a14b9930e54f98593b01dda4f2a03e3b288e16530d21e6b49b0a34f6934f3378",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:01Z",
+   "raw": "d45d44e393d051e0412f36c29037324f5b32d931.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen/meine-gesundheit-foerdern/ernaehrung.html",
+   "status": 200,
+   "sha256": "6417274958ee3e6927ab82d93543b5f92f7985ef168ca6a6f2c04a0a5c42c393",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:02Z",
+   "raw": "921e430da773b604c676cf77263901994fbf6175.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/leichter-lesen/meine-gesundheit-foerdern/wohlbefinden.html",
+   "status": 200,
+   "sha256": "2eb27f2d3325e0c064a547bf7af26bfdc255b751e28094b23398c88e7f979748",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:03Z",
+   "raw": "76a02e4a4f40a25cfb8b3c505be55491061cbc1c.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/my-health-eu.html",
+   "status": 200,
+   "sha256": "40a389376a8560e680aa880947e7986c3f1efb6f6c46fb692394f4f9f196c8a0",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:04Z",
+   "raw": "9685f712bf166ac83febe0762bf2faf6ca6eb200.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/notruf.html",
+   "status": 200,
+   "sha256": "1dab042de09b812849f2e807e778f70c1764761ac3ccd5c7f46a724a7c203d10",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:06Z",
+   "raw": "3b4f2525fdca62a21e66e289cc0208ea97e54194.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/notruf/aerztenotdienst.html",
+   "status": 200,
+   "sha256": "12d723e194806e24c00edefe2b178a18ce31645e90331505eecda30ed1fc83b4",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:07Z",
+   "raw": "a6b43dcc25625fbd0444217904c15bc28b1154a5.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/notruf/hotline.html",
+   "status": 200,
+   "sha256": "83d76e260881dc7ef791c4c22d1b6ebc4de94ca88826bfdb10600b094a5fcfa5",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:08Z",
+   "raw": "4b78ea140fadd883c6d1522e6c21ee164fd7d316.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/service/notruf/notrufnummern.html",
+   "status": 200,
+   "sha256": "afc08e10164aa4e8cd34c566938910e9ce7617032bb8a9c06676e66adee2e7a3",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:09Z",
+   "raw": "696ff59199a555dafec1f5ef1e721792feb776bc.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/ueber-uns/impressum.html",
+   "status": 200,
+   "sha256": "b89807247d006b05993f6cba45b9b489801e147c5046bdd9132c8809fab35927",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:10Z",
+   "raw": "ff8ad5a2542b023b5e92ebe9b69d098d6bb91879.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/ueber-uns/qualitaetskriterien/datenschutz.html",
+   "status": 200,
+   "sha256": "c9e691791e7d6aecad3f925e07a79956f5b61e5caccc5d5abcc38b17872b0b2c",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:12Z",
+   "raw": "aee2bb49096bce7d613b5000bd8359e22953f230.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/ueber-uns/qualitaetskriterien/nutzungsorientierung.html",
+   "status": 200,
+   "sha256": "75fff413d2ec473e6e4e834a1f32b514bd23ee76b73a35001d14b99a5c2cd858",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:13Z",
+   "raw": "e43de0633a3f0c1c153ef15196baf3526d9fbff8.html"
+  },
+  {
+   "url": "https://www.gesundheit.gv.at/ueber-uns/qualitaetskriterien/verantwortlichkeit.html",
+   "status": 200,
+   "sha256": "60f09befd16ea1e267ccd8769b2e89c81c8d16d6fc7c138a50982abbca627be7",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:07:14Z",
+   "raw": "b0ae82f41c875a33d46333c3fc824b3f2fca0733.html"
+  }
+ ]
+}

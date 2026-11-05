@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=3=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=3=40=2026-07-02=2026-07-03" dokidSource="REDV_2006=PARA=3=152=2013-12-19=2013-12-25">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="3" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-07-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">2. Abschnitt 
+<br/>Kompatible EDV-Strukturen</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Herstellung kompatibler EDV-Strukturen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 3.</gldsym> (1) Die Sozialversicherungsträger und die ITSV-GmbH haben kompatible EDV-Strukturen in dem Umfang herzustellen, als dies für die gemeinsame Einrichtung, Betreuung und den Betrieb von Standardprodukten (<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" ursprung="u">§ 4</rvolink>) und IT-Infrastruktur erforderlich ist. Insbesondere ist die Kompatibilität herzustellen für</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die EDV-Systeme (Ablaufplattformen, d. h. Hard- und Software) und die Benutzerendgeräte für die gemeinsamen Softwareprodukte,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Datenkommunikation zwischen den Sozialversicherungsträgern über ein gemeinsames Netzwerk durch festgelegte Datenschnittstellen und Programm-zu-Programm Verbindungen,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Speicherung und Wiedergewinnung von Daten für die gemeinsamen Softwareprodukte,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>das Vorgehensmodell für die Entwicklung der gemeinsamen Softwareprodukte,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die Methoden und Hilfsmittel für die Entwicklung der gemeinsamen Softwareprodukte und</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>die Methoden und Hilfsmittel für das Management der gemeinsamen EDV-Projekte und -Produkte.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die Durchführungsbestimmungen zu den Kompatibilitätsanforderungen sind in einem EDV-Handbuch festzulegen und laufend den Erfordernissen anzupassen (<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="16" ursprung="u">§ 16</rvolink>).</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AMSprV_1994=PARA=1=464=2013-12-19=2014-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AMSprV_1994=PARA=1=464=2013-12-19=2014-01-01">
+<metadaten titrvo="Arbeitsmarktsprengelverordnung 1994" abkrvo="AMSprV 1994" dokart="V" titaen="12. Änderung der Arbeitsmarktsprengelverordnung 1994" abkaen="12. Änd AMSprV 1994" urheber="BMASK" pubdat="2013-12-19" ikra="2014-01-01" sichtbarkeit="p" gldart="PARA" gldnr="1" gldsort="70">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2004-04-16"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="464" begseite="1" jahrgang="2013"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+
+
+<ueberschrift level="1" halign="c" typ="para"> </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 1.</gldsym> Der Zuständigkeitssprengel der für die Besorgung behördlicher Aufgaben zuständigen Organe des Arbeitsmarktservice (<rvolink abkrvo="AMSG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="24" abs="2" ursprung="u">§ 24 Abs. 2</rvolink> und <rvolink abkrvo="AMSG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="24" abs="3" ursprung="u">3</rvolink><nolink> AMSG</nolink>),</absatz>
+<liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>des Leiters der regionalen Geschäftsstelle und</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>des Landesgeschäftsführers,</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">umfasst den im Folgenden festgelegten Zuständigkeitsbereich der jeweiligen regionalen Geschäftsstelle (Z 1) und der jeweiligen Landesgeschäftsstelle (Z 2) des Arbeitsmarktservice.</schluss>
+          </liste>
+
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

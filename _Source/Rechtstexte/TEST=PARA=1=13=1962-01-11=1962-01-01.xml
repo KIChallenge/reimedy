@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="TEST=PARA=1=13=1962-01-11=1962-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="ASVG=PARA=1=13=1962-01-11=1962-01-01" dokidSource="ASVG=PARA=1=189=1955-09-30=1956-01-01">
+<metadaten gldsort="70" indbr="66.01.01" gldart="PARA" beschdat="1961-12-15" urheber="Bund" titrvo="Allgemeines Sozialversicherungsgesetz" gldnr="1" fassung="33" ikra="1962-01-01" sichtbarkeit="p" abkrvo="TEST" titaen="TEST - 9. Novelle" dokart="BG" abkaen="9. TESTNov" pubdat="1962-01-11" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="BGBl." nrpuborg="13" begseite="317" jahrgang="1962"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="g1">ERSTER TEIL 
+<br/>Allgemeine Bestimmungen </ueberschrift>
+<ueberschrift level="2" halign="c" typ="g2">ABSCHNITT I 
+<br/>Geltungsbereich </ueberschrift>
+<ueberschrift level="3" halign="c" typ="para">Geltungsbereich im allgemeinen </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 1.</gldsym>Test: die <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="21" bereich="BIS" bis="25" ursprung="u">§§ 21 bis 25</rvolink><nolink> ASVG</nolink>.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

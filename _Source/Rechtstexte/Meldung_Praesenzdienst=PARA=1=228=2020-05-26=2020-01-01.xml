@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Meldung_Praesenzdienst=PARA=1=228=2020-05-26=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="Meldung_Praesenzdienst=PARA=1=247=1998-07-29=1998-07-30" dokidSource="Meldung_Praesenzdienst=PARA=1=247=1998-07-29=1998-07-30">
+<metadaten titrvo="Meldung der Dauer des Präsenz- oder Ausbildungsdienstes" abkrvo="Meldung Präsenzdienst" dokart="V" titaen="Meldung der Dauer des Präsenz- oder Ausbildungsdienstes" abkaen="1. Änd Meldung Präsenzdienst" urheber="BMAGS" pubdat="2020-05-26" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="1" gldsort="70" nichtanzeigen="n">
+<anm>Rechtsgrundlage: <rvolink ursprung="u" abkrvo="ASVG" verwart="d" gldart="PARA" gldsort="70" typ="e" gldnr="37c">§ 37c</rvolink> ASVG</anm>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="228" jahrgang="2020"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+<absatz typ="abs" halign="j">
+<gldsym>§ 1.</gldsym> Das Bundesministerium für Landesverteidigung hat auf automationsunterstütztem Wege nach Maßgabe der technischen Möglichkeiten in Abstimmung mit dem Dachverband der Sozialversicherungsträger diesem folgende Daten betreffend die im § 8 Abs. 1 Z 1 lit. c ASVG genannten Personen zu übermitteln:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Vor- und Familiennamen, den Wohnsitz, soweit dieser im Inland liegt unter Angabe des Bundeslandes, sowie das Geburtsdatum,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Versicherungsnummer gemäß § 31 Abs. 4 Z 1 ASVG, sofern sie dem Bundesministerium für Landesverteidigung bekannt ist,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Art sowie den Beginn und das (voraussichtliche) Ende des Präsenz- oder Ausbildungsdienstes und</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die Adresse und die Telefonnummer der zur Beantwortung von Rückfragen des Sozialversicherungsträgers jeweils zuständigen Militärbehörde.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

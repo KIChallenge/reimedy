@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="BPGGKinderEinstV=PARA=8=236=2016-08-23=2016-09-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="BPGGKinderEinstV=PARA=8=236=2016-08-23=2016-09-01">
+      <metadaten nichtanzeigen="n" titrvo="BundespflegegeldG Kinder-EinstufungsV" abkrvo="BPGGKinderEinstV" dokart="V" titaen="BundespflegegeldG Kinder-EinstufungsV StF" abkaen="BPGGKinderEinstV StF" urheber="BMASK" pubdat="2016-08-23" ikra="2016-09-01" sichtbarkeit="p" gldart="PARA" gldnr="8" gldsort="70">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="236" begseite="1" jahrgang="2016">BGBl. II  Nr. 236/2016 , S.1</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Erschwerniszuschlag</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 8.</gldsym> Bei der Festsetzung des Pflegebedarfes sind für schwerst behinderte Kinder und Jugendliche unter den Voraussetzungen des <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="3" ursprung="u">§ 4 Abs. 3</rvolink> und <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="4" ursprung="u">4</rvolink><nolink> BPGG</nolink> zusätzlich folgende auf einen Monat bezogene fixe Zeitwerte als Erschwerniszuschlag zu berücksichtigen:</absatz>
+          <abstand halign="l"/>
+          <table id="Tabelle7" cellspacing="0" style="border-collapse:collapse;margin-left:0pt">
+            <tr h-start="0">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 5.4pt 0pt 5.4pt" h-xval="7054">
+                <liste>
+                  <ziffernliste ebene="1">
+                    <listelem>
+                      <symbol stellen="2">1.</symbol>bis zum vollendeten 7. Lebensjahr</listelem>
+                  </ziffernliste>
+                </liste>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 5.4pt 0pt 5.4pt" h-xval="8644">
+                <absatz typ="tabtextr" halign="r">50 Stunden</absatz>
+              </td>
+            </tr>
+            <tr h-start="0">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 5.4pt 0pt 5.4pt" h-xval="7054">
+                <liste>
+                  <ziffernliste ebene="1">
+                    <listelem>
+                      <symbol stellen="2">2.</symbol>ab dem vollendeten 7. Lebensjahr bis zum vollendeten 15. Lebensjahr</listelem>
+                  </ziffernliste>
+                </liste>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 5.4pt 0pt 5.4pt" h-xval="8644">
+                <absatz typ="tabtextr" halign="r">75 Stunden.</absatz>
+              </td>
+            </tr>
+            <tr height="0" h-start="0">
+              <td width="470" style="border:none" twips="7054" h-xval="7054"/>
+              <td width="106" style="border:none" twips="1590" h-xval="8644"/>
+            </tr>
+          </table>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

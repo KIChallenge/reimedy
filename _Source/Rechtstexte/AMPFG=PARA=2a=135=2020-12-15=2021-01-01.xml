@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AMPFG=PARA=2a=135=2020-12-15=2021-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AMPFG=PARA=2a=87=2018-12-21=2018-07-01" dokidSource="AMPFG=PARA=2a=87=2018-12-21=2018-07-01">
+<metadaten beschdat="2020-11-17" gldart="PARA" gldsort="70" titrvo="Arbeitsmarktpolitik-Finanzierungsgesetz" abkrvo="AMPFG" dokart="BG" urheber="Bund" pubdat="2020-12-15" sichtbarkeit="p" titaen="Budgetbegleitgesetz 2021" abkaen="BudgetbegleitG 2021" ikra="2021-01-01" gldnr="2a" berkz="PVL; " nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="135" begseite="13" jahrgang="2020"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="para">Arbeitslosenversicherungsbeitrag bei geringem Einkommen</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 2a.</gldsym> (1) Abweichend von <rvolink abkrvo="AMPFG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="2" ursprung="u">§ 2</rvolink> beträgt der vom Arbeitnehmer zu tragende Anteil des Arbeitslosenversicherungsbeitrages bei einer monatlichen Beitragsgrundlage</absatz>
+
+<liste>
+            <betragliste typ="ziffer">
+              <listelem>
+                <symbol stellen="2">1.</symbol>bis 1 648 €<tab align="r" position="333.15" leader="p"/>0 vH,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>über 1 648 bis 1 798 €<tab align="r" position="333.15" leader="p"/>1 vH,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>über 1 798 bis 1 948 €<tab align="r" position="333.15" leader="p"/>2 vH.</listelem>
+            </betragliste>
+            
+          </liste><absatz typ="abs" halign="j">(2) Die Beträge gemäß Abs. 1 Z 1 bis 3 sind jährlich mit der Aufwertungszahl gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="108a" ursprung="u">§ 108a</rvolink>
+<nolink> ASVG</nolink> zu vervielfachen und kaufmännisch auf volle Eurobeträge zu runden.</absatz>
+<absatz typ="abs" halign="j">(3) Der vom Dienstgeber zu tragende Anteil beträgt abweichend von <rvolink abkrvo="AMPFG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="3" ursprung="u">§ 2 Abs. 3</rvolink> die Hälfte des gemäß <rvolink abkrvo="AMPFG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="1" ursprung="u">§ 2 Abs. 1</rvolink> und <rvolink abkrvo="AMPFG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="2" ursprung="u">2</rvolink> geltenden Arbeitslosenversicherungsbeitrages (Sonderbeitrages).</absatz>
+<absatz typ="abs" halign="j">(4) Ergibt sich auf Grund von Nachverrechnungen ein höherer Beitragssatz, ist der Differenzbetrag bei der nächsten Beitragsüberweisung abzuführen.</absatz>
+<absatz typ="abs" halign="j">(5) Abs. 1 und 2 gelten für selbständig Erwerbstätige und sonstige gemäß <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="3" ursprung="u">§ 3</rvolink><nolink> AlVG</nolink> Versicherte mit der Maßgabe, dass bei einer innerhalb der jeweiligen Betragsgrenzen liegenden Beitragsgrundlage an Stelle des vom Arbeitnehmer zu tragenden Anteils die Hälfte des Arbeitslosenversicherungsbeitrages entsprechend vermindert wird.</absatz>
+          <absatz typ="abs" halign="j">(6) Abs. 1 Z 3 ist auf Lehrverhältnisse (Lehrlinge) auf Grund von Lehrverträgen, deren Laufzeit nach Ablauf des 31. Dezember 2015 begonnen hat, nicht anzuwenden.</absatz>
+<absatz typ="abs" halign="j">(7) Während der Dauer der Kurzarbeit ist der vom Arbeitnehmer zu tragende Anteil auf Grund des der verkürzten Arbeitszeit entsprechenden Entgeltes – einschließlich Kurzarbeitsunterstützung – zu entrichten. Der Anteil richtet sich bei entsprechend geringem Einkommen nach Abs. 1 Z 1 bis 3; bei darüber liegendem Einkommen beträgt er die Hälfte des Arbeitslosenversicherungsbeitrages (Sonderbeitrages).</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

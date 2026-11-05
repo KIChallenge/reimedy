@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="statWeis_UV_2020=PARA=21=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="statWeis_UV_2020=PARA=21=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen der Unfallversicherungsträger 2020" abkrvo="statWeis UV 2020" dokart="Weisung" titaen="Statistische Weisungen für die Unfallversicherung 2020 StF" abkaen="statWeis UV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="21">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0011-II/B/6/2019">Erlass   Nr. BMASGK-20206/0011-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Rentenneuzugang nach Rentenarten und Versichertenkategorien</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 21.</gldsym> (1) Für die Erstellung dieser Statistik ist das <wwwlink ursprung="u" url="/fs/Formular_UL40_ab_2020.pdf" gldart="KEIN" typ="e">Formular UL40/1</wwwlink> zu verwenden.</absatz>
+          <absatz typ="abs" halign="j">(2) Dieses Formular ist von jenen Unfallversicherungsträgern auszufüllen, die in mehr als einer Versichertenkategorie Unfallversicherte im Stande führen.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Aufgliederung des Neuzuganges nach Versichertenkategorien ist wie folgt vorzunehmen:</absatz>
+          <absatz typ="abs" halign="j"> </absatz>
+          <table id="Tabelle4" cellspacing="0" style="border-collapse:collapse;margin-left:86.15pt;margin-right:-6pt">
+            <tr style="page-break-inside:avoid;" h-start="1723">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2290">
+                <absatz typ="tabtext" halign="l">I</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2530">
+                <absatz typ="tabtext" halign="l">=</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7345">
+                <absatz typ="tabtext" halign="l">Unselbständig Erwerbstätige</absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="1723">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2290">
+                <absatz typ="tabtext" halign="l">II</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2530">
+                <absatz typ="tabtext" halign="l">=</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7345">
+                <absatz typ="tabtext" halign="l">Selbständig Erwerbstätige</absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="1723">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2290">
+                <absatz typ="tabtext" halign="l">IIIa</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2530">
+                <absatz typ="tabtext" halign="l">=</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7345">
+                <absatz typ="tabtext" halign="l">Versicherte gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="8" abs="1" ziff="3" lit="h" ursprung="u">§ 8 Abs. 1 Z 3 lit. h</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="8" abs="1" ziff="3" lit="i" ursprung="u">i</rvolink><nolink> ASVG</nolink></absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="1723">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2290">
+                <absatz typ="tabtext" halign="l">IIIb</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="2530">
+                <absatz typ="tabtext" halign="l">=</absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7345">
+                <absatz typ="tabtext" halign="l">Sonstige im Schadensfall geschützte Personen</absatz>
+              </td>
+            </tr>
+            <tr height="0" h-start="1723">
+              <td width="38" style="border:none" twips="567" h-xval="2290"/>
+              <td width="16" style="border:none" twips="225" h-xval="2530"/>
+              <td width="322" style="border:none" twips="4815" h-xval="7345"/>
+            </tr>
+          </table>
+          <absatz typ="abs" halign="j"> </absatz>
+          <absatz typ="abs" halign="j">(4) Monatliche Bruttoleistung ist der Monatsbetrag der Rente einschließlich einer allfälligen Zusatzrente für Schwerversehrte zuzüglich Kinderzuschuss und Hilflosenzuschuss (jedoch ohne Familienbeihilfe), nach Abzug allfällig ruhender bzw. versagter Beträge. Als Hilflosenzuschuss gelten jene Leistungen, die gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="46" ursprung="u">§ 46</rvolink><nolink> BPGG</nolink> als Hilflosenzuschuss weitergewährt werden. Aufwendungen für Pflegegeld sind in dieses Formular nicht aufzunehmen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="Ausnahmen_von_der_Einhebung_des_Behandlungsbeitrages-Ambulanz=PARA=2=120=2001-03-09=2001-03-10"><rvo dokidCms="Ausnahmen_von_der_Einhebung_des_Behandlungsbeitrages-Ambulanz=PARA=2=120=2001-03-09=2001-03-10">
+      <metadaten nichtanzeigen="n" titrvo="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz" abkrvo="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz" dokart="V" titaen="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz StF" abkaen="Ausnahmen von der Einhebung des Behandlungsbeitrages-Ambulanz StF" urheber="BMSG" pubdat="2001-03-09" ikra="2001-03-10" sichtbarkeit="p" gldart="PARA" gldnr="2" gldsort="70">
+        <anm>Rechtsgrundlage: § 135a Abs. 4 ASVG</anm><puborgane>
+          <puborgan puborg="BGBl." gldpuborg="II" nrpuborg="120" begseite="713" jahrgang="2001">BGBl. II  Nr. 120/2001 , S.713</puborgan>
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Medizinischer Notfall</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 2.</gldsym> Lebensgefahr im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="135a" abs="2" ziff="1" ursprung="u">§ 135a Abs. 2 Z 1</rvolink> in Verbindung mit <rvolink ursprung="u" abkrvo="ASVG" verwart="d" gldart="PARA" gldsort="70" gldnr="135a" abs="3" typ="e">Abs. 3</rvolink> ASVG ist dann anzunehmen, wenn auf Grund objektiver Betrachtungsweise bei der zu behandelnden Person Symptome aufgetreten sind, durch deren Vorliegen eine unmittelbare Lebensbedrohung nicht ausgeschlossen werden kann.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_OEGK_2025=PARA=37=72=2025-12-19=2025-12-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2025_0072_1766398362055">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Österreichischen Gesundheitskasse 2025" abkrvo="KrankenO OEGK 2025" dokart="KrankenO" titaen="Krankenordnung der Österreichischen Gesundheitskasse 2025 Stammfassung" abkaen="KrankenO OEGK 2025 StF" urheber="ÖGK" beschdat="2025-12-09" pubdat="2025-12-19" ikra="2025-12-20" sichtbarkeit="p" gldart="PARA" gldnr="37" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="72" jahrgang="2025">avsv   Nr. 72/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="g1" halign="c" level="1">5. Abschnitt <br/>Kostenerstattung <br/>(<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="131" ursprung="u">§ 131</rvolink><nolink> ASVG</nolink>)</ueberschrift>
+          <ueberschrift typ="para" halign="c" level="2">Kostenerstattung bei Inanspruchnahme von Wahlärzten/Wahlärztinnen, <br/>Wahl-Gruppenpraxen oder sonstigen Wahleinrichtungen</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 37.</gldsym> (1) Der/Die Versicherte hat dem Wahlarzt/der Wahlärztin, der Wahl-Gruppenpraxis oder der sonstigen Wahleinrichtung das vollständige Honorar vor Einreichung der Honorarnote bei der Österreichischen Gesundheitskasse zu zahlen. Für die Kostenerstattung nach der Satzung muss der/die Versicherte oder eine von ihm/ihr beauftragte Person der Österreichischen Gesundheitskasse die saldierte Honorarnote, unabhängig davon, ob diese in Papierform vorliegt oder elektronisch erstellt wurde, übergeben oder elektronisch übermitteln. Auf Verlangen der Österreichischen Gesundheitskasse ist die saldierte Honorarnote (Rechnung) im Original als Voraussetzung für die Kostenerstattung vorzulegen. Die Honorarnote muss folgende Angaben enthalten:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Vorname und Familienname des/der Versicherten,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Versicherungsnummer,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Wohnadresse,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>bei Behandlung eines/einer Angehörigen außerdem die unter Z 1 bis 3 angeführten Personaldaten des/der Angehörigen,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>die Zahlungsbestätigung, stattdessen kann auch der verwendete Einzahlungsnachweis (Zahlschein, Erlagschein, Kontoauszug) übermittelt werden; liegt kein Einzahlungsnachweis vor, kann im begründeten Einzelfall der/die Versicherte die Zahlung mit eigenhändiger Unterschrift bestätigen,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>das Ausstellungsdatum,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>genaue Angaben über die ärztlichen Leistungen, und zwar</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>die Diagnose und Therapie,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>die Zahl der Ordinationen, Visiten, Nachtordinationen, Sonn- und Feiertagsordinationen und bei Sonn- und Feiertagsordinationen sowie Nachtvisiten und Nachtordinationen auch die entsprechende Begründung,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>die Sonderleistungen,</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">8.</symbol>das Datum, an dem die Leistungen erbracht wurden, bei Nachtvisiten und Nachtordinationen auch die Uhrzeit,</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>bei Inanspruchnahme einer Wahl-Gruppenpraxis den Namen und das Fachgebiet des/der behandelnden Arztes/Ärztin der Gruppenpraxis.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Nimmt der/die Versicherte, dessen/deren Überweisung oder Zuweisung elektronisch erstellt oder im eKOS nacherfasst wurde, für eine derartige Leistung einen berechtigten Partner ohne Kassenvertrag bzw. eine berechtigte Partnerin ohne Kassenvertrag in Anspruch, ist er/sie im Fall der Einreichung der Honorarnote zur Kostenerstattung verpflichtet, das Informationsblatt zur e<gdash/>Zuweisung bzw. e<gdash/>Überweisung, das er/sie bei der elektronischen Zuweisung erhalten hat, zu übermitteln oder im Antrag auf Kostenerstattung den Antragscode anzuführen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

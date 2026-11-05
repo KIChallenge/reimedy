@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASVG=PARA=68a=2=2015-01-13=2015-01-01"><rvo dokidCms="ASVG=PARA=68a=2=2015-01-13=2015-01-01" dokidSource="ASVG=PARA=68a=83=2009-08-18=2009-08-01">
+<metadaten pubdat="2015-01-13" abkaen="SVAG" dokart="BG" titaen="Sozialversicherungs-AnpassungsG - 84. Novelle" abkrvo="ASVG" sichtbarkeit="p" ikra="2015-01-01" fassung="50" gldnr="68a" titrvo="Allgemeines Sozialversicherungsgesetz" urheber="Bund" beschdat="2014-12-10" berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; AN; AG; SELB; " gldart="PARA" indbr="66.01.01" gldsort="70" nichtanzeigen="n">
+<durchfv>
+<rvolink ursprung="u" abkrvo="verändW" verwart="d" gldart="ZAHL" gldsort="130" gldnr="5a" typ="e">5a verändW</rvolink>
+</durchfv>
+<uebrecht>
+<rvolink abkrvo="ASVG" ursprung="u" verwart="s" gldart="PARA" gldsort="70" gldnr="625" abs="4" pubdat="2005-11-18" puborg="BGBl." gldpuborg="I" nrpuborg="132" jahrgang="2005" typ="e" ikra="2005-11-19">§ 625 Abs. 4 ASVG idF 132/2005</rvolink>
+</uebrecht>
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="2" begseite="1" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Nachentrichtung verjährter Beiträge zur Pensionsversicherung</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 68a. </gldsym>(1) Beiträge zur Pensionsversicherung, die nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="68" ursprung="u">§ 68</rvolink> bereits verjährt sind, können auf Antrag der versicherten Person von dieser nachentrichtet werden. Der Antrag ist bis längstens zum Stichtag (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="223" abs="2" ursprung="u">§ 223 Abs. 2</rvolink>) beim zuständigen Träger der Krankenversicherung zu stellen, der das Vorliegen der Zeiten der Pflichtversicherung bzw. die Höhe der Beitragsgrundlagen festzustellen und die nachzuentrichtenden Beiträge vorzuschreiben hat. BeitragsschuldnerIn ist die versicherte Person.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die nach Abs. 1 vorzuschreibenden Beiträge sind für den Zeitraum ab der ursprünglichen Fälligkeit bis zur Vorschreibung <rvolink ursprung="u" abkrvo="verändW" verwart="d" gldart="ZAHL" gldsort="130" gldnr="5a" typ="e">zu vervielfachen</rvolink>, und zwar mit dem Produkt der Aufwertungszahlen nach <rvolink abkrvo="ApG" verwart="d" typ="e" gldart="ANL" gldsort="150" gldnr="2" ursprung="u">Anlage 2</rvolink> zum APG; ab dem Jahr 2006 ist die Reihe dieser Aufwertungszahlen um die Aufwertungszahlen nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="108a" abs="1" ursprung="u">§ 108a Abs. 1</rvolink> zu ergänzen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Alle für die Entrichtung von Beiträgen geltenden Bestimmungen gelten auch für die Nachentrichtung verjährter Beiträge, soweit in den Abs. 1 und 2 nichts anderes bestimmt ist; Einbringungsmaßnahmen bei Nichtzahlung der verjährten Beiträge sind jedoch ausgeschlossen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

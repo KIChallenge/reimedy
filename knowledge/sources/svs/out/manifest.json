@@ -1,0 +1,1211 @@
+{
+ "source_id": "svs",
+ "fetched_at": "2026-11-05T19:32:56Z",
+ "n_docs": 1378,
+ "urls": [
+  {
+   "url": "https://www.svs.at/",
+   "status": 200,
+   "sha256": "b85a3812d58cc9b3d13278be1b48e938a9d5c41a12f2981d8ccefb78a68f237f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+   "status": 200,
+   "sha256": "6a1ae49160cd8d040907f03cb10275a1a260f22b5ecd8398e6249f8031c5cb3f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.906877&portal=svsportal",
+   "status": 200,
+   "sha256": "10b41e2e9179011a6f795365669d0ce4c15b89fcbfa13f8662d80620f403423e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.846416&portal=svsportal",
+   "status": 200,
+   "sha256": "789a2af1d0cd23b590977a0e45c5cf47a2a914159b619b8118bf2e7e5d03f3e2",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal",
+   "status": 200,
+   "sha256": "89f3664b4007ba686800629b3f7f7f1daeae6d091ced453a69b088e32f085e8e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816835&portal=svsportal",
+   "status": 200,
+   "sha256": "ae36ab6b150e8046edacd55432a219bbf98176cf3d6f3b622bd98773f29bffe8",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816534&portal=svsportal",
+   "status": 200,
+   "sha256": "03fecfab85789941cea46f592ce3107a7bc011d6b8209553236c28aa818bc092",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816750&portal=svsportal",
+   "status": 200,
+   "sha256": "8b6917ee58f5238f053c85d180072fbbfabf329fc84873ba2a73db2c95ce714a",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816630&portal=svsportal",
+   "status": 200,
+   "sha256": "d905e7eb9b39157c63c8e465de1ab3bf3cc47f84f1f529c58f20d71a057f6c16",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816556&portal=svsportal",
+   "status": 200,
+   "sha256": "3ed4c8516a0d36e4ca4a4f38e73bbecbaf0b42f3fe781afbe45a312d4b6bc8d0",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.849613&portal=svsportal",
+   "status": 200,
+   "sha256": "0541fcc53a68cbd69f46ffff05b67b07f18e91e729d7c4dd49f1e1cecd05d923",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816682&portal=svsportal",
+   "status": 200,
+   "sha256": "b08f7cec98b2417a338233eda30691e7e61c830f0f4a477d0978fb5f12e0366b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816681&portal=svsportal",
+   "status": 200,
+   "sha256": "84d1e31e3e89598ce6336483f39403fe24c1ad482136b9a2d4af888c73e88269",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+   "status": 200,
+   "sha256": "551e077823b51fcf2dd15cd5d2b077027fbe10cc3e05f61c595212e6a3d594b5",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816673&portal=svsportal",
+   "status": 200,
+   "sha256": "4ecc376e7183369bd45522aeb1e5fb4d53437577f4589b43fc84789cd8c65630",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816671&portal=svsportal",
+   "status": 200,
+   "sha256": "6f9f5e6b4682fad90a80c20813d8903b15e40005ff7be1f10b3d5595449e5cac",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816659&portal=svsportal",
+   "status": 200,
+   "sha256": "053d7dc02ac951e229f7f1b888e57a77664b72ce67754cf851a1d8df33953fd5",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816655&portal=svsportal",
+   "status": 200,
+   "sha256": "95d310115677e7ad92ded72d5735a7f8e7908facf8e300c0af0d974901aeb530",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816710&portal=svsportal",
+   "status": 200,
+   "sha256": "631aaf66ce3b2248952d2cb5163cdaedd0116fffe815d9c8ff6cece334d0c749",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.884157&portal=svsportal",
+   "status": 200,
+   "sha256": "d119d36abd5814fac590b50ac949a5bdd2d952a11c82f5d60fc5b4ccb90dc465",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.854108&portal=svsportal",
+   "status": 200,
+   "sha256": "ded31aaefca2ffbcbec92105a4455d5ed0f4e338747643160d39bf57a96350bc",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.906527&portal=svsportal",
+   "status": 200,
+   "sha256": "94ef8c5aaf5963fd99fc10b06940fdfec305828f8fad4374a736c31b6447189f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
+   "status": 200,
+   "sha256": "f6360b674fc7538a10de9a5bb67e5ef2a9b801607994d1e995ba2d2ea0263d0a",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817071&portal=svsportal",
+   "status": 200,
+   "sha256": "e218084e4466bba3d0aef40fee105be1b2997a24b4b43b21edc9a2fd619cdcd2",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817046&portal=svsportal",
+   "status": 200,
+   "sha256": "aa3d0dc72712fd05cb6cde35ba8eeeb737561d07827fed6e062ece6ab2bdd7e7",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817082&portal=svsportal",
+   "status": 200,
+   "sha256": "003fa7ecda1b051a58198e9edbf7f2df118a7f4586b5f47291ca091dec1d9315",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.859661&portal=svsportal",
+   "status": 200,
+   "sha256": "86a8cb359b409e38e75c1c892b4fab9063959a90c4061cadddc1236e7ca1801f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.862537&portal=svsportal",
+   "status": 200,
+   "sha256": "fea686f59d9b86d85b3ea988453e121a7f55d7e0801f4a71201155956f87cc76",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.851413&portal=svsportal",
+   "status": 200,
+   "sha256": "b45ae93922af736d6784f9a9bfe7c7edd58f2f7de8cc9985122979b19743344e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.887786&portal=svsportal",
+   "status": 200,
+   "sha256": "3c8e7594458d9c9d8ba29588d9a25337995bb35450e80afa6d7fd5dd6048d483",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.887799&portal=svsportal",
+   "status": 200,
+   "sha256": "32efd55c59aff0f6c7def17902fc5845e280a650b5781bdc9c5045028c36f2f3",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.887795&portal=svsportal",
+   "status": 200,
+   "sha256": "7b61b8a6bacd6cae3db857a6c57c272078b8c3fcb531a5eabff26779f877794c",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.838509&portal=svsportal",
+   "status": 200,
+   "sha256": "1eb665a5eeb6f284bb996049d16fabe28eb6a0244bc3623851f6103f981a9228",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816755&portal=svsportal",
+   "status": 200,
+   "sha256": "2f8b4315a0f429689ac34306ce0f4e5dcc8be8faf3bfd639d87ecae37dc9ba4e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816737&portal=svsportal",
+   "status": 200,
+   "sha256": "d876f7e6fbded89f9c0264960b395e1bd01b8bca0329caf0beaeb5d8ee302e86",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816774&portal=svsportal",
+   "status": 200,
+   "sha256": "5d3fc84e548329eb72c5a472a2cf9bcb4e28fd21f84e94752cba541eaa7e43dd",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.898498&portal=svsportal",
+   "status": 200,
+   "sha256": "742566584622f87b007da5002dbb17561272ba4d9abb9d6aab16f149b5a69ba5",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817047&portal=svsportal",
+   "status": 200,
+   "sha256": "39e3e83cd3b7efa012d11d83a72402ccd782a28917e223fd9e8352a90247777c",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.838594&portal=svsportal",
+   "status": 200,
+   "sha256": "7607ef8999cbe5c24a5b89f562d87b191e5502b7d5e126f75505af3c5acaf43d",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.838482&portal=svsportal",
+   "status": 200,
+   "sha256": "f4c459bd0cb927f3993d6e536d5c117f683da3572abd2674cc6f8cbca37063ab",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.838586&portal=svsportal",
+   "status": 200,
+   "sha256": "6059748d69b1d8f40a2135c17849954d075476f0111a51111d6dda910a05e8bc",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.837501&portal=svsportal",
+   "status": 200,
+   "sha256": "4130a43cd8844d2fb62e6d97b1a399809ed91d1d9d457bb34692bc07fa550708",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.835088&portal=svsportal",
+   "status": 200,
+   "sha256": "6b63f84ab6f6372beefcf175bec32d57b205f870e3b7f80a83f4b5851bc58f52",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.838506&portal=svsportal",
+   "status": 200,
+   "sha256": "5ac4dbe22a4d2fc8c428be4b111dbeaf33873203993428fe743c136af38e77ef",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.838673&portal=svsportal",
+   "status": 200,
+   "sha256": "a6abdc8d86c82490a9d89c38b61718360e577aa3934f2efa04fb3ee5a8c93d0e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.907176&portal=svsportal",
+   "status": 200,
+   "sha256": "089fb5b3612efb2700be54df94b5ce9ff6e23019c282a3e68b0c371eeb635167",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816823&portal=svsportal",
+   "status": 200,
+   "sha256": "453964d38e62273224a0f7e9f59ba6f5c5b827f52b60004d0f7da398610d922e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816821&portal=svsportal",
+   "status": 200,
+   "sha256": "04966d3e6f350040338e95b30ed5b0f103334919d1d0ef7df29305642a897af9",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816818&portal=svsportal",
+   "status": 200,
+   "sha256": "7e2599e3484f7325d03f8b6fe99d4742838cc93d590340cb52d360dc3c031f86",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.843278&portal=svsportal",
+   "status": 200,
+   "sha256": "0a8826471d4310e33998f69b6a8527525b7d8f0d67860497da50d058b37d28d1",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.828375&portal=svsportal",
+   "status": 200,
+   "sha256": "05416d9212f20059f7ab6509241ef62ba2d224b37aa1de2797a98d7b56621b5e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816816&portal=svsportal",
+   "status": 200,
+   "sha256": "4dc81a7e3e314385ece8d7789af53e3a75e5bd43af000effadbf836a101bf86b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816954&portal=svsportal",
+   "status": 200,
+   "sha256": "476b79d05d027808c81ad6d7e0248c47d08162e0143f4d3da52319117a25631a",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816953&portal=svsportal",
+   "status": 200,
+   "sha256": "604a85ecd825ef127bbc59c1295b645668decac06f5aa34b8c2e85914825b1e1",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816947&portal=svsportal",
+   "status": 200,
+   "sha256": "5a7dfaa33fcb0b38a90331553ce2a1b68e2be823dd99f68822aa070b77422ac5",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.909444&portal=svsportal",
+   "status": 200,
+   "sha256": "98cc275cd95cf826af7fa71ad28ef438ab7b578f9caeccc2d6ee8f88da4d4025",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.911648&portal=svsportal",
+   "status": 200,
+   "sha256": "7b2f16249af23b7dd72457a89fef77a7cafe0633cf0f8a86cafeabb93c61e031",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal",
+   "status": 200,
+   "sha256": "d32bfac48142804d54e1722a97c6094149bbbb5a015ab0f3ff7ef5668f14ae5d",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.834957&portal=svsportal",
+   "status": 200,
+   "sha256": "fc0e4f3e6cac535ce51d64b1d48ff09d49d10eb27c7356b27688e309981c39ca",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816826&portal=svsportal",
+   "status": 200,
+   "sha256": "8a3788069de301271d425a3dc8c72d1e753766bcfee6fde6203adaf90871d229",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817057&portal=svsportal",
+   "status": 200,
+   "sha256": "13a5134183247f038c1a9f1acb80291985140478910e283f5ce2c11a0850d7b8",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817051&portal=svsportal",
+   "status": 200,
+   "sha256": "d88d86db0ea2c031a205a93caf2a8f1a5a39890e1ade5952eedaba224b8e132b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817028&portal=svsportal",
+   "status": 200,
+   "sha256": "b6cc2dc952aa7615f26bbbe64c7c7be3d91a206969bf014644f06a69a5aabad4",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817024&portal=svsportal",
+   "status": 200,
+   "sha256": "936b531b087fbd0fae2e09fc821903fea7070e76f9855840f4ffafffeebfef5d",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.888925&portal=svsportal",
+   "status": 200,
+   "sha256": "fe75d6945a9f6c19b0208e03c9a3b756c9e09e4109f867da80d37cb69e8accc2",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.834954&portal=svsportal",
+   "status": 200,
+   "sha256": "7f842bd7dea230df6f6aa0108582415a2f8c18f685bcfaacb761190c7bd7556f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.856263&portal=svsportal",
+   "status": 200,
+   "sha256": "4e962ea3312e41ddc08305d8aabf9513a81d76d37007b35d1ccd9c508b24503f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.828367&portal=svsportal",
+   "status": 200,
+   "sha256": "fa02dab459fe66b54e04a6ca40ae69d1ee7b8559abfaaee64dd1b3b5a52ab181",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816824&portal=svsportal",
+   "status": 200,
+   "sha256": "1d307ac5a6456cc0568c65d3e98f07ce318f07cd1a8bf8ec4c78fc72712ff63a",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816515&portal=svsportal",
+   "status": 200,
+   "sha256": "84e71476209257e3cd663e15fa8e98b7ddef7beba8c026deaa94036fdf6da81e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816528&portal=svsportal",
+   "status": 200,
+   "sha256": "a716105f1a41ca4ddf6053a62b7e23801d8926c850b30ab0a02e77d7e2d66061",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816447&portal=svsportal",
+   "status": 200,
+   "sha256": "8d09bfa1e3123be8f44b82a966adcb3dda584cc9b347a7d74bb145fea5ebf68a",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816450&portal=svsportal",
+   "status": 200,
+   "sha256": "d3e2a5be1625841fc82f7c37987cce71d43746fe965c241fcb86a49c7a0b044b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816498&portal=svsportal",
+   "status": 200,
+   "sha256": "e91aa2b89226f118b7f20c3ba14bb69783bbc17c414dfbec1bb143fa59a644ac",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816445&portal=svsportal",
+   "status": 200,
+   "sha256": "29556b78bfea0acfeee29559c18dff9399f45ffadb6ea78fd4eeb3ed91be48ce",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816454&portal=svsportal",
+   "status": 200,
+   "sha256": "4f2a3741a0a7435dd64d63acb1749564675417f7e87ea2a8c634a4520d693f73",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816457&portal=svsportal",
+   "status": 200,
+   "sha256": "d1273b790fae43dc87e5329fa2e7695f78601221889c548cc9cbf796f8b501a1",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816458&portal=svsportal",
+   "status": 200,
+   "sha256": "0c027f1e9ea2e3f642485aea0963a5fe567018697fe261e51d6cfdc8c7938a4d",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.854936&portal=svsportal",
+   "status": 200,
+   "sha256": "5e5e9709ea98dd1ebeaaf2fe6610eeb0580ada854a2f8ba460bbc5ce83037f54",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816749&portal=svsportal",
+   "status": 200,
+   "sha256": "d9425380d988bb5ba1190feea68d207cd4a076f96ff7d777fd8385588015b3e8",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816748&portal=svsportal",
+   "status": 200,
+   "sha256": "b24d1150367c7c04522a56cafb9332a6ba33e08b011d336bf390c1e764cb8351",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816744&portal=svsportal",
+   "status": 200,
+   "sha256": "022ea97379de0294b9c990bf9d8905c01c264b86d328f0a9458fafe521752f6b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816742&portal=svsportal",
+   "status": 200,
+   "sha256": "af020a81f7398f05e9c8a6dc46a254f4ff7374f15bf93210451a705d35b0dc15",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816741&portal=svsportal",
+   "status": 200,
+   "sha256": "2ca5be7dfbaedab68c584fbc1faf716ef35538774f4e9717f27a945980f2cf99",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816736&portal=svsportal",
+   "status": 200,
+   "sha256": "d5ea579ff72938addaa758ac46d61490a062e7e43e2a362ffef7190fa64a96f9",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816732&portal=svsportal",
+   "status": 200,
+   "sha256": "adcfbe6364b2a6c824a9956c94eb96c753de4494a8e80b904cd1e9867a6caf98",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816804&portal=svsportal",
+   "status": 200,
+   "sha256": "d48e46564cd1940b11f88416474ad725c0e157617ee53e5cb867dede16a42de8",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816805&portal=svsportal",
+   "status": 200,
+   "sha256": "8c73bbe74e6654f2594393f849b099b76350376a021e2deee36bc90bbe2c60c7",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816810&portal=svsportal",
+   "status": 200,
+   "sha256": "65d73d354f7c10d3d28ee810ae38495e524d7d0034bdf084bc662210fb2ec5db",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816811&portal=svsportal",
+   "status": 200,
+   "sha256": "06b4c54895eb6e4c9e420b2354d15b4e170fe59590a15ee9b98d51511b36773e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816812&portal=svsportal",
+   "status": 200,
+   "sha256": "92150a61ce03cecfbe308c636b436c8086ad271f422a839091e7db6e5991ca40",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.885802&portal=svsportal",
+   "status": 200,
+   "sha256": "04b3586c20b775a7e1a52056bfe9d7517bc749c4651870f367a5b87775b6026d",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816731&portal=svsportal",
+   "status": 200,
+   "sha256": "e0e673c9b54868bdb1aa89da926cf3b2ec82ec431bf238a41a705d71911dbbb8",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816263&portal=svsportal",
+   "status": 200,
+   "sha256": "c325e0b755b626bef9509a82f867fa1064e57cd87f8f4d1aee418c58c6eb5814",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816726&portal=svsportal",
+   "status": 200,
+   "sha256": "79fd7202c2b8756332c08b6c1935e7c2c3e2ed4873e11823d635ed2188163e99",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816403&portal=svsportal",
+   "status": 200,
+   "sha256": "85e2422fe8c58a1751fe2f02272001e4e9f4eaa0ad8d2d14c4b74fb435f6d0e1",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816400&portal=svsportal",
+   "status": 200,
+   "sha256": "9b07f865d84960a00aea9af28a63e39becb6be168f0a4b1beeabf1fbdb04b932",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816363&portal=svsportal",
+   "status": 200,
+   "sha256": "2a7a6b7309f73e252a780451903dad9eee64b7236f963772d8ad1aaa4c98ac2f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816505&portal=svsportal",
+   "status": 200,
+   "sha256": "fa02dab459fe66b54e04a6ca40ae69d1ee7b8559abfaaee64dd1b3b5a52ab181",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816520&portal=svsportal",
+   "status": 200,
+   "sha256": "e99cb8151fa94228d7f8315f9649acd84e42d8b138956b3b792db6ab627a17b0",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816523&portal=svsportal",
+   "status": 200,
+   "sha256": "983663af606883622a0d2bbc642c324a095db3668b7c4877a79c59cf98f30a1a",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816548&portal=svsportal",
+   "status": 200,
+   "sha256": "88c1278019b792f9845f9fa20675117f2df1a71fd6cd76f3a3cc2a55c3c69375",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816537&portal=svsportal",
+   "status": 200,
+   "sha256": "c31b4778ce3558c3c02acac155276f59e3db6dbfbbc86426bc98c2a88ae8cc07",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816536&portal=svsportal",
+   "status": 200,
+   "sha256": "6cf8edaf907a034beed790a17398b891ac49d794c162cc83edb04e7a4e74c01b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816532&portal=svsportal",
+   "status": 200,
+   "sha256": "66ebf485ad4e56044b824f0a558358eb8652c61a000e9588783b8e1e1bf36057",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816629&portal=svsportal",
+   "status": 200,
+   "sha256": "2eddfa417399c5137deaa39fdd7c91be91d0800d6ddaa39652956d1097ef2539",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816622&portal=svsportal",
+   "status": 200,
+   "sha256": "e2869f6c05a6fa67d2c157d7f5d5cd26942b31695385dfef602158414b001e9b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.893524&portal=svsportal",
+   "status": 200,
+   "sha256": "f55b580837f1e8b9a1edb16379e1d0c72f478ff78801e10240b42543a253e1cb",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816618&portal=svsportal",
+   "status": 200,
+   "sha256": "1738c825e2791d206d19c66cf76c5c01f0643db586ff3d9d38b19e78e45f70c5",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816616&portal=svsportal",
+   "status": 200,
+   "sha256": "2cb4eb089462b4ef315309a8fa18d6eb75327e385252f815c450f27452177113",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816614&portal=svsportal",
+   "status": 200,
+   "sha256": "70545afedc8613ed841d54310034ae6ea72fc94dbc6ab5df006917828c7da37c",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816773&portal=svsportal",
+   "status": 200,
+   "sha256": "3e60b67fd40d523b693e064cbe8c2342bb9b0d53847b207a300d3e62905f063d",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816856&portal=svsportal",
+   "status": 200,
+   "sha256": "d5f8f139242781b19ba0ad7bc1a4eefaef1628e21dc6d831470ed20ccff81429",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.906706&portal=svsportal",
+   "status": 200,
+   "sha256": "f943756b1c4e850d6277e2ad2baf631f653e4701604c1a4bf45d77d0ff441a93",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.852278&portal=svsportal",
+   "status": 200,
+   "sha256": "9e95ec0b0750110be4259ec789d6cbfbfc26e855b6c97ee2d365deaa37e24433",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.864256&portal=svsportal",
+   "status": 200,
+   "sha256": "9cd621c6ba367f069ef952047b415d408e9c102be5a21ed29286a4518591e9bf",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.861448&portal=svsportal",
+   "status": 200,
+   "sha256": "7cdfc677881ebed853cdcd983646e210a9adf1e478a6b6c27be3d237e93e561e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.850703&portal=svsportal",
+   "status": 200,
+   "sha256": "59a313b6f646afea79c9c109aba7c7119494d40d30b4daa4d30bc1daa4899c8e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.883509&portal=svsportal",
+   "status": "stale-cache",
+   "sha256": "39ce03d5091acb8a66e96c5021225b4a4457f9b84820a83e3d74a4b36fa9f31f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.906455&portal=svsportal",
+   "status": 200,
+   "sha256": "fb2bd0c10eb52dc369c7b31d2f13ef605764932c4c18dc145e6378ef6c4d60a7",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.907288&portal=svsportal",
+   "status": 200,
+   "sha256": "4a231dd5d4ba18cd924825e31de361dc77f4d5356ac13bd9e09c501ee2c05682",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.854105&portal=svsportal",
+   "status": 200,
+   "sha256": "b42ee29e663a1741c2ea7323409db0d7570a8ca046fa556798f488d524b0f0a2",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.854427&portal=svsportal",
+   "status": 200,
+   "sha256": "e135884d8b4cdf36901b9e605b6c5878887e1c671df0578e94c275b4cff444f0",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.854106&portal=svsportal",
+   "status": 200,
+   "sha256": "f7c5ed4f2244fb411ec2021f47d1fd34fadd2a8c5b0ce3a78618056e45350c3c",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.852203&portal=svsportal",
+   "status": 200,
+   "sha256": "13ffd65636601ba3ffec398ae998f24d92814833b7b5575d793b51ef1f88e3c8",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816876&portal=svsportal",
+   "status": 200,
+   "sha256": "d71c4ef0c5b7c4e4943adc350fb05d0e598c9b3cbdcdf058cd99d419b71b3e34",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/services/?contentid=10007.859129&portal=svsportal&LO=4&_spageview=/index.do",
+   "status": 200,
+   "sha256": "234cb2c6129d19fabbe228e36552541b81addc3daae6690eb896a148edfb0935",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.899998&portal=svsportal",
+   "status": 200,
+   "sha256": "bf0f6b1a6dbd91979a2e03268f1dc04437d2ae547a2f44f012cef0608cd08df5",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.864325&portal=svsportal",
+   "status": 200,
+   "sha256": "c9c4cddb20febb91e12e8b3f47547009a0d12d049af551052d8cbb48a5daf7fa",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816863&portal=svsportal",
+   "status": 200,
+   "sha256": "6185d122a4d6fabb49e39f686734e9d2f47c6eba5f0c504cb9b14d2591e57217",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816644&portal=svsportal",
+   "status": 200,
+   "sha256": "dc155dc7281c25b39bceaa30c235325ac69389a6944d1a78cf9b07ee9f5b7174",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.849615&portal=svsportal",
+   "status": 200,
+   "sha256": "e362921ac6379601133eedc707303354556e776d56b0097ba6448ad471519183",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.849614&portal=svsportal",
+   "status": 200,
+   "sha256": "e7461995e2fb54bcb13f2d99f42b2208df875a7bca17a7f7e8696b7997039713",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.849620&portal=svsportal",
+   "status": 200,
+   "sha256": "eda681c507beaa4e30be6a55d50c0f6ecabcfddda24bbe75d555084969ecb4ae",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816697&portal=svsportal",
+   "status": 200,
+   "sha256": "e7827f0d9d2ec8a6e2d7776c535a0b53002a0815f990e3c9210d2f4379ba0416",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816680&portal=svsportal",
+   "status": 200,
+   "sha256": "a9be949970c7cccfa6273a08b2d7fddde806ceaca8046acaf56174075df9584b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816679&portal=svsportal",
+   "status": 200,
+   "sha256": "dd3e0d343082161237ba8abad513818a9022efa15724ba66e8ee92931955bf29",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816661&portal=svsportal",
+   "status": 200,
+   "sha256": "18dd7a055fa72f9f334180678a151666fe87ae2bf3eac69526dbffdac9480ea9",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817079&portal=svsportal",
+   "status": 200,
+   "sha256": "37e104cc465d4c8309c569c16ea3a419f1401e1285060ce2750f7660cc1b8554",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817077&portal=svsportal",
+   "status": 200,
+   "sha256": "139e43267d5742feadc5614e0e09cc8138975bf38b03c92bbecdc56be513a7bc",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817076&portal=svsportal",
+   "status": 200,
+   "sha256": "d8bbdaf64092902e15b1816284f0dc7189e2f14a2dab3039e8d8726819055cc6",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.863380&portal=svsportal",
+   "status": 200,
+   "sha256": "77b899596d3bb0ddc5fc5003d23a71fa4e8c0b51c180ba8026b9aeaf376a5f6b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816775&portal=svsportal",
+   "status": 200,
+   "sha256": "31bb5477e2ea47d784fc2f3cd5e2be74a708969a13f2d772edbea7196dda13db",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.835094&portal=svsportal",
+   "status": 200,
+   "sha256": "aed41459d5cfea436d28250f6a28bfc0a729c4ef1f519b629922bcec5cac12c8",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.907566&portal=svsportal",
+   "status": 200,
+   "sha256": "b8b714608a931b104a63c6a98818e8cc451e6fa6c56e3acd32f710588ef30de6",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.835016&portal=svsportal",
+   "status": "stale-cache",
+   "sha256": "1831107046b162c33c2a17ad82b22a3da2503d70d7f1b0349bcc154069d31816",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.838508&portal=svsportal",
+   "status": 200,
+   "sha256": "62939ca05c900b63daeb9b026b165f545ff9b0555bd0082f3682c43da4419484",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.909121&portal=svsportal",
+   "status": "stale-cache",
+   "sha256": "3928c2e7c068f2666cc14b71ffb692a3221ec0e50fcfe7ae62cacbf846a795a3",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.899697&portal=svsportal",
+   "status": 200,
+   "sha256": "b15d4bb5d14c414acab6366619664a615530dbbe0aa59cdf85b36cdc61b9780a",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.817026&portal=svsportal",
+   "status": 200,
+   "sha256": "e1861063e7a46d9fe9f58977e95ef1a761040ef9b7a213114f83e9d9aa6f65ab",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816946&portal=svsportal",
+   "status": 200,
+   "sha256": "3083a7227593226af6c7c8575bdd5cab237b9b20c43fb19cca77921f360445bc",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816945&portal=svsportal",
+   "status": 200,
+   "sha256": "ed9e514d2082ab896debf844712265c38f3a0c68e96a59d210f6f2dfa35f95dd",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.834956&portal=svsportal",
+   "status": 200,
+   "sha256": "e3f6b9bfc554a60013107b1928d235c1d198f42ccd13f9f22765ef296f3345b6",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.834951&portal=svsportal",
+   "status": 200,
+   "sha256": "7dda0b38d47ed324a07c03ddd22686894c0ca218c49ce864c8631c324ba2ea55",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.828368&portal=svsportal",
+   "status": 200,
+   "sha256": "5688e9808c7939f8752fadd540982ebbc0f6f4ead5e6b3b37900f69b3ab2b9fc",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816461&portal=svsportal",
+   "status": 200,
+   "sha256": "ff89cfa76d2ac4d9281187ff586e69089075413b72be37d8e914d1c70fbfd2a4",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816463&portal=svsportal",
+   "status": 200,
+   "sha256": "0f7a9ab42bde917551aa6ba5c7721d96957b202f4ee50134ea8db10de3fed894",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal",
+   "status": 200,
+   "sha256": "75f916a5282e882272ec2a4a61da3025ea4de3e283da934b5a9aac7bb14a8fc0",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816734&portal=svsportal",
+   "status": 200,
+   "sha256": "0f30eb0a5513403d591751ed80a0881343385b49731e8f447e5bfe3e918dea0f",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816494&portal=svsportal",
+   "status": 200,
+   "sha256": "9abc9272a57f725f3f2bb43b886855c8798ce0ac0a6d661f94600066016b83a9",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816626&portal=svsportal",
+   "status": 200,
+   "sha256": "1827e7ae657ea0dc1c9878f2cbcbf6cda86c664f35232e5b7173daee9032bf6b",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.816625&portal=svsportal",
+   "status": 200,
+   "sha256": "c983c6ea730718614eac96663a199d46992748953717ffd61d7431f89e361145",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.904059&portal=svsportal",
+   "status": 200,
+   "sha256": "0b43640752aa15a9d5d4fbf6e48710883fd33f3e9b8fb17429deb81e06bd0e44",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.906714&portal=svsportal",
+   "status": 200,
+   "sha256": "75c7801f373f54887ad9e925236ea7007683533bed0936d21f093e9749af2f8e",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/sva-kvleist/?contentid=10007.852327&portal=svsportal&LO=4",
+   "status": 200,
+   "sha256": "81da3ec85934ea9c9fcd3d54b9f7948a600c992adb94def6f7ab466f4be90094",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.867474&portal=svsportal",
+   "status": 200,
+   "sha256": "b0a8980e1d1735c09cf972c34392e4ae0236c9d6b3dacdc5b13e66ec2ded684c",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/svsdirekt/?contentid=10007.863367&portal=svsportal&LO=4",
+   "status": 200,
+   "sha256": "81da3ec85934ea9c9fcd3d54b9f7948a600c992adb94def6f7ab466f4be90094",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/sva-kostenersatz/?contentid=10007.843166&portal=svsportal&LO=4",
+   "status": 200,
+   "sha256": "81da3ec85934ea9c9fcd3d54b9f7948a600c992adb94def6f7ab466f4be90094",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.856552&portal=svsportal",
+   "status": 200,
+   "sha256": "8b7f891fa5022170fc97b1ae5ad82764ecb98c45310b0cb14f4638d5a3ed1868",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.856553&portal=svsportal",
+   "status": 200,
+   "sha256": "7ec53910f9d11239496c3c2e1ae2d4cc3dcd7ef60f3d775ac125ac9bd70242f7",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.861000&portal=svsportal",
+   "status": 200,
+   "sha256": "9135ee8ba457ec1edf0c5004362e1594c01befef10cd470822be58554ee8108c",
+   "etag": null,
+   "last_modified": null
+  },
+  {
+   "url": "https://www.svs.at/cdscontent/?contentid=10007.860990&portal=svsportal",
+   "status": 200,
+   "sha256": "e814e3479c27d5f911a69032d0ba453a20106da1c14dd85c73415c5e0fc15ccb",
+   "etag": null,
+   "last_modified": null
+  }
+ ]
+}

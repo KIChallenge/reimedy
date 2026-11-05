@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.A_2005=PARA=37g=76=2025-12-22=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.A_2005=PARA=37g=76=2025-12-22=2026-01-01" dokidSource="DO.A_2005=PARA=37g=85=2022-12-19=2023-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.A 2005" dokart="DO" titaen="114. Änderung der Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkaen="114. Änd DO.A 2005" urheber="Hauptverband" beschdat="2025-12-18" pubdat="2025-12-22" ikra="2026-01-01" sichtbarkeit="p" gldnr="37g">
+<uebrecht>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="123" typ="e">§ 123 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="124" typ="e">§ 124 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="127" typ="e">§ 127 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="199" typ="e">§ 199 DO.A 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-08"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="76" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Bereichsleitender Dienst</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 37g.</gldsym> In Gehaltsgruppe G, Dienstklasse I sind einzureihen:</absatz>
+
+<liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Der leitende Angestellte einer Landesstelle und dessen bestellter ständiger Stellvertreter bei der Allgemeinen Unfallversicherungsanstalt, bei der Pensionsversicherungsanstalt, bei der Sozialversicherungsanstalt der Selbständigen sowie bei der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Angestellte eines Versicherungsträgers, denen, ohne zum ständigen Stellvertreter des leitenden Angestellten bestellt zu sein, vom Verwaltungsrat (Konferenz) die Befugnis erteilt wurde, den leitenden Angestellten in bestimmten Angelegenheiten zu vertreten.</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>LeiterIn einer Landesstelle der Österreichischen Gesundheitskasse, sofern diese/r direkt dem leitenden Angestellten unterstellt ist.</listelem>
+              <listelem>
+                <symbol stellen="3">4.</symbol>Leiter von Fachbereichen der Österreichischen Gesundheitskasse.</listelem>
+            </aufzaehlung>
+            
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">5.</symbol><i>(Anm.: aufgehoben durch avsv Nr. 76/2025)</i></listelem>
+            </aufzaehlung>
+            
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

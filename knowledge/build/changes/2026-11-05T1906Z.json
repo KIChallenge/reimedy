@@ -1,0 +1,34 @@
+{
+ "ts": "2026-11-05T1906Z",
+ "ingest": [],
+ "diff": {
+  "documents": {},
+  "leistungen": {
+   "neu": [],
+   "geaendert": [
+    {
+     "leistung_id": "heilmittel_bewilligungspflicht",
+     "name": "Bewilligungspflichtige Medikamente (Medizinischer Dienst)",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    }
+   ],
+   "entfernt": [],
+   "status": []
+  },
+  "stellen": {
+   "neu": 0,
+   "entfernt": 0,
+   "geaendert": 0
+  },
+  "formulare": {
+   "neu": 0,
+   "entfernt": 0,
+   "geaendert": 0
+  }
+ }
+}

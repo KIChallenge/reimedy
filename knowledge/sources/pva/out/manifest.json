@@ -1,0 +1,623 @@
+{
+ "urls": {
+  "https://www.pv.at/web/pflegegeld": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:05Z",
+   "raw_sha256": "74c325d6413850abf8ce8aff52fa2a2e7e31019c67070a919a4c3365f1dc6310",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 195535,
+   "changed_at": "2026-11-05T19:47:37Z",
+   "sha256": "eaa656c56a794919d9620fde72f839d46df3db9562ee75398208fe444e2766c7"
+  },
+  "https://www.pv.at/web/pflegegeld/pflegende-angehoerige": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:07Z",
+   "raw_sha256": "5d0742b3dde5bb998dbe050d4dc62e592cca81f7255d55caeadc3d1ec805a01a",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 122259,
+   "changed_at": "2026-11-05T19:47:40Z",
+   "sha256": "3ffb42fbd41c8755adbd1718cb27da41678cc33db48c67da805e7292aee11085"
+  },
+  "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:08Z",
+   "raw_sha256": "18ff4e70f94e7233740362701bec44c73cce5ab8782e9301f0da5372cb6bb826",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 120394,
+   "changed_at": "2026-11-05T19:47:41Z",
+   "sha256": "923a9de704170655be93f246fd76f126f4cdce69f79444dc59b7656067876adb"
+  },
+  "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/angehoerigenbonus": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/angehoerigenbonus",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:09Z",
+   "raw_sha256": "47f10e37ff2b7a5d8b9d8523d3c3db8a0bf6af1ba24caa7d224f843e6a0cf0f2",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 121654,
+   "changed_at": "2026-11-05T19:47:42Z",
+   "sha256": "0597d9d94ea7ed780226966569fbb3a6d9840d79c203d0acbc9add1c2ab7472c"
+  },
+  "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/familienhospizkarenz": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/familienhospizkarenz",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:10Z",
+   "raw_sha256": "84c9449ed80ba423d7b5b7a2b40a174f06a368bd36e7c9f31c6819781428b40b",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 106680,
+   "changed_at": "2026-11-05T19:47:44Z",
+   "sha256": "d828e9a7335837db172eea3cdd9cf98d64b365a22747ba2d1baee2ba7bace7d3"
+  },
+  "https://www.pv.at/web/pflegegeld/pflege-von-angehoerigen-leicht-erklaert": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflege-von-angehoerigen-leicht-erklaert",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:12Z",
+   "raw_sha256": "ea78c2b51305f23ab116a569893fbb1445ef1a2b30c99869054019bc24ae2e8e",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 128383,
+   "changed_at": "2026-11-05T19:47:45Z",
+   "sha256": "2573c762d1b10f7ea258e427f2e82c25e315b9e8ba2abd4b270cffd5f926b000"
+  },
+  "https://www.pv.at/web/pflege": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflege",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:13Z",
+   "raw_sha256": "1d45ce12a0b0997843af12168d87f1ea4d7cb26805c110e10163cac3314d9054",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 109873,
+   "changed_at": "2026-11-05T19:47:47Z",
+   "sha256": "67cfbda94a93f2ded93d8c382363c55648cea6ff0944644ab153f94abb54ef69"
+  },
+  "https://www.pv.at/web/medizinische-begutachtung": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/medizinische-begutachtung",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:14Z",
+   "raw_sha256": "6edd4e373864cd91c4031fccf5a3b28f038584bb1fefdddb100083c2f0893437",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 210505,
+   "changed_at": "2026-11-05T19:47:48Z",
+   "sha256": "a59cc285734cdf2969ce61d5285808775050869e53804d367b76d7322522757e"
+  },
+  "https://www.pv.at/web/reha-und-gesundheitsvorsorge": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-gesundheitsvorsorge",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:15Z",
+   "raw_sha256": "83be93267b438914cf9f77d57d6197196cb33b8c75968b0bf40e3c793a9d6e90",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 116705,
+   "changed_at": "2026-11-05T19:47:50Z",
+   "sha256": "91b1c9c34061bb5b1f2094db48028ffdc2fb8fe19d2b121c789c54eaf7ab38c5"
+  },
+  "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:16Z",
+   "raw_sha256": "ee9689ef48042d3e65616a96cc721a3201b76b41d9b3a7552c2360393ba9bc92",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 149552,
+   "changed_at": "2026-11-05T19:47:51Z",
+   "sha256": "65af52f6614932f0590825f6ffdb3e2ba506ae8276c2d43ae7288c24e72d68c2"
+  },
+  "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:18Z",
+   "raw_sha256": "d0ea474aacda1559bd71ada609df5a05aec2a187452d95405e4ed72736e32115",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 151064,
+   "changed_at": "2026-11-05T19:47:52Z",
+   "sha256": "68b7682a55b0b84d02933e302e64d9a7a59b751d3282c37bae0676be50c295c4"
+  },
+  "https://www.pv.at/web/reha-und-praevention/gesundheitsvorsorge-kur-gva": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/gesundheitsvorsorge-kur-gva",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:19Z",
+   "raw_sha256": "27f18359e1011fcaab19da8dbcad60cf3732b787e4da5e6bbb8a7498b3ee77f1",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 167031,
+   "changed_at": "2026-11-05T19:47:54Z",
+   "sha256": "f9d42b3deb371fba06af360edcb918642cd752fce6ce970f15c6874d92fd9c58"
+  },
+  "https://www.pv.at/web/reha-und-praevention/berufliche-rehabilitation": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/berufliche-rehabilitation",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:20Z",
+   "raw_sha256": "ab2ca24503c75b44a8c972ea09a8caec2a1058ced811d935fad50d3b66701f76",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 187074,
+   "changed_at": "2026-11-05T19:47:55Z",
+   "sha256": "e1177fdb0cebe609ec27a859d5bf1c0d11c2b8ff6839cdb3ae65e21c23f39d6f"
+  },
+  "https://www.pv.at/web/reha-und-praevention/soziale-rehabilitation": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/soziale-rehabilitation",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:21Z",
+   "raw_sha256": "a23df449f9b855636eed9ad5bce0dde5a28b85c631e344085fe91f5c5c74b54f",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 114630,
+   "changed_at": "2026-11-05T19:47:57Z",
+   "sha256": "a810bbbfa84d559f5f192c916d839069317281ab086b41505983573ad10bb42d"
+  },
+  "https://www.pv.at/web/reha-und-praevention/reha-angebote/teilstationaere-rehabilitation": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/reha-angebote/teilstationaere-rehabilitation",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:22Z",
+   "raw_sha256": "b7ae20c9074463da7fc719c0fcef1b2ab247ae879c6ef287b9cc29de0854823f",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 145029,
+   "changed_at": "2026-11-05T19:47:58Z",
+   "sha256": "17a30d7c41c28319e2ee822eda08fef871f86324fc3b48b8ae5dec5231e2d3ff"
+  },
+  "https://www.pv.at/web/reha-und-praevention/reha-angebote-und-pilotprojekte": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/reha-angebote-und-pilotprojekte",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:24Z",
+   "raw_sha256": "bfa74ef89e7848ab838f1298e67873bc80e69ba7799bf376b90e1ddc450e51ab",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 112455,
+   "changed_at": "2026-11-05T19:48:00Z",
+   "sha256": "c43e8904d7d44f9e58ef938d54993f59b04a9cee97bfb31dd6813bab5f6bba24"
+  },
+  "https://www.pv.at/web/reha-und-praevention/reha-zentren": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:25Z",
+   "raw_sha256": "09723a9249b63c261546c5139f163c385fe880094a8e625bc376158fbd4e5f5f",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 117799,
+   "changed_at": "2026-11-05T19:48:02Z",
+   "sha256": "4ee08a04f5199d009441b19e0c6f3ecd52a439dd0f78214c831e7bee915b2a35"
+  },
+  "https://www.pv.at/web/reha-und-praevention/information-fuer-zuweisende-aerztinnen-und-aerzte": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/information-fuer-zuweisende-aerztinnen-und-aerzte",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:26Z",
+   "raw_sha256": "34b3519ea019190efbbfb782d0cdd09d752e15eac23f5c88e156e2077a1cee6b",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 130598,
+   "changed_at": "2026-11-05T19:48:03Z",
+   "sha256": "e5bb665e0fef634125da15a8451d99a0f91516f5ca1409f4dc9c9a7b7335d972"
+  },
+  "https://www.pv.at/web/reha-und-praevention/rehabilitation-und-praevention-leicht-erklaert": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/rehabilitation-und-praevention-leicht-erklaert",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:27Z",
+   "raw_sha256": "64b24bed1f1b433cb9173fb922b365c237177d2086f69e6a7c1ebef1d19cb740",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 168174,
+   "changed_at": "2026-11-05T19:48:04Z",
+   "sha256": "0de4608ea41d620c89ddc70c39c3581207bdfbbf06f71909994bd3de7cd20d14"
+  },
+  "https://www.pv.at/web/service-und-kontakt/online-formulare": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/online-formulare",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:29Z",
+   "raw_sha256": "8e1e093f99146ff9ed65b3a7e707330633c55494dfe6bd61a1328f69b8c2a1e8",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 122384,
+   "changed_at": "2026-11-05T19:48:06Z",
+   "sha256": "12043338d74b69c52af8a632c4be9fdcbedfd0070b0d659eb73cb7967bf5f971"
+  },
+  "https://www.pv.at/web/service-und-kontakt/kontakt": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/kontakt",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:30Z",
+   "raw_sha256": "0885140ec5f8874d1578069f2e0c1cf4ee25a73dd6c867f31198ea8e6746f416",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 121953,
+   "changed_at": "2026-11-05T19:48:07Z",
+   "sha256": "32b2060b5f5333342acfb0f33f40cb51c4125d35e6aa8db88e04cb78c3f73ce2"
+  },
+  "https://www.pv.at/web/service-und-kontakt/faq": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/faq",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:31Z",
+   "raw_sha256": "f40640c17239c28b9c1c3dd887bdeeeaadf5ab3e0ce37051569a94859cd2bf58",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 121214,
+   "changed_at": "2026-11-05T19:48:11Z",
+   "sha256": "1227a859c502c51fb76c937a1aad5ec4158cb718b59dbbd5078c9f65b5387170"
+  },
+  "https://www.pv.at/web/service-und-kontakt/regionalsprechtage": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/regionalsprechtage",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:32Z",
+   "raw_sha256": "300bb3e4d8c681729e537b01b1038bddc2839778270b2d7ab8585c2902c9def4",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 115264,
+   "changed_at": "2026-11-05T19:48:13Z",
+   "sha256": "40daa33d7b5e7915e0f82900951a38af111e857b17d361d3452567d5f0a6ad31"
+  },
+  "https://www.pv.at/web/service-und-kontakt/ombudsstelle": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/ombudsstelle",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:33Z",
+   "raw_sha256": "642f273fd4f46a7b0215e5ee5afa413961183dfab2dc280fd64422abbdc7f1ee",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 103454,
+   "changed_at": "2026-11-05T19:48:15Z",
+   "sha256": "baf9537fb04cff9e41c00d9ebbf70f1cc9b55dcca13bca9328e3d4535799c746"
+  },
+  "https://www.pv.at/web/service-und-kontakt/e-services": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/e-services",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:35Z",
+   "raw_sha256": "27de205f5e45ab27a79d80ef1c4763b4e09d14e43eff5fbfb147c22d65262b8b",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 113557,
+   "changed_at": "2026-11-05T19:48:16Z",
+   "sha256": "406b4953d0fce98d2595dbb89aa14ba947fb166144ecf46c3a29ea10933fba76"
+  },
+  "https://www.pv.at/web/pension/in-der-pension/meldepflichten-und-meldefristen": {
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pension/in-der-pension/meldepflichten-und-meldefristen",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:36Z",
+   "raw_sha256": "aeab4204891f7c385709ab3d2e9234114b853325d7cfb363f633b2857f7207e0",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 134160,
+   "changed_at": "2026-11-05T19:48:18Z",
+   "sha256": "fab3866a864944880c8a6918762340068c2dcd56dd10353fe50bae7151c67aeb"
+  },
+  "https://www.pv.at/cdscontent/load?contentid=10007.891827": {
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10007.891827",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:37Z",
+   "raw_sha256": "7949f033755601e9791e29096c09fdc2c97f9934e4319271e2a2dfc0ad166459",
+   "content_type": "application/json",
+   "bytes": 19966
+  },
+  "https://www.pv.at/cdscontent/load?contentid=10008.781956": {
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781956",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:38Z",
+   "raw_sha256": "c12f29f6bd732ded90a43d64a1579235fa86ef9689e45291966b822a7926b2ce",
+   "content_type": "application/pdf",
+   "bytes": 518183
+  },
+  "https://www.pv.at/cdscontent/load?contentid=10008.781981": {
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781981",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:39Z",
+   "raw_sha256": "10b3c1d3baa4d12fc3e896180fef318564ee77cb4819d3f0f70273075dee19ef",
+   "content_type": "application/pdf",
+   "bytes": 504300
+  },
+  "https://www.pv.at/cdscontent/load?contentid=10008.781971": {
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781971",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:41Z",
+   "raw_sha256": "bcddb76fbd36b42af84816d9e346a40775862815e2d3af7e3cfc02c45ae662c2",
+   "content_type": "application/pdf",
+   "bytes": 346502
+  },
+  "https://www.pv.at/cdscontent/load?contentid=10008.781947": {
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781947",
+   "etag": null,
+   "last_modified": null,
+   "fetched_at": "2026-11-05T19:54:42Z",
+   "raw_sha256": "28ea152ae7d90a46e466aae0a20be0bac211d77e8655820866d55f5df6e8edb5",
+   "content_type": "application/pdf",
+   "bytes": 858142
+  }
+ },
+ "source_id": "pva",
+ "fetched_at": "2026-11-05T19:54:42Z",
+ "n_docs": 242,
+ "n_pages": 26,
+ "n_leistungen": 8,
+ "n_formulare": 4,
+ "n_stellen": 20,
+ "urls_list": [
+  {
+   "url": "https://www.pv.at/web/pflegegeld",
+   "sha256": "74c325d6413850abf8ce8aff52fa2a2e7e31019c67070a919a4c3365f1dc6310",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld"
+  },
+  {
+   "url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige",
+   "sha256": "5d0742b3dde5bb998dbe050d4dc62e592cca81f7255d55caeadc3d1ec805a01a",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige"
+  },
+  {
+   "url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+   "sha256": "18ff4e70f94e7233740362701bec44c73cce5ab8782e9301f0da5372cb6bb826",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit"
+  },
+  {
+   "url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/angehoerigenbonus",
+   "sha256": "47f10e37ff2b7a5d8b9d8523d3c3db8a0bf6af1ba24caa7d224f843e6a0cf0f2",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/angehoerigenbonus"
+  },
+  {
+   "url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/familienhospizkarenz",
+   "sha256": "84c9449ed80ba423d7b5b7a2b40a174f06a368bd36e7c9f31c6819781428b40b",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/familienhospizkarenz"
+  },
+  {
+   "url": "https://www.pv.at/web/pflegegeld/pflege-von-angehoerigen-leicht-erklaert",
+   "sha256": "ea78c2b51305f23ab116a569893fbb1445ef1a2b30c99869054019bc24ae2e8e",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflegegeld/pflege-von-angehoerigen-leicht-erklaert"
+  },
+  {
+   "url": "https://www.pv.at/web/pflege",
+   "sha256": "1d45ce12a0b0997843af12168d87f1ea4d7cb26805c110e10163cac3314d9054",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pflege"
+  },
+  {
+   "url": "https://www.pv.at/web/medizinische-begutachtung",
+   "sha256": "6edd4e373864cd91c4031fccf5a3b28f038584bb1fefdddb100083c2f0893437",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/medizinische-begutachtung"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-gesundheitsvorsorge",
+   "sha256": "83be93267b438914cf9f77d57d6197196cb33b8c75968b0bf40e3c793a9d6e90",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-gesundheitsvorsorge"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
+   "sha256": "ee9689ef48042d3e65616a96cc721a3201b76b41d9b3a7552c2360393ba9bc92",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+   "sha256": "d0ea474aacda1559bd71ada609df5a05aec2a187452d95405e4ed72736e32115",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/gesundheitsvorsorge-kur-gva",
+   "sha256": "27f18359e1011fcaab19da8dbcad60cf3732b787e4da5e6bbb8a7498b3ee77f1",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/gesundheitsvorsorge-kur-gva"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/berufliche-rehabilitation",
+   "sha256": "ab2ca24503c75b44a8c972ea09a8caec2a1058ced811d935fad50d3b66701f76",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/berufliche-rehabilitation"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/soziale-rehabilitation",
+   "sha256": "a23df449f9b855636eed9ad5bce0dde5a28b85c631e344085fe91f5c5c74b54f",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/soziale-rehabilitation"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/reha-angebote/teilstationaere-rehabilitation",
+   "sha256": "b7ae20c9074463da7fc719c0fcef1b2ab247ae879c6ef287b9cc29de0854823f",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/reha-angebote/teilstationaere-rehabilitation"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/reha-angebote-und-pilotprojekte",
+   "sha256": "bfa74ef89e7848ab838f1298e67873bc80e69ba7799bf376b90e1ddc450e51ab",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/reha-angebote-und-pilotprojekte"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
+   "sha256": "09723a9249b63c261546c5139f163c385fe880094a8e625bc376158fbd4e5f5f",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/information-fuer-zuweisende-aerztinnen-und-aerzte",
+   "sha256": "34b3519ea019190efbbfb782d0cdd09d752e15eac23f5c88e156e2077a1cee6b",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/information-fuer-zuweisende-aerztinnen-und-aerzte"
+  },
+  {
+   "url": "https://www.pv.at/web/reha-und-praevention/rehabilitation-und-praevention-leicht-erklaert",
+   "sha256": "64b24bed1f1b433cb9173fb922b365c237177d2086f69e6a7c1ebef1d19cb740",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/reha-und-praevention/rehabilitation-und-praevention-leicht-erklaert"
+  },
+  {
+   "url": "https://www.pv.at/web/service-und-kontakt/online-formulare",
+   "sha256": "8e1e093f99146ff9ed65b3a7e707330633c55494dfe6bd61a1328f69b8c2a1e8",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/online-formulare"
+  },
+  {
+   "url": "https://www.pv.at/web/service-und-kontakt/kontakt",
+   "sha256": "0885140ec5f8874d1578069f2e0c1cf4ee25a73dd6c867f31198ea8e6746f416",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/kontakt"
+  },
+  {
+   "url": "https://www.pv.at/web/service-und-kontakt/faq",
+   "sha256": "f40640c17239c28b9c1c3dd887bdeeeaadf5ab3e0ce37051569a94859cd2bf58",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/faq"
+  },
+  {
+   "url": "https://www.pv.at/web/service-und-kontakt/regionalsprechtage",
+   "sha256": "300bb3e4d8c681729e537b01b1038bddc2839778270b2d7ab8585c2902c9def4",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/regionalsprechtage"
+  },
+  {
+   "url": "https://www.pv.at/web/service-und-kontakt/ombudsstelle",
+   "sha256": "642f273fd4f46a7b0215e5ee5afa413961183dfab2dc280fd64422abbdc7f1ee",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/ombudsstelle"
+  },
+  {
+   "url": "https://www.pv.at/web/service-und-kontakt/e-services",
+   "sha256": "27de205f5e45ab27a79d80ef1c4763b4e09d14e43eff5fbfb147c22d65262b8b",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/service-und-kontakt/e-services"
+  },
+  {
+   "url": "https://www.pv.at/web/pension/in-der-pension/meldepflichten-und-meldefristen",
+   "sha256": "aeab4204891f7c385709ab3d2e9234114b853325d7cfb363f633b2857f7207e0",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/web/pension/in-der-pension/meldepflichten-und-meldefristen"
+  },
+  {
+   "url": "https://www.pv.at/cdscontent/load?contentid=10007.891827",
+   "sha256": "7949f033755601e9791e29096c09fdc2c97f9934e4319271e2a2dfc0ad166459",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10007.891827"
+  },
+  {
+   "url": "https://www.pv.at/cdscontent/load?contentid=10008.781956",
+   "sha256": "c12f29f6bd732ded90a43d64a1579235fa86ef9689e45291966b822a7926b2ce",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781956"
+  },
+  {
+   "url": "https://www.pv.at/cdscontent/load?contentid=10008.781981",
+   "sha256": "10b3c1d3baa4d12fc3e896180fef318564ee77cb4819d3f0f70273075dee19ef",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781981"
+  },
+  {
+   "url": "https://www.pv.at/cdscontent/load?contentid=10008.781971",
+   "sha256": "bcddb76fbd36b42af84816d9e346a40775862815e2d3af7e3cfc02c45ae662c2",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781971"
+  },
+  {
+   "url": "https://www.pv.at/cdscontent/load?contentid=10008.781947",
+   "sha256": "28ea152ae7d90a46e466aae0a20be0bac211d77e8655820866d55f5df6e8edb5",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "final_url": "https://www.pv.at/cdscontent/load?contentid=10008.781947"
+  }
+ ]
+}

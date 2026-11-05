@@ -1,0 +1,660 @@
+{
+ "ts": "2026-11-05T1902Z",
+ "ingest": [],
+ "diff": {
+  "documents": {
+   "bvaeb": {
+    "neu": 1376,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "bvaeb:000b773db35069a45f4c7053175f0e815a1b5a29#0",
+      "bvaeb:000b773db35069a45f4c7053175f0e815a1b5a29#1",
+      "bvaeb:000b773db35069a45f4c7053175f0e815a1b5a29#2",
+      "bvaeb:000b773db35069a45f4c7053175f0e815a1b5a29#3",
+      "bvaeb:000b773db35069a45f4c7053175f0e815a1b5a29#4"
+     ]
+    }
+   },
+   "fsw": {
+    "neu": 166,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "fsw:12d13c5f9a7171ef9a5ba0a2580dc555ca371d7c#0",
+      "fsw:12d13c5f9a7171ef9a5ba0a2580dc555ca371d7c#1",
+      "fsw:1313c8c7f038af650918f5537c0e1e9b323b6619#0",
+      "fsw:1313c8c7f038af650918f5537c0e1e9b323b6619#1",
+      "fsw:144d2d30b367fbadd6065a29f276217cd31f46a9#0"
+     ]
+    }
+   },
+   "svbox_local": {
+    "neu": 913,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "svbox_local:080a0f0e547e#e100",
+      "svbox_local:080a0f0e547e#e101",
+      "svbox_local:080a0f0e547e#e102",
+      "svbox_local:080a0f0e547e#e103",
+      "svbox_local:080a0f0e547e#e104"
+     ]
+    }
+   }
+  },
+  "leistungen": {
+   "neu": [
+    {
+     "leistung_id": "aerztliche_hilfe",
+     "hash": "b43b0ef6b53e",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Ärztliche Hilfe (e-card, Vertragsärzt:innen, Wahlärzt:innen)"
+    },
+    {
+     "leistung_id": "assistenz_betreuung_alltag_wien",
+     "hash": "6315331d314b",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Assistenz und Betreuung im Alltag (Wien)"
+    },
+    {
+     "leistung_id": "behandlung_im_ausland",
+     "hash": "83367f44b562",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Ärztliche Behandlung im Urlaub / Ausland"
+    },
+    {
+     "leistung_id": "besuchs_begleitdienst_wien",
+     "hash": "8db1d8f092c2",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Besuchs- und Begleitdienst (Wien)"
+    },
+    {
+     "leistung_id": "betreutes_wohnen_angehoerige_wien",
+     "hash": "99d46ccb05c9",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Betreutes Wohnen – Entlastung für Angehörige (Wien)"
+    },
+    {
+     "leistung_id": "elga_info",
+     "hash": "28429f300abd",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "ELGA – elektronische Gesundheitsakte"
+    },
+    {
+     "leistung_id": "essen_auf_raedern_wien",
+     "hash": "d1927ace7881",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Essen auf Rädern (Wien)"
+    },
+    {
+     "leistung_id": "fahrtendienst_fahrtkostenersatz_wien",
+     "hash": "3fe596f64743",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Fahrtendienst und Fahrtkostenersatz (Behinderung, Wien)"
+    },
+    {
+     "leistung_id": "fahrtkostenersatz_gehoerlose_wien",
+     "hash": "89f2d5e4ccee",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Fahrtkostenersatz öffentliche Verkehrsmittel für gehörlose Menschen (Wien)"
+    },
+    {
+     "leistung_id": "freiwillige_versicherung",
+     "hash": "55df22690ade",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Freiwillige Versicherung / Selbstversicherung"
+    },
+    {
+     "leistung_id": "fruehe_hilfen",
+     "hash": "a6fcdff55a5f",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Frühe Hilfen"
+    },
+    {
+     "leistung_id": "fsw_behindertenhilfe_beratung",
+     "hash": "dd62a89bb796",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "FSW-Beratung Behinderung und Inklusion (Wien)"
+    },
+    {
+     "leistung_id": "fsw_pflegeberatung",
+     "hash": "5bdca30d7cbd",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "FSW-Beratung zu Pflege und Betreuung (Kund:innenservice, Beratungszentrum Pflege und Betreuung)"
+    },
+    {
+     "leistung_id": "gesunder_ruecken",
+     "hash": "0f2e7ff2e47d",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Beweg' dich – Gesunder Rücken"
+    },
+    {
+     "leistung_id": "hausbesuch_arzt",
+     "hash": "09d24b33e404",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Hausbesuch / Visite durch Vertragsärztin bzw. Vertragsarzt"
+    },
+    {
+     "leistung_id": "hauskrankenpflege_wien",
+     "hash": "056ea434aa00",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Hauskrankenpflege (Wien)"
+    },
+    {
+     "leistung_id": "heilmittel_bewilligungspflicht",
+     "hash": "03a6dfdb46b9",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Bewilligungspflichtige Medikamente (Medizinischer Dienst)"
+    },
+    {
+     "leistung_id": "heimhilfe_wien",
+     "hash": "633bf22b69be",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Heimhilfe (Wien)"
+    },
+    {
+     "leistung_id": "jahreskarte_sehbehinderte_wien",
+     "hash": "42838d56a2e8",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Jahreskarte / Klimaticket-Förderung für blinde und hochgradig sehbehinderte Menschen (Wien)"
+    },
+    {
+     "leistung_id": "kieferorthopaedie_gratis_zahnspange",
+     "hash": "c1667aae2ffe",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Kieferorthopädische Behandlung / Gratis-Zahnspange (KFO)"
+    },
+    {
+     "leistung_id": "kinderbetreuungsgeld",
+     "hash": "64c1c1acc829",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Kinderbetreuungsgeld"
+    },
+    {
+     "leistung_id": "kostenbeitrag_fsw",
+     "hash": "2cec4045c0ec",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Kostenbeitrag für FSW-geförderte Leistungen (Berechnung, Freieinheiten, zusätzliche Förderung)"
+    },
+    {
+     "leistung_id": "krankengeld",
+     "hash": "e980155c659d",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Krankengeld"
+    },
+    {
+     "leistung_id": "krankenhauspflege",
+     "hash": "05753a0bd14e",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Krankenhauspflege (Spitalsaufenthalt)"
+    },
+    {
+     "leistung_id": "kurzzeitpflege_urlaubspflege_wien",
+     "hash": "13fb03c30976",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Urlaubspflege / Kurzzeitpflege (Wien)"
+    },
+    {
+     "leistung_id": "medizinische_hauskrankenpflege",
+     "hash": "bc00be7d2dc0",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Medizinische Hauskrankenpflege"
+    },
+    {
+     "leistung_id": "medizinische_hauskrankenpflege_wien",
+     "hash": "7364184b561c",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Medizinische Hauskrankenpflege (Wien)"
+    },
+    {
+     "leistung_id": "mehrstuendige_alltagsbegleitung_wien",
+     "hash": "d3bf9be6ae72",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Mehrstündige Alltagsbegleitung (Wien)"
+    },
+    {
+     "leistung_id": "mitversicherung",
+     "hash": "56dd3b5bbe55",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Mitversicherung von Angehörigen (beitragsfrei)"
+    },
+    {
+     "leistung_id": "mobile_fruehfoerderung_wien",
+     "hash": "1ce421da79a9",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Mobile Frühförderung und Förderungen für Kinder mit Behinderung (Wien)"
+    },
+    {
+     "leistung_id": "mobile_palliativbetreuung_wien",
+     "hash": "2d6c787cc993",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Mobile Palliativbetreuung (Wien)"
+    },
+    {
+     "leistung_id": "mundhygiene_kinder_jugendliche",
+     "hash": "3e195c143d06",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Gratis-Mundhygiene für Kinder und Jugendliche"
+    },
+    {
+     "leistung_id": "mutterschaft_sachleistungen",
+     "hash": "bb26295690dd",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Sachleistungen bei Mutterschaft"
+    },
+    {
+     "leistung_id": "obdach_wohnungslosenhilfe_wien",
+     "hash": "714d0d38c9b4",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Obdach- und Wohnungslosenhilfe (Wien)"
+    },
+    {
+     "leistung_id": "pflege_kinder_wien",
+     "hash": "d358abf0c5e5",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Pflege und Betreuung für Kinder (Wien)"
+    },
+    {
+     "leistung_id": "pflegende_angehoerige_wien",
+     "hash": "434d93f793c2",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Unterstützung für pflegende Angehörige (Wien)"
+    },
+    {
+     "leistung_id": "rehabilitationsgeld",
+     "hash": "ec2226ccc23e",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Rehabilitationsgeld"
+    },
+    {
+     "leistung_id": "remobilisation_wien",
+     "hash": "58f3e8c8f7d7",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Remobilisation (Wien)"
+    },
+    {
+     "leistung_id": "rezeptgebuehrenobergrenze",
+     "hash": "0707f039075a",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Rezeptgebührenobergrenze (2 % des Jahresnettoeinkommens)"
+    },
+    {
+     "leistung_id": "sonderwochengeld",
+     "hash": "aea5ba4700bf",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Sonderwochengeld"
+    },
+    {
+     "leistung_id": "tageszentren_wien",
+     "hash": "0d2788a864c2",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Tageszentren für Senior:innen (Wien)"
+    },
+    {
+     "leistung_id": "teilbetreutes_wohnen_wien",
+     "hash": "aa1919aceefa",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Teilbetreutes Wohnen (Behinderung, Wien)"
+    },
+    {
+     "leistung_id": "uebergangspflege_wien",
+     "hash": "f539dcf8c535",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Übergangspflege (Wien)"
+    },
+    {
+     "leistung_id": "unterstuetzungsfonds",
+     "hash": "c4d5bc0194f9",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Unterstützungsfonds"
+    },
+    {
+     "leistung_id": "vollbetreutes_wohnen_wien",
+     "hash": "1cd687dded5a",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Vollbetreutes Wohnen (Behinderung, Wien)"
+    },
+    {
+     "leistung_id": "waescheservice_wien",
+     "hash": "7e2e3910029e",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Wäscheservice-Zustellung (Wien)"
+    },
+    {
+     "leistung_id": "wiedereingliederungsgeld",
+     "hash": "2fbbd77b1112",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Wiedereingliederungsgeld"
+    },
+    {
+     "leistung_id": "wochengeld",
+     "hash": "49015b58e955",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Wochengeld"
+    },
+    {
+     "leistung_id": "wohnhaus_wien",
+     "hash": "948057a187d2",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Wohn- und Pflegehäuser mit Schwerpunkt Wohnen (Wien)"
+    },
+    {
+     "leistung_id": "zahnersatz",
+     "hash": "d146d7f12ec0",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Zahnersatz"
+    }
+   ],
+   "geaendert": [
+    {
+     "leistung_id": "brustkrebs_frueherkennung",
+     "name": "Brustkrebs-Früherkennungsprogramm „früh erkennen“",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "eltern_kind_pass",
+     "name": "Eltern-Kind-Pass-Untersuchungen",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "heilbehelfe_hilfsmittel",
+     "name": "Heilbehelfe und Hilfsmittel",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "krankentransport",
+     "name": "Krankentransport / Krankenbeförderung",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "mobile_pflege_fsw",
+     "name": "Mobile Pflege und Betreuung zu Hause (Wien, FSW)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "rezeptgebuehrenbefreiung",
+     "name": "Befreiung von der Rezeptgebühr",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "senior_innen_wg_fsw",
+     "name": "Senior:innen-Wohngemeinschaft (Wien, FSW)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "vorsorgeuntersuchung",
+     "name": "Vorsorgeuntersuchung (Gesundheits-Check)",
+     "quellen_vorher": [
+      "aek_wien",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "aek_wien",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "wohn_pflegehaus_fsw",
+     "name": "Wohn- und Pflegehaus (Wien, FSW)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    }
+   ],
+   "entfernt": [],
+   "status": [
+    {
+     "leistung_id": "brustkrebs_frueherkennung",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "eltern_kind_pass",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "heilbehelfe_hilfsmittel",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "krankentransport",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "mobile_pflege_fsw",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "rezeptgebuehrenbefreiung",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "senior_innen_wg_fsw",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "wohn_pflegehaus_fsw",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    }
+   ]
+  },
+  "stellen": {
+   "neu": 59,
+   "entfernt": 0,
+   "geaendert": 1
+  },
+  "formulare": {
+   "neu": 209,
+   "entfernt": 0,
+   "geaendert": 2
+  }
+ }
+}

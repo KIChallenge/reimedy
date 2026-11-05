@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="E-MVB=ZIFF=051-01-00-001==2024-09-01=2024-09-01"><rvo dokidCms="E-MVB=ZIFF=051-01-00-001==2024-09-01=2024-09-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens Neufassung 2024" abkaen="E-MVB NeuF 2024" urheber="DVSV" pubdat="2024-09-01" ikra="2024-09-01" berkz="KVL; " sichtbarkeit="p" gldnr="051-01-00-001" nichtanzeigen="n">
+<schlagw>
+<textelem>Beitragssätze</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2004-06-28"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-12-18"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-12-19"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>051-01-00-001</gldsym>
+</absatz>
+<absatz typ="satz" halign="j" widowctrl="1" keepwithnext="0">Allgemeine Beiträge für Vollversicherte - Beitragssätze</absatz>
+<ueberschrift widowctrl="1" keepwithnext="1" level="3" halign="c" typ="para">Beitragssätze</ueberschrift>
+<absatz typ="satz" halign="j"><rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="51" ursprung="u">§ 51</rvolink><nolink> ASVG</nolink> regelt die Höhe der allgemeinen Beiträge für Vollversicherte in Form von Prozentsätzen der allgemeinen Beitragsgrundlage. Die genauen Prozentsätze finden sich auch auf dem Portal der österreichischen Sozialversicherung unter <wwwlink ursprung="u" url="https://www.sozialversicherung.at/" gldart="KEIN" typ="e">www.sozialversicherung.at</wwwlink>.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

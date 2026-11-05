@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=7b=106=2006-10-13=2006-11-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="1. Änderung der Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkaen="1. Änd KrankenO GKK Burgenland 2005" urheber="GKK Bgl" beschdat="2006-08-29" pubdat="2006-10-13" ikra="2006-11-01" sichtbarkeit="p" gldnr="7b" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-07"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-14"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-10-19"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="106" jahrgang="2006"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Einschränkungen für die Ausstellung einer EKVK</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 7b. </gldsym>(1) Eine EKVK wird von der Kasse ausnahmslos nur dann ausgestellt, wenn die Identität der betroffenen Person (Versicherungsnummer, bereichsspezifisches Personenkennzeichen, allenfalls durch Eintragung in das Ergänzungsregister für natürliche Personen) eindeutig ist; hiezu sind bei Bedarf im Einzelfall zwecks Feststellung der Identität auf Wunsch der Kasse</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Unterlagen vorzulegen, aus denen Angaben nach 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3" abs="3" ziff="2" ursprung="u">§ 3 Abs. 3 Z 2</rvolink> hervorgehen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Anträge zu stellen, die zur Vergabe von Versicherungsnummer und bereichsspezifischem Personenkennzeichen notwendig sind und</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>das Ergebnis der durch diese Anträge eingeleiteten Verfahren der Kasse unaufgefordert mitzuteilen.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Eine EKVK wird in folgenden Fällen nicht ausgestellt:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Für Benützer, deren rechtliche Situation hinsichtlich des Schutzes im Krankheitsfall auf einem Aufenthalt im Inland beruht, wie z. B.</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>für Versicherte nach 
+<rvolink abkrvo="EinbezV KV ASVG allg" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" ziff="17" ursprung="u">§ 1 Z 17</rvolink> oder 
+<rvolink abkrvo="EinbezV KV ASVG allg" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" ziff="19" ursprung="u">Z 19</rvolink> (Asylwerber, Bundesbetreute) der Verordnung über die Durchführung der Krankenversicherung für die gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" ursprung="u">§ 9</rvolink>
+<nolink>ASVG</nolink> in die Krankenversicherung einbezogenen Personen, BGBl. Nr. 420/1969 idF BGBl. II Nr. 165/2004 (Einbeziehungsverordnung),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>für Versicherte oder Anspruchsberechtigte nach 
+<rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="66a" ursprung="u">§ 66a</rvolink>
+<nolink>AlVG</nolink> oder den 
+<nolink>§§ 76</nolink>, 
+<nolink>77</nolink>
+<nolink>Strafvollzugsgesetz</nolink> - 
+<nolink>StVG</nolink> (Strafgefangene) und sonst gerichtlich oder polizeilich angehaltene Personen (Festgenommene, Untersuchungshäftlinge),</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>für Personen, denen Reisen ins Ausland aus anderen Gründen nicht erlaubt sind (Bewohner von geschlossenen Anstalten).</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Für Personen, die nach 
+<rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="p">§ 5</rvolink>
+<nolink>GSVG</nolink> von der Krankenversicherung ausgenommen sind, es sei denn, dies wird von einem dem Hauptverband angehörenden Versicherungsträger verlangt.</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Für Personen, die nach 
+<rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="1" ziff="2" ursprung="p">§ 2 Abs. 1 Z 2</rvolink>
+<nolink>B-KUVG</nolink> wegen Zugehörigkeit zu einer Krankenfürsorgeanstalt von der Krankenversicherung ausgenommen sind, es sei denn, dies wird von einem dem Hauptverband angehörenden Versicherungsträger verlangt oder die jeweilige Krankenfürsorgeanstalt nimmt an der E-Card-Ausstellung allgemein teil.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Eine EKVK mit den Garantiefristen des <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="7a" abs="1" ziff="1" ursprung="u">§ 7a Abs. 1 Z 1</rvolink> und 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="7a" abs="1" ziff="2" ursprung="u">2</rvolink> wird in folgenden Fällen nicht ausgestellt:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Für Versicherte, die ihre EKVK als verloren oder gestohlen angeben, ohne dies unverzüglich nach 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="8" ursprung="u">§ 8</rvolink> gemeldet zu haben.</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Für Personen, für die bereits von einem anderen in- oder ausländischen Sozialversicherungsträger eine EKVK ausgestellt, aber dazu der Kasse mitgeteilt wurde (z. B 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="321" ursprung="u">§ 321</rvolink> ASVG, 
+<rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="183" ursprung="u">§ 183</rvolink> GSVG, 
+<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="171" ursprung="u">§ 171</rvolink> BSVG und 
+<rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="119" ursprung="u">§ 119</rvolink> B-KUVG, 
+<rvolink abkrvo="EG-WandArbV 1408/1971" verwart="d" typ="e" gldart="ART" gldsort="80" gldnr="84" abs="2" ursprung="u">Art. 84 Abs. 2</rvolink> der Wanderarbeitnehmerverordnung oder 
+<rvolink abkrvo="EG-KoordV 883/2004" verwart="d" typ="e" gldart="ART" gldsort="80" gldnr="76" abs="2" ursprung="u">Art. 76 Abs. 2</rvolink> der Koordinierungsverordnung), dass diese EKVK unberechtigt verwendet wurde, unabhängig davon, ob diese andere EKVK als verloren gemeldet wurde, ob bereits ein Schaden festgestellt oder Verfolgungsmaßnahmen eingeleitet wurden. Das Ausstellungsverbot für diesen Fall endet mit dem Ablauf der Garantiefrist der früher ausgestellten Karte.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Kasse wird von</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>einer Glaubhaftmachung anzurechnender Zeiten,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>den Ausstellungseinschränkungen nach Abs. 2 oder</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Sperre, Einziehung oder Tausch</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">ganz oder teilweise, allgemein oder für den jeweiligen Einzelfall, auf eigenes Risiko absehen, wenn nach der jeweiligen Lage des Sachverhalts (z. B. der betroffenen Fallgruppe, Personengruppe) zu erwarten ist, dass durch die dennoch erfolgte Ausstellung einer EKVK keine unverhältnismäßigen Belastungen oder kein erhöhtes Risiko für eine Kasse entstehen. Die dafür maßgebenden Gründe werden dokumentiert und 12 Monate über den Ablauf der Garantiefrist der EKVK hinaus aufbewahrt.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

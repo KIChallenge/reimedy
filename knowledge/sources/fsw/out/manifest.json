@@ -1,0 +1,1135 @@
+{
+ "source_id": "fsw",
+ "fetched_at": "2026-11-05T19:05:56Z",
+ "n_docs": 629,
+ "n_leistungen": 36,
+ "n_stellen": 11,
+ "n_formulare": 26,
+ "urls": [
+  {
+   "url": "http://fsw.at/downloads/formulare/antrag_behindertenhilfe.pdf",
+   "sha256": "ae20ab1c963a2e98c30e7b29bc8e5a974619180cc7b337b568bffee00876582b",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:16:44 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/antrag",
+   "sha256": "3669c1bb42074c8fd13a5da790897955aff75062a8f5312ccbbd97fa5c8fd694",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Angehoerige.pdf",
+   "sha256": "94d5606f1d14ef3a1e35b4de97a1fadd386774c5546bbcd45a3d16aafa5c78f0",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:10:04 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Einrichtungswunsch.pdf",
+   "sha256": "5bb8a3fa5e4730e96beb50ae4fee5fc3865164347df13794151737ddf4fc40fd",
+   "etag": null,
+   "last_modified": "Thu, 21 May 2026 06:37:30 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Freizeitfahrtendienst.pdf",
+   "sha256": "dd129351a17f2a3d718cf2aa0706ae2f9ef176afb74ef6bbe58c7caaa3140632",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:13:11 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Personengemeinschaft.pdf",
+   "sha256": "2d903440b2060fd3946f287f19b2ab76ea6ba024da5f370da8230632bb2a485a",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:14:14 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-auf-Foerderung-von-Leistungen.pdf",
+   "sha256": "ae20ab1c963a2e98c30e7b29bc8e5a974619180cc7b337b568bffee00876582b",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:16:44 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Befundbericht-Kinder.pdf",
+   "sha256": "8bdc3c362636b71eeb59acf0a61d82425bd3244c9aa371f82f6978095850bb80",
+   "etag": null,
+   "last_modified": "Wed, 28 Aug 2024 08:13:37 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Befundbericht-Wohnen-und-Pflege.pdf",
+   "sha256": "dfb1c5130879cf625d643d2b703e37851924977deb7bf34a1af2bfc36e769c29",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:12:20 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-SEPA-Lastschriftmandat.pdf",
+   "sha256": "e18855250bc2a3f68b1c4d454f0b776ff30c5d246e27ce3a4301cd7d39a51fc3",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:16:03 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/Vollmacht.pdf",
+   "sha256": "cfb66bc9d9ad410da18900acc9167312b3e98434ab2eebcee1e521482d99d29b",
+   "etag": null,
+   "last_modified": "Wed, 20 Nov 2024 09:49:44 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/antrag-auf-ratenzahlung.1685707607.pdf",
+   "sha256": "f9e045d53153490f47ed05147a2ae7392947df38ce87e51a2cf5fcfbe52b48d0",
+   "etag": null,
+   "last_modified": "Tue, 07 Jul 2026 09:23:17 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/antrag-auf-ratenzahlung.1783416197.pdf",
+   "sha256": "f9e045d53153490f47ed05147a2ae7392947df38ce87e51a2cf5fcfbe52b48d0",
+   "etag": null,
+   "last_modified": "Tue, 07 Jul 2026 09:23:17 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/fsw-antrag-auf-foerderung-von-leistungen.pdf",
+   "sha256": "ae20ab1c963a2e98c30e7b29bc8e5a974619180cc7b337b568bffee00876582b",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 09:16:44 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/fsw-ausfuellhilfe.pdf",
+   "sha256": "93959e31fa2228f36bd1a9687c0e4422500af0e9f2c7d97ddb9576f0cde8ed91",
+   "etag": null,
+   "last_modified": "Mon, 18 May 2026 11:41:53 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/haftungserklaerung.pdf",
+   "sha256": "0ef8682adac29c968ef0e606114e942b0287ba2f6da3ea83db1ae50593c7ba71",
+   "etag": null,
+   "last_modified": "Tue, 07 Jul 2026 09:25:22 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/formulare/Anliegen_FSW_interaktiv.pdf",
+   "sha256": "cd01f291385a0c6527076cf383e58ce316a8c90b2a0fc28f4540cf691f334578",
+   "etag": null,
+   "last_modified": "Mon, 15 Sep 2025 08:48:01 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/formulare/Antrag-auf-Aenderung-bzw-Verlaengerung-der-Foerderung.pdf",
+   "sha256": "02b35b6839b27fc2b95c425434daabae63c5db5c2ccf125b21bde8e73df13e1f",
+   "etag": null,
+   "last_modified": "Fri, 17 Jul 2026 11:45:31 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/formulare/Jahreskarte_der_WL_fuer_gehoerlose_Menschen.pdf",
+   "sha256": "050faebe8294d5d6e6835093f0cdbcc6eab81911dffc9e997419050f89d421bd",
+   "etag": null,
+   "last_modified": "Tue, 30 Dec 2025 11:08:08 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/formulare/Mobile_Fruehfoerderung.pdf",
+   "sha256": "6612a412b6b3b82fd8cec2e0a084307b7517442869c6c640e4182539a0856b09",
+   "etag": null,
+   "last_modified": "Thu, 11 Dec 2025 11:57:20 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/formulare/antrag-foerderung-klimaticket.pdf",
+   "sha256": "338371a210f7ff2af6ae7e0c001695184009e41ba0b6dd97b17b7137726a2526",
+   "etag": null,
+   "last_modified": "Tue, 30 Dec 2025 11:09:52 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/leben-mit-behinderung/240315_Verwendungsnachweis_DL_halbjaehrlich_handschriftlich_bf.pdf",
+   "sha256": "6c5791d7dc9bf3e981201bb4b9f389d68f97fc6ab5060580e774753eef5699f7",
+   "etag": null,
+   "last_modified": "Tue, 25 Aug 2026 08:53:54 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/leben-mit-behinderung/240315_Verwendungsnachweis_halbjaehrlich_handschriftlich_bf.pdf",
+   "sha256": "845945c7983329783248a0c003f8d7e743f33d41f7248fa5fe162d9301896552",
+   "etag": null,
+   "last_modified": "Thu, 27 Aug 2026 09:27:43 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/leben-mit-behinderung/240315_Verwendungsnachweis_monatlich_handschriftlich_bf.pdf",
+   "sha256": "cda7996644c5155677ab959c77813a0e45170ff1487526910f39e85c289619ee",
+   "etag": null,
+   "last_modified": "Thu, 27 Aug 2026 09:30:02 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/leben-mit-behinderung/Information-zum-Verwendungsnachweis-PGE-fuer-PA_bf.pdf",
+   "sha256": "df3f8ff8cac830fc41307c39f93aee5d509f3c2dd18dcbb5e93ece9dcb045d41",
+   "etag": null,
+   "last_modified": "Mon, 24 Aug 2026 12:56:33 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/leben-mit-behinderung/PGE_PA-Antrag_handschriftlich.pdf",
+   "sha256": "2b01b8b98664106d41e91f082e5385e0e15144d4e53f4a1bc044154ea1ca33c7",
+   "etag": null,
+   "last_modified": "Fri, 30 Aug 2019 08:18:51 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/leben-mit-behinderung/antrag_pflegegeldergaenzungsleistung_erhoehung-neubemessung-PGE.pdf",
+   "sha256": "571374a51f35c49ee718621e51abd13a42770428b115f26db8c2bc2fb482a859",
+   "etag": null,
+   "last_modified": "Fri, 30 Aug 2019 08:18:51 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/downloads/leben-mit-behinderung/antrag_pflegegeldergaenzungsleistung_verlaengerung-PGE.pdf",
+   "sha256": "8b99ec90d334e6d294a2f510839b974fef6708163f8991abf45516b0a1e54929",
+   "etag": null,
+   "last_modified": "Fri, 30 Aug 2019 08:18:51 GMT",
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "application/pdf"
+  },
+  {
+   "url": "https://www.fsw.at/p/adressen-der-tageszentren-fuer-seniorinnen-und-senioren",
+   "sha256": "b3cf2c895595cf09df6b45936c4335aff6c701b4f607cac2de75b59ecd54a988",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/akutunterbringung",
+   "sha256": "3926b2929751b8f41e749a8bfc95fc4ab6b31c282900fba05d76d14cd1601a2d",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/alternative-wohnformen",
+   "sha256": "aecf0ccd36cbfc3fd545287479d2bf5ebfc5203bb174e6e4bbdb42d142f4a6d4",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/anbieter-besuchs-und-begleitdienst",
+   "sha256": "fc162415ad44209a4f184cae776b3998b13a6a4ae0bae6e7e912376955981b49",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/anbieter-hauskrankenpflege",
+   "sha256": "cf1d82f7c2523d90ffd0a7d5be8b60a0ba68d67c9f881c86435ab51fa2792314",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/anbieter-von-heimhilfe",
+   "sha256": "47b702873947f01debb0a730f0b3b0c3d21dfc50ac9b503467ac9d459bf018aa",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden",
+   "sha256": "6473002e37cd5559602c4c518a4ca73cb0655f9597ae2f43cea50735b2367806",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=148888",
+   "sha256": "9270df2fb031e5525cb4173908c93b96f41eb005ec825beaf0734d5738aac303",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=149172",
+   "sha256": "78c816e98e12dca062b0ca59f6edbd99bef79eadd1ddb7b44d542aa7b32e9ca7",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=149174",
+   "sha256": "10a56726f3c421e26d291a79ec030120f2b0ce4d76bf7f5fd422af87145ba456",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=149176",
+   "sha256": "22dfd6522e7fba6aafff324d36009556b858ada825d5e31273ae30270b628d48",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=149178",
+   "sha256": "bd289d262686dcfeebb89e74dab43f24452eefa31e89f8435605c08697d7d819",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=149180",
+   "sha256": "d3f70d520af14be02cc1b7c46b3ac43d13cfc1bbe5e5fd612ec447226c8cde83",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=149293",
+   "sha256": "9661e0814c4fce430deccab7c4d7704bab8979ef23ca8092a7568ff0156f4580",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/antrag-formular-finden?dropDown1=149838",
+   "sha256": "180d248ba2ab2b11ad671d9143e0d06d1d5063cb760b2e44f7b718b4be773d3f",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/arbeit-und-ausbildung",
+   "sha256": "45cc242f093d63c74bb31884c5cee786c1757df0d6037a69d8cb3263149ec458",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/assistenz-und-betreuung-im-alltag",
+   "sha256": "af3613f79f98e25d00c68cbaab4ea4a2be52171eb909220cdec306589783f05a",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/behinderung",
+   "sha256": "93d8d0312e6bc10aa158ac5511e370dd2bba56590c080b0b6d6f98ac6dfa3d2e",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/behinderung-fragen-antworten",
+   "sha256": "ca02e73bbda8cb2079264aa16fde8a0ff6a20c60733e592934a3d06688f49e98",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/beratung-und-therapie",
+   "sha256": "d0e91823a05afd8e138ea67a69303f92dba767d6d61dd05920b294d8f2264260",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/besuchs-und-begleitdienst-behinderung",
+   "sha256": "ce9ea4b964bfa445e11894d41b9e9441432f950dc53765359594fea6be0273ca",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/besuchsdienst-pflege",
+   "sha256": "886559bbf3bfddfc564839101059176ca4ff24f67ab0f088ee96767b1928aec4",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/betreutes-wohnen-entlastung-fuer-angehoerige",
+   "sha256": "92ce2d893f9f5e36b9cab2632e91db0201a60892d1b6d623405098ff632a79be",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/community-nursing",
+   "sha256": "e7f18598803a44e24126c330945f19912757646ba60f525caff367b01dad0901",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/dolmetschleistungen-gehoerlose-menschen-mit-hoersehbehinderung-und-fuer-bildungszwecke",
+   "sha256": "ec07c193f80f19c26619e778ebbac411608914229fb58b252a1fc36c68c91757",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/ergotherapie-hilfsmittelberatung",
+   "sha256": "2eb0bc4535bb4c2dd3c4cf8fb22b029aba24187dbca9deadf06a9e5b8ec79308",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/essen-auf-raedern-behinderung",
+   "sha256": "b295257ade5a9176d6f076ba0ad417c9866cef3c404314e7fc774c39043a814a",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/essen-auf-raedern-pflege-betreuung",
+   "sha256": "f512d5d568a79726953e1b3946d7cd0432f4c046016751d4106382a354ab5f87",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/fahrtendienst-fahrtkostenersatz",
+   "sha256": "07c1c974a403e2ab9b98aec8159c61fb122c4fcd2ff253b4be7b84d52cb538b9",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/fahrtentraining",
+   "sha256": "662e1cb2a4609f10a2368678769daa0cde8df9cef35d48342bca519bea991bbd",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/foerderungen-fuer-kinder",
+   "sha256": "a402c22e50f1fdb4eee8d62ec59844971794b490625683f03e574e7db00f6f19",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/fragen-antworten",
+   "sha256": "c2c0a29f0c2a12a4392ec85002d228702d6db089eab68f46ff7376c103a78531",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/freizeitfahrtendienst",
+   "sha256": "86dd378a3df9849dbef5c276f887d0fe547457dd016128fe933809208df45a28",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/gesundheitsfoerderung",
+   "sha256": "cb4965dcfbf4a7fddb479d86ce0a60eed8250b88ba12f2594ed6910db95beabc",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/hauskrankenpflege",
+   "sha256": "971070d6abbfebfb6465e3d07f75066f4e98fdd6281eecd7aad5e930217d076c",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/hauskrankenpflege-behinderung",
+   "sha256": "97301994fa94c544c7d3f183b2b241426daac89b862657375f148eb2002d84f3",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/hauskrankenpflege-fuer-kinder",
+   "sha256": "907ade8b280fd6a062b9895e48d0ff7014a925dee1e2f93defd424479d9c12a5",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/heimhilfe-behinderung",
+   "sha256": "00c7db4f4879866219dbba4e04800af57512d69463f17148beef89bb6c9f4fff",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/heimhilfe-pflege-betreuung",
+   "sha256": "6ae0543563159fab39a9b1e184226ddafd1ff7123b7a1a3bdf9e3025474f9a03",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/hilfe-kontakt",
+   "sha256": "cb4237f468894357bfc7706715ed47f20b96d5be5a04e6f69682138636c7d2c5",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/hilfsmittel-hilfsmittelberatung",
+   "sha256": "05d07eaaf91b1eb190f55ca2e3ed993283c7d34e2f5ff3022df72ad7c0758f7c",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/hilfsmittel-und-dolmetsch",
+   "sha256": "3c9677c10278034121aea1ac78207d1a24600d99247a17b1739c82166242431c",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/ihr-kostenbeitrag",
+   "sha256": "d2be96124b8586baa255784826e3b3187f2f96be942e2b33f35b6e9e4fe16289",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/ihr-kostenbeitrag-ab-2025",
+   "sha256": "337363f997c9a9a13d785fdab6d561ef786100c6f3c297717e4cfabd0989a8e2",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/individuelles-wohnen",
+   "sha256": "28fb341928bb16a6fc19cb874613da37873aabd98dbb972eeeee3692b65342dd",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/informationsmaterial-bestellen",
+   "sha256": "be22aaa5fce6aa70298730109c6767534dccf6f5ea8775eac6047a8def4a189a",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/innovationswerkstatt",
+   "sha256": "5d3afc8ac3ecb8b45a8ef33c5cc580078ddf31a4a30dcf813d04e8360b3039b3",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/jahreskarte-klimaticket-gehoerlose",
+   "sha256": "3974addf8f8d597c079ed50bfa1c9f04f32ff20a67d75514786ea2e48d8b6a73",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/jahreskarte-klimaticket-sehbehinderte-blinde",
+   "sha256": "ee33e5f24972d5db4daecd8bc912327c81839668277223fe09dcdf89cc260e64",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/kinder-hospiz",
+   "sha256": "732215a988e37df12136f73548e8b67a715da65f64d50c65abb1c4dedc6265fc",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/kinderbetreuung-daheim",
+   "sha256": "ba1873bd738d0b3be21695b2a2216db5f6bcd074e9633380fd61de0019c9c649",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/kontakt",
+   "sha256": "940706f3748856bc7651095fc4045818c1f1779c3444e22b4aecd4ffb3d8c0c2",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/kontakt-zu-den-beratungsstellen-leben-mit-behinderung",
+   "sha256": "3d836a4da7f37dddd7e0b97a93e529506f108a0b3e0a4f0cf1a8d2fe93dae223",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/kontinenzberatung",
+   "sha256": "a9d4ee624f499687642fd586cb3706f3efc1b705d69d62c97cbbf77cda43c3bc",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/kostenbeitrag-andere-leistungen-bzw-pflege-und-betreuung-zu-hause-bzw-tagesbetreuung-vor-2025",
+   "sha256": "8729b763c6d8e442055f31c4cac9bb5a3f9294e2b5c1e2f13417bec0b15e2ad0",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
+   "sha256": "df676fb9b3a83a02d17e854229f7fbf06892875df0082c295ab434812d7694bb",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/medizinische-hauskrankenpflege-behinderung",
+   "sha256": "46c536358692a8449e104b059ace8f5d8450c7f03552f9e4ece1882df8c55d60",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/mehrstuendige-alltagsbegleitung",
+   "sha256": "9da9b5b878214c2ee5a6147e4cfbefe8bd9eb89a9a7906fde6e36af29d0e7e7b",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/mitten-in-wien",
+   "sha256": "5a7e78ef143bd831e65ad37da40ee1f3af05e347c0ca4af1bd797cf766037854",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/mobile-fruehfoerderung",
+   "sha256": "1d2311232d1da076fe0a6d7466d86e8954cba004b6bb9a2ff55516242c40cc88",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/mobile-palliativbetreuung",
+   "sha256": "1a34fe15c796d58b60255a3a24976b7eae011d712d8af36b53ca632fc5b5aa5e",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/mobilitaet-und-freizeit",
+   "sha256": "dd8bdbcfb6501493eae12469fd29dd83f86e7841eb0732452b33425cd4bf76b1",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/mobilitaetstraining",
+   "sha256": "e21698f876b749ed2d6f35d8cac21c6ec6ddd3de0c6f358fabb6971d16fd6f68",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/organisiertes-wohnen",
+   "sha256": "96feaaca78dbab796d8290641065d03e5ca071ab70d59300056102dfc41ae325",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pflege-betreuung",
+   "sha256": "3bf60fd4c8dbd3a60384b36128efe568b38077ff3b9871a7beb4a3108715b191",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pflege-betreuung-daheim",
+   "sha256": "8dbe04f85d06c8738f53a2bba389e213d2da4bf527de9aef8162e6ed27e88454",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pflege-betreuung-fragen-antworten",
+   "sha256": "965bd46b330ab2eb3205ec412495e30dacc70a642c03f933ccfb3aecb7ca2bdb",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pflege-betreuung-fuer-kinder",
+   "sha256": "8a54f7396dcf551e35e733921675439bc07341ff3dc29af25ad46967e78d48b7",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pflegegeldergaenzungsleistung",
+   "sha256": "a41ef00264695665a4c72d5667946f73b5d9f11d279158e2baa5e91a64191510",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pflegende-an-und-zugehörige",
+   "sha256": "28e9d3de3fcb5f6e3739350377ab47b8d49c09cb7bf328032837003d05b8add3",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:02:03Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pflegende-angehoerige",
+   "sha256": "f53f268065a0bdc3075b96788efcff099374c27fa27cd79f87b053d5570e376b",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/pkw-adaptierungen",
+   "sha256": "9acd6dab59952cbce3c7d1808771c91ed5f99f6ac02495b998f7c96973e551c8",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/remobilisation",
+   "sha256": "0a7cd468df936eda68d33ece2d3b3140eea63227223a5097a1e0da0748294d93",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/seniorinnen-wohngemeinschaften-basispaket",
+   "sha256": "84c1b95787b8baf04a82eef3b93d0150c18963127c696d53d706975f41695103",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/stationäres-hospiz",
+   "sha256": "398803c355b828a4ded3705e57342d23ed1d946ec31cddbe8c33183ba35e07a8",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:02:03Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/tagesbetreuung",
+   "sha256": "240cff31ecb5423d05f5f1197a37566c2579f176685cfc93787f3c74415dc97e",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/tageshospiz",
+   "sha256": "0bcb330fb1a49f484fd7e3db655b7d1672d53c3be03d3581e6eccf98c2c4f0f0",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/tageszentren-fuer-seniorinnen",
+   "sha256": "31b1ddc54dd49b1f1cf0d86f627594f4a9f1c00bb1edd1fa16e883fc41fcb283",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/tageszentren-fuer-seniorinnen-behinderung",
+   "sha256": "8e3b6fb1cee1da38b10a5c46717fa2d803ea07c2c05d5330c9b8806388c9c631",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/tageszentren-wohnungslosigkeit",
+   "sha256": "5546d4efb282be6ba6dc861e4b3a1d65d7242867bc8336f1eb33d4e04b8f7fe8",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/teilbetreutes-wohnen",
+   "sha256": "62c35255ede7a64ca98ac794f47219dfdd30a5d22aacd2106e1cb3c68994a2a5",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/uebergangspflege",
+   "sha256": "2a6c325351d88a55d14235df0c038624eadf081f1c657276d57a4c63cb88888d",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/urlaubspflege",
+   "sha256": "741ca97ff920ab1882cd3ea806bc8efa09f90f08b427771e6e237531f782239d",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/veranstaltungen",
+   "sha256": "1f25cea97c3aed5886ea339d84c147ba3d7a443fc539120724db1d9f56ce6a1c",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/vollbetreutes-wohnen",
+   "sha256": "1d712b579b91fcf9d75fbd012de06a58c9a360e5bfafb501571e51594fbdeca2",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/waescheservice-behinderung",
+   "sha256": "fb9743cbe238a3a3fa98f1e6b85ae5a935569c54b89ccb9864bf6c354ea7308e",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/waescheservice-pflege-betreuung",
+   "sha256": "c6d9e2f61c4add60936abc5e9fc49a42459df77fdd48a6a3a7ee035e6867753f",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/winterangebote",
+   "sha256": "4c4b3539e07c786a7fd892d02ccc9f54934f11922ccd14251f045b0b294f51b4",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohn-und-pflegehaeuser-schwerpunkt-pflege",
+   "sha256": "7ede30b3513957e0dba00c690b8461407a542e999403207e3696872ecd3350c4",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohn-und-pflegehaeuser-schwerpunkt-wohnen",
+   "sha256": "eebe6eb305c9978c084ad3747b26db8916e47f86613bb252a47d76dcb996a3c8",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohnen-mit-behinderung",
+   "sha256": "de565740c422cfaba195dc2aaa76e7eced1a3cd3ac4b3d4a9a0c69fb517a3c1c",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohnen-mit-betreuung",
+   "sha256": "c44f581e5753b5573f6baca107b141c18ef746f531ab6c53176f193eba3d2aac",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohnen-obdach-fragen-antworten",
+   "sha256": "37dcf859b822176d40ebe3839f01a4892ec90f4e33a1c3d1a5c4421ad79c3d49",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohnen-und-pflege",
+   "sha256": "014f8ccba9089b2082d9bd324c0700a0dbb30cb1bd695beb9da169e6f47e7c50",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohnen-und-pflege-fuer-kinder",
+   "sha256": "798752db251f1ba78713a0e2011b076d8a95befcd012a0cbee46e91ad096fbd0",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T19:05:56Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/p/wohnungslosigkeit",
+   "sha256": "65a0f61ca39bff37a74aa23dca4ca64a4d3123fdb5f73d30d52632b2a6d8a5b6",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "url": "https://www.fsw.at/standorte",
+   "sha256": "dc6fa50d47e65c17912f8dba50634e8c901fdc904b963819758e0d81d460977e",
+   "etag": null,
+   "last_modified": null,
+   "status": 200,
+   "fetched_at": "2026-11-05T18:58:40Z",
+   "content_type": "text/html; charset=UTF-8"
+  }
+ ]
+}

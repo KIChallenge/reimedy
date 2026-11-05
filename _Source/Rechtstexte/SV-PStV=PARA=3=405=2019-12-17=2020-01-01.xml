@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="SV-PStV=PARA=3=405=2019-12-17=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="SV-PStV=PARA=3=239=2004-06-11=2004-09-12" dokidSource="SV-PStV=PARA=3=239=2004-06-11=2004-09-12">
+<metadaten gldart="PARA" gldsort="70" titrvo="Personenstandsdatenverordnung" abkrvo="SV-PStV" dokart="V" titaen="1. Änderung der Personenstandsdatenverordnung" abkaen="1. Änd SV-PStV" urheber="BMSG" pubdat="2019-12-17" ikra="2020-01-01" sichtbarkeit="p" gldnr="3">
+<anm>Rechtsgrundlage, vgl. 
+<rvolink typ="e" abs="5" gldnr="360" gldsort="70" gldart="PARA" verwart="d" ursprung="u" abkrvo="ASVG">§ 360 Abs. 5 ASVG</rvolink> sowie Erläuterungen vgl.  
+<matlink typ="e" ursprung="u" dokart="EBzV">EBzSV-PStV</matlink>.</anm>
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2004-06-14"/>
+<dfeintrag zeitpunkt="2004-06-15" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-02-11"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="405" begseite="1" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="1" halign="c" typ="para">Geburt, Anerkennung der Vaterschaft, Änderung der Abstammung durch gerichtliche Entscheidung (Unehelicherklärung), Legitimation, Annahme an Kindes Statt, Inkognitoadoption</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 3.</gldsym> (1) Die Personenstandsbehörde, die das Geburtenbuch führt, hat der Österreichischen Gesundheitskasse mitzuteilen</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>jede Geburt durch Angabe folgender Daten:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Familiennamen und Vornamen des Kindes,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Tag und Ort der Geburt,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Geschlecht des Kindes,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Familiennamen, Vornamen und frühere Namen des Vaters,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Tag und Ort der Geburt des Vaters,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Familiennamen, Vornamen und frühere Namen der Mutter,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Tag und Ort der Geburt der Mutter,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Wohnanschrift der Eltern, bei getrennten Wohnsitzen beide Wohnanschriften,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>Angabe, ob es sich um eine eheliche oder uneheliche Geburt handelt,</listelem>
+<listelem>
+<symbol stellen="2">j)</symbol>bei ehelicher Geburt: Eheschließungsdaten der Eltern;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>jede Anerkennung der Vaterschaft und jede Änderung der Abstammung durch gerichtliche Entscheidung (Unehelicherklärung) durch Angabe folgender Daten:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Familiennamen vor Anerkennung der Vaterschaft bzw. Unehelicherklärung des Kindes,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Familiennamen nach Anerkennung der Vaterschaft bzw. Unehelicherklärung des Kindes,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Vornamen des Kindes,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Tag und Ort der Geburt des Kindes,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Familiennamen, Vornamen und frühere Namen des anerkennenden bzw. des bisherigen Vaters,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Tag und Ort der Geburt des anerkennenden bzw. des bisherigen Vaters,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Wohnanschrift des anerkennenden bzw. des bisherigen Vaters,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Familiennamen, Vornamen und frühere Namen der Mutter,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>Tag und Ort der Geburt der Mutter,</listelem>
+<listelem>
+<symbol stellen="2">j)</symbol>Wohnanschrift der Mutter;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>jede Legitimation durch Angabe folgender Daten:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Tag und Ort der Geburt des/der Legitimierten,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Familiennamen des/der Legitimierten vor der Legitimation,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Familiennamen des/der Legitimierten nach der Legitimation,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Vornamen des/der Legitimierten,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Datum der Wirksamkeit der Legitimation,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Familiennamen, Vornamen und frühere Namen der Eltern,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Tag und Ort der Geburt der Eltern,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Wohnanschrift des/der Legitimierten;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>jede Annahme an Kindes Statt durch Angabe folgender Daten:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Tag und Ort der Geburt des/der Angenommenen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Familiennamen des/der Angenommenen vor der Annahme an Kindes Statt,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Familiennamen des/der Angenommenen nach der Annahme an Kindes Statt,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Vornamen des/der Angenommenen,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Geschlecht des/der Angenommenen,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Datum der Wirksamkeit der Annahme an Kindes Statt,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Tag und Ort der Geburt der früheren Eltern bzw. des früheren Elternteiles,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Familiennamen, Vornamen und frühere Namen der früheren Eltern bzw. des früheren Elternteiles,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>Tag und Ort der Geburt des/der Annehmenden,</listelem>
+<listelem>
+<symbol stellen="2">j)</symbol>Familiennamen, Vornamen und frühere Namen des/der Annehmenden bzw. der Wahleltern,</listelem>
+<listelem>
+<symbol stellen="2">k)</symbol>bei verheirateten Annehmenden: Eheschließungsdaten,</listelem>
+<listelem>
+<symbol stellen="2">l)</symbol>Wohnanschrift des/der Annehmenden;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">5.</symbol>jede Inkognitoadoption durch Angabe folgender Daten:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Tag und Ort der Geburt des/der Angenommenen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Familiennamen des/der Angenommenen vor der Annahme an Kindes Statt,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Familiennamen des/der Angenommenen nach der Annahme an Kindes Statt,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Vornamen des/der Angenommenen,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Geschlecht des/der Angenommenen,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Datum der Wirksamkeit der Annahme an Kindes Statt,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Tag und Ort der Geburt des/der Annehmenden bzw. der Wahleltern,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Familiennamen, Vornamen und frühere Namen des/der Annehmenden bzw. der Wahleltern,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>bei verheirateten Annehmenden: Eheschließungsdaten,</listelem>
+<listelem>
+<symbol stellen="2">j)</symbol>Wohnanschrift des/der Annehmenden,</listelem>
+<listelem>
+<symbol stellen="2">k)</symbol>Vermerk, dass es sich um eine Inkognitoadoption handelt und die Daten der früheren Eltern des/der Angenommenen nur nach Maßgabe des Abs. 2 verwendet werden dürfen.</listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Getrennt von der Mitteilung nach Abs. 1 Z 5 sind auf jeweilige konkrete Anfrage des zuständigen Krankenversicherungsträgers im Einzelfall zur tatsächlichen (physischen) Lösung bestehender Verbindungen zu den leiblichen Eltern (Angehörigeneigenschaft, Hinterbliebenenanwartschaften) Daten der früheren Eltern des/der Angenommenen unter Hinweis auf strengste Geheimhaltungspflicht und nur unter besonderen Sicherheitsvorkehrungen zu übermitteln. Diese Daten dürfen nur zur sofortigen Lösung der genannten Verbindungen verwendet werden und sind sofort danach tatsächlich (physisch) zu vernichten. Das Anbringen eines bloßen technischen Löschungsvermerkes (logische Löschung) reicht in aktuellen Daten dafür nicht aus.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

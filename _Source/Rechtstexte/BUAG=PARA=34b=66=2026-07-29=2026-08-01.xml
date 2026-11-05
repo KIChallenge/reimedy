@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="BUAG=PARA=34b=66=2026-07-29=2026-08-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="BUAG=PARA=34b=66=2026-07-29=2026-08-01" dokidSource="BUAG=PARA=34=66=2026-07-29=2026-08-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Bauarbeiter-Urlaubs- und Abfertigungsgesetz" abkrvo="BUAG" dokart="BG" titaen="Julinovelle 66/2026" abkaen="JuliNov 66/2026" urheber="Bund" pubdat="2026-07-29" ikra="2026-08-01" sichtbarkeit="p" gldnr="34b" beschdat="2026-07-07" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="66" begseite="2" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift typ="para" halign="c" level="2">Datenverarbeitung im BauID-System</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 34b.</gldsym> (1) Die Urlaubs- und Abfertigungskasse als Betreiberin des BauID<gdash/>Systems ist hinsichtlich der in <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" abs="1" ursprung="u">§ 34a Abs. 1</rvolink> genannten Personen ermächtigt, zu nachfolgenden Zwecken im BauID<gdash/>System folgende Daten zu verarbeiten:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Zur Ausstellung der BauID<gdash/>Karte:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Arbeitnehmerdaten: Name, Geschlecht, Geburtsdatum, Lichtbild, Dokumente zur Identifikationsfeststellung, wenn kein Lichtbild in den in <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" abs="2" ursprung="u">§ 34a Abs. 2</rvolink> genannten Registern verfügbar ist, Wohnadresse oder Zustelladresse, Kontaktdaten, Sozialversicherungsnummer, Arbeitnehmerkennzeichen, Nationalität;</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Arbeitgeberdaten: Firmenname und -adresse, Firmenbuchnummer, Dienstgeberkontonummer, Umsatzsteueridentifikationsnummer, Kennziffer Unternehmensregister (KUR), Betriebssitz, Gewerbeberechtigung oder Unternehmensgegenstand sowie das Betriebskennzeichen;</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">2.</symbol>Zur Abfrage durch den Arbeitnehmer: Abfrageprotokoll (Scanprotokoll) seiner BauID<gdash/>Karte, seine aktuellen im BauID<gdash/>System enthaltenen Daten gemäß Abs. 1 Z 1 lit. a und Z 3 lit. a bis g;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Zur Abfrage von Daten mittels Verwendung der BauID<gdash/>Karte auf einer Baustelle (Arbeitsstätte) zu Kontrollzwecken die unter Z 1 und Z 2 genannten Daten sowie zusätzlich:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>die den Beginn und das Ende des Beschäftigungsverhältnisses, den Ort bzw. die Orte der Beschäftigung, die Art der Tätigkeit und Verwendung, die kollektivvertragliche Einstufung, Ausbildungs- und Qualifizierungsnachweise, die vereinbarte wöchentliche Normalarbeitszeit, bei Teilzeit das Ausmaß und die Lage der Arbeitszeit, die Baustellenbezeichnung und -adresse sowie bei entsandten und überlassenen Arbeitnehmern zusätzlich die Baustellenidentifikationsnummer und den zuständigen Sozialversicherungsträger;</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>die durch die Urlaubs- und Abfertigungskasse beim Träger der Krankenversicherung nach <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="31" abs="1" ursprung="u">§ 31 Abs. 1</rvolink> zu erhebenden Daten hinsichtlich des Zeitpunktes der Anmeldung und gegebenenfalls der Abmeldung der Erwerbstätigkeit als Arbeiter oder Angestellter bzw. Lehrling oder geringfügig beschäftigt als Arbeiter oder Angestellter oder Beschäftigung als freier Dienstnehmer oder als selbständig Erwerbstätiger, der Bezeichnung des Dienstgebers und der Dienstgeberkontonummer;</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>bei entsandten und überlassenen Arbeitnehmern die Angabe, ob eine Meldung nach <nolink>§ 19</nolink> Lohn- und Sozialdumping-Bekämpfungsgesetz vorliegt, sowie die Transaktionsnummer ZKO, den Ort bzw. die Orte der Beschäftigung, die Baustellenidentifikationsnummer, die Art der Tätigkeit und Verwendung des Arbeitnehmers, den zuständigen Sozialversicherungsträger, die Staatsangehörigkeit und die Angabe in der Meldung nach <nolink>§ 19 Abs. 5b</nolink> Lohn- und Sozialdumping-Bekämpfungsgesetz hinsichtlich einer elektronischen Bereithaltung;</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>bei ausländischen Arbeitnehmern die im Arbeitsmarktservice für die konkrete Beschäftigung auf der Baustelle dokumentierte Genehmigung, Bestätigung oder Aufenthaltsberechtigung gemäß <nolink>§ 3 Abs. 1</nolink> des AuslBG;</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>bei Fremden die durch die Urlaubs- und Abfertigungskasse aus den Beständen des Zentralen Fremdenregisters erhobenen Daten über die Einreise- und Aufenthaltsberechtigungen; dies kann unter Nutzung einer zwischen dem Bundesminister für Inneres und der Urlaubs- und Abfertigungskasse eingerichteten Schnittstelle erfolgen;</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>vom Arbeitgeber in das BauID<gdash/>System eingegebene Unterlagen gemäß <nolink>§§ 21</nolink> und <nolink>22</nolink> Lohn<gdash/> und Sozialdumping-Bekämpfungsgesetz;</listelem>
+              <listelem>
+                <symbol stellen="2">g)</symbol>das Scanprotokoll einer BauID<gdash/>Karte sowie die GPS<gdash/>Koordinaten des Abfrageortes;</listelem>
+              <listelem>
+                <symbol stellen="2">h)</symbol>die von Gemeindeverbänden und Gemeinden in die Baustellendatenbank eingegebenen Baubeginns- und Fertigungstellungsanzeigen;</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">4.</symbol>freiwillig im BauID<gdash/>System erfasste Nachweise und sonstige Unterlagen betreffend Unterweisungen gemäß <nolink>§ 14</nolink> ASchG.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die Urlaubs- und Abfertigungskasse ist ermächtigt, zu Kontrollzwecken die in Abs. 1 Z 3 lit. a genannten Daten, soweit sie in der Arbeitnehmer- und Betriebsauskunft der Urlaubs- und Abfertigungskasse vorhanden sind, automationsunterstützt über eine Schnittstelle in das BauID<gdash/>System zu übermitteln.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Ermächtigung der Urlaubs- und Abfertigungskasse als Betreiberin des BauID<gdash/>Systems bei Verwendung der BauID<gdash/>Karte auf einer Baustelle (Arbeitsstätte) zur Verarbeitung der Daten gemäß Abs. 1 Z 3 lit. b bis g, sowie für die in Abs. 1 Z 4 genannten und vom Arbeitgeber freiwillig ins System eingegebene Daten, gilt auch für die Datenverarbeitung hinsichtlich Personen gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" abs="5" ursprung="u">§ 34a Abs. 5</rvolink>. Die zuständigen Krankenversicherungsträger sind verpflichtet, der Urlaubs- und Abfertigungskasse als Betreiberin des BauID<gdash/>Systems die in Abs. 1 Z 3 lit. b, die Zentrale Koordinationsstelle für die Kontrolle der illegalen Beschäftigung nach dem Ausländerbeschäftigungsgesetz und dem Lohn- und Sozialdumping-Bekämpfungsgesetz des Amtes für Betrugsbekämpfung die in Abs. 1 Z 3 lit. c genannten Daten und das Arbeitsmarktservice die in Abs. 1 Z 3 lit. d genannten Daten von Personen gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" abs="5" ursprung="u">§ 34a Abs. 5</rvolink>, deren Arbeitsverhältnis nicht diesem Bundesgesetz unterliegt, automationsunterstützt in einer für die Urlaubs- und Abfertigungskasse als Betreiberin des BauID<gdash/>Systems technisch geeigneten Form zur Verfügung zu stellen. Der Bundesminister für Inneres hat der Urlaubs- und Abfertigungskasse als Betreiberin des BauID<gdash/>Systems die in Abs. 1 Z 3 lit. e genannten Daten automationsunterstützt in einer für die Urlaubs- und Abfertigungskasse technisch geeigneten Form zur Verfügung zu stellen.</absatz>
+          <absatz typ="abs" halign="j">(4) Zum Zweck der Registrierung und Ausstellung von BauID<gdash/>Karten für Personen gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" abs="5" ursprung="u">§ 34a Abs. 5</rvolink> und Arbeitgeber gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" abs="6" ursprung="u">§ 34a Abs. 6</rvolink> dürfen folgende Daten von der Urlaubs- und Abfertigungskasse als Betreiberin des BauID<gdash/>Systems oder, sofern sie sich einer Dienstleisterin bedient, von der BauID<gdash/>GmbH verarbeitet werden:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Arbeitnehmerdaten: Name, Geschlecht, Geburtsdatum, Lichtbild, Dokumente zur Identifikationsfeststellung, sofern kein Lichtbild in den in <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" abs="2" ursprung="u">§ 34a Abs. 2</rvolink> genannten Registern verfügbar ist, Wohnadresse oder Zustelladresse, Kontaktdaten, Sozialversicherungsnummer, Nationalität;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Arbeitgeberdaten: Firmenname und -adresse, Firmenbuchnummer, Dienstgeberkontonummer, Umsatzsteueridentifikationsnummer, Kennziffer Unternehmensregister (KUR), Betriebssitz, Gewerbe-berechtigung oder Unternehmensgegenstand sowie das Betriebskennzeichen.</listelem>
+            </aufzaehlung>
+          </liste>
+          
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="GRFG=PARA=2=104=2025-12-29=2026-01-01"><rvo dokidCms="GRFG=PARA=2=104=2025-12-29=2026-01-01">
+      <metadaten titrvo="Gesundheitsreformfonds-Gesetz" abkrvo="GRFG" dokart="BG" urheber="Bund" beschdat="2025-12-11" pubdat="2025-12-29" ikra="2026-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Gesundheitsreformfonds-Gesetz Stammfassung" abkaen="GRFG StF" gldart="PARA" gldnr="2" gldsort="50">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="104" begseite="3" jahrgang="2025">BGBl. I  Nr. 104/2025 , S.3</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="f" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Mittel des Gesundheitsreformfonds</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 2.</gldsym> Der Bund überweist aus den nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="818" abs="4" ursprung="u">§ 818 Abs. 4</rvolink> Allgemeines Sozialversicherungsgesetz, BGBl. Nr. 189/1955, <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="295" ursprung="u">§ 295</rvolink> Beamten-Kranken- und Unfallversicherungsgesetz, BGBl. Nr. 200/1967, und <rvolink abkrvo="SVSG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="60" ursprung="u">§ 60</rvolink> Selbstständigen- Sozialversicherungsgesetz, BGBl. I Nr. 100/2018, an ihn überwiesenen Beträgen bis zum 31. März des jeweiligen Jahres insgesamt folgende Beträge an die Gesundheitsreformfonds:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="betrag">
+              <listelem>
+                <symbol stellen="2">1.</symbol>2026<tab align="r" position="333.15" leader="p"/>497,5 Mio. €;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>2027<tab align="r" position="333.15" leader="p"/>517,2 Mio. €;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>2028<tab align="r" position="333.15" leader="p"/> 537,9 Mio. €;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>2029<tab align="r" position="333.15" leader="p"/>557,3 Mio. €;</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>2030<tab align="r" position="333.15" leader="p"/>580,6 Mio. €.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die vom Bund gemäß Abs. 1 zu überweisenden Beträge teilen sich in folgendem Verhältnis auf die Fonds auf:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="betrag">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Österreichische Gesundheitskasse<tab align="r" position="333.15" leader="p"/><tab align="r" position="425.25" leader="p"/>72,959%</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Sozialversicherungsanstalt der Selbständigen<tab align="r" position="333.15" leader="p"/><tab align="r" position="425.25" leader="p"/>22,236%</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau<tab align="r" position="333.15" leader="p"/><tab align="r" position="425.25" leader="p"/>4,805%.</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="41" paperh="842" paperw="595" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

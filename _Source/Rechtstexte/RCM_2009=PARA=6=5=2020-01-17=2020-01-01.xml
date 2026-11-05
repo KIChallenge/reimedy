@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RCM_2009=PARA=6=5=2020-01-17=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RCM_2009=PARA=6=5=2020-01-17=2020-01-01" dokidSource="RCM_2009=PARA=6=131=2008-12-19=2009-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien für das Zusammenwirken auf dem Gebiet eines automationsunterstützten Cash Managements 2009" abkrvo="RCM 2009" dokart="RL DVSV" titaen="SV-OG Anpassungsverlautbarung" abkaen="SV-OG AnpVerl" urheber="Hauptverband" beschdat="2020-01-14" pubdat="2020-01-17" ikra="2020-01-01" sichtbarkeit="p" gldnr="6" nichtanzeigen="n">
+
+<puborgane><puborgan puborg="avsv" nrpuborg="5" jahrgang="2020" begseite="7"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt endnhier="true" nr="1" paperf="h" typ="ns">
+<ueberschrift halign="c" typ="para" level="1">Liquiditätskennzahlen</ueberschrift>
+<absatz halign="j" typ="abs">
+<gldsym>§ 6.</gldsym> (1) Die Sozialversicherungsträger haben nach Abs. 2 monatlich für das laufende Jahr Liquiditätskennzahlen bzw. Deckungskennzahlen (Istwerte) zu ermitteln und diese gemeinsam mit dem Finanzplan (<nolink>§ 5 Abs.1</nolink>) dem Dachverband zu übermitteln.</absatz>
+<absatz halign="j" typ="abs">(2) Die Liquiditätskennzahlen werden wie folgt ermittelt:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vorerst ist die Geldmittelliquidität wie folgt zu berechnen:</listelem>
+</ziffernliste>
+</liste>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-left:27.5pt;border-collapse:collapse">
+<tr h-start="550">
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+               
+            </td>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Kontengruppe 15</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+<absatz halign="l" typ="tabtext">+</absatz>
+</td>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Kontengruppe 16</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+<absatz halign="l" typ="tabtext">+</absatz>
+</td>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Kontengruppe 17</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+<absatz halign="l" typ="tabtext">+</absatz>
+</td>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Kontengruppe 07</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+<absatz halign="l" typ="tabtext">-</absatz>
+</td>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Treuhandschulden</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+<absatz halign="l" typ="tabtext">+</absatz>
+</td>
+<td style="padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Treuhandforderungen</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+<absatz halign="l" typ="tabtext">-</absatz>
+</td>
+<td style="border:none;border-bottom: solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Fremdmittel bei Geldinstituten oder anderen Stellen</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="border:none;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+               
+            </td>
+<td style="border:none;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Geldmittelliquidität</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+<absatz halign="l" typ="tabtext">+</absatz>
+</td>
+<td style="border:none;border-bottom: solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Dauerscheckleistung des lfd. Monats (nur PV-Träger)</absatz>
+</td>
+</tr>
+<tr h-start="550">
+<td style="border:none;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="17" h-xval="805">
+               
+            </td>
+<td style="border:none;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="303" h-xval="5350">
+<absatz halign="l" typ="tabtext">Geldmittelliquidität (nur PV-Träger)</absatz>
+</td>
+</tr>
+</table>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Der Geldmittelliquidität sind die monatlichen Gesamtaufwendungen des jeweils abgeschlossenen Geschäftsjahres des Sozialversicherungsträgers (unter der Berücksichtigung der Leistungen für Sonderzahlungen) gegenüberzustellen. Es sind die monatlichen „buchungsmäßigen“ Stände der unberichtigten Versicherungsleistungen (Kontogruppe 24) und der kurzfristigen Verbindlichkeiten (Kontogruppe 26) auszuweisen. Aus der Gegenüberstellung sind zwei Rechengrößen zu ermitteln:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>die Deckung des Monatsaufwandes in Prozent: die Liquiditätskennzahl I,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>die Deckung des Monatsaufwandes in Tagen: die Liquiditätskennzahl II.</listelem>
+</literaliste>
+<schluss typ="Ziff">Für die Pensionsversicherungsträger entfällt lit. b. Für den Fall einer sich allenfalls ergebenden Unterdeckung bei der Geldmittelliquidität ist auf die Berechnung der beiden Rechengrößen „Deckung des Monatsaufwandes in Prozent“ bzw. „Deckung des Monatsaufwandes in Tagen“ zu verzichten und durch den Ausdruck „Keine Deckung“ zu ersetzen.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten deftab="35.4" footerd="36" gutter="0" gutterpos="0" headerd="36" margb="56.7" margl="56.7" margr="56.7" margt="70.9" paperf="7" paperh="841.9" paperw="595.3"/>
+</rvo></sozdok>

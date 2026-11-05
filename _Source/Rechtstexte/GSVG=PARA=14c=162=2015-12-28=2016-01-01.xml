@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="GSVG=PARA=14c=162=2015-12-28=2016-01-01"><rvo dokidCms="GSVG=PARA=14c=162=2015-12-28=2016-01-01" dokidSource="GSVG=PARA=14c=123=2012-12-28=2013-01-01">
+<metadaten gldsort="70" indbr="66.02.05" gldart="PARA" berkz="KVL; UVL; PVL; VMB; AG; SELB; " beschdat="2015-12-10" urheber="Bund" titrvo="Gewerbliches Sozialversicherungsgesetz" gldnr="14c" ikra="2016-01-01" sichtbarkeit="p" abkrvo="GSVG" titaen="Sozialrechts-ÄnderungsG 2015 - 44. Novelle" dokart="BG" abkaen="SRÄG 2015" pubdat="2015-12-28">
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="162" begseite="11" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Beginn und Ende der Selbstversicherung</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 14c.</gldsym> (1) Die Selbstversicherung nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" ursprung="u">§ 14a</rvolink> beginnt</absatz>
+<liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>mit dem Zeitpunkt, den der Versicherte wählt;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>im Falle des <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" abs="3" ursprung="u">§ 14a Abs. 3</rvolink> im Anschluss an eine Pflichtversicherung nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14b" abs="1" ziff="1" ursprung="u">§ 14b Abs. 1 Z 1</rvolink> oder <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14b" abs="1" ziff="3" ursprung="u">Z 3</rvolink>;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>im Falle des <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" abs="4" ursprung="u">§ 14a Abs. 4</rvolink> im Anschluss an eine Selbstversicherung nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="16" ursprung="u">§ 16</rvolink><nolink> ASVG</nolink>;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>im Falle des <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" abs="5" ursprung="u">§ 14a Abs. 5</rvolink> im Anschluss an eine Pflichtversicherung nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14b" abs="2" ursprung="u">§ 14b Abs. 2</rvolink>.</listelem>
+            </ziffernliste>
+          </liste><absatz typ="abs" halign="j">(2) Die Selbstversicherung endet</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+                <symbol stellen="3">1.</symbol>im Falle des <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" abs="1" ziff="1" ursprung="u">§ 14a Abs. 1 Z 1</rvolink> und der Abs. 3 und 4 mit dem Letzten des Kalendermonates, in dem die Kammermitgliedschaft endet;</listelem>
+              <listelem>
+                <symbol stellen="3">2.</symbol>im Falle des <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" abs="1" ziff="2" ursprung="u">§ 14a Abs. 1 Z 2</rvolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" abs="2" ursprung="u">Abs. 2</rvolink> und <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14a" abs="5" ursprung="u">5</rvolink> mit dem Letzten des Kalendermonates, in dem die Pensions(Ruhegenuss)- bzw. die Alters-, Berufsunfähigkeits- oder Todesversorgungsleistung wegfällt;</listelem>
+<listelem>
+<symbol>3.</symbol>wenn eine Pflichtversicherung nach 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="14b" abkrvo="GSVG">§ 14b</rvolink> eintritt.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

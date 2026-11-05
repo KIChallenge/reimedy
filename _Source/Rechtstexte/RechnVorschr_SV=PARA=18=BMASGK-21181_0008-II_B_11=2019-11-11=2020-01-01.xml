@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=18=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=18=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" dokidSource="RechnVorschr_SV=PARA=18=BMASGK-21181/0002-II/B/11=2018-12-10=2019-01-01">
+<metadaten gldnr="18" ikra="2020-01-01" pubdat="2019-11-11" urheber="BMASGK" abkaen="51. Änd RechnVorschr SV" titaen="51. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" sichtbarkeit="p" dokart="Weisung" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<anm>Anlässlich der 35. Änd RechnVorschr SV wurde der Link in Abs. 2 "ANHANG" zuletzt aktualisiert. Der dann erscheinende Text wird aus  dokumentationstechnischen Gründen in der SozDok mit der Bezeichnung "Beiblatt zu § 18 Abs. 2" geführt.</anm>
+<aendprot>
+<dfeintrag zeitpunkt="2003-03-13" perskz="schaff"/>
+<dfeintrag perskz="schaff" zeitpunkt="2003-03-13"/>
+<dfeintrag zeitpunkt="2003-03-13" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2003-11-24"/>
+<dfeintrag zeitpunkt="2003-12-09" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-12-09"/>
+<dfeintrag zeitpunkt="2003-12-19" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-12-19"/>
+<dfeintrag zeitpunkt="2004-02-12" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-04-05"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-21"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-21181/0008-II/B/11" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">FINANZPLAN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 18.</gldsym> (1) Zur Beobachtung der laufenden Vermögensentwicklung haben die Sozialversicherungsträger (nicht jedoch die Versorgungsanstalt des österreichischen Notariates) die Finanzpläne nach den Bestimmungen des 
+<rvolink ursprung="u" gldnr="5" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RCM 2005">§ 5</rvolink> der <nolink>Richtlinien für das Zusammenwirken auf dem Gebiet eines automationsunterstützten Cash</nolink> Managements gemäß <rvolink ursprung="u" ziff="30" abs="1" gldnr="30a" gldsort="80" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 30a Abs. 1 Z 30</rvolink><nolink> ASVG</nolink> zu erstellen und dem Dachverband bis zum letzten Arbeitstag der Monate Mai, August, November und Februar mit den Plan- und Istwerten für das zuletzt abgelaufene Kalendervierteljahr sowie den Planwerten der jeweiligen zwölf folgenden Kalendermonate vorzulegen. Der Dachverband hat die Finanzpläne der Versicherungsträger zu sammeln und dem Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz bis zum 10. der Monate Juni, September, Dezember und März zu übermitteln.</absatz>
+<absatz typ="abs" halign="j">(2) Die Gliederung der Finanzpläne hat dem Muster laut <wwwlink typ="e" url="/fs/FinanzplaeneV02.xls" ursprung="u">ANHANG</wwwlink> zu entsprechen.</absatz>
+<absatz typ="abs" halign="j">(3) Dem Finanzplan sind die nach den Bestimmungen des <nolink>§ 6</nolink> der Richtlinien für das Zusammenwirken auf dem Gebiet eines automationsunterstützten Cash Managements gemäß <rvolink ursprung="u" ziff="30" abs="1" gldnr="30a" gldsort="80" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 30a Abs. 1 Z 30</rvolink><nolink> ASVG</nolink> ermittelten Liquiditätskennzahlen sowie die korrespondierenden buchmäßigen Werte der unberichtigten Versicherungsleistungen und der sonstigen Verbindlichkeiten anzuschließen.</absatz>
+<absatz typ="abs" halign="j">(4) Die Sozialversicherungsträger (nicht jedoch die Versorgungsanstalt des österreichischen Notariates) haben auf Basis der Finanzpläne monatliche Gesamteinnahmen und Gesamtausgaben (ohne Treuhandzahlungen) sowie die Liquiditätszahlen zu ermitteln und dem Dachverband jeweils bis zum 20. des Folgemonats vorzulegen. Der Dachverband hat die monatlichen Gesamteinnahmen und Gesamtausgaben sowie die Liquiditätszahlen der einzelnen Sozialversicherungsträger zu komprimieren und unverzüglich an die Statistik Austria zu übermitteln.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RDPP=ANL=3=17=2005-03-01=2003-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RDPP=ANL=3=17=2005-03-01=2003-01-01">
+<metadaten gldart="ANL" gldsort="150" titrvo="Richtlinien zur Erstellung von Dienstpostenplänen für die Sozialversicherungsträger" abkrvo="RDPP" dokart="RL DVSV" titaen="Kunsttext 17/2005 RDPP" abkaen="Kunsttext 17/2005 RDPP" urheber="Hauptverband" beschdat="2004-12-06" pubdat="2005-03-01" ikra="2003-01-01" sichtbarkeit="p" gldnr="3" nichtanzeigen="n">
+<anm>Wiederverlautbarung: avsv Nr.: 17/2005 am 1. März 2005</anm>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2002-04-24"/>
+<dfeintrag zeitpunkt="2003-08-05" perskz="glueck"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-03-21"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-03-16"/>
+</aendprot>
+<puborgane><puborgan puborg="avsv" nrpuborg="17" jahrgang="2005"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt typ="ns" paperf="q" nr="1">
+<ueberschrift level="2" halign="c" typ="para">Aufstellung gemäß 
+<rvolink ursprung="p" abs="4" gldnr="6" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RDPP">§ 6 Abs. 4</rvolink> RDPP zum Dienstpostenplan der ... (Muster)</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>Anlage 3 </gldsym>
+</absatz>
+<table style="border-color:black;border-collapse:collapse;margin-left:0pt" cellpadding="3" cellspacing="0" border="0">
+<tr h-start="0">
+<td class="top left bottom right" valign="middle" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">Fortl. Nr.</absatz>
+</td>
+<td class="top left bottom right" valign="middle" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext">anzuwend. Dienstordn.</absatz>
+</td>
+<td class="top left bottom right" valign="middle" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext">Grundeinreihung</absatz>
+</td>
+<td class="top left bottom right" valign="middle" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext">effektive Einreihung </absatz>
+</td>
+<td class="top left bottom right" valign="middle" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext">Anzahl der Fälle</absatz>
+</td>
+<td class="top left bottom right" valign="middle" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">Begründung</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(1)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext">
+<b>DO.A</b>
+</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext">
+<b>E/III</b>
+</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext">
+<b>F/1</b>
+</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( 
+<rvolink ursprung="p" abs="7" gldnr="37" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="DO.A">§ 37 Abs. 7</rvolink> DO.A</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(2)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext">
+<b>DO.A</b>
+</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext">
+<b>P2</b>
+</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext">
+<b>P1</b>
+</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( 
+<rvolink ursprung="p" gldnr="38a" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="DO.A">§ 38a</rvolink> DO.A</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(3)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(4)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(5)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(6)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(7)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(8)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(9)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top left bottom right" valign="top" align="left" width="53" h-xval="795">
+<absatz typ="tabtext">(10)</absatz>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="96" h-xval="2235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="3810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="95" h-xval="5235">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="105" h-xval="6810">
+<absatz typ="tabtext"/>
+</td>
+<td class="top left bottom right" valign="top" align="left" width="329" h-xval="11745">
+<absatz typ="tabtext">( sonstiges: .............................................</absatz>
+</td>
+</tr>
+</table>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

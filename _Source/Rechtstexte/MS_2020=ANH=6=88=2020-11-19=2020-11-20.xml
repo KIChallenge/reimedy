@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MS_2020=ANH=6=88=2020-11-19=2020-11-20"><rvo dokidCms="MS_2020=ANH=6=88=2020-11-19=2020-11-20">
+      <metadaten titrvo="Mustersatzung 2020" abkrvo="MS 2020" dokart="MusterR" urheber="DVSV" sichtbarkeit="p" nichtanzeigen="n" titaen="Mustersatzung 2020 StF" abkaen="MS 2020 StF" beschdat="2020-10-21" pubdat="2020-11-19" ikra="2020-11-20" gldart="ANH" gldnr="6" gldsort="150">
+        <puborgane><puborgan puborg="avsv" nrpuborg="88" jahrgang="2020">avsv   Nr. 88/2020 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="anlage" halign="r" level="2">Anhang 6</ueberschrift>
+          <abstand halign="l"/>
+        </abschnitt>
+      <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c">Kostenzuschuss für Leistungen der medizinischen Hauskrankenpflege gemäß <rvolink abkrvo="MS 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="33" abs="1" ursprung="u">§ 33 Abs. 1</rvolink></ueberschrift>
+          <table id="Tabelle10" cellspacing="0" style="border-collapse:collapse;margin-left:-2.5pt;margin-right:-6pt">
+            <tr style="page-break-inside:avoid;" h-start="-50">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8455">
+                <absatz typ="abs" halign="j">Für Leistungen der medizinischen Hauskrankenpflege leistet die Kasse pro Besuch <nolink>Kostenzuschüsse</nolink> in folgender Höhe:</absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-50">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7747">
+                <liste>
+                  <ziffernliste ebene="1">
+                    <listelem>
+                      <symbol stellen="2">1.</symbol>Grundbetrag für Leistungen der medizinischen Hauskrankenpflege bis zur Dauer von 45 Minuten</listelem>
+                  </ziffernliste>
+                </liste>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8455">
+                <absatz typ="tabtextr" halign="r">8,64 €</absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-50">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="7747">
+                <liste>
+                  <ziffernliste ebene="1">
+                    <listelem>
+                      <symbol stellen="2">2.</symbol>Für jede weitere volle Viertelstunde erhöht sich der Kostenzuschuss um</listelem>
+                  </ziffernliste>
+                </liste>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8455">
+                <absatz typ="tabtextr" halign="r">2,88 €</absatz>
+              </td>
+            </tr>
+            <tr height="0" h-start="-50">
+              <td width="520" style="border:none" twips="7797" h-xval="7747"/>
+              <td width="47" style="border:none" twips="708" h-xval="8455"/>
+            </tr>
+          </table>
+          <abstand halign="l">
+            <wechsel typ="s"/>
+          </abstand>
+        </abschnitt></nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

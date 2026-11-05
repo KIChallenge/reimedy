@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="BSVG=PARA=103=111=2010-12-30=2011-01-01"><rvo dokidCms="BSVG=PARA=103=111=2010-12-30=2011-01-01">
+<metadaten gldsort="70" indbr="66.02.04" gldart="PARA" berkz="KVL; UVL; PVL; VMB; SELB;" beschdat="2010-12-20" urheber="Bund" titrvo="Bauern-Sozialversicherungsgesetz" gldnr="103" fassung="22" ikra="2011-01-01" sichtbarkeit="p" abkrvo="BSVG" titaen="BudgetbegleitG 2011 -  37. Novelle" dokart="BG" abkaen="BudgBeglG 2011" pubdat="2010-12-30">
+<uebrecht>
+<rvolink gldnr="274" gldart="PARA" abs="3" ursprung="a" abkrvo="BSVG" verwart="d">§ 274 Abs. 3 BSVG</rvolink>
+</uebrecht>
+
+
+<nichtdoknovs><textelem>§ 103 Abs. 1 Z 1: 9. Nov., BGBl. Nr. 113/1986, Art. I Z 19 – 1. 1. 1986; 18. Nov., BGBl. Nr. 337/1993, Art. I Z 35 – 1. 7. 1993; SVÄG 2000, BGBl. I Nr. 43/2000, Art. 3 Z 1 und § 274 Abs. 3 – 1. 7. 2000; BBG 2003, BGBl. I Nr. 71/2003, 9. Teil, Art. 75 Teil 2 Z 5 – 1. 7. 2004.</textelem><textelem>§ 103 Abs. 1 Z 2: BGBl. Nr. 201/1996, Art. 36 Z 1 – 1. 7. 1996.</textelem><textelem>§ 103 Abs. 1 Z 3 lit. a: SRÄG 2010, 36. Nov., BGBl. I Nr. 62/2010, Art. 3 Z 17 – 1. 1. 2010.</textelem><textelem>§ 103 Abs. 1 Z 3 lit. b: 11. Nov., BGBl. Nr. 611/1987, Art. I Z 23 – 1. 1. 1988.</textelem><textelem>§ 103 Abs. 2: 22. Nov., BGBl. I Nr. 140/1998, Abschn. II Z 23 – 1. 1. 1999.</textelem></nichtdoknovs><puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="111" begseite="152" jahrgang="2010"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Leistungen</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 103.</gldsym> (1) In der Pensionsversicherung nach diesem Bundesgesetz sind zu gewähren:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>aus dem Versicherungsfall des Alters die Alterspension;</listelem>
+<listelem>
+<symbol>2.</symbol>aus dem Versicherungsfall der Erwerbsunfähigkeit</listelem>
+
+</ziffernliste>
+
+<literaliste ebene="2">
+<listelem>
+<symbol>a)</symbol>Maßnahmen der beruflichen Rehabilitation (<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="122" ursprung="u">§ 122</rvolink>),</listelem>
+<listelem>
+<symbol>b)</symbol>die Erwerbsunfähigkeitspension (<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="132" ursprung="u">§ 132</rvolink>);</listelem>
+</literaliste></liste>
+
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>3.</symbol>aus dem Versicherungsfall des Todes 
+</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol>a)</symbol>die Hinterbliebenenpensionen (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="126" abkrvo="BSVG">§§ 126</rvolink>, <rvolink ursprung="u" abkrvo="BSVG" verwart="d" gldart="PARA" gldsort="70" gldnr="128" typ="e">128</rvolink>),</listelem>
+<listelem>
+<symbol>b)</symbol>die Abfindung (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="139a" abkrvo="BSVG">§ 139a</rvolink>).</listelem>
+</literaliste>
+</liste><absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Der Versicherungsträger trifft überdies – unbeschadet der Leistung nach Abs. 1 Z 2 lit. a aus dem Versicherungsfall der Erwerbsunfähigkeit – Maßnahmen der Rehabilitation (<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="150a" ursprung="u">§ 150a</rvolink>) sowie Maßnahmen der Gesundheitsvorsorge (<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="161" ursprung="u">§ 161</rvolink>).</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

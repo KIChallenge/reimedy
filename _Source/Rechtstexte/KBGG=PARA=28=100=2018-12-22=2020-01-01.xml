@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KBGG=PARA=28=100=2018-12-22=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KBGG=PARA=28=100=2018-12-22=2020-01-01" dokidSource="KBGG=PARA=28=103=2001-08-07=2002-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Kinderbetreuungsgeldgesetz" abkrvo="KBGG" dokart="BG" titaen="Sozialversicherungs-OrganisationsG" abkaen="SV-OG" urheber="Bund" beschdat="2018-12-13" pubdat="2018-12-22" ikra="2020-01-01" sichtbarkeit="p" gldnr="28" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-09-30"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="100" begseite="145" jahrgang="2018"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">Abschnitt 6 </ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="g2">Krankenversicherung </ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="0" halign="c" level="3" typ="para">Krankenversicherung der Leistungsbezieher </ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 28. </gldsym> (1) Die Bezieher von Kinderbetreuungsgeld sind in der gesetzlichen Krankenversicherung teilversichert, sofern nicht eine Leistungszugehörigkeit zu einer Krankenfürsorgeeinrichtung im Sinne des 
+<rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="1" ziff="2" ursprung="u">§ 2 Abs. 1 Z 2</rvolink> B-KUVG besteht. Zur Durchführung der Krankenversicherung sind in folgender Reihenfolge zuständig: 
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>jener Krankenversicherungsträger, der dem Kinderbetreuungsgeldbezieher Wochengeld oder Betriebshilfe leistet oder geleistet hat; </listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>jener Krankenversicherungsträger, bei dem der Kinderbetreuungsgeldbezieher versichert ist oder zuletzt versichert war; </listelem>
+<listelem>
+                <symbol stellen="3">3.</symbol>sonst die Österreichische Gesundheitskasse.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Unterliegt ein Kinderbetreuungsgeldbezieher der Krankenversicherung nach zwei oder mehreren Bundesgesetzen, so ist jener Krankenversicherungsträger zuständig, bei dem der Antrag auf Kinderbetreuungsgeld gestellt wird. </absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Ist die Zuständigkeit eines Krankenversicherungsträgers begründet, dann besteht sie so lange, als Kinderbetreuungsgeld bezogen wird. </absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

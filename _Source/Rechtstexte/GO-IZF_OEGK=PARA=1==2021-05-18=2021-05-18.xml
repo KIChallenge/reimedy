@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="GO-IZF_OEGK=PARA=1==2021-05-18=2021-05-18" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="GO-IZF_OEGK=PARA=1==2021-05-18=2021-05-18" dokidSource="GO-IZF_OEGK=PARA=1==2020-01-01=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Geschäftsordnung des Innovations- und Zielsteuerungsfonds der Österreichischen Gesundheitskasse (§ 447a ASVG)" abkrvo="GO-IZF OEGK" dokart="GO" titaen="1. Änderung der Geschäftsordnung des Innovations- und Zielsteuerungsfonds der Österreichischen Gesundheitskasse, nicht publiziert" abkaen="1. Änd GO-IZF OEGK" urheber="ÖGK" pubdat="2021-05-18" ikra="2021-05-18" sichtbarkeit="p" gldart="PARA" gldnr="1" gldsort="80">
+        
+      <puborgane><puborgan puborg="nicht publ."/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="us" paperf="h" endnhier="false">
+          <ueberschrift typ="para" halign="c" level="1">Gesundheitsreformprojekte (GRP)</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 1.</gldsym> (1) Die Aufteilung der Mittel des IZF auf die in <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="447a" ursprung="u">§ 447a</rvolink><nolink> ASVG</nolink> genannten Verwendungszwecke erfolgt durch den Verwaltungsrat.</absatz>
+          <absatz typ="abs" halign="j">(2) Die Mittel stehen im Rahmen dieser Verwendungszwecke grundsätzlich für folgende Maßnahmen zur Verfügung:</absatz>
+          <liste>
+            <erlliste>
+              <listelem>
+                <symbol stellen="2">1.</symbol>Zielerreichung der einzelnen Fachbereiche im Rahmen der ÖGK-internen Zielsteuerung insbesondere zur Leistungsharmonisierung</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Gesundheitsreformprojekte gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="447a" abs="1" ursprung="u">§ 447a Abs. 1</rvolink><nolink> ASVG</nolink>, wobei dafür maximal jene Mittel zugewiesen werden können, die nach Abzug der Mittel für die Zielsteuerung sowie der ÖGK-BSC verbleiben.</listelem>
+            </erlliste>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Der IZF darf in keinem Jahr einen negativen Wert annehmen. Es darf daher in keinem Geschäftsjahr mehr aus dem IZF aufgewendet werden als darin Mittel vorhanden sind.</absatz>
+          <abstand halign="l"/>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

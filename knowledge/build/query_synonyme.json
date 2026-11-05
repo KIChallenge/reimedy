@@ -1,0 +1,62 @@
+{
+ "_hinweis": "Deterministische Abfrage-Erweiterung für Umgangssprache/Dialekt (ARCHITEKTUR §1). Muster = Regex auf normalisierter Frage (ä→ae, klein). Treffer hängen 'begriffe' an Volltext- UND Vektorsuche an; Antwort zeigt sie als begriffe_auto. Kuratiert, erweitern aus misses.jsonl. Nur Deutsch – andere Sprachen übersetzt System 1 vorher (ARCHITEKTUR §1).",
+ "regeln": [
+  {
+   "muster": "(packt|schafft|kommt|geht).{0,20}(nicht|nimma|nimmer|ned|nix).{0,15}(allein|mehr)|(allein|alleine).{0,20}(nicht|nimma|nimmer|ned) mehr|nicht mehr zurecht|braucht (jetzt )?hilfe|hilfe (zu hause|daheim|daham)",
+   "begriffe": [
+    "Pflege zu Hause",
+    "Pflegegeld",
+    "Heimhilfe",
+    "Pflegeberatung"
+   ]
+  },
+  {
+   "muster": "daham|dahoam|daheim|zu hause|zuhause",
+   "begriffe": [
+    "zu Hause"
+   ]
+  },
+  {
+   "muster": "medikament.{0,30}teuer|rezept.{0,30}teuer|apothek.{0,30}teuer|kleine pension",
+   "begriffe": [
+    "Rezeptgebühr",
+    "Befreiung"
+   ]
+  },
+  {
+   "muster": "taxi|rettung|fahrt.{0,30}(spital|bestrahlung|chemo|therapie|dialyse|arzt)|(spital|bestrahlung|chemo|dialyse).{0,30}fahr",
+   "begriffe": [
+    "Krankentransport",
+    "Fahrtkosten"
+   ]
+  },
+  {
+   "muster": "frei ?nehmen|freistellung|urlaub.{0,20}pfleg|job.{0,30}pfleg|arbeit.{0,30}pfleg",
+   "begriffe": [
+    "Pflegekarenz",
+    "Pflegeteilzeit"
+   ]
+  },
+  {
+   "muster": "bewegen|bewegung|sport|turnen|abnehmen",
+   "begriffe": [
+    "Bewegung",
+    "Gesundheitsförderung"
+   ]
+  },
+  {
+   "muster": "zahnspange|zaehne (schief|krumm)|schiefe zaehne|spange",
+   "begriffe": [
+    "Kieferorthopädie",
+    "Zahnspange"
+   ]
+  },
+  {
+   "muster": "wieder fit|erholung|nach dem spital|nach der operation",
+   "begriffe": [
+    "Rehabilitation",
+    "Kur"
+   ]
+  }
+ ]
+}

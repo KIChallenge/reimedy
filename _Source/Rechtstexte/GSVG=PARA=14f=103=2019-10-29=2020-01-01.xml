@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="GSVG=PARA=14f=103=2019-10-29=2020-01-01"><rvo dokidCms="GSVG=PARA=14f=103=2019-10-29=2020-01-01" dokidSource="GSVG=PARA=14f=118=2015-08-14=2016-01-01">
+<metadaten gldsort="70" indbr="66.02.05" gldart="PARA" berkz="KVL; UVL; PVL; VMB; OV; AG; SELB; " beschdat="2019-09-19" urheber="Bund" titrvo="Gewerbliches Sozialversicherungsgesetz" gldnr="14f" ikra="2020-01-01" sichtbarkeit="p" abkrvo="GSVG" titaen="SteuerreformG 2020" dokart="BG" abkaen="StRefG 2020" pubdat="2019-10-29" nichtanzeigen="n">
+<uebrecht>
+
+<rvolink ursprung="u" abkrvo="GSVG" verwart="s" gldart="PARA" gldsort="80" gldnr="376" ziff="2" pubdat="2019-10-29" ikra="2019-10-30" puborg="BGBl." gldpuborg="I" nrpuborg="103" jahrgang="2019" typ="e">§ 376 Z 2 GSVG idF 103/2019</rvolink><rvolink ursprung="u" abkrvo="GSVG" verwart="s" gldart="PARA" gldsort="70" gldnr="358" abs="1" ziff="3" pubdat="2015-08-14" ikra="2015-08-15" puborg="BGBl." gldpuborg="I" nrpuborg="118" jahrgang="2015" typ="e">§ 358 Abs. 1 Z 2 GSVG idF 81/2013</rvolink><rvolink ursprung="u" abkrvo="GSVG" verwart="s" gldart="PARA" gldsort="70" gldnr="319" abs="1" ziff="2" pubdat="2013-05-23" ikra="2013-01-01" puborg="BGBl." gldpuborg="I" nrpuborg="81" jahrgang="2013" typ="e">§ 319 Abs. 1 Z 2 GSVG idF 81/2013</rvolink><rvolink abkrvo="ASVG" ursprung="u" verwart="s" gldart="PARA" gldsort="70" gldnr="634" abs="8" pubdat="2007-12-28" ikra="2007-12-29" puborg="BGBl." gldpuborg="I" nrpuborg="101" jahrgang="2007" typ="e">§ 634 Abs. 8 ASVG idF 101/2007</rvolink>
+</uebrecht>
+
+<anm>Tritt mit dem nach § 675 Abs. 3 ASVG durch Verordnung der Bundesministerin für Gesundheit festgestellten Zeitpunkt, jedoch jedenfalls nicht vor dem 1. Jänner 2016, außer Kraft (vgl. <rvolink ursprung="u" abkrvo="GSVG" verwart="s" gldart="PARA" gldsort="80" gldnr="376" ziff="2" pubdat="2019-10-29" ikra="2019-10-30" puborg="BGBl." gldpuborg="I" nrpuborg="103" jahrgang="2019" typ="e">§ 376 Z 2</rvolink>). </anm>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="103" begseite="33" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Beitragssatz</ueberschrift>
+
+
+<absatz typ="abs" halign="j"><gldsym>§ 14f.</gldsym> (1) Für die Dauer der Versicherung in der Krankenversicherung haben die versicherten Personen nach den <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="14a" ursprung="u">§§ 14a</rvolink> und <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="14b" ursprung="u">14b</rvolink> als Beitrag 7,65% der Beitragsgrundlage zu leisten.</absatz>
+          
+<absatz typ="abs" halign="j">(2) Der Beitrag zur Krankenversicherung nach Abs. 1 wird aufgebracht</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>durch Leistungen der Pflichtversicherten in der Höhe von 6,8 % der Beitragsgrundlage;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>durch eine Leistung des Bundes in der Höhe von 0,85 % der Beitragsgrundlage.</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">Die Leistung nach Z 2 ist dem Versicherungsträger vom Bund monatlich im erforderlichen Ausmaß unter Bedachtnahme auf die Kassenlage des Bundes zu bevorschussen.</schlussteil>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

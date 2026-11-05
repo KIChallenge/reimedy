@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=18=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=18=87=2006-07-28=2006-07-29" dokidSource="REDV_2006=PARA=18=87=2006-07-28=2006-07-29">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="18" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-07-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Stellung als eigene Dienststelle des jeweiligen Auftraggebers</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 18.</gldsym> (1) Die ITSV-GmbH hat bei der Erfüllung dieser Aufträge und der damit verbundenen Rechte und Pflichten (Controlling, Reporting, Einschaurechte, Schutz- und Warnpflichten, Verschwiegenheits- und Auskunftspflichten) gegenüber dem jeweils auftraggebenden Sozialversicherungsträger und dessen Aufsichtsbehörde (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="448" abs="2" ursprung="u">§ 448 Abs. 2</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="SVSG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="36" ursprung="u">§ 36</rvolink> SVSG, <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="154" ursprung="u">§ 154</rvolink><nolink> B-KUVG</nolink>) die Stellung einer eigenen Dienststelle dieses Sozialversicherungsträgers.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Sie hat alles zu unterlassen, was die jeweilige Auftragserfüllung verzögern oder den Informationsfluss behindern würde und dem Auftraggeber alle äußeren Hindernisse, die diese Verpflichtungen einschränken könnten, sofort und nachweislich mitzuteilen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Die ITSV-GmbH kann Aufträge, die sie von einem Sozialversicherungsträger nach der Übernahme von dessen Rechenzentrum, einer Softwareentwicklungs-Organisationseinheit und/oder anderer IT-Aufgabenbereiche an sie erhält, nicht ablehnen. Sie </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>ist zu diesem Zweck in EDV-Planungen der Versicherungsträger frühzeitig einzubinden, um im Sinn der Gesamtwirtschaftlichkeit möglichst günstige Lösungen zu finden,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>hat zur Klärung von Detailfragen für jeden einzelnen Auftrag konkrete, GmbH-intern weisungsberechtigte Ansprechpartner-Kapazität für die als anweisungsberechtigt nominierten MitarbeiterInnen in den Fachabteilungen des Auftraggebers, aber auch dessen Aufsichtsbehörde und sonst allenfalls weisungsberechtigter Stellen (z. B. im Rahmen von Auftragsverwaltung) bereitzuhalten,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>hat eng mit den Fachabteilungen, allfälligen Projektgremien und anderen, von Sozialversicherungsträgern gegründeten oder mehrheitlich beherrschten Organisationseinheiten und Gesellschaften zusammenzuarbeiten,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>ist bei der Erfüllung dieser Aufgaben inhaltlich an die Weisungen des Auftraggebers gebunden, wobei die ITSV-GmbH zwar berechtigt ist, Einwendungen zu erheben, aber dadurch die Vollziehung solcher Weisungen keinesfalls verzögert oder sonst beeinträchtigt werden kann. Der Auftraggeber hat der ITSV-GmbH nachweislich schriftlich jene Personen zu nennen, die gegenüber der Gesellschaft Weisungen aussprechen dürfen,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>bzw. ihre Vertreter sind in jede Projektorganisation wie MitarbeiterInnen einer Fachabteilung des/der Auftraggeber/s einzubinden, insbesondere sind spätestens ab Auftragserteilung Teilnahmerechte der ITSV-GmbH wie für MitarbeiterInnen der Fachabteilung einzuräumen. Die ITSV-GmbH hat dafür zu sorgen, dass allfällige Verhaltensregeln, insbesondere Sicherheitsvorschriften und Verschwiegenheitspflichten, von ihren in diesem Zusammenhang eingesetzten MitarbeiterInnen so eingehalten werden wie von eigenen MitarbeiterInnen des Auftraggebers.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Jeder Auftraggeber hat die Kosten, die aus der Durchführung seiner Aufträge entstehen, selbst zu tragen, solche Kosten dürfen nicht auf die ITSV-GmbH abgewälzt werden. Für den Fall, dass ein Auftrag von der ITSV-GmbH nur zu mehr als 10 % höheren als vom Auftraggeber ihr gegenüber prognostizierten Kosten abgewickelt werden könnte, hat sie den Auftraggeber zum frühest möglichen Zeitpunkt darauf hinzuweisen. Der Auftraggeber hat sodann zu entscheiden, welche Maßnahmen (z. B. Reduzierung des Projektumfanges, Aufträge an externe Anbieter usw.) er trifft. Er kann mit der ITSV-GmbH einen anderen Prozentsatz und anderen Auswirkungen einer Kostenüberschreitung vereinbaren.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Aufgaben (z. B. Softwareentwicklung, Wartung und Weiterentwicklung von Software, Rechenzentrumsbetrieb), welche bis zu deren Auslagerung an die ITSV-GmbH durch eigene Dienststellen eines Sozialversicherungsträgers durchgeführt oder beauftragt wurden, sind (im selben Maße wie bisher durch die eigene Dienststelle) danach durch die ITSV-GmbH zu besorgen und können nicht an andere Stellen vergeben werden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(6) Für den Fall, dass sich Weisungen eines oder mehrerer Auftraggeber widersprechen, hat die Gesellschaft alle Betroffenen nachweislich schriftlich darauf hinzuweisen, aber die jeweiligen Aufträge - soweit dies nicht gegen die übrigen Bestimmungen dieser Richtlinie verstößt - dennoch auszuführen. Streitigkeiten zwischen anweisungsberechtigten Organen eines Auftraggebers bzw. zwischen mehreren Auftraggebern sind nicht in den Gremien der GmbH, sondern - nach vorherigem durch die ITSV-GmbH durchzuführenden Schlichtungsversuch - im Rahmen der zuständigen Gremien der betroffenen Sozialversicherungsträger nach den gesetzlichen Regeln zu entscheiden (insbesondere der <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="413" ursprung="u">§ 413</rvolink> ASVG).</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

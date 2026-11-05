@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="PO-FA=PARA=12=92=2007-06-30=2007-09-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Prüfungsordnung für die Fachausbildung gemäß § 21c DO.A" abkrvo="PO-FA" dokart="PO" titaen="Prüfungsordnung für die Fachausbildung gemäß § 21c DO.A StF" abkaen="PO-FA StF" urheber="Hauptverband" beschdat="2007-06-27" pubdat="2007-06-30" ikra="2007-09-01" sichtbarkeit="p" gldnr="12" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-07-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="92" jahrgang="2007"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="0" halign="c" level="4" typ="para">Aufgaben des Vorsitzenden der Prüfungskommission</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 12.</gldsym> Dem Vorsitzenden obliegt:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Leitung der Prüfung (insbesondere Eröffnung der Prüfung, Beachtung der Einhaltung der Zulässigkeit der Prüfungsfragen und der Prüfungszeit) im Sinne des 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="21" abs="3" ursprung="u">§ 21 Abs. 3</rvolink> und 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="21" abs="6" ursprung="u">6</rvolink>;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die aktenmäßige Feststellung des Nichterscheinens eines Prüfungskandidaten zur Prüfung; </listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Gesamtbewertung der schriftlichen und der mündlichen Prüfung gemäß 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="1" ursprung="u">§ 22 Abs. 1</rvolink>;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die Feststellung des Gesamtprüfungsergebnisses (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="1" ziff="2" ursprung="p">§ 22 Abs. 1 Z 2</rvolink> und 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="1" ziff="3" ursprung="u">3</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die Unterfertigung des Prüfungsprotokolles (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="3" ursprung="p">§ 22 Abs. 3</rvolink>) und des Prüfungszeugnisses (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="7" ursprung="u">§ 22 Abs. 7</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>die mündliche Bekanntgabe des Prüfungsergebnisses (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="5" ursprung="u">§ 22 Abs. 5</rvolink>).</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

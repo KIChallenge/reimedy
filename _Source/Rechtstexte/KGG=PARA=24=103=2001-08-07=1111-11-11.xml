@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=24=103=2001-08-07=1111-11-11"><rvo>
+<metadaten gldnr="24" ikra="1111-11-11" pubdat="2001-08-07" beschdat="2001-07-04" abkaen="Gesamtstand KGG idF 103/2001" titaen="Gesamtstand KGG idF 103/2001" sichtbarkeit="p" urheber="Bund" dokart="BG" abkrvo="KGG" titrvo="Karenzgeldgesetz" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2001-09-05" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-08"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="103" begseite="1593" jahrgang="2001"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Erklärung
+</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 24.</gldsym> Im Falle des Antrags auf Gewährung eines Zuschusses gemäß
+den 
+<rvolink ursprung="u" gldnr="17" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="KGG">§§ 17 </rvolink>und 
+<rvolink ursprung="u" gldnr="18" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="KGG">18 </rvolink>haben beide Elternteile eine Erklärung zu
+unterfertigen, mit der sie sich zur Leistung der Abgabe gemäß
+<rvolink ursprung="u" gldnr="27" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="KGG"> § 27</rvolink>
+verpflichten.
+</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

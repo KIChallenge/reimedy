@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="VO-EKO=PARA=19=40=2020-03-23=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="VO-EKO=PARA=19=159=2013-12-20=2014-01-01" dokidSource="VO-EKO=PARA=19=159=2013-12-20=2014-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkrvo="VO-EKO" dokart="VO" titaen="6. Änderung der Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkaen="6. Änd VO-EKO" urheber="DVSV" beschdat="2020-01-22" pubdat="2020-03-23" ikra="2020-01-01" sichtbarkeit="p" gldnr="19">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2005-10-04"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-03-08"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-03-09"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" begseite="1" jahrgang="2020"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="0" level="3" halign="c" typ="para">Unterlagen und Stellungnahmen</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 19.</gldsym> (1) Alle zur Entscheidung über den Antrag notwendigen Unterlagen sind unter einem mit dem Antrag gemäß 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="18" ursprung="u">§ 18</rvolink> vorzulegen, soweit im Folgenden nichts anderes bestimmt ist.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Während des laufenden Verfahrens sind weitere Unterlagen und Stellungnahmen nur auf Verlangen des Dachverbandes zu übermitteln. Werden diese Unterlagen und Stellungnahmen vom antragstellenden Unternehmen nicht binnen offener Frist beigebracht, werden sie im laufenden Verfahren und für die Entscheidung nicht berücksichtigt.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(3) Entgegen den Bestimmungen der Abs. 1 und 2 vom antragstellenden Unternehmen übermittelte Unterlagen (inklusive des beantragten Preises) sind im Verfahren und für die Entscheidung nur dann zu berücksichtigen, wenn diese</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>zum Zeitpunkt der Antragsstellung nicht vorlagen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>wesentliche neue Erkenntnisse beinhalten,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>den Erfordernissen der 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="3" ursprung="p">§§ 22 Abs. 3</rvolink> und 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="4" ursprung="u">4</rvolink> sowie 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="24" abs="4" ursprung="u">24 Abs. 4</rvolink> entsprechen,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>unverzüglich nach Vorliegen übermittelt werden,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>spätestens siebzehn Tage vor der ersten Behandlung des Antrages in der Sitzung der HEK dem Dachverband übermittelt werden.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

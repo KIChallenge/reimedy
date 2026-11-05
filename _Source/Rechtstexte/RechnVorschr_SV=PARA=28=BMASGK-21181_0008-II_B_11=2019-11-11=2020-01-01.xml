@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=28=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=28=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" dokidSource="RechnVorschr_SV=PARA=28=BMASGK-21181/0002-II/B/11=2018-12-10=2019-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMASGK" sichtbarkeit="p" titaen="51. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="51. Änd RechnVorschr SV" pubdat="2019-11-11" ikra="2020-01-01" gldnr="28" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="schaff" zeitpunkt="2002-11-28"/>
+<dfeintrag zeitpunkt="2002-11-29" perskz="schaff"/>
+<dfeintrag perskz="schaff" zeitpunkt="2002-11-29"/>
+<dfeintrag zeitpunkt="2003-02-11" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-12-09"/>
+<dfeintrag zeitpunkt="2004-02-12" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-02-09"/>
+<dfeintrag zeitpunkt="2005-02-09" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-06-06"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-21181/0008-II/B/11" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">AUFTEILUNG DER BEITRAGSEINGÄNGE AUF DIE EINZELNEN VERSICHERUNGSTRÄGER UND SONSTIGE STELLEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 28.</gldsym> (1) Mit Ausnahme der Beiträge für jene Personen, die nur in der Krankenversicherung versichert sind, sind die im Laufe eines Kalendermonates beim Träger der Krankenversicherung von den Dienstgebern (und den Selbstversicherten gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="19a" ursprung="u">§ 19a</rvolink><nolink> ASVG</nolink>) geleisteten Zahlungen an Sozialversicherungs- und sonstigen Beiträgen sowie an Beitragszuschlägen, Säumniszuschlägen, Verzugszinsen und Nebengebühren zunächst auf ein gemeinsames Konto zu buchen. Am Ende eines jeden Monates ist die Summe der auf diesem Konto verbuchten Zahlungen der (und der Selbstversicherten gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="19a" ursprung="u">§ 19a</rvolink><nolink> ASVG</nolink>) nach einem Schlüssel auf die einzelnen Versicherungsträger und sonstigen Stellen aufzuteilen. Diese Schlüsselzahl stellt der Quotient x/y dar, in dem x die Summe der in einem Kalendermonat von den Dienstgebern (und den Selbstversicherten gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="19a" ursprung="u">§ 19a</rvolink><nolink> ASVG</nolink>) geleisteten Zahlungen, y die Gesamtforderung an Sozialversicherungs- und sonstigen Beiträgen bedeutet.</absatz>
+<absatz typ="abs" halign="j">(2) Unter der Gesamtforderung an Sozialversicherungs- und sonstigen Beiträgen ist die um die im Kalendermonat abgeschriebenen Sozialversicherungs- und sonstigen Beiträge verminderte Summe aus</absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>dem Gesamtrückstand der Dienstgeber (und der Selbstversicherten gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="19a" ursprung="u">§ 19a</rvolink><nolink> ASVG</nolink>) am Ende des Vormonats,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>dem Gesamtbetrag der Fälligkeiten (Beiträge, Beitragszuschläge, Säumniszuschläge, Verzugszinsen und Nebengebühren) für den Beitragszeitraum des Vormonates einschließlich allfälliger Nachbelastungen für frühere Beitragszeiträume und</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>dem Gesamtbetrag der im Kalendermonat nach Abschreibung wieder eingegangenen Sozialversicherungs- und sonstigen Beiträge zu verstehen.</listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" halign="j">(3) Der Anteil der einzelnen Versicherungsträger bzw. der sonstigen Stellen am Gesamtbetrag der Einzahlungen der Dienstgeber (und der Selbstversicherten gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="19a" ursprung="u">§ 19a</rvolink><nolink> ASVG</nolink>) ergibt sich durch Multiplikation der Anteile der einzelnen Versicherungsträger bzw. der sonstigen Stellen an der Gesamtforderung mit der Schlüsselzahl. Die Schlüsselzahl ergibt sich für jeden Kalendermonat in einer anderen Höhe. Die Berechnung hat auf mindestens acht Dezimalstellen zu erfolgen, um eine Benachteiligung eines Versicherungsträgers bzw. einer sonstigen empfangsberechtigten Stelle hintanzuhalten.</absatz>
+<absatz typ="abs" halign="j">(4) Der Anteil der Versicherungsträger (Krankenversicherungsträger samt Beitrag zur Spitalsfinanzierung gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447f" abs="11" ziff="1" ursprung="u">§ 447f Abs. 11 Z 1</rvolink><nolink> ASVG</nolink>, Pensionsversicherungsanstalt) an den Abschlagszahlungen aus dem Insolvenz-Entgelt-Fonds hat dem Verhältnis der Aufteilungszahlen laut Forderung im Antrag der Vorjahresabrechnung an den Insolvenz-Entgelt-Fonds zueinander zu entsprechen. Falls weitere Beiträge aus der Gesamtforderung eingehen, ist im Sinne des <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="27" abs="18" ursprung="u">§ 27 Abs. 18</rvolink> letzter Satz vorzugehen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

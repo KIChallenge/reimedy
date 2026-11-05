@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="IESG=PARA=3c=29=2010-05-20=2010-07-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="IESG=PARA=3c=29=2010-05-20=2010-07-01">
+<metadaten gldart="PARA" gldsort="70" sichtbarkeit="p" titrvo="Insolvenz-Entgeltsicherungsgesetz" abkrvo="IESG" dokart="BG" urheber="Bund" pubdat="2010-05-20" ikra="2010-07-01" titaen="InsolvenzrechtsänderungsG 2010" abkaen="IRÄG 2010" gldnr="3c" beschdat="2010-04-21">
+<uebrecht>
+<rvolink typ="e" abs="1" gldnr="25" gldsort="70" gldart="PARA" verwart="s" ursprung="u" abkrvo="IESG" pubdat="2010-05-20" puborg="BGBl." gldpuborg="I" nrpuborg="29" jahrgang="2010" ikra="2010-05-21">§ 25 Abs. 1 IESG idF BGBl. I  Nr. 29/2010</rvolink>
+</uebrecht><aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2003-08-08"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="29" begseite="35" jahrgang="2010"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="para">Bei besonderem Kündigungs- und Entlassungsschutz</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 3c.</gldsym> Arbeitnehmern mit besonderem Kündigungs- und Entlassungsschutz nach dem Mutterschutzgesetz, BGBl. Nr. 221/1979, dem Eltern-Karenzurlaubsgesetz, BGBl. Nr. 651/1989, oder dem Arbeitsplatzsicherungsgesetz, BGBl. Nr. 683/1991, oder gleichartigen österreichischen Rechtsvorschriften, gebührt 
+<nolink>Insolvenz-Entgelt für gesicherte</nolink> Ansprüche (
+<rvolink abkrvo="IESG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="2" ursprung="u">§ 1 Abs. 2</rvolink>), wenn</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>der Arbeitnehmer den berechtigten vorzeitigen Austritt nach 
+<rvolink abkrvo="AngG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="23a" abs="3" ursprung="u">§ 23a Abs. 3</rvolink> und 
+<rvolink abkrvo="AngG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="23a" abs="4" ursprung="u">4</rvolink> AngG oder nach 
+<rvolink abkrvo="GutsangG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22a" abs="3" ursprung="u">§ 22a Abs. 3</rvolink> und 
+<rvolink abkrvo="GutsangG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22a" abs="4" ursprung="u">4</rvolink> des Gutsangestelltengesetzes oder gleichartigen österreichischen Rechtsvorschriften erklärt hat oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>das Arbeitsverhältnis bis unmittelbar nach Ablauf des jeweiligen besonderen Kündigungsschutzes gelöst wurde oder</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>infolge Betriebsstillegung der Arbeitnehmer zum Zeitpunkt des Wiederantritts nach Beendigung des Karenzurlaubs oder Präsenz- oder Ausbildungs- oder Zivildienstes nicht beschäftigt wird,</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">auch nach dem Stichtag (
+<rvolink abkrvo="IESG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3" abs="1" ursprung="u">§ 3 Abs. 1</rvolink>). Insolvenz-Entgelt gebührt im Fall des aufrechten Insolvenzverfahrens nur unter den Voraussetzungen für die Ausfallshaftung nach 
+<rvolink abkrvo="IESG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3a" abs="4" ursprung="u">§ 3a Abs. 4</rvolink>.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

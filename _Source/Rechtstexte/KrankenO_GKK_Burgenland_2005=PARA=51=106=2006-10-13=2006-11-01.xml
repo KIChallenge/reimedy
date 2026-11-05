@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=51=106=2006-10-13=2006-11-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="1. Änderung der Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkaen="1. Änd KrankenO GKK Burgenland 2005" urheber="GKK Bgl" beschdat="2006-08-29" pubdat="2006-10-13" ikra="2006-11-01" sichtbarkeit="p" gldnr="51" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-10-19"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="106" jahrgang="2006"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Europäische Krankenversicherungskarte EKVK, Zwischenstaatlicher Betreuungsschein, sonstige gemeinschaftsrechtliche oder bilaterale Anspruchsbescheinigungen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 51. </gldsym>(1) Die Inanspruchnahme medizinischer Leistungen in Mitgliedstaaten der Europäischen Union und jenen Staaten außerhalb der Europäischen Union, in denen die 
+<nolink>Wanderarbeitnehmerverordnung,</nolink> die Drittstaatenverordnung oder die Koordinierungsverordnung anzuwenden ist, richtet sich in den durch die EKVK gedeckten Fällen nach 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="2" ursprung="u">§ 5 Abs. 2</rvolink> bis 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="5" ursprung="u">5</rvolink>, sonst nach den für den jeweiligen Leistungsfall anzuwendenden Bestimmungen (z.B. Formblatt E 112 für die Einreise zum Zweck der Inanspruchnahme medizinischer Leistungen). Die Bestimmungen über die freie Arztwahl oder die Erstattung von Kosten der Krankenbehandlung werden dadurch nicht eingeschränkt.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Wer sich</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>in ein Gebiet außerhalb der in Abs. 1 genannten Staaten begibt, für das ein Abkommen über Soziale Sicherheit gilt, welches Regelungen über die aushilfsweise Gewährung von Leistungen aus der Krankenversicherung zu Lasten einer österreichischen Kasse vorsieht, oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>in einen Staat nach Abs. 1 begibt, aber die entsprechende Leistung nicht von der EKVK gedeckt ist,</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">kann, wenn es in den entsprechenden Regelungen vorgesehen ist, vor der Ausreise beim Dienstgeber bzw. bei der Kasse einen zwischenstaatlichen Betreuungsschein oder den entsprechenden Beleg nach der 
+<nolink>Wanderarbeitnehmerverordnung</nolink> anfordern.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) In den Fällen des Abs. 2 muss für die Leistungsinanspruchnahme in einem anderen Staat das dafür vorgesehene Verfahren eingehalten werden (z. B. sofern erforderlich, hat ein Umtausch beim Träger des Wohn- oder Aufenthaltsortes in einen nationalen Behandlungsschein zu erfolgen); Hinweise auf das einzuhaltende Verfahren enthält in der Regel das jeweilige Formular.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

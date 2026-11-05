@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=ANL=2=BMG-96181/0003-II/A/8/2015=2015-12-16=2016-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=ANL=2=BMG-96181/0003-II/A/8/2015=2015-12-16=2016-01-01" dokidSource="RechnVorschr_SV=ANL=2=BMG-96181/0002-II/A/8/2013=2013-03-25=2013-01-01">
+<metadaten gldnr="2" gldart="ANL" gldsort="150" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" sichtbarkeit="p" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMG" titaen="47. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Hauptverband" abkaen="47. Änd RechnVorschr SV" pubdat="2015-12-16" ikra="2016-01-01" nichtanzeigen="n">
+<aendprot>
+<dfeintrag zeitpunkt="2005-02-23" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-06-06"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-12-19"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-12-19"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-12-19"/>
+<dfeintrag perskz="glueck" zeitpunkt="2006-01-26"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="BMG-96181/0003-II/A/8/2015" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">ANLAGEN ZU 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="29" ursprung="p">§ 29</rvolink> - MONATSABRECHNUNG UND ABFUHR MITARBEITERVORSORGEBEITRÄGE</ueberschrift>
+<absatz typ="satz" halign="j">
+<gldsym>Anlage 2 </gldsym>
+</absatz>
+<absatz typ="abs" halign="j">Bitte betätigen Sie diese Links: <wwwlink ursprung="u" url="/fs/Monatsabrechnung_2026.xlsx" typ="e">Monatsabrechnung</wwwlink>, 
+<wwwlink typ="e" url="/fs/AbfuhrMitarbeitervorsorgebeitraege.xls" ursprung="u">Abfuhr Mitarbeitervorsorgebeiträge</wwwlink>
+</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

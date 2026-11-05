@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KBGG=PARA=37a=100=2018-12-22=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KBGG=PARA=37a=32=2018-05-17=2018-05-25" dokidSource="KBGG=PARA=37a=32=2018-05-17=2018-05-25">
+<metadaten gldart="PARA" gldsort="70" titrvo="Kinderbetreuungsgeldgesetz" abkrvo="KBGG" dokart="BG" titaen="Sozialversicherungs-OrganisationsG" abkaen="SV-OG" urheber="Bund" beschdat="2018-12-13" pubdat="2018-12-22" ikra="2020-01-01" sichtbarkeit="p" gldnr="37a" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="100" begseite="145" jahrgang="2018"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="0" halign="c" level="2" typ="para">Weitere Datenverarbeitung </ueberschrift>
+
+
+
+<absatz typ="abs" halign="j">
+            <gldsym>§ 37a.</gldsym> (1) Die Krankenversicherungsträger sind berechtigt, alle erforderlichen personenbezogenen Daten (<rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="36" abs="2" ursprung="u">§ 36 Abs. 2</rvolink>) der Datenbank zu verarbeiten.</absatz>
+          <absatz typ="abs" halign="j">(2) Die Österreichische Gesundheitskasse in ihrer Funktion als Kompetenzzentrum und Verbindungsstelle (<rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="25" abs="3" ursprung="u">§ 25 Abs. 3</rvolink>) ist berechtigt, alle erforderlichen personenbezogenen Daten (<rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="36" abs="2" ursprung="u">§ 36 Abs. 2</rvolink>) aus der Datenbank zu verarbeiten.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Österreichische Gesundheitskasse in ihrer Funktion als Kompetenzzentrum (<rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="25" abs="3" ursprung="u">§ 25 Abs. 3</rvolink>) hat dem Bundeskanzler Daten zur automatisierten Besorgung der Statistik zu übermitteln.</absatz>
+          <absatz typ="abs" halign="j">(4) Die Österreichische Gesundheitskasse in ihrer Funktion als Verbindungsstelle (<rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="25" abs="3" ursprung="u">§ 25 Abs. 3</rvolink>) hat dem Bundeskanzler folgende Daten zur jährlichen Weiterleitung an die Europäische Kommission zu übermitteln:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Anzahl aller Bezieher, Anzahl aller Kinder, für die Leistungen bezogen wurden und die Gesamtsumme der diesbezüglichen Auszahlungen,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Anzahl der Bezieher und Anzahl der Kinder, für die Leistungen bezogen wurden mit Wohnort in einem anderen Mitgliedstaat, und die Gesamtsumme der diesbezüglichen Auszahlungen, aufgeschlüsselt nach Wohnort der Kinder sowie vorrangiger und nachrangiger Zuständigkeit Österreichs nach den Bestimmungen der Verordnung (EG) Nr. 883/2004,</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">jeweils bezogen auf das von der Europäischen Kommission abgefragte Jahr.</schluss>
+          </liste>
+        </abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

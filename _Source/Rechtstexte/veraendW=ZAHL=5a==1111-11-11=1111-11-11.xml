@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="veraendW=ZAHL=5a==1111-11-11=1111-11-11" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="veraendW=ZAHL=5a==1111-11-11=1111-11-11">
+<metadaten nichtanzeigen="n" titrvo="veränderliche Werte Übersichtstabellen" abkrvo="veraendW" dokart="K" titaen="veränderliche Werte Übersichtstabellen StF" abkaen="veraendW StF" urheber="Hauptverband" pubdat="1111-11-11" ikra="1111-11-11" berkz="KVL; UVL; PVL; KGALV; SONST; INTERN; HIST; KOMPL; " sichtbarkeit="p" gldart="ZAHL" gldnr="5a" gldsort="130">
+<schlagw>
+<textelem>APG-Faktoren zu § 68a ASVG</textelem>
+</schlagw>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>5a. </gldsym>
+</absatz>
+<ueberschrift typ="para" halign="c" level="1">APG-Faktoren zu <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="68a" ursprung="u">§ 68a</rvolink>
+<nolink> ASVG</nolink>
+</ueberschrift>
+<absatz typ="abs" halign="j">Bitte folgen Sie diesem  Verweis: </absatz><liste><ziffernliste ebene="1">
+<listelem>
+<symbol>-</symbol>
+<wwwlink ursprung="u" url="/fs/APG-Faktoren zu § 68a ASVG_2026.xlsx" typ="e" gldart="KEIN">Tabelle APG Faktoren 2026</wwwlink>
+</listelem>
+</ziffernliste></liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.A_2005=PARA=82=94=2005-10-21=2005-10-27"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.A 2005" dokart="DO" titaen="Wiederverlautbarung der Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs" abkaen="DO.A WV" urheber="Hauptverband" beschdat="2005-09-14" pubdat="2005-10-21" ikra="2005-10-27" sichtbarkeit="p" gldnr="82">
+<uebrecht>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="135" typ="e">§ 135 DO.A 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-08"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="94" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Witwen(Witwer)pension</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 82. </gldsym>(1) Anspruch auf Witwen(Witwer)pension hat
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die/der Witwe(r) eines/einer verstorbenen Angestellten (Pensionisten/-in),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Ehegattin/der Ehegatte eines/einer abgängigen Angestellten (Pensionisten/-in), falls dessen/deren Tod wahrscheinlich ist,</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">wenn im Zeitpunkt des Todes des/der Angestellten die Leistungsvoraussetzungen des 
+<rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="80" ursprung="u">§ 80</rvolink> erfüllt sind.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Der Anspruch gemäß Abs. 1 besteht nicht, wenn
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>seit der Eheschließung noch nicht sechs Monate verstrichen sind,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>der Altersunterschied der beiden Ehegatten mehr als 25 Jahre beträgt und die Ehe noch nicht drei Jahre gedauert hat,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Ehe nach Vollendung des 60. Lebensjahres des Angestellten (Pensionisten) geschlossen wurde und noch nicht drei Jahre gedauert hat oder der Altersunterschied der beiden Ehegatten mehr als 25 Jahre beträgt,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die Ehe rechtskräftig geschieden ist,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die Witwe (der Witwer) durch ein rechtskräftiges strafgerichtliches Urteil überwiesen ist, den Tod des/der Angestellten (Pensionisten/-in) durch eine vorsätzliche Handlung verschuldet oder mitverschuldet zu haben.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Abs. 2 Z 1 bis 3 gelten nicht, wenn
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>der Tod des/der Angestellten als Folge eines im Dienste eines Sozialversicherungsträgers erlittenen Arbeitsunfalles (einer Berufskrankheit) im Sinn der
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="175" ursprung="u"> §§ 175</rvolink> bis 
+<rvolink ursprung="u" abkrvo="ASVG" verwart="d" gldart="PARA" gldsort="70" gldnr="177" typ="e">177</rvolink> ASVG bzw. der 
+<rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="90" ursprung="u">§§ 90</rvolink> bis 
+<rvolink ursprung="u" abkrvo="B-KUVG" verwart="d" gldart="PARA" gldsort="70" gldnr="92" typ="e">92</rvolink> B-KUVG eingetreten ist,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>in dieser Ehe ein Kind geboren oder durch diese Ehe legitimiert wurde,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Witwe sich im Zeitpunkt des Todes des Angestellten (Pensionisten) erwiesenermaßen im Zustande der Schwangerschaft befunden hat und das Kind lebend geboren wurde.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Sofern nicht ohnehin gemäß Abs. 2 kein Anspruch auf Witwen(Witwer)pension besteht, gebührt die Pension nach Abs. 1 in den Fällen des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="258" abs="2" ursprung="u">§ 258 Abs. 2</rvolink> ASVG nur so lange, wie auch ein Anspruch auf eine gesetzliche Witwen(Witwer)pension gegeben ist. Die Witwe (Der Witwer) ist verpflichtet, dem Versicherungsträger die zeitliche Begrenzung des gesetzlichen Pensionsanspruches bekanntzugeben.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

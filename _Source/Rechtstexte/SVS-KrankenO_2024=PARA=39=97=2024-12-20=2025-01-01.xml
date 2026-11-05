@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="SVS-KrankenO_2024=PARA=39=97=2024-12-20=2025-01-01"><rvo dokidCms="SVS-KrankenO_2024=PARA=39=97=2024-12-20=2025-01-01" dokidSource="SVS-KrankenO_2024=PARA=39=82=2023-12-18=2024-01-01">
+      <metadaten nichtanzeigen="n" titrvo="SVS-Krankenordnung 2024" abkrvo="SVS-KrankenO 2024" dokart="KrankenO" titaen="1. Änderung der SVS-Krankenordnung 2024" abkaen="1. Änd SVS-KrankenO 2024" urheber="SVS" beschdat="2024-12-17" pubdat="2024-12-20" ikra="2025-01-01" sichtbarkeit="p" gldart="PARA" gldnr="39" gldsort="50">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="97" jahrgang="2024"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="4">Vergütung von Behandlungen, die der ärztlichen Hilfe gleichgestellt sind</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 39.</gldsym> (1) Zur Vergütung eingereichte Honorarnoten über Behandlungen, die der ärztlichen Hilfe gleichgestellt sind, haben insbesondere folgende Angaben über die erbrachten Leistungen zu enthalten:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>bei physiotherapeutischen Behandlungen bzw. Leistungen durch Heilmasseure die Zahl der Behandlungseinheiten,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>bei ergotherapeutischen und logopädischen Behandlungen die Art der Behandlung sowie Anzahl, Ta-gesdaten und Dauer der einzelnen Sitzungen,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>bei der Inanspruchnahme einer diagnostischen Leistung durch einen klinischen Psychologen die Angabe der Art des Testverfahrens, der Testzeit und der Diagnose,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>bei psychotherapeutischen und klinisch-psychologischen Behandlungen</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Diagnose (ICD-Code),</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Behandlungsmethode,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Anzahl der Behandlungen (Sitzungen),</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Datum und Dauer der einzelnen Behandlungen (Sitzungen),</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Angaben darüber, ob eine Einzel- oder Gruppenbehandlung(sitzung) erfolgte.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die <rvolink abkrvo="SVS-KrankenO 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="13" bereich="BIS" bis="18" ursprung="u">§§ 13 bis 18</rvolink> sowie <rvolink abkrvo="SVS-KrankenO 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="38" ursprung="u">§ 38</rvolink> gelten sinngemäß.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

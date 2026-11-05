@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASVG=PARA=45=139=1997-12-29=1997-04-23"><rvo dokidCms="ASVG=PARA=45=139=1997-12-29=1997-04-23">
+<metadaten gldsort="70" indbr="66.01.01" gldart="PARA" berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; AN; AG; SELB; " beschdat="1997-11-07" urheber="Bund" titrvo="Allgemeines Sozialversicherungsgesetz" gldnr="45" fassung="54" ikra="1997-04-23" sichtbarkeit="p" abkrvo="ASVG" titaen="Arbeits- und Sozialrechts-ÄnderungsG 1997 - 54. Novelle" dokart="BG" abkaen="ASRÄG 1997" pubdat="1997-12-29" nichtanzeigen="n">
+<uebrecht>
+<rvolink abkrvo="ASVG" ursprung="u" verwart="s" gldart="PARA" gldsort="70" gldnr="563" abs="2" pubdat="1996-04-30" ikra="1996-05-01" puborg="BGBl." nrpuborg="201" jahrgang="1996" typ="e">§ 563 Abs. 2 ASVG idF 201/1996</rvolink>
+</uebrecht>
+
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="139" jahrgang="1997"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Höchstbeitragsgrundlage</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 45.</gldsym> (1) Die allgemeine Beitragsgrundlage, die im Durchschnitt des Beitragszeitraumes oder des Teiles des Beitragszeitraumes, in dem Beitragspflicht bestanden hat, auf den Kalendertag entfällt, darf die 
+<rvolink gldsort="130" gldnr="4" gldart="ZAHL" abkrvo="verändW">Höchstbeitragsgrundlage</rvolink> nicht überschreiten. Als Höchstbeitragsgrundlage gilt der gemäß 
+<rvolink verwart="d" gldart="PARA" ursprung="p" abs="1" gldnr="108" abkrvo="ASVG">§ 108 Abs. 1</rvolink> und 
+<rvolink verwart="d" gldart="PARA" ursprung="p" abs="3" gldnr="108" abkrvo="ASVG">3</rvolink> festgestellte Betrag. Umfaßt der Beitragszeitraum einen Kalendermonat und hat für den ganzen Kalendermonat Beitragspflicht bestanden, so ist bei der Anwendung der Höchstbeitragsgrundlage der Beitragszeitraum jedenfalls mit 30 Tagen anzusetzen. </absatz>
+<absatz typ="abs" halign="j">(2) Übt der Pflichtversicherte gleichzeitig mehrere die Versicherungspflicht begründende Beschäftigungen aus, so ist bei der Bemessung der Beiträge in jedem einzelnen Beschäftigungsverhältnis die Höchstbeitragsgrundlage zu berücksichtigen. Dies gilt entsprechend auch, wenn der Pflichtversicherte außer der die Versicherungspflicht nach diesem Bundesgesetz begründenden Beschäftigung eine die Versicherungspflicht nach den Bestimmungen über die Krankenversicherung öffentlich Bediensteter begründende Beschäftigung ausübt. </absatz>
+<absatz typ="abs" halign="j">(3) Abweichend von Abs. 1 darf für die nach <rvolink verwart="d" gldart="PARA" ursprung="p" abs="4" gldnr="4" abkrvo="ASVG">§ 4 Abs. 4</rvolink> Pflichtversicherten die allgemeine Beitragsgrundlage, die im Beitragszeitraum auf den Kalendermonat entfällt, die monatliche Höchstbeitragsgrundlage nicht überschreiten. Als 
+<rvolink gldsort="130" gldnr="4" gldart="ZAHL" abkrvo="verändW">monatliche Höchstbeitragsgrundlage</rvolink> gilt </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>wenn keine Sonderzahlungen im Sinne des 
+<rvolink verwart="d" gldart="PARA" ursprung="p" abs="2" gldnr="49" abkrvo="ASVG">§ 49 Abs. 2</rvolink> bezogen werden, das 35fache, </listelem>
+<listelem>
+<symbol>2.</symbol>sonst das 30fache  </listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">der Höchstbeitragsgrundlage nach Abs. 1.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

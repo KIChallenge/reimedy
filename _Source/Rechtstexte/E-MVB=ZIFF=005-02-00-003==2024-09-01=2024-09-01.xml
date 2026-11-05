@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="E-MVB=ZIFF=005-02-00-003==2024-09-01=2024-09-01"><rvo dokidCms="E-MVB=ZIFF=005-02-00-003==2024-09-01=2024-09-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens Neufassung 2024" abkaen="E-MVB NeuF 2024" urheber="DVSV" pubdat="2024-09-01" ikra="2024-09-01" berkz="KVL; " sichtbarkeit="p" gldnr="005-02-00-003" nichtanzeigen="n">
+<schlagw>
+<textelem>Schwankender Arbeitsverdienst</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2003-12-19"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-02-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>005-02-00-003</gldsym>
+</absatz>
+<absatz typ="satz" halign="j">Geringfügigkeit - Geringfügig Beschäftigte</absatz>
+<ueberschrift level="3" halign="c" typ="para">Schwankender Arbeitsverdienst</ueberschrift>
+<absatz typ="satz" halign="j">Treten bei einem Beschäftigungsverhältnis, das die Vollversicherung begründet, die Voraussetzungen für die geringfügige Beschäftigung (Teilversicherung in der Unfallversicherung) ein, endet die Vollversicherung mit Ende des laufenden Beitragszeitraumes. Tritt der Ausnahmegrund aber bereits am ersten Tag des Beitragszeitraumes ein, endet die Vollversicherung mit dem Ablauf des vorhergehenden Beitragszeitraumes.</absatz>
+          <absatz typ="satz" halign="j">Kommt es während der Teilversicherung in der Unfallversicherung (geringfügigen Beschäftigung) zu einer Erhöhung, wodurch die Geringfügigkeitsgrenze überschritten wird, liegt ab Beginn des jeweiligen Beitragszeitraumes Vollversicherung vor.</absatz>
+          <absatz typ="satz" halign="j">Die Änderungen der Vollversicherung auf geringfügige Beschäftigung und umgekehrt sind der Kasse vom Arbeitgeber jeweils mit Änderungsmeldung bekannt zu geben (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="11" abs="6" ursprung="u">§ 11 Abs. 6</rvolink> in Verbindung mit <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="11" abs="4" ursprung="u">Abs. 4</rvolink> ASVG, siehe auch „Ende der Versicherung“). Dies kann nur solange erfolgen, als noch keine monatliche Beitragsgrundlagenmeldung (mBGM) für den betroffenen Beitragszeitraum erstattet wurde.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

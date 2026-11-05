@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="BPGGEinbezV_1999=PARA=2=466=1999-12-17=2000-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="BPGGEinbezV_1999=PARA=2=466=1999-12-17=2000-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Einbeziehungsverordnung 1999 zum Bundespflegegeldgesetz" abkrvo="BPGGEinbezV 1999" dokart="V" titaen="Einbeziehungsverordnung 1999 zum Bundespflegegeldgesetz-Stammfassung" abkaen="BPGGEinbezV 1999 StF" urheber="Bund" pubdat="1999-12-17" ikra="2000-01-01" sichtbarkeit="p" gldnr="2" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2002-05-03"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-09-29"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="II" nrpuborg="466" begseite="3157" jahrgang="1999"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="para"/>
+<absatz typ="abs" halign="j">
+<gldsym>§ 2.</gldsym> Die Entscheidung in Angelegenheiten nach dem 
+<rvolink abkrvo="BPGG" verwart="d" typ="e" gldsort="0" ursprung="u">Bundespflegegeldgesetz</rvolink> obliegt hinsichtlich der im 
+<rvolink abkrvo="BPGGEinbezV 1999" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" ursprung="u">§ 1</rvolink> genannten Personen der Sozialversicherungsanstalt der gewerblichen Wirtschaft.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

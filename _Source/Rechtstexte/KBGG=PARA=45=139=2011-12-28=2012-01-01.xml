@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KBGG=PARA=45=139=2011-12-28=2012-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KBGG=PARA=45=76=2007-11-13=2008-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Kinderbetreuungsgeldgesetz" abkrvo="KBGG" dokart="BG" titaen="Dezembernovelle 139/2011" abkaen="DezemberNov 139/2011" urheber="Bund" beschdat="2011-12-07" pubdat="2011-12-28" ikra="2012-01-01" sichtbarkeit="p" gldnr="45" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-09-30"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-11-19"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-11-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="139" begseite="1" jahrgang="2011"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="0" halign="c" level="3" typ="para">Verwaltungsstrafbestimmung</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 45.</gldsym> Personen,</absatz>
+
+
+<liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die grob fahrlässig oder vorsätzlich unwahre Angaben gemacht haben oder maßgebliche Tatsachen verschwiegen haben und dadurch</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>zu Unrecht eine Leistung nach diesem Bundesgesetz bezogen haben oder</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>einer anderen Person zum unrechtmäßigen Bezug einer Leistung nach diesem Bundesgesetz verholfen haben oder</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">2.</symbol>die ihren Mitteilungs- und Mitwirkungspflichten (<rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="29" ursprung="u">§§ 29</rvolink>, <rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="32" abs="1" ursprung="u">32 Abs. 1</rvolink> und <rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="32" abs="2" ursprung="u">2</rvolink>) nicht oder nicht gehörig nachgekommen sind,</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">sind, sofern die Tat nicht den Tatbestand einer in die Zuständigkeit der Gerichte fallenden Handlung bildet oder nach anderen Verwaltungsstrafbestimmungen mit strengerer Strafe bedroht ist, von der Bezirksverwaltungsbehörde mit einer Geldstrafe bis zu 2 000 € zu bestrafen.</schluss>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

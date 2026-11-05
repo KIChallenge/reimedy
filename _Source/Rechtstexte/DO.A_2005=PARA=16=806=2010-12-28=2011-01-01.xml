@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.A_2005=PARA=16=806=2010-12-28=2011-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.A_2005=PARA=16=94=2005-10-21=2005-10-27">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.A 2005" dokart="DO" titaen="80. Änderung der Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkaen="80. Änd DO.A 2005" urheber="Hauptverband" beschdat="2010-12-14" pubdat="2010-12-28" ikra="2011-01-01" sichtbarkeit="p" gldnr="16">
+<uebrecht>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="144" typ="e">§ 144 DO.A 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-08"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="806" jahrgang="2010"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Anrechenbare Dienstzeit für den erhöhten Kündigungsschutz</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 16. </gldsym>(1) Auf die gemäß 
+<rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" abs="1" ziff="4" ursprung="p">§ 22 Abs. 1 Z 4</rvolink> für die Erlangung des erhöhten Kündigungsschutzes vorgesehene Frist sind die bei österreichischen Sozialversicherungsträgern zurückgelegten Dienstzeiten (Lehrzeiten) anzurechnen, soweit sie unmittelbar aneinander anschließen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Der Lauf dieser Frist wird durch folgende bei österreichischen Sozialversicherungsträgern zurückgelegte Dienstzeiten (Lehrzeiten) gehemmt:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Zeiten einer Karenz, welche nicht gemäß 
+<rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="12a" abs="3" ursprung="u">§ 12a Abs. 3</rvolink> anzurechnen sind;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Zeiten eines Sonderurlaubes.</listelem>
+<listelem>
+<symbol stellen="3">2a.</symbol>Zeiten einer Bildungskarenz;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Zeiten eines Freijahres.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

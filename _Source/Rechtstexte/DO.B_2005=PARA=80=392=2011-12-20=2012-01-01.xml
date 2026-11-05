@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.B_2005=PARA=80=392=2011-12-20=2012-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.B_2005=PARA=80=392=2011-12-20=2012-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung B für die Ärzte und Dentisten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.B 2005" dokart="DO" titaen="78. Änderung der Dienstordnung B für die Ärzte bei den Sozialversicherungsträgern Österreichs 2005" abkaen="78. Änd DO.B 2005" urheber="Hauptverband" beschdat="2011-12-13" pubdat="2011-12-20" ikra="2012-01-01" sichtbarkeit="p" gldnr="80">
+<uebrecht>
+<rvolink abkrvo="DO.B 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="124" typ="e">§ 124 DO.B 2005</rvolink>
+<rvolink abkrvo="DO.B 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="142" typ="e">§ 142 DO.B 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="392" jahrgang="2011"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Ausmaß der Pension</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 80. </gldsym>(1) Unbeschadet der gemäß 
+<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="72" ursprung="p">§ 72</rvolink> zu erfüllenden Wartezeit werden für die Ermittlung der Höhe der Pension (
+<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="73" ursprung="u">§ 73</rvolink>) für die ersten 120 anrechenbaren Kalendermonate jeweils 0,25% der Bemessungsgrundlage herangezogen. Ab dem 121. anrechenbaren Kalendermonat erhöht sich die Pension mit jedem weiteren anrechenbaren Kalendermonat um 0,167% der Bemessungsgrundlage bis zum Höchstausmaß von 80% der Bemessungsgrundlage. Bruchteile eines Kalendermonates von mindestens fünfzehn Tagen werden als voller Kalendermonat gerechnet; Bruchteile eines Kalendermonates in geringerem Ausmaß bleiben unberücksichtigt. Der sich bei der Berechnung ergebende Prozentsatz ist auf drei Dezimalstellen zu runden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(1a) Abgesehen von den Fällen des <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="79" abs="6" ursprung="u">§ 79 Abs. 6</rvolink> darf die Pension 30% der Bemessungsgrundlage gemäß 
+<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="79" abs="1" ursprung="u">§ 79 Abs. 1</rvolink> nicht unterschreiten.</absatz>
+<absatz halign="j" typ="abs">(2) Zur Pension (<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="73" ursprung="u">§ 73</rvolink>) wird die Kinderzulage (<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="41" ursprung="u">§ 41</rvolink>) unter den gleichen Voraussetzungen und in der gleichen Höhe wie zu den Dienstbezügen gewährt, wenn eine gesetzliche Pension aus dem Versicherungsfall der geminderten Arbeitsfähigkeit oder der Erwerbsunfähigkeit bezogen wird und für die Ermittlung des Ausmaßes der Pension gemäß Abs. 1 weniger als 80 % der Bemessungsgrundlage zur Anwendung kommen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=4=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=4=87=2006-07-28=2006-07-29" dokidSource="REDV_2006=PARA=4=87=2006-07-28=2006-07-29">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="4" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-07-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Standardprodukte der Sozialversicherung 
+<br/>(Standardproduktprinzipien)</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 4.</gldsym> (1) Für gleiche Aufgaben (Geschäftsfälle) sind von den betroffenen Sozialversicherungsträgern die gleichen Lösungen - im folgenden Standardprodukte genannt - zu verwenden (Prinzip der Einheitlichkeit).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Voraussetzung für die Einrichtung und den Betrieb von Standardprodukten ist die Abstimmung der betroffenen organisatorischen Abläufe bei den Sozialversicherungsträgern mit der Funktionalität der Standardprodukte unter Beachtung der Gesamtwirtschaftlichkeit, wobei diese im Sinn des Gesamtnutzens der Sozialversicherung zu definieren ist (Prinzip der Gesamtwirtschaftlichkeit). Diese Abstimmung kann jedoch nicht dazu führen, dass die vorhandene Geschäftstätigkeit eines Sozialversicherungsträgers tiefgreifend umzugestalten wäre.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Die Standardprodukte sind so zu gestalten, dass sie - falls dies für eine Aufgabe (einen Geschäftsfall) erforderlich ist - auch trägerübergreifend Daten verarbeiten können (Prinzip der Ganzheitlichkeit).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Standardprodukte sind so zu gestalten, dass sie als Ganzes, oder auch Teile (Module, Services) daraus, für andere Standardprodukte wieder verwendbar sind (Prinzip der Interoperabilität und Wiederverwendbarkeit).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Die Standardprodukte sind so zu gestalten, dass sie - soweit sinnvoll und möglich - eine Echtzeitbearbeitung der einzelnen Geschäftsfälle erlauben (Prinzip der Echtzeitverarbeitung).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(6) Arbeitsmittel wie Register, Datenbanken, Schnittstellen, Datensätze, usw., die bei anderen öffentlichen Auftraggebern eingerichtet sind und der Sozialversicherung zur Verfügung stehen, sind, so weit wirtschaftlich und inhaltlich vertretbar, ausschließlich von diesen Stellen zu übernehmen und in Standardprodukte einzubauen bzw. von Competence Centren zu übernehmen (z. B. Zentrales Melderegister, Adressregister, Gebäuderegister, Stammzahlenregister, Ergänzungsregister, Register der Gesundheitsdiensteanbieter, genormte Personendatensätze, Bürgerkartenkonzept des E-Government, elektronischer Rechtsverkehr). Parallelentwicklungen zu bereits vorhandenen solchen Arbeitsmitteln dürfen nur aus schwer wiegenden Gründen, welche der Konferenz zur Vorbereitung des Beschlusses über das jeweilige Standardprodukt gegenüber detailliert darzustellen sind, eingeleitet werden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(7) Standardprodukte und andere Projekte der Informationstechnologie der Sozialversicherung, die im <rvolink ursprung="u" abkrvo="REDV 2006" verwart="d" gldart="ANH" gldsort="140" gldnr="1" typ="e">Anhang</rvolink> zu diesen Richtlinien genannt sind, sind Standardprodukte nach diesen Richtlinien. Die in diesem 
+<rvolink ursprung="u" abkrvo="REDV 2006" verwart="d" gldart="ANH" gldsort="140" gldnr="1" typ="e">Anhang</rvolink> genannten Sozialversicherungsträger sind ausschließlich berechtigt, diese Standardprodukte zu betreuen. Solche Standardprodukte sind nach den bei ihrer Schaffung festgesetzten Regeln, insbesondere nach den bisherigen 
+<nolink>Richtlinien über die Zusammenarbeit in der elektronischen</nolink> Datenverarbeitung 2005 - 
+<nolink>REDV</nolink> 2005, www.avsv.at Nr. 121/2005, weiterzuführen und bei Bedarf an diese Richtlinie anzupassen. Bei einer Überleitung solcher Standardprodukte in die Netzwerkorganisation (Competence Center, Dienstleistungszentrum) durch die Konferenz gelten jedoch die Regeln der Netzwerkorganisation.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=39=2025-0.894.169=2025-12-18=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=39=2025-0.894.169=2025-12-18=2026-01-01" dokidSource="RechnVorschr_SV=PARA=39=21.181=1999-07-21=2000-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMASGPK" sichtbarkeit="p" titaen="57. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="57. Änd RechnVorschr SV" pubdat="2025-12-18" ikra="2026-01-01" gldnr="39">
+<aendprot>
+<dfeintrag perskz="schaff" zeitpunkt="2002-11-28"/>
+<dfeintrag zeitpunkt="2002-11-29" perskz="schaff"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-02-11"/>
+<dfeintrag zeitpunkt="2003-04-16" perskz="schaff"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-13"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2025-0.894.169" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">VERANTWORTLICHKEITEN UND AUFGABEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 39.</gldsym> (1) Die Entgegennahme und Ausgabe von Zahlungsmitteln obliegt ausschließlich dem mit der Kassenführung beauftragten Mitarbeiter (Kassier). Anderen Mitarbeitern oder dritten Personen ist es nur gestattet, Geld oder Geldeswert für Rechnung des Versicherungsträgers entgegenzunehmen oder auszuzahlen, wenn sie hierzu besonders beauftragt werden.</absatz>
+<absatz typ="abs" halign="j">(2) Die Aufgaben des Kassiers umfassen:</absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>die Annahme bzw. Ausgabe von Zahlungsmitteln,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>die Übernahme der Abfuhren von anderen Kassen (inkl. Vorschüssen),</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>die Anforderung und Abfuhr von Zahlungsmitteln über Kreditinstitute und andere Kassen (inkl. Vorschüssen),</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>die Führung des Kassenbuches und sonstiger notwendiger Aufzeichnungen.</listelem>
+</literaliste>
+</liste>
+
+
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

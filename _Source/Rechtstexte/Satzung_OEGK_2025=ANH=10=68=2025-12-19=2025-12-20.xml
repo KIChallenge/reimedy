@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Satzung_OEGK_2025=ANH=10=68=2025-12-19=2025-12-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="Satzung_OEGK_2025=ANH=10=68=2025-12-19=2025-12-20">
+      <metadaten titrvo="Satzung der Österreichischen Gesundheitskasse 2025" abkrvo="Satzung OEGK 2025" dokart="Satzung" urheber="ÖGK" beschdat="2025-12-09" pubdat="2025-12-19" ikra="2025-12-20" sichtbarkeit="p" nichtanzeigen="n" titaen="Satzung der Österreichischen Gesundheitskasse 2025 StF" abkaen="Satzung ÖGK 2025 StF" gldart="ANH" gldnr="10" gldsort="150">
+        <puborgane><puborgan puborg="avsv" nrpuborg="68" jahrgang="2025">avsv   Nr. 68/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <absatz typ="satz"><gldsym> </gldsym></absatz><ueberschrift typ="art" halign="r"><nolink>Anhang 10</nolink></ueberschrift>
+          <ueberschrift typ="para" halign="c" level="2">Kostenzuschüsse bei Fehlen vertraglicher Regelungen gemäß <rvolink abkrvo="Satzung OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="25" ursprung="u">§ 25</rvolink> der Satzung</ueberschrift>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Bei Fehlen vertraglicher Regelungen leistet die Österreichische Gesundheitskasse für Transporte einen Zuschuss in Höhe des halben amtlichen Kilometergeldes. Die Ermittlung hat über den Distanzanzeiger der Sozialversicherung zu erfolgen, der über die Homepage der österreichischen Gesundheitskasse aufgerufen werden kann.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Für Bergungskosten nach Unfällen, die nicht unter <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="131" abs="4" ursprung="u">§ 131 Abs. 4</rvolink><nolink> ASVG</nolink> fallen, leistet die Österreichische Gesundheitskasse einen Zuschuss in Höhe von € 86,50, höchstens jedoch die tatsächlichen Kosten.</listelem>
+            </aufzaehlung>
+          </liste>
+          <abstand halign="l">
+            <wechsel typ="s"/>
+          </abstand>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

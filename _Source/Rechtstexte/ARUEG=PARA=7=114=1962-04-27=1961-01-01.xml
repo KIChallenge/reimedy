@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="ARUEG=PARA=7=114=1962-04-27=1961-01-01"><rvo>
+<metadaten gldnr="7" urheber="Bund" dokart="BG" abkrvo="ARÜG" titrvo="Auslandsrenten-Übernahmegesetz" ikra="1961-01-01" pubdat="1962-04-27" beschdat="1962-04-05" abkaen="Kunsttext 114/1962 ARÜG" titaen="Gesamtstand des Auslandsrenten-Übernahmegesetzes idF 114/1962" sichtbarkeit="p" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2003-07-23" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-07-08"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." nrpuborg="114" jahrgang="1962"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Berücksichtigung von Zeiten als neutrale Zeiten.</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 7.</gldsym> Bei der Feststellung der Anrechenbarkeit von Versicherungszeiten in der österreichischen Pensions(Renten)versicherung sind folgende Zeiten als neutrale Zeiten anzusehen:</absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>die nach anderen österreichischen Vorschriften als neutrale Zeiten geltenden Zeiten, auch wenn sie im anderen Staat (
+<rvolink ursprung="u" abs="3" gldnr="1" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 1 Abs. 3</rvolink>, 
+<rvolink ursprung="u" gldnr="3" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 3</rvolink>) zurückgelegt wurden,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Zeiten, die nach dem vollendeten 65. Lebensjahr des Versicherten, bei Frauen nach dem vollendeten 60. Lebensjahr, liegen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Zeiten, während welcher eine Invalidität (Berufsunfähigkeit) vorlag,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Zeiten des Aufenthaltes außerhalb des Gebietes der Republik Österreich, während welcher der Versicherte durch behördliche Anordnung von der Aufnahme eines Beschäftigungsverhältnisses ausgeschlossen war,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>nach dem 31. Dezember 1938 zurückgelegte Zeiten einer Beschäftigung als Dienstnehmer in einem im 
+<rvolink ursprung="u" abs="3" gldnr="1" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 1 Abs. 3</rvolink> und 
+<rvolink ursprung="u" gldnr="3" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 3</rvolink> bezeichneten Gebiete, für die nach den Vorschriften des in Betracht kommenden Staates in der Rentenversicherung keine Pflichtversicherung bestanden hat, aber bei Zurücklegung im Gebiete der Republik Österreich nach den jeweiligen österreichischen Vorschriften eine Pflichtversicherung in der Pensions(Renten)versicherung bestanden hätte.</listelem>
+</literaliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

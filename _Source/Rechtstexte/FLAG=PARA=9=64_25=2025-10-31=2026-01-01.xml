@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="FLAG=PARA=9=64_25=2025-10-31=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="FLAG=PARA=9=64_25=2025-10-31=2026-01-01" dokidSource="FLAG=PARA=9=111=2010-12-30=2011-01-01">
+<metadaten gldnr="9" ikra="2026-01-01" abkaen="BudgetbegleitG 2025 idF OktoberNov 64/2025" titaen="BudgetbegleitG 2025 idF OktoberNov 64/2025" sichtbarkeit="p" urheber="Bund" dokart="BG" abkrvo="FLAG" titrvo="Familienlastenausgleichsgesetz 1967" gldsort="70" gldart="PARA" pubdat="2025-10-31" nichtanzeigen="n">
+<durchfv><rvolink ursprung="u" abkrvo="FamValVO 2023" verwart="d" gldart="PARA" gldsort="50" gldnr="1" typ="e"/><rvolink ursprung="u" abkrvo="FamValVO 2024" verwart="d" gldart="PARA" gldsort="50" gldnr="1" typ="e"/></durchfv><aendprot>
+<dfeintrag zeitpunkt="2001-09-05" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-08"/>
+<dfeintrag zeitpunkt="2003-05-09" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-14"/>
+<dfeintrag zeitpunkt="2003-05-14" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-14"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2008-02-12"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="64" begseite="1" jahrgang="2025">BGBl. I  Nr. 64/2025 , S.1</puborgan><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="25" begseite="5" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para"/>
+<absatz typ="satz" halign="j">
+<gldsym>§ 9.</gldsym> Zusätzlich zur Familienbeihilfe haben Personen unter folgenden Voraussetzungen (<rvolink abkrvo="FLAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9a" bereich="BIS" bis="9d" ursprung="u">§§ 9a</rvolink> bis 
+<rvolink ursprung="u" abkrvo="FLAG" verwart="d" gldart="PARA" gldsort="70" gldnr="9c" typ="e">9c</rvolink>) Anspruch auf einen Mehrkindzuschlag. Der Mehrkindzuschlag steht für jedes ständig im Bundesgebiet lebende dritte und weitere Kind zu, für das Familienbeihilfe gewährt wird. Ab 1. Jänner 2026 beträgt der Mehrkindzuschlag 24,4 € <super><i>(Anm. 1)</i></super> monatlich für das dritte und jedes weitere Kind.</absatz>
+<absatz typ="satz"><i>(Anm. 1:<br/>gemäß BGBl. II Nr. 413/2022 für das Kalenderjahr 2023: 21,2 €<br/>gemäß BGBl. II Nr. 328/2023 für das Kalenderjahr 2024: 23,3 €<br/>gemäß BGBl. II Nr. 314/2024 für das Kalenderjahr 2025: 24,4 €)</i></absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

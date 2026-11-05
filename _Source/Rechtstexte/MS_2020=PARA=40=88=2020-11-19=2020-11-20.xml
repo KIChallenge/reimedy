@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MS_2020=PARA=40=88=2020-11-19=2020-11-20"><rvo dokidCms="MS_2020=PARA=40=88=2020-11-19=2020-11-20">
+      <metadaten titrvo="Mustersatzung 2020" abkrvo="MS 2020" dokart="MusterR" urheber="DVSV" sichtbarkeit="p" nichtanzeigen="n" titaen="Mustersatzung 2020 StF" abkaen="MS 2020 StF" beschdat="2020-10-21" pubdat="2020-11-19" ikra="2020-11-20" gldart="PARA" gldnr="40" gldsort="80">
+        <puborgane><puborgan puborg="avsv" nrpuborg="88" jahrgang="2020">avsv   Nr. 88/2020 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Maßnahmen zur Krankheitsverhütung</ueberschrift>
+          <ueberschrift typ="para" halign="c">(<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="156" abs="1" ziff="2" ursprung="u">§ 156 Abs. 1 Z 2</rvolink><nolink> ASVG</nolink>)</ueberschrift><absatz typ="abs" halign="j">
+            <gldsym>§ 40.</gldsym> Die Kasse leistet in Verbindung mit <rvolink abkrvo="MS 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="27" ursprung="u">§ 27</rvolink> für Versicherte (Angehörige) zwischen dem vollendeten 10. Lebensjahr und dem vollendeten 18. Lebensjahr einmal innerhalb eines Jahres Mundhygiene als Sachleistung (<rvolink abkrvo="MS 2020" verwart="d" typ="e" gldart="ANH" gldsort="150" gldnr="1" ursprung="u">Anhang 1</rvolink>, Teil A, Pos. Nr. 65). Diese umfasst:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>bedarfsorientierte Information und Aufklärung über Zahn- und Zahnfleischerkrankungen und deren Vermeidung, Ernährungsberatung/-lenkung – Kurzintervention</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>bedarfsorientierte Motivation bzw. Remotivation (Nutzenfindung für die Patientin/den Patienten)</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>bedarfsorientierte Evaluierung der Putztechnik und der Interdentalraumreinigung inkl. Plaque- bzw. Biofilmfärbung</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>bedarfsorientierte Instruktion zur effektiven häuslichen Zahnpflege, Demonstration von Putztechniken und deren Schwachstellen und der Interdentalraumreinigung</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>professionelle, bedarfsorientierte Zahnreinigung (Entfernung aller supragingivaler Zahnbeläge mit entsprechender Methode)</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>medizinisch notwendige Fluoridierung und Spülung</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">Versicherten (Angehörigen) zwischen dem vollendeten 10. Lebensjahr und dem vollendeten 18. Lebensjahr, die sich einer kieferorthopädischen Behandlung mit festsitzenden Geräten unterziehen, leistet die Kasse maximal zwei Mal innerhalb eines Jahres Mundhygiene als Sachleistung, wobei die Leistungen mindestens sechs Monate auseinander zu liegen haben.</schluss>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

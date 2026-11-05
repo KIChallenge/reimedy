@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AbrGr_Apotheken=PARA=1=146=2002-12-31=2003-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AbrGr_Apotheken=PARA=1=146=2002-12-31=2003-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Einheitliche Grundsätze gemäß § 348g ASVG über die EDV-Abrechnung der Apotheker" abkrvo="AbrGr Apotheken" dokart="Abrechnungsregeln" titaen="Einheitliche Grundsätze gemäß § 348g ASVG über die EDV-Abrechnung der Apotheker StF" abkaen="AbrGr Apotheken StF" urheber="DVSV" beschdat="2002-12-20" pubdat="2002-12-31" ikra="2003-01-01" sichtbarkeit="p" gldnr="1" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-09-08"/>
+</aendprot>
+<puborgane><puborgan puborg="avsv" nrpuborg="146" jahrgang="2002"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">I. Allgemeine Bestimmungen</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Geltungsbereich</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 1.</gldsym> (1) Diese Grundsätze regeln die elektronische Rechnungslegung durch die Vertragspartner nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="348g" ursprung="u">§ 348 g</rvolink> ASVG (in der Folge: Apotheker) mit maschinell lesbaren Datenträgern bzw. Datenfernübertragung (in der Folge: EDV-Rechnungslegung). </absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Vertragliche Bestimmungen über die EDV-Rechnungslegung werden, soweit die folgenden Grundsätze hierzu keine abweichenden Regelungen vorsehen, nicht berührt.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Personenbezogene Bezeichnungen in männlicher Form beziehen sich auf Männer und Frauen in gleicher Weise.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Bestimmungen des <nolink>Apothekengesamtvertrages,</nolink> die sich auf die elektronische Abrechnung beziehen insbesondere Anlage IVa des 
+<nolink>Apothekengesamtvertrages</nolink> und die Zusatzvereinbarungen zum 
+<nolink>Apothekengesamtvertrag</nolink> werden von diesen Grundsätzen nicht berührt.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

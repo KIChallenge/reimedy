@@ -1,0 +1,1246 @@
+{
+ "_hinweis": "Kuratierte Taxonomie (ersetzt aliases.json). varianten = DIESELBE Leistung (werden gemergt). eltern = teil_von (eigene Leistung, Kante). nicht_verwechseln_mit / alternative_zu = Kanten, kein Merge. traeger_auspraegungen = Quell-IDs, die als Träger-Ausprägung in die Leistung wandern. Automatisch: <id>_<oegk|svs|bvaeb|pva|auva> wird Träger-Ausprägung von <id>, wenn <id> hier steht.",
+ "leistungen": [
+  {
+   "id": "pflegegeld",
+   "name": "Pflegegeld",
+   "typ": "bund",
+   "traeger": [
+    "PVA",
+    "SVS",
+    "BVAEB",
+    "AUVA"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "notiz": "Bundesleistung (BPGG), entschieden vom Pensionsträger"
+  },
+  {
+   "id": "pflegeberatung",
+   "name": "Pflegeberatung und Beratungsstellen",
+   "typ": "land",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "fsw_pflegeberatung",
+   "name": "FSW-Beratung zu Pflege und Betreuung (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "pflegeberatung",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "mobile_dienste",
+   "name": "Mobile Dienste (Heimhilfe, Hauskrankenpflege) – Überblick",
+   "typ": "land",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [
+    "soziale_dienste",
+    "hauskrankenpflege"
+   ],
+   "nicht_verwechseln_mit": [
+    "medizinische_hauskrankenpflege"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "notiz": "gesundheit_gv 'hauskrankenpflege' ist der Überblick über mobile soziale Dienste, NICHT die ärztlich verordnete medizinische HKP"
+  },
+  {
+   "id": "mobile_pflege_fsw",
+   "name": "Mobile Pflege und Betreuung zu Hause (Wien, FSW)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_dienste",
+   "varianten": [
+    "mobile_pflege_wien",
+    "mobile_pflege"
+   ],
+   "nicht_verwechseln_mit": [
+    "medizinische_hauskrankenpflege"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "heimhilfe_wien",
+   "name": "Heimhilfe (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_pflege_fsw",
+   "varianten": [
+    "heimhilfe"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "hauskrankenpflege_wien",
+   "name": "Hauskrankenpflege (Wien, FSW)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_pflege_fsw",
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "medizinische_hauskrankenpflege"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "besuchs_begleitdienst_wien",
+   "name": "Besuchs- und Begleitdienst (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_pflege_fsw",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "mehrstuendige_alltagsbegleitung_wien",
+   "name": "Mehrstündige Alltagsbegleitung (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_pflege_fsw",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "essen_auf_raedern_wien",
+   "name": "Essen auf Rädern (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_pflege_fsw",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "waescheservice_wien",
+   "name": "Wäscheservice (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_pflege_fsw",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "kontinenzberatung_wien",
+   "name": "Kontinenzberatung (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "mobile_pflege_fsw",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "medizinische_hauskrankenpflege",
+   "name": "Medizinische Hauskrankenpflege (ärztlich verordnet)",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "medizinische_hauskrankenpflege_wien"
+   ],
+   "nicht_verwechseln_mit": [
+    "mobile_pflege_fsw",
+    "hauskrankenpflege_wien",
+    "mobile_dienste"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "notiz": "Krankenversicherungsleistung statt Spitalsaufenthalt; nicht die mobile Pflege/Heimhilfe des Landes"
+  },
+  {
+   "id": "pflegeheim",
+   "name": "Wohn- und Pflegeheime – Überblick",
+   "typ": "land",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [
+    "alten_und_pflegeheim",
+    "pflegeheim_tageszentrum"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "wohn_pflegehaus_fsw",
+   "name": "Wohn- und Pflegehaus mit Schwerpunkt Pflege (Wien, FSW)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "pflegeheim",
+   "varianten": [
+    "pflegeheim_wien",
+    "fsw_wohn_pflegehaus"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "wohnhaus_wien",
+    "senior_innen_wg_fsw"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "wohnhaus_wien",
+   "name": "Wohn- und Pflegehaus mit Schwerpunkt Wohnen (Wien, FSW)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "pflegeheim",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "wohn_pflegehaus_fsw"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "senior_innen_wg_fsw",
+   "name": "Senior:innen-Wohngemeinschaft (Wien, FSW)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": null,
+   "varianten": [
+    "senioren_wg_wien",
+    "senioren_wg",
+    "fsw_senior_wg"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "wohn_pflegehaus_fsw"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "tageszentren_wien",
+   "name": "Tageszentren für Senior:innen (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "kurzzeitpflege",
+   "name": "Kurzzeit-, Ersatz- und Urlaubspflege",
+   "typ": "land",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "kurzzeitpflege_urlaubspflege_wien",
+   "name": "Urlaubs-/Kurzzeitpflege (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": "kurzzeitpflege",
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "kur"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "uebergangspflege_wien",
+   "name": "Übergangspflege (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "reha_medizinisch"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "remobilisation_wien",
+   "name": "Remobilisation (Wien)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "reha_medizinisch"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "foerderung_24h_betreuung",
+   "name": "24-Stunden-Betreuung und Förderung",
+   "typ": "bund",
+   "traeger": [
+    "Sozialministeriumservice"
+   ],
+   "eltern": null,
+   "varianten": [
+    "betreuung_24_stunden",
+    "foerderung_24h_betreuung_extern"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "pflegende_angehoerige_unterstuetzung",
+   "name": "Unterstützung für pflegende Angehörige – Überblick",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "pflegende_angehoerige_wien",
+   "name": "Pflegende angehoerige wien",
+   "typ": "land",
+   "traeger": [],
+   "eltern": "pflegende_angehoerige_unterstuetzung",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "angehoerigenbonus",
+   "name": "Angehoerigenbonus",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": "pflegende_angehoerige_unterstuetzung",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "angehoerigengespraech",
+   "name": "Angehoerigengespraech",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": "pflegende_angehoerige_unterstuetzung",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "versicherung_pflegende_angehoerige",
+   "name": "Versicherung für pflegende Angehörige",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [
+    "pflegende_angehoerige_versicherung"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "pflegekarenz",
+   "name": "Pflegekarenz / Pflegeteilzeit",
+   "typ": "bund",
+   "traeger": [
+    "Sozialministeriumservice"
+   ],
+   "eltern": null,
+   "varianten": [
+    "pflegeteilzeit"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "familienhospizkarenz"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "familienhospizkarenz",
+   "name": "Familienhospizkarenz",
+   "typ": "bund",
+   "traeger": [
+    "Sozialministeriumservice"
+   ],
+   "eltern": null,
+   "varianten": [
+    "familienhospiz"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "pflegekarenz"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "palliativ_hospiz",
+   "name": "Palliativ- und Hospizversorgung",
+   "typ": "land",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "mobile_palliativbetreuung_wien",
+   "name": "Mobile Palliativbetreuung (Wien)",
+   "typ": "land",
+   "traeger": [],
+   "eltern": "palliativ_hospiz",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "rezeptgebuehrenbefreiung",
+   "name": "Befreiung von der Rezeptgebühr",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "rezeptgebuehr_befreiung",
+    "befreiung_rezeptgebuehr"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "rezeptgebuehrenobergrenze",
+   "name": "Rezeptgebührenobergrenze (2 % des Jahresnettoeinkommens)",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": "rezeptgebuehrenbefreiung",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "notiz": "automatische Befreiung bei Erreichen der Obergrenze – Teil der Befreiungsregeln, nicht dasselbe wie die Befreiung auf Antrag"
+  },
+  {
+   "id": "fahrtkostenzuschuss",
+   "name": "Zuschuss zu Fahrtkosten (ÖGK)",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK"
+   ],
+   "eltern": null,
+   "varianten": [
+    "fahrtkosten",
+    "fahrtkostenzuschuss_wien"
+   ],
+   "nicht_verwechseln_mit": [
+    "fahrtendienst_fahrtkostenersatz_wien",
+    "krankentransport"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "fahrtendienst_fahrtkostenersatz_wien",
+   "name": "Fahrtendienst/Fahrtkostenersatz bei Behinderung (Wien, FSW)",
+   "typ": "land",
+   "traeger": [
+    "FSW"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "fahrtkostenzuschuss",
+    "krankentransport"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "unterstuetzungsfonds",
+   "name": "Unterstützungsfonds der Krankenversicherung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {
+    "BVAEB": [
+     "unterstuetzungsfonds_bvaeb"
+    ]
+   }
+  },
+  {
+   "id": "sozialhilfe_wien",
+   "name": "Wiener Mindestsicherung (Sozialhilfe)",
+   "typ": "land",
+   "traeger": [
+    "Stadt Wien – MA 40"
+   ],
+   "eltern": null,
+   "varianten": [
+    "mindestsicherung_wien",
+    "wiener_mindestsicherung"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "ausgleichszulage",
+   "name": "Ausgleichszulage",
+   "typ": "sv",
+   "traeger": [
+    "PVA",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "familienbeihilfe",
+   "name": "Familienbeihilfe",
+   "typ": "bund",
+   "traeger": [
+    "Finanzamt"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "kinderbetreuungsgeld",
+   "name": "Kinderbetreuungsgeld",
+   "typ": "bund",
+   "traeger": [
+    "ÖGK"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "behindertenpass",
+   "name": "Behindertenpass",
+   "typ": "bund",
+   "traeger": [
+    "Sozialministeriumservice"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "rehabilitationsgeld",
+   "name": "Rehabilitationsgeld",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "PVA"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "reha_medizinisch",
+    "reha_onkologisch"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "notiz": "Geldleistung bei vorübergehender Berufsunfähigkeit – kein Reha-Aufenthalt"
+  },
+  {
+   "id": "reha_medizinisch",
+   "name": "Medizinische Rehabilitation",
+   "typ": "sv",
+   "traeger": [
+    "PVA",
+    "ÖGK",
+    "SVS",
+    "BVAEB",
+    "AUVA"
+   ],
+   "eltern": null,
+   "varianten": [
+    "rehabilitation_sv",
+    "rehabilitation_medizinisch"
+   ],
+   "nicht_verwechseln_mit": [
+    "rehabilitationsgeld",
+    "kur"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "reha_onkologisch",
+   "name": "Onkologische Rehabilitation",
+   "typ": "sv",
+   "traeger": [
+    "PVA",
+    "ÖGK"
+   ],
+   "eltern": "reha_medizinisch",
+   "varianten": [
+    "rehabilitation_onkologisch",
+    "onkologische_reha"
+   ],
+   "nicht_verwechseln_mit": [
+    "rehabilitationsgeld"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "anschlussheilverfahren",
+   "name": "Anschlussheilverfahren / Reha nach Unfall",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": "reha_medizinisch",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "reha_kinder",
+   "name": "Rehabilitation für Kinder und Jugendliche",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": "reha_medizinisch",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "reha_pflegende_angehoerige",
+   "name": "Rehabilitation für pflegende Angehörige",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": "reha_medizinisch",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "reha_beruflich",
+   "name": "Berufliche Rehabilitation",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "reha_medizinisch"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "reha_sozial",
+   "name": "Soziale Rehabilitation",
+   "typ": "land",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "kur",
+   "name": "Kur- und Erholungsaufenthalt",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB",
+    "PVA"
+   ],
+   "eltern": null,
+   "varianten": [
+    "kur_aufenthalt",
+    "kur_erholung",
+    "kuraufenthalt"
+   ],
+   "nicht_verwechseln_mit": [
+    "reha_medizinisch",
+    "kurzzeitpflege"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "krankentransport",
+   "name": "Krankentransport / Krankenbeförderung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "krankentransport_fahrtkosten",
+    "transportkosten",
+    "krankenbefoerderung"
+   ],
+   "nicht_verwechseln_mit": [
+    "fahrtkostenzuschuss"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "heilbehelfe_hilfsmittel",
+   "name": "Heilbehelfe und Hilfsmittel",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "heilbehelfe",
+    "hilfsmittel"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "hausarzt_pve",
+   "name": "Hausärztin / Primärversorgung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "hausarzt_primaerversorgung",
+    "hausarzt",
+    "primaerversorgung"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "gesundheitsberatung_1450",
+   "name": "Gesundheitsberatung 1450",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [
+    "gesundheitstelefon_1450",
+    "hotline_1450",
+    "gesundheitsberatung"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "wahlarzt_kostenerstattung",
+   "name": "Wahlärzt:in und Kostenerstattung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {
+    "BVAEB": [
+     "kostenerstattung_wahlarzt"
+    ]
+   }
+  },
+  {
+   "id": "rechnung_einreichen",
+   "name": "Rechnung einreichen (Kostenerstattung)",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": "wahlarzt_kostenerstattung",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "behandlung_im_ausland",
+   "name": "Behandlung im Ausland / EKVK",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {
+    "BVAEB": [
+     "auslandsbehandlung_ekvk"
+    ]
+   }
+  },
+  {
+   "id": "zahnspange_kfo",
+   "name": "Zahnspange / Kieferorthopädie für Kinder",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "zahnspange",
+    "kieferorthopaedie_gratis_zahnspange",
+    "gratis_zahnspange",
+    "kieferorthopaedie"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "zahnbehandlung",
+   "name": "Zahnbehandlung (konservierend-chirurgisch)",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "zahnersatz",
+   "name": "Zahnersatz",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "selbsthilfe",
+   "name": "Selbsthilfegruppen",
+   "typ": "verein",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [
+    "selbsthilfegruppen"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "vorsorgeuntersuchung",
+   "name": "Vorsorgeuntersuchung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "brustkrebs_frueherkennung",
+   "name": "Brustkrebs-Früherkennung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "brustkrebs_frueherkennungsprogramm",
+    "mammografie"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "darmkrebs_frueherkennung",
+   "name": "Darmkrebs-Früherkennung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "darmkrebs_vorsorge"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "prostatakrebs_frueherkennung",
+   "name": "Prostatakrebs-Früherkennung",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "prostata_frueherkennung"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "impfungen",
+   "name": "Impfprogramme – Überblick",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "impfungen_erwachsene",
+   "name": "Impfprogramme für Erwachsene",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": "impfungen",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "kinderimpfprogramm",
+   "name": "Kostenloses Kinderimpfprogramm",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": "impfungen",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "eltern_kind_pass",
+   "name": "Eltern-Kind-Pass",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "eltern_kind_pass_untersuchungen",
+    "mutter_kind_pass"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "mundhygiene_kinder",
+   "name": "Gratis-Mundhygiene für Kinder und Jugendliche",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "mundhygiene_kinder_jugendliche",
+    "mundhygiene"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "notiz": "Altersgrenzen/Häufigkeit je Träger verschieden (ÖGK 10–18 1×/J., BVAEB-Pilot 6–18 2×/J.) → Träger-Ausprägung"
+  },
+  {
+   "id": "bewegt_im_park",
+   "name": "Bewegt im Park",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "rauchfrei",
+   "name": "Rauchfrei-Angebote (Rauchfrei Telefon, Programme)",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [
+    "rauchfrei_telefon",
+    "nikotinfrei_rauchfrei",
+    "rauchfrei_programm"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "gesundheitshunderter_svs",
+   "name": "Gesundheitshunderter (SVS)",
+   "typ": "sv",
+   "traeger": [
+    "SVS"
+   ],
+   "eltern": null,
+   "varianten": [
+    "gesundheits_hunderter",
+    "gesundheitshunderter"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "selbstaendig_gesund_svs",
+   "name": "Selbständig Gesund (SVS)",
+   "typ": "sv",
+   "traeger": [
+    "SVS"
+   ],
+   "eltern": null,
+   "varianten": [
+    "selbstaendig_gesund_selbstbehalt"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "erwachsenenvertretung_vollmacht",
+   "name": "Vertretung: Vorsorgevollmacht / Erwachsenenvertretung – Überblick",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "patientenverfuegung"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "vorsorgevollmacht",
+   "name": "Vorsorgevollmacht",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": "erwachsenenvertretung_vollmacht",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "erwachsenenvertretung"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "erwachsenenvertretung",
+   "name": "Erwachsenenvertretung",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": "erwachsenenvertretung_vollmacht",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [
+    "vorsorgevollmacht"
+   ],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "vollmacht",
+   "name": "Vollmacht gegenüber der Krankenkasse",
+   "typ": "sv",
+   "traeger": [],
+   "eltern": "erwachsenenvertretung_vollmacht",
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "vorsorgevollmacht"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "patientenverfuegung",
+   "name": "Patientenverfügung",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [
+    "vorsorgevollmacht"
+   ],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "mitversicherung_angehoerige",
+   "name": "Mitversicherung von Angehörigen",
+   "typ": "sv",
+   "traeger": [
+    "ÖGK",
+    "SVS",
+    "BVAEB"
+   ],
+   "eltern": null,
+   "varianten": [
+    "mitversicherung"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "elga",
+   "name": "ELGA – Elektronische Gesundheitsakte",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [
+    "elga_info"
+   ],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  },
+  {
+   "id": "fit2work",
+   "name": "fit2work",
+   "typ": "bund",
+   "traeger": [],
+   "eltern": null,
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {}
+  }
+ ]
+}

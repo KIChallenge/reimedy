@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RMH_2005=PARA=7=5=2020-01-17=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RMH_2005=PARA=7=5=2020-01-17=2020-01-01" dokidSource="RMH_2005=PARA=7=16=2006-02-21=2006-02-27">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien für das Zusammenarbeiten der Krankenversicherungsträger bei der maschinellen Heilmittelabrechnung zur Erzielung einer ökonomischen und einfachen Verwaltung 2005" abkrvo="RMH 2005" dokart="RL DVSV" titaen="SV-OG Anpassungsverlautbarung" abkaen="SV-OG AnpVerl" urheber="DVSV" beschdat="2020-01-14" pubdat="2020-01-17" ikra="2020-01-01" sichtbarkeit="p" berkz="KVL; VMB; OV; AN; SELB; BEA; " gldnr="7" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-02-21"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="5" jahrgang="2020" begseite="6"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="para">Übermittlung der Abrechnungsunterlagen und der Daten</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 7. </gldsym>(1) Die abrechnenden Krankenversicherungsträger haben an die Krankenversicherungsträger, für die sie die maschinelle Heilmittelabrechnung durchführen, jene Daten, die diese aufgrund der Vorschriften über die Rechnungslegung und Rechnungsführung sowie aufgrund der Weisungen für die Erstellung der statistischen Nachweisungen benötigen, zu übermitteln.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die von den abrechnenden Krankenversicherungsträgern erfassten maschinell lesbaren Rezeptdaten (<rvolink abkrvo="RMH 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" ursprung="u">§ 6</rvolink>) sind dem Dachverband für jeden Abrechnungsmonat spätestens bis zum Ende des zweitfolgenden Monats zu übermitteln.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Der Dachverband übermittelt an die Gebietskrankenkassen die Daten, die von einer anderen Gebietskrankenkasse für diese erfasst wurden und die zur Erfüllung der im <rvolink abkrvo="RMH 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="8" ursprung="u">§ 8</rvolink> vorgesehenen Aufgaben benötigt werden.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

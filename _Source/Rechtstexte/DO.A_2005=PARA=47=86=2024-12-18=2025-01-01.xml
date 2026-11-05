@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.A_2005=PARA=47=86=2024-12-18=2025-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.A_2005=PARA=47=806=2010-12-28=2011-01-01" dokidSource="DO.A_2005=PARA=47=806=2010-12-28=2011-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.A 2005" dokart="DO" titaen="113. Änderung der Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkaen="113. Änd DO.A 2005" urheber="DVSV" beschdat="2024-12-17" pubdat="2024-12-18" ikra="2025-01-01" sichtbarkeit="p" gldnr="47" nichtanzeigen="n">
+<uebrecht>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="123" typ="e">§ 123 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="124" typ="e">§ 124 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="127" typ="e">§ 127 DO.A 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-08"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-11-11"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="86" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Aufsichtszulage</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 47. </gldsym>Eine Aufsichtszulage im Ausmaß der nachstehend angeführten Prozentsätze der jeweiligen ständigen Bezüge gemäß <rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="35" abs="2" ziff="1" lit="b" ursprung="u">§ 35 Abs. 2 Z 1 lit. b</rvolink> gebührt</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Operationsgehilfen, denen dauernd die Aufsicht über mehr als fünf Operationsgehilfen übertragen ist.............................................................................................................................................. 5 bis 10%,</listelem>
+
+</ziffernliste>
+</liste>
+<liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="3">2.</symbol>zahnärztliche Ordinationshilfen mit Ausbildungsnachweis, zahnärztliche Assistentinnen bzw. zahnärztliche Fachassistentinnen denen dauernd die Aufsicht obliegt über</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>5-10 zahnärztliche Ordinationshilfen im Ausmaß von bis zu 10 %,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>11-20 zahnärztliche Ordinationshilfen im Ausmaß von bis zu 15 %,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>mehr als <gt/>21 zahnärzliche Ordinationshilfen im Ausmaß von bis zu 20 %.</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="1" art="normal">Den stellvertretenden aufsichtsführenden zahnärztlichen Ordinationshilfen gebührt der jeweilige halbe Prozentsatz.</schlussteil>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

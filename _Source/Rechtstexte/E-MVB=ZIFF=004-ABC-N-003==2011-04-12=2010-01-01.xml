@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="E-MVB=ZIFF=004-ABC-N-003==2011-04-12=2010-01-01"><rvo dokidCms="E-MVB=ZIFF=004-ABC-N-003==2011-04-12=2010-01-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Änderung der Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens 2010" abkaen="E-MVB Änderung 2010" urheber="Hauptverband" pubdat="2011-04-12" ikra="2010-01-01" sichtbarkeit="p" gldnr="004-ABC-N-003" berkz="KVL; VMB; " nichtanzeigen="n">
+<schlagw>
+<textelem>Ärzte - Notärzte</textelem>
+</schlagw><aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-03-15"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-12-21"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-02-14"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>004-ABC-N-003</gldsym>
+</absatz>
+<absatz typ="satz" halign="j" widowctrl="1" keepwithnext="0">Vollversicherung - ABC der Berufsgruppen - Notärzte</absatz>
+<ueberschrift widowctrl="1" keepwithnext="1" level="3" halign="c" typ="para">Ärzte - Notärzte</ueberschrift>
+<absatz typ="satz" halign="j" widowctrl="1" keepwithnext="0">Vgl. Gliederungsnummer <rvolink ursprung="u" abkrvo="E-MVB" verwart="d" gldart="ZIFF" gldsort="100" gldnr="004-ABC-A-012" typ="e">004-ABC-A-012</rvolink></absatz>
+
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

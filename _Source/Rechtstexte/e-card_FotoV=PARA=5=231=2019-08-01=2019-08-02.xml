@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="e-card_FotoV=PARA=5=231=2019-08-01=2019-08-02" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="e-card_FotoV=PARA=5=231=2019-08-01=2019-08-02">
+      <metadaten titrvo="Nähere Vorgangsweise betreffend die Anbringung von Lichtbildern auf e-cards" abkrvo="e-card FotoV" dokart="V" titaen="Nähere Vorgangsweise betreffend die Anbringung von Lichtbildern auf e-cards StF" abkaen="Nähere Vorgangsweise betreffend die Anbringung von Lichtbildern auf e-cards StF" pubdat="2019-08-01" ikra="2019-08-02" sichtbarkeit="p" gldart="PARA" gldnr="5" gldsort="80" urheber="BReg">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="231" begseite="1" jahrgang="2019">BGBl. II  Nr. 231/2019 , S.1</puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Information der Karteninhaber/innen</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 5.</gldsym> (1) Beim Versand einer e<gdash/>card mit Lichtbild sind die Karteninhaber/innen im Begleitschreiben darüber zu informieren, aus welchem behördlichen Bestand das Lichtbild stammt.</absatz>
+          <absatz typ="abs" halign="j">(2) Kann aus den behördlichen Beständen kein Lichtbild ermittelt werden, so ist die Person, für die eine e<gdash/>card ausgestellt werden soll, vom Hauptverband bzw. Dachverband oder dem zuständigen Krankenversicherungsträger unter Hinweis auf die möglichen Folgen darüber zu verständigen, dass sie ein Lichtbild im Sinne des <rvolink abkrvo="e-card FotoV" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="2" ursprung="u">§ 2</rvolink> beizubringen hat.</absatz>
+          <absatz typ="abs" halign="j">(3) Der Hauptverband bzw. Dachverband und die Sozialversicherungsträger haben auf Anfrage der Betroffenen Auskunft darüber zu erteilen,</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>ob diese ein Lichtbild beizubringen haben und auf welchem Weg dies möglich ist und</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>ob und aus welchem behördlichen Bestand ein Lichtbild zum Zweck der Ausstellung einer e<gdash/>card zur Verfügung steht.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(4) Gesundheitsdiensteanbieter/innen, die einen Vertrag mit einem oder mehreren Sozialversicherungsträgern über die Erbringung von Leistungen abgeschlossen haben, haben</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>falls ihnen im Wege des e<gdash/>card-Systems einschlägige Informationen zur Verfügung gestellt werden (zB über die Notwendigkeit des Beibringens eines Lichtbildes), den bei ihnen befindlichen Patientinnen und Patienten diese Informationen weiterzugeben und</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Informationsblätter (Folder, Broschüren) über die Anbringung und Verwendung des Lichtbildes auf der e<gdash/>card, die ihnen von der Sozialversicherung zur Verfügung gestellt werden, zur Entnahme durch die Patientinnen und Patienten bereitzustellen.</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">Informationen über das Erfordernis der Beibringung eines Lichtbildes sowie die Bereitstellung von Informationsblättern (Z 2) haben auch durch Dienstgeber/innen im Zuge der Anmeldung eines/einer Dienstnehmers/Dienstnehmerin zu erfolgen.</schlussteil>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

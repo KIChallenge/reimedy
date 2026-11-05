@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=72=2024-0.844.908=2024-12-20=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=72=2024-0.844.908=2024-12-20=2026-01-01" dokidSource="RechnVorschr_SV=PARA=72=2023-0.819.589=2023-12-22=2023-07-01">
+<metadaten dokart="Weisung" ikra="2026-01-01" pubdat="2024-12-20" urheber="BMSGPK" abkaen="56. Änd RechnVorschr SV" titaen="56. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldnr="72" sichtbarkeit="p" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2005-06-06"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2024-0.844.908" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">GLIEDERUNG DER ERFOLGSRECHNUNG</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 72.</gldsym> (1) In der Erfolgsrechnung nach dem <nolink>Bundespflegegeldgesetz</nolink> sind folgende Posten gesondert auszuweisen:</absatz>
+<absatz typ="satz" halign="j">ERTRÄGE</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Ersatzleistung des Bundes;</listelem>
+              <listelem>
+                <symbol stellen="3">1a.</symbol>Ersatzleistung der AUVA;</listelem>
+              <listelem>
+                <symbol stellen="3">1b.</symbol>Selbstbehalt der ÖBB gem. <rvolink ursprung="u" abkrvo="BPGG" verwart="d" gldart="PARA" gldsort="70" gldnr="23" abs="3" typ="e">§ 23 Abs. 3</rvolink> BPGG;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Ersätze für Leistungsaufwendungen;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>sonstige betriebliche Erträge.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="satz" halign="j">AUFWENDUNGEN</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Pflegegeld;</listelem>
+              <listelem><symbol stellen="3">2.</symbol>Angehörigenbonus gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21g" ursprung="u">§§ 21g</rvolink> und <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21h" ursprung="u">21h</rvolink><nolink> BPGG</nolink>;</listelem><listelem>
+                <symbol stellen="2">3.</symbol>Sachleistungen;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Fahrtspesen und Transportkosten;</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Sozialgerichtskosten;</listelem><listelem>
+                <symbol stellen="2">6.</symbol>vertrauensärztlicher Dienst und sonstige Betreuung;</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Verwaltungsaufwand;</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>sonstige betriebliche Aufwendungen.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="satz" halign="j">Die Träger der Unfallversicherung, in ihrem nach <rvolink ursprung="u" abkrvo="RechnVorschr SV" verwart="d" gldart="PARA" gldsort="70" gldnr="70" abs="1" typ="e">§ 70 Abs. 1 </rvolink>RV übernommenen Aufgabenbereich, haben die aufgrund akausaler Behinderungen erbrachten Aufwendungen nach der obigen Gliederung in einem Beiblatt zur Erfolgsrechnung gesondert darzustellen.</absatz>
+<absatz typ="abs" halign="j">(2) In der Erfolgsrechnung nach dem Sonderunterstützungsgesetz sind folgende Posten gesondert auszuweisen:</absatz>
+          <absatz typ="satz" halign="j">ERTRÄGE</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Ersatzleistung des Bundes;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>sonstige betriebliche Erträge;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Deckung des Fehlbetrages für Verwaltungsaufwendungen aus der</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">Pensionsversicherung.</schluss>
+          </liste>
+          <absatz typ="satz" halign="j">AUFWENDUNGEN</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Sonderunterstützung;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Beiträge zur Krankenversicherung der SU-Bezieher;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Verwaltungsaufwand;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Abschreibungen;</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>sonstige betriebliche Aufwendungen.</listelem>
+            </ziffernliste>
+          </liste>
+<absatz typ="abs" halign="j">(3) Für die Buchung von Aufwendungen und Erträgen nach dem Bundespflegegeldgesetz sind nachstehende Kontengruppen zu führen:</absatz>
+<table style="border-color:black;border-collapse:collapse;margin-left:2,25pt" cellpadding="3" cellspacing="0" border="0">
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>I.</symbol>Aufwendungen:</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">Kontengruppe</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>1.</symbol>Pflegegeld, Angehörigenbonus gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21g" ursprung="u">§§ 21g</rvolink> und <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21h" ursprung="u">21h</rvolink> BPGG und Sachleistungen;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">40</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>2.</symbol>Fahrtspesen und Transportkosten;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">58A</absatz>
+</td>
+</tr><tr h-start="0"><td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>3.</symbol>Sozialgerichtskosten;</listelem>
+</ziffernliste>
+</liste>
+</td><td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">58B</absatz>
+</td></tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>4.</symbol>vertrauensärztlicher Dienst und sonstige Betreuung;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">59</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>5.</symbol>Verwaltungsaufwand;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">61 bis 63 u. 64</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>6.</symbol>sonstige betriebliche Aufwendungen;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">68A</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>II.</symbol>Erträge:</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="left" width="165" h-xval="9690">
+<absatz typ="tabtext"/>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>1.</symbol>Ersatzleistung des Bundes;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">37 bzw. 64</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>2.</symbol>Ersätze für Leistungsaufwendungen;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">37</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>3.</symbol>sonstige betriebliche Erträge.</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">38B</absatz>
+</td>
+</tr>
+</table>
+<absatz typ="abs" halign="j">(4) Für die Buchung von Aufwendungen und Erträgen nach dem <rvolink ursprung="u" abkrvo="SUG" verwart="d" gldart="PARA" gldsort="70" typ="e">Sonderunterstützungsgesetz</rvolink> sind nachstehende Kontengruppen zu führen:</absatz>
+<table style="border-color:black;border-collapse:collapse;margin-left:2,25pt" cellpadding="3" cellspacing="0" border="0">
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>I.</symbol>Aufwendungen:</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">Kontengruppe</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>1.</symbol>Sonderunterstützung;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">40</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>2.</symbol>Beiträge zur Krankenversicherung der SU-Bezieher;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">57</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>3.</symbol>Verwaltungsaufwand;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">61 bis 63 u. 64</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>4.</symbol>Abschreibungen;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">66</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>5.</symbol>sonstige betriebliche Aufwendungen;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">68A</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>II.</symbol>Erträge:</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="left" width="165" h-xval="9690">
+<absatz typ="tabtext"/>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>1.</symbol>Ersatzleistung des Bundes;</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">37 bzw. 64</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="481" h-xval="7215">
+<liste>
+<ziffernliste ebene="2">
+<listelem>
+<symbol>2.</symbol>sonstige betriebliche Erträge.</listelem>
+</ziffernliste>
+</liste>
+</td>
+<td valign="top" align="right" width="165" h-xval="9690">
+<absatz typ="tabtextr">38B</absatz>
+</td>
+</tr>
+</table>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

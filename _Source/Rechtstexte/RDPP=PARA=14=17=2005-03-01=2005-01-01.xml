@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RDPP=PARA=14=17=2005-03-01=2005-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RDPP=PARA=14=17=2005-03-01=2005-01-01">
+<metadaten gldnr="14" sichtbarkeit="p" ikra="2005-01-01" pubdat="2005-03-01" beschdat="2004-12-06" urheber="Hauptverband" abkaen="Kunsttext 17/2005 RDPP" titaen="Kunsttext 17/2005 RDPP" dokart="RL DVSV" abkrvo="RDPP" titrvo="Richtlinien zur Erstellung von Dienstpostenplänen für die Sozialversicherungsträger" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<anm>Wiederverlautbarung: avsv Nr.: 17/2005 am 1. März 2005</anm>
+<aendprot>
+<dfeintrag zeitpunkt="2002-04-24" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2003-07-08"/>
+<dfeintrag zeitpunkt="2003-08-05" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-08-05"/>
+<dfeintrag zeitpunkt="2004-10-07" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-03-21"/>
+</aendprot>
+<puborgane><puborgan puborg="avsv" nrpuborg="17" jahrgang="2005"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="para"/>
+<absatz typ="abs" halign="j">
+<gldsym>§ 14.</gldsym> Mit 1. Jänner 2005 tritt 
+<rvolink ikra="2005-01-01" typ="e" jahrgang="2004" nrpuborg="96" puborg="avsv" gldnr="1" gldsort="150" gldart="ANL" verwart="s" abkrvo="RDPP" ursprung="u">Anlage 4</rvolink> in Kraft. </absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

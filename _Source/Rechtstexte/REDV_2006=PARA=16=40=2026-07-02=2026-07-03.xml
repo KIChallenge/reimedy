@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=16=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=16=87=2006-07-28=2006-07-29" dokidSource="REDV_2006=PARA=16=87=2006-07-28=2006-07-29">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="16" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-07-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">EDV-Handbuch</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 16.</gldsym> (1) In Ausführung dieser Richtlinien hat die ITSV-GmbH in Zusammenarbeit mit den Sozialversicherungsträgern unter Beachtung der Kompatibilitätsanforderungen für die Einrichtung, die Betreuung und den Betrieb von Standardprodukten und IT-Infrastruktur ein EDV-Handbuch auszuarbeiten. Diesem EDV-Handbuch sind industrielle Standards von Hard- und Software, Netzwerken und Benutzeroberflächen zu Grunde zu legen; es ist von der ITSV-GmbH aktuell zu halten und den Sozialversicherungsträgern einschließlich aller Änderungen zur Verfügung zu stellen. Frühere Versionen sind vom Dachverband zur Verfügung zu stellen und von der ITSV-GmbH zu Dokumentationszwecken zur Verfügung zu halten.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Das EDV-Handbuch wird mit der Beschlussfassung durch die Konferenz für die Sozialversicherungsträger verbindlich.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Das EDV-Handbuch hat insbesondere zu regeln:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Vorgangsweise für den Vorschlag zur Einrichtung eines Standardproduktes bzw. der IT-Infrastruktur,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>das Projektmanagement und die Vorgehensmodelle für die Entwicklung, Beschaffung, Weiterentwicklung, Wartung und den Einsatz von Standardprodukten,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Methoden, Hilfsmittel und Regelungen für die gemeinsame Entwicklung und Anwendung von Softwareprodukten,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die Regeln für die Datenmodellierung, die Geschäftsprozessmodellierung und die Objektmodellierung der Standardprodukte,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Schulungskonzepte,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>die Beschreibung des IT-Informationssystems (<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="15" ursprung="p">§ 15</rvolink>),</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>ein Vorgehensmodell für die Abwicklung von Betriebsdienstleistungen (z. B. Abrechnungshandbuch),</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>technische, rechtliche und betriebswirtschaftliche Standards (z. B. Muster-Service Level Agreement), wobei technisch verbindliche Standards in einem Kapitel „Architektur“ zusammengefasst sind,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>das Releasemanagement der Standardprodukte,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>die Abstimmung zwischen den Standardprodukten,</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Integrationstest-Prozeduren für den gemeinsamen Einsatz der Standardprodukte,</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>die zwischen dem entwickelnden und dem betreibenden Sozialversicherungsträger einzuhaltenden Abnahme- und Übergabsprozeduren.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

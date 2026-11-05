@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Heilmittel-Bewilligungs-_und_KontrollV=PARA=12=473=2004-12-10=2005-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="Heilmittel-Bewilligungs-_und_KontrollV=PARA=12=473=2004-12-10=2005-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Verordnung über die Grundsätze der chef- und kontrollärztlichen Bewilligung für Heilmittel, der nachfolgenden Kontrolle von Verschreibungen, sowie die Grundsätze der Dokumentation" abkrvo="Heilmittel-Bewilligungs- und KontrollV" dokart="V" titaen="Verordnung über die Grundsätze der chef- und kontrollärztlichen Bewilligung für Heilmittel, der nachfolgenden Kontrolle von Verschreibungen, sowie die Grundsätze der Dokumentation StF" abkaen="Heilmittel-Bewilligungs- und KontrollV StF" urheber="BMGF" pubdat="2004-12-10" ikra="2005-01-01" sichtbarkeit="p" gldnr="12">
+<anm>Rechtsgrundlage: <rvolink ursprung="u" abkrvo="ASVG" verwart="s" gldart="PARA" gldsort="70" gldnr="609" abs="9" pubdat="2004-08-09" ikra="2003-12-31" puborg="BGBl." gldpuborg="I" nrpuborg="105" jahrgang="2004" typ="e">§ 609 ASVG idF BGBl. Nr. 105/2004</rvolink></anm><aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2004-12-13"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="II" nrpuborg="473" jahrgang="2004"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="c" typ="para">Dokumentation und Kontrolle von Arzneispezialitäten des gelben und roten Bereiches</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 12.</gldsym> (1) Im Übergangszeitraum bis zum Zeitpunkt der Verfügbarkeit der technischen Infrastruktur der e-card (Kommunikation nach 
+<rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="7" ursprung="u">§ 7</rvolink>) oder bis zum In-Kraft-Treten einer Vereinbarung nach 
+<rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="10" ursprung="u">§ 10</rvolink> wird die ärztliche Bewilligung durch den chef- und kontrollärztlichen Dienst der Sozialversicherungsträger für Arzneispezialitäten des gelben - ausgenommen Arzneispezialitäten nach 
+<rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="2" ursprung="u">§ 1 Abs. 2</rvolink> - und des roten Bereiches des Erstattungskodex durch eine nachfolgende Kontrolle einer Dokumentation nach Maßgabe der folgenden Bestimmungen ersetzt.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Während des Übergangszeitraumes kann jede Verschreibung einer Arzneispezialität nach Abs. 1 auf Kosten der Sozialversicherung nur nach Anfertigung einer besonderen Dokumentation über die Auswahl und Verschreibung erfolgen. Der Hauptverband hat die in entsprechender Anwendung des <rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="5" ursprung="u">§ 4 Abs. 5</rvolink> zulässigen Formen der Dokumentation einheitlich festzulegen und an die Österreichische Ärztekammer zu übermitteln. Die obligatorisch zu dokumentierenden Informationen bei erstmaliger Verschreibung im Behandlungsfall sind zu gliedern in</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Begründung, warum nicht eine oder mehrere Arzneispezialitäten aus dem grünen Bereich des Erstattungskodex im gegebenen Behandlungsfall therapeutisch gleichwertig sind und warum bei Verfügbarkeit einer oder mehrerer therapeutisch gleichwertiger Arzneispezialitäten aus dem grünen Bereich eine Arzneispezialität aus dem gelben Bereich des Erstattungskodex verschrieben wird;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Begründung, warum - bei Verschreibung einer Arzneispezialität aus dem roten Bereich des Erstattungskodex - nicht eine oder mehrere Arzneispezialitäten aus dem grünen oder gelben Bereich des Erstattungskodex im gegebenen Behandlungsfall therapeutisch gleichwertig sind und warum bei Verfügbarkeit einer oder mehrerer therapeutisch gleichwertiger Arzneispezialitäten aus dem grünen oder gelben Bereich eine Arzneispezialität aus dem roten Bereich des Erstattungskodex verschrieben wird;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Rezeptdaten;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die Diagnosestellung im Volltext oder auf Basis einer softwaregesteuerten Codierung;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die Anamnese- und Vorbehandlungsdaten sowie die Ergebnisse der medizinischen Befunde, soweit diese Daten nach den Z 1 bis 4 relevant sind. Der Verweis auf die ärztlichen Patienten-/Patientinnen- und Behandlungsdaten ist zulässig. Diesfalls sind diese Daten und die Befunde integrierender Bestandteil der Dokumentation.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(3) <rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="4" ursprung="p">§ 4 Abs. 4</rvolink> und 
+<rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="5" ursprung="u">5</rvolink> ist entsprechend anzuwenden.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(4) Die Verschreibung und die Dokumentation unterliegen der nachfolgenden Kontrolle durch den chef- und kontrollärztlichen Dienst der Sozialversicherungsträger. <rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="u">§ 5</rvolink> ist entsprechend anzuwenden mit der Maßgabe, dass an die Stelle der Arzneispezialitäten nach 
+<rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="2" ursprung="u">§ 1 Abs. 2</rvolink> bzw. der Arzneispezialitäten des gelben Bereiches jeweils die Arzneispezialitäten nach Abs. 1 treten.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="BSVG=PARA=86=20=2025-05-30=2026-01-01"><rvo dokidCms="BSVG=PARA=86=106=2024-07-19=2024-07-20" dokidSource="BSVG=PARA=86=106=2024-07-19=2024-07-20">
+<metadaten gldsort="70" indbr="66.02.04" gldart="PARA" berkz="KVL; UVL; PVL; VMB; SELB; BEA; " beschdat="2025-05-22" urheber="Bund" titrvo="Bauern-Sozialversicherungsgesetz" gldnr="86" ikra="2026-01-01" sichtbarkeit="p" abkrvo="BSVG" titaen="BudgetsanierungsmaßnahmenG 2025 Teil II" dokart="BG" abkaen="BSMG 2025 II" pubdat="2025-05-30" nichtanzeigen="n">
+<uebrecht>
+<rvolink abkrvo="ASVG" ursprung="u" verwart="s" gldart="PARA" gldsort="70" gldnr="609" abs="4a" typ="e" ikra="2003-12-31" puborg="BGBl." gldpuborg="I" nrpuborg="145" jahrgang="2003">§ 609 Abs. 4a ASVG</rvolink>
+</uebrecht>
+
+<nichtdoknovs><textelem>§ 86 Abs. 3: 5. Nov., BGBl. Nr. 590/1981, Art. I Z 7 lit. a und b – 1. 1. 1982; 8. Nov., BGBl. Nr. 486/1984, Art. I Z 16 lit. a und b und Art. V – 1. 1. 1986; 20. Nov., BGBl. Nr. 413/1996, Art. I Z 27 – 1. 8. 1996; BGBl. Nr. 764/1996, Art. III Z 6 – 1. 8. 1996; SRÄG 2000, BGBl. I Nr. 101/2000, Art. 3 Z 5 – 1. 10. 2000; SV-WUBG, BGBl. I Nr. 67/2001, Art. 4 Z 26 und 27 – 1. 1. 2002; 2. SVÄG 2003, 27. Nov., BGBl. I Nr. 145/2003, Art. 3 Teil 1 Z 1 – 1. 1. 2004; FAG 2005, BGBl. I Nr. 156/2004, Art. 5 Z 4 – 1. 1. 2005.</textelem><textelem>§ 86 Abs. 5: SRÄG 2000, BGBl. I Nr. 101/2000, Art. 3 Z 5a – 1. 10. 2000.</textelem><textelem>§ 86 Abs. 6: 33. Nov., BGBl. I Nr. 101/2007, Art. 6 Z 9 – 1. 1. 2008.</textelem></nichtdoknovs>
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="20" begseite="15" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Heilmittel </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 86.</gldsym> (1) Die Heilmittel umfassen </absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol>a)</symbol>die notwendigen Arzneien und </listelem>
+<listelem>
+<symbol>b)</symbol>die sonstigen Mittel, die zur Beseitigung oder Linderung der Krankheit oder zur Sicherung des Heilerfolges dienen. </listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Die Kosten der Heilmittel sind vom Versicherungsträger durch Abrechnung mit den Apotheken und Hausapotheken führenden Ärztinnen und Ärzten zu übernehmen. Ein Kostenanteil der/des Versicherten (<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="80" abs="2" ursprung="u">§ 80 Abs. 2</rvolink>) ist nicht einzuheben. Erfolgt keine Abgabe auf Rechnung eines Trägers der Krankenversicherung, weil der Kassenverkaufspreis inklusive Umsatzsteuer niedriger ist als die Rezeptgebühr, übermitteln die Apotheken und Hausapotheken führenden Ärztinnen und Ärzte an den Dachverband mittels elektronischer Datenfernübertragung</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>für die Ermittlung der in den Richtlinien nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="30a" abs="1" ziff="15" ursprung="u">§ 30a Abs. 1 Z 15</rvolink><nolink> ASVG</nolink> vorgesehenen Obergrenze täglich die fortlaufende Nummer zur Identifikation des Rezepts, den Kassenverkaufspreis inklusive Umsatzsteuer des abgegeben Produkts, das Datum der Abgabe, den zuständigen Träger der Krankenversicherung, die Sozialversicherungsnummer und im Falle einer/eines anspruchsberechtigten Angehörigen die Sozialversicherungsnummer der versicherten Person,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>zum Zweck der Versorgungsforschung monatlich die fortlaufende Nummer zur Identifikation des Rezepts, die Vertragspartnernummer der verordnenden und der abgebenden Stelle, die Pharmazentralnummer und den Kassenverkaufspreis inklusive Umsatzsteuer des abgegebenen Produkts, die Anzahl der abgegebenen Packungen mit derselben Pharmazentralnummer, das Datum der Abgabe, den zuständigen Träger der Krankenversicherung, die Sozialversicherungsnummer und im Falle einer/eines anspruchsberechtigten Angehörigen die Sozialversicherungsnummer der versicherten Person.</listelem>
+            </aufzaehlung>
+          </liste>
+<absatz typ="abs" halign="j">(3) Für jedes auf einem Rezept verordnete und auf Rechnung des Versicherungsträgers bezogene Heilmittel ist als Kostenbeteiligung eine Rezeptgebühr in der Höhe von<rvolink abkrvo="verändW" gldart="ZAHL" gldnr="20" gldsort="130"> 4,35 €</rvolink> <i><super>(Anm. 1)</super></i> zu zahlen. An die Stelle dieses Betrages tritt ab 1. Jänner eines jeden Jahres der unter Bedachtnahme auf <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="47" ursprung="u">§ 47</rvolink> mit der jeweiligen <rvolink ursprung="u" abkrvo="verändW" verwart="d" gldart="ZAHL" gldsort="130" gldnr="16" typ="e">Aufwertungszahl</rvolink> (<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="45" ursprung="u">§ 45</rvolink>) vervielfachte Betrag. Der vervielfachte Betrag ist auf fünf Cent zu runden. Die Satzung kann, soweit dies für die Sicherstellung der finanziellen Leistungsfähigkeit des Versicherungsträgers erforderlich ist, die Rezeptgebühr im Fall des Abs. 5 als verminderte Rezeptgebühr, deren Höchstausmaß 50 % der jeweils geltenden Rezeptgebühr nicht übersteigen darf, festsetzen. Die Rezeptgebühr ist bei Abgabe des Heilmittels an die abgebende Stelle für Rechnung des Versicherungsträgers zu zahlen. Die Zahlung ist von dieser Stelle auf dem Rezept zu vermerken.</absatz>
+<absatz typ="satz" halign="l" widowctrl="1" keepwithnext="0"><i>(Anm. 1:<br/>gemäß BGBl. II Nr. 339/2017 für das Kalenderjahr 2018: 6,00 €<br/>gemäß BGBl. II Nr. 329/2018 für das Kalenderjahr 2019: 6,10 €<br/>gemäß BGBl. II Nr. 348/2019 für das Kalenderjahr 2020: 6,30 €<br/>gemäß BGBl. II Nr. 576/2020 für das Kalenderjahr 2021: 6,50 €<br/>gemäß BGBl. II Nr. 590/2021 für das Kalenderjahr 2022: 6,65 €<br/>gemäß BGBl. II Nr. 459/2022 für das Kalenderjahr 2023: 6,85 €<br/>gemäß BGBl. II Nr. 407/2023 für das Kalenderjahr 2024: 7,10 €<br/>gemäß BGBl. II Nr. 417/2024 für das Kalenderjahr 2025: 7,55 €)</i></absatz><absatz typ="abs" halign="j">(4) Bei anzeigepflichtigen übertragbaren Krankheiten darf eine Rezeptgebühr nicht eingehoben werden.</absatz>
+<absatz typ="abs" halign="j">(5) Der Versicherungsträger hat bei Vorliegen einer besonderen sozialen Schutzbedürftigkeit des Versicherten nach Maßgabe der vom Dachverband der Sozialversicherungsträger hiezu erlassenen <nolink>Richtlinien von der Einhebung der Rezeptgebühr</nolink> dann abzusehen, wenn durch die Satzung gemäß Abs. 3 nichts anderes bestimmt wird.  </absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(6) Der Versicherungsträger hat von der Einhebung der Rezeptgebühr auch bei Erreichen der in den Richtlinien des Dachverbandes nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="30a" abs="1" ziff="15" ursprung="u">§ 30a Abs. 1 Z 15</rvolink><nolink> ASVG</nolink> vorgesehenen Obergrenze abzusehen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

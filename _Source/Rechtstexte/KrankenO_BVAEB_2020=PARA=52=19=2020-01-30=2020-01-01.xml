@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_BVAEB_2020=PARA=52=19=2020-01-30=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KrankenO_BVAEB_2020=PARA=52=19=2020-01-30=2020-01-01">
+      <metadaten titrvo="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2020" abkrvo="KrankenO BVAEB 2020" dokart="KrankenO" urheber="BVAEB" beschdat="2020-01-17" pubdat="2020-01-30" ikra="2020-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau StF" abkaen="KrankenO BVAEB 2020 StF" gldart="PARA" gldsort="80" gldnr="52">
+        <puborgane><puborgan puborg="avsv" nrpuborg="19" jahrgang="2020" begseite="1">avsv   Nr. 19/2020 , S.1</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">EKVK-Ersatzbescheinigung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 52.</gldsym> Die BVAEB stellt die „provisorische Ersatzbescheinigung für die Europäische Krankenversicherungskarte“ im Sinn der Vorschriften der Europäischen Union nach dem im Amtsblatt der Europäischen Union verlautbarten Muster auf Antrag für die Dauer eines Auslandsaufenthaltes, höchstens aber für ein Jahr aus</absatz>
+          <liste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>in dringenden Fällen, in denen eine EKVK nicht rechtzeitig ausgestellt werden kann, oder</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>auf ausdrücklichen und sachlich begründeten Wunsch des*der Anspruchsberechtigten zusätzlich zu einer gültigen EKVK, oder</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>wenn eine EKVK gemäß <rvolink abkrvo="KrankenO BVAEB 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="51" abs="1" ursprung="u">§ 51 Abs. 1</rvolink> bis <rvolink abkrvo="KrankenO BVAEB 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="51" abs="3" ursprung="u">3</rvolink> nicht ausgestellt werden darf.</listelem>
+            </literaliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=85=2024-0.844.908=2024-12-20=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=85=2024-0.844.908=2024-12-20=2026-01-01" dokidSource="RechnVorschr_SV=PARA=85=2022-0.866.211=2022-12-13=2023-01-01">
+<metadaten gldnr="85" ikra="2026-01-01" pubdat="2024-12-20" abkaen="56. Änd RechnVorschr SV" titaen="56. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" sichtbarkeit="p" urheber="BMSGPK" dokart="Weisung" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldsort="70" gldart="PARA" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2024-0.844.908" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">KOSTENARTEN DER VERSICHERUNGSTRÄGER, AUSGENOMMEN EIGENE EINRICHTUNGEN UND NEBENBETRIEBE</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 85.</gldsym> Im Betriebsabrechnungsbogen gemäß 
+<rvolink ursprung="p" gldnr="90" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§ 90</rvolink> sind folgende Kostenarten gesondert nachzuweisen:</absatz>
+<absatz typ="abs" halign="j">(1) Personalkosten</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Bezüge des Verwaltungspersonals,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Bezüge der Ärzte, Dentisten und Pharmazeuten,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Bezüge des Pflege- und ärztlichen Hilfspersonals,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Bezüge des Haus- und sonstigen Personals,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Entschädigungen für Mehrarbeiten,</listelem>
+
+<listelem>
+<symbol stellen="2">6.</symbol>gesetzliche Lohn- und Gehaltsabgaben,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>sonstige.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Sachkosten</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Miete und Hauskosten,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Reinigungskosten,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Energiekosten,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Inventarinstandhaltung,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Bürokosten,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Nachrichtenkosten,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Geldverkehrskosten,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Gerichtskosten,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Fahrt- und Reisekosten,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Fahrzeugkosten,</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>laufende Nachschaffungen,</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>Kosten für EDV, <i>(Anm.: 54. Erg. ÜB: gilt ab der Erstellung der Kostenrechnung 2022) </i></listelem>
+<listelem>
+<symbol stellen="3">13.</symbol>Ärztehonorare,</listelem>
+<listelem>
+<symbol stellen="3">14.</symbol>Untersuchungs- und Behandlungsmaterial, Heilmittel,</listelem>
+<listelem>
+<symbol stellen="3">15.</symbol>sonstige,</listelem>
+<listelem>
+<symbol stellen="3">16.</symbol>nicht abziehbare Vorsteuer.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(3) Sonstige Kosten</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Kosten der Verwaltungskörper,</listelem>
+
+
+<listelem>
+<symbol stellen="2">2.</symbol>nicht abziehbare Vorsteuer.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(4) Kalkulatorische Abschreibungen</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Abschreibung von Immobilien,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Abschreibung von Mobilien.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(5) Außerordentliche Kosten</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Pensionen,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Abfertigungen und Sterbegelder,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>sonstige a. o. Kosten.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

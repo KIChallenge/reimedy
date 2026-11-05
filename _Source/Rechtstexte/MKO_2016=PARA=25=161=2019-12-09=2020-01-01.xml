@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MKO_2016=PARA=25=161=2019-12-09=2020-01-01"><rvo dokidCms="MKO_2016=PARA=25=161=2019-12-09=2020-01-01" dokidSource="MKO_2016=PARA=25=200=2018-10-19=2019-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Musterkrankenordnung 2016" abkrvo="MKO 2016" dokart="MusterR" titaen="7. Änderung der Musterkrankenordnung 2016" abkaen="7. Änd MKO 2016" urheber="Hauptverband" beschdat="2019-10-22" pubdat="2019-12-09" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="25" gldsort="70">
+        
+      <anm>avsv Nr. 200/2018 Z 5 wurde sinngemäß eingearbeitet.</anm><puborgane><puborgan puborg="avsv" nrpuborg="161" jahrgang="2019"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="g1min" halign="c" level="3">3. Unterabschnitt <br/>Regelungen für die Inanspruchnahme von Leistungen, für die eine elektronische Administrationsunterstützung durch das elektronische Kommunikationsservice (eKOS) besteht </ueberschrift>
+          <ueberschrift typ="para" halign="c" level="4">Verpflichtungen des/der Versicherten bei Inanspruchnahme von Leistungen, für die eine elektronische Administrationsunterstützung durch des elektronische Kommunikationsservice (eKOS) besteht</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 25.</gldsym>
+            Wurde die Überweisung oder Zuweisung für eine Leistung nach <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="ANH" gldsort="140" gldnr="5" ursprung="u">Anhang 5</rvolink> nicht elektronisch erstellt, hat der/die Versicherte, falls er/sie die Leistung bei einem Vertragspartner bzw. einer Vertragspartnerin oder einem/einer berechtigten Partner/in ohne Kassenvertrag mit anschließender Kostenerstattung in Anspruch nehmen will, innerhalb eines Monats nach Ausstellung der Überweisung oder Zuweisung dafür zu sorgen, dass diese elektronisch nacherfasst werden kann. Die Nacherfassung kann auf folgende Arten durch den Versicherten bzw. die Versicherte veranlasst werden:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Übermittlung der Überweisung oder Zuweisung in Papierform an einen Krankenversicherungsträger zum Zweck der Nacherfassung, oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Übermittlung der Überweisung oder Zuweisung über das dafür durch die Kasse vorgesehene Online-Service an die Kasse, oder</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Übermittlung der Überweisung oder Zuweisung an einen leistungserbringenden Vertragspartner bzw. eine leistungserbringende Vertragspartnerin seiner/ihrer Wahl zum Zweck der elektronischen Nacherfassung in eKOS.</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">Ist die Überweisung oder Zuweisung trotz Erfüllung der vorgenannten Verpflichtung des/der Versicherten im eKOS nicht erfasst worden, so hat die Kasse die dafür notwendigen Maßnahmen zu setzen.</schluss>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

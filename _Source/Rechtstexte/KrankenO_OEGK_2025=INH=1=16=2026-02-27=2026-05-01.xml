@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_OEGK_2025=INH=1=16=2026-02-27=2026-05-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KrankenO_OEGK_2025=INH=1=16=2026-02-27=2026-05-01" dokidSource="KrankenO_OEGK_2025=INH=1=72=2025-12-19=2025-12-20">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Österreichischen Gesundheitskasse 2025" abkrvo="KrankenO OEGK 2025" dokart="KrankenO" titaen=". Änderung der Krankenordnung der Österreichischen Gesundheitskasse 2025" abkaen="1. Änd KrankenO OEGK 2025" urheber="ÖGK" beschdat="2026-02-19" pubdat="2026-02-27" ikra="2026-05-01" sichtbarkeit="p" gldart="INH" gldnr="1" gldsort="40">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="16" jahrgang="2026"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <inhaltsvz typ="ueberschrift" halign="c">Inhaltsverzeichnis</inhaltsvz>
+          <abstand halign="l"/>
+          <table id="Tabelle1" cellspacing="0" style="border-collapse:collapse;margin-left:-3.2pt;margin-right:-6pt">
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>1. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Ärztliche Hilfe und gleichgestellte Leistungen</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">1. Unterabschnitt</inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Ärztliche Hilfe</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="1" ursprung="u">§ 1</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Allgemeines</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="2" ursprung="u">§ 2</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">e<gdash/>card und Europäische Krankenversicherungskarte</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="3" ursprung="u">§ 3</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Begriffsbestimmungen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" ursprung="u">§ 4</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Ausstellung der e<gdash/>card</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="5" ursprung="u">§ 5</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Allgemeine Verwendung der e<gdash/>card und der EKVK-Information über Karteninhalte der e<gdash/>card</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="6" ursprung="u">§ 6</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Benützung der e<gdash/>card, der Europäischen Krankenversicherungskarte oder einer Ersatzbescheinigung für Leistungen der Österreichischen Gesundheitskasse im In- und Ausland</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="6a" ursprung="u">§ 6a</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Ausstellung von Ersatzbelegen bei fehlendem Lichtbild</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="7" ursprung="u">§ 7</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Ärztliche Hilfe mit Überweisungs- oder Zuweisungsschein</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="8" ursprung="u">§ 8</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Arztwechsel</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="9" ursprung="u">§ 9</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <i>aufgehoben</i>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="10" ursprung="u">§ 10</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Europäische Krankenversicherungskarte – EKVK<br/>European Health Insurance Card – EHIC</inhaltsvz>
+                
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="11" ursprung="u">§ 11</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Gültigkeitsdauer der Europäischen Krankenversicherungskarte</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="12" ursprung="u">§ 12</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Einschränkungen für die Ausstellung einer EKVK</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="13" ursprung="u">§ 13</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Verlust, Sperre und Neuausstellung der e<gdash/>card und der EKVK nach einer Verlustmeldung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="14" ursprung="u">§ 14</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Änderung der Angaben auf der e<gdash/>card und der EKVK</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="15" ursprung="u">§ 15</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Verzicht und Kartenrückgabe von e<gdash/>card oder EKVK</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="16" ursprung="u">§ 16</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Behandlung in der Ordination</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="17" ursprung="u">§ 17</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Ärztliche Krankenbesuche</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="18" ursprung="u">§ 18</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Auswahl des zuständigen Arztes/der zuständigen Ärztin für Krankenbesuche</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="19" ursprung="u">§ 19</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Besondere Mitteilungspflichten bei Leistungsinanspruchnahme</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">2. Unterabschnitt</inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Leistungen, die der ärztlichen Hilfe gleichgestellt sind</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="20" ursprung="u">§ 20</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Logopädisch-phoniatrisch-audiologische Behandlung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21" ursprung="u">§ 21</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Physiotherapie</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" ursprung="u">§ 22</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Ergotherapie</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="23" ursprung="u">§ 23</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Psychotherapie durch Psychotherapeuten oder Psychotherapeutinnen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="23a" ursprung="u">§ 23a</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Klinisch-psychologische Behandlung durch Klinische Psychologen/Psychologinnen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="24" ursprung="u">§ 24</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Diagnostische Leistung eines klinischen Psychologen oder einer klinischen Psychologin</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">3. Unterabschnitt</inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Regelungen für die Inanspruchnahme von Leistungen, für die eine elektronische Administrationsunterstützung durch das elektronische Kommunikationsservice (eKOS) besteht</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="25" ursprung="u">§ 25</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Verpflichtungen des/der Versicherten bei Inanspruchnahme von Leistungen, für die eine elektronische Administrationsunterstützung durch das elektronische Kommunikationsservice (eKOS) besteht</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>2. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Zahnbehandlung und Zahnersatz sowie Kieferregulierungen für Kinder und Jugendliche (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="153" ursprung="u">§§ 153</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="153a" ursprung="u">153a</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="26" ursprung="u">§ 26</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Leistungserbringer/Leistungserbringerinnen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="27" ursprung="u">§ 27</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kieferregulierungen für Kinder und Jugendliche (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="153a" ursprung="u">§ 153a</rvolink><nolink> ASVG</nolink>)</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>3. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Heilmittel, Heilbehelfe und Hilfsmittel (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="136" ursprung="u">§§ 136</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="137" ursprung="u">137</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="154" ursprung="u">154</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="28" ursprung="u">§ 28</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Heilmittel</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="29" ursprung="u">§ 29</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Nachweis des Jahres-Nettoeinkommens für die Befreiung von der Rezeptgebühr</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="30" ursprung="u">§ 30</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Heilbehelfe</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="31" ursprung="u">§ 31</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Hilfsmittel</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="32" ursprung="u">§ 32</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Mindestgebrauchsdauer und Abgabemenge</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="32a" ursprung="u">§ 32a</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Verordnung durch Angehörige des gehobenen Dienstes für Gesundheits- und Krankenpflege im Rahmen ihrer Berufsbefugnis</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>4. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Krankengeld (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="138" bereich="F" ursprung="u">§§ 138 ff</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="33" ursprung="u">§ 33</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Arbeitsunfähigkeitsmeldung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34" ursprung="u">§ 34</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Meldung des Arbeitsentgeltes</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="35" ursprung="u">§ 35</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Nachweis der Anspruchsberechtigung für ein erhöhtes Krankengeld</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="36" ursprung="u">§ 36</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <i>(aufgehoben)</i>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                
+                  
+                
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>5. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Kostenerstattung (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="131" ursprung="u">§ 131</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="37" ursprung="u">§ 37</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenerstattung bei Inanspruchnahme von Wahlärzten/Wahlärztinnen, Wahl-Gruppenpraxen oder sonstigen Wahleinrichtungen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="38" ursprung="u">§ 38</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Ausschluss der Kostenerstattung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="39" ursprung="u">§ 39</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Sonstige Vorschriften bei Kostenerstattung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="40" ursprung="u">§ 40</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenerstattung nach der Satzung für die Behandlung durch Wahlzahnärzte/Wahlzahnärztinnen, Zahnärzte/Zahnärztinnen in Wahl-Gruppenpraxen, zahnärztliche Wahl-Gruppenpraxen und Wahleinrichtungen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="41" ursprung="u">§ 41</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenerstattung bei Erbringung von Leistungen nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="153a" abs="4" ursprung="u">§ 153a Abs. 4</rvolink><nolink> ASVG</nolink></inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="42" ursprung="u">§ 42</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenzuschuss bei Fehlen einer regional ausgewogenen flächendeckenden Versorgung (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="153a" abs="6" ursprung="u">§ 153a Abs. 6</rvolink><nolink> ASVG</nolink>)</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="43" ursprung="u">§ 43</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Gleichstellung von Heilmittel-Verordnungen durch Ärzte/Ärztinnen (Zahnärzte/Zahnärztinnen), die in keinem Vertragsverhältnis der Österreichischen Gesundheitskasse stehen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="44" ursprung="u">§ 44</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenerstattung für Heilmittel</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="45" ursprung="u">§ 45</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenerstattung für Behandlungen, die der ärztlichen Hilfe gleichgestellt sind</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="46" ursprung="u">§ 46</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenerstattung für Heilbehelfe</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="47" ursprung="u">§ 47</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenerstattung für Hilfsmittel</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="48" ursprung="u">§ 48</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenzuschuss für Leistungen der medizinischen Hauskrankenpflege</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>6. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Anstaltspflege (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="144" bereich="F" ursprung="u">§§ 144 ff</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="49" ursprung="u">§ 49</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Nächstgelegene geeignete Krankenanstalt</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="50" ursprung="u">§ 50</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <i>(aufgehoben)</i>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="51" ursprung="u">§ 51</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Aufenthaltsbestätigung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="52" ursprung="u">§ 52</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Arbeitsunfähigkeit nach Anstaltspflege</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="53" ursprung="u">§ 53</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Pflegekostenzuschuss bei Anstaltspflege</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>7. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Verfahren bei Maßnahmen zur Festigung der Gesundheit (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="155" ursprung="u">§ 155</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="54" ursprung="u">§ 54</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Bewilligungspflicht</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="55" ursprung="u">§ 55</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Verspäteter Antritt von Maßnahmen zur Festigung der Gesundheit</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="56" ursprung="u">§ 56</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Aufenthaltsbestätigung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>8. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Leistungen aus dem Versicherungsfall der Mutterschaft (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="157" bereich="F" ursprung="u">§§ 157 ff</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="57" ursprung="u">§ 57</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Wochengeld</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="58" ursprung="u">§ 58</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Kostenübernahmeerklärung</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>9. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Überprüfung der ärztlichen bzw. zahnärztlichen Anordnungen und des Gesundheitszustandes</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="59" ursprung="u">§ 59</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Einhaltung der ärztlichen bzw. zahnärztlichen Anordnungen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="60" ursprung="u">§ 60</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Krankenbesuchsdienst</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="61" ursprung="u">§ 61</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Prüfung des Gesundheitszustandes</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>10. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Erkrankung außerhalb des Bundesgebietes</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="62" ursprung="u">§ 62</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <i>(aufgehoben)</i>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="63" ursprung="u">§ 63</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Europäische Krankenversicherungskarte EKVK, Zwischenstaatlicher Betreuungsschein, sonstige gemeinschaftsrechtliche oder bilaterale Anspruchsbescheinigungen</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <absatz typ="tabtext">
+                  <nbsp/>
+                </absatz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext">
+                  <nbsp/>
+                </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>11. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Melde- und Auskunftspflicht der Versicherten (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="40" ursprung="u">§§ 40</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="43" ursprung="u">43</rvolink><nolink> ASVG</nolink>)</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="64" ursprung="u">§ 64</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Meldepflicht</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="65" ursprung="u">§ 65</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Auskunftspflicht</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>12. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Verpflichtung zur Einholung einer ärztlichen Bewilligung durch den Medizinischen Dienst und Verpflichtung zur Einholung einer Vorabgenehmigung bei Inanspruchnahme von Gesundheitsdienstleistungen im Ausland</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="66" ursprung="u">§ 66</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Vorherige ärztliche Bewilligung durch den Medizinischen Dienst</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="67" ursprung="u">§ 67</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Verpflichtung zur Einholung einer Vorabgenehmigung bei Inanspruchnahme von Gesundheitsdienstleistungen im Ausland</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>13. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Regelung für Härtefälle</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="68" ursprung="u">§ 68</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Härtefälle</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>14. Abschnitt</b>
+                </inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Schlussbestimmungen</b>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="69" ursprung="u">§ 69</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Wirksamkeitsbeginn</inhaltsvz>
+              </td>
+            </tr><tr style="page-break-inside:avoid;" h-start="-64"><td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="70" ursprung="u">§ 70</rvolink></inhaltsvz>
+              </td><td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Inkrafttreten der 1. Änderung</inhaltsvz>
+              </td></tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1577">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <b>Anhänge</b>
+                </inhaltsvz>
+              </td>
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <absatz typ="tabtext" halign="l"> </absatz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="ANH" gldsort="150" gldnr="1" ursprung="u">Anhang 1</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Leistungen, für die eine ärztliche Bewilligung durch den Medizinischen Dienst erforderlich ist</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="ANH" gldsort="150" gldnr="2" ursprung="u">Anhang 2</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Provisorische Ersatzbescheinigung für die Europäische Krankenversicherungskarte</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="ANH" gldsort="150" gldnr="3" ursprung="u">Anhang 3</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Erklärung des in einem EU-Mitgliedstaat, EWR-Staat oder der Schweiz versicherten Patienten bei Inanspruchnahme von Sachleistungen während eines vorübergehenden Aufenthaltes in Österreich</inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="ANH" gldsort="150" gldnr="4" ursprung="u">Anhang 4</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">
+                  <i>(aufgehoben)</i>
+                </inhaltsvz>
+              </td>
+            </tr>
+            <tr style="page-break-inside:avoid;" h-start="-64">
+              <td colspan="2" style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="1592">
+                <inhaltsvz typ="eintrag" halign="j"><rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="ANH" gldsort="150" gldnr="5" ursprung="u">Anhang 5</rvolink></inhaltsvz>
+              </td>
+              <td style="vertical-align:top;border:none windowtext 0pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8591">
+                <inhaltsvz typ="eintrag" halign="j">Leistungsarten, für die eine elektronische Administrationsunterstützung durch das elektronische Kommunikationsservice (eKOS) besteht</inhaltsvz>
+              </td>
+            </tr>
+            <tr height="0" h-start="-64">
+              <td width="109" style="border:none" twips="1641" h-xval="1577"/>
+              <td width="1" style="border:none" twips="21" h-xval="1592"/>
+              <td width="467" style="border:none" twips="6999" h-xval="8591"/>
+            </tr>
+          </table>
+          <abstand halign="l">
+            <wechsel typ="s"/>
+          </abstand>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

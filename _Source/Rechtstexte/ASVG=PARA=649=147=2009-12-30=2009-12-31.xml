@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="ASVG=PARA=649=147=2009-12-30=2009-12-31" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="ASVG=PARA=649=147=2009-12-30=2009-12-31">
+<metadaten beschdat="2009-12-10" gldsort="70" gldart="PARA" berkz="KVL; UVL; PVL; VMB; ALLE; OV; REGR; VPAR; KA; RSP; AN; AG; SELB; " urheber="Bund" titrvo="Allgemeines Sozialversicherungsgesetz" gldnr="649" sichtbarkeit="p" abkrvo="ASVG" titaen="4. Sozialrechts-ÄnderungsG 2009 - 71. Novelle" dokart="BG" abkaen="4. SRÄG 2009" pubdat="2009-12-30" ikra="2009-12-31" nichtanzeigen="n">
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="147" begseite="6" jahrgang="2009"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+<ueberschrift typ="para" halign="c" level="3">Einmalzahlung</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 649. </gldsym>(1) Allen Personen mit gewöhnlichem Aufenthalt im Inland, die im Dezember 2009 Anspruch auf eine oder mehrere Pensionen haben, gebührt eine Einmalzahlung. Beträgt das Gesamtpensionseinkommen einer Person</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>bis zu 1 200 €, so beläuft sich die Einmalzahlung auf 4,2 % des Gesamtpensionseinkommens;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>mehr als 1 200 € bis zu 1 300 €, so beläuft sich die Einmalzahlung auf eine Höhe, die zwischen den genannten Werten von 4,2 % auf 0 % des Gesamtpensionseinkommens linear absinkt.</listelem>
+</ziffernliste>
+<schluss typ="Abs">Gesamtpensionseinkommen ist die Summe aller Pensionen aus der gesetzlichen Pensionsversicherung, auf die eine Person im Dezember 2009 Anspruch hat.</schluss>
+</liste>
+<absatz typ="abs" halign="j">(2) Die Einmalzahlung ist kein Pensionsbestandteil, sie ist aber zusammen mit der (höchsten) laufenden Pensionszahlung für Dezember 2009 zum 1. Jänner 2010 auszuzahlen.</absatz>
+<absatz typ="abs" halign="j">(3) Die Einmalzahlung gilt nicht als Nettoeinkommen im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="292" abs="3" ursprung="u">§ 292 Abs. 3</rvolink>. Von der Einmalzahlung sind keine Beiträge zur Krankenversicherung zu entrichten.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

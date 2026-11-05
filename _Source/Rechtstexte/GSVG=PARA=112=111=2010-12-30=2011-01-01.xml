@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="GSVG=PARA=112=111=2010-12-30=2011-01-01"><rvo dokidCms="GSVG=PARA=112=111=2010-12-30=2011-01-01">
+<metadaten gldsort="70" indbr="66.02.05" gldart="PARA" berkz="KVL; UVL; PVL; VMB; OV; AG; SELB;" beschdat="2010-12-20" urheber="Bund" titrvo="Gewerbliches Sozialversicherungsgesetz" gldnr="112" ikra="2011-01-01" sichtbarkeit="p" abkrvo="GSVG" titaen="BudgetbegleitG 2011 -  37. Novelle" dokart="BG" abkaen="BudgBeglG 2011" pubdat="2010-12-30">
+<uebrecht>
+<rvolink gldnr="284" gldart="PARA" abs="3" ursprung="a" abkrvo="GSVG" verwart="d">§ 284 Abs. 3 GSVG</rvolink>
+<textelem>SVÄG 2000, BGBl. I Nr. 43/2000, Ü. § 284 Abs. 3.</textelem></uebrecht>
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="111" begseite="146" jahrgang="2010"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Leistungen </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 112.</gldsym> (1) In der Pensionsversicherung nach diesem Bundesgesetz sind zu gewähren: </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>aus dem Versicherungsfall des Alters die Alterspension;</listelem>
+
+              <listelem>
+                <symbol stellen="3">2.</symbol>aus dem Versicherungsfall der Erwerbsunfähigkeit</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Maßnahmen der beruflichen Rehabilitation (<rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="131" ursprung="u">§ 131</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>die Erwerbsunfähigkeitspension (<rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="123" ursprung="u">§ 123</rvolink>);</listelem>
+            </literaliste><ziffernliste ebene="1">
+<listelem>
+<symbol>3.</symbol>aus dem Versicherungsfall des Todes </listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol>a)</symbol>die Hinterbliebenenpensionen (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="135" abkrvo="GSVG">§§ 135</rvolink>, <rvolink ursprung="u" abkrvo="GSVG" verwart="d" gldart="PARA" gldsort="70" gldnr="137" typ="e">137</rvolink>), </listelem>
+<listelem>
+<symbol>b)</symbol>die Abfindung (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="148a" abkrvo="GSVG">§ 148a</rvolink>). </listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Der Versicherungsträger trifft überdies – unbeschadet der Leistung nach Abs. 1 Z 2 lit. a aus dem Versicherungsfall der Erwerbsunfähigkeit – Maßnahmen der Rehabilitation (<rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="158" ursprung="u">§ 158</rvolink>) sowie Maßnahmen der Gesundheitsvorsorge (<rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="169" ursprung="u">§ 169</rvolink>).</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

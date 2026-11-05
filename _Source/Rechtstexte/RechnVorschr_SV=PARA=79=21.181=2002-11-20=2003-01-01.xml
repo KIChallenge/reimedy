@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=79=21.181=2002-11-20=2003-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=79=21.181=2002-11-20=2003-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMSG" berkz="OV;" sichtbarkeit="p" titaen="35. Änderung der Rechtsvorschriften für die Sozialversicherungsträger und den Hauptverband" abkaen="35. Änd RechnVorschr SV" pubdat="2002-11-20" ikra="2003-01-01" gldnr="79">
+<aendprot>
+<dfeintrag perskz="schaff" zeitpunkt="2003-04-07"/>
+<dfeintrag zeitpunkt="2003-04-07" perskz="schaff"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2003-12-03"/>
+<dfeintrag zeitpunkt="2004-02-13" perskz="mayerhof"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-11-29"/>
+</aendprot>
+<puborgane><puborgan puborg="Erlass" nrpuborg="21.181" jahrgang="2002"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">BEGRIFFSBESTIMMUNGEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 79.</gldsym> Im Sinne dieser Richtlinien sind:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Kosten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">der bewertete Verbrauch von Gütern, der durch die betriebliche Leistungserstellung verursacht wird; Kosten sind somit bewerteter leistungsbezogener Güterverbrauch. Der Begriff „leistungsbezogener Güterverbrauch“ kann alles umfassen, was zur Erstellung und Verwertung betrieblicher Leistungen verbraucht wird (z.B. Arbeitskraft, Dienstleistungen, Material, Energie, Kapital). Die Einschränkung „leistungsbezogen“ soll jenen Güterverbrauch aus dem Kostenbegriff ausschließen, der mit der Leistungserstellung und -verwertung nichts zu tun hat. Die Bewertungsgrundsätze der Weisungen für die Rechnungslegung (<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14" ursprung="u">§ 14</rvolink>) gelten für die Kostenrechnung entsprechend.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Aufwendungen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">der erfolgswirksame Verbrauch von Sachgütern, Arbeits- und Dienstleistungen des Gesamtbetriebes in einem Abrechnungszeitraum, unabhängig davon, ob dieser Verbrauch in unmittelbarem oder mittelbarem Zusammenhang mit der Erstellung der betrieblichen Leistung steht.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Kalkulatorische Kosten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">jener Teil der Kosten, der im Aufwand nicht oder in anderer Höhe aufscheint; das sind z.B. kalkulatorische Abschreibungen (<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="85" abs="4" ursprung="u">§ 85 Abs. 4</rvolink>, 
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="86" abs="4" ursprung="u">§ 86 Abs. 4</rvolink>) und andere mehr.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>Neutrale Aufwendungen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">jener Teil des Aufwandes, der nicht den Kosten zugerechnet werden kann. Dazu zählen betriebsfremde und sonstige neutrale Aufwendungen.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

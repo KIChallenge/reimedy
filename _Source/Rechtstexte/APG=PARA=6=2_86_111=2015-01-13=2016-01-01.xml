@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="APG=PARA=6=2_86_111=2015-01-13=2016-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="APG=PARA=6=86_111=2013-05-28=2016-01-01">
+<metadaten berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; RSP; AN; AG; SELB; " gldart="PARA" gldsort="70" titrvo="Allgemeines Pensionsgesetz" abkrvo="APG" dokart="BG" titaen="BudgBeglG 2011 idF SVÄG 2013 idF SVAG" abkaen="BudgBeglG 2011 idF SVÄG 2013 idF SVAG" urheber="Bund" sichtbarkeit="p" pubdat="2015-01-13" ikra="2016-01-01" gldnr="6" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2004-12-29"/>
+<dfeintrag zeitpunkt="2004-12-29" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-01-03"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="2" begseite="11" jahrgang="2015">BGBl. I  Nr. 2/2015 , S.11</puborgan><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="86" begseite="8" jahrgang="2013">BGBl. I  Nr. 86/2013 , S.8</puborgan><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="111" begseite="158" jahrgang="2010"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="c" typ="para">Invaliditäts-, Berufsunfähigkeits- und Erwerbsunfähigkeitspension, Ausmaß</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 6. </gldsym>(1) Wird die Invaliditäts- oder Berufsunfähigkeits- oder Erwerbsunfähigkeitspension nach Vollendung des 60. Lebensjahres in Anspruch genommen, so bestimmt sich das Ausmaß der Leistung nach 
+<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="u">§ 5</rvolink>, wobei das Höchstausmaß der Verminderung bei einem Pensionsantritt vor dem Regelpensionsalter 13,8 % dieser Leistung beträgt.</absatz>
+          
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Wird die Invaliditäts- oder Berufsunfähigkeits- oder Erwerbsunfähigkeitspension vor Vollendung des 60. Lebensjahres in Anspruch genommen, so sind zu ermitteln:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+                <symbol stellen="3">1.</symbol>die Leistung nach <rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="u">§ 5</rvolink> unter Anwendung des Abs. 1 letzter Halbsatz;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Zahl der Monate ab dem Stichtag (
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="223" abs="2" ursprung="u">§ 223 Abs. 2</rvolink> <nolink> ASVG</nolink>) bis zum Monatsersten nach Vollendung des 60. Lebensjahres (Zurechnungsmonate); fällt der Zeitpunkt der Vollendung des 60. Lebensjahres selbst auf einen Monatsersten, so gilt dieser Tag als Monatserster im Sinne des ersten Halbsatzes.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="satz" halign="j" widowctrl="1" keepwithnext="0">Das Ausmaß der Leistung ergibt sich aus der Leistung nach Z 1, wenn die Zahl der Versicherungsmonate den Wert von 476 Monaten übersteigt, sonst aus der Vervielfachung der Leistung nach Z 1 mit der Summe aus den Versicherungsmonaten und Zurechnungsmonaten, die den Wert von 476 Monaten nicht übersteigen darf, geteilt durch die Zahl der Versicherungsmonate.</absatz>
+<absatz typ="abs" halign="j">(3) Liegen ausschließlich Versicherungsmonate nach diesem Bundesgesetz vor, so sind bei der Anwendung des Abs. 2 jene Teilgutschriften, die bis zum Ablauf des Kalenderjahres der Vollendung des 18. Lebensjahres erworben wurden, sowie die darauf entfallenden Versicherungszeiten nur dann zu berücksichtigen, wenn dies für die versicherte Person günstiger ist.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

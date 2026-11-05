@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_BVAEB_2026=PARA=51=80=2025-12-22=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2025_0080_1767965010087">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2026" abkrvo="KrankenO BVAEB 2026" dokart="KrankenO" titaen="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2026 StF" abkaen="KrankenO BVAEB 2026 StF" urheber="BVAEB" beschdat="2025-12-10" pubdat="2025-12-22" ikra="2026-01-01" sichtbarkeit="p" gldart="PARA" gldnr="51" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="80" jahrgang="2025">avsv   Nr. 80/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="false">
+          <ueberschrift typ="para" halign="c" level="2">Europäische Krankenversicherungskarte – EKVK</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 51.</gldsym> (1) Die EKVK dient zur Dokumentation von Leistungsansprüchen im Sinn des <rvolink abkrvo="KrankenO BVAEB 2026" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="6" abs="1" lit="a" ursprung="u">§ 6 Abs. 1 lit. a</rvolink>. Die EKVK wird von der BVAEB ausgestellt durch Eintragung der hiefür vorgesehenen Angaben auf der Rückseite der e<gdash/>card. <rvolink abkrvo="KrankenO BVAEB 2026" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="49" ursprung="u">§ 49</rvolink> gilt sinngemäß.</absatz>
+          <absatz typ="abs" halign="j">(2) Die EKVK wird ausgestellt mit einer Gültigkeitsdauer</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>von zehn Jahren für Personen ab dem 60. Lebensjahr, die</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>eine Leistung aus der Pensionsversicherung oder einen Ruhe- oder Versorgungsgenuss beziehen und</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>wegen des Leistungsbezuges nach lit. a bei der BVAEB in der Krankenversicherung anspruchsberechtigt sind,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>in den letzten zehn Jahren vor der Ausstellung zusammengerechnet mindestens fünf Jahre sowie</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>im Jahr vor der Ausstellung mindestens 180 Tage</listelem>
+              <listelem>
+                <symbol stellen="2">in</symbol>einer Krankenversicherung versichert waren,</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">2.</symbol>von fünf Jahren für Personen, die</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>in den letzten zehn Jahren vor der Ausstellung zusammengerechnet mindestens fünf Jahre und</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>im Jahr vor der Ausstellung mindestens 180 Tage</listelem>
+              <listelem>
+                <symbol stellen="2">in</symbol>einer Krankenversicherung versichert waren,</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">3.</symbol>von einem Jahr für Personen, die</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>in den letzten fünf Jahren vor der Ausstellung zusammengerechnet mindestens ein Jahr und</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>im Jahr vor der Ausstellung mindestens 180 Tage</listelem>
+              <listelem>
+                <symbol stellen="2">in</symbol>einer Krankenversicherung versichert waren,</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">4.</symbol>bis zur Vollendung des 14. Lebensjahres, mindestens jedoch von fünf Jahren, für Kinder.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Für die Berechnung der Zeit, die nach Abs. 2 verstrichen sein muss, werden alle Zeiten (Wartezeiten, Vor-<br/>versicherungszeiten, Zeiten der Angehörigeneigenschaft) herangezogen, die nach den jeweils geltenden österreichischen oder zwischenstaatlichen Rechtsvorschriften für das Entstehen von Leistungsansprüchen in der Krankenversicherung anzurechnen sind.</absatz>
+          <absatz typ="abs" halign="j">(4) Eine EKVK wird erst dann gegen eine solche mit längerer Gültigkeitsdauer ausgetauscht, wenn sie nur mehr kürzer als ein Jahr gültig ist.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

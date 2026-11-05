@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="E-MVB=ZIFF=NSchG-0007==2024-09-01=2024-09-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="E-MVB=ZIFF=NSchG-0007==2024-09-01=2024-09-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens Neufassung 2024" abkaen="E-MVB NeuF 2024" urheber="DVSV" pubdat="2024-09-01" ikra="2024-09-01" berkz="KVL; " sichtbarkeit="p" gldnr="NSchG-0007" nichtanzeigen="n">
+<schlagw>
+<textelem>Beiträge - Beitragsgrundlagen</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2003-09-29"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-04-23"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>NSchG-0007</gldsym>
+</absatz>
+<absatz typ="satz" halign="j">Nachtarbeit und Schwerarbeit</absatz>
+<ueberschrift level="2" halign="c" typ="para">Beiträge - Beitragsgrundlagen</ueberschrift>
+<absatz typ="satz" halign="j">Die Höhe des Beitrages siehe www.sozialversicherung.at</absatz>
+<absatz typ="satz" halign="j">Der Nachtschwerarbeits-Beitrag ist von der allgemeinen Beitragsgrundlage bis zur jeweiligen Höchstbeitragsgrundlage zu entrichten (Arbeitgeberbeitrag). Der Nachtschwerarbeits-Beitrag ist auch von Sonderzahlungen im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="54" ursprung="u">§ 54</rvolink><nolink> ASVG</nolink> zu entrichten. Die Beurteilung der Beitragspflicht richtet sich dabei danach, ob der Monat, in dem die entsprechende Sonderzahlung fällig wird, als Nachtschwerarbeitsmonat gilt.</absatz>
+<absatz typ="satz" halign="j">Endet die Pflichtversicherung, so sind drei Fälle zu unterscheiden:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Die Pflichtversicherung endet zugleich mit dem Arbeitsverhältnis. Dies ist der Regelfall des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="11" ursprung="u">§ 11</rvolink><nolink> ASVG</nolink>, der in diesem Zusammenhang keine weiteren Probleme aufwirft.</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Die Pflichtversicherung endet vor dem Ende des Dienstverhältnisses (etwa wegen Ende des Entgeltfortzahlungsanspruches bei langen Krankenständen, etc.). In diesem Fall kann kein Nachtschwerarbeitsmonat nach dem Ende des Entgeltanspruches erworben werden, weil der Nachtschwerarbeitsmonat keine eigene Rechtsnatur hat, sondern das Vorliegen eines Versicherungsmonats voraussetzt. Mangels eines Entgelts ist auch der Beitrag gemäß <rvolink abkrvo="NSchG" verwart="d" typ="e" gldart="ART" gldsort="85" gldnr="XI" abs="3" ursprung="u">Art. XI Abs. 3</rvolink><nolink> NSchG</nolink> nicht zu entrichten.</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Der Entgeltanspruch reicht über das Ende des Arbeitsverhältnisses hinaus. In diesem Fall endet die Pflichtversicherung erst mit dem Ende des Entgeltanspruches. Dies bedeutet, dass Nachtschwerarbeitsmonate auch noch nach Beendigung des Arbeitsverhältnisses erworben werden können, wenn nach den Grundsätzen des Ausfallprinzips Nachtschwerarbeit verrichtet worden wäre, wenn das Arbeitsverhältnis weiter bestanden hätte.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

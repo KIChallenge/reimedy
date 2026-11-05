@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MKO_2016=PARA=64=161=2019-12-09=2020-01-01"><rvo dokidCms="MKO_2016=PARA=64=161=2019-12-09=2020-01-01" dokidSource="MKO_2016=PARA=64=92=2017-06-30=2017-07-01">
+      <metadaten nichtanzeigen="n" titrvo="Musterkrankenordnung 2016" abkrvo="MKO 2016" dokart="MusterR" titaen="7. Änderung der Musterkrankenordnung 2016" abkaen="7. Änd MKO 2016" urheber="Hauptverband" beschdat="2019-10-22" pubdat="2019-12-09" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="64" gldsort="70">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="161" jahrgang="2019"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="g2" halign="c" level="2">11. Abschnitt <br/>Melde- und Auskunftspflicht der Versicherten</ueberschrift>
+          <ueberschrift typ="para" halign="c" level="3">Meldepflicht <br/>(<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="40" ursprung="u">§ 40</rvolink><nolink> ASVG</nolink>)</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 64.</gldsym> (1) Wer Leistungen der Kasse erhält, muss jede Änderung</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>des Wohnsitzes,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>des Familienstandes,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>der Anspruchsberechtigung für Angehörige</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">längstens binnen zwei Wochen der Kasse melden.</schluss>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Diese Meldepflicht ist</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>vom/von der Versicherten oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>vom/von der Leistungsbezieher/in</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">zu erfüllen.</schluss>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Das Ende einer Arbeitsunfähigkeit ist der Kasse sofort zu melden. Diese Verpflichtung entfällt, wenn das Ende der Arbeitsunfähigkeit der Kasse direkt vom/von der behandelnden Arzt/Ärztin mitgeteilt wird.</absatz>
+          <absatz typ="abs" halign="j">(4) Wer während einer Arbeitsunfähigkeit bzw. des Anspruchs auf Rehabilitationsgeld seinen Aufenthalt innerhalb des Kassenbereiches ändern will, hat dies vorher der Kasse zu melden.</absatz>
+          <absatz typ="abs" halign="j">(5) Wer während einer Arbeitsunfähigkeit bzw. während des Anspruchs auf Rehabilitationsgeld den Kassenbereich verlassen will, hat vorher die Zustimmung der Kasse einzuholen. Diese ist zu erteilen, wenn</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>es von der behandelnden Stelle befürwortet wird,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>es sich nicht negativ auf den Heilungsverlauf bzw. die Einhaltung der im Rahmen des Case Managements nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="143b" ursprung="u">§ 143b</rvolink><nolink> ASVG</nolink> vereinbarten Maßnahmen (Versorgungsplan) auswirken kann und</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>am neuen Aufenthaltsort die notwendige medizinische Betreuung für die Fortführung der laufenden Behandlung bzw. die Umsetzung der im Versorgungsplan vereinbarten Maßnahmen gewährleistet ist.</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">Die Zustimmung ist höchstens für die voraussichtliche Dauer der Arbeitsunfähigkeit bzw. für jenen Zeitraum zu erteilen, der die Einhaltung der im Versorgungsplan vorgesehenen Maßnahmen durch die Versicherte/den Versicherten nicht gefährdet.</schluss>
+          </liste>
+        <absatz typ="abs" halign="j">(6) Versicherte, denen der Bezug von Wiedereingliederungsgeld bewilligt wurde, müssen</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>den Nichtantritt der Wiedereingliederungsteilzeit sowie einen Antritt der Wiedereingliederungsteilzeit zu einem von der Wiedereingliederungsvereinbarung abweichenden Zeitpunkt,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>jede Änderung der wöchentlichen Normalarbeitszeit, die von der Regelung in der Wiedereingliederungsvereinbarung abweicht</listelem>
+            </ziffernliste>
+          <schluss typ="Abs">der Kasse unverzüglich melden.</schluss></liste>
+          
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

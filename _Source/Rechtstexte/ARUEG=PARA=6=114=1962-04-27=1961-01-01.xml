@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="ARUEG=PARA=6=114=1962-04-27=1961-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="ARUEG=PARA=6=114=1962-04-27=1961-01-01">
+<metadaten gldnr="6" urheber="Bund" dokart="BG" abkrvo="ARÜG" titrvo="Auslandsrenten-Übernahmegesetz" ikra="1961-01-01" pubdat="1962-04-27" beschdat="1962-04-05" abkaen="Kunsttext 114/1962 ARÜG" titaen="Gesamtstand des Auslandsrenten-Übernahmegesetzes idF 114/1962" sichtbarkeit="p" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2003-07-23" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-07-08"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." nrpuborg="114" jahrgang="1962"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Berücksichtigung von Zeiten als Versicherungszeiten.</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 6.</gldsym> (1) Versicherungszeiten im Sinne des 
+<rvolink ursprung="u" lit="a" ziff="1" abs="1" gldnr="1" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 1 Abs. 1 Z 1 lit. a</rvolink> und 
+<rvolink ursprung="u" abs="4" gldnr="1" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">Abs. 4</rvolink> sind bei der Feststellung der Rente in der österreichischen Pensions(Renten)versicherung als Beitragszeiten im Sinne der jeweiligen österreichischen Vorschriften zu übernehmen. In der Pensionsversicherung der Arbeiter gelten jedoch solche Versicherungszeiten, wenn sie vor dem 1. Jänner 1939 erworben worden sind, als Ersatzzeiten (Vordienstzeiten) nach Maßgabe der österreichischen Vorschriften.</absatz>
+<absatz typ="abs" halign="j">(2) Zeiten im Sinne des <rvolink ursprung="u" lit="b" ziff="1" abs="1" gldnr="1" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 1 Abs. 1 Z 1 lit. b</rvolink> sind, soweit im Abs. 3 nichts anderes bestimmt wird, bei der Feststellung der Rente in der österreichischen Pensions(Renten)versicherung nach den jeweiligen österreichischen Vorschriften in der gleichen Weise zu berücksichtigen wie auf österreichischem Gebiet zurückgelegte Zeiten im Sinne des 
+<rvolink ursprung="u" lit="b" ziff="1" abs="1" gldnr="1" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 1 Abs. 1 Z 1 lit. b</rvolink>, für die nach den jeweils in Geltung gestandenen österreichischen Vorschriften keine Pensions(Renten)versicherung bestanden hat.</absatz>
+<absatz typ="abs" halign="j">(3) Zeiten nach Abs. 2, für welche die Versicherungspflicht in der Rentenversicherung des anderen Staates (<rvolink ursprung="u" abs="3" gldnr="1" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 1 Abs. 3</rvolink>, 
+<rvolink ursprung="u" gldnr="3" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ARÜG">§ 3</rvolink>) nur aus dem Grunde nicht bestanden hat, weil durch eine dienstrechtliche Versorgungseinrichtung für die Versicherungsfälle der Invalidität (Berufsunfähigkeit), des Alters und des Todes bereits vorgesorgt war, gelten bei der Feststellung der Rentenansprüche in der österreichischen Pensions(Renten)versicherung als Zeiten im Sinne des Abs. 1.</absatz>
+<absatz typ="abs" halign="j">(4) Zeiten nach Abs. 1 bis 3 sind in der österreichischen Pensions(Renten)versicherung so weit nicht zu berücksichtigen, als sie</absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>von einer österreichischen Gebietskörperschaft, einem anderen österreichischen öffentlich-rechtlichen Dienstgeber oder von solchen verwalteten Anstalten, Betrieben, Stiftungen oder Fonds beitragsfrei für die Bemessung eines Ruhe(Versorgungs)genusses angerechnet oder bei der Bemessung eines Ruhe(Versorgungs)genusses berücksichtigt werden, oder</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>von einem Träger der Sozialversicherung oder einer anderen Stelle eines Staates berücksichtigt werden, mit dem die Republik Österreich eine zwischenstaatliche Vereinbarung über Pensions(Renten)versicherung abgeschlossen hat.</listelem>
+</literaliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

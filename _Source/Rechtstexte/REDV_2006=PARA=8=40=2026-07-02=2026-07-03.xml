@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=8=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=8=127=2018-07-03=2018-07-04" dokidSource="REDV_2006=PARA=8=127=2018-07-03=2018-07-04">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="8" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Einrichtung und Betreuung von Standardprodukten und IT-Infrastruktur</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 8.</gldsym> (1) Im Rahmen von Standardprodukten haben Sozialversicherungsträger das ausschließliche Recht, gleichartige Aufgaben anderer Sozialversicherungsträger gemeinsam mit ihren eigenen Aufgaben abzuwickeln. Der für die Einrichtung zuständige STP-Auftragsverarbeiter (<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="2" ziff="1" ursprung="u">§ 5 Abs. 2 Z 1</rvolink>) </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>bzw. der für die Betreuung oder den Betrieb zuständige STP-Auftragsverarbeiter ist dann, wenn und soweit kein Sozialversicherungsträger oder nach dem 6. Abschnitt die ITSV-GmbH zu vergleichbaren Bedingungen, insbesondere jenen des EDV-Handbuches, entsprechende Leistungen übernimmt, berechtigt, nach den jeweils geltenden Regeln Aufträge an Marktteilnehmer zu vergeben,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>hat bei der Einrichtung des Standardproduktes darauf zu achten, dass das Standardprodukt auf den kompatiblen EDV-Anlagen (<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3" abs="1" ziff="1" ursprung="u">§ 3 Abs. 1 Z 1</rvolink>, <rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="23" bereich="F" ursprung="u">§§ 23 ff.</rvolink>) ohne wesentlichen Anpassungsaufwand ablauffähig ist; auf die Lauffähigkeit auf nichtkompatiblen Anlagen ist dabei nicht bzw. nur dann und nur im Rahmen der technischen und wirtschaftlichen Vertretbarkeit Bedacht zu nehmen, wenn dies in einem Beschluss über das Standardprodukt nach <rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="2" ursprung="u">§ 5 Abs. 2</rvolink> ausdrücklich gefordert ist und es sich nicht um geringfügige Angelegenheiten handelt,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>ist grundsätzlich auch für die gesamthafte Steuerung der späteren Wartung und Weiterentwicklung zuständig. Die Standardprodukte sind durch den STP-Auftragsverarbeiter jährlich einer Evaluation zu unterziehen, eine Kosten-/Nutzenbewertung ist aufzustellen,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>hat bei der Einrichtung und bei der Betreuung die Regeln des EDV-Handbuches (<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="16" ursprung="u">§ 16</rvolink>) einzuhalten.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Ist zur Bewältigung einer Aufgabe (eines Geschäftsfalles) der Sozialversicherung ein Produkt am Markt verfügbar, das die Kompatibilitätserfordernisse für Standardprodukte der Sozialversicherung erfüllt, dann hat der STP-Auftragsverarbeiter die Verwendbarkeit des Produktes zu überprüfen. Wenn </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>dieses Produkt über eine für die Anwendung in der Sozialversicherung hinreichende Funktionalität verfügt,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Wartung und Weiterentwicklung dieses Produktes ausreichend gesichert ist und</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Gesamtkosten (TCO - Total Cost of Ownership gemäß EDV-Handbuch, gerechnet über alle für das Standardprodukt in Betracht kommenden Sozialversicherungsträger) dieses Produktes geringer sind als die Gesamtkosten (TCO) eines eigenentwickelten Standardproduktes,</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">ist es als Standardprodukt für die allgemeine Verwendung anzuschaffen. Der STP-Auftragsverarbeiter hat die Verwendbarkeit in regelmäßigen Abständen zu prüfen und darüber der Konferenz zu berichten.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

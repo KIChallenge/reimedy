@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="BUAG=PARA=13c=47=2025-07-24=2026-01-01"><rvo dokidCms="BUAG=PARA=13c=71=2021-04-13=2021-04-01" dokidSource="BUAG=PARA=13c=71=2021-04-13=2021-04-01">
+<metadaten beschdat="2025-07-10" titrvo="Bauarbeiter-Urlaubs- und Abfertigungsgesetz" abkrvo="BUAG" dokart="BG" titaen="Teilpensionsgesetz - APG" abkaen="TeilpensionsG - APG" urheber="Bund" pubdat="2025-07-24" ikra="2026-01-01" sichtbarkeit="p" gldart="PARA" gldnr="13c" gldsort="70" nichtanzeigen="n">
+<anm>BGBl. I Nr. 152/2015 Art. 4 Z 2 wurde sinngemäß eingearbeitet.</anm><aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-08-03"/>
+<dfeintrag zeitpunkt="2005-01-20" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-01-21"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="47" begseite="9" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="c" typ="para"/><absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 13c.</gldsym> (1) Erfüllt ein Arbeitnehmer die Voraussetzungen des <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13b" ursprung="u">§ 13b</rvolink>, so sind für den Erwerb eines Abfertigungsanspruches anzurechnen</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Beschäftigungszeiten nach <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13b" ursprung="p">§ 13b</rvolink>,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>alle diesen nachfolgenden Beschäftigungszeiten gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="u">§ 5</rvolink> sowie</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="3" ursprung="p">§ 4 Abs. 3</rvolink> anzurechnenden Zeiten.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="satz" halign="j">Beschäftigungszeiten, die im Zeitpunkt ihrer Geltendmachung gegenüber der Urlaubs- und Abfertigungskasse oder sonstigen Feststellung durch die Urlaubs- und Abfertigungskasse länger als acht volle Zuschlagszeiträume zurückliegen, sind nur dann anzurechnen, wenn der Arbeitgeber die dafür gebührenden Zuschläge zum Lohn entrichtet. <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4a" abs="3" ursprung="u">§ 4a Abs. 3</rvolink> gilt sinngemäß.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Zeiten des Grundwehr- oder Ausbildungs- oder ordentlichen Zivildienstes sind jedoch sowohl für die Erfüllung der Voraussetzung des <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13b" ursprung="u">§ 13b</rvolink> als auch für die Anrechnung gemäß Abs. 1 nur heranzuziehen, wenn der Grundwehr- oder Ausbildungs- oder ordentliche Zivildienst während eines aufrechten Arbeitsverhältnisses geleistet wurde und die Art der Auflösung dieses Arbeitsverhältnisses nicht gemäß Abs. 4 Z 1 bis 4 erfolgte.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(3) Eine Kalenderwoche ist, ausgenommen in den Fällen der Anrechnung gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="4" abs="3" ursprung="u">§ 4 Abs. 3</rvolink>, als Beschäftigungswoche zu berücksichtigen, wenn sie die Voraussetzungen des <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" ursprung="u">§ 6</rvolink> erfüllt.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(4) Beschäftigungszeiten aus einem Arbeitsverhältnis bleiben sowohl für die Erfüllung der Voraussetzungen des <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13b" ursprung="u">§ 13b</rvolink> als auch bei der Anrechnung gemäß Abs. 1 unberücksichtigt, wenn dieses Arbeitsverhältnis durch</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Einvernehmen zwischen Arbeitgeber und Arbeitnehmer,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Kündigung seitens des Arbeitnehmers,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>vorzeitigen Austritt des Arbeitnehmers ohne wichtigen Grund oder</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Entlassung aus Verschulden des Arbeitnehmers</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">aufgelöst wird, soweit im folgenden nicht anderes bestimmt ist.</schluss>
+</liste>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(5) Endet ein Arbeitsverhältnis in den Fällen des <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13a" abs="1" ziff="1" ursprung="u">§ 13a Abs. 1 Z 1 bis 5</rvolink> sowie <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13a" abs="1" ziff="7" ursprung="u">7 bis 12</rvolink> durch Kündigung seitens des Arbeitnehmers, so sind die Beschäftigungszeiten aus diesem Arbeitsverhältnis sowohl für die Erfüllung der Voraussetzung des <rvolink ursprung="u" gldnr="13b" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="BUAG">§ 13b</rvolink> als auch bei der Anrechnung gemäß Abs. 1 zu berücksichtigen. Dasselbe gilt, wenn das Arbeitsverhältnis wegen Inanspruchnahme des Überbrückungsgeldes durch Kündigung seitens des Arbeitnehmers oder durch Einvernehmen zwischen Arbeitgeber und Arbeitnehmer endet. Dasselbe gilt auch dann, wenn dieses Arbeitsverhältnis durch den Arbeitnehmer gelöst wird (ausgenommen durch vorzeitigen Austritt ohne wichtigen Grund) um im Rahmen eines Arbeitsverhältnisses zu einem anderen Arbeitgeber eine Teilpension nach <rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4a" ursprung="u">§ 4a</rvolink> des Allgemeinen Pensionsgesetzes – <nolink>APG</nolink>, BGBl. I Nr. 142/2004, in Anspruch zu nehmen</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(6) Zeiten eines Lehrverhältnisses sind dann zu berücksichtigen, wenn die Zahl der Beschäftigungswochen einschließlich der Lehrzeit 364 Beschäftigungswochen beträgt. Überdies muß der Arbeitnehmer nach Vollendung der Lehrzeit die Voraussetzung des <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13b" ursprung="u">§ 13b</rvolink> erfüllen, es sei denn, diese wurde bereits in einem dem Lehrverhältnis vorangegangenen Arbeitsverhältnis erbracht. Zur Erfüllung der Voraussetzung des <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13b" ursprung="u">§ 13b</rvolink> in einem Arbeitsverhältnis nach Vollendung der Lehrzeit sind Beschäftigungszeiten aus einem unmittelbar vor dem Lehrverhältnis liegenden Arbeitsverhältnis zum selben Arbeitgeber heranzuziehen. Sofern die Lehrzeit bei Berechnung eines Abfertigungsanspruches gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13d" ursprung="u">§ 13d</rvolink> unberücksichtigt geblieben ist, gilt <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13e" abs="2" ursprung="u">§ 13e Abs. 2</rvolink> sinngemäß.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(7) Der Arbeitgeber hat der Urlaubs- und Abfertigungskasse im Rahmen der Meldung gemäß <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="u">§ 22</rvolink> die zur Beurteilung der Anrechnung nach Abs. 1 erforderlichen Angaben mitzuteilen.</absatz>
+<absatz typ="abs" halign="j">(8) Bestreitet der Arbeitnehmer die vom Arbeitgeber der Urlaubs- und Abfertigungskasse bekannt gegebene Beendigungsart, so hat er dies binnen drei Jahren ab Beendigung des Arbeitsverhältnisses gegenüber der Urlaubs- und Abfertigungskasse geltend zu machen. Dasselbe gilt für einen Arbeitgeber, der die von ihm bekannt gegebene Beendigungsart bei der Urlaubs- und Abfertigungskasse bestreitet. Die gerichtliche Geltendmachung der unrichtigen Beendigungsart ist binnen vier Jahren ab Beendigung des Arbeitsverhältnisses zulässig.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

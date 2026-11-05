@@ -1,0 +1,70 @@
+{
+ "ts": "2026-11-05T1859Z",
+ "ingest": [],
+ "diff": {
+  "documents": {
+   "aek_wien": {
+    "neu": 94,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "aek_wien:1e24426472032d3de67d631f3ca1bbd88cd17ce6#0",
+      "aek_wien:1e24426472032d3de67d631f3ca1bbd88cd17ce6#1",
+      "aek_wien:1e24426472032d3de67d631f3ca1bbd88cd17ce6#2",
+      "aek_wien:1e24426472032d3de67d631f3ca1bbd88cd17ce6#3",
+      "aek_wien:1e24426472032d3de67d631f3ca1bbd88cd17ce6#4"
+     ]
+    }
+   },
+   "sozdok_ris": {
+    "neu": 19911,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "sozdok_ris:ABVO_1996=PARA=1=301=1996-06-28=1996-07-01#0",
+      "sozdok_ris:ABVO_1996=PARA=1=301=1996-06-28=1996-07-01#1",
+      "sozdok_ris:ABVO_1996=PARA=2=301=1996-06-28=1996-07-01#0",
+      "sozdok_ris:ABVO_1996=PARA=3=301=1996-06-28=1996-07-01#0",
+      "sozdok_ris:ABVO_1996=PARA=4=301=1996-06-28=1996-07-01#0"
+     ]
+    }
+   }
+  },
+  "leistungen": {
+   "neu": [],
+   "geaendert": [
+    {
+     "leistung_id": "vorsorgeuntersuchung",
+     "name": "Vorsorgeuntersuchung (Gesundheits-Check)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "aek_wien",
+      "seed"
+     ]
+    }
+   ],
+   "entfernt": [],
+   "status": [
+    {
+     "leistung_id": "vorsorgeuntersuchung",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    }
+   ]
+  },
+  "stellen": {
+   "neu": 6,
+   "entfernt": 0,
+   "geaendert": 0
+  },
+  "formulare": {
+   "neu": 280,
+   "entfernt": 0,
+   "geaendert": 0
+  }
+ }
+}

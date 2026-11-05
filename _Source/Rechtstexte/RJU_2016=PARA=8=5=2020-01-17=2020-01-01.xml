@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="RJU_2016=PARA=8=5=2020-01-17=2020-01-01"><rvo dokidCms="RJU_2016=PARA=8=5=2020-01-17=2020-01-01" dokidSource="RJU_2016=PARA=8=85=2018-05-03=2018-01-08">
+      <metadaten gldart="PARA" gldsort="70" nichtanzeigen="n" titrvo="Richtlinien für die Durchführung und Auswertung der Jugendlichenuntersuchungen 2016" abkrvo="RJU 2016" dokart="RL DVSV" titaen="SV-OG Anpassungsverlautbarung" abkaen="SV-OG AnpVerl" urheber="Hauptverband" beschdat="2020-01-14" pubdat="2020-01-17" ikra="2020-01-01" sichtbarkeit="p" gldnr="8">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="5" jahrgang="2020" begseite="4"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt endnhier="true" nr="1" paperf="h" typ="ns">
+          <ueberschrift halign="c" typ="para" level="1">Tätigkeitsbericht</ueberschrift>
+          <absatz halign="j" typ="abs">
+            <gldsym>§ 8.</gldsym> Die Versicherungsträger, welche Jugendlichenuntersuchungen durchführen, haben für jedes Kalenderjahr bis zum 28. Februar des folgenden Jahres dem Dachverband einen Tätigkeitsbericht mit folgendem Inhalt zu übermitteln:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Anzahl der Zielpersonen je leistungszuständigem Versicherungsträger, getrennt nach Bundesland und Geschlecht. Als Zielperson gelten jene Jugendlichen gemäß <rvolink abkrvo="RJU 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" ursprung="u">§ 1</rvolink>, welche innerhalb des Berichtsjahres vom Versicherungsträger zu untersuchen wären.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Anzahl der zur Untersuchung eingeladenen Jugendlichen je leistungszuständigem Versicherungsträger, getrennt nach Bundesland und Geschlecht. Bei wiederholter Einladung eines Jugendlichen ist nur die erste zu zählen.</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Anzahl der untersuchten Jugendlichen je leistungszuständigem Versicherungsträger, getrennt nach Bundesland und Geschlecht.</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Anzahl der Jugendlichen, die an das Arbeitsinspektorat wegen Bedenken gemäß <rvolink abkrvo="RJU 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="7" ursprung="u">§ 7</rvolink> der Richtlinien gemeldet wurden, je leistungszuständigem Versicherungsträger, getrennt nach Bundesland und Geschlecht.</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Eine Darstellung des Untersuchungsablaufes mit folgenden Angaben:</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Art und Anzahl der mit Jugendlichenuntersuchungen befassten Untersuchungsstellen (Untersuchungsteam, Kontrollarzt, Amtsarzt, mobile Untersuchungsstelle usw.).</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>ob die Untersuchungen vom Arzt allein oder unter Heranziehung von anderen Gesundheitsberufen und/oder Hilfskräften durchgeführt wurden.</listelem>
+            </literaliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten deftab="36" footerd="36" gutter="0" gutterpos="0" headerd="17.85" margb="56.7" margl="56.7" margr="56.7" margt="70.9" paperf="7" paperh="841.9" paperw="595.3"/>
+    </rvo></sozdok>

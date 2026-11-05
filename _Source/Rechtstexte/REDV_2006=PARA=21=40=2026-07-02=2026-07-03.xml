@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=21=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=21=152=2013-12-19=2013-12-25" dokidSource="REDV_2006=PARA=21=152=2013-12-19=2013-12-25">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="21" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-07-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Erteilung von Aufträgen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 21.</gldsym> (1) Der Sozialversicherungsträger kann zusätzlich zum Inhalt von SLAs oder anderen Vereinbarungen im Einzelfall im Rahmen seiner gesetzlichen Koordinations- und Dienstleistungskompetenzen, insbesondere im Rahmen der Vollziehung aufsichtsbehördlicher Weisungen, der ITSV-GmbH zur raschen und vollständigen Umsetzung notwendiger Maßnahmen (z. B. Notfälle, rasche Reaktion auf Gesetzesänderungen)
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>für die Erledigung von Aufträgen nach diesen Richtlinien Fristen setzen, innerhalb deren jeweils genannte Aufträge durchzuführen sind und</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>im Notfall zwecks Aufrechterhaltung der Funktionsfähigkeit (Aufgabenumfang, Schnelligkeit, Einsatzfähigkeit für Massenanfragen usw.) der beim Sozialversicherungsträger bereits laufenden Software weitere Vorgaben machen, keinesfalls jedoch betreffend die Ausführung bestimmter IT-Aufgaben.</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">Anweisungsberechtigt in solchen Fällen sind nur die vertretungsbefugten Organe des Auftraggebers sowie die vom Auftraggeber der ITSV-GmbH gegenüber schriftlich bekannt gegebenen Personen. Weisungsempfänger ist die Geschäftsführung der ITSV-GmbH, welche diese so umzusetzen hat, als wäre sie die Leitung einer internen Dienststelle (Organisationseinheit) des Auftraggebers. Ein Durchgriffsrecht auf einzelne MitarbeiterInnen oder Vertragspartner der ITSV-GmbH besteht nicht.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Ein Sozialversicherungsträger, der Aufgaben an die ITSV-GmbH ausgelagert hat, kann von einer Beauftragung der ITSV-GmbH absehen, einen bereits erteilten Auftrag zurückziehen und im Markt vergeben, wenn
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>ein Auftrag ausdrücklich als dringend bezeichnet wurde und die ITSV-GmbH nicht auf Anfrage (ohne Anfrage spätestens bei Auftragserteilung) innerhalb von drei Arbeitstagen (gemessen an den Arbeitszeitregelungen des Auftraggebers) bekannt gibt, dass sie die Maßnahmen (auch durch Beiziehung zusätzlicher Personal- und Sachressourcen und vergaberechtskonforme Aufträge an Marktteilnehmer) in der notwendigen Art und/oder innerhalb der notwendigen Fristen und Kostenrahmen durchführen wird oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>bei anderen Aufträgen die Mitteilung nach Z 1 nicht innerhalb einer Woche erfolgt oder</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>ein ähnlicher Auftrag bereits früher nicht rechtzeitig oder in der vereinbarten Qualität erfüllt wurde und die ITSV-GmbH nicht zwischenzeitlich unter Angabe der entsprechend gesetzten Maßnahmen mitgeteilt hat, dass derartige Aufträge in Hinkunft weisungsgemäß durchgeführt werden können.</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">Der Auftraggeber ist in diesen Fällen von seinen Pflichten nach 
+<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="20" ursprung="u">§ 20</rvolink> befreit.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

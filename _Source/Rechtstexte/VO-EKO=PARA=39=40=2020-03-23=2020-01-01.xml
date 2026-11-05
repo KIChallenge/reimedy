@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="VO-EKO=PARA=39=40=2020-03-23=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="VO-EKO=PARA=39=159=2013-12-20=2014-01-01" dokidSource="VO-EKO=PARA=39=159=2013-12-20=2014-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkrvo="VO-EKO" dokart="VO" titaen="6. Änderung der Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkaen="6. Änd VO-EKO" urheber="DVSV" beschdat="2020-01-22" pubdat="2020-03-23" ikra="2020-01-01" sichtbarkeit="p" gldnr="39">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2005-10-04"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" begseite="1" jahrgang="2020"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="0" level="3" halign="c" typ="para">Informationspflicht</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 39.</gldsym> Das vertriebsberechtigte Unternehmen ist verpflichtet, dem Dachverband innerhalb eines Monats jede Änderung der Vertriebsberechtigung sowie folgende Änderungen in der Fach- und/oder Gebrauchsinformation der im Erstattungskodex angeführten Arzneispezialitäten schriftlich mitzuteilen; dabei hat das vertriebsberechtigte Unternehmen die Änderungen zu kennzeichnen und hervorzuheben:</absatz>
+
+<liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Bezeichnung</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Zusammensetzung,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Arzneiform oder Darreichungsform,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Teilbarkeit (für eine Dosisanpassung; keine Schmuckrillen oder Teilbarkeit zur Erleichterung der Einnahme)</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Anwendungsgebiete,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Dosierung und Art der Anwendung,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Gegenanzeigen,</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>Aufbewahrungshinweis,</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>Änderung des Rezeptpflichtstatus.</listelem>
+            </ziffernliste>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,119 @@
+{
+ "source_id": "wien_ogd",
+ "urls": [
+  {
+   "status": 200,
+   "sha256": "8647f451b9f40d8a1925dee3aa37a709a75abc899f97f74dee4737c83e5b0431",
+   "changed_at": "2026-11-05T19:43:08Z",
+   "fetched_at": "2026-11-05T19:44:44Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "AMBULANZOGD",
+   "n_features": 862,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:AMBULANZOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "1d9925ec5ff2e360e51107764b8c558e8df086ba69214f5a1288f2561723a586",
+   "changed_at": "2026-11-05T19:43:03Z",
+   "fetched_at": "2026-11-05T19:44:40Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "APOTHEKEOGD",
+   "n_features": 358,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:APOTHEKEOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "0efc8a3645dda0ab146cae15d0f6aec76d173d5f91684d0d8aeefc908c5cf292",
+   "changed_at": "2026-11-05T19:43:02Z",
+   "fetched_at": "2026-11-05T19:44:39Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "ARZTOGD",
+   "n_features": 7641,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:ARZTOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "0daf5cbab3c8e8bbc540408c0c04e178cc91b02f3cf9cddbf079937bb2b995f8",
+   "changed_at": "2026-11-05T19:43:10Z",
+   "fetched_at": "2026-11-05T19:44:46Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "BERATUNGSZENTROGD",
+   "n_features": 6,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:BERATUNGSZENTROGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "c8c51154031ea8cd06745c8dd15d85c99234dc7c54bb70a9496a210945a4aef1",
+   "changed_at": "2026-11-05T19:43:13Z",
+   "fetched_at": "2026-11-05T19:44:49Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "FAMHEBAMMEOGD",
+   "n_features": 4,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:FAMHEBAMMEOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "e1537054050da2e17216157b651999045272a30950b6cb82ebc1e509c7ef7374",
+   "changed_at": "2026-11-05T19:43:12Z",
+   "fetched_at": "2026-11-05T19:44:48Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "IMPFSTELLEOGD",
+   "n_features": 1,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:IMPFSTELLEOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "70a5e67b7943f3c17c18e9dfb4058d0bca540b1d41fbc344adce4f44c44579d2",
+   "changed_at": "2026-11-05T19:43:06Z",
+   "fetched_at": "2026-11-05T19:44:42Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "KRANKENHAUSOGD",
+   "n_features": 28,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:KRANKENHAUSOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "a999636f49a715fc793dd1f00171a304129845d02d3e296b67be4606d5f655e2",
+   "changed_at": "2026-11-05T19:44:41Z",
+   "fetched_at": "2026-11-05T19:44:41Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "PRIMAERVERSORGUNGOGD",
+   "n_features": 78,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:PRIMAERVERSORGUNGOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "a2a67911575c51ed88bdc62da1ea93018f0925aebb9740d71777313490542c44",
+   "changed_at": "2026-11-05T19:43:14Z",
+   "fetched_at": "2026-11-05T19:44:50Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "SOZIALMARKTOGD",
+   "n_features": 28,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:SOZIALMARKTOGD&srsName=EPSG:4326&outputFormat=json"
+  },
+  {
+   "status": 200,
+   "sha256": "79f3c374cf9d8ed6ba519e3b98947c997bf47515ca331e16142e091e088f14b2",
+   "changed_at": "2026-11-05T19:43:09Z",
+   "fetched_at": "2026-11-05T19:44:45Z",
+   "etag": null,
+   "last_modified": null,
+   "layer": "WOHNPFLEGEHAUSOGD",
+   "n_features": 134,
+   "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:WOHNPFLEGEHAUSOGD&srsName=EPSG:4326&outputFormat=json"
+  }
+ ],
+ "fetched_at": "2026-11-05T19:44:50Z",
+ "n_docs": 10,
+ "n_stellen": 9140,
+ "license": "CC BY 4.0 – Namensnennung: Stadt Wien – data.wien.gv.at"
+}

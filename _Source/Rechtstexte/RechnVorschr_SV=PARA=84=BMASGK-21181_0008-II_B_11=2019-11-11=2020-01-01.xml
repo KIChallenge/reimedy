@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=84=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=84=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" dokidSource="RechnVorschr_SV=PARA=84=21.181=1999-07-21=2000-01-01">
+<metadaten gldnr="84" ikra="2020-01-01" pubdat="2019-11-11" abkaen="51. Änd RechnVorschr SV" titaen="51. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" sichtbarkeit="p" urheber="BMASGK" dokart="Weisung" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<aendprot>
+<dfeintrag zeitpunkt="2002-11-28" perskz="schaff"/>
+<dfeintrag perskz="schaff" zeitpunkt="2002-12-02"/>
+<dfeintrag zeitpunkt="2003-02-12" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-13"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-21181/0008-II/B/11" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">KOSTENRECHNUNG DER VERSICHERUNGSTRÄGER (DES DACHVERBANDES), AUSGENOMMEN EIGENE EINRICHTUNGEN UND NEBENBETRIEBE</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 84.</gldsym> (1) Die Sozialversicherungsträger und der Dachverband (nicht jedoch die Versorgungsanstalt des österreichischen Notariates) haben für jedes Geschäftsjahr (Betriebsjahr) eine Kostenrechnung zu erstellen.</absatz>
+<absatz typ="abs" halign="j">(2) Die außerordentlichen Kosten gemäß <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="85" abs="5" ursprung="u">§ 85 Abs. 5</rvolink> sind nicht auf die Kostenstellen umzulegen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

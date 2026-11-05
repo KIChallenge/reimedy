@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="veraendW=ZAHL=19==1111-11-11=1111-11-11" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="veraendW=ZAHL=19==1111-11-11=1111-11-11">
+<metadaten gldart="ZAHL" gldsort="130" titrvo="veränderliche Werte Übersichtstabellen" abkrvo="veraendW" dokart="K" titaen="veränderliche Werte Übersichtstabellen StF" abkaen="veraendW StF" urheber="Bund" pubdat="1111-11-11" ikra="1111-11-11" berkz="KVL; UVL; PVL; KGALV; VMB; PFLEGE; EU; SVABK; ALLE; OV; DR; REGR; VPAR; KA; RSP; AN; AG; SELB; BEA; NOT; SONST; INTERN; HIST; KOMPL;" sichtbarkeit="p" gldnr="19">
+<schlagw>
+<textelem>Behandlungsbeitrag Ambulanz - § 135a ASVG</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag zeitpunkt="2004-01-13" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-05-10"/>
+<dfeintrag perskz="glueck" zeitpunkt="2006-02-16"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>19.</gldsym>
+</absatz>
+<ueberschrift level="1" halign="c" typ="para"> Behandlungsbeitrag Ambulanz - 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="135a" ursprung="p">§ 135a</rvolink> ASVG</ueberschrift>
+<table border="0" cellspacing="0" cellpadding="3" style="border-color:black;border-collapse:collapse;margin-left:0pt">
+<tr h-start="0">
+<td width="120.674995422363" align="left" valign="top" h-xval="1800">
+<absatz typ="tabtext"/>
+</td>
+<td width="130.799995422363" align="left" valign="top" h-xval="3750">
+<absatz typ="tabtext"/>
+</td>
+<td width="143.024997711182" align="left" valign="top" h-xval="5895">
+<absatz typ="tabtext"/>
+</td>
+<td width="98.0249977111816" align="left" valign="top" h-xval="7365">
+<absatz typ="tabtext"/>
+</td>
+</tr>
+<tr h-start="0">
+<td width="120.674995422363" align="center" valign="top" class="bottom right" h-xval="1800">
+<absatz typ="tabtextz"/>
+</td>
+<td width="130.799995422363" align="center" valign="top" class="left bottom" h-xval="3750">
+<absatz typ="tabtextz">mit Überweisung</absatz>
+</td>
+<td width="143.024997711182" align="center" valign="top" class="bottom" h-xval="5895">
+<absatz typ="tabtextz">ohne Überweisung</absatz>
+</td>
+<td width="98.0249977111816" align="center" valign="top" class="bottom" h-xval="7365">
+<absatz typ="tabtextz">Obergrenze</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="120.674995422363" align="center" valign="top" class="top right" h-xval="1800"/>
+<td colspan="3" width="130.799995422363" align="center" valign="middle" class="top left" h-xval="7365">
+<absatz typ="tabtextz">aufgehoben</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="120.674995422363" align="center" valign="top" class="right" h-xval="1800">
+<absatz typ="tabtextz">2002</absatz>
+</td>
+<td width="130.799995422363" align="center" valign="top" class="left" h-xval="3750">
+<absatz typ="tabtextz">10,90 €</absatz>
+</td>
+<td width="143.024997711182" align="center" valign="top" h-xval="5895">
+<absatz typ="tabtextz">18,17 €</absatz>
+</td>
+<td width="98.0249977111816" align="center" valign="top" h-xval="7365">
+<absatz typ="tabtextz">72,67 €</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td width="120.674995422363" align="center" valign="top" class="right" h-xval="1800">
+<absatz typ="tabtextz">2001</absatz>
+</td>
+<td width="130.799995422363" align="center" valign="top" class="left" h-xval="3750">
+<absatz typ="tabtextz">150 S</absatz>
+</td>
+<td width="143.024997711182" align="center" valign="top" h-xval="5895">
+<absatz typ="tabtextz">250 S</absatz>
+</td>
+<td width="98.0249977111816" align="center" valign="top" h-xval="7365">
+<absatz typ="tabtextz">1 000 S</absatz>
+</td>
+</tr>
+</table>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

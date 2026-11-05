@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Kostenersatz_fuer_den_Dachverband_der_Sozialversicherungstraeger_als_Verbindungsstelle_und_Zugangsstelle=PARA=3=326=2022-08-29=2022-08-30" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="Kostenersatz_Verbindungsstelle=PARA=3=326=2022-08-29=2022-08-30">
+      <metadaten nichtanzeigen="n" titrvo="Kostenersatz für den Dachverband der Sozialversicherungsträger als Verbindungsstelle und Zugangsstelle" abkrvo="Kostenersatz fuer den Dachverband der Sozialversicherungstraeger als Verbindungsstelle und Zugangsstelle" dokart="V" titaen="Kostenersatz für den Dachverband der Sozialversicherungsträger als Verbindungsstelle und Zugangsstelle StF" abkaen="Kostenersatz für den Dachverband der Sozialversicherungsträger als Verbindungsstelle und Zugangsstelle StF" urheber="BMSGPK" pubdat="2022-08-29" ikra="2022-08-30" sichtbarkeit="p" gldart="PARA" gldnr="3" gldsort="50">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="326" begseite="1" jahrgang="2022">BGBl. II  Nr. 326/2022 , S.1</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Kostenersatzpflichtige Träger</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 3.</gldsym> (1) Kostenersatzpflichtig für die Tätigkeit des Dachverbandes</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>als Verbindungsstelle sind jene Träger, für die der Dachverband nach <rvolink abkrvo="SV-EG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" ursprung="u">§ 4</rvolink> SV-EG Verbindungsstelle ist,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>als Zugangsstelle sind jene Träger, für die der Dachverband nach <rvolink abkrvo="SV-EG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="5" ursprung="u">§ 5</rvolink> SV-EG Zugangsstelle ist; sind Koordinierungsstellen nach <rvolink abkrvo="SV-EG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="5" abs="7" ursprung="u">§ 5 Abs. 7</rvolink> SV-EG eingerichtet, so treten diese an die Stelle der von ihnen zu koordinierenden Träger.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Besteht nach einem kostenersatzpflichtigen Träger ein Rechtsnachfolger, so sind die offenen <nolink>Kostenersätze</nolink> von diesem zu leisten.</absatz>
+          <absatz typ="abs" halign="j">(3) Von der Kostenersatzpflicht sind folgende Träger ausgenommen und gelten daher im Anwendungsbereich dieser Verordnung nicht als kostenersatzpflichtige Träger:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="454" ursprung="u">§ 454</rvolink><nolink> ASVG</nolink> verbandsbeitragspflichtigen Sozialversicherungsträger, wenn sie im Rahmen der gesetzlichen Sozialversicherung und nicht im übertragenen Wirkungsbereich tätig sind,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>die Landesgesundheitsfonds und</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>die Träger, mit denen der Dachverband eine Vereinbarung über die Abdeckung seiner Kosten geschlossen hat.</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

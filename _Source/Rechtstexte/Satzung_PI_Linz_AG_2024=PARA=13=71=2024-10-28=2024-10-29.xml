@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="Satzung_PI_Linz_AG_2024=PARA=13=71=2024-10-28=2024-10-29"><rvo dokidCms="Satzung_PI_Linz_AG_2024=PARA=13=71=2024-10-28=2024-10-29">
+      <metadaten nichtanzeigen="n" titrvo="Satzung des Pensionsinstitutes der Linz AG 2024" abkrvo="Satzung PI Linz AG 2024" dokart="Satzung" titaen="Satzung des Pensionsinstitutes der Linz AG 2024 StF" abkaen="Satzung PI Linz AG 2024 StF" urheber="PI Linz" beschdat="2024-10-09" pubdat="2024-10-28" ikra="2024-10-29" sichtbarkeit="p" gldart="PARA" gldnr="13" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="71" jahrgang="2024">avsv   Nr. 71/2024 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Aufgaben des Verwaltungsrates und seiner Ausschüsse</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 13.</gldsym> Dem Verwaltungsrat obliegt die Geschäftsführung, soweit diese nicht durch Gesetz (insbesondere <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="434" ursprung="u">§ 434</rvolink><nolink> ASVG</nolink>) oder Satzung der Hauptversammlung oder anderen Organen zugewiesen ist, sowie die Vertretung des Institutes. Dazu zählen im Hinblick auf das kapitalgedeckte beitragsorientierte Finanzierungssystem des Institutes insbesondere auch folgende Aufgaben:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die Festsetzung des <rvolink abkrvo="verändW" verwart="d" typ="e" gldart="ZAHL" gldsort="140" ursprung="u" gldnr="16">Anpassungsfaktors</rvolink> (<rvolink abkrvo="Satzung PI Linz AG 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="84" ursprung="u">§ 84</rvolink>);</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>die Bestellung von Aktuar und Prüfaktuar (<rvolink abkrvo="Satzung PI Linz AG 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="17" ursprung="u">§§ 17</rvolink> und <rvolink abkrvo="Satzung PI Linz AG 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="18" ursprung="u">18</rvolink>);</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>die Einsetzung von Experten-Beiräten zur Beratung des Institutes;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>die Beschlussfassung über den Geschäftsplan (<rvolink abkrvo="Satzung PI Linz AG 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="59" ursprung="u">§ 59</rvolink>);</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>die Beschlussfassung über die versicherungstechnische Bilanz (<rvolink abkrvo="Satzung PI Linz AG 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="61" ursprung="u">§ 61</rvolink>).</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="842" paperw="595.35" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

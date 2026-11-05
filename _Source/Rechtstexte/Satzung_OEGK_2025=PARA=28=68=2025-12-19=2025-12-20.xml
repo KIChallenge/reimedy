@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Satzung_OEGK_2025=PARA=28=68=2025-12-19=2025-12-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="Satzung_OEGK_2025=PARA=28=68=2025-12-19=2025-12-20">
+      <metadaten titrvo="Satzung der Österreichischen Gesundheitskasse 2025" abkrvo="Satzung OEGK 2025" dokart="Satzung" urheber="ÖGK" beschdat="2025-12-09" pubdat="2025-12-19" ikra="2025-12-20" sichtbarkeit="p" nichtanzeigen="n" titaen="Satzung der Österreichischen Gesundheitskasse 2025 StF" abkaen="Satzung ÖGK 2025 StF" gldart="PARA" gldnr="28" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="68" jahrgang="2025">avsv   Nr. 68/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Heilbehelfe <br/>(<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="137" ursprung="u">§ 137</rvolink><nolink> ASVG</nolink>)</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 28.</gldsym> (1) Die Österreichische Gesundheitskasse übernimmt die Kosten für notwendige Heilbehelfe in der Höhe des Achtfachen der täglichen Höchstbeitragsgrundlage (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="108" abs="3" ursprung="u">§ 108 Abs. 3</rvolink><nolink> ASVG</nolink>), jedoch begrenzt mit der Höhe der tatsächlichen Kosten.</absatz>
+          <absatz typ="abs" halign="j">(2) Die Österreichische Gesundheitskasse übernimmt die Kosten der Instandsetzung notwendiger Heilbehelfe in der Höhe des Achtfachen der täglichen Höchstbeitragsgrundlage (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="108" abs="3" ursprung="u">§ 108 Abs. 3</rvolink><nolink> ASVG</nolink>), wenn die Instandsetzung zweckentsprechend ist, jedoch begrenzt mit der Höhe der tatsächlichen Kosten.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Österreichische Gesundheitskasse übernimmt die Kosten für Kontaktlinsen in der Höhe des Achtfachen der täglichen Höchstbeitragsgrundlage (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="108" abs="3" ursprung="u">§ 108 Abs. 3</rvolink><nolink> ASVG</nolink>) unter Berücksichtigung der Mindestgebrauchsdauer gem. <rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="32" ursprung="u">§ 32</rvolink> der Krankenordnung, sofern keine Direktverrechnung aufgrund von vertraglichen Regelungen erfolgen kann, jedoch begrenzt mit der Höhe der tatsächlichen Kosten, bei Vorliegen folgender Indikationen:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Anisometropie ab 3 Dioptrien bei nachweislich vorhandenem Binokularsehen,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Regulärer Astigmatismus ab 3 Dioptrien,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Irregulärer Astigmatismus,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Keratokonus,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Hochgradige Myopie ab 6 Dioptrien,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Hypermetropie ab 6 Dioptrien,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Aphakie,</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>bei Erosion oder rezidivierender Erosion (nicht als Dauerversorgung),</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>nach Nasenbeinoperationen (postoperativ bis zu 12 Wochen),</listelem>
+              <listelem>
+                <symbol stellen="3">10.</symbol>Progrediente Myopie bei nachweislicher Dioptrienzunahme von mindestens einer Dioptrie pro Jahr bei Kindern und Jugendlichen bei Behandlung mit peripher Defokus modifizierten Kontaktlinsen oder Orthokeratologie-Linsen.</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

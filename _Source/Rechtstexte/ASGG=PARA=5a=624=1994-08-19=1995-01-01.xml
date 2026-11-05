@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="ASGG=PARA=5a=624=1994-08-19=1995-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="ASGG=PARA=5a=624=1994-08-19=1995-01-01">
+<metadaten pubdat="1994-08-19" abkaen="ASGGNov 1994" dokart="BG" titaen="Novelle 1994 zum Arbeits- und Sozialgerichtsgesetz" abkrvo="ASGG" sichtbarkeit="p" ikra="1995-01-01" fassung="6" gldnr="5a" titrvo="Arbeits- und Sozialgerichtsgesetz" urheber="Bund" beschdat="1994-07-16" berkz="OV; RSP;" gldart="PARA" indbr="14.02.2017" gldsort="70">
+<aendprot>
+<dfeintrag perskz="Altdaten" zeitpunkt="2001-07-08"/>
+<dfeintrag zeitpunkt="2003-06-05" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2003-06-05"/>
+<dfeintrag zeitpunkt="2003-06-05" perskz="polzer"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-11-22"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2006-10-18"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." nrpuborg="624" jahrgang="1994"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift typ="para" halign="c" level="4"/>
+<absatz typ="abs" halign="j">
+<gldsym>§ 5a.</gldsym> Für Rechtsstreitigkeiten, die sich auf die Konzernvertretung (
+<rvolink abkrvo="ASGG" gldnr="88a" ursprung="p" gldart="PARA" verwart="d">§§ 88a</rvolink>, 
+<rvolink abkrvo="ASGG" gldnr="88b" ursprung="p" gldart="PARA" verwart="d">88b</rvolink> ArbVG) beziehen, sind nur die Gerichte örtlich zuständig, in deren Sprengel ein Unternehmen des Konzerns seinen Sitz hat.  </absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=62=21.181=1999-07-21=2000-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=62=21.181=1999-07-21=2000-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMSG" sichtbarkeit="p" titaen="Gesamtstand idF 32. Änderung der Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Hauptverband - Rechnungsvorschriften RV" abkaen="Kunsttext 32. Änd RechnVorschr SV" pubdat="1999-07-21" ikra="2000-01-01" gldnr="62">
+<aendprot>
+<dfeintrag perskz="schaff" zeitpunkt="2002-11-28"/>
+<dfeintrag zeitpunkt="2002-12-02" perskz="schaff"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-02-11"/>
+<dfeintrag zeitpunkt="2003-04-16" perskz="schaff"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-13"/>
+</aendprot>
+<puborgane><puborgan puborg="Erlass" nrpuborg="21.181" jahrgang="1999"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">SCHRIFT- UND DATENGUT (DATENVERARBEITUNG)</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 62.</gldsym> (1) Für die Aufbewahrung des im Rahmen des Einsatzes von Datenverarbeitungsanlagen im Zusammenhang mit der Speicherung der Versicherungszeiten anfallenden Datengutes, welches nur auf Magnetbändern, Karten, Großraumspeichern oder sonstigen Speichermedien für spätere Auswertung gespeichert wurde, gilt die in 
+<rvolink ursprung="u" lit="b" abs="1" gldnr="58" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§ 58 Abs. 1 lit. b</rvolink> festgelegte Mindestfrist entsprechend.</absatz>
+<absatz typ="abs" halign="j">(2) Die Dauer der Aufbewahrung des sonstigen mit dem Einsatz von Datenverarbeitungsanlagen zusammenhängenden Schrift- und Datengutes (Analysen, Programme, Arbeitsanweisungen, Lochvorlagen, sonstige Eingabemittel und dergleichen) ist nach Maßgabe der betrieblichen Sicherheit im Sinne des <rvolink ursprung="u" abs="2" gldnr="58" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="RechnVorschr SV">§ 58 Abs. 2</rvolink> festzusetzen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

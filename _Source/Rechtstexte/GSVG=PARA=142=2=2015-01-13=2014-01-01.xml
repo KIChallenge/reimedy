@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="GSVG=PARA=142=2=2015-01-13=2014-01-01"><rvo dokidCms="GSVG=PARA=142=2=2015-01-13=2014-01-01" dokidSource="GSVG=PARA=142=412=1996-08-20=1996-08-01">
+<metadaten gldsort="70" indbr="66.02.05" gldart="PARA" berkz="KVL; UVL; PVL; VMB; AG; SELB;" beschdat="2014-12-10" urheber="Bund" titrvo="Gewerbliches Sozialversicherungsgesetz" gldnr="142" fassung="21" ikra="2014-01-01" sichtbarkeit="p" abkrvo="GSVG" titaen="Sozialversicherungs-AnpassungsG - 43. Novelle" dokart="BG" abkaen="SVAG" pubdat="2015-01-13">
+<uebrecht><textelem>17. Nov., BGBl. Nr. 295/1990, Ü. Art. IV Abs. 2 Z 1 – 1. 1. 1988.</textelem></uebrecht>
+<nichtdoknovs><textelem>§ 142: 17. Nov., BGBl. Nr. 295/1990, Art. I Z 32 – 1. 1. 1988; 19. Nov., BGBl. Nr. 336/1993, Art. I Z 69 – 1. 7. 1993; 21. Nov., BGBl. Nr. 412/1996, Z 61 – 1. 8. 1996.</textelem></nichtdoknovs>
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="2" begseite="8" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="4" halign="c" typ="para">Anrechnung von Beiträgen zur freiwilligen Versicherung für die Höherversicherung </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 142.</gldsym> Beiträge zur freiwilligen Versicherung in der Pensionsversicherung, die für Monate entrichtet wurden, die zum Stichtag auch Beitragsmonate der Pflichtversicherung nach diesem oder einem anderen Bundesgesetz, Beitragsmonate nach 
+<rvolink verwart="d" gldart="PARA" ursprung="p" ziff="2" abs="1" gldnr="115" abkrvo="GSVG">§ 115 Abs. 1 Z 2</rvolink> oder leistungswirksame Ersatzmonate nach diesem oder einem anderen Bundesgesetz sind, gelten als Beiträge zur Höherversicherung. Dies gilt nicht, wenn</absatz>
+<liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>es sich um Ersatzmonate nach <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="116a" ursprung="u">§ 116a</rvolink> oder <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="116b" ursprung="u">§ 116b</rvolink> handelt oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>durch Berücksichtigung der Grundlagen dieser Beiträge zur freiwilligen Versicherung bei der Ermittlung der Teilgutschrift nach <rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="12" abs="1" ursprung="u">§ 12 Abs. 1</rvolink><nolink> APG</nolink> das 420fache der täglichen Höchstbeitragsgrundlage im jeweiligen Kalenderjahr nicht überschritten wird.</listelem>
+            </ziffernliste>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

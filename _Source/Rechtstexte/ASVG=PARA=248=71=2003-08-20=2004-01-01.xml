@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASVG=PARA=248=71=2003-08-20=2004-01-01"><rvo dokidCms="ASVG=PARA=248=71=2003-08-20=2004-01-01">
+<metadaten gldsort="70" indbr="66.01.01" gldart="PARA" berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; AN; AG; SELB; " beschdat="2003-06-11" urheber="Bund" titrvo="Allgemeines Sozialversicherungsgesetz" gldnr="248" ikra="2004-01-01" sichtbarkeit="p" abkrvo="ASVG" titaen="BudgBeglG 2003" dokart="BG" abkaen="BudgBeglG 2003" pubdat="2003-08-20" nichtanzeigen="n">
+<durchfv>
+<textelem>Abs. 4:</textelem><rvolink ursprung="u" abkrvo="HöhVersFaktV 1985" verwart="d" gldsort="0" typ="e">HöhVersFaktV  1985</rvolink>
+</durchfv>
+<uebrecht>
+<rvolink abkrvo="ASVG" ursprung="u" verwart="s" gldart="PARA" gldsort="70" gldnr="581" abs="2a" pubdat="1999-08-19" ikra="1999-08-20" puborg="BGBl." gldpuborg="I" nrpuborg="173" jahrgang="1999" typ="e">§ 581 Abs. 2a ASVG idF 173/1999</rvolink>
+</uebrecht>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="71" begseite="1175" jahrgang="2003"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Höherversicherung, Berücksichtigung in der Leistung </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 248.</gldsym> (1) Für Beiträge zur Höherversicherung, die für Versicherungszeiten geleistet wurden oder nach den 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="70" abkrvo="ASVG">§§ 70</rvolink>, 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="248a" abkrvo="ASVG">248a</rvolink>, 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="248b" abkrvo="ASVG">248b</rvolink>, 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="248c" abkrvo="ASVG" gldsort="70">248c</rvolink>, 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="249" abkrvo="ASVG">249</rvolink> und 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="250" abkrvo="ASVG">250</rvolink> als geleistet gelten, ist ein besonderer Steigerungsbetrag zu gewähren. Die Höhe des besonderen Steigerungsbetrages errechnet sich bei der Pension aus eigener Pensionsversicherung mit Ausnahme der Knappschaftspension nach Maßgabe der Abs. 2 bis 5. Bei der Knappschaftspension gebührt der besondere Steigerungsbetrag in halber Höhe.</absatz>
+<absatz typ="abs" halign="j">(2) Für die Bemessung des besonderen Steigerungsbetrages sind Beiträge zur Höherversicherung, die für vor dem 1. Jänner 1956 gelegene Versicherungszeiten geleistet wurden oder als geleistet gelten, mit folgenden Beträgen anzusetzen:</absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol>a)</symbol>bei gesonderter Beitragsleistung zur Höherversicherung mit dem in der <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="ANL" gldsort="150" gldnr="3" ursprung="u">Anlage 3</rvolink> angegebenen Betrag;</listelem>
+<listelem>
+<symbol>b)</symbol>bei Beitragsleistung zur Höherversicherung gemeinsam mit dem Beitrag für die Pflicht- oder freiwillige Versicherung in einer der in <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="ANL" gldsort="150" gldnr="4" ursprung="u">Anlage 4</rvolink> angeführten Beitragsklassen mit dem in dieser Anlage angegebenen Betrag.</listelem>
+</literaliste>
+<schluss typ="Abs">Die Beträge der <rvolink ursprung="u" abkrvo="ASVG" verwart="d" gldart="ANL" gldsort="150" gldnr="3" typ="e">Anlagen 3</rvolink> und <rvolink ursprung="u" abkrvo="ASVG" verwart="d" gldart="ANL" gldsort="150" gldnr="4" typ="e">4</rvolink> sind, soweit sie die Zeiten vor dem 1. Jänner 1951 betreffen, mit dem für das Jahr 1951 geltenden <rvolink abkrvo="verändW" verwart="d" typ="e" gldart="ZAHL" gldsort="130" gldnr="16" ursprung="u">Aufwertungsfaktor</rvolink> (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="108c" abkrvo="ASVG">§ 108c</rvolink>), soweit sie die Zeit ab 1. Jänner 1951 betreffen, mit dem für das Jahr 1954 geltenden <rvolink abkrvo="verändW" verwart="d" typ="e" gldart="ZAHL" gldsort="130" gldnr="16" ursprung="u">Aufwertungsfaktor</rvolink> (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="108c" abkrvo="ASVG">§ 108c</rvolink>) aufzuwerten. Der besondere Steigerungsbetrag beträgt für Beiträge zur Höherversicherung für Versicherungszeiten aus der Zeit vor dem 1. Jänner 1956 monatlich 1 vH der Beiträge zur Höherversicherung.</schluss>
+</liste>
+<absatz typ="abs" halign="j">(3) Für die Bemessung des besonderen Steigerungsbetrages sind Beiträge zur Höherversicherung, die für nach dem 31. Dezember 1955, aber vor dem 1. Jänner 1986 gelegene Versicherungszeiten geleistet wurden oder als geleistet gelten, mit den ihrer zeitlichen Lagerung entsprechenden <rvolink abkrvo="verändW" verwart="d" typ="e" gldart="ZAHL" gldsort="130" gldnr="16" ursprung="u">Aufwertungsfaktoren</rvolink> (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="108c" abkrvo="ASVG">§ 108c</rvolink>) aufzuwerten. Der besondere Steigerungsbetrag beträgt für Beiträge zur Höherversicherung für Versicherungszeiten aus der Zeit nach dem 31. Dezember 1955 aber vor dem 1. Jänner 1986 monatlich 1 vH der Beiträge zur Höherversicherung.</absatz>
+<absatz typ="abs" halign="j">(4) Für die Bemessung des besonderen Steigerungsbetrages sind Beiträge zur Höherversicherung, die für nach dem 31. Dezember 1985 gelegene Versicherungszeiten geleistet wurden oder als geleistet gelten, mit dem ihrer zeitlichen Lagerung entsprechenden <rvolink abkrvo="verändW" verwart="d" typ="e" gldart="ZAHL" gldsort="130" gldnr="16" ursprung="u">Aufwertungsfaktor</rvolink> (<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="108c" abkrvo="ASVG">§ 108c</rvolink>) aufzuwerten und mit einem Faktor zu vervielfachen. Dieser Faktor ist durch Verordnung des Bundesministers für soziale Sicherheit, Generationen und Konsumentenschutz nach versicherungsmathematischen Grundsätzen festzusetzen. Die Verordnung bedarf der Zustimmung des Hauptausschusses des Nationalrates.</absatz>
+<absatz typ="abs" halign="j">(5) Der monatlich gebührende besondere Steigerungsbetrag für nach dem 31. Dezember 1985 gelegene Versicherungszeiten ist die Summe der nach Maßgabe des Abs. 4 berechneten Beträge für die jeweiligen Kalenderjahre, in denen Beiträge zur Höherversicherung geleistet wurden oder als geleistet gelten.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

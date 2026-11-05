@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="FSVG=PARA=5=4=2013-01-10=2013-01-01"><rvo dokidCms="FSVG=PARA=5=155=2005-12-28=2006-01-01">
+<metadaten gldsort="70" indbr="66.02.06" gldart="PARA" berkz="KVL; UVL; PVL; SELB; " beschdat="2012-12-05" urheber="Bund" titrvo="Freiberuflich Selbständigen-Sozialversicherungsgesetz" gldnr="5" fassung="10" ikra="2013-01-01" sichtbarkeit="p" abkrvo="FSVG" titaen="Pensionsfonds-ÜberleitungsG - 13. Novelle" dokart="BG" abkaen="PF-ÜG" pubdat="2013-01-10" nichtanzeigen="n">
+<aendprot>
+<dfeintrag zeitpunkt="2001-07-08" perskz="Altdaten"/>
+<dfeintrag perskz="schaff" zeitpunkt="2002-11-07"/>
+<dfeintrag perskz="polzer" zeitpunkt="2006-05-11"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="4" begseite="3" jahrgang="2013"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Ausnahmen von der Pflichtversicherung in der Pensionsversicherung </ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 5.</gldsym> Von der Pflichtversicherung in der Pensionsversicherung nach 
+<rvolink verwart="d" gldart="PARA" ursprung="p" gldnr="2" abkrvo="FSVG">§ 2</rvolink> sind ausgenommen </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>Personen im Sinne des 
+<rvolink verwart="d" gldart="PARA" ursprung="p" abs="2" gldnr="2" abkrvo="FSVG">§ 2 Abs. 2</rvolink>, die die Nichtausübung ihrer freiberuflichen Tätigkeit (Schließung der Ordination) der Ärztekammer oder der Österreichischen Zahnärztekammer angezeigt haben; </listelem>
+<listelem>
+<symbol>2.</symbol>Personen im Sinne des <rvolink abkrvo="FSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="1" ziff="1" ursprung="u">§ 2 Abs. 1 Z 1</rvolink> und <rvolink abkrvo="FSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="1" ziff="2" ursprung="u">2</rvolink> sowie des <rvolink abkrvo="FSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="2" ursprung="u">Abs. 2</rvolink>, die auf Grund einer Beschäftigung in einem öffentlich-rechtlichen oder privatrechtlichen Dienstverhältnis zu einer öffentlich-rechtlichen Körperschaft oder zu von solchen Körperschaften verwalteten Betrieben, Anstalten, Stiftungen und Fonds stehen, wenn ihnen aus ihrem Dienstverhältnis die Anwartschaft auf Ruhe- und Versorgungsgenuß zusteht, oder die auf Grund eines solchen Dienstverhältnisses einen Ruhegenuß beziehen; </listelem>
+<listelem>
+<symbol>3.</symbol>Angehörige der Orden und Kongregationen der Katholischen Kirche sowie der Anstalten der Evangelischen Diakonie;</listelem>
+<listelem>
+<symbol>4.</symbol>Personen im Sinne des <rvolink abkrvo="FSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="1" ziff="3" ursprung="u">§ 2 Abs. 1 Z 3</rvolink>, die das Ruhen ihrer Berufsbefugnis angezeigt haben.</listelem></ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

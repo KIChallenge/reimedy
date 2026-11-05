@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AbrGr_andere_Vertragspartner=PARA=11=29=2004-03-26=2004-03-15"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Einheitliche Grundsätze gemäß § 349a ASVG über die EDV-Abrechnung der Vertragspartner" abkrvo="AbrGr andere Vertragspartner" dokart="Abrechnungsregeln" titaen="1. Änderung der einheitlichen Grundsätze gemäß § 349a ASVG über die EDV-Abrechnung der Vertragspartner" abkaen="1. Änd AbrGr andere Vertragspartner" urheber="Hauptverband" beschdat="2004-03-15" pubdat="2004-03-26" ikra="2004-03-15" sichtbarkeit="p" gldnr="11">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-09-08"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-09-08"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="29" jahrgang="2004"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Datensatzbelegung</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 11.</gldsym> (1) Da die VT ab 1. Jänner 2003 die Versicherten nach 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="81" abs="1" ursprung="u">§ 81 Abs. 1</rvolink> ASVG zu informieren haben, ist das Datum der Erbringung der Leistung (Behandlungsdatum)  zwingend zu belegen. Hiefür sind unverzüglich die technischen bzw. administrativen Voraussetzungen zu schaffen. </absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Zum Zweck der ordnungsgemäßen Dokumentation sind in den entsprechenden Datensätzen die vom Hauptverband festgesetzten Diagnosecodes zwingend festzuhalten, sobald diese gesetzlich festgelegt wurden. Wird hinsichtlich der Diagnosecodes zwischen Dauerdiagnosen und aktuellen Diagnosen unterschieden, ist das Datum der Feststellung der aktuellen Diagnose zwingend anzugeben. </absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

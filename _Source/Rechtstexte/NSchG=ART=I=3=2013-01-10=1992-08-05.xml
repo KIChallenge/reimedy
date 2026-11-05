@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="NSchG=ART=I=3=2013-01-10=1992-08-05" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="NSchG=ART=I=3=2013-01-10=1992-08-05">
+      <metadaten nichtanzeigen="n" titrvo="NachtschwerarbeitsG" abkrvo="NSchG" dokart="BG" titaen="Gesamtstand NSchG idF 3/2013 (SRÄG 2012)" abkaen="Gesamtstand NSchG idF 3/2013" urheber="Bund" pubdat="2013-01-10" ikra="1992-08-05" sichtbarkeit="p" gldart="ART" gldnr="I" gldsort="80">
+        <puborgane>
+          <puborgan puborg="BGBl." gldpuborg="I" nrpuborg="3" jahrgang="2013" begseite="21">BGBl. I  Nr. 3/2013 , S.21</puborgan>
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="g1" halign="c">Artikel I</ueberschrift>
+          <ueberschrift typ="art" halign="c" level="1">Schutzmaßnahmen</ueberschrift>
+          <absatz typ="satz" halign="j">
+<gldsym>Art. I</gldsym>
+</absatz><absatz typ="abs" halign="j">Für Arbeitnehmer, die Nachtschwerarbeit leisten, sind nach Maßgabe der folgenden Artikel besondere Schutzmaßnahmen zur Verhinderung, Beseitigung oder Milderung der mit diesen Arbeiten verbundenen Erschwernisse oder zum Ausgleich von Belastungen vorgesehen:</absatz>
+          <absatz typ="abs" halign="j">Zusatzurlaub (<nolink>Art. II</nolink>, Art. XIIa)</absatz>
+          <absatz typ="abs" halign="j">Ruhepausen (<nolink>Art. III</nolink>),</absatz>
+          <absatz typ="abs" halign="j">Abfertigung (<rvolink abkrvo="NSchG" verwart="d" typ="e" gldart="ART" gldsort="80" gldnr="IV" ursprung="u">Art. IV</rvolink>),</absatz>
+          <absatz typ="abs" halign="j">Novellierung des Arbeitsverfassungsgesetzes (<nolink>Art. VI</nolink>),</absatz>
+          <absatz typ="abs" halign="j">Maßnahmen der Gesundheitsvorsorge und Sonderruhegeld (<rvolink abkrvo="NSchG" verwart="d" typ="e" gldart="ART" gldsort="80" gldnr="VII" bereich="BIS" bis="XII" ursprung="u">Art. VII bis XII</rvolink>)</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

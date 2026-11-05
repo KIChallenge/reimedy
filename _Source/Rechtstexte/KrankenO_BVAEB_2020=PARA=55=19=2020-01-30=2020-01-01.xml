@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_BVAEB_2020=PARA=55=19=2020-01-30=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KrankenO_BVAEB_2020=PARA=55=19=2020-01-30=2020-01-01">
+      <metadaten titrvo="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2020" abkrvo="KrankenO BVAEB 2020" dokart="KrankenO" urheber="BVAEB" beschdat="2020-01-17" pubdat="2020-01-30" ikra="2020-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau StF" abkaen="KrankenO BVAEB 2020 StF" gldart="PARA" gldsort="80" gldnr="55">
+        <puborgane><puborgan puborg="avsv" nrpuborg="19" jahrgang="2020" begseite="1">avsv   Nr. 19/2020 , S.1</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Sperre und Einzug, Rücksendung oder Vernichtung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 55.</gldsym> (1) Die BVAEB beschränkt die Schlüsselfunktion der e<gdash/>card in ELSY und/oder im für Sozialversicherungs<bdash/>zwecke vorgesehenen Bereich des Chips der e<gdash/>card ganz oder teilweise (Kartensperre),</absatz>
+          <liste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>falls die Karte auf Grund des Sachverhalts auf Dauer oder auf unbestimmte Zeit nicht mehr berechtigt verwendet werden kann (z. B. bei Tod des*der Anspruchsberechtigten),</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>im Fall einer Meldung nach <rvolink abkrvo="KrankenO BVAEB 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="54" abs="1" lit="b" ursprung="u">§ 54 Abs. 1 lit. b</rvolink>, oder falls die BVAEB die Karte aus anderen Gründen durch eine andere ersetzt (<rvolink abkrvo="KrankenO BVAEB 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="49" abs="4" ursprung="u">§ 49 Abs. 4</rvolink>, <rvolink abkrvo="KrankenO BVAEB 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="51" abs="4" ursprung="u">§ 51 Abs. 4</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>bei Verdacht auf unerlaubte Änderungen (<rvolink abkrvo="KrankenO BVAEB 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="53" abs="3" ursprung="u">§ 53 Abs. 3</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>bei Verdacht auf unrechtmäßige Verwendung.</listelem>
+            </literaliste>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die Sperre gilt für den Zuständigkeitsbereich der Sozialversicherung ab Kenntnis des maßgeblichen Sachverhalts auf Dauer. Sie wird ohne Vorankündigung und unabhängig davon verhängt,</absatz>
+          <liste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>ob ein aktueller Anspruch auf Versicherungsleistungen besteht und</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>auf welche Dauer eine auf der Rückseite der e<gdash/>card vorhandene EKVK ausgestellt ist.</listelem>
+            </literaliste>
+          </liste>
+          <absatz typ="abs" halign="j">Die Sperre verändert einen bestehenden Anspruch auf Versicherungsleistungen nicht. In den Fällen des Abs. 1 lit. c und d verständigt die BVAEB den Betroffenen*die Betroffene von der Sperre und deren Begründung und gibt ihm*ihr Gelegenheit zur Aufklärung des Sachverhalts.</absatz>
+          <absatz typ="abs" halign="j">(3) Der*Die Inhaber*in einer EKVK oder einer gesperrten e<gdash/>card hat diese unabhängig vom Grund der Sperre oder der Verwendbarkeitseinschränkung der BVAEB zu überlassen, wenn sie dies verlangt. In den Fällen des Abs. 1 lit. c und d wird eine e<gdash/>card (EKVK), die in den Einflussbereich der BVAEB gelangt, ohne Vorankündigung eingezogen.</absatz>
+          <absatz typ="abs" halign="j">(4) Eine e<gdash/>card, die auf Dauer nicht mehr benötigt wird (insbesondere aus den Gründen des Abs. 1 lit. a), kann der BVAEB übermittelt oder vernichtet werden. Möchte der*die Anspruchsberechtigte die e<gdash/>card (EKVK) keinesfalls verwenden, hat er*sie diese der BVAEB mit einem ausdrücklichen Verzicht auf die weitere Ausstellung zu übermitteln.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

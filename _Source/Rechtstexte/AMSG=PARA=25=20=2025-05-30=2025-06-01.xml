@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AMSG=PARA=25=20=2025-05-30=2025-06-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AMSG=PARA=25=32=2018-05-17=2018-05-25" dokidSource="AMSG=PARA=25=32=2018-05-17=2018-05-25">
+<metadaten gldart="PARA" gldsort="70" titrvo="Arbeitsmarktservicegesetz" abkrvo="AMSG" dokart="BG" titaen="Budgetsanierungsmaßnahmengesetz 2025 Teil II" abkaen="BSMG 2025 II" urheber="Bund" pubdat="2025-05-30" ikra="2025-06-01" sichtbarkeit="p" gldnr="25" nichtanzeigen="n" beschdat="2025-05-22">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2003-10-20"/>
+<dfeintrag perskz="glueck" zeitpunkt="2007-02-13"/>
+</aendprot>
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="20" begseite="19" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Datenverarbeitung</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 25.</gldsym> (1) Das Arbeitsmarktservice, das Bundesverwaltungsgericht und das Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz sind zur Verarbeitung von personenbezogenen Daten im Sinne des <nolink>Datenschutzgesetzes</nolink>, BGBl. I Nr. 165/1999, insoweit ermächtigt, als diese zur Erfüllung der gesetzlichen Aufgaben eine wesentliche Voraussetzung sind. Die in Frage kommenden Datenarten sind:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Stammdaten der Arbeitsuchenden:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Namen (Vornamen, Familiennamen),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Sozialversicherungsnummer und Geburtsdatum,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Geschlecht,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Staatsangehörigkeit, Aufenthalts- und Arbeitsberechtigungen,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Adresse des Wohnsitzes oder Aufenthaltsortes,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Telefonnummer,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>E-Mail-Adresse,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Bankverbindung und Kontonummer.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Daten über Beruf und Ausbildung:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Berufs- und Beschäftigungswünsche,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Ausbildungen und Ausbildungswünsche,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>bisherige berufliche Tätigkeiten,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>beruflich verwertbare Fähigkeiten und Fertigkeiten,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>sonstige persönliche Umstände, die die berufliche Verwendung berühren.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Daten über wirtschaftliche und soziale Rahmenbedingungen:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Familienstand (einschließlich Lebensgemeinschaft),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>unterhaltsberechtigte Kinder,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Art und Umfang von Sorgepflichten, die die Verfügbarkeit am Arbeitsmarkt berühren,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>sonstige Umstände, die die Verfügbarkeit am Arbeitsmarkt berühren,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>ausgeübte (geringfügige) Erwerbstätigkeiten,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Einkommen (eigenes Einkommen, Partnereinkommen),</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>außerordentliche Aufwendungen,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Versicherungszeiten,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>Bemessungsgrundlagen,</listelem>
+<listelem>
+<symbol stellen="2">j)</symbol>Höhe von Leistungen und Beihilfen,</listelem>
+<listelem>
+<symbol stellen="2">k)</symbol>Bezugszeiten von Leistungen und Beihilfen,</listelem>
+<listelem>
+<symbol stellen="2">l)</symbol>Zeiten der Arbeitsuche.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>Gesundheitsdaten:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>gesundheitliche Einschränkungen, die die Arbeitsfähigkeit oder die Verfügbarkeit in Frage stellen oder die berufliche Verwendung berühren,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>gesundheitliche Einschränkungen der Arbeitsuchenden und ihrer Angehörigen (einschließlich Lebensgefährten), die einen finanziellen Mehraufwand erfordern.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">5.</symbol>Daten über Beschäftigungsverläufe, Arbeitsuche und Betreuungsverläufe:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>bisherige Beschäftigungen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Umstände der Auflösung von Arbeitsverhältnissen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Pläne und Ergebnisse der Arbeitsuche und Betreuung,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Umstände des Nichtzustandekommens von Arbeitsverhältnissen,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Dauer und Höhe gewährter Beihilfen,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Sanktionen wegen Fehlverhaltens,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Betroffenheit von Streik oder Aussperrung.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">6.</symbol>Stammdaten der Arbeitgeber:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Firmennamen und Betriebsnamen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Firmensitz und Betriebssitz,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Struktur des Betriebes (zB Konzern-, Stamm-, Filialbetrieb),</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Betriebsgröße,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Betriebsgegenstand,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Branchenzugehörigkeit,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Zahl und Struktur der Beschäftigten,</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Betriebsinhaber und verantwortliche Mitglieder der Geschäftsführung,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>Ansprechpartner,</listelem>
+<listelem>
+<symbol stellen="2">j)</symbol>Dienstgeberkontonummer und Unternehmenskennzahl,</listelem>
+<listelem>
+<symbol stellen="2">k)</symbol>Telefonnummer,</listelem>
+<listelem>
+<symbol stellen="2">l)</symbol>E-Mail-Adresse,</listelem>
+<listelem>
+<symbol stellen="2">m)</symbol>sonstige Kontaktmöglichkeiten,</listelem>
+<listelem>
+<symbol stellen="2">n)</symbol>Bankverbindung und Kontonummer.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">7.</symbol>Daten über offene Stellen:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Beruf und Tätigkeiten,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>erforderliche und erwünschte Ausbildungen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>erforderliche und erwünschte Praxis,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>erforderliche und erwünschte Kenntnisse, Fähigkeiten und Voraussetzungen,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>besondere gesundheitliche Anforderungen der Arbeitsplätze,</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Arbeitsorte,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Arbeitszeit (Lage und Ausmaß),</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Entlohnung,</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>besondere Arbeitsbedingungen.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">8.</symbol>Daten über das Beschäftigungs- und Personalsuchverhalten der Arbeitgeber:</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Umstände der (geplanten oder erfolgten) Auflösung von Arbeitsverhältnissen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Umstände des Zustandekommens und des Nichtzustandekommens von Arbeitsverhältnissen,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Sanktionen wegen Fehlverhaltens,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Betroffenheit von Streik oder Aussperrung.</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">9.</symbol>Daten über den Migrationshintergrund:</listelem>
+</ziffernliste><literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>ehemalige ausländische Staatsangehörigkeit(en),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>(ehemalige) Anspruchsberechtigung(en) in der Krankenversicherung von Minderjährigen als Angehörige von (ehemaligen) ausländischen Staatsangehörigen.</listelem>
+
+
+</literaliste></liste>
+
+
+
+
+
+
+<absatz typ="abs" halign="j">(2) Die vom Arbeitsmarktservice oder vom Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz verarbeiteten Daten gemäß Abs. 1, mit Ausnahme von Gesundheitsdaten gemäß Abs. 1 Z 4, dürfen anderen Behörden, Gerichten, Trägern der Sozialversicherung und der Bundesanstalt Statistik Österreich im Wege der automationsunterstützten Datenverarbeitung offen gelegt werden, soweit die entsprechenden Daten für die Vollziehung der jeweiligen gesetzlich übertragenen Aufgaben eine wesentliche Voraussetzung bilden. Andere Behörden, Gerichte und die Träger der Sozialversicherung dürfen von ihnen verarbeitete Daten gemäß Abs. 1, mit Ausnahme von Gesundheitsdaten gemäß Abs. 1 Z 4, dem Arbeitsmarktservice und dem Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz im Wege der automationsunterstützten Datenverarbeitung offen legen, soweit diese Daten für die Vollziehung der dem Arbeitsmarktservice und dem Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz gesetzlich übertragenen Aufgaben eine wesentliche Voraussetzung bilden. Von den Trägern der Sozialversicherung übermittelte Daten gemäß Abs. 1 Z 9 dürfen vom Arbeitsmarktservice und vom Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz personenbezogen für Zwecke der nachhaltigen Arbeitsmarktintegration dieser Personengruppe verarbeitet werden.</absatz>
+          <absatz typ="abs" halign="j">(3) Die vom Arbeitsmarktservice verarbeiteten Daten gemäß Abs. 1 Z 1 dürfen den Kammern für Arbeiter und Angestellte und den Landarbeiterkammern im Wege der automationsunterstützten Datenverarbeitung offen gelegt werden, soweit die entsprechenden Daten zum Zweck der Erfassung der wahlberechtigten Arbeitslosen benötigt werden (<rvolink ursprung="u" abkrvo="Arbeiterkammergesetz 1992" verwart="d" gldart="PARA" gldsort="80" gldnr="34" abs="2" typ="e">§ 34 Abs. 2</rvolink> des <nolink>Arbeiterkammergesetzes</nolink> 1992, BGBl. Nr. 626/1991, und entsprechende landesgesetzliche Regelungen).</absatz>
+          <absatz typ="abs" halign="j">(4) Die vom Arbeitsmarktservice verarbeiteten Daten gemäß Abs. 1 dürfen an die Bundesrechenzentrum GmbH und an Einrichtungen, denen Aufgaben des Arbeitsmarktservice übertragen sind (<rvolink abkrvo="AMSG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="30" abs="3" ursprung="u">§ 30 Abs. 3</rvolink> und <rvolink abkrvo="AMSG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="32" abs="3" ursprung="u">§ 32 Abs. 3</rvolink>), im Rahmen der von diesen zu erbringenden Dienstleistungen im Wege der automationsunterstützten Datenverarbeitung übermittelt werden.</absatz>
+          <absatz typ="abs" halign="j">(5) Das Arbeitsmarktservice und das Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz dürfen die von ihnen verarbeiteten Daten gemäß Abs. 1, mit Ausnahme von Gesundheitsdaten gemäß Abs. 1 Z 4, an beauftragte Rechtsträger im Wege der automationsunterstützten Datenverarbeitung übermitteln, soweit die entsprechenden Daten eine unabdingbare Voraussetzung für die Erfüllung eines zur Beurteilung der Dienstleistungen, Beihilfen und sonstigen finanziellen Leistungen des <nolink>Arbeitsmarktservice vergebenen</nolink> Forschungsauftrages sind. Für im öffentlichen Interesse liegende wissenschaftliche und statistische Untersuchungen dürfen das Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz und das Arbeitsmarktservice die dafür erforderlichen Daten gemäß Abs. 1 (ausgenommen Z 1 lit. a und e bis h), verknüpft mit dem verschlüsselten bPK AS, der Bundesanstalt Statistik Österreich zum Zweck der Zusammenführung mit indirekt personenbezogenen Daten von anderen Behörden oder Sozialversicherungsträgern oder bei der Bundesanstalt vorhandenen Daten der Erwerbsbevölkerung übermitteln. Ebenso dürfen diese anderen Behörden oder Sozialversicherungsträger nach gesetzlichen Vorschriften verarbeitete Daten des eigenen staatlichen Tätigkeitsbereichs, verknüpft mit dem verschlüsselten bPK AS, der Bundesanstalt übermitteln. Eine Rückübermittlung zusammengeführter Daten oder die Ermöglichung der Wiederherstellung eines direkten Personenbezuges ist unzulässig. Die Bundesanstalt erstellt die wissenschaftlichen oder statistischen Auswertungen nach Beauftragung durch den Bundesminister für Arbeit, Soziales, Gesundheit und Konsumentenschutz. Die Bundesanstalt erbringt ihre Leistungen nach diesem Bundesgesetz gegen Kostenersatz gemäß <rvolink ursprung="u" abkrvo="Bundesstatistikgesetz 2000" verwart="d" gldart="PARA" gldsort="80" gldnr="32" abs="4" ziff="2" typ="e">§ 32 Abs. 4 Z 2</rvolink> des Bundesstatistikgesetzes 2000. Die zusammengeführten Daten sind, sobald sie für den Zweck der Untersuchung nicht mehr benötigt werden, spätestens nach drei Jahren, zu löschen.</absatz>
+          <absatz typ="abs" halign="j">(6) Die Bundesanstalt Statistik Österreich darf von ihr verarbeitete Stammdaten der Arbeitgeber gemäß Abs. 1 Z 6 und Daten über Ausbildungen gemäß Abs. 1 Z 2 lit. b und Z 7 lit. b dem Arbeitsmarktservice und dem Bundesministerium für Arbeit, Soziales, Gesundheit und Konsumentenschutz im Wege der automationsunterstützten Datenverarbeitung offenlegen, soweit diese Daten für Zwecke in ihren gesetzlichen Aufgabenbereich fallender wissenschaftlicher oder arbeitsmarktstatistischer Untersuchungen, die keine personenbezogenen Ergebnisse zum Ziel haben (<rvolink abkrvo="DSG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="7" ursprung="u">§ 7</rvolink><nolink> DSG</nolink>), eine wesentliche Voraussetzung bilden.</absatz>
+          <absatz typ="abs" halign="j">(7) Sofern dies für die Erfüllung der gesetzlichen Aufgaben erforderlich ist, dürfen Gesundheitsdaten (Abs. 1 Z 4) vom <nolink>Arbeitsmarktservice gegenüber</nolink> den zuständigen Trägern der Sozialversicherung, dem Sozialministeriumservice, den zuständigen Trägern der Sozialhilfe und Einrichtungen, denen Aufgaben des Arbeitsmarktservice übertragen sind (<rvolink abkrvo="AMSG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="30" abs="3" ursprung="u">§ 30 Abs. 3</rvolink> und <rvolink abkrvo="AMSG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="32" abs="3" ursprung="u">§ 32 Abs. 3</rvolink>) sowie von diesen gegenüber dem Arbeitsmarktservice offen gelegt werden.</absatz>
+          <absatz typ="abs" halign="j">(8) Arbeitgebern dürfen ausschließlich solche Daten gemäß Abs. 1 offen gelegt werden, die für die Begründung eines Arbeitsverhältnisses und die Beurteilung der beruflichen Eignung der Arbeitsuchenden benötigt werden. Gesundheitsdaten dürfen Arbeitgebern nicht offen gelegt werden.</absatz>
+          <absatz typ="abs" halign="j">(9) Die von Personen gemäß Abs. 1 gespeicherten Daten sind bis zehn Jahre nach dem Erreichen des Regelpensionsalters und der Erfüllung der Anwartschaft auf eine Pension aus einem der Versicherungsfälle des Alters aufzubewahren. Darin enthaltene Daten, die im Zusammenhang mit der Betreuung und Vermittlung erhoben wurden, sind spätestens sieben Jahre nach Beendigung des Geschäftsfalles zu löschen. Die Aufbewahrungsfrist verlängert sich jeweils um Zeiträume, in denen die Daten zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen weiterhin benötigt werden oder andere rechtliche Vorschriften längere Fristen vorsehen. Die Löschung von Daten ist aus wirtschaftlichen und technischen Gründen auf ein oder zwei Termine im Jahr zu konzentrieren. Bis dahin besteht kein Anspruch auf vorzeitige Löschung.</absatz>
+          <absatz typ="abs" halign="j">(9a) Zum Zweck der Arbeitsmarktforschung, -beobachtung und -statistik (<rvolink abkrvo="AMSG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="30" abs="2" ursprung="u">§ 30 Abs. 2</rvolink>) können Daten gemäß Abs. 1 indirekt personenbezogen bis zehn Jahre nach Erreichen des Regelpensionsalters weiterhin verwendet werden. Die Wiederherstellung des direkten Personenbezuges ist nicht zulässig. Die Rechte gemäß <nolink>Art. 15</nolink>, <nolink>16</nolink>, <nolink>18</nolink> und <nolink>21</nolink> der Verordnung (EU) 20216/619 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung), ABl. Nr. L 119 vom 4.5.2016 S. 1, sind auf diese indirekt personenbezogenen Daten nicht anwendbar.</absatz>
+          <absatz typ="abs" halign="j">(10) Das Arbeitsmarktservice hat unter Beachtung der wirtschaftlichen Vertretbarkeit und des Standes der Technik ausreichende Vorkehrungen für die Gewährleistung der Datensicherheit im Sinne der <nolink>Art. 24</nolink>, <nolink>25</nolink> und <nolink>32</nolink> der Verordnung (EU) Nr. 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung), ABl. Nr. L 119 vom 4.5.2016 S. 1, (im Folgenden: <wwwlink ursprung="u" url="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ:L:2016:119:FULL&amp; from=DE" gldart="KEIN" typ="e">DSGVO</wwwlink>) und des <rvolink abkrvo="DSG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="6" ursprung="u">§ 6</rvolink><nolink> DSG</nolink> zu treffen. Insbesondere sind Erfassungen oder Änderungen personenbezogener Daten nur durch die jeweils zuständigen Organisationseinheiten (Mitarbeiterinnen, Mitarbeiter) zulässig. Bei der Übermittlung personenbezogener Daten an Dritte ist durch technische oder organisatorische Maßnahmen sicherzustellen, dass nur die vorgesehenen Empfängerinnen und Empfänger Zugriff auf die Daten erlangen. Zugriffs- wie auch Leserechte sind nach den Aufgaben (Rollen) der jeweiligen Organisationseinheiten und Bediensteten zu gestalten. Der Zugriff auf personenbezogene Daten sowie jede Übermittlung von Gesundheitsdaten ist zu protokollieren. Protokolldaten dürfen nicht personenbezogen verwendet werden, außer dies ist zur Durchsetzung oder Abwehr rechtlich geltend gemachter Ansprüche, zur Sicherstellung der rechtmäßigen Verwendung der Datenverarbeitung oder aus technischen Gründen notwendig.</absatz>
+          <absatz typ="abs" halign="j">(11) Die auf Grundlage der Abs. 1 bis 10, des <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="69" ursprung="u">§ 69</rvolink><nolink> AlVG</nolink> sowie der <rvolink ursprung="u" abkrvo="AuslBG" verwart="d" gldart="PARA" gldsort="80" gldnr="27" typ="e">§§ 27</rvolink> und <rvolink ursprung="u" abkrvo="AuslBG" verwart="d" gldart="PARA" gldsort="80" gldnr="27a" typ="e">27a</rvolink> AuslBG vorzunehmenden Datenverarbeitungen erfüllen die Voraussetzungen des <nolink>Art. 35 Abs. 10 </nolink><wwwlink ursprung="u" url="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ:L:2016:119:FULL&amp; from=DE" gldart="KEIN" typ="e">DSGVO</wwwlink> für den Entfall der Datenschutz-Folgenabschätzung.</absatz>
+        
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RRZ_2008=PARA=21=55=2025-09-25=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RRZ_2008=PARA=21=55=2025-09-25=2026-01-01" dokidSource="RRZ_2008=PARA=21=5=2020-01-17=2020-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien für die Befreiung von der Rezeptgebühr 2008" abkrvo="RRZ 2008" dokart="RL DVSV" titaen="14. Änderung der Richtlinien für die Befreiung von der Rezeptgebühr 2008" abkaen="14. Änd RRZ 2008" urheber="Hauptverband" beschdat="2025-09-24" pubdat="2025-09-25" ikra="2026-01-01" sichtbarkeit="p" gldnr="21" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="Schwing" zeitpunkt="2008-02-01"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="55" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Heilmittelkostenkonto</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 21.</gldsym> (1) Der Dachverband der Sozialversicherungsträger hat für jede versicherte Person, die nicht aufgrund des 2. Teils von der Rezeptgebühr befreit ist, ein Heilmittelkostenkonto einzurichten.</absatz>
+
+<absatz typ="abs" halign="j">(2) Die Kontoführung beginnt mit dem Kalenderjahr 2008 und endet mit Ablauf jenes Kalenderjahres, in das der Tod der versicherten Person fällt.</absatz>
+          <absatz typ="abs" halign="j">(3) Für jedes Kalenderjahr der Kontoführung sind folgende Daten kontenmäßig zu erfassen:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die im Kalenderjahr von der versicherten Person bezahlten auf die Obergrenze anrechenbaren Beträge,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>das für das Kalenderjahr errechnete Jahresnettoeinkommen,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>das Vorliegen einer Befreiung von der Rezeptgebühr aufgrund des Erreichens der Obergrenze für die Entrichtung von Rezeptgebühren,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>die von der versicherten Person erworbenen Gutschriften.</listelem>
+            </ziffernliste>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

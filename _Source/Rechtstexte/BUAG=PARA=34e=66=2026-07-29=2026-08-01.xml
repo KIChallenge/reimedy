@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="BUAG=PARA=34e=66=2026-07-29=2026-08-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="BUAG=PARA=34e=66=2026-07-29=2026-08-01" dokidSource="BUAG=PARA=34d=66=2026-07-29=2026-08-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Bauarbeiter-Urlaubs- und Abfertigungsgesetz" abkrvo="BUAG" dokart="BG" titaen="Julinovelle 66/2026" abkaen="JuliNov 66/2026" urheber="Bund" pubdat="2026-07-29" ikra="2026-08-01" sichtbarkeit="p" gldnr="34e" beschdat="2026-07-07" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="66" begseite="2" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift typ="para" halign="c" level="2">Verantwortlichkeiten und Datensicherheitsmaßnahmen</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 34e.</gldsym> (1) Die Urlaubs- und Abfertigungskasse ist als Betreiberin des Systems Verantwortliche im Sinne des <nolink>Art. 4 Z 7</nolink> DSGVO für die von ihr nach den <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34a" bereich="BIS" bis="34d" ursprung="u">§§ 34a bis 34d</rvolink> verarbeiteten Daten. Sofern sich die Urlaubs- und Abfertigungskasse als Betreiberin des Systems der BauID<gdash/>GmbH als Dienstleisterin bedient, ist diese hinsichtlich der von ihr verarbeiteten Daten gesetzliche Auftragsverarbeiterin im Sinne des <nolink>Art. 4 Z 8</nolink> DSGVO. Sie ist in dieser Funktion verpflichtet, die Datenschutzpflichten gemäß <nolink>Art. 28 Abs. 3 lit. a</nolink> bis <nolink>h</nolink> DSGVO wahrzunehmen.</absatz>
+          <absatz typ="abs" halign="j">(2) Die Urlaubs- und Abfertigungskasse hat ein sicheres Verfahren zur Datenabfrage mittels der BauID<gdash/>Karte sicherzustellen und den Zugriff auf die von ihr verarbeiteten Daten mittels der BauID<gdash/>Karte zu dokumentieren. Innerhalb der Organisation der Urlaubs- und Abfertigungskasse sind die Zugangsberechtigungen und Zugriffsrechte auf die in den <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34b" abs="1" ziff="1" ursprung="u">§ 34b Abs. 1 Z 1</rvolink> bis <rvolink abkrvo="BUAG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="34b" abs="1" ziff="4" ursprung="u">4</rvolink> genannten personenbezogenen Daten zu regeln. Die im BauID<gdash/>System erfassten und verarbeiteten personenbezogenen Daten sind zu löschen, sobald sie nicht mehr benötigt werden, jedenfalls nach Ablauf von fünf Jahren nach der letztmaligen Verwendung der BauID<gdash/>Karte. Die Abfrageprotokolle sind zu löschen, sobald sie nicht mehr benötigt werden, jedenfalls nach Ablauf von drei Jahren nach Abfrage. Die Urlaubs- und Abfertigungskasse hat auf Basis eines IT<gdash/>Sicherheitskonzeptes alle getroffenen Datensicherheitsmaßnahmen zu dokumentieren. Aus dieser Dokumentation muss hervorgehen, ob sowohl der Zugriff als auch die Weitergabe der Daten ordnungsgemäß erfolgt und die Daten Unbefugten nicht zugänglich sind.</absatz>
+          
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="statWeis_KV_2020=PARA=44=BMASGK-20206/0012-II/B/6/2019=2019-12-18=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="statWeis_KV_2020=PARA=44=BMASGK-20206/0012-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen der Krankenversicherungsträger 2020" abkrvo="statWeis KV 2020" dokart="Weisung" titaen="Weisungen für die statistischen Nachweisungen der Krankenversicherungsträger 2020 Stammfassung" abkaen="statWeis KV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="44">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0012-II/B/6/2019">Erlass   Nr. BMASGK-20206/0012-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="g1" halign="c" level="1">
+            <gs>ABSCHNITT IV</gs>
+            <br/>KRANKENVERSICHERUNG NACH DEM <nolink>BSVG</nolink></ueberschrift>
+          <ueberschrift typ="para" halign="c" level="2">Verpflichtung zur Erstellung von Statistiken</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 44.</gldsym> Die Sozialversicherungsanstalt der Selbständigen als Krankenversicherungsträger hat für ihren Rechenkreis gemäß <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="4" abs="3" lit="b" ursprung="u">§ 4 Abs. 3 lit. b</rvolink> RV („Landwirtschaft“) statistische Nachweisungen für folgende Bereiche zu erstellen:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Versichertenstatistik (<rvolink abkrvo="statWeis KV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="45" ursprung="u">§ 45</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Leistungsstatistik (<rvolink abkrvo="statWeis KV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="46" bereich="BIS" bis="53" ursprung="u">§§ 46 bis 53</rvolink>)</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

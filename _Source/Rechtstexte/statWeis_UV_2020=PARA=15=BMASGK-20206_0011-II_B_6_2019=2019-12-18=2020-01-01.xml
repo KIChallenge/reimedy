@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="statWeis_UV_2020=PARA=15=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="statWeis_UV_2020=PARA=15=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen der Unfallversicherungsträger 2020" abkrvo="statWeis UV 2020" dokart="Weisung" titaen="Statistische Weisungen für die Unfallversicherung 2020 StF" abkaen="statWeis UV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="15">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0011-II/B/6/2019">Erlass   Nr. BMASGK-20206/0011-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Rentenstand-Statistik </ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 15.</gldsym> (1) Im Rahmen der Rentenstand-Statistik sind folgende Statistiken zu erstellen:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Rentenstand und Rentenbewegung (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="16" ursprung="u">§ 16</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Rentenstand nach Rentenarten und Versichertenkategorien (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="17" ursprung="u">§ 17</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Rentenstand nach Rentenarten und Bundesländern (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="18" ursprung="u">§ 18</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Versehrtenrenten nach Altersgruppen und Geschlecht (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="19" ursprung="u">§ 19</rvolink>)</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Unter dem Begriff "Rentenstand" wird der Stand im Dezember des jeweiligen Berichtsjahres verstanden.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Rentenstände und die zugehörigen Beträge müssen mit den entsprechenden Zahlen des <wwwlink ursprung="u" url="/fs/Formular_UM10_ab_2020.pdf" gldart="KEIN" typ="e">Formulars UM10</wwwlink> des Berichtsmonats Dezember übereinstimmen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

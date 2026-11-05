@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=20=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=20=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" dokidSource="RechnVorschr_SV=PARA=20=BMASGK-21181/0002-II/B/11=2018-12-10=2019-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMASGK" sichtbarkeit="p" titaen="51. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="51. Änd RechnVorschr SV" pubdat="2019-11-11" ikra="2020-01-01" gldnr="20" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="schaff" zeitpunkt="2002-11-28"/>
+<dfeintrag zeitpunkt="2002-12-05" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2002-12-19"/>
+<dfeintrag zeitpunkt="2003-02-04" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-02-10"/>
+<dfeintrag zeitpunkt="2003-12-03" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-12-09"/>
+<dfeintrag zeitpunkt="2004-02-12" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2004-07-20"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-21181/0008-II/B/11" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">DRUCKSORTEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 20.</gldsym> (1) Für die Rechnungslegung und Rechnungsführung der Sozialversicherungsträger sind die vom Dachverband mit Zustimmung des Bundesministeriums für Arbeit, Soziales, Gesundheit und Konsumentenschutz aufgelegten einheitlichen Vordrucke zu verwenden. Anstelle der aufgelegten Vordrucke können auch in Aufbau und Inhalt diesen Vordrucken entsprechende Computerausdrucke verwendet werden.</absatz>
+<absatz typ="abs" halign="j">(2) Einheitliche Vordrucke sind vorgesehen für die/den:</absatz>
+<liste>
+<literaliste ebene="2">
+<listelem>
+<symbol>a)</symbol>Erfolgsrechnung,</listelem>
+<listelem>
+<symbol>b)</symbol>vorläufige Erfolgsrechnung,</listelem>
+<listelem>
+<symbol>c)</symbol>Abrechnung für eigene Einrichtungen,</listelem>
+<listelem>
+<symbol>d)</symbol>Übersichtsbogen,</listelem>
+<listelem>
+<symbol>e)</symbol>Schlussbilanz,</listelem>
+<listelem>
+<symbol>f)</symbol>Rentabilitätsberechnung,</listelem>
+<listelem>
+<symbol>g)</symbol>Voranschlag (Haushaltsplan),</listelem>
+<listelem>
+<symbol>h)</symbol>Gebarungsvorschaurechnung,</listelem>
+<listelem>
+<symbol>i)</symbol>Einzelnachweisungen für die Erfolgsrechnung und Schlussbilanz,</listelem>
+<listelem>
+<symbol>j)</symbol>Monatsabrechnung.</listelem>
+</literaliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

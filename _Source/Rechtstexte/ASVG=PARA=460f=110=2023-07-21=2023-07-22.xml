@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASVG=PARA=460f=110=2023-07-21=2023-07-22"><rvo dokidCms="ASVG=PARA=460f=110=2023-07-21=2023-07-22" dokidSource="ASVG=PARA=460e=217_23=2022-12-29=2020-01-01">
+<metadaten pubdat="2023-07-21" abkaen="AbgÄG 2023" dokart="BG" titaen="AbgabenänderungsG 2023" abkrvo="ASVG" sichtbarkeit="p" ikra="2023-07-22" gldnr="460f" titrvo="Allgemeines Sozialversicherungsgesetz" urheber="Bund" berkz="KVL; UVL; PVL; " gldart="PARA" gldsort="70" nichtanzeigen="n" beschdat="2023-07-06">
+<durchfv><rvolink ursprung="u" abkrvo="REDV 2006" verwart="d" typ="e">REDV 2006</rvolink></durchfv>
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="110" begseite="39" jahrgang="2023"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="3" halign="c" typ="para">Datenübermittlung an den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz; Datenverarbeitung</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 460f.</gldsym> (1) Die Versicherungsträger und der Dachverband haben dem Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz zur Erfüllung seiner gesetzlichen Aufgaben anlassbezogen personenbezogene Daten im Sinne des Abs. 2 pseudonymisiert zu übermitteln. Dabei ist die Sozialversicherungsnummer als Pseudonym zu verwenden.</absatz>
+<absatz typ="abs" halign="j">(2) Der Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz ist zur Verarbeitung von personenbezogenen Daten im Sinne des <nolink>Datenschutzgesetzes</nolink>, BGBl. I Nr. 165/1999, insoweit ermächtigt, als diese zur Erfüllung der gesetzlichen Aufgaben eine wesentliche Voraussetzung sind. Die in Frage kommenden Datenarten sind:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Stammdaten:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Sozialversicherungsnummer und Geburtsdatum,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Geschlecht,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Wohnsitz (Bundesland oder Staat),</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Staatsbürgerschaft;</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">2.</symbol>Daten über Versicherungsverhältnisse:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Qualifikation (mit Von und Bis Datum),</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Beitragsgrundlage,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>anspruchsberechtigte Angehörige (Angehörigentyp, Geschlecht, Geburtsdatum),</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Betriebsinformation (Ö-NACE, Versicherungsträger, Bundesland);</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">3.</symbol>Daten betreffend Rehabilitationsgeld:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Versicherungsträger,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>medizinische Absprachen,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Krankheitsgruppe,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Weitergewährung nach befristeter Invaliditäts-/Berufsunfähigkeitspension,</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Höhe des Rehabilitationsgeldes,</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Qualifikation vor Rehabilitationsgeld;</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">4.</symbol>Daten über Pensionsanwartschaften der Aktiven:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Versicherungsträger,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Kontoerstgutschrift samt Berechnungsgrundlagen,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Gesamtgutschrift;</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">5.</symbol>Daten über Anträge auf Pensionsversicherungsleistungen:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Versicherungsträger,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Pensionsart,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Erledigungsart,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Krankheitsgruppe (bei abgelehnten Pensionen der geminderten Arbeitsfähigkeit),</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Art des Antrags,</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Dauer der Erledigung (Datum von Antrag und Erledigung);</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">6.</symbol>Daten über Versicherungsverläufe für die Pensionsberechnung:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Versicherungsträger,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Art der Pensionsleistung,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Qualifikation/Versicherungszeiten für die gesamte Versicherungskarriere (kalendermäßig),</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>jährliche Beitragsgrundlagen,</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Pensionshöhe,</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Frühstarterbonus;</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">7.</symbol>Leistungsdaten Pensionen:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Bestandskennzeichen (insbesondere Stand sowie Ab- und Zugänge),</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Versicherungsträger bzw. meldende Stelle,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Stichtag und Pensionsbeginn,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Daten zu weggefallenen Pensionsleistungen (insbesondere Abgangsursache und Sterbedatum),</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Daten zu zugegangenen Pensionsleistungen (insbesondere Zugangsursachen, Rechtslage und Berechnungsart),</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Pensionsart bzw. Leistungsart,</listelem>
+              <listelem>
+                <symbol stellen="2">g)</symbol>Höhe der Pensionsleistung und dafür maßgebliche Parameter (insbesondere Abschläge, Bonifikation und Hinzurechnung) bzw. Gesamtpensionseinkommen,</listelem>
+              <listelem>
+                <symbol stellen="2">h)</symbol>Zulagen und Zuschüsse (insbesondere Ausgleichszulage, Kinderzuschuss, Ausgleichszulagenbonus und Pensionsbonus) und Pflegegeld,</listelem>
+              <listelem>
+                <symbol stellen="2">i)</symbol>Versicherungsmonate,</listelem>
+              <listelem>
+                <symbol stellen="2">j)</symbol>Anwendung zwischenstaatlicher Abkommen (insbesondere Vertragsstaat),</listelem>
+              <listelem>
+                <symbol stellen="2">k)</symbol>Krankheitsgruppe (bei Pensionen der geminderten Arbeitsfähigkeit),</listelem>
+              <listelem>
+                <symbol stellen="2">l)</symbol>Lohnsteuer (insbesondere abgeführte Lohnsteuer und Absetzbeträge),</listelem>
+              <listelem>
+                <symbol stellen="2">m)</symbol>Krankenversicherungsabzug für ausländische Rente,</listelem>
+              <listelem>
+                <symbol stellen="2">n)</symbol>Anwendung der Begünstigungsbestimmung,</listelem>
+              <listelem>
+                <symbol stellen="2">o)</symbol>Sozialversicherungsnummer von Verstorbenen (bei Hinterbliebenenleistungen),</listelem>
+              <listelem>
+                <symbol stellen="2">p)</symbol>Sozialversicherungsnummer von Ehepartner/innen (bei Ausgleichszulagen),</listelem>
+              <listelem>
+                <symbol stellen="2">q)</symbol>Leistungen, die vom Sonderpensionenbegrenzungsgesetz, BGBl. I Nr. 46/2014, erfasst sind.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Der Zweck der Datenverarbeitung ist die Vollziehung der Gesetze, in denen ausdrücklich eine Mitarbeit des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz vorgesehen ist. Die Datenverarbeitung erfolgt dabei insbesondere zu folgenden Zwecken: Erstellung ministerieller Berichte und Gutachten, Vorbereitung von Ministerialentwürfen und Regierungsvorlagen (inklusive Wirkungsorientierter Folgenabschätzung), Evaluierung von Gesetzesänderungen, Beantwortung parlamentarischer und nicht-parlamentarischer Anfragen, Durchführung ministerieller Öffentlichkeitsarbeit, Erstellung von Budgets, Forschung und Statistik (etwa im Hinblick auf die langfristige Sicherung des Pensionssystems) und Erfüllung EU-rechtlicher und internationaler (Berichts<gdash/>)Pflichten.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

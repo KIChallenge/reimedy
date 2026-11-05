@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RPI_2025=PARA=4=18=2025-04-29=2025-05-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2025_0018_1745922487848">
+      <metadaten nichtanzeigen="n" titrvo="Richtlinien über die Abgabe von parallel importierten Arzneispezialitäten (RPI 2025)" abkrvo="RPI 2025" dokart="RL DVSV" titaen="Richtlinien über die Abgabe von parallel importierten Arzneispezialitäten 2025 StF" abkaen="RPI 2025 StF" urheber="DVSV" beschdat="2025-04-28" pubdat="2025-04-29" ikra="2025-05-01" sichtbarkeit="p" gldart="PARA" gldnr="4" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="18" jahrgang="2025">avsv   Nr. 18/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Nichtverfügbarkeit</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 4.</gldsym> (1) Eine Nichtverfügbarkeit iSd <rvolink abkrvo="RPI 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="2" abs="3" ursprung="u">§ 2 Abs. 3</rvolink> und <rvolink abkrvo="RPI 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="3" ursprung="u">§ 3</rvolink> liegt vor, wenn die Arzneispezialität nicht bis zum Ende des auf die Bestellung folgenden Tags geliefert werden kann. Ist der folgende Tag ein Sonn- oder Feiertag, liegt eine Nichtverfügbarkeit bereits dann vor, wenn eine Lieferung nicht am selben Tag erfolgen kann.</absatz>
+          <absatz typ="abs" halign="j">(2) Die Nichtverfügbarkeit ist</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>bis 31.12.2025 von dem/der Apotheker:in bzw. dem/der Hausapotheken führenden Ärzt:in durch eine Bestätigung eines Arzneimittel-Vollgroßhändlers iSd <nolink>§ 2 Abs. 3</nolink> Arzneimittelgesetz idgF, wobei das Datum der Ausstellung der Bestätigung zwischen dem Zeitpunkt der Ausstellung des Rezepts und dem Abgabezeitpunkt zu liegen hat und</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>ab 01.01.2026</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>von dem/der Apotheker:in durch die Bestätigungen aller Arzneimittel-Vollgroßhändler iSd <nolink>§ 2 Abs. 3</nolink> Arzneimittelgesetz idgF nachzuweisen, mit welchen der/die Apotheker:in in einer aufrechten Vertragsbeziehung steht. Bei Arzneispezialitäten, die von einem Direct-to-Pharmacy Vertriebsmodell betroffen sind, ist die Nichtverfügbarkeit durch eine Bestätigung des vertriebsberechtigten Unternehmens nachzuweisen.</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>von dem/der Hausapotheken führenden Ärzt:in weiterhin gemäß Abs. 2 Z 1 nachzuweisen.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Der/Die Apotheker bzw. der/die Hausapotheken führende Ärzt:in hat die Nichtverfügbarkeit zu dokumentieren und</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>bis 31.12.2025 im Rahmen der Abrechnung die Nachweise der Nichtverfügbarkeit gemäß Abs. 2 (inkl. Angabe der zum Rezept gehörigen Versicherungsnummer auf dem Nachweis) den Krankenversicherungsträgern zu übermitteln. Bei Vorliegen eines Papierrezepts ist darauf eine schriftliche Anmerkung anzubringen. Als Bestätigungsnachweise gelten die Ablichtungen einer Verfügbarkeitsabfrage in der Software zum Abgabezeitpunkt sowie schriftliche Bestätigungen des Arzneimittelgroßhändlers oder des vertriebsberechtigten Unternehmens (Direct-to-Pharmacy) und</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>ab 01.01.2026 die Nachweise der Nichtverfügbarkeit den Krankenversicherungsträgern elektronisch zu übermitteln.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(4) Unterliegt die Arzneispezialität einer Kontingentierung, kann die Bestätigung der Nichtverfügbarkeit durch den Nachweis der Ausschöpfung des Kontingents ersetzt werden. Dieser Nachweis gilt durch elektronische Übermittlung einer Lagerbestandsabfrage als erbracht.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

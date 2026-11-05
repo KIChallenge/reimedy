@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="statWeis_SV_2020=PARA=7=20206/0015-II/B/6/2019=2019-12-18=2020-01-01"><rvo dokidCms="statWeis_SV_2020=PARA=7=20206/0015-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020" abkrvo="statWeis SV 2020" dokart="Weisung" titaen="Weisungen für die statistischen Nachweisungen für den Bereich der gesamten Sozialversicherung 2020 (Neufassung) StF " abkaen="statWeis SV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="7" berkz="KVL; ">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="20206/0015-II/B/6/2019">Erlass   Nr. 20206/0015-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Personenbezogene Auswertungen</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 7.</gldsym> Aus der Versicherungsdatei des Dachverbandes sind folgende personenbezogene Auswertungen zu erstellen:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Auswertung zum Stichtag 1. Juli (<rvolink abkrvo="statWeis SV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="8" ursprung="u">§ 8</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Auswertung zum Stichtag 31. Dezember (<rvolink abkrvo="statWeis SV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="9" ursprung="u">§ 9</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Monatliche Auswertung über KinderbetreuungsgeldbezieherInnen (<rvolink abkrvo="statWeis SV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="10" ursprung="u">§ 10</rvolink>)</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

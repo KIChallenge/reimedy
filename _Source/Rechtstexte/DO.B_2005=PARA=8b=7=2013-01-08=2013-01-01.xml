@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.B_2005=PARA=8b=7=2013-01-08=2013-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.B_2005=PARA=8b=7=2013-01-08=2013-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung B für die Ärzte und Dentisten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.B 2005" dokart="DO" titaen="80. Änderung der Dienstordnung B für die Ärzte bei den Sozialversicherungsträgern Österreichs 2005" abkaen="80. Änd DO.B 2005" urheber="Hauptverband" beschdat="2012-12-18" pubdat="2013-01-08" ikra="2013-01-01" sichtbarkeit="p" gldnr="8b" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="7" jahrgang="2013"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift halign="c" typ="para" level="2">Supervision</ueberschrift>
+<absatz halign="j" typ="abs">
+						<gldsym>§ 8b.</gldsym> (1) ÄrztInnen in Krankenanstalten gemäß <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="6" ziff="1" lit="a" ursprung="u">§ 1 Abs. 6 Z 1 lit. a</rvolink>, <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="6" ziff="1" lit="b" ursprung="u">b</rvolink>, und <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="6" ziff="1" lit="d" ursprung="u">d</rvolink> haben unter Bedachtnahme auf das KAKuG und die Ausführungsgesetze der Bundesländer Anspruch auf Supervision. Darüber hinaus können ÄrztInnen in anderen Bereichen Supervisionsmaßnahmen angeboten werden, wenn diese besonders belastenden Arbeitssituationen ausgesetzt sind.</absatz>
+<absatz halign="j" typ="abs">(2) Art und Umfang der Supervisionsmaßnahmen können in einer Betriebsvereinbarung geregelt werden, welche insbesondere beinhaltet:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Festlegung der Dienstnehmergruppen, denen Supervisionsmaßnahmen angeboten werden;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Festlegung der konkreten Supervisionsmaßnahmen für die jeweilige Berufsgruppe;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Regelungen für die Inanspruchnahme von Supervisionsmaßnahmen;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Auswahl der Anbieter von Supervisionsmaßnahmen;</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>die Arbeitszeitanrechnung für Supervisionsmaßnahmen;</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Mögliche Obergrenzen der Kostenübernahme durch den Arbeitgeber oder Selbstbehalte durch die ÄrztInnen.</listelem>
+            </ziffernliste>
+          </liste></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

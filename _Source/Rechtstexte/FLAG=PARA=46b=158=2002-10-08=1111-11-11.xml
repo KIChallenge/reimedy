@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="FLAG=PARA=46b=158=2002-10-08=1111-11-11" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="FLAG=PARA=46b=158=2002-10-08=1111-11-11">
+<metadaten pubdat="2002-10-08" gldart="PARA" gldsort="70" titrvo="Familienlastenausgleichsgesetz 1967" abkrvo="FLAG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="Gesamtstand FLAG idF 158/2002" abkaen="OktoberNov 158/2002" ikra="1111-11-11" gldnr="46b" nichtanzeigen="n">
+<uebrecht>
+<rvolink abkrvo="FLAG" ursprung="u" verwart="d" gldart="ART" gldsort="80" typ="e" gldnr="II">Art. II FLAG</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-15"/>
+<dfeintrag zeitpunkt="2003-05-16" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-16"/>
+<dfeintrag zeitpunkt="2003-05-16" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-23"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="158" begseite="1646" jahrgang="2002"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="abs" halign="j">
+<gldsym>§ 46b.</gldsym> In Anträgen auf Gewährung von Beihilfen nach diesem
+Bundesgesetz sind die zur Durchführung des Verfahrens erforderlichen
+Versicherungsnummern gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="31" ursprung="u">§ 31 </rvolink>des Allgemeinen
+Sozialversicherungsgesetzes anzugeben.
+</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

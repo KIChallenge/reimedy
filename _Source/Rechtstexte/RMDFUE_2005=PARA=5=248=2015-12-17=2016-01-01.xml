@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RMDFUE_2005=PARA=5=248=2015-12-17=2016-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RMDFUE_2005=PARA=5=248=2015-12-17=2016-01-01" dokidSource="RMDFUE_2005=PARA=5=153=2013-12-19=2014-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über Ausnahmen von der Meldungserstattung mittels Datenfernübertragung 2005" abkrvo="RMDFUE 2005" dokart="RL DVSV" titaen="4. Änderung der Richtlinien über Ausnahmen von der Meldungserstattung mittels Datenfernübertragung 2005" abkaen="4. Änd RMDFUE 2005" urheber="Hauptverband" beschdat="2015-12-15" pubdat="2015-12-17" ikra="2016-01-01" sichtbarkeit="p" gldnr="5" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-22"/>
+<dfeintrag perskz="polzer" zeitpunkt="2006-01-17"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="248" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Reihenfolge anderer Meldungsarten</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 5. </gldsym>(1) Andere Meldungsarten, die außerhalb der elektronischen Datenfernübertragung verwendet werden dürfen, sind folgende:</absatz>
+<liste>
+<ziffernliste ebene="1">
+
+<listelem>
+<symbol stellen="2">1.</symbol>mit Telefax auf dem Formular, das beim Versicherungsträger für Meldungen aufliegt,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>schriftlich mit dem Formular, das beim Versicherungsträger für Meldungen aufliegt.</listelem>
+</ziffernliste>
+</liste>
+<absatz halign="j" typ="abs">(2) Die Reihenfolge der Meldungsarten nach Abs. 1 bezeichnet auch deren Nachrangigkeit im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="41" abs="4" ziff="2" ursprung="u">§ 41 Abs. 4 Z 2</rvolink><nolink> ASVG</nolink>. Die in Abs. 1 Z 1 genannte Meldungsart ist wirtschaftlich unzumutbar, wenn sie mangels Telefaxgerät nicht möglich ist.</absatz>
+          <absatz halign="j" typ="abs">(3) Meldungen auf anderen Wegen, insbesondere in Papierform mittels e-mail oder telefonisch, gelten als nicht erstattet.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) <i>(Anm.: aufgehoben durch avsv Nr. 153/2013)</i></absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MGOV=PARA=11=85=2019-03-29=2019-04-01"><rvo dokidCms="MGOV=PARA=11=85=2019-03-29=2019-04-01">
+      <metadaten titrvo="Mustergeschäftsordnung für den Verwaltungsrat" abkrvo="MGOV" dokart="MusterR" urheber="BMASGK" pubdat="2019-03-29" ikra="2019-04-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Mustergeschäftsordnung für den Verwaltungsrat StF" abkaen="MGOV StF" gldart="PARA" gldnr="11" gldsort="80">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="85" begseite="1" jahrgang="2019">BGBl. II  Nr. 85/2019 , S.1</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Anträge</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 11.</gldsym> (1) Anträge an den Verwaltungsrat können in mündlichen Berichten (<rvolink abkrvo="MGOV" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="12" ursprung="u">§ 12</rvolink>) oder in schriftlichen Berichten (<rvolink abkrvo="MGOV" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="13" ursprung="u">§ 13</rvolink>), die allen Sitzungsteilnehmern vorliegen, gestellt werden. Jeder Antrag ist zu begründen.</absatz>
+          <absatz typ="abs" halign="j">(2) Ein Bericht besteht zumindest aus dem Antrag und seiner Begründung. Schriftlichen Berichten ist im Allgemeinen der Vorzug zu geben. Bei Berichten, die nur zur Information vorgelegt werden, ist zu beantragen, dass der Bericht zur Kenntnis genommen wird.</absatz>
+          <absatz typ="abs" halign="j">(3) Jeder Bericht hat einen Antragstext zu enthalten, der bei Zustimmung unverändert beschlossen werden könnte (ausformulierter Antrag).</absatz>
+          <absatz typ="abs" halign="j">(4) Die Begründung muss, soweit derartige Angaben im Berichtszeitpunkt möglich sind und eine Begründung erforderlich scheint, enthalten:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>warum der Antrag gestellt wird, einschließlich</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>allenfalls notwendiger Basis- oder Hintergrundinformationen,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Verweisen auf frühere Beschlüsse in der gleichen Angelegenheit,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>wichtiger allfälliger Argumente für oder gegen den Beschluss,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>der Angabe allfälliger Alternativen,</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">2.</symbol>welche vorhersehbaren allgemeinen Auswirkungen ein zustimmender Beschluss hätte,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>welche vorhersehbaren Aufwendungen oder Einnahmen ein zustimmender Beschluss nach sich ziehen würde (in absoluten Zahlen oder in Prozentwerten des Mehr- oder Minderaufwandes),</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>welche weiteren Beschlüsse und anderen Rechtsakte im Zuge der Durchführung des Beschlusses notwendig würden (Vorlage an die Hauptversammlung, aufsichtsbehördliche Genehmigung),</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>die Rechtsvorschrift, auf der ein Beschluss beruhen würde,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>welche Verlautbarungen auf Grund eines Beschlusses notwendig wären.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(5) Der Antrag hat die wesentlichen Inhalte der vorgeschlagenen Vorgangsweise zu enthalten (Vertragspartner, betroffene Personen, Kaufpreis, Hinweise auf Vertragsentwürfe). Der Text von Vertragsentwürfen, Schriftsätzen etc. hat im Allgemeinen nicht Inhalt von Anträgen zu sein; der Antrag kann in solchen Fällen auf Entwürfe verweisen, die dem Bericht beiliegen oder bei der Sitzung zur Einsicht bereitgehalten werden.</absatz>
+          <absatz typ="abs" halign="j">(6) Von den Abs. 3 und 4 darf ganz oder teilweise abgegangen werden</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>in laufenden Angelegenheiten oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>in geringfügigen Angelegenheiten oder</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>wenn dies der Vorsitzende im Einzelfall aus Gründen der Verwaltungsökonomie oder aus anderen triftigen sachlichen Gründen genehmigt,</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">wenn dadurch der notwendige Informationsstand der Sitzungsteilnehmer voraussichtlich nicht beeinträchtigt wird.</schluss>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="842" paperw="595.35" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

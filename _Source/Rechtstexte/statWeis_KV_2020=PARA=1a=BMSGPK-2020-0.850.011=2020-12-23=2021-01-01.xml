@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="statWeis_KV_2020=PARA=1a=BMSGPK-2020-0.850.011=2020-12-23=2021-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="statWeis_KV_2020=PARA=1a=BMSGPK-2020-0.850.011=2020-12-28=2021-01-01" dokidSource="statWeis_KV_2020=PARA=1=BMASGK-20206/0012-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen der Krankenversicherungsträger 2020" abkrvo="statWeis KV 2020" dokart="Weisung" titaen="1. Änderung der Weisungen für die statistischen Nachweisungen der Krankenversicherungsträger 2020" abkaen="1. Änd statWeis KV 2020" urheber="BMSGPK" pubdat="2020-12-23" ikra="2021-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="1a">
+        
+      <puborgane><puborgan puborg="Erlass" nrpuborg="BMSGPK-2020-0.850.011" jahrgang="2020"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          
+          <ueberschrift typ="para" halign="c" level="2"/>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 1a.</gldsym> (1) In den aufgrund dieser Weisungen zu erstellenden Statistiken sind die von männlich oder weiblich abweichenden Ausprägungen des biologischen Geschlechts durch Imputation den binären Ausprägungen männlich oder weiblich zuzuordnen.</absatz>
+          
+          <absatz typ="abs" halign="j">(2) Die Zuordnung der von männlich oder weiblich abweichenden Ausprägungen des biologischen Geschlechts zu den binären Ausprägungen männlich oder weiblich erfolgt wie folgt: </absatz>
+          
+          
+          
+          
+        <liste><ziffernliste ebene="1"><listelem><symbol>a. </symbol>männlich, wenn die sechste Stelle der Sozialversicherungsnummer eine gerade Zahl ist und</listelem> </ziffernliste><ziffernliste ebene="1"><listelem><symbol>b. </symbol>weiblich, wenn die sechste Stelle der Sozialversicherungsnummer eine ungerade Zahl ist.</listelem> </ziffernliste></liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

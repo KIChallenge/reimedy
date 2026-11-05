@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.C_2005=PARA=85=178=2005-12-16=2005-12-22" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.C_2005=PARA=85=178=2005-12-16=2005-12-22">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.C 2005" dokart="DO" titaen="Wiederverlautbarung der Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs" abkaen="DO.C WV" urheber="Hauptverband" beschdat="2005-11-16" pubdat="2005-12-16" ikra="2005-12-22" sichtbarkeit="p" gldnr="85">
+<uebrecht>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="110" typ="e">§ 110 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="115" typ="e">§ 115 DO.C 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-29"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="178" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Ruhen von Leistungsansprüchen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 85. </gldsym>(1) Die Leistungsansprüche nach diesem Pensionsrecht ruhen, solange der Berechtigte
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Bediensteter eines Sozialversicherungsträgers ist bzw. von einem Sozialversicherungsträger Dienstbezüge gemäß 
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="34" abs="2" ursprung="u">§ 34 Abs. 2</rvolink> bzw. 
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="34" abs="3" ursprung="u">3</rvolink> erhält, soweit es sich um eine Pension gemäß 
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="68" ursprung="u">§ 68</rvolink> handelt,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>eine mehr als einmonatige Freiheitsstrafe verbüßt oder</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>seinen Wohnsitz im Ausland hat oder sich dort länger als sechs Monate aufhält, es sei denn, dass ein mit dem Aufenthaltsland abgeschlossenes Sozialversicherungsabkommen (Gegenseitigkeitsübereinkommen) das Ruhen der Leistungen aus der Pensionsversicherung wegen Auslandsaufenthaltes ausschließt; besteht ein solches Abkommen (Übereinkommen) nicht, kann der nach diesem Pensionsrecht leistungszuständige Versicherungsträger die jederzeit widerrufliche und allenfalls befristete Zustimmung zum Auslandsaufenthalt erteilen.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Für die Dauer des Ruhens der Pension nach Abs. 1 Z 2 und 3 wird dem im Inlande wohnenden, vom Pensionsberechtigten überwiegend erhaltenen Angehörigen (Gattin; Kinder gemäß <rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="37" ursprung="u">§ 37</rvolink>) ein Betrag in der Höhe der Hinterbliebenenpension (
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="69" ursprung="u">§§ 69</rvolink> und 
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="70" ursprung="u">70</rvolink>) gewährt, in den Fällen des Abs. 1 Z 2 nur dann, wenn nicht ihre Mitschuld oder Teilnahme an der strafbaren Handlung durch rechtskräftiges strafrechtliches Urteil oder durch rechtskräftigen Bescheid einer Verwaltungsbehörde festgestellt ist.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) In besonders berücksichtigungswürdigen Fällen kann auf die Anwendung der Ruhensbestimmungen gemäß Abs. 1 verzichtet werden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Gebührt dem Pensionsberechtigten eine Abfertigung, so ruht für jeden vollen Monat des Abfertigungszeitraumes ein Monatsbezug der Pension (Witwen-, Waisenpension) und je ein Zwölftel der 13. und 14. Pension.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

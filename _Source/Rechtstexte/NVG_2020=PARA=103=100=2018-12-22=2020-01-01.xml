@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="NVG_2020=PARA=103=100=2018-12-22=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="NVG_2020=PARA=103=100=2018-12-22=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="NotarversorgungsG" abkrvo="NVG 2020" dokart="BG" titaen="Sozialversicherungs-OrganisationsG - Stammfassung" abkaen="SV-OG" urheber="Bund" beschdat="2018-12-13" pubdat="2018-12-22" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="103" gldsort="80">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="100" begseite="109" jahrgang="2018">BGBl. I  Nr. 100/2018 , S.109</puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Mitwirkung der Abgabenbehörden des Bundes</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 103.</gldsym> (1) Die Abgabenbehörden des Bundes haben der Versorgungsanstalt auf deren Verlangen folgende zur Bemessung der Beiträge nach diesem Bundesgesetz erforderliche Daten zu übermitteln:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Vorname, Familien- oder Nachname, Anschrift, Finanzamtsnummer, Steuernummer, Versicherungsnummer und Geburtsdatum der (ehemalig) in die Vorsorge einbezogenen Person;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Einkünfte aus selbständiger Arbeit;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>sonstige Einkünfte (im Sinne des <rvolink abkrvo="EStG 1988" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="29" ziff="4" ursprung="u">§ 29 Z 4</rvolink><nolink> EStG</nolink> 1988);</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>gewinnmindernd anerkannte Investitions- und sonstige steuerliche Freibeträge für Gewinne.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Das Verfahren der Übermittlung und der Zeitpunkt der erstmaligen Übermittlung der in Abs. 1 genannten Daten sind vom Bundesminister für Finanzen im Einvernehmen mit der Bundesministerin für Arbeit, Soziales, Gesundheit und Konsumentenschutz nach Maßgabe der technisch-organisatorischen Möglichkeiten durch Verordnung zu bestimmen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

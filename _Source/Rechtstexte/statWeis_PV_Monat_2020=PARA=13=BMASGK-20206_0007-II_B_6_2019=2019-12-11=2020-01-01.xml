@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="statWeis_PV_Monat_2020=PARA=13=BMASGK-20206/0007-II/B/6/2019=2019-12-11=2020-01-01"><rvo dokidCms="statWeis_PV_Monat_2020=PARA=13=BMASGK-20206/0007-II/B/6/2019=2019-12-11=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Monatsstatistik StatistikWeis PV 2020" abkrvo="statWeis PV Monat 2020" dokart="Weisung" titaen="Monatsstatistik StatistikWeis PV 2020 StF" abkaen="statWeis PV Monat 2020 StF" urheber="BMASGK" pubdat="2019-12-11" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="13" gldsort="80">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0007-II/B/6/2019">Erlass   Nr. BMASGK-20206/0007-II/B/6/2019</puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Freiwillig Versicherte</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 13.</gldsym> (1) Für die Erstellung dieser Statistik ist das <wwwlink ursprung="u" url="/fs/Formular_PV10-4_ab_2020.pdf" gldart="KEIN" typ="e">Formular PV10/4</wwwlink> zu verwenden.</absatz>
+          <absatz typ="abs" halign="j">(2) In diesem Formular ist die Zahl der Weiterversicherten gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="17" ursprung="u">§ 17</rvolink><nolink> ASVG</nolink> und der Selbstversicherten gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="16a" ursprung="u">§ 16a</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="18a" ursprung="u">18a</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="18b" ursprung="u">18b</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="19a" ursprung="u">§ 19a</rvolink><nolink> ASVG</nolink> am Ende des Berichtsmonates, getrennt nach Geschlecht, anzugeben.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

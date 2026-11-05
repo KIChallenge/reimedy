@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RBGKV_2021=PARA=1=73=2021-12-15=2022-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RBGKV_2021=PARA=1=73=2021-12-15=2022-01-01">
+      <metadaten titrvo="Richtlinien zur Beurteilung der Voraussetzungen für eine Herabsetzung der Beitragsgrundlage zur Selbstversicherung in der Krankenversicherung 2021" abkrvo="RBGKV 2021" dokart="RL DVSV" titaen="Richtlinien zur Beurteilung der Voraussetzungen für eine Herabsetzung der Beitragsgrundlage zur Selbstversicherung in der Krankenversicherung 2021 StF" abkaen="RBGKV 2021 StF" urheber="DVSV" beschdat="2021-12-14" pubdat="2021-12-15" ikra="2022-01-01" sichtbarkeit="p" gldart="PARA" gldnr="1" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="73" jahrgang="2021">avsv   Nr. 73/2021 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Anwendungsbereich</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 1.</gldsym> (1) Diese <nolink>Richtlinien sind anzuwenden, wenn eine Herabsetzung der Beitragsgrundlage</nolink> für Selbstversicherte in der Krankenversicherung beantragt wird.</absatz>
+          <absatz typ="abs" halign="j">(2) Die Richtlinien sind nicht anzuwenden:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>für Selbstversicherte, wenn für sie die Beiträge gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="76" abs="1" ziff="2" ursprung="u">§ 76 Abs. 1 Z 2</rvolink> erster Halbsatz ASVG zu berechnen sind (begünstigte Selbstversicherung für Studierende);</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>für Selbstversicherte, die regelmäßige Leistungen zur Sicherung ihres Lebensbedarfes von einem Träger der Sozialhilfe erhalten;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>für Selbstversicherte, die von einem Wohlfahrtsfonds ganz oder teilweise die Beiträge zur Selbstversicherung in der Krankenversicherung ersetzt erhalten.</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

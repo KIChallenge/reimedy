@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MGOV=PARA=8=85=2019-03-29=2019-04-01"><rvo dokidCms="MGOV=PARA=8=85=2019-03-29=2019-04-01">
+      <metadaten titrvo="Mustergeschäftsordnung für den Verwaltungsrat" abkrvo="MGOV" dokart="MusterR" urheber="BMASGK" pubdat="2019-03-29" ikra="2019-04-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Mustergeschäftsordnung für den Verwaltungsrat StF" abkaen="MGOV StF" gldart="PARA" gldnr="8" gldsort="80">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="85" begseite="1" jahrgang="2019">BGBl. II  Nr. 85/2019 , S.1</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Tagesordnung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 8.</gldsym> (1) Der Entwurf der Tagesordnung ist vom Vorsitzenden zu Sitzungsbeginn dem Verwaltungsrat zur Genehmigung vorzulegen. Jeder Tagesordnungsentwurf hat den Punkt „Allfälliges“ zu enthalten.</absatz>
+          <absatz typ="abs" halign="j">(2) Durch Beschluss des Verwaltungsrates kann die Tagesordnung ergänzt oder geändert werden, bevor in sie eingegangen wird. Für den Fall einer Sitzungsunterbrechung kann die Tagesordnung, bevor in sie neuerlich eingegangen wird, durch Beschluss des Verwaltungsrates ergänzt oder geändert werden.</absatz>
+          <absatz typ="abs" halign="j">(3) Jedenfalls als Tagesordnungspunkt vorzusehen sind, wenn ein entsprechender Sachverhalt vorliegt:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>erlassene Verfügungen des Obmannes/der Obleute, weil der Verwaltungsrat nicht rechtzeitig zusammentreten konnte,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>ein Verlangen der Aufsichtsbehörde zur Einberufung einer Sitzung.</listelem>
+            </ziffernliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="842" paperw="595.35" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

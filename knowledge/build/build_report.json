@@ -1,0 +1,351 @@
+{
+  "built_at": "2026-11-05T20:52:43+00:00",
+  "quellen": {
+    "aek_wien": {
+      "status": "ok",
+      "documents": 94,
+      "leistungen": 1,
+      "stellen": 1,
+      "formulare": 279,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "bvaeb": {
+      "status": "ok",
+      "documents": 1346,
+      "leistungen": 15,
+      "stellen": 9,
+      "formulare": 185,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "fsw": {
+      "status": "ok",
+      "documents": 629,
+      "leistungen": 36,
+      "stellen": 11,
+      "formulare": 26,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "gesundheit_gv": {
+      "status": "ok",
+      "documents": 2276,
+      "leistungen": 45,
+      "stellen": 614,
+      "formulare": 0,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "oegk": {
+      "status": "ok",
+      "documents": 1154,
+      "leistungen": 48,
+      "stellen": 277,
+      "formulare": 115,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "oesterreich_gv": {
+      "status": "ok",
+      "documents": 2216,
+      "leistungen": 22,
+      "stellen": 13,
+      "formulare": 63,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "pva": {
+      "status": "ok",
+      "documents": 242,
+      "leistungen": 8,
+      "stellen": 20,
+      "formulare": 4,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "reimedy_kb": {
+      "status": "ok",
+      "documents": 0,
+      "leistungen": 0,
+      "stellen": 4,
+      "formulare": 0,
+      "codes": 14954,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "sozdok_ris": {
+      "status": "ok",
+      "documents": 19911,
+      "leistungen": 0,
+      "stellen": 0,
+      "formulare": 0,
+      "codes": 0,
+      "extras": 253,
+      "errors": 0,
+      "warnings": 1,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": [
+        "sozdok_ris: 253 Zeilen aus Nicht-Vertragsdateien als 'extras' geladen"
+      ]
+    },
+    "sozialministeriumservice": {
+      "status": "ok",
+      "documents": 136,
+      "leistungen": 7,
+      "stellen": 2,
+      "formulare": 24,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "svbox_local": {
+      "status": "ok",
+      "documents": 935,
+      "leistungen": 39,
+      "stellen": 2,
+      "formulare": 7,
+      "codes": 13596,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "svs": {
+      "status": "ok",
+      "documents": 1378,
+      "leistungen": 13,
+      "stellen": 6,
+      "formulare": 300,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    },
+    "wien_ogd": {
+      "status": "ok",
+      "documents": 10,
+      "leistungen": 0,
+      "stellen": 9140,
+      "formulare": 0,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 0,
+      "source_md": true,
+      "manifest": true,
+      "ingest_py": true,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": []
+    }
+  },
+  "uebersprungen": {},
+  "seed": {
+    "leistungen": 30,
+    "stellen": 6,
+    "formulare": 7
+  },
+  "taxonomie": 83,
+  "documents": {
+    "total": 30327,
+    "doppelte_ids_verworfen": 0,
+    "gleicher_text_mehrere_quellen": 8
+  },
+  "formular_aliase": 54,
+  "codes": {
+    "total": 28550,
+    "nach_system": {
+      "ICD-10-AT": 14875,
+      "SNOMED-Fachrichtung": 79,
+      "EKO": 6985,
+      "ATC": 6611
+    },
+    "hints_durch_policy_entfernt": 0,
+    "beispiele_entfernt": [],
+    "hints_ohne_leistung_im_graph": []
+  },
+  "links": {
+    "links": 26287,
+    "frisch_ok": 6103,
+    "quelle": "/Users/arne/_Coding/KIChallenge-reimedy/knowledge/build/links/links.jsonl",
+    "formulare_live": 953
+  },
+  "embeddings": {
+    "aktiv": true,
+    "modell": "minishlab/potion-multilingual-128M",
+    "neu_berechnet": 0,
+    "aus_cache": 30478,
+    "dim": 256,
+    "sekunden": 0.5,
+    "cache_datei": "knowledge/build/emb_cache/minishlab__potion-multilingual-128M.npz"
+  },
+  "leistungen": {
+    "total": 151,
+    "nach_status": {
+      "kuratiert": 3,
+      "kuratiert+quellen": 22,
+      "kandidat": 114,
+      "konflikt": 12
+    },
+    "konflikte": {
+      "pflegegeld": [
+        "antrag: widerspruch"
+      ],
+      "wohn_pflegehaus_fsw": [
+        "antrag: widerspruch"
+      ],
+      "reha_onkologisch": [
+        "antrag: widerspruch"
+      ],
+      "zahnspange_kfo": [
+        "kosten: zahlen_abweichend"
+      ],
+      "mundhygiene_kinder": [
+        "zustaendig: zahlen_abweichend"
+      ],
+      "reha_medizinisch": [
+        "kosten: zahlen_abweichend",
+        "antrag: widerspruch"
+      ],
+      "wochengeld": [
+        "antrag: widerspruch"
+      ],
+      "krankengeld": [
+        "kosten: zahlen_abweichend"
+      ],
+      "foerderung_24h_betreuung": [
+        "antrag: widerspruch"
+      ],
+      "behindertenpass": [
+        "antrag: widerspruch"
+      ],
+      "zahnersatz": [
+        "kosten: zahlen_abweichend"
+      ],
+      "kinderbetreuungsgeld": [
+        "kosten: zahlen_abweichend"
+      ]
+    },
+    "mit_traeger_auspraegungen": [
+      "behandlung_im_ausland",
+      "heilbehelfe_hilfsmittel",
+      "krankentransport",
+      "kur",
+      "pflegegeld",
+      "reha_medizinisch",
+      "rehabilitationsgeld",
+      "rezeptgebuehrenbefreiung",
+      "unterstuetzungsfonds",
+      "vorsorgeuntersuchung",
+      "wahlarzt_kostenerstattung"
+    ],
+    "ohne_quelle": [],
+    "alias_vorschlaege": [
+      {
+        "kandidat": "zahnbehandlung_zahnersatz",
+        "seed": "zahnbehandlung"
+      },
+      {
+        "kandidat": "zahnbehandlung_zahnersatz",
+        "seed": "zahnersatz"
+      },
+      {
+        "kandidat": "krankenstand_fit2work",
+        "seed": "fit2work"
+      },
+      {
+        "kandidat": "unterstuetzungsfonds_behinderung",
+        "seed": "unterstuetzungsfonds"
+      }
+    ],
+    "kanten_ins_leere": [
+      [
+        "fsw_foerderung_pflege_betreuung",
+        "fsw_antrag_foerderung",
+        "antrag_formular"
+      ]
+    ]
+  },
+  "stellen": {
+    "total": 10104,
+    "mit_geo": 9141
+  },
+  "formulare": {
+    "total": 953,
+    "live_kanonisch": 953
+  },
+  "seed_fehler": []
+}

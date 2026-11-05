@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="SV-SR_2025=PARA=4=94=2024-12-19=2025-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2024_0094_1735558520636">
+      <metadaten titrvo="Sicherheitsrichtlinie für die gesetzliche Sozialversicherung (SV-Sicherheitsrichtlinie 2025)" abkrvo="SV-SR 2025" dokart="RL DVSV" urheber="DVSV" beschdat="2024-12-18" pubdat="2024-12-19" ikra="2025-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Sicherheitsrichtlinie für die gesetzliche Sozialversicherung (SV-Sicherheitsrichtlinie 2025) StF" abkaen="SV-SR 2025 StF" gldart="PARA" gldnr="4" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="94" jahrgang="2024">avsv   Nr. 94/2024 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Organisationsstrukturen der Informationssicherheit</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 4.</gldsym> (1) Um den in <rvolink abkrvo="SV-SR 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="2" abs="3" ursprung="u">§ 2 Abs. 3</rvolink> angeführten Zweck zu erreichen, sind folgende Organisationseinheiten einzurichten:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Bei allen SV-Organisationen ist die Rolle eines CISO (Chief Information Security Officer) als zentrale Stelle für Anfragen, Ideen oder Verbesserungen zur Informationssicherheit einzurichten. Der CISO berichtet direkt an die Direktion bzw. Büroleitung oder Geschäftsführung seiner SV-Organisation. Der CISO hat sich aufgrund seines Zugangs zu geheimen Informationen, einer Sicherheitsüberprüfung gemäß <nolink>§§ 55 ff</nolink> des Sicherheitspolizeigesetzes (SPG) – Stufe „geheim“, BGBl. Nr. 566/1991 zu unterziehen.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Die SV-CISO Community wird als beratendes Gremium des Gremiums „IT-Steuerung“ auf dem Gebiet der Informationssicherheit durch den Dachverband eingesetzt. Jede SV-Organisation hat Teilnehmer zur SV-CISO Community zu nominieren.</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Das SV-CERT („Computer Emergency Response Team“ der österreichischen Sozialversicherung) wird durch den Dachverband eingesetzt und berät und unterstützt die SV-Organisationen auf dem Gebiet der Informationssicherheit.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Der Chief Information Security Officer (CISO) ist Mitglied der SV-CISO Community.</absatz>
+          <absatz typ="abs" halign="j">(2a) Das Gremium „IT-Steuerung“ hat jährlich eine gemeinsame, direkt von den Sozialversicherungsträgern und dem Dachverband getragene Zielsetzung für die Sozialversicherung im Bereich CISO und SV-CERT festzulegen. Diese ist für die SV-CISO Community und SV-CERT bindend und erstmalig für das Kalenderjahr 2022 festzulegen.</absatz>
+          <absatz typ="abs" halign="j">(3) Die SV-CISO Community ist ein beratendes Organ des Gremiums „IT-Steuerung“ auf dem Gebiet der Informationssicherheit. Sie besteht aus den CISOs aller SV-Organisationen. Die SV-CISO Community hat sich mit der Optimierung der SV-weiten Informationssicherheit, insbesondere mit folgenden Themen zu befassen:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Bedrohungen und Gegenmaßnahmen zur allgemeinen Computersicherheit und Cyber-Sicherheit.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>geschäftskritischer Informations- und Kommunikations-Technologie in der Sozialversicherung.</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Dokumentation und Beurteilung relevanter Informationssicherheitsrisiken und Initiierung der Erarbeitung geeigneter Risikoreaktionen bei fachlich Verantwortlichen.</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Erstellung eines Informationssicherheitsberichtes mindestens einmal pro Jahr, in dem SV-weit das Gesamtbild der Informationssicherheit darzustellen und der Status der Risikoreaktionen zu dokumentieren ist.</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Informationsaustausch zwischen den CISOs, um das vorhandene Wissen zum Thema Informationssicherheit einzelner SV-Organisationen SV-weit zugänglich zu machen.</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Förderung des gegenseitigen Vertrauens der CISOs, damit bei Informationssicherheitsvorfällen rasch und umfassend Information ausgetauscht werden kann und Förderung des Lernens aus Informationssicherheitsvorfällen.</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Erarbeitung von Vorschlägen für SV-weite Prozesse zu Themen der Informationssicherheit wie z. B. Business Continuity Management (BCM).</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>Erarbeitung von SV-weit geltenden Mindeststandards für Informationssicherheit.</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>Initiierung von Angeboten an Schulungen und Abhaltung von Fachveranstaltungen über Entwicklungen auf den Gebieten Informationssicherheit, Risikomanagement, Krisenmanagement und Cyber-Sicherheit, um den erforderlichen Wissensstand in der SV, insbesondere der CISOs zu erreichen, bzw. zu halten.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(4) Aufgabe des SV-CERT („Computer Emergency Response Team“ der österreichischen Sozialversicherung) ist es, innerhalb der Sozialversicherung Dienste bereitzustellen, die es ermöglichen, rasch auf Cyber-Bedrohungen zu reagieren und entsprechende Präventivmaßnahmen umzusetzen, sowie im Schadensfall entsprechende Untersuchungen durchzuführen und bei der Behebung zu unterstützen. Die Aufgaben des SV-CERT sind:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Zentrale Meldestelle für eingetretene oder vermutete Ereignisse und Schwachstellen aus Sicherheitsüberprüfungen und deren Behebungsstatus, sowie Weiterleitung von Alarm- und Warnmeldungen an potentiell betroffene SV-Organisationen.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Sammeln von externen Sicherheitsinformationen, Prüfen auf Relevanz für die SV-Organisationen und Warnen der potentiell betroffenen SV-Organisationen.</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Unterstützung bei der Identifikation, Analyse und Behebung von Sicherheitsvorfällen, wie Beweissicherung, forensischen Analysen, sowie Unterstützung bei der Beseitigung von Schadsoftware.</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Anbieten von Sicherheitswerkzeugen zur Analyse und Behebung von Schadsoftware für die SV-Organisationen.</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Durchführen von anlassbezogenen und beauftragten periodischen Schwachstellenüberprüfungen von Systemen durch Spezialisten des SV-CERT.</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Unterstützung der SV-Organisationen bei Awareness-Maßnahmen.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(5) Alle SV-Organisationen haben, nach eigener Einschätzung, sicherheitsrelevante Ereignisse, welche auch für andere SV-Organisationen relevant sein können, sowie Ergebnisse aus Sicherheitsüberprüfungen und deren Behebungsstatus an das SV-CERT zu melden. </absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="41" paperh="842" paperw="595.5" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

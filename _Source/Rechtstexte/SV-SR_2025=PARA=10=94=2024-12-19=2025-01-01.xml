@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="SV-SR_2025=PARA=10=94=2024-12-19=2025-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2024_0094_1735558520636">
+      <metadaten titrvo="Sicherheitsrichtlinie für die gesetzliche Sozialversicherung (SV-Sicherheitsrichtlinie 2025)" abkrvo="SV-SR 2025" dokart="RL DVSV" urheber="DVSV" beschdat="2024-12-18" pubdat="2024-12-19" ikra="2025-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Sicherheitsrichtlinie für die gesetzliche Sozialversicherung (SV-Sicherheitsrichtlinie 2025) StF" abkaen="SV-SR 2025 StF" gldart="PARA" gldnr="10" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="94" jahrgang="2024">avsv   Nr. 94/2024 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1"> </ueberschrift><absatz typ="abs" halign="j">
+            <gldsym>§ 10.</gldsym> Jede SV-Organisation hat Vorgaben auf Basis dieses SV-weiten Mindeststandards zu erstellen und aktuell zu halten. Diese beinhalten zumindest:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Festlegung der Business Continuity Politik</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Strategien zur Aufrechterhaltung der Betriebsfähigkeit</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Beschreibung des Business Continuity Management System</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Beschreibung des Business Continuity Management Prozess</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Dokumentation und Kommunikation des Business Continuity Management</listelem>
+            </ziffernliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="41" paperh="842" paperw="595.5" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

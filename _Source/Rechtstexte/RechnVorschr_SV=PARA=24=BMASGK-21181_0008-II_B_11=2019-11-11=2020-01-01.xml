@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=24=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=24=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" dokidSource="RechnVorschr_SV=PARA=24=BMASGK-21181/0002-II/B/11=2018-12-10=2019-01-01">
+<metadaten gldnr="24" ikra="2020-01-01" pubdat="2019-11-11" abkaen="51. Änd RechnVorschr SV" titaen="51. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" sichtbarkeit="p" urheber="BMASGK" dokart="Weisung" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<aendprot>
+<dfeintrag zeitpunkt="2002-11-28" perskz="schaff"/>
+<dfeintrag perskz="schaff" zeitpunkt="2002-11-28"/>
+<dfeintrag zeitpunkt="2003-02-10" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-12"/>
+<dfeintrag zeitpunkt="2004-11-25" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-11-26"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-21181/0008-II/B/11" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="g2">Beitragsverrechnung</ueberschrift>
+<ueberschrift level="3" halign="c" typ="para">ALLGEMEINE BEITRAGSGRUPPEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 24.</gldsym> (1) Auf den beim Träger der Krankenversicherung nach dem ASVG einlangenden Anmeldungen und Änderungsanzeigen ist auf Grund der von den Dienstgebern gemachten Angaben die Beitragsgruppe und - dieser vorangestellt - das Symbol des zur Durchführung der Pensionsversicherung sachlich zuständigen Trägers der Pensionsversicherung einzutragen.</absatz>
+<absatz typ="abs" halign="j">(2) Es gelten, wenn Versicherungsbeiträge für die nachstehend angeführten Versicherungen vom Träger der Krankenversicherung einzuheben sind.</absatz>
+<table style="border-color:black;border-collapse:collapse;margin-left:0pt" cellpadding="3" cellspacing="0" border="0" h-maxcols="3">
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">Beitragsgruppe</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">a) In der Kranken-, Unfall-, Pensions- und Arbeitslosenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 1</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">b) nur in der Kranken-, Unfall- und Pensionsversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 2</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">c) nur in der Kranken-, Pensions- und Arbeitslosenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 3</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">d) nur in der Kranken- und Pensionsversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 4</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">e) nur in der Unfall-, Pensions- und Arbeitslosenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 5</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">f) nur in der Unfall- und Pensionsversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 6</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">g) nur in der Pensionsversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 7</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">h) nur in der Pensions- und Arbeitslosenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 8</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">i) nur in der Kranken-, Unfall- und Arbeitslosenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 11</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">j) nur in der Kranken- und Unfallversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 12</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">k) nur in der Krankenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 13</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">l) nur in der Unfallversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 14</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">m) nur in der Arbeitslosenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 15</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">n) nur in der Kranken- und Arbeitslosenversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 16</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td valign="top" align="left" width="42.46667" h-xval="630">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="453.6" h-xval="7425">
+<absatz typ="tabtext">o) nur in der Arbeitslosen- und Unfallversicherung</absatz>
+</td>
+<td valign="top" align="right" width="117.9333" h-xval="9180">
+<absatz typ="tabtextr">" 17</absatz>
+</td>
+</tr>
+</table>
+<absatz typ="abs" halign="j">(3) Für Beitragszeiträume nach dem 31. Dezember 2018 kommt entgegen Abs. 1 und Abs. 2 lit.a) bis o) das Tarifsystem im Sinne der Beitragsgruppenrichtlinien des Dachverbandes der Sozialversicherungsträger (RBGS 2019) zur Anwendung.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="ASVG=ANL=14=53=2018-08-14=2018-09-01"><rvo dokidCms="ASVG=ANL=14=113=2015-08-13=2016-01-01" dokidSource="ASVG=ANL=14=113=2015-08-13=2016-01-01">
+<metadaten pubdat="2018-08-14" abkaen="AugustNov 53/2018" dokart="BG" titaen="Augustnovelle 53/2018" abkrvo="ASVG" sichtbarkeit="p" ikra="2018-09-01" fassung="19" gldnr="14" titrvo="Allgemeines Sozialversicherungsgesetz" urheber="Bund" beschdat="2018-07-05" berkz="KVL; UVL; PVL; VMB; ALLE; OV; REGR; VPAR; KA; AN; AG; SELB; " gldart="ANL" indbr="66.01.01" gldsort="150" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="53" begseite="4" jahrgang="2018"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Datenverwendung bei der Risiko- und Auffälligkeitsanalyse</ueberschrift>
+<absatz typ="satz" halign="j">
+<gldsym>Anlage 14 </gldsym>
+</absatz>
+
+
+
+<absatz typ="satz" halign="j">Folgende Daten können bei der Erstellung der Auswertungen nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="42b" abs="1" ursprung="u">§ 42b Abs. 1</rvolink> verwendet werden:</absatz>
+          <absatz typ="satz" halign="j">im Dienstgeberbereich: Stammdaten, Beitragskontodaten, GPLA-Daten, Prüfakte-Daten, Beitragsabrechnungsdaten, ÖNACE-Daten und Meldedaten;</absatz>
+          <absatz typ="satz" halign="j">im DienstnehmerInnenbereich: Stammdaten, Versicherungsdaten und Leistungsdaten.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

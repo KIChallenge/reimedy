@@ -1,0 +1,551 @@
+[
+ {
+  "id": "pflegegeld",
+  "name": "Pflegegeld",
+  "bereich": [
+   "D"
+  ],
+  "traeger": [
+   "PVA",
+   "ÖGK",
+   "SVS",
+   "BVAEB",
+   "AUVA"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "/themen/pflege/4(/|$)",
+   "kindheit_und_behinderung/1/Seite\\.1220320",
+   "familienmitglied-pflegegeld"
+  ],
+  "title_re": [],
+  "max_pages": 14,
+  "zielgruppe": "Pflegebedürftige Personen (ab Stufe 1: Pflegebedarf über 65 Std./Monat laut Quelle); Antrag kann auch von Angehörigen/Vertretung gestellt werden",
+  "zustaendig": "Der Entscheidungsträger (Pensions-/Unfallversicherung, SVS, BVAEB u.a.), der die Pension bzw. Rente auszahlt; ohne Pension die PVA – siehe Seite 'Zuständigkeit für den Antrag auf Pflegegeld'.",
+  "abhaengigkeiten": [
+   "angehoerigenbonus",
+   "pflegekarenz",
+   "foerderung_24h_betreuung",
+   "rezeptgebuehrenbefreiung"
+  ],
+  "trigger": [
+   "Pflegegeld",
+   "Pflegebedarf",
+   "Pflegestufe",
+   "Pflegegeldstufe"
+  ],
+  "kurz": "Monatliche Geldleistung für Menschen mit dauerndem Pflegebedarf, in 7 Stufen. Muss beantragt werden; eine Begutachtung (meist Hausbesuch) klärt die Stufe."
+ },
+ {
+  "id": "pflegekarenz",
+  "name": "Pflegekarenz und Pflegeteilzeit (Pflegekarenzgeld)",
+  "bereich": [
+   "D",
+   "E"
+  ],
+  "traeger": [
+   "Arbeitgeber",
+   "Sozialministeriumservice"
+  ],
+  "innerhalb_sv": false,
+  "url_re": [
+   "/themen/pflege/5/1(/|$)"
+  ],
+  "max_pages": 6,
+  "zielgruppe": "Berufstätige, die nahe Angehörige mit Pflegegeld (ab Stufe 3; bei Demenz/Minderjährigen ab Stufe 1) pflegen",
+  "abhaengigkeiten": [
+   "pflegegeld",
+   "familienhospizkarenz"
+  ],
+  "trigger": [
+   "Pflegekarenz",
+   "Pflegeteilzeit",
+   "Pflegekarenzgeld"
+  ],
+  "kurz": "Befristete Freistellung oder Teilzeit zur Pflege von Angehörigen, mit Pflegekarenzgeld (Antrag beim Sozialministeriumservice)."
+ },
+ {
+  "id": "familienhospizkarenz",
+  "name": "Familienhospizkarenz / Sterbebegleitung",
+  "bereich": [
+   "D",
+   "E"
+  ],
+  "traeger": [
+   "Arbeitgeber",
+   "Sozialministeriumservice"
+  ],
+  "url_re": [
+   "/themen/pflege/5/2/1/1(/|$)"
+  ],
+  "title_re": [
+   "Familienhospiz"
+  ],
+  "max_pages": 6,
+  "zielgruppe": "Angehörige, die ein sterbendes Familienmitglied begleiten oder schwerst erkrankte Kinder betreuen",
+  "abhaengigkeiten": [
+   "pflegekarenz",
+   "pflegegeld"
+  ],
+  "trigger": [
+   "Familienhospizkarenz",
+   "Sterbebegleitung"
+  ],
+  "kurz": "Freistellung zur Begleitung sterbender Angehöriger bzw. schwerst kranker Kinder, mit sozialversicherungsrechtlicher Absicherung."
+ },
+ {
+  "id": "angehoerigenbonus",
+  "name": "Angehörigenbonus",
+  "bereich": [
+   "D",
+   "E"
+  ],
+  "traeger": [
+   "Sozialministeriumservice",
+   "PVA"
+  ],
+  "url_re": [
+   "/themen/pflege/5/Seite\\.360524"
+  ],
+  "max_pages": 2,
+  "zielgruppe": "Pflegende nahe Angehörige von Personen mit Pflegegeld ab Stufe 4",
+  "abhaengigkeiten": [
+   "pflegegeld"
+  ],
+  "trigger": [
+   "Angehörigenbonus"
+  ],
+  "kurz": "Monatlicher Bonus für Angehörige, die jemanden mit mindestens Pflegegeldstufe 4 überwiegend zu Hause pflegen."
+ },
+ {
+  "id": "pflegende_angehoerige_versicherung",
+  "name": "Versicherungsmöglichkeiten für pflegende Angehörige",
+  "bereich": [
+   "D",
+   "E"
+  ],
+  "traeger": [
+   "PVA",
+   "ÖGK"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "/themen/pflege/5/2(/|$)"
+  ],
+  "max_pages": 14,
+  "zielgruppe": "Pflegende Angehörige",
+  "abhaengigkeiten": [
+   "pflegegeld"
+  ],
+  "trigger": [
+   "Selbstversicherung",
+   "Weiterversicherung",
+   "Pflegezeiten"
+  ],
+  "kurz": "Beitragsfreie Mitversicherung, begünstigte Selbst-/Weiterversicherung und Pensionsanrechnung für Zeiten der Pflege."
+ },
+ {
+  "id": "foerderung_24h_betreuung",
+  "name": "24-Stunden-Betreuung und Förderung",
+  "bereich": [
+   "D"
+  ],
+  "traeger": [
+   "Sozialministeriumservice"
+  ],
+  "url_re": [
+   "/themen/pflege/1(/|$)"
+  ],
+  "max_pages": 14,
+  "zielgruppe": "Pflegebedürftige ab Pflegegeldstufe 3 (Näheres und Einkommensgrenzen laut Quelle)",
+  "abhaengigkeiten": [
+   "pflegegeld"
+  ],
+  "trigger": [
+   "24-Stunden-Betreuung",
+   "Personenbetreuung",
+   "24h-Betreuung"
+  ],
+  "kurz": "Betreuung zu Hause durch Betreuungskräfte; das Sozialministeriumservice fördert die Kosten unter Bedingungen."
+ },
+ {
+  "id": "alten_und_pflegeheim",
+  "name": "Alten- und Pflegeheime",
+  "bereich": [
+   "D"
+  ],
+  "traeger": [],
+  "url_re": [
+   "/themen/pflege/2(/|$)",
+   "alten-und-pflegeheime"
+  ],
+  "max_pages": 5,
+  "trigger": [
+   "Pflegeheim",
+   "Altenheim"
+  ],
+  "kurz": "Allgemeine Informationen zu Alten- und Pflegeheimen (Ländersache)."
+ },
+ {
+  "id": "soziale_dienste",
+  "name": "Soziale Dienste (mobile Dienste, Hauskrankenpflege)",
+  "bereich": [
+   "D"
+  ],
+  "traeger": [],
+  "url_re": [
+   "/themen/pflege/soziale_dienste"
+  ],
+  "max_pages": 8,
+  "trigger": [
+   "Mobile Dienste",
+   "Hauskrankenpflege",
+   "Heimhilfe"
+  ],
+  "kurz": "Mobile und medizinische Dienste, persönliche Dienste und soziale Dienstleistungen (Ländersache)."
+ },
+ {
+  "id": "sozialhilfe_wien",
+  "name": "Sozialhilfe / Sozialunterstützung (Mindestsicherung)",
+  "bereich": [
+   "E"
+  ],
+  "traeger": [
+   "Land/Magistrat (in Wien: MA 40)"
+  ],
+  "innerhalb_sv": false,
+  "bundesland": [
+   "AT"
+  ],
+  "url_re": [
+   "hilfe_und_finanzielle_unterstuetzung_erhalten/4(/|$)",
+   "sozialhilfe-bzw-mindestsicherung"
+  ],
+  "max_pages": 10,
+  "zustaendig": "Landesbehörde des Wohnsitzes (in Wien: Sozialzentrum/MA 40). Wien-spezifische Details: andere Quelle (fsw/wien.gv.at); diese Quelle beschreibt die bundesweite Rahmenregelung.",
+  "zielgruppe": "Personen ohne ausreichende eigene Mittel zur Deckung des Lebensunterhalts",
+  "abhaengigkeiten": [
+   "rezeptgebuehrenbefreiung"
+  ],
+  "trigger": [
+   "Sozialhilfe",
+   "Sozialunterstützung",
+   "Mindestsicherung"
+  ],
+  "kurz": "Finanzielle Unterstützung für Menschen ohne ausreichendes Einkommen; Ausgestaltung je Bundesland."
+ },
+ {
+  "id": "rezeptgebuehrenbefreiung",
+  "name": "Befreiung von der Rezeptgebühr",
+  "bereich": [
+   "E",
+   "C"
+  ],
+  "traeger": [
+   "ÖGK",
+   "SVS",
+   "BVAEB"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "hilfe_und_finanzielle_unterstuetzung_erhalten/3/Seite\\.1693901",
+   "Seite\\.1693902",
+   "finanzielle-unterstützung-wohnen-und-gesundheit"
+  ],
+  "max_pages": 4,
+  "trigger": [
+   "Rezeptgebühr",
+   "Rezeptgebührenbefreiung"
+  ],
+  "kurz": "Befreiung von der Rezeptgebühr bei geringem Einkommen oder bestimmten Erkrankungen/Situationen – Antrag beim Krankenversicherungsträger."
+ },
+ {
+  "id": "familienbeihilfe",
+  "name": "Familienbeihilfe",
+  "bereich": [
+   "E"
+  ],
+  "traeger": [
+   "Finanzamt"
+  ],
+  "url_re": [
+   "/themen/familie_und_partnerschaft/familienbeihilfe"
+  ],
+  "max_pages": 8,
+  "abhaengigkeiten": [
+   "kinderbetreuungsgeld"
+  ],
+  "trigger": [
+   "Familienbeihilfe",
+   "erhöhte Familienbeihilfe"
+  ],
+  "kurz": "Monatliche Unterstützung für Eltern; bei Behinderung des Kindes erhöht. Antrag beim Finanzamt (FinanzOnline/Formular Beih 1)."
+ },
+ {
+  "id": "kinderbetreuungsgeld",
+  "name": "Kinderbetreuungsgeld",
+  "bereich": [
+   "E"
+  ],
+  "traeger": [
+   "ÖGK",
+   "SVS",
+   "BVAEB"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "finanzielle-unterstuetzungen/3(/|$)"
+  ],
+  "max_pages": 16,
+  "abhaengigkeiten": [
+   "familienbeihilfe"
+  ],
+  "trigger": [
+   "Kinderbetreuungsgeld",
+   "Kindergeld"
+  ],
+  "kurz": "Geldleistung für Eltern in der Kleinkindphase (Konto-Modell oder einkommensabhängig); Antrag bei der Krankenversicherung."
+ },
+ {
+  "id": "erwachsenenvertretung",
+  "name": "Erwachsenenvertretung (gesetzlich, gewählt, gerichtlich)",
+  "bereich": [
+   "F"
+  ],
+  "traeger": [
+   "Erwachsenenschutzverein",
+   "Bezirksgericht",
+   "Notar/Rechtsanwalt"
+  ],
+  "url_re": [
+   "erwachsenenvertretung_und_vorsorgevollmacht/(?!4)"
+  ],
+  "max_pages": 25,
+  "zielgruppe": "Volljährige, die Angelegenheiten nicht mehr selbst besorgen können, und ihre Angehörigen",
+  "abhaengigkeiten": [
+   "vorsorgevollmacht"
+  ],
+  "trigger": [
+   "Erwachsenenvertretung",
+   "Sachwalter",
+   "Erwachsenenvertreter"
+  ],
+  "kurz": "Eine Vertrauensperson (z.B. Tochter) vertritt eine Person, die ihre Angelegenheiten nicht mehr selbst regeln kann; es gibt vier Arten, die Reichweite ist begrenzt."
+ },
+ {
+  "id": "vorsorgevollmacht",
+  "name": "Vorsorgevollmacht",
+  "bereich": [
+   "F"
+  ],
+  "traeger": [
+   "Notar/Rechtsanwalt",
+   "Erwachsenenschutzverein"
+  ],
+  "url_re": [
+   "erwachsenenvertretung_und_vorsorgevollmacht/4(/|$)"
+  ],
+  "max_pages": 4,
+  "abhaengigkeiten": [
+   "erwachsenenvertretung"
+  ],
+  "trigger": [
+   "Vorsorgevollmacht"
+  ],
+  "kurz": "Vorab erteilte Vollmacht, die erst wirksam wird, wenn jemand seine Angelegenheiten nicht mehr selbst besorgen kann; Registrierung im Österreichischen Zentralen Vertretungsverzeichnis."
+ },
+ {
+  "id": "patientenverfuegung",
+  "name": "Patientenverfügung / Patientenrechte",
+  "bereich": [
+   "F",
+   "C"
+  ],
+  "traeger": [],
+  "url_re": [
+   "/themen/gesundheit/patientenrechte"
+  ],
+  "title_re": [
+   "Patientenverf"
+  ],
+  "max_pages": 4,
+  "trigger": [
+   "Patientenverfügung",
+   "Patientenrechte"
+  ],
+  "kurz": "Informationen zu Patientenrechten (Aufklärung, Einsicht in Unterlagen, Patientenanwaltschaft); die Rechtsform der Patientenverfügung ist im Gesetz beschrieben."
+ },
+ {
+  "id": "behindertenpass",
+  "name": "Behindertenpass, Parkausweis und Vergünstigungen",
+  "bereich": [
+   "E"
+  ],
+  "traeger": [
+   "Sozialministeriumservice"
+  ],
+  "url_re": [
+   "menschen_mit_behinderungen/Seite\\.450712",
+   "kfz_und_behinderung/Seite\\.1260200",
+   "rehabilitation/Seite\\.1170300",
+   "kfz_und_behinderung/Seite\\.1260400"
+  ],
+  "max_pages": 6,
+  "abhaengigkeiten": [
+   "pflegegeld",
+   "familienbeihilfe"
+  ],
+  "trigger": [
+   "Behindertenpass",
+   "Parkausweis",
+   "Behindertenausweis"
+  ],
+  "kurz": "Ausweis des Sozialministeriumservice über den Grad der Behinderung; Grundlage für Parkausweis (§ 29b StVO) und Ermäßigungen."
+ },
+ {
+  "id": "rehabilitation_sv",
+  "name": "Rehabilitation (Sozialversicherung, Maßnahmen)",
+  "bereich": [
+   "C"
+  ],
+  "traeger": [
+   "PVA",
+   "ÖGK",
+   "SVS",
+   "BVAEB",
+   "AUVA"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "menschen_mit_behinderungen/rehabilitation/"
+  ],
+  "max_pages": 14,
+  "trigger": [
+   "Rehabilitation",
+   "Reha",
+   "Kostenträger"
+  ],
+  "kurz": "Überblick über Rehabilitationsmaßnahmen und Kostenträger (Kranken-, Pensions-, Unfallversicherung)."
+ },
+ {
+  "id": "rehabilitationsgeld",
+  "name": "Berufsunfähigkeits-/Invaliditäts-/Erwerbsunfähigkeitspension und Rehabilitationsgeld",
+  "bereich": [
+   "E",
+   "C"
+  ],
+  "traeger": [
+   "PVA",
+   "SVS",
+   "BVAEB"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "menschen_mit_behinderungen/pension_und_behinderung"
+  ],
+  "max_pages": 8,
+  "trigger": [
+   "Invaliditätspension",
+   "Berufsunfähigkeitspension",
+   "Rehabilitationsgeld"
+  ],
+  "kurz": "Pensionsleistungen bei dauernd geminderter Arbeitsfähigkeit; Rehabilitationsgeld/Umschulung siehe Quelle."
+ },
+ {
+  "id": "krankenstand_fit2work",
+  "name": "Krankenstand, Wiedereingliederung, fit2work",
+  "bereich": [
+   "C",
+   "E"
+  ],
+  "traeger": [
+   "ÖGK",
+   "Arbeitgeber"
+  ],
+  "url_re": [
+   "berufsleben/krankenstand"
+  ],
+  "max_pages": 3,
+  "trigger": [
+   "Krankenstand",
+   "Krankengeld",
+   "fit2work"
+  ],
+  "kurz": "Hinweise zu Krankenstand und fit2work-Beratung."
+ },
+ {
+  "id": "medizinische_versorgung_sv",
+  "name": "Leistungen der Krankenversicherung / medizinische Versorgung",
+  "bereich": [
+   "C",
+   "A"
+  ],
+  "traeger": [
+   "ÖGK",
+   "SVS",
+   "BVAEB"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "/themen/gesundheit/medizinische_versorgung",
+   "selbstversicherung_in_der_krankenversicherung",
+   "Hilfe für nicht krankenversicherte",
+   "armut-in-oesterreich/Seite\\.1693902"
+  ],
+  "title_re": [
+   "nicht krankenversicherte"
+  ],
+  "max_pages": 10,
+  "trigger": [
+   "Krankenversicherung",
+   "Selbstversicherung",
+   "e-card"
+  ],
+  "kurz": "Leistungen der Krankenversicherungsträger, Vorsorge-/Screeningprogramme und Selbstversicherung."
+ },
+ {
+  "id": "elternkarenz_mutterschutz",
+  "name": "Mutterschutz, Elternkarenz und Elternteilzeit",
+  "bereich": [
+   "E"
+  ],
+  "traeger": [
+   "Arbeitgeber",
+   "ÖGK"
+  ],
+  "url_re": [
+   "Karenz-und-Mutterschutz"
+  ],
+  "max_pages": 20,
+  "trigger": [
+   "Mutterschutz",
+   "Elternkarenz",
+   "Karenz"
+  ],
+  "kurz": "Arbeitsrechtliche Regeln für Schwangerschaft, Karenz und Elternteilzeit."
+ },
+ {
+  "id": "pension_allgemein",
+  "name": "Pension (Alterspension, Pensionskonto)",
+  "bereich": [
+   "E"
+  ],
+  "traeger": [
+   "PVA",
+   "SVS",
+   "BVAEB"
+  ],
+  "innerhalb_sv": true,
+  "url_re": [
+   "arbeit_beruf_und_pension/pension",
+   "Ich-gehe-oder-bin-in-Pension"
+  ],
+  "max_pages": 12,
+  "trigger": [
+   "Pension",
+   "Alterspension",
+   "Pensionskonto"
+  ],
+  "kurz": "Informationen zu Pensionsarten, Pensionskonto und Zuverdienst."
+ }
+]

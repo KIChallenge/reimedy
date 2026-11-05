@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="statWeis_UV_2020=PARA=2=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="statWeis_UV_2020=PARA=2=BMASGK-20206/0011-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen der Unfallversicherungsträger 2020" abkrvo="statWeis UV 2020" dokart="Weisung" titaen="Statistische Weisungen für die Unfallversicherung 2020 StF" abkaen="statWeis UV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="2">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0011-II/B/6/2019">Erlass   Nr. BMASGK-20206/0011-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Verpflichtung zur Erstellung von Statistiken</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 2.</gldsym> Die Allgemeine Unfallversicherungsanstalt, die Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau als Unfallversicherungsträger getrennt nach den beiden in <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="117" ursprung="u">§ 117</rvolink><nolink> B-KUVG</nolink> angesprochenen Versichertengruppen und die Sozialversicherungsanstalt der Selbständigen als Unfallversicherungsträger getrennt nach den Versicherten a) des <nolink>ASVG</nolink> zuzüglich <nolink>FSVG</nolink> und b) des <nolink>BSVG</nolink> haben statistische Nachweisungen für folgende Bereiche zu erstellen: </absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Monatsstatistik (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="3" bereich="BIS" bis="4" ursprung="u">§§ 3 bis 4</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Versichertenstatistik (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="5" bereich="BIS" bis="6" ursprung="u">§§ 5 bis 6</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Leistungsstatistik (<rvolink abkrvo="statWeis UV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="7" bereich="BIS" bis="24" ursprung="u">§§ 7 bis 24</rvolink>)</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

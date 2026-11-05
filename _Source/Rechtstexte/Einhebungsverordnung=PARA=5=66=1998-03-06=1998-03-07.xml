@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Einhebungsverordnung=PARA=5=66=1998-03-06=1998-03-07"><rvo dokidCms="Einhebungsverordnung=PARA=5=66=1998-03-06=1998-03-07">
+<metadaten titrvo="Einhebungsverordnung" abkrvo="Einhebungsverordnung" dokart="V" titaen="Gesamtstand Einhebungsverordnung idF 66/1998" abkaen="Gesamtstand Einhebungsverordnung idF 66/1998" urheber="BMAGS" pubdat="1998-03-06" ikra="1998-03-07" sichtbarkeit="p" gldart="PARA" gldnr="5" gldsort="70" nichtanzeigen="n">
+<anm>Rechtsgrundlage: <rvolink ursprung="u" abkrvo="AMPFG" verwart="d" gldart="PARA" gldsort="70" gldnr="5" abs="2" typ="e">§ 5 Abs. 2</rvolink> und <rvolink ursprung="u" abkrvo="AMPFG" verwart="d" gldart="PARA" gldsort="70" gldnr="5" abs="3" typ="e">3</rvolink> AMPFG</anm>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="II" nrpuborg="66" jahrgang="1998"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+<absatz typ="abs" halign="j">
+<gldsym>§ 5.</gldsym> Zur Abgeltung der den Gebietskrankenkassen, der Versicherungsanstalt der österreichischen Eisenbahnen, der Versicherungsanstalt des österreichischen Bergbaues und der Versicherungsanstalt öffentlich Bediensteter erwachsenden Kosten werden folgende jährliche Pauschalbeträge festgesetzt:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>für die Einhebung von Arbeitslosenversicherungsbeiträgen und Sonderbeiträgen gemäß <rvolink abkrvo="AMPFG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" ursprung="u">§ 2</rvolink>
+<nolink> AMPFG</nolink> 330 Millionen Schilling;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>für die Einhebung von Zuschlägen gemäß <rvolink abkrvo="IESG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="12" abs="1" ziff="4" ursprung="u">§ 12 Abs. 1 Z 4</rvolink>
+<nolink> IESG</nolink> 31 Millionen Schilling.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RStruktAusgl_2006=ANL=1=246=2015-12-16=2016-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RStruktAusgl_2006=ANL=1=246=2015-12-16=2016-01-01" dokidSource="RStruktAusgl_2006=ANL=1=398=2011-12-21=2011-10-01">
+<metadaten gldart="ANL" gldsort="150" titrvo="Strukturausgleichs-Richtlinien 2006" abkrvo="RStruktAusgl 2006" dokart="RL DVSV" titaen="5. Änderung der Strukturausgleichs-Richtlinien 2006" abkaen="5. Änd RStruktAusgl 2006" urheber="DVSV" beschdat="2015-12-15" pubdat="2015-12-16" ikra="2016-01-01" sichtbarkeit="p" gldnr="1" nichtanzeigen="n">
+
+<puborgane><puborgan puborg="avsv" nrpuborg="246" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="r" level="1" typ="anlage">Anlage 
+<br/>zu den Richtlinien über den Ausgleich unterschiedlicher Strukturen 2006 
+<br/>(Strukturausgleichs-Richtlinien 2006, RStruktAusgl 2006)</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Berechnungsregeln für den Strukturausgleich gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447b" abs="1" ursprung="u">§ 447b Abs. 1</rvolink> ASVG</ueberschrift>
+<absatz typ="satz" halign="j">
+<gldsym> </gldsym>
+</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Datenquellen und Berechnungen</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 1.</b> Es sind ausschließlich die in 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447b" abs="2" ursprung="u">§ 447b Abs. 2</rvolink> ASVG angeführten Datenquellen zu verwenden. Unvollständige Datenerfassungen sind kein Ausschließungsgrund bei den Berechnungen. Eventuelle selbst zu verantwortende negative Auswirkungen aufgrund mangelnder Datenerfassungen gehen zu Lasten der betroffenen Gebietskrankenkasse. Die Berechnungen sind (sofern im Folgenden nichts anderes bestimmt wird) jährlich mit den Daten des jeweiligen Geschäftsjahres vom Hauptverband durchzuführen.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Einnahmenstruktur</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 2.</b> (1) Für die Berechnung der Einnahmenstruktur gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447b" abs="1" ziff="1" ursprung="u">§ 447b Abs. 1 Z 1</rvolink> ASVG ist die in § 9 vorgesehene Gliederung zu verwenden. Zu verwenden sind die Zahlen der Rechnungsabschlüsse und der endgültigen Abrechnungen gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447f" ursprung="u">§ 447f</rvolink> ASVG.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Aus den Einnahmen für die Berechnung des Strukturausgleichs sind für jede Gebietskrankenkasse Kopfquoten zu bilden (Einnahmen je Anspruchsberechtigten im Jahresdurchschnitt). Die Differenzen zwischen diesen Kopfquoten und der Kopfquote über alle Gebietskrankenkassen werden mit der Zahl der Anspruchsberechtigten des Versicherungsträgers multipliziert und ergeben die Vorteile/ Nachteile jeder Gebietskrankenkasse aus der Einnahmenstruktur.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Alter, Geschlecht und kostenintensive Anspruchsberechtigte</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 3.</b> (1) Es sind die Aufwendungen je Anspruchsberechtigten über die Summe aller Gebietskrankenkassen nach einjährigen Alterstufen zu ermitteln. Diese Berechnungen sind getrennt für Männer und Frauen sowie kostenintensive Anspruchsberechtigte und die übrigen Anspruchsberechtigten durchzuführen (siehe § 9 Tabellen).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Als kostenintensive Anspruchsberechtigte gelten jene Personen, deren Medikamentenaufwand einen Schwellenwert übersteigt. Als Schwellenwert gilt der Betrag, den jeder der teuersten 1 % der Leistungsbezieher mit Medikamentenaufwendungen überschreitet.</absatz>
+<absatz halign="j" typ="abs">(3) Es sind folgende Aufwendungen aus der zentralen Leistungsdatenbank des Hauptverbandes zu berücksichtigen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Ärztliche Hilfe und gleichgestellte Leistungen</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Heilmittel</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Heilbehelfe und Hilfsmittel</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Zahnbehandlung und Zahnersatz</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Transportkosten</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Stationäre Spitalsaufenthalte</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Krankengeldaufwendungen.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Aufwendungen für stationäre Spitalsaufenthalte sind durch Multiplikation der Spitaltage mit einem durchschnittlichen einheitlichen Tagsatz zu ermitteln. Dieser Tagsatz ergibt sich aus der Summe der endgültigen Pauschalbeträge an die Landesfonds (stationärer Anteil aufgrund der Aufwandserhebung 1994), den PRIKRAF und die AUVA dividiert durch die Anzahl der Spitaltage aus der zentralen Leistungsdatenbank und ist auf volle Euro zu runden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Aufwandsarten gemäß Abs. 3 Z 1 bis 6, die nicht von allen Gebietskrankenkassen repräsentativ erfasst wurden, bleiben unberücksichtigt. Eine Erfassung von 80 % der jeweiligen bundesweiten Daten gilt jedenfalls als ausreichend repräsentativ.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(6) Der Pro-Kopf-Aufwand aller Anspruchsberechtigten aller Gebietskrankenkassen multipliziert mit der Anzahl der Anspruchsberechtigten jeder einzelnen Gebietskrankenkasse ergibt das „fiktive Normbudget“ jedes Trägers. Die Pro-Kopf-Aufwendungen, bezogen auf die einzelnen Gruppen gemäß Abs. 1 (alle Gebietskrankenkassen) nach Alter werden mit den entsprechenden Anspruchsberechtigten der einzelnen Gebietskrankenkassen multipliziert. Die Summe dieser Produkte ergibt das „Normbudget nach Risikoparameter“ der jeweiligen Gebietskrankenkasse. Die Differenz zwischen dem „fiktiven Normbudget“ und dem „Normbudget nach Risikoparameter“ ergibt den Vorteil/Nachteil jeder Gebietskrankenkasse aus der Versichertenstruktur.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Nachteile durch regionale Besonderheiten</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 4.</b> (1) Berechnungsgrundlage sind die Aufwendungen gemäß § 3 Abs. 3 (ohne Aufwendungen für stationäre Spitalsaufenthalte).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Aus diesen Aufwendungen sind für jede Gebietskrankenkasse die durchschnittlichen Aufwendungen je Anspruchsberechtigten zu berechnen (durchschnittliche IST-Kosten). Gemäß den Bestimmungen des § 3 ist für jede Gebietskrankenkasse das „Normbudget nach Risikoparameter“ zu berechnen. Aus diesem „Normbudget nach Risikoparameter“ sind die durchschnittlichen Aufwendungen je Anspruchsberechtigten zu errechnen (durchschnittliche NORM-Kosten). Bei jenen Gebietskrankenkassen, deren durchschnittliche IST-Kosten die durchschnittlichen NORM-Kosten übersteigen, ist die Differenz dieser beiden Werte zu bilden und mit der Zahl der Anspruchsberechtigten zu multiplizieren. Dieses Produkt entspricht dem Nachteil aus regionalen Besonderheiten. Die Berechnung ist für das Geschäftsjahr 2005 durchzuführen und nach drei Jahren zu evaluieren.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Belastungen aus der pauschalierten Spitalsfinanzierung gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447f" ursprung="u">§ 447f</rvolink> ASVG</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 5.</b> (1) Die endgültigen Pauschalbeträge der einzelnen Gebietskrankenkassen an den Ausgleichsfonds für die Krankenanstaltenfinanzierung gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447f" ursprung="u">§ 447f</rvolink> ASVG (stationärer Anteil aufgrund der Aufwandserhebung 1994), an den PRIKRAF und an die AUVA sind in ein prozentuelles Verhältnis zu setzen. Diese Prozentsätze sind auf 2 Dezimalstellen zu runden. Durch Umlage dieser Prozentsätze auf die gesamten stationären Aufwendungen aller Gebietskrankenkassen (Gesamtzahl der Spitaltage multipliziert mit dem einheitlichen Tagsatz gemäß § 3 Abs. 4) ergeben sich die stationären Istaufwendungen jeder einzelnen Gebietskrankenkasse. Aus diesen Aufwendungen sind die durchschnittlichen Aufwendungen je Anspruchsberechtigten der jeweiligen Gebietskrankenkasse zu errechnen (durchschnittliche IST-Kosten).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die stationären Normaufwendungen jeder einzelnen Gebietskrankenkasse ergeben sich aus der Differenz des „Normbudgets nach Risikoparametern“ gemäß § 3 Abs. 6 und des „Normbudgets nach Risikoparametern“ gemäß § 4 Abs. 2. Aus diesen Aufwendungen sind die durchschnittlichen Aufwendungen je Anspruchsberechtigten zu errechnen (durchschnittliche NORM-Kosten). Bei jenen Gebietskrankenkassen, deren durchschnittliche IST-Kosten die durchschnittlichen NORM-Kosten übersteigen, ist die Differenz dieser beiden Werte zu bilden und mit der Zahl der Anspruchsberechtigten zu multiplizieren. Dieses Produkt entspricht dem Nachteil aus der pauschalierten Spitalsfinanzierung.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Berechnung des Strukturausgleichs für das Geschäftsjahr 2005</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 6.</b> Für jede Gebietskrankenkasse sind die Vorteile/Nachteile gemäß § 2 Abs. 2, § 3 Abs. 6, § 4 Abs. 2 und § 5 Abs. 2 zu summieren. Für die weiteren Berechnungen sind nur mehr jene Gebietskrankenkassen zu berücksichtigen, bei denen sich durch diese Summierung ein Gesamtnachteil ergibt. Die prozentuelle Verteilung der Gesamtnachteile (gerundet auf zwei Dezimalstellen) ergeben den Anteil jeder Gebietskrankenkasse am Ausgleich der unterschiedlichen Strukturen gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447b" ursprung="u">§ 447b</rvolink> ASVG.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Berechnung des Strukturausgleichs</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 7.</b> (1) Für das Geschäftsjahr 2005 sind für jede Gebietskrankenkasse die Prozentsätze gemäß § 6 den Prozentsätzen, die sich bei gleichartiger Berechnung ohne die Berücksichtigung der Bestimmungen des § 4 ergeben hätten, gegenüberzustellen. Aus diesen Datenreihen sind die Differenzen zu bilden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die sich aus den Berechnungen gemäß Abs. 1 ergebenden Differenzprozentsätze sind jährlich - beginnend mit dem Geschäftsjahr 2006 - mit dem Faktor 0,95 zu multiplizieren und auf zwei Dezimalstellen zu runden. Etwaige Rundungsdifferenzen sind auszugleichen. Letztmalig ist das bei der Berechnung für das Jahr 2014 vorzunehmen. Die für das Jahr 2014 errechneten Differenz<bdash/>prozentsätze (= Nachteil Region 2014) gelten für die Folgejahre.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Für die einzelnen Gebietskrankenkassen sind für jedes Geschäftsjahr die Berechnungen gemäß § 6 (ohne Berücksichtigung der Vorteile/Nachteile gemäß § 4 Abs. 2) durchzuführen. Die sich daraus ergebenden Prozentsätze sind um die Differenzprozentsätze gemäß Abs. 2 zu erhöhen bzw. zu verringern. Die sich daraus errechneten Prozentsätze ergeben den Anteil jeder Gebietskrankenkasse am Ausgleich der unterschiedlichen Strukturen gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="447b" ursprung="u">§ 447b</rvolink> ASVG.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Evaluierung der Berechnungsregeln</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 8.</b> (1) Unter der Leitung der Salzburger Gebietskrankenkasse ist das den Berechnungsregeln zugrunde liegende Modell für den Strukturausgleich zumindest einmal jährlich zu evaluieren.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Insbesondere sind die Vollständigkeit und die Qualität der Daten aus der zentralen Leistungsdatenbank des Hauptverbandes zu evaluieren, sowie Möglichkeiten zur Verfeinerung des Modells aufgrund zur Verfügung stehender Daten zu prüfen. Über das Ergebnis der Evaluierung ist den Gebietskrankenkassen und dem Hauptverband zu berichten.</absatz>
+<ueberschrift halign="c" typ="para">
+<b>Tabellen</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 9.</b> Zur Darstellung der Berechnungsergebnisse sind nachstehende Tabellen</absatz>
+<liste>
+<strichliste ebene="1">
+<listelem>
+<symbol stellen="1">-</symbol>Einnahmen für die Berechnung des Strukturausgleichs und</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>Pro-Kopf-Aufwendungen nach Alter - Alle Gebietskrankenkassen</listelem>
+</strichliste>
+</liste>
+<liste>
+<schluss typ="Abs">zu verwenden.</schluss>
+</liste>
+<ueberschrift halign="c" typ="para">
+<b>Berechnungsmodell 2004</b>
+</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>§ 10.</b> Das Berechnungsmodell auf Basis der Werte für das Jahr 2004 ist dieser Anlage angeschlossen.</absatz>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j"> </absatz>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j"> </absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<i>Anm.: der Redaktion: Um die Tabellen zur Darstellung der Berechnungsergebnisse zu sehen, betätigen Sie bitte nachstehende Links:</i>
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>
+<wwwlink url="/fs/avsv122_2009_anh.jpg ">Einnahmen für die Berechnung des Strukturausgleichs</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Pro-Kopf-Aufwendungen nach Alter - Alle Gebietskrankenkassen.pdf">Pro-Kopf-Aufwendungen nach Alter - Alle Gebietskrankenkassen</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 1.pdf">Einnahmenvorteile / -nachteile 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 2.pdf">Berechnung des durchschnittlichen Tagsatzes für stationäre Spitalsaufenthalte 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 3.pdf">Vorteile/Nachteile bei der Versichertenstruktur 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 4.pdf">Berechnung der Nachteile durch regionale Besonderheiten 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 5.pdf">Berechnung der stationären IST - Kosten 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 6.pdf">Berechnung des Normbudgets für stationäre Aufwendungen 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 7.pdf">Berechnung der Nachteile durch die pauschalierte Spitalsfinanzierung 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 8.pdf">Berechnung des Risikoausgleichs 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 9.pdf">Berechnung des Risikoausgleichs (ohne Nachteil durch regionale Besonderheiten) 2004</wwwlink>
+</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>
+<wwwlink url="/fs/RStruktAusgl 2006_Tabelle 10.pdf">Berechnung der Abschmelzung im ersten Jahr (Fiktiv: 2004 ist die Basis)</wwwlink>
+</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

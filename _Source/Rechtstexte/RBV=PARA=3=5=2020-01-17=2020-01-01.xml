@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="RBV=PARA=3=5=2020-01-17=2020-01-01"><rvo dokidCms="RBV=PARA=3=5=2020-01-17=2020-01-01" dokidSource="RBV=PARA=3=23=2016-02-24=2016-03-01">
+      <metadaten titrvo="Richtlinien für die Beurteilung von Vermögensanlagen im Sinne des § 446 Abs. 1 und 2 ASVG" abkrvo="RBV" dokart="RL DVSV" urheber="DVSV" beschdat="2020-01-14" pubdat="2020-01-17" ikra="2020-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="SV-OG Anpassungsverlautbarung" abkaen="SV-OG AnpVerl" gldart="PARA" gldnr="3" gldsort="70">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="5" jahrgang="2020" begseite="7"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Bonität</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 3.</gldsym> (1) Kreditinstitute und Mitgliedstaaten (bzw. deren Teilstaaten, Bundesländer, Provinzen) des EWR mit zweifelsfreier Bonität sowie verzinsliche Schuldverschreibungen von zweifelsfreier Bonität im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="446" ursprung="u">§ 446</rvolink><nolink> ASVG</nolink> sind jene, die im Anlagezeitpunkt zumindest eines der nachfolgenden Kriterien erfüllen:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Ein Mitgliedstaat (Teilstaat usw.) hat ein aktuelles Rating von zumindest „Upper Medium Grade“ (z. B. Standard <amp/> Poor‘s: A-) von einer von ESMA anerkannten Rating-Agentur. Die Zuordnung der von ESMA anerkannten Rating-Agenturen vergebenen Ratings zu Bonitätsstufen ist anhand der jeweils geltenden Capital Requirements Regulation-CRR-Mapping-Verordnung der Finanzmarktaufsichtsbehörde (FMA) oder einer an deren Stelle tretenden Kundmachung vorzunehmen.</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Für Kreditinstitute mit und ohne Rating sind mindestens nachfolgende Faktoren für die interne Bonitätsbewertung zu berücksichtigen:</listelem>
+            </ziffernliste>
+          </liste>
+          <table id="Tabelle1" align="center" cellspacing="0" style="border-collapse:collapse;margin-left:38.95pt">
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="181" style="white-space:nowrap;vertical-align:middle;border-top:solid windowtext 0.5pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3494">
+                <absatz typ="tabtext" halign="l">Funktionen</absatz>
+              </td>
+              <td width="60" style="vertical-align:middle;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4394">
+                <absatz typ="tabtextz" halign="c">Faktoren</absatz>
+              </td>
+              <td nowrap="nowrap" width="284" style="white-space:nowrap;vertical-align:middle;border-top:solid windowtext 0.5pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8654">
+                <absatz typ="tabtext">
+                  <nbsp/>
+                </absatz>
+              </td>
+              <td width="47" style="vertical-align:middle;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtextz" halign="c">Punkte</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="181" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3494">
+                <absatz typ="tabtext" halign="l">Merkmale des Kreditinstitutes</absatz>
+              </td>
+              <td width="60" style="vertical-align:top;border-top:none windowtext 0pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4394">
+                <absatz typ="tabtextz" halign="c">1</absatz>
+              </td>
+              <td nowrap="nowrap" width="284" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8654">
+                <absatz typ="tabtext" halign="l">Bilanzsumme größer als fünf Mrd. €, laut letztvorhandenem Rechnungsabschluss oder<br/>bestehende ungekündigte Mitgliedschaft bei einem Kreditinstitute-Verbund gemäß <rvolink abkrvo="BWG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="30a" ursprung="u">§ 30a</rvolink> BWG oder gemäß <rvolink abkrvo="BWG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="30" abs="1" ziff="5" ursprung="u">§ 30 Abs. 1 Z 5</rvolink> BWG in Verbindung mit <nolink>Art. 113 Abs. 7</nolink> CRR oder<br/>Systemrelevanz gemäß <rvolink abkrvo="BWG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="23b" ursprung="u">§ 23b</rvolink> und <rvolink abkrvo="BWG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="23c" ursprung="u">§ 23c</rvolink> BWG.</absatz>
+              </td>
+              <td width="47" style="vertical-align:top;border-top:none windowtext 0pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtextz" halign="c">1</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="181" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3494">
+                <absatz typ="tabtext" halign="l">Geschäftsbericht</absatz>
+              </td>
+              <td width="60" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4394">
+                <absatz typ="tabtextz" halign="c">2</absatz>
+              </td>
+              <td nowrap="nowrap" width="284" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8654">
+                <absatz typ="tabtext" halign="l">Es ist der Geschäftsbericht des letzten abgelaufenen Geschäftsjahres heranzuziehen. Falls dieser noch nicht vorliegt, darf der Geschäftsbericht des davor liegenden Geschäftsjahres herangezogen werden.</absatz>
+              </td>
+              <td width="47" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtextz" halign="c">1</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="181" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3494">
+                <absatz typ="tabtext" halign="l">Core Tier 1 Ratio (Kernkapitalquote)</absatz>
+              </td>
+              <td width="60" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4394">
+                <absatz typ="tabtextz" halign="c">3</absatz>
+              </td>
+              <td nowrap="nowrap" width="284" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8654">
+                <absatz typ="tabtext" halign="l">Größer als 10 %, laut letztvorhandenem Rechnungsabschluss.</absatz>
+              </td>
+              <td width="47" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtextz" halign="c">1</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="181" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3494">
+                <absatz typ="tabtext" halign="l">Gewinn vor Steuern</absatz>
+              </td>
+              <td width="60" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4394">
+                <absatz typ="tabtextz" halign="c">4</absatz>
+              </td>
+              <td nowrap="nowrap" width="284" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8654">
+                <absatz typ="tabtext" halign="l">Von den Rechnungsabschlüssen der letzten drei Jahre zwei positiv.</absatz>
+              </td>
+              <td width="47" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtextz" halign="c">1</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="181" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3494">
+                <absatz typ="tabtext" halign="l">Keine negativen Faktoren, die unterjährig auftreten</absatz>
+              </td>
+              <td width="60" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4394">
+                <absatz typ="tabtextz" halign="c">5</absatz>
+              </td>
+              <td nowrap="nowrap" width="284" style="white-space:nowrap;vertical-align:top;border:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="8654">
+                <absatz typ="tabtext" halign="l">Es dürfen keine öffentlich bekannten Tatsachen (z. B. Nichtbestehen von Tests, Abspaltungen eines Teiles des Geschäftes, Ad-hoc Meldungen gemäß <rvolink abkrvo="BörseG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="48d" ursprung="u">§ 48d</rvolink> Börsegesetz) vorliegen, welche eine positive Prognose zukünftiger Geschäftsbeziehungen gefährden würden.</absatz>
+              </td>
+              <td width="47" style="vertical-align:top;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtextz" halign="c">1</absatz>
+              </td>
+            </tr>
+          </table>
+          <liste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Nicht geratete Kreditinstitute: Mit Erreichen von vier von fünf Faktoren ist eine Veranlagungsmöglichkeit im Sinne dieser Richtlinien mit einer in den Leitlinien des jeweiligen Sozialversicherungsträgers festzulegenden maximalen Höchstgrenze gegeben.</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Geratete Kreditinstitute: Kreditinstitute, die über ein Rating einer von ESMA anerkannten Rating-Agentur im Non-Investment-Grade verfügen, sind von einer Neuveranlagung jedenfalls ausgeschlossen. Eine bestehende Veranlagung ist interessenwahrend aufzulösen, wenn aber trotz Ratingverschlechterung noch vier von fünf Bonitätskriterien erfüllt sind, ist keine Auflösung notwendig. Für alle anderen gerateten Kreditinstitute gilt: Mit Erreichen von drei von fünf Faktoren ist eine Veranlagungsmöglichkeit im Sinne dieser Richtlinien mit einer in den Leitlinien des jeweiligen Sozialversicherungsträgers festzulegenden maximalen Höchstgrenze gegeben.</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">3.</symbol>Im Falle von Pfandbriefen mit einem „Upper Medium Grade“ Rating muss das emittierende Institut vier von fünf Faktoren gemäß Z 2 erfüllen.</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Es sind nur Anleihen gerateter Unternehmen zulässig. Dafür gilt ein aktuelles Rating von zumindest „Upper Medium Grade“. Für Unternehmen sind mindestens nachfolgende Faktoren für die interne Bonitätsbewertung zu berücksichtigen, wobei eine Veranlagungsmöglichkeit nur bei Erfüllung von vier von fünf Faktoren vorhanden ist:</listelem>
+            </ziffernliste>
+          </liste>
+          <table id="Tabelle2" align="center" cellspacing="0" style="border-collapse:collapse;margin-left:38.95pt">
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="169" style="white-space:nowrap;vertical-align:middle;border-top:solid windowtext 0.5pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3314">
+                <absatz typ="tabtext" halign="l">Funktionen</absatz>
+              </td>
+              <td width="57" style="vertical-align:middle;border-top:solid windowtext 0.5pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4169">
+                <absatz typ="tabtextz" halign="c">Faktoren</absatz>
+              </td>
+              <td nowrap="nowrap" width="346" style="white-space:nowrap;vertical-align:middle;border-top:solid windowtext 0.5pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtext">
+                  <nbsp/>
+                </absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="169" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3314">
+                <absatz typ="tabtext" halign="l">Umsatz</absatz>
+              </td>
+              <td width="57" style="vertical-align:top;border-top:none windowtext 0pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4169">
+                <absatz typ="tabtextz" halign="c">1</absatz>
+              </td>
+              <td nowrap="nowrap" width="346" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtext" halign="l">Größer als eine Mrd. €, laut letztvorhandenem Rechnungsabschluss.</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="169" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3314">
+                <absatz typ="tabtext" halign="l">Eigenkapitalquote</absatz>
+              </td>
+              <td width="57" style="vertical-align:top;border-top:none windowtext 0pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4169">
+                <absatz typ="tabtextz" halign="c">2</absatz>
+              </td>
+              <td nowrap="nowrap" width="346" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtext" halign="l">Größer als 33 % (Eigenkapital zu Bilanzsumme), laut letztvorhandenem Rechnungsabschluss.</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="169" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3314">
+                <absatz typ="tabtext" halign="l">Gewinn vor Steuern</absatz>
+              </td>
+              <td width="57" style="vertical-align:top;border-top:none windowtext 0pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4169">
+                <absatz typ="tabtextz" halign="c">3</absatz>
+              </td>
+              <td nowrap="nowrap" width="346" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtext" halign="l">Von den Rechnungsabschlüssen der letzten drei Jahre zwei positiv.</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="169" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3314">
+                <absatz typ="tabtext" halign="l">Zinsdeckungsgrad</absatz>
+              </td>
+              <td width="57" style="vertical-align:top;border-top:none windowtext 0pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4169">
+                <absatz typ="tabtextz" halign="c">4</absatz>
+              </td>
+              <td nowrap="nowrap" width="346" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtext" halign="l">Größer als 6 (= Ergebnis vor Zinsaufwand / Zinsaufwand <gt/> 6)</absatz>
+              </td>
+            </tr>
+            <tr style="height:15pt;" h-start="779">
+              <td nowrap="nowrap" width="169" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="3314">
+                <absatz typ="tabtext" halign="l">Keine negativen Faktoren, die unterjährig auftreten</absatz>
+              </td>
+              <td width="57" style="vertical-align:top;border-top:none windowtext 0pt;border-left:none windowtext 0pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="4169">
+                <absatz typ="tabtextz" halign="c">5</absatz>
+              </td>
+              <td nowrap="nowrap" width="346" style="white-space:nowrap;vertical-align:top;border-top:none windowtext 0pt;border-left:solid windowtext 0.5pt;border-bottom:solid windowtext 0.5pt;border-right:solid windowtext 0.5pt;padding:0pt 3.5pt 0pt 3.5pt" h-xval="9359">
+                <absatz typ="tabtext" halign="l">Es dürfen keine öffentlich bekannten Tatsachen (z. B. geplante Fusionen, Abspaltungen eines Teiles des Geschäftes, Ad-hoc Meldungen gem. <rvolink abkrvo="BörseG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="48d" ursprung="u">§ 48d</rvolink> Börsegesetz) vorliegen, welche eine positive Prognose der zukünftigen Geschäftsentwicklung in Frage stellen.</absatz>
+              </td>
+            </tr>
+          </table>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">5.</symbol>Im Falle von Anlagen <nolink>in Investmentfonds gilt</nolink> keine Verpflichtung zur Durchführung einer internen Bonitätsbewertung. Es sind jedoch nur solche Fonds zulässig, deren Fondsbestimmungen mindestens ein durchschnittliches Rating der Anlagen des Fonds von „Upper Medium Grade“ verlangen. Im Fonds dürfen keine Einzeltitel unterhalb von „Investment Grade“ gehalten werden.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Der Dachverband (die Konferenz) hat eine Liste jener Kreditinstitute/Emittenten zu erstellen, bei denen nach entsprechender Prüfung die Erfüllung der geforderten Faktoren gemäß Abs. 1 Z 2 bis 4 festgestellt worden ist. Diese Liste ist allen Sozialversicherungsträgern und den Aufsichtsbehörden zur Verfügung zu stellen. Die Aufnahme in diese Liste erfolgt über begründeten Vorschlag durch einen Sozialversicherungsträger, welcher schriftlich an den Dachverband zu richten ist. Die Entscheidung darüber trifft der Dachverband nach Maßgabe der in Abs. 1 angeführten Kriterien. Die Streichung eines Kreditinstitutes/Emittenten aus dieser Liste erfolgt durch den Dachverband, wenn die in Abs. 1 angeführten Kriterien nicht mehr zutreffen. Der Dachverband hat diese Liste quartalsweise zu überprüfen. Die Sozialversicherungsträger sind zeitgleich von jeder Änderung in Kenntnis zu setzen. Die Überprüfung vorhandener öffentlicher Ratings erfolgt mindestens quartalsweise.</absatz>
+          <absatz typ="abs" halign="j">(3) Treffen die Voraussetzungen für Veranlagungen gemäß Abs. 1 nicht mehr zu, so sind Veranlagungen interessenwahrend zu verkaufen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

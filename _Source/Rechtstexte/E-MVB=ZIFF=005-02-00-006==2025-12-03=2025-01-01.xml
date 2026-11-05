@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="E-MVB=ZIFF=005-02-00-006==2025-12-03=2025-01-01"><rvo dokidCms="E-MVB=ZIFF=005-02-00-006==2024-09-01=2024-09-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Änderung der Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens Neufassung 2025/3" abkaen="E-MVB Änderung 2025/3" urheber="DVSV" pubdat="2025-12-03" ikra="2025-01-01" berkz="KVL; " sichtbarkeit="p" gldnr="005-02-00-006" nichtanzeigen="n">
+<schlagw>
+<textelem>Geringfügig fallweise Beschäftigte</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2003-12-19"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-02-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>005-02-00-006</gldsym>
+</absatz>
+<absatz typ="satz" halign="j">Geringfügigkeit - Geringfügig Beschäftigte</absatz>
+<ueberschrift level="3" halign="c" typ="para">Geringfügig fallweise Beschäftigte</ueberschrift>
+<absatz typ="satz" halign="j"><rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="471a" ursprung="u">§ 471a bis § 471e</rvolink> ASVG wurden mit BGBl. I Nr. 79/2015 aufgehoben.</absatz>
+          <absatz typ="satz" halign="j">Unter fallweise Beschäftigten versteht man Personen, die in <b>unregelmäßiger Folge tageweise bei demselben Dienstgeber</b> beschäftigt werden, wenn die Beschäftigung für eine <b>kürzere Zeit als eine Woche</b> vereinbart ist.</absatz>
+          <absatz typ="satz" halign="j">Keine fallweise Beschäftigung liegt vor, wenn sich etwa eine Person verpflichtet, nur einmal wöchentlich an einem im Voraus bereits fixierten Tag (beispielsweise jeden Montag) oder einmal monatlich (zum Beispiel jeden 15. oder jeden letzten Freitag im Monat) eine bestimmte Arbeitsleistung zu erbringen. Durch die im Voraus bestimmte periodisch wiederkehrende Arbeitsleistung liegt in einem solchen Fall ein durchlaufendes Beschäftigungsverhältnis vor.</absatz>
+          <absatz typ="satz" halign="j">
+            <b>Umfang der Versicherung</b>
+          </absatz>
+          <absatz typ="satz" halign="j">Bei der fallweisen bzw. tageweisen Beschäftigung ist zu beachten, dass jeder Tag als eigenständiges Dienstverhältnis zu betrachten ist. Eine Zusammenrechnung hat nicht zu erfolgen. Daher ist stets jenes Entgelt heranzuziehen, das für den jeweiligen Kalendertag (00.00 Uhr bis 24.00 Uhr) tatsächlich auszuzahlen ist. Dieses ist dann der monatlichen Geringfügigkeitsgrenze von <b>EUR 551,10 (2025)</b> gegenüber zu stellen.</absatz>
+          <absatz typ="satz" halign="j">
+            <b>Beispiel:</b>
+          </absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="1">●</symbol>05.01., Entgelt: 100,00 Euro = unter der Geringfügigkeitsgrenze</listelem>
+              <listelem>
+                <symbol stellen="1">●</symbol>06.01., Entgelt: 100,00 Euro = unter der Geringfügigkeitsgrenze</listelem>
+              <listelem>
+                <symbol stellen="1">●</symbol>18.01., Entgelt: 600,00 Euro = über der Geringfügigkeitsgrenze (tägliche Höchstbeitragsgrundlage beachten)</listelem>
+              <listelem>
+                <symbol stellen="1">●</symbol>20.01., Entgelt: 600,00 Euro = über der Geringfügigkeitsgrenze (tägliche Höchstbeitragsgrundlage beachten)</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="satz" halign="j">Eine Vollversicherung besteht daher nur am 18.01. und am 20.01.!</absatz>
+          <absatz typ="satz" halign="j">Auch fallweise Beschäftigte sind elektronisch vor Arbeitsantritt zu melden. Die Anmeldung fallweise Beschäftigter ist dabei für jeden Beschäftigungstag zu erstatten und wirkt als Vor-Ort-Anmeldung. Wie bei durchlaufenden Versicherungsverhältnissen wird erst nach Erstattung der monatlichen Beitragsgrundlagenmeldung (mBGM) die Anmeldeverpflichtung erfüllt. Die endgültige An- und Abmeldung für fallweise beschäftigte Personen ist als mBGM für fallweise Beschäftigte zu erstatten.</absatz>
+          <absatz typ="satz" halign="j">Die Dienstgeberabgabe ist auch bei fallweisen Beschäftigten zu entrichten, wenn die Voraussetzungen nach dem DAG gegeben sind</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

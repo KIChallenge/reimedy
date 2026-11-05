@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=18=156=2005-11-30=2005-12-01"><rvo>
+<metadaten titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-12-01" sichtbarkeit="p" gldart="PARA" gldnr="18" gldsort="70" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Diagnostische Leistung eines klinischen Psychologen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 18. </gldsym>(1) Diagnostische psychologische Leistungen können bei den Vertragspartnern der Kasse, die zu solchen Behandlungen berechtigt sind, über Verordnung (Zuweisung) durch einen:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vertragsfacharzt für Neurologie (und Psychiatrie),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Vertragsfacharzt für Psychiatrie (und Neurologie),</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Vertragsfacharzt für innere Medizin,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Vertragsfacharzt für Kinder- und Jugendheilkunde,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>entsprechenden Arzt in einer Vertrags-Gruppenpraxis oder</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Vertragspsychotherapeuten</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">auf Rechnung der Kasse in Anspruch genommen werden. Die Verordnung (Zuweisung) durch einen Psychotherapeuten bedarf der Genehmigung der Kasse.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Wird die Diagnostik von jemandem durchgeführt, der hiefür zwar berechtigt ist, aber keinen Vertrag mit der Kasse hat, erstattet die Kasse dem Anspruchsberechtigten Kosten nach den <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="28" bereich="F" ursprung="u">§§ 28 ff.</rvolink>, sofern eine Verordnung (Zuweisung) nach Abs. 1 vorliegt.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

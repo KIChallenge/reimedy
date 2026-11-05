@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="PO_2014=PARA=41=176=2014-11-11=2015-09-01"><rvo dokidCms="PO_2014=PARA=41=176=2014-11-11=2015-09-01">
+      <metadaten gldart="PARA" gldsort="70" nichtanzeigen="n" titrvo="Prüfungsordnung 2014" abkrvo="PO 2014" dokart="PO" titaen="Prüfungsordnung 2014 StF" abkaen="PO 2014 StF" urheber="Hauptverband" beschdat="2014-09-23" pubdat="2014-11-11" ikra="2015-09-01" sichtbarkeit="p" gldnr="41">
+        <puborgane><puborgan puborg="avsv" nrpuborg="176" jahrgang="2014">avsv   Nr. 176/2014 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt endnhier="true" nr="1" paperf="h" typ="ns">
+          <ueberschrift halign="c" typ="g2" level="2">ABSCHNITT II <br/>Durchführung der Prüfung </ueberschrift>
+          
+          <ueberschrift halign="c" typ="para" level="3">Gliederung der Prüfung – Prüfungsstoff</ueberschrift>
+          <absatz halign="j" typ="abs">
+            <gldsym>§ 41.</gldsym> (1) Die Prüfung besteht aus einer Hausarbeit oder einer schriftlichen Klausurarbeit und einer mündlichen Prüfung vor einer Prüfungskommission. Die schriftliche Arbeit hat dem mündlichen Teil vorauszugehen.</absatz>
+          <absatz halign="j" typ="abs">(2) Der Prüfungsstoff umfasst nachstehende Gegenstände, wobei Fragen betreffend die Hausarbeit auch dann zulässig sind, wenn diese zu einem Wahlmodul gemäß <rvolink abkrvo="PO 2014" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="27" abs="1" ursprung="u">§ 27 Abs. 1</rvolink> verfasst wurde:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Melde-, Versicherungs- und Beitragswesen,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Krankenversicherung inklusive Vertragspartnerrecht,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Unfallversicherung und</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Pensionsversicherung.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz halign="j" typ="abs">(3) Der Stoffumfang der Gebiete gemäß Abs. 2 ist mit dem Umfang der jeweiligen Lernbehelfe für die allgemeine Fachausbildung begrenzt.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten deftab="36" footerd="36" gutter="0" gutterpos="0" headerd="36" margb="56.7" margl="56.7" margr="56.7" margt="70.9" paperf="7" paperh="841.9" paperw="595.3"/>
+    </rvo></sozdok>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="BPGG=PARA=33a=32=2026-05-19=2026-05-20"><rvo dokidCms="BPGG=PARA=33a=100=2018-12-22=2020-01-01" dokidSource="BPGG=PARA=33a=100=2018-12-22=2020-01-01">
+<metadaten pubdat="2026-05-19" abkaen="MaiNov 32/2026" dokart="BG" titaen="Mainovelle 32/2026" abkrvo="BPGG" sichtbarkeit="p" ikra="2026-05-20" gldnr="33a" titrvo="Bundespflegegeldgesetz" urheber="Bund" berkz="PFLEGE; AN; SELB; " gldart="PARA" indbr="66.03.11" gldsort="70" nichtanzeigen="n" beschdat="2026-04-23">
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="32" begseite="1" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="g1min">6a. Abschnitt <br/>Qualitätssicherung</ueberschrift>
+<ueberschrift level="3" halign="c" typ="para">Qualitätssicherung</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 33a.</gldsym> (1) Die Entscheidungsträger (<rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="u">§ 22</rvolink>) können Maßnahmen zur Qualitätssicherung durchführen. Insbesondere können sie in Form von Hausbesuchen überprüfen, ob eine den Bedürfnissen der pflegebedürftigen Person entsprechende Pflege gegeben ist und erforderlichenfalls durch Information und Beratung zu deren Verbesserung beitragen. Dabei sollen nach Möglichkeit auch die an der konkreten Pflegesituation beteiligten Personen einbezogen werden. Solche Hausbesuche können auch auf Wunsch der pflegebedürftigen Person oder der Angehörigen durchgeführt werden.</absatz>
+<absatz typ="abs" halign="j">(2) Die Entscheidungsträger (<rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="u">§ 22</rvolink>) können pflegenden Angehörigen, die im Rahmen eines Hausbesuches gemäß Abs. 1 psychische Belastungen angegeben haben, als Beitrag zur Prävention und als weitere qualitätssichernde Maßnahme Unterstützungsgespräche anbieten.</absatz><absatz typ="abs" halign="j">(3) Die Sozialversicherungsanstalt der Bauern ist ermächtigt, die für die Durchführung der Unterstützungsgespräche nach Abs. 2 notwendigen, personenbezogenen Daten zu verarbeiten. Folgende Datenarten werden dabei verarbeitet:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>personenbezogene Daten der pflegebedürftigen Person:</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Sozialversicherungsnummer,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Pflegegeldstufe,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Geburtsdatum,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Geschlecht,</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Dauer der Pflege durch den Angehörigen,</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Dauer des Pflegegeldbezugs;</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">2.</symbol>personenbezogene Daten der Person, mit der das Unterstützungsgespräch geführt wird:</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Name,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Sozialversicherungsnummer,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Geburtsdatum,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Geschlecht,</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Adresse (Bundesland),</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Datum und Ort des Gesprächs,</listelem>
+              <listelem>
+                <symbol stellen="2">g)</symbol>angegebene psychische Belastungen,</listelem>
+              <listelem>
+                <symbol stellen="2">h)</symbol>Objektressourcen,</listelem>
+              <listelem>
+                <symbol stellen="2">i)</symbol>Lebensbedingungen und Umstände,</listelem>
+              <listelem>
+                <symbol stellen="2">j)</symbol>persönliche Ressourcen,</listelem>
+              <listelem>
+                <symbol stellen="2">k)</symbol>Energieressourcen,</listelem>
+              <listelem>
+                <symbol stellen="2">l)</symbol>Ziele zur Entlastung der Situation,</listelem>
+              <listelem>
+                <symbol stellen="2">m)</symbol>Empfehlungen durch Berater.</listelem>
+            </literaliste>
+          </liste><absatz typ="abs" halign="j">(3a) Die Sozialversicherungsanstalt der Selbständigen ist als Verantwortliche im Sinne des <nolink>Art. 4 Abs. 7</nolink> DSGVO ermächtigt, die für die Durchführung der Hausbesuche bei pflegebedürftigen Personen nach Abs. 1 notwendigen personenbezogenen Daten zu verarbeiten. Folgende Datenarten dürfen dabei verarbeitet werden:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>personenbezogene Daten der pflegebedürftigen Person:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Name,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Sozialversicherungsnummer,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Pflegegeldstufe,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Alter,</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Geschlecht,</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>Adresse und Telefonnummer,</listelem>
+              <listelem>
+                <symbol stellen="2">g)</symbol>Informationen zur Inanspruchnahme von Pflege-, Betreuungs- und Therapieleistungen,</listelem>
+              <listelem>
+                <symbol stellen="2">h)</symbol><nolink>kognitiver Status sowie</nolink> Mobilitätsstatus,</listelem>
+              <listelem>
+                <symbol stellen="2">i)</symbol>Informationen zur Körperpflege,</listelem>
+              <listelem>
+                <symbol stellen="2">j)</symbol>Medizinisch-pflegerische Versorgung,</listelem>
+              <listelem>
+                <symbol stellen="2">k)</symbol>Informationen zu Ernährung und Flüssigkeitszufuhr,</listelem>
+              <listelem>
+                <symbol stellen="2">l)</symbol>Informationen zu Aktivitäten/Beschäftigung/Sozialleben,</listelem>
+              <listelem>
+                <symbol stellen="2">m)</symbol>Wohnsituation inklusive Namen der Personen, die mit der pflegebedürftigen Person im selben Haushalt leben.</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">2.</symbol>personenbezogene Daten der Hauptbetreuungsperson:</listelem>
+            </aufzaehlung>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Name,</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Sozialversicherungsnummer,</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Alter,</listelem>
+              <listelem>
+                <symbol stellen="2">d)</symbol>Geschlecht,</listelem>
+              <listelem>
+                <symbol stellen="2">e)</symbol>Adresse und Telefonnummer,</listelem>
+              <listelem>
+                <symbol stellen="2">f)</symbol>angegebene psychische, körperliche, zeitliche und finanzielle Belastungen,</listelem>
+              <listelem>
+                <symbol stellen="2">g)</symbol>Berufstätigkeit,</listelem>
+              <listelem>
+                <symbol stellen="2">h)</symbol>freiwillige Pensionsversicherung für pflegende Angehörige,</listelem>
+              <listelem>
+                <symbol stellen="2">i)</symbol>Inanspruchnahme eines Hausarztes.</listelem>
+            </aufzaehlung>
+          </liste><absatz typ="abs" halign="j">(4) Die Sozialversicherungsanstalt der Bauern ist verpflichtet, die in Abs. 3 und 3a angeführten personenbezogenen Daten im Einzelfall der Anwendung Pflegegeldinformation – PFIF des Dachverbandes der Sozialversicherungsträger zur Selektionsmöglichkeit für weitere Qualitätssicherungsmaßnahmen und zur Besorgung der Statistik elektronisch zu übermitteln.</absatz><absatz typ="abs" halign="j">(5) Die in Abs. 1 und 2 genannten Maßnahmen sind für die Entscheidungsträger gemäß <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="1" ursprung="u">§ 22 Abs. 1 Z 1</rvolink>, <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="2" ursprung="u">2</rvolink> und <rvolink abkrvo="BPGG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="5" ursprung="u">5</rvolink> von der Sozialversicherungsanstalt der Selbständigen durchzuführen. Ziel der in Abs. 1 normierten Maßnahme ist es auch, die regionale Betreuungs- und Versorgungssituation der pflegebedürftigen Personen zu erheben. Ziel der in Abs. 2 normierten Maßnahme ist es auch die jeweilige Situation der pflegenden Angehörigen in der Region zu erheben.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

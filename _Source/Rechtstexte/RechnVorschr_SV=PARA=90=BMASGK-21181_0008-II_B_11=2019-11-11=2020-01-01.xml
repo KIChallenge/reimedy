@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=90=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=90=BMASGK-21181/0008-II/B/11=2019-11-11=2020-01-01" dokidSource="RechnVorschr_SV=PARA=90=BMASGK-21181/0002-II/B/11=2018-12-10=2019-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" urheber="BMASGK" sichtbarkeit="p" titaen="51. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" abkaen="51. Änd RechnVorschr SV" pubdat="2019-11-11" ikra="2020-01-01" gldnr="90" nichtanzeigen="n">
+<uebrecht>
+
+<rvolink abkrvo="RechnVorschr SV" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="99" typ="e">§ 99 RechnVorschr SV</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag zeitpunkt="2004-02-12" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2004-07-20"/>
+<dfeintrag zeitpunkt="2004-11-29" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-04-05"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-12-19"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-12-19"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-12-19"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-21181/0008-II/B/11" jahrgang="2019"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">BETRIEBSABRECHNUNGSBOGEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 90.</gldsym> (1) Die Kosten der Verwaltung, nach Kostenarten und Kostenstellen gegliedert, sind mittels Betriebsabrechnungsbogens darzustellen. (Muster für die „Darstellung der Kostenarten und Kostenstellen der einzelnen Versicherungsträger“ siehe 
+<rvolink ursprung="u" abkrvo="RechnVorschr SV" verwart="d" gldart="ANH" gldsort="140" gldnr="0" typ="e">ANHANG</rvolink>). Der Betriebsabrechnungsbogen ist nach dem vom Dachverband der Sozialversicherungsträger mit Zustimmung des Bundesministeriums für Arbeit, Soziales, Gesundheit und Konsumentenschutz aufgelegten Muster entweder in Loseblattform (siehe 
+<rvolink ursprung="u" abkrvo="RechnVorschr SV" verwart="d" gldart="ANH" gldsort="140" gldnr="0" typ="e">ANHANG</rvolink> zu § 90 Abs. 1 „BAB in Loseblattform“) oder/und in maschinell lesbarer Form auf Datenträgern zu erstellen. Werden die Daten auf einem elektronischen Datenträger übermittelt, so ist für den Aufbau des Datenträgers die Organisationsbeschreibung des Dachverbandes ,Sozialversicherungsstatistik, Rechnungslegung' maßgebend.</absatz>
+<absatz typ="abs" halign="j">(2) Versicherungsträger mit Landesstellen haben für jede Landesstelle und für die Hauptstelle eine Kostenstellenrechnung zu führen und die Ergebnisse mit einem Betriebsabrechnungsbogen für Haupt- und Landesstellen zusammenzufassen.</absatz>
+<absatz typ="abs" halign="j">(3) Versicherungsträger mit Außenstellen, Regionalbüros und Bezirksstellen haben die Kosten (Verwaltungsbereich, ärztlicher Dienst, Krankenkontrolle, Sprechtagsdienst sowie Aufklärung und Prävention) für jeden Standort gesondert in einem Beiblatt, das einen integrierenden Bestandteil des Betriebsabrechnungsbogens bildet, nachzuweisen (Muster siehe <rvolink ursprung="u" abkrvo="RechnVorschr SV" verwart="d" gldart="ANH" gldsort="140" gldnr="0" typ="e">ANHANG</rvolink>).</absatz>
+
+<absatz typ="abs" halign="j">(4) Die Eintragungen im Betriebsabrechnungsbogen sind auf Euro und Cent vorzunehmen.</absatz>
+<absatz typ="abs" halign="j">(5) Im Betriebsabrechnungsbogen ist der durchschnittliche Personalstand des Berichtsjahres insgesamt und getrennt nach „Verwaltungspersonal“, „Ärzte, Dentisten und Pharmazeuten“, „Pflege- und ärztliches Hilfspersonal“ und „Haus- und sonstiges Personal“ je Kostenstelle (einschließlich Hilfskostenstellen) anzuführen. Die Ermittlung des Personalstandes hat auf Grund der effektiven Arbeitszeitverpflichtung zu erfolgen. Die Personalstände sind mit zwei Dezimalstellen auszuweisen.</absatz>
+<absatz typ="abs" halign="j">(6) Dem Betriebsabrechnungsbogen ist ein Bericht anzuschließen, der alle wichtigen betrieblichen Vorgänge bezüglich der Kostenänderungen und Kostenentwicklungen, die sich im Laufe des Berichtsjahres bei den Versicherungsträgern (beim Dachverband) ereigneten, zu enthalten hat. Wesentliche Abweichungen gegenüber dem unmittelbar vorangegangenen Geschäftsjahr sind zu erläutern.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

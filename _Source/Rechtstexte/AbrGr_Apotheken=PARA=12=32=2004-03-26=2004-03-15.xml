@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="AbrGr_Apotheken=PARA=12=32=2004-03-26=2004-03-15"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Einheitliche Grundsätze gemäß § 348g ASVG über die EDV-Abrechnung der Apotheker" abkrvo="AbrGr Apotheken" dokart="Abrechnungsregeln" titaen="1. Änderung der einheitlichen Grundsätze gemäß § 348g ASVG über die EDV-Abrechnung der Apotheker" abkaen="1. Änd AbrGr Apotheken" urheber="Hauptverband" beschdat="2004-03-15" pubdat="2004-03-26" ikra="2004-03-15" sichtbarkeit="p" gldnr="12">
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-09-08"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-09-08"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="32" jahrgang="2004"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">III. Datenschutz und Sicherheitsanforderungen</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Datenschutz</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 12.</gldsym> (1) Die Übermittlung der Abrechnungsdaten hat den Anforderungen des Datenschutzes hinsichtlich personenbezogener Gesundheitsdaten zu genügen. </absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Diese Anforderungen umfassen bezüglich der Datenfernübertragung insbesondere:</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>1. Benutzerkontrolle:</b> Es ist sicherzustellen, dass nur berechtigte Personen Zugriff auf die Abrechnungsdaten (Gesundheitsdaten) erhalten.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>2. Vertraulichkeit:</b> Die Abrechnungsdaten (Gesundheitsdaten) sind personenbezogene Daten und dürfen nur dem bestimmungsgemäßen Empfänger in der Sozialversicherung bekannt werden. Vom bestimmungsgemäßen Empfänger verschiedene Dritte sowie in den Übertragungsvorgang eingeschaltete Netzbetreiber sind von der Kenntnisnahme der Abrechnungsdaten (Gesundheitsdaten) durch inhaltliche Verschlüsselung auszuschließen. Zur inhaltlichen Verschlüsselung sind kryptografische Verfahren einzusetzen, die nach dem jeweiligen Stand der Technik mit wirtschaftlich vernünftigem Aufwand nicht kompromittiert werden können. Die Verschlüsselung der Gesundheitsdaten hat vor ihrer Übertragung und end-to-end zu erfolgen. Die Entschlüsselung oder Umschlüsselung (Entschlüsselung und Neuverschlüsselung) während des Transportes der Abrechnungsdaten (Gesundheitsdaten) oder zu Transportzwecken ist unzulässig. Andere Techniken als die Verschlüsselung, die den datenschutzrechtlichen Bestimmungen entsprechen, sind ebenfalls zum Schutz von personenbezogenen Daten zulässig (z. B. Standleitungen und dgl.).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>3. Authentifizierung:</b> Der Apotheker bzw. die Pharmazeutische Gehaltskasse hat bei Übermittlung von Abrechnungsdaten (Gesundheitsdaten) dem bestimmungsgemäßen Empfänger seine/ihre Identität offen zu legen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>4. Nachvollziehbarkeit:</b> Jede Übertragung von Abrechnungsdaten (Gesundheitsdaten) ist mit einer hinsichtlich des Absenders eindeutigen, die Wiederauffindbarkeit gewährleistenden, Kennzeichnung (Identifikation) zu versehen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>5. Empfangsbestätigung:</b> Die Übertragung ist durch elektronische Rückmeldung der bestimmungsgemäßen Empfangsstelle der Sozialversicherung zu bestätigen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>6. Sicherheitspolitik:</b> Die im Bereich des Apothekers vorgesehenen Maßnahmen zur Gewährleistung der Datensicherheit bei der Datenübertragung sind in einer Sicherheitspolitik (Policy) darzustellen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<b>7. Prüfung der Integrität (Unverfälschtheit) der Daten durch den Empfänger der Daten:</b> Die Empfangsstelle der Sozialversicherung hat die Integrität der von ihr empfangenen Abrechnungs- bzw. Gesundheitsdaten zu prüfen. Hiebei sind digitale Signaturen zu verwenden. Wurden die Daten im Zuge der Übertragung verändert, dürfen sie nicht verwendet werden. Im Falle einer fehlgeschlagenen Integritätsprüfung ist der Übermittler darüber umgehend und in geeigneter Weise zu informieren.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Über die Bestimmungen des Abs. 2 hinaus gelten für die Datenfernübertragung die Bestimmungen des E-Government-Gesetzes (BGBl. I Nr. 10/2004), sowie alle anderen einschlägigen gesetzlichen Bestimmungen (z. B. das Signaturgesetz samt Verordnung). Die bis zum 1. März 2004 von der Sozialversicherung ausgeübten bzw. akzeptierten Vorgangsweisen dürfen bis zum 31. Dezember 2007 weiterhin angewendet werden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Anforderungen gemäß Abs. 2 und 3 gelten sinngemäß auch für die Datenübermittlung der Pharmazeutischen Gehaltskasse an den für die Abrechnung zuständigen Versicherungsträger (Datendrehscheibe der Sozialversicherung).</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Die Anforderungen gemäß Abs. 2 und 3 gelten sinngemäß auch für elektronische Rückmeldungen (insbesondere Korrekturmeldungen) der Versicherungsträger an die Apotheker bzw. an die Pharmazeutische Gehaltskasse. Werden elektronische Rückmeldungen ausschließlich programmgesteuert ausgelöst, kann auch die Authentifizierung programmgesteuert erfolgen. </absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

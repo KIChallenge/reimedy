@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="BMSVG=ANL=1=92=2010-11-17=2008-01-01"><rvo dokidCms="BMSVG=ANL=1=92=2010-11-17=2008-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Betriebliches Mitarbeiter- und SelbstständigenvorsorgeG" abkrvo="BMSVG" dokart="BG" titaen="BMSVG Kunsttext 92/2010" abkaen="BMSVG Kunsttext 92/2010" urheber="Bund" pubdat="2010-11-17" ikra="2008-01-01" sichtbarkeit="p" gldart="ANL" gldnr="1" gldsort="150">
+        <uebrecht><rvolink ursprung="u" abkrvo="Nov BGBl. I Nr. 161/2004" verwart="s" gldart="ART" gldsort="80" gldnr="VIII" pubdat="2004-12-30" ikra="2004-12-31" puborg="BGBl." gldpuborg="I" nrpuborg="161" jahrgang="2004" typ="e">Art. VIII BGBl. I Nr. 161/2004</rvolink></uebrecht><puborgane>
+          <puborgan puborg="BGBl." nrpuborg="92" jahrgang="2010" gldpuborg="I">BGBl. I  Nr. 92/2010 </puborgan>
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="anlage" halign="r" level="2">Anlage 1</ueberschrift>
+          <ueberschrift typ="anlage" halign="r">
+            <n>zu <rvolink abkrvo="BMSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="40" ursprung="u">§ 40</rvolink></n>
+          </ueberschrift>
+          <absatz typ="abs" halign="j"><b>
+            Formblatt A - Bilanz der Betriebliche Vorsorgekasse
+          </b></absatz>
+          <absatz typ="abs" halign="j">
+            <b>AKTIVA
+          </b></absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">A.</symbol>Anlagevermögen <super>1)</super></listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">I.</symbol>Immaterielle Vermögensgegenstände</listelem>
+              <listelem>
+                <symbol stellen="3">II.</symbol>Sachanlagen</listelem>
+              <listelem>
+                <symbol stellen="4">III.</symbol>Finanzanlagen</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">B.</symbol>Umlaufvermögen <super>1)</super></listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">I.</symbol>Vorräte</listelem>
+              <listelem>
+                <symbol stellen="3">II.</symbol>Forderungen</listelem>
+              <listelem>
+                <symbol stellen="4">III.</symbol>Wertpapiere und Anteile</listelem>
+              <listelem>
+                <symbol stellen="3">IV.</symbol>Kassenbestand, Schecks, Guthaben bei Banken</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">C.</symbol>Rechnungsabgrenzungsposten</listelem>
+              <listelem>
+                <symbol stellen="2">D.</symbol>Aktiva der Veranlagungsgemeinschaft</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">I.</symbol>Bargeld und Guthaben auf Euro lautend</listelem>
+              <listelem>
+                <symbol stellen="3">II.</symbol>Bargeld und Guthaben auf ausländische Währungen lautend</listelem>
+              <listelem>
+                <symbol stellen="4">III.</symbol>Darlehen und Kredite auf Euro lautend</listelem>
+              <listelem>
+                <symbol stellen="3">IV.</symbol>Ausleihungen auf ausländische Währungen lautend</listelem>
+              <listelem>
+                <symbol stellen="2">V.</symbol>Forderungswertpapiere auf Euro lautend</listelem>
+              <listelem>
+                <symbol stellen="3">VI.</symbol>Forderungswertpapiere auf ausländische Währungen lautend</listelem>
+              <listelem>
+                <symbol stellen="4">VII.</symbol>Sonstige Forderungswertpapiere und Beteiligungswertpapiere auf Euro lautend</listelem>
+              <listelem>
+                <symbol stellen="5">VIII.</symbol>Sonstige Forderungswertpapiere und Beteiligungswertpapiere auf ausländische Währungen lautend</listelem>
+              <listelem>
+                <symbol stellen="3">IX.</symbol>Anteilscheine von Immobilienfonds auf Euro lautend</listelem>
+              <listelem>
+                <symbol stellen="2">X.</symbol>Anteilscheine von Immobilienfonds auf ausländische Währung lautend</listelem>
+              <listelem>
+                <symbol stellen="3">XI.</symbol>Forderungen</listelem>
+              <listelem>
+                <symbol stellen="4">XII.</symbol>Aktive Rechnungsabgrenzungsposten</listelem>
+              <listelem>
+                <symbol stellen="5">XIII.</symbol>Sonstige Aktiva</listelem>
+            </literaliste>
+          </liste>
+          <absatz typ="abs" halign="j">
+            <b>PASSIVA</b>
+          </absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">A.</symbol>Eigenkapital</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">I.</symbol>Grundkapital</listelem>
+              <listelem>
+                <symbol stellen="3">II.</symbol>Kapitalrücklagen <super>1)</super></listelem>
+              <listelem>
+                <symbol stellen="4">III.</symbol>Gewinnrücklagen <super>1)</super></listelem>
+              <listelem>
+                <symbol stellen="3">IV.</symbol>Rücklage für die Erfüllung der Kapitalgarantie</listelem>
+              <listelem>
+                <symbol stellen="2">V.</symbol>Rücklage für die Erfüllung der Zinsgarantie</listelem>
+              <listelem>
+                <symbol stellen="3">VI.</symbol>Bilanzgewinn/Bilanzverlust</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">B.</symbol>Unversteuerte Rücklagen <super>1)</super></listelem>
+              <listelem>
+                <symbol stellen="2">C.</symbol>Rückstellungen</listelem>
+              <listelem>
+                <symbol stellen="2">D.</symbol>Verbindlichkeiten <super>1)</super></listelem>
+              <listelem>
+                <symbol stellen="2">E.</symbol>Rechnungsabgrenzungsposten</listelem>
+              <listelem>
+                <symbol stellen="2">F.</symbol>Passiva der Veranlagungsgemeinschaften</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">I.</symbol>Abfertigungsanwartschaft</listelem>
+              <listelem>
+                <symbol stellen="3">II.</symbol>Verbindlichkeiten</listelem>
+              <listelem>
+                <symbol stellen="4">III.</symbol>Passive Rechnungsabgrenzungsposten</listelem>
+              <listelem>
+                <symbol stellen="3">IV.</symbol>Sonstige Passiva</listelem>
+            </literaliste>
+          </liste>
+          <absatz typ="abs" halign="j">
+            <b>Formblatt B - Gewinn- und Verlustrechnung der Betriebliche Vorsorgekasse</b>
+          </absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">A.</symbol>Ergebnis der Veranlagungsgemeinschaft</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">I.</symbol>Veranlagungserträge</listelem>
+              <listelem>
+                <symbol stellen="3">II.</symbol>Garantie</listelem>
+              <listelem>
+                <symbol stellen="4">III.</symbol>Beiträge</listelem>
+              <listelem>
+                <symbol stellen="3">IV.</symbol>Kosten</listelem>
+              <listelem>
+                <symbol stellen="2">V.</symbol>Auszahlungen von Abfertigungsleistungen</listelem>
+              <listelem>
+                <symbol stellen="3">VI.</symbol>Ergebnis der Veranlagungsgemeinschaft</listelem>
+              <listelem>
+                <symbol stellen="4">VII.</symbol>Verwendung des Ergebnisses der Veranlagungsgemeinschaft</listelem>
+            </literaliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">B.</symbol>Erträge und Aufwendungen der BV-Kasse</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Verwaltungskosten</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Betriebsaufwendungen</listelem>
+            </literaliste>
+            <literaliste ebene="3">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Personalaufwand</listelem>
+            </literaliste>
+            <strichliste ebene="3">
+              <listelem>
+                <symbol stellen="1">-</symbol>Löhne</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>Gehälter</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>Aufwendungen für Abfertigungen und Leistungen an betriebliche Betriebliche Vorsorgekassen</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>Aufwendungen für Altersversorgung</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>Aufwendungen für gesetzlich vorgeschriebene Sozialabgaben sowie vom Entgelt abhängige Abgaben und Pflichtbeiträge</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>Sonstige Sozialaufwendungen</listelem>
+            </strichliste>
+            <literaliste ebene="3">
+              <listelem>
+                <symbol stellen="2">b)</symbol>Abschreibungen auf das Anlagevermögen</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Sonstige Betriebs-, Verwaltungs- und Vertriebsaufwendungen</listelem>
+            </literaliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">3.</symbol>Finanzerträge</listelem>
+            </literaliste>
+            <literaliste ebene="3">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Erträge aus Beteiligungen</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Zinsenerträge und sonstige laufende Erträge aus der Veranlagung der Eigenmittel und der nicht zu Veranlagungsgemeinschaften zugeordneten Fremdmittel</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Erträge aus dem Abgang von und der Zuschreibung zu Finanzanlagen, die nicht den Veranlagungsgemeinschaften zugeordnet sind</listelem>
+            </literaliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">4.</symbol>Finanzaufwendungen</listelem>
+            </literaliste>
+            <literaliste ebene="3">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Aufwendungen aus Beteiligungen</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Abschreibungen auf sonstige Finanzanlagen, die nicht den Veranlagungsgemeinschaften zugeordnet sind</listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>Zinsen und ähnliche Aufwendungen</listelem>
+            </literaliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">5.</symbol>Sonstige Erträge und Aufwendungen</listelem>
+            </literaliste>
+            <subliteraliste ebene="3">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Erträge</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>Aufwendungen</listelem>
+            </subliteraliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">6.</symbol>Ergebnis der gewöhnlichen Geschäftstätigkeit</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Außerordentliches Ergebnis</listelem>
+            </literaliste>
+            <subliteraliste ebene="3">
+              <listelem>
+                <symbol stellen="2">a)</symbol>außerordentliche Erträge</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>außerordentliche Aufwendungen</listelem>
+            </subliteraliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">8.</symbol>Steuern vom Einkommen und vom Ertrag</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>Jahresüberschuss/Jahresfehlbetrag</listelem>
+              <listelem>
+                <symbol stellen="3">10.</symbol>Veränderung von Rücklagen</listelem>
+            </literaliste>
+            <subliteraliste ebene="3">
+              <listelem>
+                <symbol stellen="2">a)</symbol>Zuweisungen</listelem>
+            </subliteraliste>
+            <strichliste ebene="3">
+              <listelem>
+                <symbol stellen="1">-</symbol>zu unversteuerten Rücklagen</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>zu Gewinnrücklagen</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>zur Kapitalgarantierücklage</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>zur Zinsgarantierücklage</listelem>
+            </strichliste>
+            <subliteraliste ebene="3">
+              <listelem>
+                <symbol stellen="2">b)</symbol>Auflösungen</listelem>
+            </subliteraliste>
+            <strichliste ebene="3">
+              <listelem>
+                <symbol stellen="1">-</symbol>unversteuerter Rücklagen</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>von Kapitalrücklagen</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>von Gewinnrücklagen</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>der Kapitalgarantierücklage</listelem>
+              <listelem>
+                <symbol stellen="1">-</symbol>der Zinsgarantierücklage</listelem>
+            </strichliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="3">11.</symbol>Gewinn-/Verlustvortrag</listelem>
+              <listelem>
+                <symbol stellen="3">12.</symbol>Bilanzgewinn/-verlust</listelem>
+            </literaliste>
+          </liste>
+          <absatz typ="abs" halign="j">____________________</absatz>
+          <absatz typ="abs" halign="j">
+            <super>1)</super> Die mit Fußnote “<super>1)</super>” gekennzeichneten, mit Buchstaben oder römischen Zahlen bezeichneten Hauptposten sind in die im HGB mit arabischen Zahlen bezeichneten Einzelposten zu untergliedern.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

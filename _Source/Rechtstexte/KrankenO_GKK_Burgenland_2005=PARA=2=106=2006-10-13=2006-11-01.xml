@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=2=106=2006-10-13=2006-11-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="1. Änderung der Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkaen="1. Änd KrankenO GKK Burgenland 2005" urheber="GKK Bgl" beschdat="2006-08-29" pubdat="2006-10-13" ikra="2006-11-01" sichtbarkeit="p" gldnr="2" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-10-17"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="106" jahrgang="2006"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">E-Card, Europäische Krankenversicherungskarte und Bürgerkarte</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 2.</gldsym> (1) Die E-Card ist die Chipkarte des elektronischen Verwaltungssystems ELSY der österreichischen Sozialversicherung (
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="31a" ursprung="u">§ 31a</rvolink> ASVG). Sie wird von der Kasse (
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="31b" abs="3" ursprung="u">§ 31b Abs. 3</rvolink> ASVG) für alle Versicherten und sonst anspruchsberechtigten oder mitversicherten Personen (all diese in der Folge „Versicherte“ oder „Benützer“ genannt) ausgestellt. Andere Chipkarten, wie z. B. die Ordinationskarte für Vertragspartner, werden durch diese Krankenordnung nicht berührt. Die E-Card ersetzt ab dem Zeitpunkt ihres Zuganges beim Versicherten den Krankenschein. Darüber hinaus ermöglicht die E-Card den Zugang zu den personenbezogenen Auskunftsdiensten der Sozialversicherung im Internet; die für diese Dienste notwendigen Zusatzfunktionen (Zertifikate etc.) werden auf Antrag vom Hauptverband der österreichischen Sozialversicherungsträger im Rahmen seiner Aufgaben beim Betrieb des elektronischen Verwaltungssystems ausgestellt. Jeder Benützer hat das Recht, im Rahmen der dafür geltenden technischen Möglichkeiten statt einer solchen Zusatzfunktion ein Zertifikat eines anderen Zertifizierungsdiensteanbieters auf der E-Card aufbringen zu lassen (
+<rvolink abkrvo="ASVG" verwart="s" typ="e" gldart="PARA" gldsort="70" gldnr="31a" abs="2" puborg="BGBl." gldpuborg="I" nrpuborg="18" jahrgang="2004" ursprung="u">§ 31a Abs. 2</rvolink> ASVG idF SVÄG 2004, BGBl. I Nr. 18/2004). Für entsprechende Anträge und Registrierungen wird eine Internetseite unter www.sozialversicherung.at zur Verfügung gestellt.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die E-Card ist eine Schlüsselkarte. Auf ihr werden die gesetzlich zulässigen Daten gespeichert (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="31a" abs="2" ursprung="u">§ 31a Abs. 2</rvolink> und 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="31a" abs="3" ursprung="u">3</rvolink> ASVG). Sie ist für sich allein weder ein Nachweis für ein bestehendes Versicherungsverhältnis noch für eine etwaige Anspruchsberechtigung. Die E-Card ist jedenfalls zu verwenden (
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="1" ursprung="u">§ 5 Abs. 1</rvolink> und 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="2" ziff="2" ursprung="u">Abs. 2 Z 2</rvolink>), um der behandelnden Stelle</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die sozialversicherungsrechtliche Situation (Versicherungsstatus) hinsichtlich der Ansprüche aus der Krankenversicherung und</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>das Einverständnis zur Behandlung auf Kosten der Sozialversicherung</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">zu dokumentieren. Die Kosten von Behandlungen, die bei einem Vertragspartner der Kasse in Anspruch genommen werden, sind mit der Kasse zu verrechnen. Will ein Versicherter eine Behandlung nicht auf Kosten der Sozialversicherung in Anspruch nehmen, darf die E-Card bei der behandelnden Stelle nicht vorgelegt werden. Eine Kostenerstattung ist in diesem Fall ausgeschlossen.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Die E-Card trägt auf der Rückseite ihres Kartenkörpers die Datenfelder der Europäischen Krankenversicherungskarte - EKVK, die Bezeichnung dieser Karte als European Health Insurance Card - EHIC oder eine andere Bezeichnung in der Sprache eines Mitgliedsstaates der Europäischen Union, des EWR oder der Schweiz ist gleichwertig. Ob und mit welchen Daten diese Datenfelder von der Kasse ausgefüllt werden, ergibt sich aus <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="7" ursprung="u">§ 7</rvolink> bis 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="7b" ursprung="u">§ 7b</rvolink>. Bestimmungen dieser Krankenordnung, die sich auf die E-Card beziehen, gelten nur dann für die EKVK, wenn dies ausdrücklich angeordnet ist. EKVK-Datenfelder, die keine Anspruchsdaten enthalten, sind als ungültig gekennzeichnet, E-Cards mit unausgefüllten EKVK-Datenfeldern werden nicht ausgegeben. Die Anführung einer Kartennummer oder einer anderen Angabe in einer sonst als ungültig gekennzeichneten EKVK kennzeichnet nur das Kartenformular und bewirkt keinen Anspruch auf Leistungen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Kartenkörper, Chip, Aufdruck und EDV-Programme der E-Card bzw. der EKVK (Kartenhardware) werden zur Benützung überlassen und sind als Eigentum der ausstellenden Kasse zu behandeln. Ausstellung und Übergabe der Karten sind für den Versicherten kostenlos, soweit diese Krankenordnung nicht ausdrücklich anderes vorsieht.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Ob und welche zusätzlichen Daten auf der E-Card gespeichert werden, wird durch diese Krankenordnung nicht berührt.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(6) Meldungen, die betreffend eine E-Card oder eine EKVK an die Kasse oder einen anderen österreichischen Sozialversicherungsträger zu richten sind, müssen die betroffene Karte bezeichnen (z. B. durch Angabe der Sozialversicherungsnummer und des Namens) und bei einer der folgenden Stellen einlangen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>an den Adressen auf jenen technischen Wegen, die in der Erreichbarkeitskundmachung der Kasse oder eines anderen Sozialversicherungsträgers nach 
+<nolink>§ 13</nolink> des 
+<nolink>Allgemeinen Verwaltungsverfahrensgesetzes</nolink> -AVG im Internet unter www.avsv.at kundgemacht sind; insbesondere bei der Kasse, auf die in der EKVK verwiesen wird, unabhängig davon, ob bei dieser tatsächlich ein Leistungsanspruch besteht,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>mündlich, per E-Mail oder Telefax bei der gemeinsamen Meldestelle aller Versicherungsträger (Serviceline der österreichischen Sozialversicherung),</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>durch Benützung der entsprechenden Eingabemöglichkeiten (Web-Interfaces) bei jenen Kommunikationsanschlüssen, welche im Internetangebot der österreichischen Sozialversicherung www.sozialversicherung.at für Mitteilungen über die E-Card oder eine EKVK ausdrücklich angeboten werden.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(7) Für Mitteilungen, Kartenzusendungen und sonstige Zustellungen der Kasse ist entweder</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die zuletzt als aktuell bei der Kasse vorgemerkte Anschrift oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>eine im Zentralen Melderegister als aktuell verzeichnete Anschrift oder</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>eine sonst nach dem 
+<nolink>Zustellgesetz,</nolink> BGBl. Nr. 200/1982 in der Fassung BGBl. I Nr. 10/2004 zulässige Zustelladresse (einschließlich elektronischer Zustellung nach den 
+<nolink>§§ 28 ff.</nolink>
+<nolink>ZustG</nolink>)</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">maßgeblich.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

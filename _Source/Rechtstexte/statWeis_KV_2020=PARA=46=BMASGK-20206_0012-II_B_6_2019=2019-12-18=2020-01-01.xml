@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="statWeis_KV_2020=PARA=46=BMASGK-20206/0012-II/B/6/2019=2019-12-18=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="statWeis_KV_2020=PARA=46=BMASGK-20206/0012-II/B/6/2019=2019-12-18=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Weisungen für die statistischen Nachweisungen der Krankenversicherungsträger 2020" abkrvo="statWeis KV 2020" dokart="Weisung" titaen="Weisungen für die statistischen Nachweisungen der Krankenversicherungsträger 2020 Stammfassung" abkaen="statWeis KV 2020 StF" urheber="BMASGK" pubdat="2019-12-18" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldsort="80" gldnr="46">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0012-II/B/6/2019">Erlass   Nr. BMASGK-20206/0012-II/B/6/2019</puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Leistungsstatistik</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 46.</gldsym> (1) Im Rahmen der Leistungsstatistik sind jene Statistiken zu erstellen, die für die Erfassung der Leistungen dienen. Die Leistungsstatistik beinhaltet folgende Gruppen von Statistiken:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Zahnhilfe-Statistik (<rvolink abkrvo="statWeis KV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="47" ursprung="u">§ 47</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Heilmittel-Heilbehelfe-Statistik (<rvolink abkrvo="statWeis KV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="48" ursprung="u">§ 48</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Spital-Statistik (<rvolink abkrvo="statWeis KV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="49" ursprung="u">§ 49</rvolink>)</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Sonstige Statistiken (<rvolink abkrvo="statWeis KV 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="50" bereich="BIS" bis="53" ursprung="u">§§ 50 bis 53</rvolink>)</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Sofern in den Leistungsstatistiken Aufwendungen angeführt sind, hat die Erfassung ohne Mehrwertsteuer zu erfolgen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

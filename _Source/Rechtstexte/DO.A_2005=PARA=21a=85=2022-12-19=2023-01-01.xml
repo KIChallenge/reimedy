@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.A_2005=PARA=21a=85=2022-12-19=2023-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.A_2005=PARA=21a=1=2022-01-10=2022-01-01" dokidSource="DO.A_2005=PARA=21a=1=2022-01-10=2022-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.A 2005" dokart="DO" titaen="109. Änderung der Dienstordnung A für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkaen="109. Änd DO.A 2005" urheber="Hauptverband" beschdat="2022-12-15" pubdat="2022-12-19" ikra="2023-01-01" sichtbarkeit="p" gldnr="21a">
+<uebrecht>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="145" typ="e">§ 145 DO.A 2005</rvolink>
+<rvolink abkrvo="DO.A 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="173" typ="e">§ 173 DO.A 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-08"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-11-17"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-12-29"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-06-27"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="85" jahrgang="2022"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">SV-Karriere</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 21a.</gldsym> (1) Die SV-Karriere setzt sich aus folgenden Weiterbildungsveranstaltungen zusammen:</absatz>
+
+
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Grundschulung der Sozialversicherungsbediensteten (SV-Basis) (<rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21b" ursprung="u">§ 21b</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Grundausbildung (<rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21c" ursprung="u">§ 21c</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Führungskräfteausbildung I (<rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21d" abs="1" ursprung="u">§ 21d Abs. 1</rvolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Führungskräfteausbildung II (<rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21d" abs="2" ursprung="u">§ 21d Abs. 2</rvolink>).</listelem>
+            </ziffernliste>
+          </liste><absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die Weiterbildungsveranstaltungen können nur aufbauend, sofern nicht <rvolink abkrvo="DO.A 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="21c" abs="6" ursprung="u">§ 21c Abs. 6</rvolink> Anwendung findet, in der in Abs. 1 dargestellten Reihenfolge absolviert werden.</absatz>
+
+<absatz halign="j" typ="abs">(3) Die Richtlinien zu den in Abs. 1 genannten Weiterbildungsveranstaltungen erlässt der Dachverband der Sozialversicherungsträger nach Anhören der Gewerkschaft GPA.</absatz><absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Sofern die in Abs. 1 genannten Weiterbildungsveranstaltungen nicht positiv absolviert werden, können diese maximal zwei Mal wiederholt werden.</absatz>
+
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Zur Evaluierung und Qualitätssicherung ist eine aus Fachexperten bestehende sozialpartnerschaftliche Evaluierungskommission, die in regelmäßigen Abständen zu tagen hat, einzurichten. Diese ist paritätisch vom Dachverband und der zuständigen Gewerkschaft zu besetzen. Die Aufgabe der Evaluierungskommission ist die Abgabe von Empfehlungen hinsichtlich der in Abs. 1 genannten Weiterbildungsveranstaltungen.</absatz>
+
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=71=96181=2005-02-03=2005-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=71=96181=2005-02-03=2005-01-01">
+<metadaten berkz="OV; " gldnr="71" ikra="2005-01-01" pubdat="2005-02-03" abkaen="37. Änd RechnVorschr SV" titaen="37. Änderung der Rechtsvorschriften für die Sozialversicherungsträger und den Hauptverband" sichtbarkeit="p" urheber="BMGF" dokart="Weisung" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<aendprot>
+<dfeintrag zeitpunkt="2002-11-28" perskz="schaff"/>
+<dfeintrag perskz="schaff" zeitpunkt="2002-12-02"/>
+<dfeintrag zeitpunkt="2003-02-11" perskz="glueck"/>
+<dfeintrag perskz="schaff" zeitpunkt="2003-04-16"/>
+<dfeintrag zeitpunkt="2003-12-09" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-12"/>
+<dfeintrag zeitpunkt="2004-06-02" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-02-09"/>
+<dfeintrag zeitpunkt="2005-02-09" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-06-06"/>
+</aendprot>
+<puborgane><puborgan puborg="Erlass" nrpuborg="96181" jahrgang="2005"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">RECHNUNGSLEGUNG</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 71.</gldsym> Für die Rechnungslegung und Rechnungsführung sind, soweit nachstehend nichts Abweichendes bestimmt wird, die Bestimmungen der Rechnungsvorschriften entsprechend anzuwenden:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" ursprung="p">§ 2</rvolink> über den Geschäftsbericht;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" ursprung="p">§ 6</rvolink> über die grundsätzlichen Bestimmungen zur Erstellung der Erfolgsrechnung;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="16" ursprung="p">§ 16</rvolink> über die Vorlagetermine;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="17" ursprung="p">§ 17</rvolink> über die vorläufige Erfolgsrechnung;</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="19" ursprung="p">§ 19</rvolink> über den Jahresvoranschlag (Haushaltsplan);</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="21" ursprung="p">§ 21</rvolink> über den Kontenrahmen;</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="p">§ 22</rvolink> über die Erläuterungen zum Kontenrahmen;</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="23" ursprung="p">§ 23</rvolink> über die besonderen Bestimmungen über die Rechnungslegung und Rechnungsführung;</listelem>
+<listelem>
+<symbol stellen="3">9.</symbol>
+<rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="58" ursprung="u">§§ 58 </rvolink>bis
+<rvolink gldnr="62" typ="e" gldsort="70" gldart="PARA" verwart="d" abkrvo="RechnVorschr SV" ursprung="u"> 62</rvolink> über die Aufbewahrungsfristen des Schrift- und Datengutes.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="satz" halign="j">Die Ziffern 4 und 5 gelten nicht für die Gebarung nach dem <rvolink typ="e" gldsort="70" gldart="PARA" verwart="d" abkrvo="SUG" ursprung="u">Sonderunterstützungsgesetz</rvolink>.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

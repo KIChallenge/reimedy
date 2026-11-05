@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=23=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=23=40=2026-07-02=2026-07-03" dokidSource="REDV_2006=PARA=23=127=2018-07-03=2018-07-04">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="23" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">7. Abschnitt <br/>Rechenzentrumskonsolidierung</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Konsolidierung der Rechenzentren</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 23.</gldsym> (1) Die Sozialversicherungsträger haben zum Zweck einheitlicher Vollziehung der Sozialversicherungsgesetze, insbesondere des Versicherungs-, Melde- und Beitragswesens, der Vertragspartnerbeziehungen und der Leistungserbringung (z. B. Pensionskontenführung) beim Betrieb und der Führung ihrer Rechenzentren zusammenzuarbeiten.</absatz>
+<absatz halign="j" typ="abs">(2) Als Ziel ist anzustreben, alle Beschlüsse zu fassen und zumindest die grundlegenden Planungen, Terminvorgaben und sonstigen Arbeiten durchzuführen, damit die Rechenzentren der Sozialversicherungsträger auf die folgenden drei Rechenzentren reduziert sind. Deren Betreiber haben neben ihren eigenen Rechenzentrumsaufgaben zusätzlich und ausschließlich solche Aufgaben für jene Sozialversicherungsträger zu führen, welche ihre Rechenzentrumsaufgaben an diesen Standorten erfüllen lassen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die ITSV-GmbH mit ihren Standorten Wien und Linz (auch als Auftragsverarbeiter für den Dachverband nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="30c" abs="1" ziff="2" lit="a" ursprung="u">§ 30c Abs. 1 Z 2 lit. a</rvolink> ASVG),</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>bei der Allgemeinen Unfallversicherungsanstalt,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>bei der Pensionsversicherungsanstalt.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

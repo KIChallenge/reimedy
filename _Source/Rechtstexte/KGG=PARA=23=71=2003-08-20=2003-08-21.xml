@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=23=71=2003-08-20=2003-08-21" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KGG=PARA=23=71=2003-08-20=2003-08-21">
+<metadaten gldnr="23" ikra="2003-08-21" pubdat="2003-08-20" beschdat="2003-06-11" abkaen="BudgBeglG 2003" titaen="BudgBeglG 2003" sichtbarkeit="p" urheber="Bund" dokart="BG" abkrvo="KGG" titrvo="Karenzgeldgesetz" gldsort="70" gldart="PARA" nichtanzeigen="n">
+<aendprot>
+<dfeintrag zeitpunkt="2001-09-05" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-08"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-09-18" perskz="polzer"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="71" begseite="1232" jahrgang="2003"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Teilzeitbeihilfe für selbständig Erwerbstätige</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 23.</gldsym> Der Zuschuß bei Anspruch auf Teilzeitbeihilfe gemäß 
+<rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="99" ursprung="u">§ 99</rvolink>
+BSVG oder 
+<rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="102b" ursprung="u">§ 102b</rvolink> GSVG beträgt bei Anspruch auf Teilzeitbeihilfe in
+Höhe des Karenzgeldes 100 vH des Zuschusses gemäß
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="20" ursprung="u"> § 20 </rvolink>und bei
+Anspruch auf Teilzeitbeihilfe in halber Höhe des Karenzgeldes 50 vH
+des Zuschusses gemäß 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="20" ursprung="u">§ 20</rvolink>.
+
+</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

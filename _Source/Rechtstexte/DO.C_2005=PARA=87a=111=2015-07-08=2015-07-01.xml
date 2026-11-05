@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.C_2005=PARA=87a=111=2015-07-08=2015-07-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.C_2005=PARA=87a=111=2015-07-08=2015-07-01" dokidSource="DO.C_2005=PARA=87a=3=2014-01-09=2014-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.C 2005" dokart="DO" titaen="77. Änderung der Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkaen="77. Änd DO.C 2005" urheber="Hauptverband" beschdat="2015-06-09" pubdat="2015-07-08" ikra="2015-07-01" sichtbarkeit="p" gldnr="87a">
+<uebrecht>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="110" typ="e">§ 110 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="115" typ="e">§ 115 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="170" typ="e">§ 170 DO.C 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-29"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-02-09"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="111" jahrgang="2015"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Zusatzbeitrag</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 87a. </gldsym>Die Bezieher von Leistungen nach Abschnitt IV haben von diesen Leistungen neben dem Sicherungsbeitrag gemäß  <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="460c" ursprung="u">§ 460c</rvolink> iVm <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="684" abs="3" ursprung="u">684 Abs. 3</rvolink><nolink> ASVG</nolink> einen Zusatzbeitrag zu leisten; dieser beträgt,</absatz>
+<liste>
+<literaliste ebene="1">
+<listelem>
+<symbol stellen="2">a)</symbol>wenn der Stichtag vor dem 1. Juli 1990 liegt......................................................................... 2,0%,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>wenn der Stichtag vor dem 1. Juli 1996 liegt......................................................................... 1,5%,</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>wenn der Stichtag vor dem 1. Juli 1998 liegt......................................................................... 1,2%,</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>wenn der Stichtag vor dem 1. September 2001 liegt............................................................. 0,6%.</listelem>
+</literaliste>
+</liste>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">Ein Zusatzbeitrag ist nur dann zu leisten, wenn in den letzten sechs Monaten vor dem Stichtag Anspruch auf einen monatlichen Bezug bestanden hat, der die damals geltende monatliche Höchstbeitragsgrundlage jeweils überschritten hat. Als Stichtag gilt der Monatserste vor der Versetzung in den Ruhestand bzw. im Falle des Todes des Arbeiters der Monatserste vor dem Tod des Arbeiters.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

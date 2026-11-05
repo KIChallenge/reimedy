@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=58=103=2001-08-07=1111-11-11"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Karenzgeldgesetz" abkrvo="KGG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="Gesamtstand KGG idF 103/2001" abkaen="Gesamtstand KGG idF 103/2001" beschdat="2001-07-04" pubdat="2001-08-07" ikra="1111-11-11" gldnr="58">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2001-09-05"/>
+<dfeintrag zeitpunkt="2003-05-08" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-13" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="103" begseite="1593" jahrgang="2001"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Sonderbestimmung für 1998 und 1999
+</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 58.</gldsym> In den Jahren 1998 und 1999 sind nicht anzuwenden:
+  </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="7" abs="2" ursprung="p">§ 7 Abs. 2</rvolink>,
+  </listelem>
+<listelem>
+<symbol>2.</symbol>
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="25" ursprung="p">§ 25</rvolink>, soweit die Beträge gemäß den 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="20" ursprung="u">§§ 20</rvolink>, 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="u">22</rvolink> und 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="23" ursprung="u">23</rvolink> betroffen
+     sind,
+  </listelem>
+<listelem>
+<symbol>3.</symbol>
+<rvolink abkrvo="KuZuG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="18" ursprung="p">§ 18</rvolink> des Karenzurlaubszuschußgesetzes, BGBl. Nr. 297/1995,
+     soweit die Beträge gemäß den 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" ursprung="u">§§ 6 </rvolink>und 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="8" ursprung="u">8 </rvolink>betroffen sind.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

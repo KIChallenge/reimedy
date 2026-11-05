@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=ANH=1=156=2005-11-30=2005-12-01"><rvo>
+<metadaten gldart="ANH" gldsort="140" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-12-01" sichtbarkeit="p" gldnr="1" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-10-17"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="r" level="1" typ="anlage">Anhang</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Leistungen, für die eine chef-(kontroll-)ärztliche Bewilligung erforderlich ist</ueberschrift>
+<absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>ANHANG 1</gldsym>
+</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">Folgende Leistungen bedürfen vor ihrer Anwendung einer chef-(kontroll-) ärztlichen Bewilligung:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Logopädische Behandlung ab der 2. Sitzung,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Ergotherapie ab der 2. Behandlungseinheit,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Physiotherapie</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>ab der 21. Anwendung, jedenfalls ab der 7. Sitzung; die Verordnung ist bei Beginn der Behandlung vom Vertragspartner oder Versicherten (Angehörigen) der Kasse vorzulegen,</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>in Form von Hausbesuchen ab der 1. Sitzung,</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>Psychotherapie ab der 5. Sitzung,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Medizinische Hauskrankenpflege ab der 5. Woche,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Geplante Behandlung und Untersuchung im Ausland,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Computertomographie, Kernspintomographie, nuklearmedizinische Untersuchungen,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Kosmetische Behandlung,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Sterilisation, Schwangerschaftsunterbrechung, Geschlechtsumwandlung,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>HELP-Therapie,</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Operative Maßnahmen zur Gewichtsreduktion,</listelem>
+<listelem>
+<symbol stellen="3">12.</symbol>Flugtransporte,</listelem>
+<listelem>
+<symbol stellen="3">13.</symbol>Krankentransporte mit Ausnahme von Transporten in Fällen der Erste Hilfe, zur Dialyse sowie zur Chemo- oder Strahlentherapie,</listelem>
+<listelem>
+<symbol stellen="3">14.</symbol>Heimdialyse.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

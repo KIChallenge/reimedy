@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="GO-LSA_OEGK_Bgld=PARA=8==2020-03-03=2020-03-03"><rvo dokidCms="GO-LSA_OEGK_Bgld=PARA=8==2020-03-03=2020-03-03">
+      <metadaten titrvo="Geschäftsordnung für den Landesstellenausschuss der Landesstelle Burgenland der ÖGK" abkrvo="GO-LSA OEGK Bgld" dokart="GO" titaen="GO-LSA OEGK Bgld StF" abkaen="GO-LSA OEGK Bgld StF" urheber="LSA OEGK Bgld" pubdat="2020-03-03" ikra="2020-03-03" sichtbarkeit="p" gldart="PARA" gldnr="8" gldsort="80">
+        <puborgane>
+        <puborgan puborg="nicht publ.">nicht publ.  </puborgan>
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="us" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Tagesordnung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 8.</gldsym> (1) Der Entwurf der Tagesordnung ist vom Vorsitzenden zu Sitzungsbeginn dem Landesstellenausschuss zur Genehmigung vorzulegen. Jeder Tagesordnungsentwurf hat den Punkt „Allfälliges“ zu enthalten.</absatz>
+          <absatz typ="abs" halign="j">(2) Durch Beschluss des Landesstellenausschusses kann die Tagesordnung ergänzt oder geändert werden, bevor in sie eingegangen wird. Für den Fall einer Sitzungsunterbrechung kann die Tagesordnung, bevor in sie neuerlich eingegangen wird, durch Beschluss des Landesstellenausschusses ergänzt oder geändert werden.</absatz>
+          <absatz typ="abs" halign="j">(3) Jedenfalls und bereits ohne Abstimmung als Tagesordnungspunkt vorzusehen sind, wenn ein entsprechender Sachverhalt vorliegt:</absatz>
+          <liste>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol> wenn seit der letzten Sitzung ein Beschluss des LSA durch den VWR aufgehoben oder abgeändert wurden (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="434" abs="5" ursprung="u">§ 434 Abs. 5</rvolink><nolink> ASVG</nolink>),</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol> ein Verlangen der Aufsichtsbehörde zur Einberufung einer Sitzung,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol> Themen, deren Diskussion von der Aufsichtsbehörde oder vom Verwaltungsrat verlangt wird.</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

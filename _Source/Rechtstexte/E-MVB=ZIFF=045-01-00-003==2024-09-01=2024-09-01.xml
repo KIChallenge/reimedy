@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="E-MVB=ZIFF=045-01-00-003==2024-09-01=2024-09-01"><rvo dokidCms="E-MVB=ZIFF=045-01-00-003==2024-09-01=2024-09-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens Neufassung 2024" abkaen="E-MVB NeuF 2024" urheber="DVSV" pubdat="2024-09-01" ikra="2024-09-01" berkz="KVL; " sichtbarkeit="p" gldnr="045-01-00-003" nichtanzeigen="n">
+<schlagw>
+<textelem>Höchstbeitragsgrundlage und Altersteilzeitgeld </textelem>
+</schlagw>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2003-09-29"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-02-22"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>045-01-00-003</gldsym>
+</absatz>
+<absatz typ="satz" halign="j">Höchstbeitragsgrundlage – Wechsel zu Teilentgelt</absatz>
+<ueberschrift level="3" halign="c" typ="para">Berechnung der Anzahl der Teilentgelttage</ueberschrift>
+<absatz typ="satz" halign="j">Das beitragspflichtige Teilentgelt ist auf der mBGM in die allgemeine Beitragsgrundlage einzurechnen. Eine getrennte Betrachtung der Höchstbeitragsgrundlage zwischen vollem Entgelt und Teilentgelt ist nicht vorgesehen.</absatz>
+          <absatz typ="satz" halign="j">Die allgemeine Beitragsgrundlage, die je Beitragszeitraum durchschnittlich auf den Kalendertag entfällt, darf die Höchstbeitragsgrundlage nicht überschreiten. Bei schwankendem Arbeitsverdienst ist der durchschnittliche Tagesverdienst im Beitragszeitraum der täglichen Höchstbeitragsgrundlage gegenüberzustellen. Bei unterschiedlichen Beschäftigungsverhältnissen hat eine Betrachtung je Beschäftigung zu erfolgen.</absatz>
+          <absatz typ="satz" halign="j">
+            <u>Beispiel:</u></absatz>
+          <absatz typ="satz" halign="j">Ein Beschäftigungsverhältnis als Angestellter mit Teilentgelt.</absatz>
+          <absatz typ="satz" halign="j">- Entgelt für den Zeitraum 01.06. bis 10.06. als Angestellter: 2.000,00 Euro</absatz>
+          <absatz typ="satz" halign="j">- Teilentgelt für den Zeitraum 11.06. bis 30.06. als Angestellter: 2.000,00 Euro</absatz>
+          <absatz typ="satz" halign="j">
+            <u>Lösung:</u></absatz>
+          <absatz typ="satz" halign="j">- Es sind 30 Tage anzusetzen, weil ein voller Kalendermonat vorliegt.</absatz>
+          <absatz typ="satz" halign="j">- Berechnung des durchschnittlichen Tagesverdienstes: (2.000,00 Euro + 2.000,00 Euro) : 30 Tage = 133,33 Euro.</absatz>
+          <absatz typ="satz" halign="j">- Der durchschnittliche Tagesverdienst von 133,33 Euro liegt unter der täglichen Höchstbeitragsgrundlage von 189,00 Euro (Wert für 2022).</absatz>
+          <absatz typ="satz" halign="j">- Beschäftigtengruppe Angestellter, 30 Tage, allgemeine Beitragsgrundlage: 4.000,00 Euro.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

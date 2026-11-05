@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="SVS-KrankenO_2024=PARA=24=82=2023-12-18=2024-01-01"><rvo dokidCms="SVS-KrankenO_2024=PARA=24=82=2023-12-18=2024-01-01">
+      <metadaten nichtanzeigen="n" titrvo="SVS-Krankenordnung 2024" abkrvo="SVS-KrankenO 2024" dokart="KrankenO" titaen="SVS-Krankenordnung 2024 StF" abkaen="SVS-KrankenO 2024 StF" urheber="SVS" beschdat="2023-12-12" pubdat="2023-12-18" ikra="2024-01-01" sichtbarkeit="p" gldart="PARA" gldnr="24" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="82" jahrgang="2023">avsv   Nr. 82/2023 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="g2" halign="c" level="3">7. Unterabschnitt <br/>Medizinische Krankenpflege </ueberschrift>
+          <ueberschrift typ="para" halign="c" level="4">Kostenzuschuss bei Medizinischer Hauskrankenpflege</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 24.</gldsym> Die SVS leistet für im Rahmen der medizinischen Hauskrankenpflege erbrachte medizinische Leistungen oder qualifizierte Pflegeleistungen bei Vorlage folgender Nachweise einen Kostenersatz bzw. Kostenzuschuss nach <rvolink abkrvo="SVS-Satzung 2024" verwart="d" typ="e" gldart="ANL" gldsort="160" gldnr="2" ursprung="u">Anlage 2</rvolink> der Satzung:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Ärztliche Anordnung der medizinischen Hauskrankenpflege sowie deren Datum,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Diagnose,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Medizinische Begründung für die Durchführung der medizinischen Hauskrankenpflege,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Erbringung durch diplomiertes Pflegepersonal (Name),</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Datum, Art und Dauer der durchgeführten medizinischen Leistungen und qualifizierten Pflegeleistungen in Minuten,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Bestätigung der Richtigkeit der Angaben durch das diplomierte Pflegepersonal.</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.C_2005=PARA=44a=3=2022-01-10=2022-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.C_2005=PARA=44a=178=2005-12-16=2005-12-22" dokidSource="DO.C_2005=PARA=44a=178=2005-12-16=2005-12-22">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.C 2005" dokart="DO" titaen="93. Änderung der Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkaen="93. Änd DO.C 2005" urheber="Hauptverband" beschdat="2021-12-23" pubdat="2022-01-10" ikra="2022-01-01" sichtbarkeit="p" gldnr="44a">
+<uebrecht>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="111" typ="e">§ 111 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="114" typ="e">§ 114 DO.C 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-29"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="3" jahrgang="2022"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Nachtdienstzulage</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 44a. </gldsym>Dem Arbeiter gebührt für eine innerhalb der Normalarbeitszeit gelegene Dienstleistung zwischen 20 Uhr und 6 Uhr eine Nachtdienstzulage; diese beträgt für jede Arbeitsstunde innerhalb des angeführten Zeitraumes 40% des Stundenlohnes (
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="47" abs="2" ursprung="u">§ 47 Abs. 2</rvolink>).</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

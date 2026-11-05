@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="SVS-KrankenO_2024=PARA=9=97=2024-12-20=2025-01-01"><rvo dokidCms="SVS-KrankenO_2024=PARA=9=97=2024-12-20=2025-01-01" dokidSource="SVS-KrankenO_2024=PARA=9=82=2023-12-18=2024-01-01">
+      <metadaten nichtanzeigen="n" titrvo="SVS-Krankenordnung 2024" abkrvo="SVS-KrankenO 2024" dokart="KrankenO" titaen="1. Änderung der SVS-Krankenordnung 2024" abkaen="1. Änd SVS-KrankenO 2024" urheber="SVS" beschdat="2024-12-17" pubdat="2024-12-20" ikra="2025-01-01" sichtbarkeit="p" gldart="PARA" gldnr="9" gldsort="50">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="97" jahrgang="2024"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="4">Ärztliche Hilfe mit Überweisungs- oder Zuweisungsschein</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 9.</gldsym> (1) Folgende Vertragspartner können nicht mit der e-card allein, sondern nur gemeinsam mit einem Überweisungs- oder Zuweisungsschein in Anspruch genommen werden:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Vertragsfachärzte/Vertrags-Gruppenpraxen/Vertragseinrichtungen für Radiologie,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Vertragsfachärzte/Vertrags-Gruppenpraxen/Vertragseinrichtungen für Labordiagnostik,</listelem>
+              <listelem>
+                <symbol stellen="3">3. </symbol>Vertragsfachärzte/Vertrags-Gruppenpraxen/Vertragseinrichtungen für physikalische Medizin,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Vertragseinrichtungen für physikalische Therapie,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Vertragseinrichtungen für logopädisch-phoniatrisch-audiologische Behandlungen,</listelem>
+              <listelem>
+                <symbol stellen="3">6. </symbol>Vertragseinrichtungen für CT und MR- sowie nuklearmedizinische Untersuchungen</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>sonstige Vertragsfachärzte und Vertragseinrichtungen, soweit eine Über(Zu-)weisung vertraglich vorgesehen ist.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">Bei der Inanspruchnahme von Fachärzten für Radiologie bzw. sonstigen Leistungserbringern im Rahmen des österreichischen Brustkrebs-Früherkennungsprogrammes ersetzt das Einladungsschreiben die Zuweisung zum Facharzt für Radiologie.</absatz>
+          <absatz typ="abs" halign="j">(2) Abweichend von <rvolink abkrvo="SVS-KrankenO 2024" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="12" abs="1" ursprung="u">§ 12 Abs. 1</rvolink> können mehrere Vertragsärzte für Allgemeinmedizin oder mehrere Fachärzte des gleichen Faches in begründeten Einzelfällen über Zuweisung in Anspruch genommen werden, wenn eine medizinisch erforderliche Leistung vom zuerst in Anspruch genommenen Vertrags(fach)arzt nicht erbracht wird.</absatz>
+          <absatz typ="abs" halign="j">(3) Überweisungs(Zuweisungs)scheine berechtigen innerhalb von drei Monaten ab Ausstellungsdatum, die entsprechende Leistung in Anspruch zu nehmen.</absatz>
+          <absatz typ="abs" halign="j">(4) Bei bewilligungspflichtigen Leistungen ist die Überweisung oder Zuweisung der SVS innerhalb eines Monats ab dem Tag, an dem diese ausgestellt wurde, zur Bewilligung vorzulegen und sind die Leistungen innerhalb von drei Monaten ab dem Tag der Erteilung der Bewilligung in Anspruch zu nehmen.</absatz>
+          <absatz typ="abs" halign="j">(5) Überweisungen oder Zuweisungen für Leistungen nach <rvolink ursprung="u" abkrvo="SVS-KrankenO 2024" verwart="d" gldart="ANL" gldsort="160" gldnr="1" typ="e">Anlage zu § 9 Abs. 5 und 6</rvolink>, die nicht bewilligungspflichtig sind, berechtigen die Versicherten (Angehörigen) innerhalb von drei Monaten ab dem Tag, an dem diese elektronisch im elektronischen Kommunikationsservice (eKOS) erfasst wurden, die entsprechende Leistung bei einem Leistungserbringer in Anspruch zu nehmen.</absatz>
+          <absatz typ="abs" halign="j">(6) Bei Leistungen nach <rvolink ursprung="u" abkrvo="SVS-KrankenO 2024" verwart="d" gldart="ANL" gldsort="160" gldnr="1" typ="e">Anlage zu § 9 Abs. 5 und 6</rvolink>, die der Bewilligungspflicht unterliegen, gelten die Regeln des Abs. 5. Der Zeitraum von drei Monaten beginnt jedoch mit dem Tag der Bewilligung durch die SVS.</absatz>
+          <absatz typ="abs" halign="j">(7) Verordnungen, Überweisungen und Zuweisungen von Wahlärzten, Wahl-Gruppenpraxen und Wahleinrichtungen sind den von den Vertragsärzten, Vertrags-Gruppenpraxen und Vertragseinrichtungen ausgestellten Verordnungen, Überweisungen und Zuweisungen gleichgestellt.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

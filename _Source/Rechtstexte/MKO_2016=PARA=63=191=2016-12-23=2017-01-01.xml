@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MKO_2016=PARA=63=191=2016-12-23=2017-01-01"><rvo dokidCms="MKO_2016=PARA=63=191=2016-12-23=2017-01-01" dokidSource="MKO_2016=PARA=63=67=2016-04-29=2016-04-30">
+      <metadaten nichtanzeigen="n" titrvo="Musterkrankenordnung 2016" abkrvo="MKO 2016" dokart="MusterR" titaen="1. Änderung der Musterkrankenordnung 2016" abkaen="1. Änd MKO 2016" urheber="Hauptverband" beschdat="2016-12-13" pubdat="2016-12-23" ikra="2017-01-01" sichtbarkeit="p" gldart="PARA" gldnr="63" gldsort="70">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="191" jahrgang="2016"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Europäische Krankenversicherungskarte EKVK, <br/>Zwischenstaatlicher Betreuungsschein, sonstige gemeinschaftsrechtliche <br/>oder bilaterale Anspruchsbescheinigungen</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 63.</gldsym> (1) Die Inanspruchnahme medizinischer Leistungen in Staaten, in denen die Koordinierungsverordnungen anzuwenden sind, richtet sich in den durch die EKVK gedeckten Fällen nach <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" abs="2" ursprung="u">§ 6 Abs. 2</rvolink> und <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="6" abs="3" ursprung="u">3</rvolink>, sonst nach den für den jeweiligen Leistungsfall anzuwendenden Bestimmungen (z. B. Formblatt E 112 bzw. S 2 für die Einreise zum Zweck der Inanspruchnahme medizinischer Leistungen). Die Bestimmungen über die freie Arztwahl oder die Erstattung von Kosten der Krankenbehandlung werden dadurch nicht eingeschränkt.</absatz>
+          <absatz typ="abs" halign="j">(2) Wer sich</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>in ein Gebiet außerhalb der in Abs. 1 genannten Staaten begibt, für das ein Abkommen über soziale Sicherheit gilt, welches Regelungen über die aushilfsweise Gewährung von Leistungen aus der Krankenversicherung zu Lasten einer österreichischen Kasse vorsieht, oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>in einen Staat nach Abs. 1 begibt, aber die entsprechende Leistung nicht von der EKVK gedeckt ist,</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">kann, wenn es in den entsprechenden Regelungen vorgesehen ist, vor der Ausreise beim Dienstgeber/bei der Dienstgeberin bzw. bei der Kasse einen zwischenstaatlichen Betreuungsschein oder den entsprechenden Beleg nach den <nolink>Wanderarbeitnehmerverordnungen</nolink> oder den Koordinierungsverordnungen anfordern.</schluss>
+          </liste>
+          <absatz typ="abs" halign="j">(3) In den Fällen des Abs. 2 muss für die Leistungsinanspruchnahme in einem anderen Staat das dafür vorgesehene Verfahren eingehalten werden (z. B sofern erforderlich, hat ein Umtausch beim Träger des Wohn- oder Aufenthaltsortes in einen nationalen Behandlungsschein zu erfolgen); Hinweise auf das einzuhaltende Verfahren enthält in der Regel das jeweilige Formular.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

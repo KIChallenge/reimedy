@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="EFZ-DV-VO=PARA=3=304=2019-10-17=2020-01-01"><rvo dokidCms="EFZ-DV-VO=PARA=3=146=2018-07-03=2018-07-04" dokidSource="EFZ-DV-VO=PARA=3=146=2018-07-03=2018-07-04">
+      <metadaten nichtanzeigen="n" titrvo="Entgeltfortzahlungs-Zuschuss- und Differenzvergütungs-Verordnung" abkrvo="EFZ-DV-VO" dokart="V" titaen="1. Änderung der Entgeltfortzahlungs-Zuschuss- und Differenzvergütungs-Verordnung" abkaen="1. Änd EFZ-DV-VO" urheber="BMASGK" pubdat="2019-10-17" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="3" gldsort="80">
+        <anm>Rechtsgrundlage: § 53b Abs. 6 ASVG</anm>
+      <puborgane><puborgan puborg="BGBl." gldpuborg="II" nrpuborg="304" begseite="1" jahrgang="2019"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Antragstellung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 3.</gldsym> Die Zuschüsse nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="53b" abs="2" ziff="3" ursprung="u">§ 53b Abs. 2 Z 3</rvolink><nolink> ASVG</nolink> und die Differenzvergütung nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="53b" abs="3" ursprung="u">§ 53b Abs. 3</rvolink><nolink> ASVG</nolink> werden nur auf Antrag nach Ende der Entgeltfortzahlung gewährt. Der Antrag, der nach Möglichkeit mittels elektronischer Datenfernübertragung zu stellen ist, hat folgende, für die Gewährung und Abwicklung dieser Leistungen erforderliche Daten zu enthalten:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Name und Adresse des Dienstgebers/der Dienstgeberin und seines/ihres Unternehmens (<rvolink abkrvo="EFZ-DV-VO" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="2" abs="2" ursprung="u">§ 2 Abs. 2</rvolink> und <rvolink abkrvo="EFZ-DV-VO" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="2" abs="3" ursprung="u">3</rvolink>);</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Name und Versicherungsnummer oder Geburtsdatum des Dienstnehmers/der Dienstnehmerin, aufgrund dessen/deren Arbeitsverhinderung der Zuschuss beantragt wird;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Glaubhaftmachung der krankheits- oder unfallbedingten Arbeitsverhinderung nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="53b" abs="2" ziff="3" ursprung="u">§ 53b Abs. 2 Z 3</rvolink> <nolink>und </nolink><rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="53b" abs="3" ursprung="u">Abs. 3</rvolink><nolink> ASVG</nolink>;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Rechtsgrundlage, Dauer und Höhe der Entgeltfortzahlung sowie Angabe, ob Anspruch auf Sonderzahlung besteht;</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Beginn des Dienstverhältnisses und Angabe, ob das Arbeitsjahr im Sinne des <rvolink abkrvo="EFZ-DV-VO" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="4" abs="2" ursprung="u">§ 4 Abs. 2</rvolink> das Kalenderjahr ist;</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Rechtsgrundlage für den Anspruch auf Differenzvergütung im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="53b" abs="3" ursprung="u">§ 53b Abs. 3</rvolink><nolink> ASVG</nolink>.</listelem>
+            </ziffernliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

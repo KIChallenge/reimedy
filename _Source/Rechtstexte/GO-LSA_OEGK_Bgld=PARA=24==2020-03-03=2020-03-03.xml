@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="GO-LSA_OEGK_Bgld=PARA=24==2020-03-03=2020-03-03"><rvo dokidCms="GO-LSA_OEGK_Bgld=PARA=24==2020-03-03=2020-03-03">
+      <metadaten titrvo="Geschäftsordnung für den Landesstellenausschuss der Landesstelle Burgenland der ÖGK" abkrvo="GO-LSA OEGK Bgld" dokart="GO" titaen="GO-LSA OEGK Bgld StF" abkaen="GO-LSA OEGK Bgld StF" urheber="LSA OEGK Bgld" pubdat="2020-03-03" ikra="2020-03-03" sichtbarkeit="p" gldart="PARA" gldnr="24" gldsort="80">
+        <puborgane>
+        <puborgan puborg="nicht publ.">nicht publ.  </puborgan>
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="us" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Protokollauszüge</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 24.</gldsym> (1) Protokollauszüge haben zu enthalten:</absatz>
+          <liste>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die Angaben nach <rvolink abkrvo="GO-LSA OEGK Bgld" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="1" ursprung="u">§ 22 Abs. 1 Z 1</rvolink>, <rvolink abkrvo="GO-LSA OEGK Bgld" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="2" ursprung="u">2</rvolink>, <rvolink abkrvo="GO-LSA OEGK Bgld" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="4" ursprung="u">4</rvolink> und <rvolink abkrvo="GO-LSA OEGK Bgld" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="5" ursprung="u">5</rvolink>, soweit sie für den Tagesordnungspunkt, für den der Protokollauszug angefertigt wird, bedeutsam sind;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>die vollständige Bezeichnung des Tagesordnungspunktes, über den der Protokollauszug angefertigt wird;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>die Zahl der anwesenden stimmberechtigten Sitzungsteilnehmer und das Abstimmungsergebnis (<rvolink abkrvo="GO-LSA OEGK Bgld" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" abs="1" ziff="8" lit="f" ursprung="u">§ 22 Abs. 1 Z 8 lit. f</rvolink>);</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>den Wortlaut aller Beschlüsse zu diesem Tagesordnungspunkt.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die Richtigkeit eines Protokollauszuges, der außerhalb des Büros des Versicherungsträgers verwendet werden soll, ist durch Unterschrift des Vorsitzenden und des leitenden Angestellten der ÖGK zu bestätigen.</absatz>
+          <absatz typ="abs" halign="j">(3) Auszüge aus Protokollen, die vor der Genehmigung (Verifizierung) angefertigt werden, müssen am Beginn deutlich sichtbar folgenden Vermerk tragen: „Vorbehaltlich Berichtigung und Genehmigung!“.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=41=2025-0.894.169=2025-12-18=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=41=2025-0.894.169=2025-12-18=2026-01-01" dokidSource="RechnVorschr_SV=PARA=41=21.181=2001-01-12=2001-01-01">
+<metadaten gldnr="41" ikra="2026-01-01" pubdat="2025-12-18" abkaen="57. Änd RechnVorschr SV" titaen="57. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" sichtbarkeit="p" urheber="BMASGPK" dokart="Weisung" abkrvo="RechnVorschr SV" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" gldsort="70" gldart="PARA" berkz="OV;">
+<aendprot>
+<dfeintrag zeitpunkt="2002-11-28" perskz="schaff"/>
+<dfeintrag perskz="polzer" zeitpunkt="2002-12-05"/>
+<dfeintrag zeitpunkt="2003-02-11" perskz="glueck"/>
+<dfeintrag perskz="schaff" zeitpunkt="2003-04-16"/>
+<dfeintrag zeitpunkt="2003-12-03" perskz="polzer"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-02-13"/>
+</aendprot>
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2025-0.894.169" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">KASSENBEWEGUNGEN</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 41.</gldsym> (1) Für Einzahlungen sind fortlaufend nummerierte Einzahlungsbelege über das elektronische Kassensystem zu erstellen. Eine vom Kassier unterfertigte Ausfertigung des Einzahlungsbelegs ist dem Einzahler auszuhändigen.</absatz>
+<absatz typ="abs" halign="j">(2) Für Auszahlungen sind fortlaufend nummerierte Auszahlungsbelege über das elektronische Kassensystem zu erstellen. Eine Ausfertigung des Auszahlungsbelegs <nolink>ist vom Empfänger</nolink> der Auszahlung zu unterfertigen. Auszahlungen dürfen nur an den Anspruchsberechtigten bzw. seinen Bevollmächtigten erfolgen.</absatz>
+
+
+
+
+
+
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="SV-SR_2025=PARA=2=94=2024-12-19=2025-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2024_0094_1735558520636">
+      <metadaten titrvo="Sicherheitsrichtlinie für die gesetzliche Sozialversicherung (SV-Sicherheitsrichtlinie 2025)" abkrvo="SV-SR 2025" dokart="RL DVSV" urheber="DVSV" beschdat="2024-12-18" pubdat="2024-12-19" ikra="2025-01-01" sichtbarkeit="p" nichtanzeigen="n" titaen="Sicherheitsrichtlinie für die gesetzliche Sozialversicherung (SV-Sicherheitsrichtlinie 2025) StF" abkaen="SV-SR 2025 StF" gldart="PARA" gldnr="2" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="94" jahrgang="2024">avsv   Nr. 94/2024 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="1">Zweck</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 2.</gldsym> (1) Zweck dieser Richtlinie ist eine für alle SV-Organisationen einheitliche Vorgangsweise bei folgenden Sicherheitsthemen zu erreichen:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Risikomanagement der Informationssicherheit</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Informationssicherheit</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Resilienz</listelem>
+            </ziffernliste>
+            <aufzaehlung ebene="2" art="normal">
+              <listelem>
+                <symbol stellen="3">3a.</symbol>Krisenmanagement</listelem>
+              <listelem>
+                <symbol stellen="3">3b.</symbol>Business Continuity Management</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die Erbringung der Dienstleistungen der Sozialversicherung erfordert ein hohes Maß an Risikobewusstsein. Dazu ist ein SV-weites, koordiniertes Vorgehen einzuhalten. Alle SV-Organisationen sind verpflichtet, ihre Risiken mittels eines Risikomanagement-Prozesses zu steuern. Dafür sind, entsprechend dem Stand der Technik, gemeinsame SV-weite Mindeststandards und Methoden umzusetzen. Diese orientieren sich am nationalen Standard Risikomanagement für Organisationen und Systeme (ON D 4900 ff.) und am internationalen Standard Risikomanagement (ISO 31000) in ihrer jeweils gültigen Fassung.</absatz>
+          <absatz typ="abs" halign="j">(3) Die in der Sozialversicherung bearbeiteten Daten erfordern ein hohes Maß an Informationssicherheit. Das wird in der „Informationssicherheitsstrategie der österreichischen Sozialversicherung“ genauer beschrieben.</absatz>
+          <absatz typ="abs" halign="j">(4) Die Dienstleistungen der Sozialversicherung erfordern ein hohes Maß an Verfügbarkeit. Dazu wird ein SV-weites Krisenmanagement benötigt, das durch diese Richtlinie strategisch vorgegeben und in einer detaillierten Handlungsanleitung genauer beschrieben wird. Die SV-Organisationen haben sich bei Eintritt einer SV-weiten Krise zur Einhaltung der vereinbarten Handlungsweise verpflichtet. Die SV-Organisationen orientieren sich zur Sicherstellung ihrer Funktionsfähigkeit im Krisenfall an nationalen und internationalen Standards (z.B. österreichischen staatlichen Krisen- und Katastrophenschutzmanagement SKKM). </absatz>
+          <absatz typ="abs" halign="j">(5) Alle SV-Organisationen sind verpflichtet, die Aufrechterhaltung ihrer Betriebsfähigkeit und ihre Resilienz (Widerstandsfähigkeit und Reaktionsfähigkeit auf disruptive Ereignisse) durch Business Continuity Management sicherzustellen. Dafür sind, entsprechend dem Stand der Technik, gemeinsame SV-weite Mindeststandards und Methoden umzusetzen. Diese orientieren sich an nationalen und internationalen Standards (z.B. ISO 22301 ff) in ihrer jeweils gültigen Fassung.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="41" paperh="842" paperw="595.5" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

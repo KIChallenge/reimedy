@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="PO-FA=PARA=10=92=2007-06-30=2007-09-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Prüfungsordnung für die Fachausbildung gemäß § 21c DO.A" abkrvo="PO-FA" dokart="PO" titaen="Prüfungsordnung für die Fachausbildung gemäß § 21c DO.A StF" abkaen="PO-FA StF" urheber="Hauptverband" beschdat="2007-06-27" pubdat="2007-06-30" ikra="2007-09-01" sichtbarkeit="p" gldnr="10" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-07-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="92" jahrgang="2007"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">ABSCHNITT IV</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="g2">Zweiter Teil der Fachausbildung</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="g1min">Abgrenzung der Aufgabengebiete</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="0" halign="c" level="4" typ="para">Aufgaben des Verbandsvorstands</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 10.</gldsym> Dem Verbandsvorstand obliegt:
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Anberaumung der Prüfungen (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="15" abs="1" ursprung="p">§ 15 Abs. 1</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Entscheidung über die Zulassung;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Bestellung des Vorsitzenden der Prüfungskommission (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="5" ursprung="u">§ 2 Abs. 5</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die Bestellung der Prüfer (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="2" abs="6" ursprung="p">§ 2 Abs. 6</rvolink>) und der Berichterstatter (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13" abs="1" ursprung="u">§ 13 Abs. 1</rvolink>, 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13" abs="2" ursprung="u">2</rvolink> und 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="13" abs="3" ursprung="u">3</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die Zuordnung der Prüfungsgegenstände an die Prüfer (
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="21" abs="3" ursprung="u">§ 21 Abs. 3</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>die Entscheidung über Ansuchen gemäß 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="18" abs="2" ursprung="u">§ 18 Abs. 2</rvolink> und 
+<rvolink abkrvo="PO-FA" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="18" abs="4" ursprung="u">4</rvolink>.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

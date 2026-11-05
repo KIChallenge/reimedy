@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="GO-GF=PARA=1==2002-01-18=2002-01-18"><rvo>
+<metadaten gldnr="1" berkz="OV;" ikra="2002-01-18" pubdat="2002-01-18" urheber="Hauptverband" abkaen="GO-GF StF" titaen="Geschäftsordnung für die Geschäftsführung StF" dokart="GO" sichtbarkeit="p" abkrvo="GO-GF" titrvo="Geschäftsordnung für die Geschäftsführung" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2002-03-05" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2002-03-20"/>
+<dfeintrag zeitpunkt="2002-04-23" perskz="schaff"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-02-11"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="g1">Geschäftsordnung für die Geschäftsführung - GO-GF</ueberschrift>
+<ueberschrift level="2" halign="c" typ="para">Geltungsbereich</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 1.</gldsym> Diese Geschäftsordnung gilt für die Tätigkeit der Geschäftsführung des Hauptverbandes gemäß 
+<rvolink ursprung="u" gldnr="441c" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§§ 441c</rvolink> und 
+<rvolink ursprung="u" gldnr="442b" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">442b</rvolink> ASVG.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

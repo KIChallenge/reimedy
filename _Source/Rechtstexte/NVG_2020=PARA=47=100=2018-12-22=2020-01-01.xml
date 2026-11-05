@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="NVG_2020=PARA=47=100=2018-12-22=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="NVG_2020=PARA=47=100=2018-12-22=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="NotarversorgungsG" abkrvo="NVG 2020" dokart="BG" titaen="Sozialversicherungs-OrganisationsG - Stammfassung" abkaen="SV-OG" urheber="Bund" beschdat="2018-12-13" pubdat="2018-12-22" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="47" gldsort="80">
+        <puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="100" begseite="109" jahrgang="2018">BGBl. I  Nr. 100/2018 , S.109</puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Anrechenbarkeit der Versorgungsmonate</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 47.</gldsym> (1) Versorgungsmonate sind anrechenbar, wenn sie in den Anrechnungszeitraum fallen. Darunter ist der längste unmittelbar vor dem Stichtag (<rvolink abkrvo="NVG 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="43" abs="2" ursprung="u">§ 43 Abs. 2</rvolink>) gelegene Zeitraum zu verstehen, der mindestens zu drei Vierteln durch Versorgungsmonate gedeckt ist.</absatz>
+          <absatz typ="abs" halign="j">(2) Bei der Ermittlung des Anrechnungszeitraumes bleiben folgende Zeiten, wenn sie nicht als Versorgungszeiten gelten, außer Betracht:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Zeiten, in denen eine in die Vorsorge einbezogene Person auf Grund des WG Präsenz- oder Ausbildungsdienst bzw. auf Grund des <nolink>ZDG</nolink> ordentlichen oder außerordentlichen Zivildienst geleistet hat;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Zeiten, in denen ein Notariatskandidat/eine Notariatskandidatin wegen Stellenlosigkeit vorübergehend nicht im Verzeichnis der Notariatskandidat/inn/en eingetragen war;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Zeiten, in denen die in die Vorsorge einbezogene Person Anspruch auf Berufsunfähigkeitsgeld hatte;</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>die letzten vor dem Eintritt des Versorgungsfalles gelegenen Zeiten, wenn sie nicht nach den Z 1 bis 3 außer Betracht bleiben, bis zur Höchstdauer von 18 Monaten.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Zeiten der im Abs. 2 Z 2 bezeichneten Art bleiben nur bis zum Höchstausmaß von 90 Tagen in einem Kalenderjahr, insgesamt von höchstens 180 Tagen, bei der Ermittlung des Anrechnungszeitraumes außer Betracht.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

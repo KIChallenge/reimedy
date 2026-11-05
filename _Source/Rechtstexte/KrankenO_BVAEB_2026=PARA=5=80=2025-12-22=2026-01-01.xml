@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_BVAEB_2026=PARA=5=80=2025-12-22=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2025_0080_1767965010087">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2026" abkrvo="KrankenO BVAEB 2026" dokart="KrankenO" titaen="Krankenordnung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2026 StF" abkaen="KrankenO BVAEB 2026 StF" urheber="BVAEB" beschdat="2025-12-10" pubdat="2025-12-22" ikra="2026-01-01" sichtbarkeit="p" gldart="PARA" gldnr="5" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="80" jahrgang="2025">avsv   Nr. 80/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="false">
+          <ueberschrift typ="para" halign="c" level="2">Elektronisches Kommunikationsservice (eKOS)</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 5.</gldsym> (1) Die BVAEB stellt das elektronische Kommunikationsservice eKOS zur Abwicklung von Verordnungen (Zuweisungen) im Sinn des <rvolink abkrvo="KrankenO BVAEB 2026" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="2" abs="3" ursprung="u">§ 2 Abs. 3</rvolink> bzw. <nolink>von</nolink> Bewilligungsverfahren nach <rvolink abkrvo="KrankenO BVAEB 2026" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" ursprung="u">§ 4</rvolink> durch Vertragspartner*innen und eigene Einrichtungen für folgende Leistungen bereit:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="3">1. </symbol>Computertomographie,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Humangenetische Untersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>Klinisch-psychologische Diagnostik,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Knochendichtemessung,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Magnetresonanztomographie,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>Nuklearmedizinische Untersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>Röntgentherapien,</listelem>
+              <listelem>
+                <symbol stellen="2">8.</symbol>Röntgenuntersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>Sonographien.</listelem>
+            </ziffernliste>
+            <schlussteil ebene="0" art="normal">Verfahren zur Inanspruchnahme von Leistungen im Rahmen der zwischenstaatlichen Sachleistungsaushilfe (§ 6) werden jedoch nicht über eKOS abgewickelt.</schlussteil>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die BVAEB verhält ihre Vertragspartner*innen, welche die in Abs. 1 genannten Leistungen verordnen oder erbringen, eKOS zu verwenden. Der*Die Anspruchsberechtigte hat sich an Hand des ihm*ihr auszuhändigenden Informationsblatts zur e<gdash/>Zuweisung bzw. e<gdash/>Überweisung mit dem eindeutigen Antragscode zu vergewissern, dass der*die Vertragspartner*in die Verordnung (Zuweisung) tatsächlich in eKOS erfasst hat.</absatz>
+          <absatz typ="abs" halign="j">(3) Der*Die Anspruchsberechtigte hat dem*der Vertragspartner*in, welche*r die Leistung erbringen soll, den Antragscode bekannt zu geben. Stammt die Verordnung (Zuweisung) für eine Leistung nach Abs. 1 nicht von einem Vertragspartner*einer Vertragspartnerin, oder wurde sie aus einem anderen Grund nicht mit eKOS erstellt, hat der*die Anspruchsberechtigte dem*der Vertragspartner*in, welche*r die Leistung erbringen soll, die Verordnung (Zuweisung) vorzulegen.</absatz>
+          <absatz typ="abs" halign="j">(4) Der*Die Anspruchsberechtigte hat in Anbringen an die BVAEB, die sich auf eine in eKOS erfasste Leistung beziehen, den Antragscode anzugeben.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

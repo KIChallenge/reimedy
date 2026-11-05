@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="REDV_2006=PARA=11=40=2026-07-02=2026-07-03" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="REDV_2006=PARA=11=87=2006-07-28=2006-07-29" dokidSource="REDV_2006=PARA=11=87=2006-07-28=2006-07-29">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkrvo="REDV 2006" dokart="RL DVSV" titaen="10. Änderung der Richtlinien über die Zusammenarbeit der Sozialversicherungsträger und des Dachverbandes in der elektronischen Datenverarbeitung 2006" abkaen="10. Änd REDV 2006" urheber="DVSV" sichtbarkeit="p" beschdat="2026-07-01" pubdat="2026-07-02" ikra="2026-07-03" gldnr="11" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-07-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" jahrgang="2026"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Aufteilung der Kosten der Standardprodukte</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 11.</gldsym> (1) Die gemäß 
+<rvolink abkrvo="REDV 2006" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="2" ursprung="p">§ 5 Abs. 2</rvolink> von der Konferenz beschlossenen Einrichtungs- sowie Betreuungskosten werden im Auftrag der Konferenz von der ITSV-GmbH auf die betroffenen Sozialversicherungsträger aufgeteilt. Grundsätzlich gilt dafür die aliquote Kostenteilung entsprechend den Verbandsbeiträgen. Die Betriebskosten (Rechenzentrumsbetrieb gemäß EDV-Handbuch) sind auf Basis eines Service Level Agreements - SLA anhand eines allgemeingültigen Abrechnungshandbuches (Bestandteil des EDV-Handbuches) verursachungsgerecht zu verrechnen. Die Konferenz kann für die Einrichtungs-, Betreuungs- und/oder Betriebskostenverrechnung hievon abweichende Regeln festlegen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Sozialversicherungsträger, die an einem Standardprodukt erst nach dessen Einrichtung teilnehmen (diesem beitreten oder als Nutzer des Competence Centers auftreten), haben ihren Anteil an den Errichtungskosten dieses Standardproduktes so zu tragen, als hätten sie ab Beginn teilgenommen. Auf diese Aufrollung kann nur im Einvernehmen aller betroffenen Sozialversicherungsträger verzichtet werden.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

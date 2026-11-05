@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=15=71=2003-08-20=2003-07-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="KGG=PARA=15=71=2003-08-20=2003-07-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Karenzgeldgesetz" abkrvo="KGG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="BudgBeglG 2003" abkaen="BudgBeglG 2003" beschdat="2003-06-11" pubdat="2003-08-20" ikra="2003-07-01" gldnr="15" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2001-09-05"/>
+<dfeintrag zeitpunkt="2003-05-08" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-13" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-13"/>
+<dfeintrag zeitpunkt="2003-09-18" perskz="polzer"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="71" begseite="1232" jahrgang="2003"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="g1">Abschnitt 4 
+<br/>Zuschuß zum Karenzgeld oder zur Teilzeitbeihilfe</ueberschrift>
+<ueberschrift level="2" halign="c" typ="para">Anspruch auf Zuschuß
+</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 15.</gldsym> (1) Anspruch auf Zuschuß zum Karenzgeld oder zur
+Teilzeitbeihilfe haben</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>alleinstehende Elternteile (
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="16" ursprung="p">§ 16</rvolink>),
+  </listelem>
+<listelem>
+<symbol>2.</symbol>verheiratete Mütter oder verheiratete Väter nach Maßgabe des
+    
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="17" ursprung="u"> § 17</rvolink>,
+  </listelem>
+<listelem>
+<symbol>3.</symbol>nicht alleinstehende Mütter oder Väter nach Maßgabe des 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="18" ursprung="u">§ 18</rvolink>
+     und
+  </listelem>
+<listelem>
+<symbol>4.</symbol>Frauen oder Männer, die allein oder mit ihrem Ehegatten ein
+     Kind an Kindes Statt angenommen oder in Pflege genommen haben, nach
+     Maßgabe des 
+<rvolink abkrvo="KGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="17" abs="3" ursprung="u">§ 17 Abs. 3.</rvolink>
+</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Voraussetzung für die Gewährung des Zuschusses ist, daß
+Karenzgeld oder Teilzeitbeihilfe für unselbständig erwerbstätige
+Mütter nach diesem Bundesgesetz oder Teilzeitbeihilfe nach dem BSVG
+oder nach dem <nolink>GSVG</nolink> zuerkannt worden ist.
+  </absatz>
+<absatz typ="abs" halign="j">(3) 
+  Für Ansprüche auf Grund von Geburten vom 1. Juli 2000 bis
+31. Dezember 2001 gilt ab 1. Jänner 2002, dass vom Anspruch auf
+Zuschuss ausgeschlossen ist, wer ein Einkommen gemäß <rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="8" ursprung="u">§ 8 KBGG</rvolink>
+erzielt, das den Grenzbetrag gemäß
+<rvolink abkrvo="KBGG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" abs="3" ursprung="u"> § 9 Abs. 3 </rvolink>KBGG übersteigt.
+</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

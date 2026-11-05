@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="AbkSozSi_UNO=ART=4=110=2010-09-27=2010-11-01"><rvo dokidCms="AbkSozSi_UNO=ART=4=110=2010-09-27=2010-11-01">
+      <metadaten titrvo="Sozialversicherungsabkommen UNO" abkrvo="AbkSozSi UNO" sichtbarkeit="p" dokart="SVAbk" urheber="Bund" titaen="Sozialversicherungsabkommen UNO Stammfassung" abkaen="AbkSozSi UNO StF" beschdat="2010-05-20" pubdat="2010-09-27" ikra="2010-11-01" gldart="ART" gldsort="80" gldnr="4" nichtanzeigen="n">
+        <puborgane>
+          <puborgan puborg="BGBl." gldpuborg="III" nrpuborg="110" jahrgang="2010">BGBl. III  Nr. 110/2010 </puborgan>
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="2" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Artikel 4</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>Art. 4</gldsym>
+          </absatz>
+          <absatz typ="abs" halign="j">Angestellte können geltend machen:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>das Recht nach <rvolink ursprung="u" abkrvo="AbkSozSi UNO" verwart="d" gldart="ART" gldsort="80" gldnr="2" abs="1" typ="e">Artikel 2 Absatz 1</rvolink> binnen drei Monaten nach dem Beginn der Beschäftigung bei den Vereinten Nationen oder binnen drei Monaten nach einer durchgehenden dreijährigen Beschäftigung bei den Vereinten Nationen,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>das Recht nach <rvolink ursprung="u" abkrvo="AbkSozSi UNO" verwart="d" gldart="ART" gldsort="80" gldnr="3" abs="3" typ="e">Artikel 3 Absatz 3</rvolink> vor ihrer Entsendung,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>das Recht nach <rvolink ursprung="u" abkrvo="AbkSozSi UNO" verwart="d" gldart="ART" gldsort="80" gldnr="3" abs="4" typ="e">Artikel 3 Absatz 4</rvolink>binnen einem Monat nach dem Ende ihrer Entsendung,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>das Recht nach <rvolink ursprung="u" abkrvo="AbkSozSi UNO" verwart="d" gldart="ART" gldsort="80" gldnr="3" abs="5" typ="e">Artikel 3 Absatz 5</rvolink> binnen drei Monaten nach der Aufnahme in den Pensionsfonds oder binnen drei Monaten nach einer durchgehenden dreijährigen Beschäftigung bei den Vereinten Nationen.</listelem>
+            </ziffernliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.95" paperw="595.35" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

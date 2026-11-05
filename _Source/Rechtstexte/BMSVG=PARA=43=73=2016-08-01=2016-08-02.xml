@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="BMSVG=PARA=43=73=2016-08-01=2016-08-02"><rvo dokidCms="BMSVG=PARA=43=92=2010-11-17=2008-01-01" dokidSource="BMSVG=PARA=43=92=2010-11-17=2008-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Betriebliches Mitarbeiter- und SelbstständigenvorsorgeG" abkrvo="BMSVG" dokart="BG" titaen="SFT-VollzugsG" abkaen="SFT-VG" urheber="Bund" pubdat="2016-08-01" ikra="2016-08-02" sichtbarkeit="p" gldart="PARA" gldnr="43" gldsort="70" beschdat="2016-07-06">
+        
+      <puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="73" begseite="7" jahrgang="2016"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3"> </ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 43.</gldsym> (1) Die FMA hat den BV-Kassen, ausgenommen bei Aufsichtsmaßnahmen nach <nolink>§ 70 Abs. 2</nolink> BWG oder bei Überschuldung der BV-Kasse, für folgende Beträge Zinsen vorzuschreiben:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>2 vH der Unterschreitung der erforderlichen Eigenmittel gemäß <rvolink abkrvo="BMSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="20" ursprung="u">§ 20</rvolink>, gerechnet pro Jahr, für 30 Tage;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>5 vH der Überschreitung einer Veranlagungsgrenze gemäß <rvolink abkrvo="BMSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="30" ursprung="u">§ 30</rvolink>, gerechnet pro Jahr, für 30 Tage.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Die nach Abs. 1 zu zahlenden Zinsen sind an den Bund abzuführen und dürfen nicht dem der Veranlagungsgemeinschaft zugeordneten Vermögen angelastet werden.</absatz>
+          <absatz typ="abs" halign="j">(3) Die BV-Kassen haben der FMA</absatz>
+          <liste>
+            <betragliste typ="ziffer">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Unterschreitungen der erforderlichen Eigenmittel gemäß <rvolink abkrvo="BMSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="20" ursprung="u">§ 20</rvolink> sowie</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Überschreitungen einer Veranlagungsgrenze gemäß <rvolink abkrvo="BMSVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="30" ursprung="u">§ 30</rvolink></listelem>
+            </betragliste>
+            <schluss typ="Abs">unverzüglich bekannt zu geben.</schluss>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.95" paperw="595.35" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

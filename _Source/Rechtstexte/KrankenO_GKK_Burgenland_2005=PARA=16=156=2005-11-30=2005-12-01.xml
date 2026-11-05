@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=16=156=2005-11-30=2005-12-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-12-01" sichtbarkeit="p" gldnr="16" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Ergotherapie</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 16. </gldsym>(1) Ergotherapeutische Behandlungen können bei den Vertragspartnern (eigenen Einrichtungen) der Kasse, die zur Durchführung dieser Behandlungen berechtigt sind, über Verordnung (Zuweisung) durch
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>einen Vertragsarzt, eine Vertrags-Gruppenpraxis oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>eine eigene Einrichtung (Vertragseinrichtung)</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">auf Rechnung der Kasse in Anspruch genommen werden.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Wird die Behandlung von jemandem durchgeführt, der zwar zur Behandlung berechtigt ist, aber keinen Vertrag mit der Kasse hat, erstattet die Kasse dem Anspruchsberechtigten Kosten nach den <rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="28" bereich="F" ursprung="u">§§ 28 ff.</rvolink>, sofern eine ärztliche Verordnung nach Abs. 1 vorliegt.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

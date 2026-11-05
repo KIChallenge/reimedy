@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.C_2005=PARA=81=178=2005-12-16=2005-12-22" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.C_2005=PARA=81=178=2005-12-16=2005-12-22">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.C 2005" dokart="DO" titaen="Wiederverlautbarung der Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs" abkaen="DO.C WV" urheber="Hauptverband" beschdat="2005-11-16" pubdat="2005-12-16" ikra="2005-12-22" sichtbarkeit="p" gldnr="81">
+<uebrecht>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="110" typ="e">§ 110 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="115" typ="e">§ 115 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="146" typ="e">§ 146 DO.C 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-29"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="178" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Anfall der Leistungen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 81. </gldsym>(1) Die Pension (
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="68" ursprung="p">§ 68</rvolink>) fällt mit dem Beginn des Ruhestandes an, wenn es sich dabei um einen Monatsersten handelt, sonst mit dem auf die Versetzung in den Ruhestand folgenden Monatsersten.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die Hinterbliebenenpensionen (<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="69" ursprung="p">§§ 69</rvolink> und 
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="70" ursprung="u">70</rvolink>) fallen an,
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>wenn der Antrag binnen sechs Monaten nach dem Tod gestellt wird,</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>mit dem dem Tod des Arbeiters folgenden Monatsersten bzw.</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>mit dem dem Tod des Pensionisten folgenden Tag;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>sonst mit dem Tag der Antragstellung;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>im Falle der Abgängigkeit</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>mit dem der Einstellung der Dienstbezüge des Arbeiters folgenden Monatsersten bzw.</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>mit dem dem Wegfall der Pension folgenden Tag.</listelem>
+</literaliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2a) Wird ein Antrag auf Waisenpension nicht fristgerecht gestellt, so fällt die Waisenpension an,
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>sofern der Antrag längstens bis zum Ablauf von sechs Monaten nach dem Eintritt der Volljährigkeit der Waise gestellt wird,</listelem>
+</ziffernliste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>mit dem dem Tod des Arbeiters folgenden Monatsersten bzw.</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>mit dem dem Tod des Pensionisten folgenden Tag;</listelem>
+</literaliste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>sonst mit dem Tag der Antragstellung.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Die Waisenpension (<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="70" ursprung="p">§ 70</rvolink>) eines nachgeborenen Kindes fällt an,
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>wenn der Antrag binnen zwei Jahren nach der Geburt des Kindes gestellt wird, mit dem Tag der Geburt des Kindes, frühestens jedoch mit dem der Einstellung der Dienstbezüge des Arbeiters folgenden Monatsersten;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>sonst mit dem Tag der Antragstellung.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3a) Die Antragsfrist verlängert sich bei Waisenpensionsberechtigten um die Dauer eines Verfahrens zur Feststellung der Vaterschaft bzw. zur Bestellung des Vormundes. Bei nachträglicher amtlicher Feststellung des Todestages beginnt die Antragsfrist erst mit dem Zeitpunkt dieser Feststellung.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Abfindung (<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="71" ursprung="p">§ 71</rvolink>) fällt mit dem der Wiederverehelichung der/des Witwe(rs) folgenden Monatsersten an.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

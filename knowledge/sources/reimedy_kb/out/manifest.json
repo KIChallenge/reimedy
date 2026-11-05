@@ -1,0 +1,46 @@
+{
+  "source_id": "reimedy_kb",
+  "fetched_at": "2026-11-05T18:59:33Z",
+  "n_docs": 0,
+  "n_codes": 14954,
+  "n_stellen": 4,
+  "stats": {
+    "ICD-10-AT": {
+      "version": "1.1.0+20260603",
+      "n": 14875,
+      "skipped_non_icd": 133,
+      "status": "Active as of 2026-07-15 12:32:30+0000"
+    },
+    "SNOMED-Fachrichtung": {
+      "n": 79
+    },
+    "BASG": {
+      "n": 0,
+      "note": "kein --basg-file; Live-Abruf bewusst nicht implementiert (siehe SOURCE.md)"
+    }
+  },
+  "urls": [
+    {
+      "url": "https://termgit.elga.gv.at/CodeSystem-icd-10-bmasgpk-2026.html",
+      "sha256": "34af3446bce3c2d452d20d0a51a90ec21cb6cf08e1be28f08fa5a9188f312eab",
+      "etag": "\"a543c449e0bbbe70a1058c6782ce07662795bcad\"",
+      "last_modified": "Wed, 15 Jul 2026 13:25:49 GMT",
+      "status": "ok",
+      "version": "1.1.0+20260603"
+    },
+    {
+      "url": "https://github.com/ArneNostitz/Reimedy_OnlineKnowledgeDB/blob/main/scripts/seed-provider-data.ts",
+      "sha256": "b22fd68520f4716b76533b02970affee03b68e24b9d3aa7b4806080bbca63922",
+      "etag": null,
+      "last_modified": null,
+      "status": "local-clone"
+    },
+    {
+      "url": "https://github.com/ArneNostitz/Reimedy_OnlineKnowledgeDB/blob/main/scripts/seed-standard-info.ts",
+      "sha256": "d4f29a8f3e70ad7c55ef16824d6a8d8f3e39dc1b21ecee2af71f1fce7dfbba2d",
+      "etag": null,
+      "last_modified": null,
+      "status": "local-clone"
+    }
+  ]
+}

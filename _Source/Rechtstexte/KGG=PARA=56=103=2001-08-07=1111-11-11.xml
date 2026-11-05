@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=56=103=2001-08-07=1111-11-11"><rvo>
+<metadaten gldnr="56" ikra="1111-11-11" pubdat="2001-08-07" beschdat="2001-07-04" abkaen="Gesamtstand KGG idF 103/2001" titaen="Gesamtstand KGG idF 103/2001" sichtbarkeit="p" urheber="Bund" dokart="BG" abkrvo="KGG" titrvo="Karenzgeldgesetz" gldsort="70" gldart="PARA">
+<aendprot>
+<dfeintrag zeitpunkt="2001-09-05" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-08"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-12" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-13" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="103" begseite="1593" jahrgang="2001"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">                           Vollziehung
+</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 56.</gldsym> Mit der Vollziehung dieses Bundesgesetzes ist betraut</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>hinsichtlich des
+<rvolink ursprung="u" abkrvo="KGG" verwart="d" gldart="PARA" gldsort="70" typ="e"> Abschnittes 5 </rvolink>der Bundesminister für Finanzen,</listelem>
+<listelem>
+<symbol>2.</symbol>hinsichtlich der übrigen Bestimmungen der Bundesminister für
+     Arbeit, Gesundheit und Soziales.
+</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

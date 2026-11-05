@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="E-MVB=ZIFF=044-01-00-006==2024-09-01=2024-09-01"><rvo dokidCms="E-MVB=ZIFF=044-01-00-006==2024-09-01=2024-09-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens Neufassung 2024" abkaen="E-MVB NeuF 2024" urheber="DVSV" pubdat="2024-09-01" ikra="2024-09-01" berkz="KVL; " sichtbarkeit="p" gldnr="044-01-00-006" nichtanzeigen="n">
+<schlagw>
+<textelem>Zahlungen nach dem arbeits- und sozialversicherungsrechtlichen Ende eines Beschäftigungsverhältnisses</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2003-09-29"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-02-22"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>044-01-00-006</gldsym>
+</absatz>
+<absatz typ="satz" halign="j">Allgemeine Beitragsgrundlage - Entgelt - Provisionen</absatz>
+<ueberschrift level="3" halign="c" typ="para">Zahlungen nach dem arbeits- und sozialversicherungsrechtlichen Ende eines Beschäftigungsverhältnisses</ueberschrift>
+<liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Abschlussprovisionen:</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="satz" halign="j">Abschlussprovisionen sind dem Beitragszeitraum beitragspflichtig zuzurechnen, in dem der Vertragsabschluss getätigt worden ist und somit der Anspruch auf diese Provision erworben wurde.</absatz>
+          <absatz typ="satz" halign="j">Abschlussprovisionen für nach dem Ende des Beschäftigungsverhältnisses getätigte Vertragsabschlüsse können gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" abs="4" ursprung="u">§ 4 Abs. 4</rvolink> ASVG der Versicherungspflicht unterliegen.</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">2.</symbol>Folgeprovisionen:</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="satz" halign="j">Ist das Beschäftigungsverhältnis sowohl arbeits- als auch sozialversicherungsrechtlich beendet, können Abschlussprovisionen für nach dem Ende des Dienstverhältnisses getätigte Vertragsabschlüsse der Versicherungspflicht gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" abs="4" ursprung="u">§ 4 Abs. 4</rvolink> des Allgemeinen Sozialversicherungsgesetzes ("freies Dienstverhältnis") unterliegen. </absatz>
+          <absatz typ="satz" halign="j">Folgeprovisionen ohne Betreuungspflicht sind nach dem Ende des Dienstverhältnisses beitragsfrei, während Folgeprovisionen mit Betreuungspflicht ebenfalls zu einem freien Dienstverhältnis führen können. Werden Folgeprovisionen im Verlängerungszeitraum einer Pflichtversicherung (Urlaubsersatzleistung, Kündigungsentschädigung) ausbezahlt, erhöhen diese die Beitragsgrundlage. (Hauptverband, 2. Juni 2015, Zl. 51/1 Jv/Dm).</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">3.</symbol>Sonderzahlungen:</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="satz" halign="j">Bei einer Gewährung von Sonderzahlungen nach Ende des Beschäftigungsverhältnisses kann es sich nur um leistungsbezogene Sonderzahlungen handeln, die jenem Zeitraum beitragspflichtig zuzuordnen sind, in dem die Leistungen erbracht worden sind.</absatz>
+          
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=52=156=2005-11-30=2005-12-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005 StF" abkaen="KrankenO GKK Burgenland 2005 StF" urheber="GKK Bgl" beschdat="2005-11-10" pubdat="2005-11-30" ikra="2005-12-01" sichtbarkeit="p" gldnr="52" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="156" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">11. Abschnitt</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Meldepflicht 
+<br/>(
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="40" ursprung="p">§ 40</rvolink> ASVG)</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 52. </gldsym>(1) Wer Leistungen der Kasse erhält, muss jede Änderung
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>des Wohnsitzes,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>des Familienstandes,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>der Anspruchsberechtigung für Angehörige</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">längstens binnen zwei Wochen der Kasse melden.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Diese Meldepflicht ist
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>vom Versicherten oder</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>vom Leistungsbezieher</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">zu erfüllen.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Das Ende einer Arbeitsunfähigkeit ist der Kasse sofort zu melden. Diese Verpflichtung entfällt, wenn das Ende der Arbeitsunfähigkeit der Kasse direkt vom behandelnden Arzt mitgeteilt wird.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Wer während einer Arbeitsunfähigkeit seinen Aufenthalt innerhalb des Kassenbereiches ändern will, hat dies vorher der Kasse zu melden.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Wer während einer Arbeitsunfähigkeit den Kassenbereich verlassen will, hat vorher die Zustimmung der Kasse einzuholen. Diese ist - höchstens für die voraussichtliche Dauer der Arbeitsunfähigkeit - zu erteilen, wenn
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>es von der behandelnden Stelle befürwortet wird,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>es sich nicht negativ auf den Heilungsverlauf auswirken kann und</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>am neuen Aufenthaltsort die notwendige medizinische Betreuung für die Fortführung der laufenden Behandlung gewährleistet ist.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

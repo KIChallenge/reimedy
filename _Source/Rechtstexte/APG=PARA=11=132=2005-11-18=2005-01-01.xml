@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="APG=PARA=11=132=2005-11-18=2005-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="APG=PARA=11=132=2005-11-18=2005-01-01">
+<metadaten berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; RSP; AN; AG; SELB; " gldart="PARA" gldsort="70" titrvo="Allgemeines Pensionsgesetz" abkrvo="APG" dokart="BG" titaen="Sozialversicherungs-ÄnderungsG 2005 - 1. Novelle" abkaen="SVÄG 2005" urheber="Bund" sichtbarkeit="p" beschdat="2005-10-19" pubdat="2005-11-18" ikra="2005-01-01" gldnr="11" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2004-12-29"/>
+<dfeintrag zeitpunkt="2004-12-29" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-01-03"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-11-25"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="132" begseite="14" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="c" typ="para">Inhalt des Kontos</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 11. </gldsym>Für jedes Kalenderjahr der Kontoführung sind folgende Daten kontenmäßig zu erfassen:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die jeweilige Beitragsgrundlagensumme für Beitragszeiten einer Pflichtversicherung auf Grund einer Erwerbstätigkeit, getrennt nach 
+<nolink>ASVG</nolink>, 
+<nolink>GSVG</nolink>, 
+<nolink>FSVG</nolink> und 
+<nolink>BSVG</nolink>;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die jeweilige Beitragsgrundlagensumme für Zeiten einer Pflichtversicherung nach 
+<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="3" ziff="2" ursprung="u" abs="1">§ 3 Abs. 1 Z 2</rvolink>;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Beitragsgrundlagensumme für Beitragszeiten einer freiwilligen Versicherung;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>die von der versicherten Person im betreffenden Kalenderjahr erworbene Gutschrift (Teilgutschrift nach 
+<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="12" abs="1" ursprung="u">§ 12 Abs. 1</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>die von der versicherten Person vom erstmaligen Eintritt in die Versicherung bis zum Ende des betreffenden Kalenderjahres erworbene Gutschrift (Gesamtgutschrift nach 
+<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="12" abs="3" ursprung="u">§ 12 Abs. 3</rvolink>);</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>die für die versicherte Person für das betreffende Kalenderjahr zu berücksichtigenden Beiträge auf Grund der in den Z 1 bis 3 genannten Versicherungen (Teilbeiträge);</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>die ab 1. Jänner 2005 bis zum Ende des betreffenden Kalenderjahres für die versicherte Person zu berücksichtigenden Beiträge auf Grund der in den Z 1 bis 3 genannten Versicherungen (Gesamtbeiträge), für deren Ermittlung 
+<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="12" abs="3" ursprung="u">§ 12 Abs. 3</rvolink> sinngemäß gilt.</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

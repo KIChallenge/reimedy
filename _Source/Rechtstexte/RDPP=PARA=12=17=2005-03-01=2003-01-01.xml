@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RDPP=PARA=12=17=2005-03-01=2003-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RDPP=PARA=12=17=2005-03-01=2003-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien zur Erstellung von Dienstpostenplänen für die Sozialversicherungsträger" abkrvo="RDPP" dokart="RL DVSV" titaen="Kunsttext 17/2005 RDPP" abkaen="Kunsttext 17/2005 RDPP" urheber="Hauptverband" beschdat="2004-12-06" pubdat="2005-03-01" ikra="2003-01-01" sichtbarkeit="p" gldnr="12" nichtanzeigen="n">
+<anm>Wiederverlautbarung: avsv Nr.: 17/2005 am 1. März 2005</anm>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2002-04-24"/>
+<dfeintrag zeitpunkt="2003-07-08" perskz="polzer"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-08-05"/>
+<dfeintrag zeitpunkt="2003-08-05" perskz="glueck"/>
+<dfeintrag perskz="polzer" zeitpunkt="2005-03-21"/>
+</aendprot>
+<puborgane><puborgan puborg="avsv" nrpuborg="17" jahrgang="2005"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="1" halign="c" typ="para">Inkrafttreten der 2. Änderung</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 12.</gldsym> Mit 1. Jänner 2003 treten in Kraft: 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" abs="2" gldnr="3" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">§ 3 Abs. 2</rvolink>, 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" abs="4" gldnr="3" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">4</rvolink> und 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" abs="7" gldnr="3" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">7</rvolink>, 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" abs="1" gldnr="4" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">§ 4 Abs. 1</rvolink>, 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" gldnr="5" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">§ 5</rvolink>, 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" abs="1" gldnr="6" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">§ 6 Abs. 1</rvolink> bis 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" abs="3" gldnr="6" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">3</rvolink>, 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" ursprung="u" abs="4" gldnr="8" gldsort="70" gldart="PARA" typ="e" verwart="s" abkrvo="RDPP">§ 8 Abs. 4</rvolink> sowie 
+<rvolink jahrgang="2003" nrpuborg="54" puborg="avsv" pubdat="2003-07-01" typ="e" gldnr="4" gldsort="150" gldart="ANL" verwart="s" abkrvo="RDPP" ursprung="u">Anlage 4</rvolink>.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,36 @@
+{
+  "_hinweis": "Recherchierte Live-Kandidaten fuer die 7 Demo-Seed-Formulare. linkcheck.py prueft sie mit (kind formular_pdf); formulare_live.py entscheidet per sha256 / Feldvergleich, ob sie passen.",
+  "pva_pal080": [
+    "https://www.pv.at/cdscontent/load?contentid=10008.781956&version=1783516198",
+    "https://www.pv.at/cdscontent/load?contentid=10008.781969&version=1775047170",
+    "https://www.pv.at/cdscontent/load?contentid=10008.781969&version=175688243"
+  ],
+  "oegk_fahrtkosten_wien": [
+    "https://www.oegk.at/cdscontent/load?contentid=10008.777900&version=1785415038"
+  ],
+  "antrag_reha_kur": [
+    "https://www.pv.at/cdscontent/load?contentid=10008.781981&version=1779281653",
+    "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.555945&version=1767088043",
+    "https://www.svs.at/cdscontent/load?contentid=10008.728409&version=1666162263"
+  ],
+  "antrag_ahv_reha_unfall": [
+    "https://www.pv.at/cdscontent/load?contentid=10008.781971&version=1779281671",
+    "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.555952&version=1577720109"
+  ],
+  "fsw_antrag_foerderung": [
+    "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-auf-Foerderung-von-Leistungen.pdf"
+  ],
+  "fsw_einrichtungswunsch": [
+    "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Einrichtungswunsch.pdf"
+  ],
+  "fsw_bedarfsmeldung_wg": [],
+  "_elternseiten": {
+    "fsw_bedarfsmeldung_wg": "https://www.fsw.at/p/seniorinnen-wohngemeinschaften-basispaket",
+    "pva_pal080": "https://www.pv.at/web/service-und-kontakt/online-formulare",
+    "antrag_reha_kur": "https://www.pv.at/web/service-und-kontakt/online-formulare",
+    "antrag_ahv_reha_unfall": "https://www.pv.at/web/service-und-kontakt/online-formulare"
+  },
+  "_online_antrag": {
+    "pva_pal080": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.892452&portal=pvportal&LO=1&layout=withNav&svtcode=02"
+  }
+}

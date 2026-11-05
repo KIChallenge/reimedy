@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="SV-DSV_2025=PARA=15=54=2025-09-25=2025-09-26"><rvo dokidCms="SV-DSV_2025=PARA=15=54=2025-09-25=2025-09-26">
+      <metadaten titrvo="Titel der Rechtsvorschrift: Datenschutzverordnung für die gesetzliche Sozialversicherung 2025" abkrvo="SV-DSV 2025" dokart="DSV" urheber="DVSV" beschdat="2025-09-24" pubdat="2025-09-25" ikra="2025-09-26" sichtbarkeit="p" nichtanzeigen="n" titaen=" Datenschutzverordnung für die gesetzliche Sozialversicherung 2025 StF" abkaen="SV-DSV 2025 StF" gldart="PARA" gldnr="15" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="54" jahrgang="2025">avsv   Nr. 54/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Protokollierung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 15.</gldsym> (1) Protokollierungen sind in leicht zugänglicher und einfach lesbarer bzw. weiter verarbeitbarer Weise vorzunehmen. Die Führung eines Verzeichnisses von Verarbeitungstätigkeiten einer einzelfallbezogenen Datenübermittlung an Stellen außerhalb des Aufsichtsbereiches der Aufsichtsbehörde der Sozialversicherung (z. B. im Rahmen von Amtshilfe) befreit nicht von der Verpflichtung, diese Übermittlungen zu protokollieren (es reicht hiezu allerdings eine Dokumentation im Akt). Alle Zugriffe auf personenbezogene Daten im Rahmen von Standardprodukten sind nach einheitlichen Regeln zu protokollieren.</absatz>
+          <absatz typ="abs" halign="j">(2) Als Angabe über den Grund für eine Abfrage reicht es zur Dokumentation aus, wenn der Arbeitsbereich der jeweils protokollierten zugreifenden MitarbeiterInnen auch rückwirkend eindeutig ermittelt werden kann. Dies kann durch Aufzeichnungen erfolgen, die automatisch im Zuge der Abfrage entstehen oder durch zusätzliche Unterlagen (z. B. laufend nummerierte Formulare mit weiteren Angaben, die durch Angaben im Protokolldatensatz auffindbar bleiben).</absatz>
+          <absatz typ="abs" halign="j">(3) Ob eine Protokollierung tatsächlich entfallen darf, ist für jede Datenverarbeitung im Einzelfall nach Maßgabe des <nolink>Art. 24 </nolink><wwwlink ursprung="u" url="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ:L:2016:119:FULL&amp; from=DE" gldart="KEIN" typ="e">DSGVO</wwwlink> abzuwägen. Datenübermittlungen an Stellen außerhalb eines Sozialversicherungsträgers bzw. außerhalb des Anwendungsbereiches des <rvolink abkrvo="SV-DSV 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" abs="2" ursprung="u">§ 4 Abs. 2</rvolink> (z. B. im Rahmen von Amtshilfe nach Art. 22 <nolink>B-VG</nolink> und darauf beruhenden einfachgesetzlichen Bestimmungen) sind jedenfalls zu protokollieren. Datenverarbeitungen durch automatisiert ohne zusätzliche Eingriffe ablaufende Programm-zu-Programm-Verbindungen, die der Aktualisierung der jeweiligen Datenverarbeitungen dienen, müssen nicht protokolliert werden, wenn nicht aus Gründen der Fehlereingrenzung bzw. Fehlerverfolgung dennoch eine Protokollierung notwendig ist, um feststellen zu können, ob eine Übermittlung korrekt stattgefunden hat oder nicht. Die Protokollierung darf darüber hinaus nur entfallen, wenn</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>personenbezogene Daten nach <nolink>§ 7</nolink><nolink> DSG</nolink> für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder statistische Zwecke verarbeitet werden;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>personenbezogene Daten gesammelt als Grundlage gesetzlich vorgesehener konkreter weiterer Verwendungen (z. B. zur Vorbereitung von Wahlen nach <nolink>§ 45</nolink><nolink> AKG</nolink> 1992) übermittelt werden.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(4) Die Protokollierung ist so zu gestalten, dass zur Sicherung interner Prüfungen (Innenrevision) auch Zugriffe der eigenen MitarbeiterInnen samt Datum und Uhrzeit der Verarbeitung nachvollzogen werden können. Soweit dies aus technischen Gründen (alte Host-Lösungen) nicht möglich ist, sind die Gründe hiefür zu dokumentieren und zumindest ein Konzept über die Ablöse solcher Lösungen zu erstellen. Die Daten dieser MitarbeiterInnen sind jedoch nicht Gegenstand des Auskunftsrechts. Die MitarbeiterInnen sind nachweislich darüber zu informieren, dass sämtliche ihrer Zugriffe auf Datenverarbeitungen der Protokollierung unterliegen und dokumentiert werden.</absatz>
+          <absatz typ="abs" halign="j">(5) Protokolle müssen vor Manipulation und unbefugtem Zugriff geschützt sein. Protokolle sind regelmäßig zu prüfen und, soweit diese und andere Vorschriften keine anderen Aufbewahrungsfristen für Protokolle vorsehen, drei Jahre in automationsunterstützt lesbarer Form aufzubewahren. Danach sind die Protokolldaten zu löschen. Die Dreijahresfrist beginnt nach Ablauf jenes Kalenderjahres, in dem der protokollierte Zugriff stattgefunden hat.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

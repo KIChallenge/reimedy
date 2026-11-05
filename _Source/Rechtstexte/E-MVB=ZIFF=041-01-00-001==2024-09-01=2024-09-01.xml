@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="E-MVB=ZIFF=041-01-00-001==2024-09-01=2024-09-01"><rvo dokidCms="E-MVB=ZIFF=041-01-00-001==2024-09-01=2024-09-01">
+<metadaten gldart="ZIFF" gldsort="90" titrvo="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens" abkrvo="E-MVB" dokart="Empfehlung HV" titaen="Empfehlungen zur einheitlichen Vollzugspraxis der Versicherungsträger im Bereich des Melde-, Versicherungs- und Beitragswesens Neufassung 2024" abkaen="E-MVB NeuF 2024" urheber="DVSV" pubdat="2024-09-01" ikra="2024-09-01" berkz="KVL; " sichtbarkeit="p" gldnr="041-01-00-001" nichtanzeigen="n">
+<schlagw>
+<textelem>Datenfernübertragung</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2003-09-29"/>
+<dfeintrag zeitpunkt="2003-10-02" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2003-10-02"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-23"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>041-01-00-001</gldsym>
+</absatz>
+<absatz typ="satz" halign="j">Form der Meldungen</absatz>
+<ueberschrift level="3" halign="c" typ="para">Datenfernübertragung (DFÜ)</ueberschrift>
+<absatz typ="satz" halign="j">Die Meldungen zur Sozialversicherung - insbesondere die An- und Abmeldungen, die Änderungsmeldungen sowie die Meldungen der monatlichen Beitragsgrundlagen - sind nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="41" abs="1" ursprung="u">§ 41 Abs. 1</rvolink><nolink> ASVG</nolink> grundsätzlich mittels elektronischer Datenfernübertragung (DFÜ) in den vom Dachverband festgelegten einheitlichen Datensätzen unverzüglich an den Krankenversicherungsträger zu erstatten.</absatz>
+<absatz typ="satz" halign="j">Alle elektronischen Meldungen sind an das für den elektronischen Datenaustausch eingerichtete Datenaustauschsystem (<wwwlink typ="e" url="http://www.elda.at" ursprung="u">ELDA</wwwlink>) zu übermitteln.</absatz>
+<absatz typ="satz" halign="j">Die Ausnahmen von der Meldungserstattung mittels Datenfernübertragung sind in den „<rvolink abkrvo="RMDFÜ 2005" verwart="d" typ="e" gldsort="0" ursprung="u">Richtlinien des Dachverbandes über Ausnahmen von der Meldungserstattung mittels Datenfernübertragung</rvolink>“ enthalten.</absatz>
+<absatz typ="satz" halign="j">Von den vorhin erwähnten Ausnahmebestimmungen betroffene Dienstgeber können einheitliche Meldeformulare beim zuständigen Krankenversicherungsträger anfordern.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

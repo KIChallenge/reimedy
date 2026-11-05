@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="VO-EKO=PARA=22=40=2020-03-23=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="VO-EKO=PARA=22=159=2013-12-20=2014-01-01" dokidSource="VO-EKO=PARA=22=159=2013-12-20=2014-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkrvo="VO-EKO" dokart="VO" titaen="6. Änderung der Verfahrensordnung zur Herausgabe des Erstattungskodex nach § 351g ASVG" abkaen="6. Änd VO-EKO" urheber="DVSV" beschdat="2020-01-22" pubdat="2020-03-23" ikra="2020-01-01" sichtbarkeit="p" gldnr="22">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2005-10-04"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2007-03-08"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="40" begseite="1" jahrgang="2020"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="0" level="3" halign="c" typ="para">Grundsätzliche Vorgangsweisen und Ziele der pharmakologischen, medizinisch-therapeutischen und gesundheitsökonomischen Evaluation</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 22.</gldsym> (1) Ziel der Evaluation ist die Beurteilung des Antrages aus pharmakologischer, medizinisch-therapeutischer und gesundheitsökonomischer Sicht. Dazu sind vom antragstellenden Unternehmen diesbezügliche Unterlagen im Antrag gemäß der 
+<rvolink ursprung="u" abkrvo="VO-EKO" verwart="d" gldart="ANL" gldsort="150" gldnr="1" typ="e">Anlage</rvolink> vorzulegen, dabei hat das antragstellende Unternehmen insbesondere einen pharmakologisch, medizinisch-therapeutisch und gesundheitsökonomisch untermauerten Vergleich der beantragten Arzneispezialität mit den verfügbaren therapeutischen Alternativen vorzulegen. Bei diesem Vergleich ist von der häufigsten Indikation, der medizinisch zweckmäßigsten Dosierung und der hauptsächlich betroffenen Gruppen von Patienten / Patientinnen auszugehen.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Die Unterlagen gemäß Abs. 1 haben alle für die Entscheidung über die Aufnahme bedeutsamen Informationen aus pharmakologischer, medizinisch-therapeutischer und gesundheitsökonomischer Sicht, die dem aktuellen Stand der Wissenschaft entsprechen, zu enthalten. Unterlagen, welche nicht dem aktuellen Stand der Wissenschaft entsprechen, werden für das laufende Verfahren und für die Entscheidung nicht herangezogen.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(3) Für das laufende Verfahren und für die Entscheidung werden nur folgende publizierte Daten herangezogen, soweit nachfolgend nichts anderes bestimmt ist:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Artikel aus Peer-Reviewed-Journals,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Bewertungen unabhängiger Institutionen und Behörden.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(4) Gutachten nach <rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="26" abs="1" ursprung="p">§ 26 Abs. 1</rvolink> und 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="26" abs="2" ursprung="u">2</rvolink> sowie nicht publizierte Studien (z. B. Zulassungsstudien), Gutachten, gutachterliche Stellungnahmen und Statements von Expertinnen / Experten werden nur dann berücksichtigt, wenn seitens des antragstellenden Unternehmens dem Dachverband das Recht eingeräumt wird, diese Unterlagen gegenüber Dritten zu verwenden. Punkte, die vom antragstellenden Unternehmen ausdrücklich als Betriebs- und Geschäftsgeheimnisse bezeichnet werden, sind von der Verwendung gegenüber Dritten ausgenommen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Gutachten nach <rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="26" abs="1" ursprung="p">§ 26 Abs. 1</rvolink> und 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="26" abs="2" ursprung="u">2</rvolink>, Stellungnahmen nach 
+<rvolink abkrvo="VO-EKO" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="24" abs="3" ziff="6" ursprung="u">§ 24 Abs. 3 Z 6</rvolink> sowie im unmittelbaren Zusammenhang mit dem gegenständlichen Antrag erstellte nicht publizierte Studien (z. B. pharmakoökonomische Studien) werden nur berücksichtigt, wenn der Urheber / die Urheberin eine Erklärung zu allfälligen Interessenskonflikten mit dem von der European Medicines Agency (EMA) veröffentlichten Formular für Expertinnen / Experten abgibt.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

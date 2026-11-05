@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.B_2005=PARA=43=87=2024-12-18=2025-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.B_2005=PARA=43=87=2024-12-18=2025-01-01" dokidSource="DO.B_2005=PARA=43=253=2018-12-20=2019-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung B für die Ärzte und Dentisten bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.B 2005" dokart="DO" titaen="107. Änderung der Dienstordnung B für die Angestellten bei den Sozialversicherungsträgern Österreichs 2005" abkaen="107. Änd DO.B 2005" urheber="Hauptverband" beschdat="2024-12-17" pubdat="2024-12-18" ikra="2025-01-01" sichtbarkeit="p" gldnr="43">
+<uebrecht>
+<rvolink abkrvo="DO.B 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="116" typ="e">§ 116 DO.B 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-28"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="87" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Leitungszulage</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 43. </gldsym>(1) Eine Leitungszulage gebührt </absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>den leitenden Ärzten (<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="37" ursprung="p">§ 37</rvolink>) und ihren bestellten ständigen Stellvertretern,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>den bestellten ärztlichen Leitern (<rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="38" ursprung="p">§ 38</rvolink>) von allgemeinen Krankenanstalten und Sonderkrankenanstalten gemäß <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="6" ziff="1" lit="a" ursprung="u">§ 1 Abs. 6 Z 1 lit. a</rvolink> und <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="6" ziff="1" lit="b" ursprung="u">b</rvolink> sowie <nolink>i</nolink>hren bestellten ständigen Stellvertretern.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Neben einer Leitungszulage gebührt keine Funktionszulage, keine Erschwerniszulage, keine Außendienstzulage, keine Zulage nach <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="44a" ursprung="u">§ 44a</rvolink> und keine Fachzulage nach <rvolink abkrvo="DO.B 2005" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="47b" abs="2" ursprung="u">§ 47b Abs. 2</rvolink>.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KGG=PARA=9=103=2001-08-07=2002-01-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Karenzgeldgesetz" abkrvo="KGG" dokart="BG" urheber="Bund" sichtbarkeit="p" titaen="Gesamtstand KGG idF 103/2001" abkaen="Gesamtstand KGG idF 103/2001" beschdat="2001-07-04" pubdat="2001-08-07" ikra="2002-01-01" gldnr="9">
+<aendprot>
+<dfeintrag perskz="glueck" zeitpunkt="2001-09-05"/>
+<dfeintrag zeitpunkt="2003-05-08" perskz="glueck"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-12"/>
+<dfeintrag zeitpunkt="2003-05-13" perskz="glueck"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2004-06-21"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="I" nrpuborg="103" begseite="1593" jahrgang="2001"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">Ruhen des Karenzgeldes
+</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 9.</gldsym> (1) Der Anspruch auf Karenzgeld ruht während</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>des Bezuges von Kranken- oder Wochengeld sowie während der
+     Dauer der Versagung des Krankengeldes gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="142" abs="1" ursprung="u">§ 142 Abs. 1 </rvolink>ASVG
+     und des Ruhens des Krankengeldanspruches gemäß 
+<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="143" abs="6" ursprung="u">§ 143 Abs. 6</rvolink>
+     ASVG;
+  </listelem>
+<listelem>
+<symbol>2.</symbol>der Unterbringung des Leistungsbeziehers in Anstaltspflege;</listelem>
+<listelem>
+<symbol>3.</symbol>der Verbüßung einer Freiheitsstrafe sowie während einer
+     anderweitigen auf behördlicher Anordnung beruhenden Anhaltung;
+  </listelem>
+<listelem>
+<symbol>4.</symbol>des Bezuges von Entgelt gemäß 
+<rvolink abkrvo="EFZG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" ursprung="u">§ 5</rvolink> des
+     Entgeltfortzahlungsgesetzes (EFZG), BGBl. Nr. 399/1974, 
+<rvolink abkrvo="AngG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" abs="1" ursprung="u">§ 9
+     Abs. 1</rvolink> des Angestelltengesetzes (AngG), BGBl. Nr. 292/1929, 
+<rvolink abkrvo="GutsangG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="9" abs="1" ursprung="u">§ 9
+     Abs. 1 </rvolink>des Gutsangestelltengesetzes (GAngG), BGBl. Nr.
+     538/1923, 
+<rvolink abkrvo="SchSpG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="12" abs="1" ursprung="u">§ 12 Abs. 1 </rvolink>dritter Satz des Schauspielergesetzes
+     (SchSpG), BGBl. Nr. 441/1922, 
+<rvolink abkrvo="HeimAG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="25" abs="13" ursprung="u">§ 25 Abs. 13 </rvolink>des
+     Heimarbeitsgesetzes 1960 (HeimArbG), BGBl. Nr. 105/1961, oder
+   
+<rvolink abkrvo="LandarbG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="24" ursprung="u">  § 24 </rvolink>des Landarbeitsgesetzes 1984 (LAG), BGBl. Nr. 287;
+  </listelem>
+<listelem>
+<symbol>5.</symbol>des Bezuges von Übergangsgeld aus der gesetzlichen Pensions-
+     oder Unfallversicherung;
+  </listelem>
+<listelem>
+<symbol>6.</symbol>eines Auslandsaufenthaltes, soweit er drei Monate übersteigt;</listelem>
+<listelem>
+<symbol>7.</symbol>des Bezuges von Kinderbetreuungsgeld.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j">(2) Abs. 1 Z 6 findet keine Anwendung</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol>1.</symbol>auf österreichische Staatsbürger(innen), die im Ausland
+     beschäftigt und nach dem AlVG arbeitslosenversichert waren,
+     sofern sie sich während des Karenzgeldbezuges im Ausland
+     aufhalten;
+  </listelem>
+<listelem>
+<symbol>2.</symbol>soweit die Gebietskrankenkasse auf Antrag des
+     Leistungsbeziehers das Ruhen aus berücksichtigungswürdigen
+     Gründen, wie insbesondere aus gesundheitlichen, familiären oder
+     partnerschaftlichen Gründen, nachsieht.
+</listelem>
+</ziffernliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

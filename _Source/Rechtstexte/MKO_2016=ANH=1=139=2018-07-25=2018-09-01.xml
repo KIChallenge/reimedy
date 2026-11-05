@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="MKO_2016=ANH=1=139=2018-07-25=2018-09-01"><rvo dokidCms="MKO_2016=ANH=1=139=2018-07-25=2018-09-01" dokidSource="MKO_2016=ANH=1=191=2016-12-23=2017-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Musterkrankenordnung 2016" abkrvo="MKO 2016" dokart="MusterR" titaen="4. Änderung der Musterkrankenordnung 2016" abkaen="4. Änd MKO 2016" urheber="Hauptverband" beschdat="2018-06-19" pubdat="2018-07-25" ikra="2018-09-01" sichtbarkeit="p" gldart="ANH" gldnr="1" gldsort="140">
+        
+      <puborgane><puborgan puborg="avsv" nrpuborg="139" jahrgang="2018"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift widowctrl="1" keepwithnext="1" halign="r" level="2" typ="anlage">Anhänge</ueberschrift>
+          <ueberschrift typ="para" halign="c" level="3">Leistungen, für die eine <br/>chef(kontroll)ärztliche Bewilligung erforderlich ist</ueberschrift>
+          <absatz typ="satz" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>Anhang 1</gldsym>
+</absatz>
+          <abstand halign="l"/>
+          <absatz typ="abs" halign="j">Folgende Leistungen bedürfen vor ihrer Anwendung einer chef(kontroll)ärztlichen Bewilligung:</absatz>
+          <liste>
+            
+            
+            <ziffernliste ebene="1">
+              
+              <listelem>
+                <symbol stellen="2">1.</symbol>Medizinische Hauskrankenpflege ab der 5. Woche,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Geplante Behandlungen und Untersuchungen, sofern es sich um</listelem>
+            </ziffernliste>
+            <literaliste ebene="2">
+              <listelem>
+                <symbol stellen="2">a)</symbol>eine geplante Behandlung und Untersuchung in einem EU-Staat, EWR-Staat oder der Schweiz nach den EU-Verordnungen zur Koordinierung der Systeme der sozialen Sicherheit oder</listelem>
+              <listelem>
+                <symbol stellen="2">b)</symbol>eine geplante Behandlung und Untersuchung in einem EU-Staat, EWR-Staat oder der Schweiz in den Fällen des <rvolink abkrvo="MKO 2016" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="67" abs="1" ursprung="u">§ 67 Abs. 1</rvolink> oder </listelem>
+              <listelem>
+                <symbol stellen="2">c)</symbol>eine geplante Behandlung und Untersuchung in Vertrags- bzw. Nichtvertrags-Staaten</listelem>
+            </literaliste>
+          </liste>
+          <liste><schluss typ="Ziff">handelt,</schluss></liste>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">3.</symbol>Computertomographie, Kernspintomographie, nuklearmedizinische Untersuchungen,</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>Kosmetische Behandlung,</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>Sterilisation, Schwangerschaftsunterbrechung, Geschlechtsumwandlung,</listelem>
+              <listelem>
+                <symbol stellen="3">6.</symbol>HELP-Therapie,</listelem>
+              <listelem>
+                <symbol stellen="3">7.</symbol>Operative Maßnahmen zur Gewichtsreduktion,</listelem>
+              <listelem>
+                <symbol stellen="3">8.</symbol>Flugtransporte,</listelem>
+              <listelem>
+                <symbol stellen="3">9.</symbol>Krankentransporte mit Ausnahme von Transporten in Fällen der Ersten Hilfe, zur Dialyse sowie zur Chemo- oder Strahlentherapie,</listelem>
+              <listelem>
+                <symbol stellen="3">10.</symbol>Heimdialyse,</listelem>
+            <listelem>
+                <symbol stellen="4">11.</symbol>Ambulante Tumorbehandlungen durch eine punktförmige Bestrahlung des Tumors mit Protonen oder mit Kohlenstoffionen nach der Empfehlung durch das für die Krankenanstalt zuständige multidisziplinäre Tumorboard.</listelem></ziffernliste>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

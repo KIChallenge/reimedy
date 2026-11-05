@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Satzung_OEGK_2025=PARA=19=68=2025-12-19=2025-12-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="Satzung_OEGK_2025=PARA=19=68=2025-12-19=2025-12-20">
+      <metadaten titrvo="Satzung der Österreichischen Gesundheitskasse 2025" abkrvo="Satzung OEGK 2025" dokart="Satzung" urheber="ÖGK" beschdat="2025-12-09" pubdat="2025-12-19" ikra="2025-12-20" sichtbarkeit="p" nichtanzeigen="n" titaen="Satzung der Österreichischen Gesundheitskasse 2025 StF" abkaen="Satzung ÖGK 2025 StF" gldart="PARA" gldnr="19" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="68" jahrgang="2025">avsv   Nr. 68/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="art" halign="c" level="1">3. Abschnitt – Leistungsrecht</ueberschrift>
+          <ueberschrift typ="para" halign="c" level="2">Wartezeit für Selbstversicherte <br/>(<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="124" abs="1" ursprung="u">§ 124 Abs. 1</rvolink><nolink> ASVG</nolink>)</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 19.</gldsym> Selbstversicherte nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="16" ursprung="u">§ 16</rvolink><nolink> ASVG</nolink> haben erst nach einer Wartezeit von sechs Monaten unmittelbar vor Eintritt des Versicherungsfalles Anspruch auf Kassenleistungen. Dies gilt nicht</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>für die Personen, die in <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="16" abs="2" ursprung="u">§ 16 Abs. 2</rvolink><nolink> ASVG</nolink> genannt sind, wenn ihre Beiträge von der Beitragsgrundlage nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="76" abs="1" ziff="2" ursprung="u">§ 76 Abs. 1 Z 2</rvolink> erster Halbsatz ASVG (begünstigte Beitragsgrundlage für Studenten/Studentinnen) berechnet werden,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>für die in <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="16" abs="2a" ursprung="u">§ 16 Abs. 2a</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="16" abs="2b" ursprung="u">2b</rvolink><nolink> ASVG</nolink> bezeichneten Personen sowie</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>für Personen, bei denen nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="124" abs="2" ursprung="u">§ 124 Abs. 2</rvolink><nolink> ASVG</nolink> das Erfordernis der Erfüllung der Wartezeit entfällt.</listelem>
+            </aufzaehlung>
+          </liste>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

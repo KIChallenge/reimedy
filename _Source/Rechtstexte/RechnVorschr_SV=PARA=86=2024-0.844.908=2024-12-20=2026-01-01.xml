@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RechnVorschr_SV=PARA=86=2024-0.844.908=2024-12-20=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RechnVorschr_SV=PARA=86=2023-0.819.589=2023-12-22=2024-01-01" dokidSource="RechnVorschr_SV=PARA=86=2023-0.819.589=2023-12-22=2024-01-01">
+<metadaten gldart="PARA" gldsort="70" sichtbarkeit="p" titrvo="Weisungen für die Rechnungslegung und Rechnungsführung bei den Sozialversicherungsträgern und dem Dachverband - Rechnungsvorschriften RV" abkrvo="RechnVorschr SV" dokart="Weisung" titaen="56. Änderung der Rechnungsvorschriften für die Sozialversicherungsträger und den Dachverband" urheber="BMSGPK" abkaen="56. Änd RechnVorschr SV" pubdat="2024-12-20" ikra="2026-01-01" gldnr="86" nichtanzeigen="n">
+
+
+<puborgane><puborgan puborg="Erlass" nrpuborg="2024-0.844.908" jahrgang="2024"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift level="2" halign="c" typ="para">ABGRENZUNG DER KOSTENARTEN DER VERSICHERUNGSTRÄGER, AUSGENOMMEN EIGENE EINRICHTUNGEN UND NEBENBETRIEBE</ueberschrift>
+<absatz typ="abs" halign="j">
+<gldsym>§ 86.</gldsym> Alle Kosten sind vor Umlegung auf die Kostenstellen in voller Höhe zu erfassen (z.B. Kosten des Unfallverhütungsdienstes, Ärzteverrechnung, Retaxierung usw.).</absatz>
+<absatz typ="abs" halign="j">(1) Personalkosten</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Verwaltungspersonal</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hier erfassten Kosten entsprechen den Bezügen nach der <nolink>DO.A</nolink> und der EDO.Ang. ohne ärztliches Hilfspersonal. Hierunter fallen auch die Bezüge des Arbeitsmediziners, soweit er der <nolink>DO.B</nolink> unterstellt ist, die Bezüge der Bediensteten des Unfallverhütungsdienstes (UVD) und der Schreibkräfte des chef- und kontrollärztlichen Dienstes.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Ärzte, Dentisten und Pharmazeuten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hier erfassten Kosten entsprechen den Bezügen nach der <nolink>DO.B</nolink> für Arzte und Dentisten bzw. nach der <nolink>DO.A</nolink> für Pharmazeuten</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Pflege- und ärztliches Hilfspersonal</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hier erfassten Kosten entsprechen den Bezügen nach der <nolink>DO.A</nolink> für das ärztliche Hilfspersonal und für das Pflegepersonal (med. techn. Assistenten, Schwestern, Zahntechniker usw.).</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>Haus- und sonstiges Personal</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Die hierunter aufgezählten Kosten entsprechen den Bezügen nach der <nolink>DO.C</nolink>.</schluss>
+</liste>
+<absatz typ="abs" halign="j">(2) Sachkosten</absatz>
+<absatz typ="satz" halign="j">Bei der Abgrenzung der Sachkosten sind folgende Bestimmungen zu beachten:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Miete und Hauskosten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die in <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="p">§ 22</rvolink> Kontengruppe 61-63 Abs. 7 genannten Aufwendungen.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Nachrichtenkosten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die in <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="p">§ 22</rvolink> Kontengruppe 61-63 Abs. 11 genannten Aufwendungen. Die Postgebühren sind den Kostenstellen soweit als möglich nach der Anzahl der Versendungen, ansonsten nach einem verursachungsgerechten Personalschlüssel lt. Kostenrechnung zuzuordnen. Hierbei ist bei Massenversendungen (z.B. Beitragsvorschreibungen, Krankenscheine) eine Vollerfassung durchzuführen. <br/>Die Telefongebühren sind den Kostenstellen soweit als möglich nach der Anzahl der Impulse, ansonsten nach einem verursachungsgerechten Personalschlüssel lt. Kostenrechnung zuzuordnen. <i>(Anm.: 54. Erg. ÜB: gilt ab der Erstellung der Kostenrechnung 2023) </i></schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Ärztehonorare</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die Honorare für den ärztlichen Dienst (für alle Sozialversicherungsträger Kontengruppe 59).</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">4.</symbol>Untersuchungs- und Behandlungsmaterial, Heilmittel</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die entsprechenden Sachkosten des ärztlichen Dienstes (für alle Sozialversicherungsträger Kontengruppe 59).</schluss>
+</liste>
+<absatz typ="abs" halign="j">(3) Sonstige Kosten</absatz><absatz typ="satz" halign="j" widowctrl="1" keepwithnext="0">Hierunter fallen (wie aus der Gliederung gem. <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="85" ursprung="u">§ 85</rvolink> ersichtlich ist) alle jene Kosten, die Aufwendungen im Sinne des <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="22" ursprung="u">§ 22</rvolink> Kontengruppe 61-<nolink>63 Abs. 2</nolink> Abschnitt C sind, und zwar Entschädigungen und Reisegebühren der Obleute, Aufwand für die Hauptversammlung, Aufwand für die übrigen Verwaltungskörper, Entschädigungsleistungen an ausgeschiedene Funktionäre und deren Hinterbliebene.</absatz>
+<absatz typ="abs" halign="j">(4) Kalkulatorische Abschreibungen</absatz>
+<absatz typ="satz" halign="j">Als kalkulatorische Abschreibungen gelten die im Sinne des <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="14" ursprung="u">§ 14</rvolink> ermittelten Abschreibungsbeträge. Abschreibungen für Gegenstände, die nicht der Leistungserstellung oder Verwaltungszwecken dienen, bleiben als neutrale Aufwendungen unberücksichtigt. Immobilien, die buchmäßig bereits abgeschrieben sind und noch verwendet werden, sind bis zu ihrer Ausscheidung mit den bisher geltenden Quoten abzuschreiben. Für Mobilien ist für die kalkulatorische Abschreibung mit Ausnahme von EDV-Hardware, (zugekaufter) Anwendersoftware und Betriebssystemsoftware von Beginn an die doppelte Nutzungsdauer (Basis <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="14" ursprung="u">§ 14</rvolink>) anzusetzen. Für EDV-Hardware, (zugekaufte) Anwendersoftware und Betriebssystemsoftware ist die Abschreibungsdauer gemäß <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="14" ursprung="u">§ 14</rvolink> anzusetzen. Darüber hinaus ist für die Ermittlung des fiktiven Wiederbeschaffungswertes der Anschaffungswert jährlich – auf Basis des Vorjahres – um einen Faktor von 1 % aufzuwerten. <i>(Anm.: 55. Erg. letzten drei Sätze treten mit der Kostenrechnung 2024 in Kraft)</i></absatz>
+<absatz typ="abs" halign="j">(5) Außerordentliche Kosten</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Pensionen</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter sind jene Kosten zu verstehen, die Aufwendungen im Sinne des <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="u">§ 22</rvolink> Kontengruppe 61-63 Abs. 2 Abschnitt A lit. d sind.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">2.</symbol>Abfertigungen und Sterbegelder</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter sind jene Kosten zu verstehen, die Aufwendungen im Sinne des <rvolink abkrvo="RechnVorschr SV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="22" ursprung="u">§ 22</rvolink> Kontengruppe 61- <nolink>63 Abs. 2</nolink> Abschnitt A lit. e sind.</schluss>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">3.</symbol>Sonstige und a. o. Kosten</listelem>
+</ziffernliste>
+<schluss typ="Ziff">Hierunter fallen die Kosten für den Verbandsbeitrag Dachverband, den Verbandsbeitrag ELGA, den Verbandsbeitrag e-card (nur bei der PVA) sowie Mitgliedsbeiträge.</schluss>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

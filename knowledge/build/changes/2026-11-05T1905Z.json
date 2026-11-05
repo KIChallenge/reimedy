@@ -1,0 +1,1138 @@
+{
+ "ts": "2026-11-05T1905Z",
+ "ingest": [],
+ "diff": {
+  "documents": {
+   "fsw": {
+    "neu": 234,
+    "entfernt": 3,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "fsw:12d13c5f9a7171ef9a5ba0a2580dc555ca371d7c#2",
+      "fsw:12d13c5f9a7171ef9a5ba0a2580dc555ca371d7c#3",
+      "fsw:12d13c5f9a7171ef9a5ba0a2580dc555ca371d7c#4",
+      "fsw:12d13c5f9a7171ef9a5ba0a2580dc555ca371d7c#5",
+      "fsw:1313c8c7f038af650918f5537c0e1e9b323b6619#2"
+     ],
+     "entfernt": [
+      "fsw:4d8aa2ce5380fda8fa26a30a6d341aa9f07faaf3#0",
+      "fsw:5af9a6a5895c15e2791aa3dc0dbb8a66f50c4280#0",
+      "fsw:5af9a6a5895c15e2791aa3dc0dbb8a66f50c4280#1"
+     ]
+    }
+   },
+   "oegk": {
+    "neu": 1154,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "oegk:019362b0cf04070bf5c93997ead69e3ca372fc69#0",
+      "oegk:019362b0cf04070bf5c93997ead69e3ca372fc69#1",
+      "oegk:019362b0cf04070bf5c93997ead69e3ca372fc69#10",
+      "oegk:019362b0cf04070bf5c93997ead69e3ca372fc69#2",
+      "oegk:019362b0cf04070bf5c93997ead69e3ca372fc69#3"
+     ]
+    }
+   },
+   "svbox_local": {
+    "neu": 22,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "svbox_local:a58dcb62e44c#109",
+      "svbox_local:a58dcb62e44c#110",
+      "svbox_local:a58dcb62e44c#111",
+      "svbox_local:a58dcb62e44c#112",
+      "svbox_local:a58dcb62e44c#113"
+     ]
+    }
+   },
+   "svs": {
+    "neu": 1432,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "svs:00dfc315a06e73ec023297f944522aaa6dbe1413#0",
+      "svs:00dfc315a06e73ec023297f944522aaa6dbe1413#1",
+      "svs:00dfc315a06e73ec023297f944522aaa6dbe1413#2",
+      "svs:00dfc315a06e73ec023297f944522aaa6dbe1413#3",
+      "svs:00dfc315a06e73ec023297f944522aaa6dbe1413#4"
+     ]
+    }
+   }
+  },
+  "leistungen": {
+   "neu": [
+    {
+     "leistung_id": "bewusst_leben_plus",
+     "hash": "17c269180a61",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Bewusst leben +"
+    },
+    {
+     "leistung_id": "case_management",
+     "hash": "d8caf9107814",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Case Management"
+    },
+    {
+     "leistung_id": "darmkrebs_frueherkennung",
+     "hash": "5477a64605a3",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Darmkrebs-Früherkennung"
+    },
+    {
+     "leistung_id": "e_card",
+     "hash": "a60080ce0be4",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "e-card (inkl. e-card mit Foto, Ersatz)"
+    },
+    {
+     "leistung_id": "easykids",
+     "hash": "22d8a7864651",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "easykids (Programme für Kinder mit Übergewicht)"
+    },
+    {
+     "leistung_id": "ergotherapie",
+     "hash": "a258c737c459",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Ergotherapie"
+    },
+    {
+     "leistung_id": "ernaehrungsberatung",
+     "hash": "e4f0cb226b44",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Ernährungsberatung und -angebote"
+    },
+    {
+     "leistung_id": "fit2work",
+     "hash": "1578aaf47e40",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "fit2work (Beratung zum Erhalt der Arbeitsfähigkeit)"
+    },
+    {
+     "leistung_id": "gesundheitskurse_bewegung",
+     "hash": "8e0487fd05c7",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Bewegungs- und Gesundheitskurse (Rücken, Beckenboden, Bewegungsberatung)"
+    },
+    {
+     "leistung_id": "gesundheitstelefon_1450",
+     "hash": "2af612816b95",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Telefonische Gesundheitsberatung 1450"
+    },
+    {
+     "leistung_id": "hautkrebs_frueherkennung",
+     "hash": "1c2d37cedb2c",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Hautkrebs-Früherkennung"
+    },
+    {
+     "leistung_id": "hebammen",
+     "hash": "52142a21c766",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Hebammen-Leistungen"
+    },
+    {
+     "leistung_id": "heilmassage",
+     "hash": "291d10cf5f8b",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Heilmassage"
+    },
+    {
+     "leistung_id": "jugendlichenuntersuchung",
+     "hash": "008c4edbfb77",
+     "sources": [
+      "oegk",
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Jugendlichenuntersuchung"
+    },
+    {
+     "leistung_id": "klinisch_psychologische_behandlung",
+     "hash": "7d2595a4e6f5",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Klinisch-psychologische Behandlung und Diagnostik"
+    },
+    {
+     "leistung_id": "krankentransport_fahrtkosten",
+     "hash": "6c1f35946f2d",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Krankentransporte und Fahrtkosten"
+    },
+    {
+     "leistung_id": "logopaedie",
+     "hash": "a8fd36f1d70f",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Logopädie"
+    },
+    {
+     "leistung_id": "mentale_gesundheit_angebote",
+     "hash": "85814cbfd00b",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Mentale Gesundheit: Angebote und Beratung"
+    },
+    {
+     "leistung_id": "nikotinfrei_rauchfrei",
+     "hash": "478fd36ed0d2",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Rauchfrei-/Nikotinfrei-Angebote (Rauchfrei Telefon)"
+    },
+    {
+     "leistung_id": "physiotherapie",
+     "hash": "9820293cb3a3",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Physiotherapie"
+    },
+    {
+     "leistung_id": "prostatakrebs_frueherkennung",
+     "hash": "77bf04f6bc80",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Prostatakrebs-Früherkennung"
+    },
+    {
+     "leistung_id": "psychotherapie",
+     "hash": "c14e1677c8c9",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Psychotherapie (Kostenzuschuss/Sachleistung)"
+    },
+    {
+     "leistung_id": "rauchfrei_programm",
+     "hash": "0c064e9563d2",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Frei von Tabak und Nikotin"
+    },
+    {
+     "leistung_id": "rechnung_einreichen",
+     "hash": "9764dca88aa5",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Rechnung einreichen (Kostenerstattung online)"
+    },
+    {
+     "leistung_id": "reha_medizinisch",
+     "hash": "a868c80e8e10",
+     "sources": [
+      "oegk",
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Medizinische Rehabilitation"
+    },
+    {
+     "leistung_id": "selbsthilfegruppen",
+     "hash": "c84b48e0b744",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Selbsthilfegruppen"
+    },
+    {
+     "leistung_id": "selbstversicherung",
+     "hash": "0f8cb2a6d231",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Selbstversicherung in der Krankenversicherung"
+    },
+    {
+     "leistung_id": "therapie_aktiv",
+     "hash": "13801de3bb5d",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Therapie Aktiv (Diabetes-Betreuungsprogramm)"
+    },
+    {
+     "leistung_id": "trittsicher_sturzpraevention",
+     "hash": "5984e4728b57",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Trittsicher & aktiv (Sturzprävention)"
+    },
+    {
+     "leistung_id": "versicherung_pflegende_angehoerige",
+     "hash": "98c1659ebc0f",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Versicherung für pflegende Angehörige"
+    },
+    {
+     "leistung_id": "vollmacht",
+     "hash": "75067a37fbb2",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Vollmacht (Vertretung gegenüber der ÖGK)"
+    },
+    {
+     "leistung_id": "wahlarzt_kostenerstattung",
+     "hash": "7439212f8078",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Wahlarzt: Kostenerstattung (Rückerstattung)"
+    },
+    {
+     "leistung_id": "zahnbehandlung",
+     "hash": "2098f60798db",
+     "sources": [
+      "oegk",
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Zahnbehandlung"
+    }
+   ],
+   "geaendert": [
+    {
+     "leistung_id": "aerztliche_hilfe",
+     "name": "Ärztliche Hilfe (e-card, Vertragsärzt:innen, Wahlärzt:innen)",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "assistenz_betreuung_alltag_wien",
+     "name": "Assistenz und Betreuung im Alltag (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "behandlung_im_ausland",
+     "name": "Behandlung im Ausland / Krankenversicherung auf Reisen",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "besuchs_begleitdienst_wien",
+     "name": "Besuchs- und Begleitdienst (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "betreutes_wohnen_angehoerige_wien",
+     "name": "Betreutes Wohnen – Entlastung für Angehörige (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "bewegt_im_park",
+     "name": "Bewegt im Park",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "brustkrebs_frueherkennung",
+     "name": "Brustkrebs-Früherkennungsprogramm „früh erkennen“",
+     "quellen_vorher": [
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "elga_info",
+     "name": "ELGA – elektronische Gesundheitsakte",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "eltern_kind_pass",
+     "name": "Eltern-Kind-Pass-Untersuchungen",
+     "quellen_vorher": [
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "essen_auf_raedern_wien",
+     "name": "Essen auf Rädern (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "fahrtendienst_fahrtkostenersatz_wien",
+     "name": "Fahrtendienst und Fahrtkostenersatz (Behinderung, Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "fahrtkostenersatz_gehoerlose_wien",
+     "name": "Fahrtkostenersatz öffentliche Verkehrsmittel für gehörlose Menschen (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "freiwillige_versicherung",
+     "name": "Freiwillige Versicherung / Selbstversicherung",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "fruehe_hilfen",
+     "name": "Frühe Hilfen",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "fsw_behindertenhilfe_beratung",
+     "name": "FSW-Beratung Behinderung und Inklusion (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "fsw_pflegeberatung",
+     "name": "FSW-Beratung zu Pflege und Betreuung (Kund:innenservice, Beratungszentrum Pflege und Betreuung)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "gesunder_ruecken",
+     "name": "Beweg' dich – Gesunder Rücken",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "hausbesuch_arzt",
+     "name": "Hausbesuch / Visite durch Vertragsärztin bzw. Vertragsarzt",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "hauskrankenpflege_wien",
+     "name": "Hauskrankenpflege (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "heilbehelfe_hilfsmittel",
+     "name": "Heilbehelfe und Hilfsmittel",
+     "quellen_vorher": [
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "heilmittel_bewilligungspflicht",
+     "name": "Bewilligungspflichtige Medikamente (Medizinischer Dienst)",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "heimhilfe_wien",
+     "name": "Heimhilfe (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "impfungen_erwachsene",
+     "name": "Impfprogramme für Erwachsene",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "jahreskarte_sehbehinderte_wien",
+     "name": "Jahreskarte / Klimaticket-Förderung für blinde und hochgradig sehbehinderte Menschen (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "kinderbetreuungsgeld",
+     "name": "Kinderbetreuungsgeld",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "kostenbeitrag_fsw",
+     "name": "Kostenbeitrag für FSW-geförderte Leistungen (Berechnung, Freieinheiten, zusätzliche Förderung)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "krankengeld",
+     "name": "Krankengeld / Krankenstand",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "krankenhauspflege",
+     "name": "Krankenhauspflege (Spitalsaufenthalt)",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "krankentransport",
+     "name": "Krankentransport / Krankenbeförderung",
+     "quellen_vorher": [
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "kur",
+     "name": "Kur- und Erholungsaufenthalt",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "kurzzeitpflege_urlaubspflege_wien",
+     "name": "Urlaubspflege / Kurzzeitpflege (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "medizinische_hauskrankenpflege",
+     "name": "Medizinische Hauskrankenpflege",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "medizinische_hauskrankenpflege_wien",
+     "name": "Medizinische Hauskrankenpflege (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "mehrstuendige_alltagsbegleitung_wien",
+     "name": "Mehrstündige Alltagsbegleitung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "mitversicherung_angehoerige",
+     "name": "Mitversicherung von Angehörigen",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "mobile_fruehfoerderung_wien",
+     "name": "Mobile Frühförderung und Förderungen für Kinder mit Behinderung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "mobile_palliativbetreuung_wien",
+     "name": "Mobile Palliativbetreuung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "mundhygiene_kinder",
+     "name": "Gratis-Mundhygiene für Kinder und Jugendliche",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "mutterschaft_sachleistungen",
+     "name": "Sachleistungen bei Mutterschaft",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "obdach_wohnungslosenhilfe_wien",
+     "name": "Obdach- und Wohnungslosenhilfe (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "pflege_kinder_wien",
+     "name": "Pflege und Betreuung für Kinder (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "pflegende_angehoerige_wien",
+     "name": "Unterstützung für pflegende Angehörige (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "rehabilitationsgeld",
+     "name": "Rehabilitationsgeld",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "remobilisation_wien",
+     "name": "Remobilisation (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "rezeptgebuehrenbefreiung",
+     "name": "Befreiung von der Rezeptgebühr",
+     "quellen_vorher": [
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "rezeptgebuehrenobergrenze",
+     "name": "Rezeptgebührenobergrenze (2 % des Jahresnettoeinkommens)",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "senior_innen_wg_fsw",
+     "name": "Senior:innen-Wohngemeinschaft (Wien, FSW)",
+     "quellen_vorher": [
+      "fsw",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "sonderwochengeld",
+     "name": "Sonderwochengeld",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "tageszentren_wien",
+     "name": "Tageszentren für Senior:innen (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "teilbetreutes_wohnen_wien",
+     "name": "Teilbetreutes Wohnen (Behinderung, Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "uebergangspflege_wien",
+     "name": "Übergangspflege (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "unterstuetzungsfonds",
+     "name": "Unterstützungsfonds",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "vollbetreutes_wohnen_wien",
+     "name": "Vollbetreutes Wohnen (Behinderung, Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "vorsorgeuntersuchung",
+     "name": "Vorsorgeuntersuchung (Gesundheits-Check)",
+     "quellen_vorher": [
+      "aek_wien",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "aek_wien",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "waescheservice_wien",
+     "name": "Wäscheservice-Zustellung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "wiedereingliederungsgeld",
+     "name": "Wiedereingliederungsgeld",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "wochengeld",
+     "name": "Wochengeld",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "wohn_pflegehaus_fsw",
+     "name": "Wohn- und Pflegehaus (Wien, FSW)",
+     "quellen_vorher": [
+      "fsw",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "wohnhaus_wien",
+     "name": "Wohn- und Pflegehäuser mit Schwerpunkt Wohnen (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "zahnersatz",
+     "name": "Zahnersatz",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "zahnspange_kfo",
+     "name": "Zahnspange / Kieferorthopädie für Kinder („Gratis-Zahnspange“)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    }
+   ],
+   "entfernt": [
+    {
+     "leistung_id": "kieferorthopaedie_gratis_zahnspange",
+     "hash": "c1667aae2ffe",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Kieferorthopädische Behandlung / Gratis-Zahnspange (KFO)"
+    },
+    {
+     "leistung_id": "mitversicherung",
+     "hash": "56dd3b5bbe55",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Mitversicherung von Angehörigen (beitragsfrei)"
+    },
+    {
+     "leistung_id": "mundhygiene_kinder_jugendliche",
+     "hash": "3e195c143d06",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Gratis-Mundhygiene für Kinder und Jugendliche"
+    }
+   ],
+   "status": [
+    {
+     "leistung_id": "bewegt_im_park",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "eltern_kind_pass",
+     "von": "konflikt",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "heilbehelfe_hilfsmittel",
+     "von": "konflikt",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "impfungen_erwachsene",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "kinderbetreuungsgeld",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "krankengeld",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "krankentransport",
+     "von": "konflikt",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "kur",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "mitversicherung_angehoerige",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "mobile_pflege_fsw",
+     "von": "konflikt",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "mundhygiene_kinder",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "senior_innen_wg_fsw",
+     "von": "konflikt",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "zahnersatz",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "zahnspange_kfo",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    }
+   ]
+  },
+  "stellen": {
+   "neu": 281,
+   "entfernt": 0,
+   "geaendert": 1
+  },
+  "formulare": {
+   "neu": 407,
+   "entfernt": 8,
+   "geaendert": 7
+  }
+ }
+}

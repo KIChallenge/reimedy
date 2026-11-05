@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="APG=PARA=4a=105=2025-12-29=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="APG=PARA=4a=47=2025-07-24=2026-01-01" dokidSource="APG=PARA=4a=47=2025-07-24=2026-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Allgemeines Pensionsgesetz" abkrvo="APG" dokart="BG" titaen="Dezembernovelle 105/2025" abkaen="DezemberNov 105/2025" urheber="Bund" sichtbarkeit="p" pubdat="2025-12-29" ikra="2026-01-01" gldnr="4a" berkz="KVL; UVL; PVL; VMB; OV; REGR; VPAR; KA; RSP; AN; AG; SELB; " nichtanzeigen="n" beschdat="2025-12-11">
+
+
+
+<puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="105" begseite="4" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="c" typ="para">Teilpension</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 4a.</gldsym> (1) Die Alterspension kann als Teilpension beansprucht werden, wenn die versicherte Person</absatz>
+
+<liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die Voraussetzungen für eine (vorzeitige) Alterspension (<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" ursprung="u">§ 4</rvolink>) oder eine vorzeitige Alterspension nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="617" abs="13" ursprung="u">§ 617 Abs. 13</rvolink><nolink> ASVG</nolink> (Langzeitversichertenpension) mit Ausnahme der Voraussetzung des Fehlens einer die Pflichtversicherung in der Pensionsversicherung begründenden unselbständigen Erwerbstätigkeit am Stichtag erfüllt und</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>das Ausmaß der vereinbarten Normalarbeitszeit in der die Pflichtversicherung in der Pensionsversicherung begründenden Beschäftigung nachweislich um zumindest 25%, jedoch höchstens 75% reduziert. Dabei ist das in den letzten zwölf Kalendermonaten unmittelbar vor dem Stichtag (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="223" abs="2" ursprung="u">§ 223 Abs. 2</rvolink><nolink> ASVG</nolink>) der Teilpension überwiegende, also über den längeren Zeitraum ausgeübte, Beschäftigungsausmaß maßgeblich. Liegt kein überwiegendes Beschäftigungsausmaß vor, so ist vom letzten Beschäftigungsausmaß vor dem Stichtag auszugehen. Lag in den letzten zwölf Kalendermonaten unmittelbar vor diesem Stichtag keine Beschäftigung vor, so ist von der Normalarbeitszeit auszugehen. Wurde in den letzten zwölf Kalendermonaten unmittelbar vor dem Stichtag Altersteilzeit nach <rvolink abkrvo="AlVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="27" ursprung="u">§ 27</rvolink><nolink> AlVG</nolink> 1977 in Anspruch genommen, so ist von der vereinbarten Normalarbeitszeit vor Antritt dieser Maßnahme auszugehen.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Ein Antrag auf Teilpension ist nicht zulässig,</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>wenn bereits ein bescheidmäßig zuerkannter Anspruch auf eine Pension aus eigener Pensionsversicherung besteht,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>während einer Wiedereingliederungsteilzeit nach <nolink>§ 13a</nolink> AVRAG.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Zur Ermittlung des Ausmaßes der Teilpension ist <rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="5" abs="1" ursprung="u">§ 5 Abs. 1</rvolink> mit der Maßgabe anzuwenden, dass sich das Ausmaß der monatlichen Bruttoleistung bei einer Arbeitszeitreduktion</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>um mindestens 25% bis höchstens 40% aus 25%,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>um mindestens 40,01% bis höchstens 60% aus 50%,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>um mindestens 60,01% bis höchstens 75% aus 75%</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">der nach § 12 Abs. 3 Z 2 erster Satz aufgewerteten Gesamtgutschrift des dem Stichtag der Teilpension vorangehenden Kalenderjahres ergibt. Für eine Verminderung der Bruttoleistung bei Inanspruchnahme der Teilpension vor dem Monatsersten nach Erreichung des Regelpensionsalters kommt jener Prozentsatz nach § 5 Abs. 2 zur Anwendung, der für die vorzeitige Alterspension maßgeblich ist, aufgrund deren vorliegender Voraussetzungen die Teilpension beansprucht wurde. Wird eine Langzeitversichertenpension als Teilpension beansprucht, kommt der Prozentsatz nach § 25 Abs. 4 zur Anwendung.</schlussteil>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="3">(4)</symbol>Die Teilpension fällt vor Vollendung des Regelpensionsalters für jenen Zeitraum weg, in dem die leistungsbeziehende Person</listelem>
+              <listelem>
+                <symbol stellen="2">1.</symbol>die mindestens erforderliche Arbeitszeitreduktion nach der für sie maßgeblichen Ziffer des Abs. 3 innerhalb eines Kalenderjahres in der (den) unselbständigen Erwerbstätigkeit(en) im Durchschnitt des Kalendermonates in mehr als drei Kalendermonaten um mehr als 10% unterschreitet, jedoch erstmals mit dem vierten Kalendermonat der Unterschreitung;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>eine selbständige Erwerbstätigkeit aufnimmt, die eine Pflichtversicherung in der Pensionsversicherung begründet oder aus der sie ein Erwerbseinkommen bezieht, welches das nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="5" abs="2" ursprung="u">§ 5 Abs. 2</rvolink><nolink> ASVG</nolink> jeweils in Betracht kommende Monatseinkommen übersteigt, wobei <rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="9" abs="1" ursprung="u">§ 9 Abs. 1</rvolink> zweiter Satz anzuwenden ist.</listelem>
+            </aufzaehlung>
+          </liste>
+          <liste><schluss typ="Abs">Die unter Berücksichtigung der 10%igen Unterschreitung der Arbeitszeitreduktion nach Z 1 höchstens zu leistende Arbeitszeit ist auf ganze Arbeitsstunden aufzurunden.</schluss></liste><absatz typ="abs" halign="j">(5) Zum Monatsersten nach der Erreichung des Regelpensionsalters ist die Teilpension oder der ihr nach Abs. 8 entsprechende Bestandteil der Pension nach <rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="9" abs="2" ursprung="u">§ 9 Abs. 2</rvolink> von Amts wegen neu festzustellen und dabei für jeden Monat, in dem die Teilpension weggefallen ist, wie folgt zu erhöhen:</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>um 0,165%, wenn die Teilpension bei Erfüllen der Anspruchsvoraussetzungen für eine Schwerarbeitspension (<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" abs="3" ursprung="u">§ 4 Abs. 3</rvolink>) beansprucht wurde;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>um 0,40%, wenn die Teilpension bei Erfüllen der Anspruchsvoraussetzungen für eine Korridorpension (<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" abs="2" ursprung="u">§ 4 Abs. 2</rvolink>) oder eine vorzeitige Alterspension nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="617" abs="13" ursprung="u">§ 617 Abs. 13</rvolink><nolink> ASVG</nolink> (Langzeitversichertenpension) beansprucht wurde.</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">Fällt der Zeitpunkt der Erreichung des Regelpensionsalters selbst auf einen Monatsersten, so gilt dieser Tag als Monatserster im Sinne des ersten Satzes.</schlussteil>
+          </liste>
+          <absatz typ="abs" halign="j">(6) Zur Teilpension gebührt kein besonderer Steigerungsbetrag (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="248" ursprung="u">§ 248</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="141" ursprung="u">§ 141</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="133" ursprung="u">§ 133</rvolink><nolink> BSVG</nolink>), kein besonderer Höherversicherungsbetrag (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="248c" ursprung="u">§ 248c</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="143" ursprung="u">§ 143</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="134" ursprung="u">§ 134</rvolink><nolink> BSVG</nolink>), kein Kinderzuschuss (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="262" ursprung="u">§ 262</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="144" ursprung="u">§ 144</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="135" ursprung="u">§ 135</rvolink><nolink> BSVG</nolink>), keine Ausgleichszulage (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="292" ursprung="u">§ 292</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="149" ursprung="u">§ 149</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="140" ursprung="u">§ 140</rvolink><nolink> BSVG</nolink>) und kein Ausgleichszulagenbonus/Pensionsbonus (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="299a" ursprung="u">§ 299a</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="156a" ursprung="u">§ 156a</rvolink><nolink> GSVG</nolink>, <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="147a" ursprung="u">§ 147a</rvolink><nolink> BSVG</nolink>).</absatz>
+          <absatz typ="abs" halign="j">(7) Wird die (vorzeitige) Alterspension oder Langzeitversichertenpension für den fortgeführten Teil des Pensionskontos (<rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="10" abs="3" ursprung="u">§ 10 Abs. 3</rvolink>) beantragt, so sind die für die jeweilige Leistung zum Zeitpunkt der Inanspruchnahme dieser Leistung als Teilpension geltenden Anspruchsvoraussetzungen anzuwenden. Der für die Zuerkennung der Teilpension zuständige Pensionsversicherungsträger ist auch für die Zuerkennung der Leistung für den fortgeführten Teil des Pensionskontos zuständig.</absatz>
+          <absatz typ="abs" halign="j">(8) Die Teilpension gebührt ab dem Stichtag der nach Abs. 7 beantragten (vorzeitigen) Alterspension oder der Langzeitversichertenpension als Bestandteil der jeweiligen Pension. Ein Frühstarterbonus (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="262a" ursprung="u">§ 262a</rvolink><nolink> ASVG</nolink>), der bereits zur Teilpension gebührt hat, gebührt ab dem Stichtag der (vorzeitigen) Alterspension oder der Langzeitversichertenpension zur jeweiligen gesamten Leistung.</absatz>
+          <absatz typ="abs" halign="j">(9) Nach Anfall einer Teilpension kann ein Anspruch auf eine vorzeitige Alterspension nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="617" abs="13" ursprung="u">§ 617 Abs. 13</rvolink><nolink> ASVG</nolink>, <rvolink abkrvo="GSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="306" abs="10" ursprung="u">§ 306 Abs. 10</rvolink><nolink> GSVG</nolink> und <rvolink abkrvo="BSVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="295" abs="11" ursprung="u">§ 295 Abs. 11</rvolink><nolink> BSVG</nolink> (Langzeitversichertenpension), eine Schwerarbeitspension nach <rvolink abkrvo="APG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="4" abs="3" ursprung="u">§ 4 Abs. 3</rvolink> oder eine Leistung aus dem Versicherungsfall der geminderten Arbeitsfähigkeit nicht mehr entstehen.</absatz>
+          <absatz typ="abs" halign="j">(10) Im Rahmen von Dienstverhältnissen beschäftigte Bezieher/innen einer Teilpension können die Leistung von Mehrarbeit über das vereinbarte Arbeitszeitausmaß hinaus und von Überstunden über die im Betrieb geltende oder vereinbarte tägliche oder wöchentliche Normalarbeitszeit hinaus gegenüber dem Dienstgeber ohne Angabe von Gründen ablehnen. Sie dürfen deswegen nicht benachteiligt werden.</absatz>
+          <absatz typ="abs" halign="j">(11) Bei der Ermittlung des Anteils der Erwerbstätigen an der Bevölkerung in der jeweiligen Altersgruppe gelten Personen, die eine Teilpension in Anspruch nehmen und gleichzeitig einer vollversicherten Beschäftigung nachgehen, als Erwerbstätige und nicht als Pensionisten.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="veraendW=ZAHL=28==1111-11-11=1111-11-11" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="veraendW=ZAHL=28==1111-11-11=1111-11-11">
+<metadaten gldnr="28" sichtbarkeit="p" berkz="KVL; UVL; PVL; KGALV; VMB; PFLEGE; EU; SVABK; ALLE; OV; DR; REGR; VPAR; KA; RSP; AN; AG; SELB; BEA; NOT; SONST; INTERN; HIST; KOMPL;" ikra="1111-11-11" pubdat="1111-11-11" urheber="Bund" abkaen="veraendW StF" titaen="veränderliche Werte Übersichtstabellen StF" dokart="K" abkrvo="veraendW" titrvo="veränderliche Werte Übersichtstabellen" gldsort="130" gldart="ZAHL">
+<schlagw>
+<textelem>Stillgeld - § 163 ASVG</textelem>
+</schlagw>
+<aendprot>
+<dfeintrag zeitpunkt="2002-02-12" perskz="polzer"/>
+<dfeintrag perskz="polzer" zeitpunkt="2002-02-20"/>
+<dfeintrag zeitpunkt="2003-04-07" perskz="schaff"/>
+<dfeintrag perskz="glueck" zeitpunkt="2003-05-22"/>
+<dfeintrag zeitpunkt="2004-01-13" perskz="mayerhof"/>
+<dfeintrag perskz="glueck" zeitpunkt="2005-05-10"/>
+<dfeintrag perskz="glueck" zeitpunkt="2006-02-16"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="nicht publ."/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<absatz typ="satz" halign="j">
+<gldsym>28.</gldsym>
+</absatz>
+<ueberschrift level="1" halign="c" typ="para"> Stillgeld - 
+<rvolink ursprung="p" gldnr="163" gldsort="70" gldart="PARA" typ="e" verwart="d" abkrvo="ASVG">§ 163</rvolink> ASVG</ueberschrift>
+<table style="border-color:black;border-collapse:collapse;margin-left:0pt" cellpadding="3" cellspacing="0" border="0">
+<tr h-start="0">
+<td valign="top" align="left" width="133.649997711182" h-xval="1995">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="179.924995422363" h-xval="4680">
+<absatz typ="tabtext"/>
+</td>
+<td valign="top" align="left" width="276.450004577637" h-xval="8820">
+<absatz typ="tabtext"/>
+</td>
+</tr>
+<tr h-start="0">
+<td class="bottom right" valign="top" align="left" width="133.649997711182" h-xval="1995">
+<absatz typ="tabtext"/>
+</td>
+<td class="left bottom" valign="top" align="left" width="179.924995422363" h-xval="4680">
+<absatz typ="tabtext">gesetzlicher Wert</absatz>
+</td>
+<td class="bottom" valign="top" align="left" width="276.450004577637" h-xval="8820">
+<absatz typ="tabtext">satzungsmäßige Mehrleistung</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="top right" valign="top" align="left" width="133.649997711182" h-xval="1995">
+<absatz typ="tabtext">ab 1969</absatz>
+</td>
+<td class="top left" valign="top" align="left" width="179.924995422363" h-xval="4680">
+<absatz typ="tabtext">aufgehoben</absatz>
+</td>
+<td class="top" valign="top" align="left" width="276.450004577637" h-xval="8820">
+<absatz typ="tabtext">aufgehoben</absatz>
+</td>
+</tr>
+<tr h-start="0">
+<td class="right" valign="top" align="left" width="133.649997711182" h-xval="1995">
+<absatz typ="tabtext">1956 bis 1968</absatz>
+</td>
+<td class="left" valign="top" align="left" width="179.924995422363" h-xval="4680">
+<absatz typ="tabtext">2 S</absatz>
+</td>
+<td valign="top" align="left" width="276.450004577637" h-xval="8820">
+<absatz typ="tabtext">bis zu 5 S</absatz>
+</td>
+</tr>
+</table>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

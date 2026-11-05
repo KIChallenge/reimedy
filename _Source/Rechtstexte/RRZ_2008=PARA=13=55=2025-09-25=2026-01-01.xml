@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RRZ_2008=PARA=13=55=2025-09-25=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RRZ_2008=PARA=13=55=2025-09-25=2026-01-01" dokidSource="RRZ_2008=PARA=13=55=2025-09-25=2026-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien für die Befreiung von der Rezeptgebühr 2008" abkrvo="RRZ 2008" dokart="RL DVSV" titaen="14. Änderung der Richtlinien für die Befreiung von der Rezeptgebühr 2008" abkaen="14. Änd RRZ 2008" urheber="Hauptverband" beschdat="2025-09-24" pubdat="2025-09-25" ikra="2026-01-01" sichtbarkeit="p" gldnr="13" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="Schwing" zeitpunkt="2008-02-01"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="55" jahrgang="2025"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">3. Teil <br/>Befreiung wegen Überschreitung der Obergrenze für die Entrichtung von Rezeptgebühren</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Allgemeines</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 13.</gldsym> (1) Die Obergrenze für die Entrichtung von Rezeptgebühren beträgt 1,5% des Jahresnettoeinkommens. Personen, deren Belastung mit auf die Obergrenze anrechenbaren Beträgen nach Abs. 2 in einem Kalenderjahr die Obergrenze überschreitet, sind ab dem Überschreiten für den Rest des Kalenderjahres von der Rezeptgebühr befreit.</absatz>
+<absatz typ="abs" halign="j">(1a) Abweichend von Abs. 1 ist die Obergrenze für die Entrichtung von Rezeptgebühren im Jahr 2026 mit 2%, im Jahr 2027 mit 1,875%, im Jahr 2028 mit 1,75% und im Jahr 2029 mit 1,625% am jährlichen Nettoeinkommen der versicherten Person ohne Berücksichtigung der Sonderzahlungen zu bemessen.</absatz>
+          <absatz typ="abs" halign="j">(2) Auf die Obergrenze anrechenbare Beträge sind</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>Rezeptgebühren und </listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>Kassenverkaufspreise inklusive Umsatzsteuer von im Rahmen der Krankenbehandlung verordneten und erstattungsfähigen Heilmitteln, sofern der Kassenverkaufspreis inklusive Umsatzsteuer niedriger ist als die Rezeptgebühr.</listelem>
+            </aufzaehlung>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Die Obergrenze für die Entrichtung von Rezeptgebühren ist nach den in diesen Richtlinien aufgestellten Regeln zu berechnen. Der errechnete Betrag ist kaufmännisch auf einen Cent zu runden. Als Jahresnettoeinkommen gilt der nach den <rvolink abkrvo="RRZ 2008" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="14" bereich="BIS" bis="16" ursprung="u">§§ 14 bis 16</rvolink> ermittelte Betrag.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

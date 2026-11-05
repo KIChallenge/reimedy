@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_GKK_Burgenland_2005=PARA=5a=106=2006-10-13=2006-11-01"><rvo>
+<metadaten gldart="PARA" gldsort="70" titrvo="Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkrvo="KrankenO GKK Burgenland 2005" dokart="KrankenO" titaen="1. Änderung der Krankenordnung der Burgenländischen Gebietskrankenkasse 2005" abkaen="1. Änd KrankenO GKK Burgenland 2005" urheber="GKK Bgl" beschdat="2006-08-29" pubdat="2006-10-13" ikra="2006-11-01" sichtbarkeit="p" gldnr="5a" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-05"/>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-10-17"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="106" jahrgang="2006"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Ärztliche Hilfe mit Überweisungs- oder Zuweisungsschein</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 5a. </gldsym>(1) Folgende Vertragspartner können nicht mit der E-Card allein, sondern nur mit der E-Card, dem E-Card-Ersatzbeleg, der EKVK oder der EKVK-Ersatzbescheinigung gemeinsam mit einem Überweisungs- oder Zuweisungsschein in Anspruch genommen werden:</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>Vertragsfachärzte oder Vertrags-Gruppenpraxen für Radiologie bzw. Fachärzte für Radiologie, die in Vertrags-Gruppenpraxen tätig sind,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>Vertragsfachärzte oder Vertrags-Gruppenpraxen für physikalische Medizin bzw. Fachärzte für physikalische Medizin, die in Vertrags-Gruppenpraxen tätig sind,</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Vertragsfachärzte oder Vertrags-Gruppenpraxen für Labordiagnostik bzw. Fachärzte für Labordiagnostik, die in Vertrags-Gruppenpraxen tätig sind,</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>Vertragseinrichtungen für physikalische Therapie,</listelem>
+<listelem>
+<symbol stellen="2">5.</symbol>Vertragseinrichtungen für logopädisch-phoniatrisch-audiologische Behandlungen,</listelem>
+<listelem>
+<symbol stellen="2">6.</symbol>Vertragseinrichtungen für Computertomographie,</listelem>
+<listelem>
+<symbol stellen="2">7.</symbol>Vertragseinrichtungen für Magnetresonanztherapie,</listelem>
+<listelem>
+<symbol stellen="2">8.</symbol>Vertragseinrichtungen für nuklearmedizinische Diagnostik,</listelem>
+<listelem>
+<symbol stellen="2">9.</symbol>Vertragseinrichtungen für Labordiagnostik,</listelem>
+<listelem>
+<symbol stellen="3">10.</symbol>Ambulanzen in Vertragskrankenanstalten und</listelem>
+<listelem>
+<symbol stellen="3">11.</symbol>Ambulatorien in eigenen Einrichtungen.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Wenn für einen Anspruchsberechtigten in einem Kalendervierteljahr bereits</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Zahl der Verwendungsfälle der E-Card gemäß 
+<rvolink abkrvo="KrankenO GKK Burgenland 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="5" abs="5" ursprung="u">§ 5 Abs. 5</rvolink> erschöpft ist und</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>im gleichen Kalendervierteljahr die Behandlung durch einen weiteren Facharzt eines anderen Faches bzw. durch einen Arzt dieses Faches in einer Vertrags-Gruppenpraxis notwendig wird,</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">kann dieser Facharzt grundsätzlich über Zuweisung durch den Vertragsarzt oder die Vertrags-Gruppenpraxis, der bzw. die den Patienten bisher behandelt hat, mit einem Überweisungsschein (Zuweisungsschein) unter gleichzeitiger Vorlage der E-Card in Anspruch genommen werden. Die Kasse wird in begründeten Fällen ein Abweichen von dieser Regel genehmigen.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(3) Abs. 1 gilt sinngemäß auch für eigene Einrichtungen der Kasse.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(4) Die Überweisung oder Zuweisung berechtigt die Versicherten innerhalb eines Monats ab dem Tag, an dem diese ausgestellt wurde, die entsprechende Leistung bei einem Vertragsfacharzt, einer Vertragsgruppenpraxis bzw. einem Facharzt, einer sonstigen Vertragseinrichtung oder einer kasseneigenen Einrichtung in Anspruch zu nehmen.</absatz>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(5) Bei bewilligungspflichtigen Leistungen ist die Überweisung oder Zuweisung der Kasse innerhalb eines Monats ab dem Tag, an dem diese ausgestellt wurde, zur Bewilligung vorzulegen und sind die entsprechenden Leistungen innerhalb eines Monats ab dem Tag der Erteilung der Kassenbewilligung in Anspruch zu nehmen.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

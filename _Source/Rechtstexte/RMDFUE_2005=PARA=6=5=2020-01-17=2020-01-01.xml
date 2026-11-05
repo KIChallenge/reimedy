@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RMDFUE_2005=PARA=6=5=2020-01-17=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RMDFUE_2005=PARA=6=5=2020-01-17=2020-01-01" dokidSource="RMDFUE_2005=PARA=6=245=2018-12-18=2019-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien über Ausnahmen von der Meldungserstattung mittels Datenfernübertragung 2005" abkrvo="RMDFUE 2005" dokart="RL DVSV" titaen="SV-OG Anpassungsverlautbarung" abkaen="SV-OG AnpVerl" urheber="DVSV" beschdat="2020-01-14" pubdat="2020-01-17" ikra="2020-01-01" sichtbarkeit="p" gldnr="6" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2005-12-22"/>
+<dfeintrag perskz="polzer" zeitpunkt="2006-01-17"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-11-12"/>
+</aendprot>
+
+<puborgane><puborgan puborg="avsv" nrpuborg="5" jahrgang="2020" begseite="5"/></puborgane></metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="g1">Abschnitt II <br/>Anmeldung</ueberschrift>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="2" typ="para">Anmeldung</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 6. </gldsym>(1) Anmeldungen nach <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="33" abs="1" ursprung="u">§ 33 Abs. 1</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="33" abs="2" ursprung="u">Abs. 2</rvolink><nolink> ASVG</nolink>, die gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="33" abs="1a" ziff="1" ursprung="u">§ 33 Abs. 1a Z 1</rvolink><nolink> ASVG</nolink> zu erstatten sind, gelten nur dann als erstattet, wenn sie mittels elektronischer Datenfernübertragung (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="41" abs="1" ursprung="u">§ 41 Abs. 1</rvolink><nolink> ASVG</nolink>) in den vom Dachverband festgelegten einheitlichen Datensätzen (<rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="30c" abs="1" ziff="3" ursprung="u">§ 30c Abs. 1 Z 3</rvolink><nolink> ASVG</nolink>) erfolgen.</absatz>
+
+
+<absatz typ="abs" halign="j">(2) Anmeldungen außerhalb elektronischer Datenfernübertragung gelten dennoch als erstattet, wenn</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>eine Meldung über Datenfernübertragung für die meldepflichtige Stelle unzumutbar ist (<rvolink abkrvo="RMDFÜ 2005" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="7" ursprung="u">§ 7</rvolink>) oder</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>wenn die Anmeldungen nachweisbar durch unverschuldeten Ausfall eines wesentlichen Teils der Datenfernübertragungseinrichtung technisch ausgeschlossen war (<rvolink abkrvo="RMDFÜ 2005" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="8" ursprung="u">§ 8</rvolink>).</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Dies gilt auch für die Anmeldung von fallweise beschäftigten Personen im Sinne des <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="33" abs="3" ursprung="u">§ 33 Abs. 3</rvolink><nolink> ASVG</nolink>.</absatz></abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

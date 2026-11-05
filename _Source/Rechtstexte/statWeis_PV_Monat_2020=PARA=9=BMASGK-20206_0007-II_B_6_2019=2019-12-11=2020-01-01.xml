@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Sozdok.xsd" dokid="statWeis_PV_Monat_2020=PARA=9=BMASGK-20206/0007-II/B/6/2019=2019-12-11=2020-01-01"><rvo dokidCms="statWeis_PV_Monat_2020=PARA=9=BMASGK-20206/0007-II/B/6/2019=2019-12-11=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="Monatsstatistik StatistikWeis PV 2020" abkrvo="statWeis PV Monat 2020" dokart="Weisung" titaen="Monatsstatistik StatistikWeis PV 2020 StF" abkaen="statWeis PV Monat 2020 StF" urheber="BMASGK" pubdat="2019-12-11" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="9" gldsort="80">
+        <puborgane><puborgan puborg="Erlass" nrpuborg="BMASGK-20206/0007-II/B/6/2019">Erlass   Nr. BMASGK-20206/0007-II/B/6/2019</puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Pensionsbonus</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 9.</gldsym> (1) Für die Erstellung dieser Statistik ist das <wwwlink ursprung="u" url="/fs/Formular_PM11e-1_ab_2020.pdf" gldart="KEIN" typ="e">Formular PM11e/1</wwwlink> zu verwenden.</absatz>
+          <absatz typ="abs" halign="j">(2) In das <wwwlink ursprung="u" url="/fs/Formular_PM11e-1_ab_2020.pdf" gldart="KEIN" typ="e">Formular PM11e/1</wwwlink> sind alle Pensionen in Daueranweisung (<wwwlink ursprung="u" url="/fs/Formular_PM10-3_ab_2020.pdf" gldart="KEIN" typ="e">Formular PM10/3</wwwlink>), die zur Pension einen Pensionsbonus beziehen, aufzunehmen. Für diese Pensionen sind der Brutto-Pensionsaufwand ohne Pensionsbonus und der Aufwand für den Pensionsbonus getrennt bekannt zu geben. Die Direktpensionen sind nach Pensionsbonus gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="299a" abs="1" ursprung="u">§ 299a Abs. 1</rvolink>, <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="299a" abs="3" ursprung="u">§ 299a Abs. 3</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="299a" abs="5" ursprung="u">§ 299a Abs. 5</rvolink><nolink> ASVG</nolink> getrennt darzustellen. Die Hinterbliebenenpensionen sind nach Pensionsbonus gemäß <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="299a" abs="1" ursprung="u">§ 299a Abs. 1</rvolink> und <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="299a" abs="3" ursprung="u">§ 299a Abs. 3</rvolink><nolink> ASVG</nolink> getrennt darzustellen.</absatz>
+          <absatz typ="abs" halign="j">(3) Die Zahlen der Zeile 1 in den Spalten 1 und 3 des <wwwlink ursprung="u" url="/fs/Formular_PM11e-1_ab_2020.pdf" gldart="KEIN" typ="e">Formulars PM11e/1</wwwlink> müssen mit den entsprechenden Zahlen des <wwwlink ursprung="u" url="/fs/Formular_PM10-3_ab_2020.pdf" gldart="KEIN" typ="e">Formulars PM10/3</wwwlink> übereinstimmen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="36"/>
+    </rvo></sozdok>

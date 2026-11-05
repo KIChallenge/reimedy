@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="NVG_2020=PARA=15=209=2021-12-13=2020-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="NVG_2020=PARA=15=100=2018-12-22=2020-01-01" dokidSource="NVG_2020=PARA=15=100=2018-12-22=2020-01-01">
+      <metadaten nichtanzeigen="n" titrvo="NotarversorgungsG" abkrvo="NVG 2020" dokart="BG" titaen="Dezembernovelle 209/2021" abkaen="DezemberNov 209/2021" urheber="Bund" beschdat="2021-11-19" pubdat="2021-12-13" ikra="2020-01-01" sichtbarkeit="p" gldart="PARA" gldnr="15" gldsort="80">
+        
+      <puborgane><puborgan puborg="BGBl." gldpuborg="I" nrpuborg="209" begseite="1" jahrgang="2021"/></puborgane></metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="3">Vorlage der Einkommensteuerbescheide und der Lohnkonten-Abschriften</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 15.</gldsym> (1) In die Vorsorge einbezogene Personen sowie Leistungsbezieher/innen, die zur Einkommensteuer veranlagt werden, haben den jeweils letzten Einkommensteuerbescheid, im Fall einer Notar-Partnerschaft (<rvolink abkrvo="NO" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="22" ursprung="u">§§ 22 ff.</rvolink> NO) den letzten Feststellungsbescheid nach <rvolink abkrvo="BAO" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="188" ursprung="u">§ 188</rvolink> BAO, der Versorgungsanstalt unverzüglich nach Eintritt der Rechtskraft vorzulegen.</absatz>
+          <absatz typ="abs" halign="j">(2) Anlässlich der Vorlage sind schriftliche Erklärungen abzugeben</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>über die im Zuge der Einkommensteuerveranlagung erfassten Einkünfte aus selbständiger Tätigkeit;</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>über die im Zuge der Einkommensteuerveranlagung als Betriebsausgaben anerkannten Beiträge zur Vorsorge und allfälligen Verzugszinsen;</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>über die im Zuge der Einkommensteuerveranlagung anerkannten Werbungskosten (<rvolink abkrvo="NVG 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="11" abs="1" ziff="1" ursprung="u">§ 11 Abs. 1 Z 1</rvolink>);</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>über die im Zuge der Einkommensteuerveranlagung anerkannten Betriebsausgaben für Fremdleistungen, soweit auf diese <rvolink abkrvo="NVG 2020" verwart="d" typ="e" gldart="PARA" gldsort="80" gldnr="11" abs="2" ursprung="u">§ 11 Abs. 2</rvolink> anzuwenden ist, sowie</listelem>
+              <listelem>
+                <symbol stellen="2">5.</symbol>über die im Zuge der Einkommensteuerveranlagung gewinnmindernd anerkannten Investitions- und sonstigen steuerlichen Freibeträge für Gewinne.</listelem>
+            </ziffernliste>
+            <schluss typ="Abs">In die Vorsorge einbezogene Personen sowie Leistungsbezieher/innen, die einer Notar-Partnerschaft angehören bzw. angehört haben, haben jeweils den Gesamtbetrag und den auf sie entfallenden Anteil an den im Zuge der Feststellung der Einkünfte der Notar-Partnerschaft gewinnmindernd anerkannten Beträgen in die Erklärung aufzunehmen.</schluss>
+          </liste>
+          <absatz typ="abs" halign="j">(3) Die als Dienstgeber/innen in Betracht kommenden in die Vorsorge einbezogenen Personen haben die Abschriften der Lohnkonten der Notariatskandidat/inn/en unverzüglich nach Ablauf eines jeden Kalenderjahres, im Fall der Beendigung des Dienstverhältnisses binnen Monatsfrist, der Versorgungsanstalt vorzulegen.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>

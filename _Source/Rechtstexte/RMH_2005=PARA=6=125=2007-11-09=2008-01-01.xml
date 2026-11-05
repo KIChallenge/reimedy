@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="RMH_2005=PARA=6=125=2007-11-09=2008-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="RMH_2005=PARA=6=125=2007-11-09=2008-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Richtlinien für das Zusammenarbeiten der Krankenversicherungsträger bei der maschinellen Heilmittelabrechnung zur Erzielung einer ökonomischen und einfachen Verwaltung 2005" abkrvo="RMH 2005" dokart="RL DVSV" titaen="1. Änderung der Richtlinien für das Zusammenarbeiten der Krankenversicherungsträger bei der maschinellen Heilmittelabrechnung zur Erzielung einer ökonomischen und einfachen Verwaltung 2005" abkaen="1. Änd RMH 2005" urheber="Hauptverband" beschdat="2007-10-09" pubdat="2007-11-09" ikra="2008-01-01" sichtbarkeit="p" berkz="KVL; VMB; OV; AN; SELB; BEA; " gldnr="6" nichtanzeigen="n">
+<aendprot>
+<dfeintrag perskz="mayerhof" zeitpunkt="2006-02-21"/>
+<dfeintrag perskz="Schwing" zeitpunkt="2007-11-13"/>
+</aendprot>
+<puborgane><puborgan puborg="avsv" nrpuborg="125" jahrgang="2007"/>
+
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="1" typ="para">Rezeptdaten auf maschinell lesbaren Datenträgern</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 6.</gldsym> Im Zuge der maschinellen Heilmittelabrechnung ist von jedem abgerechneten Krankenkassenrezept ein maschinell lesbarer Datensatz zu erstellen, der folgende Daten zu enthalten hat:</absatz>
+<liste>
+<literaliste ebene="2">
+<listelem>
+<symbol stellen="2">a)</symbol>Versicherungsträger (leistungszuständiger und abrechnender),</listelem>
+<listelem>
+<symbol stellen="2">b)</symbol>Abrechnungszeitraum (Monat und Jahr),</listelem>
+<listelem>
+<symbol stellen="2">c)</symbol>Versicherungsgruppe (gemäß Rezeptlegung der Vertragspartner),</listelem>
+<listelem>
+<symbol stellen="2">d)</symbol>Versicherungsnummer des Patienten,</listelem>
+<listelem>
+<symbol stellen="2">e)</symbol>Versicherungsnummer des Versicherten (wenn Patient mitversichert),</listelem>
+<listelem>
+<symbol stellen="2">f)</symbol>Geburtsdatum des Patienten,</listelem>
+<listelem>
+<symbol stellen="2">g)</symbol>Geburtsdatum des Versicherten (wenn Patient mitversichert),</listelem>
+<listelem>
+<symbol stellen="2">h)</symbol>Verordnender Arzt (Vertragspartnernummer),</listelem>
+<listelem>
+<symbol stellen="2">i)</symbol>Abgebende Apotheke (Vertragspartnernummer),</listelem>
+<listelem>
+<symbol stellen="2">j)</symbol>Befreiung von der Rezeptgebühr,</listelem>
+<listelem>
+<symbol stellen="2">k)</symbol>Zusatzgebühr pro Rezept (z. B. für expeditio nocturna),</listelem>
+<listelem>
+<symbol stellen="2">l)</symbol>von den verordneten Heilmitteln</listelem>
+</literaliste>
+<strichliste ebene="3">
+<listelem>
+<symbol stellen="1">-</symbol>Bezeichnung (Ordnungsbegriff),</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>Pharmazentralnummer</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>Anzahl der Originalpackungen,</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>Arzneiform,</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>Taxbetrag (Preis),</listelem>
+<listelem>
+<symbol stellen="1">-</symbol>Zusatzgebühren (z. B. Signatur).</listelem>
+</strichliste>
+</liste>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

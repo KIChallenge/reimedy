@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="KrankenO_OEGK_2025=PARA=38=72=2025-12-19=2025-12-20" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2025_0072_1766398362055">
+      <metadaten nichtanzeigen="n" titrvo="Krankenordnung der Österreichischen Gesundheitskasse 2025" abkrvo="KrankenO OEGK 2025" dokart="KrankenO" titaen="Krankenordnung der Österreichischen Gesundheitskasse 2025 Stammfassung" abkaen="KrankenO OEGK 2025 StF" urheber="ÖGK" beschdat="2025-12-09" pubdat="2025-12-19" ikra="2025-12-20" sichtbarkeit="p" gldart="PARA" gldnr="38" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="72" jahrgang="2025">avsv   Nr. 72/2025 </puborgan>
+          
+        </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="true">
+          <ueberschrift typ="para" halign="c" level="2">Ausschluss der Kostenerstattung</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 38.</gldsym> (1) Kosten werden – ausgenommen die Fälle der <rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="7" abs="2" ursprung="u">§§ 7 Abs. 2</rvolink> und <rvolink abkrvo="KrankenO OEGK 2025" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="7" abs="8" ursprung="u">8</rvolink> – nicht erstattet, wenn der/die Versicherte im selben Abrechnungszeitraum</absatz>
+          <liste>
+            <aufzaehlung ebene="1" art="normal">
+              <listelem>
+                <symbol stellen="2">1.</symbol>einen Arzt/eine Ärztin für Allgemeinmedizin als Wahlarzt/Wahlärztin und eine/n Ärztin/Arzt für Allgemeinmedizin als Vertragsarzt/Vertragsärztin,</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>einen Facharzt/eine Fachärztin als Wahlarzt/Wahlärztin und einen Facharzt/eine Fachärztin des gleichen Fachgebietes als Vertragsarzt/Vertragsärztin,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>zwei oder mehrere Wahlärzte/Wahlärztinnen für Allgemeinmedizin oder</listelem>
+              <listelem>
+                <symbol stellen="2">4.</symbol>zwei oder mehrere Wahlfachärzte/Wahlfachärztinnen des gleichen Fachgebietes,</listelem>
+            </aufzaehlung>
+            <schlussteil ebene="0" art="normal">unabhängig davon, ob diese/r einer Vertrags- oder Wahl-Gruppenpraxis angehört, in Anspruch genommen hat. Das Gleiche gilt sinngemäß bei Inanspruchnahme eines Wahlarztes/einer Wahlärztin, eines Arztes/einer Ärztin in einer Wahl-Gruppenpraxis oder einer Wahleinrichtung neben einer eigenen Einrichtung oder sonstigen Vertragseinrichtung der Österreichischen Gesundheitskasse. In den Fällen der Z 3 und 4 werden nur die Kosten für die Inanspruchnahme jenes Wahlarztes/jener Wahlärztin ersetzt, dessen/deren Honorarrechnung der/die Versicherte der Österreichischen Gesundheitskasse als Erste für den entsprechenden Abrechnungszeitraum übergibt.</schlussteil>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Kosten werden nicht erstattet, wenn der/die Versicherte (Angehörige) einen Vertragsarzt/eine Vertragsärztin, eine Vertrags-Gruppenpraxis (eine sonstige Vertragseinrichtung, einen anderen Vertragspartner/eine andere Vertragspartnerin) in Anspruch genommen hat.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.45"/>
+    </rvo></sozdok>

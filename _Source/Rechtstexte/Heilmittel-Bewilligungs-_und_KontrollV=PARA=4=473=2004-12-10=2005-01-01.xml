@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Heilmittel-Bewilligungs-_und_KontrollV=PARA=4=473=2004-12-10=2005-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="Heilmittel-Bewilligungs-_und_KontrollV=PARA=4=473=2004-12-10=2005-01-01">
+<metadaten gldart="PARA" gldsort="70" titrvo="Verordnung über die Grundsätze der chef- und kontrollärztlichen Bewilligung für Heilmittel, der nachfolgenden Kontrolle von Verschreibungen, sowie die Grundsätze der Dokumentation" abkrvo="Heilmittel-Bewilligungs- und KontrollV" dokart="V" titaen="Verordnung über die Grundsätze der chef- und kontrollärztlichen Bewilligung für Heilmittel, der nachfolgenden Kontrolle von Verschreibungen, sowie die Grundsätze der Dokumentation StF" abkaen="Heilmittel-Bewilligungs- und KontrollV StF" urheber="BMGF" pubdat="2004-12-10" ikra="2005-01-01" sichtbarkeit="p" gldnr="4">
+<anm>Rechtsgrundlage: <rvolink ursprung="u" abkrvo="ASVG" verwart="s" gldart="PARA" gldsort="70" gldnr="609" abs="9" pubdat="2003-12-31" ikra="2004-06-30" puborg="BGBl." gldpuborg="I" nrpuborg="105" jahrgang="2004" typ="e">§ 609 ASVG idF BGBl. Nr. 105/2004</rvolink></anm><aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2004-12-13"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="BGBl." gldpuborg="II" nrpuborg="473" jahrgang="2004"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" level="2" halign="c" typ="para">Dokumentation der Verordnerin</ueberschrift>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">
+<gldsym>§ 4.</gldsym> (1) Die Verschreibung einer Arzneispezialität nach 
+<rvolink abkrvo="Heilmittel-Bewilligungs- und KontrollV" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="1" abs="2" ursprung="u">§ 1 Abs. 2</rvolink> kann nur nach Anfertigung einer Dokumentation über die Einhaltung der bestimmten Verwendungen erfolgen.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(2) Die vollständige und inhaltlich richtige Dokumentation dient als Nachweis der Verordnerin gegenüber dem chef- und kontrollärztlichen Dienst der Sozialversicherungsträger über die Einhaltung der bestimmten Verwendungen. Andere als die für die Dokumentation festgelegten Inhalte sind als Nachweis des Vorliegens der bestimmten Verwendungen nicht zulässig und unbeachtlich.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(3) Die obligatorisch zu dokumentierenden Informationen sind bei erstmaliger Verschreibung im Behandlungsfall insbesondere zu gliedern in</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>die Begründung, warum bei Verfügbarkeit einer oder mehrerer therapeutisch gleichwertiger Arzneispezialitäten im grünen Bereich des Erstattungskodex eine Arzneispezialität aus dem gelben Bereich des Erstattungskodex verschrieben wird;</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>die Rezeptdaten;</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>die Diagnosestellung im Volltext oder auf Basis einer softwaregesteuerten Codierung;</listelem>
+<listelem>
+<symbol stellen="2">4.</symbol>den Verweis auf die Anamnese und Vorbehandlungsdaten, sowie die Ergebnisse der medizinischen Befunde in den ärztlichen Patienten-/Patientinnen- und Behandlungsdaten, die in diesem Umfang zum Nachweis des Vorliegens der bestimmten Verwendung integrierender Bestandteil der Dokumentation sind.</listelem>
+</ziffernliste>
+</liste>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(4) Bei Folgeverschreibungen im gegebenen Behandlungsfall können sich die von der Verordnerin dokumentierten Informationen unter Bezug auf die Dokumentation der vorangegangenen Verschreibung auf die seitdem eingetretenen Änderungen beschränken.</absatz>
+<absatz typ="abs" halign="j" widowctrl="1" keepwithnext="0">(5) Jede Einzeldokumentation muss in elektronischer oder papiergebundener Form vorliegen. Die Aufbewahrungsfrist der Einzeldokumentation beträgt mindestens zwei Jahre ab Ausstellung der der Einzeldokumentation zu Grunde liegenden Verschreibung und endet jährlich mit Ablauf des 31. Dezember.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

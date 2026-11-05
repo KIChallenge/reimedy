@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="DO.C_2005=PARA=67=178=2005-12-16=2005-12-22" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="DO.C_2005=PARA=67=178=2005-12-16=2005-12-22">
+<metadaten gldart="PARA" gldsort="70" titrvo="Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs 2005" abkrvo="DO.C 2005" dokart="DO" titaen="Wiederverlautbarung der Dienstordnung C für die Arbeiter bei den Sozialversicherungsträgern Österreichs" abkaen="DO.C WV" urheber="Hauptverband" beschdat="2005-11-16" pubdat="2005-12-16" ikra="2005-12-22" sichtbarkeit="p" gldnr="67">
+<uebrecht>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="110" typ="e">§ 110 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="115" typ="e">§ 115 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="138" typ="e">§ 138 DO.C 2005</rvolink>
+<rvolink abkrvo="DO.C 2005" ursprung="u" verwart="d" gldart="PARA" gldsort="70" gldnr="179" typ="e">§ 179 DO.C 2005</rvolink>
+</uebrecht>
+<aendprot>
+<dfeintrag perskz="polzer" zeitpunkt="2005-12-29"/>
+</aendprot>
+<puborgane>
+<puborgan puborg="avsv" nrpuborg="178" jahrgang="2005"/>
+</puborgane>
+</metadaten>
+<nutzdaten>
+<abschnitt>
+<ueberschrift widowctrl="1" keepwithnext="1" halign="c" level="3" typ="para">Allgemeine Leistungsvoraussetzungen</ueberschrift>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">
+<gldsym>§ 67. </gldsym>(1) Anspruch auf Leistungen besteht nach Maßgabe der folgenden Bestimmungen, wenn der Arbeiter
+</absatz>
+<liste>
+<ziffernliste ebene="1">
+<listelem>
+<symbol stellen="2">1.</symbol>den erhöhten Kündigungsschutz (
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="20" ursprung="p">§ 20</rvolink>) erworben,</listelem>
+<listelem>
+<symbol stellen="2">2.</symbol>eine zehnjährige Wartezeit (
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="16" ursprung="p">§ 16</rvolink>) erfüllt und</listelem>
+<listelem>
+<symbol stellen="2">3.</symbol>Pensionsbeiträge (
+<rvolink abkrvo="DO.C 2005" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="87" ursprung="p">§ 87</rvolink>) entrichtet und nicht rückerstattet erhalten</listelem>
+</ziffernliste>
+</liste>
+<liste>
+<schluss typ="Abs">hat.</schluss>
+</liste>
+<absatz typ="abs" widowctrl="1" keepwithnext="0" halign="j">(2) Die Erfordernisse des Abs. 1 Z 1 und 2 entfallen, wenn die Dienstunfähigkeit oder der Tod als Folge eines im Dienste eines Sozialversicherungsträgers erlittenen Arbeitsunfalles (einer Berufskrankheit) im Sinne der <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="175" bereich="BIS" bis="177" ursprung="u">§§ 175 bis 177</rvolink> ASVG bzw. der 
+<rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="70" gldnr="90" bereich="BIS" bis="92" ursprung="u">§§ 90 bis 92</rvolink> B-KUVG eintritt.</absatz>
+</abschnitt>
+</nutzdaten>
+<layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+</rvo></sozdok>

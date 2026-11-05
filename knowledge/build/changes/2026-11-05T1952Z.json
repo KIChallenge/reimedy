@@ -1,0 +1,2736 @@
+{
+ "ts": "2026-11-05T1952Z",
+ "ingest": [],
+ "diff": {
+  "documents": {
+   "oesterreich_gv": {
+    "neu": 146,
+    "entfernt": 2,
+    "geaendert": 1190,
+    "beispiele": {
+     "neu": [
+      "oesterreich_gv:08b2774bf4d8032c8d74cd6f2bd3f771001799ec#1",
+      "oesterreich_gv:08b2774bf4d8032c8d74cd6f2bd3f771001799ec#10",
+      "oesterreich_gv:08b2774bf4d8032c8d74cd6f2bd3f771001799ec#2",
+      "oesterreich_gv:08b2774bf4d8032c8d74cd6f2bd3f771001799ec#3",
+      "oesterreich_gv:08b2774bf4d8032c8d74cd6f2bd3f771001799ec#4"
+     ],
+     "entfernt": [
+      "oesterreich_gv:5bf1fce39c609f51e2aee20862bf5af82ad3781c#3",
+      "oesterreich_gv:79f0267504b703ac10b0234441cf6c5e85668152#4"
+     ],
+     "geaendert": [
+      "oesterreich_gv:000eab47c38ebf6051f8a5956a843f9b509bbabf#1",
+      "oesterreich_gv:0062939eda9ed7c75e679afce376693b1a601204#1",
+      "oesterreich_gv:0062939eda9ed7c75e679afce376693b1a601204#2",
+      "oesterreich_gv:006cb54bb189688a96e648d7f3e8543362181dff#1",
+      "oesterreich_gv:00849e81a73cf8a344208322e57af240ca77c7a6#1"
+     ]
+    }
+   },
+   "pva": {
+    "neu": 242,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "pva:1d6115b4756de7bd287df8e6f6e72bcae871f638#0",
+      "pva:1d6115b4756de7bd287df8e6f6e72bcae871f638#1",
+      "pva:1d6115b4756de7bd287df8e6f6e72bcae871f638#10",
+      "pva:1d6115b4756de7bd287df8e6f6e72bcae871f638#11",
+      "pva:1d6115b4756de7bd287df8e6f6e72bcae871f638#12"
+     ]
+    }
+   },
+   "sozialministeriumservice": {
+    "neu": 136,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "sozialministeriumservice:1b7b25d8856555059553042d9a680f959ca7b3af#0",
+      "sozialministeriumservice:1b7b25d8856555059553042d9a680f959ca7b3af#1",
+      "sozialministeriumservice:1b7b25d8856555059553042d9a680f959ca7b3af#2",
+      "sozialministeriumservice:1b7b25d8856555059553042d9a680f959ca7b3af#3",
+      "sozialministeriumservice:1b7b25d8856555059553042d9a680f959ca7b3af#4"
+     ]
+    }
+   },
+   "svs": {
+    "neu": 58,
+    "entfernt": 69,
+    "geaendert": 1,
+    "beispiele": {
+     "neu": [
+      "svs:980843de23c93f6665c924821776d1ab66aacbf3#0",
+      "svs:980843de23c93f6665c924821776d1ab66aacbf3#1",
+      "svs:980843de23c93f6665c924821776d1ab66aacbf3#10",
+      "svs:980843de23c93f6665c924821776d1ab66aacbf3#11",
+      "svs:980843de23c93f6665c924821776d1ab66aacbf3#2"
+     ],
+     "entfernt": [
+      "svs:2760cc3f9cf3d8b4f53f725716ec144c069ab13e#0",
+      "svs:2760cc3f9cf3d8b4f53f725716ec144c069ab13e#1",
+      "svs:2760cc3f9cf3d8b4f53f725716ec144c069ab13e#10",
+      "svs:2760cc3f9cf3d8b4f53f725716ec144c069ab13e#11",
+      "svs:2760cc3f9cf3d8b4f53f725716ec144c069ab13e#12"
+     ],
+     "geaendert": [
+      "svs:a1ebeb3dd198a3b1e68046188d012b0d4f2dffa2#0"
+     ]
+    }
+   },
+   "wien_ogd": {
+    "neu": 10,
+    "entfernt": 0,
+    "geaendert": 0,
+    "beispiele": {
+     "neu": [
+      "wien_ogd:06615d19b8f521014b3dedf9423b6d6320386dba#0",
+      "wien_ogd:410b71800b8f38f4f34d1e42936a3316c257c7e9#0",
+      "wien_ogd:656de856a03fa27b0f7a2cc58a226736ebbea51f#0",
+      "wien_ogd:7bc6cfeff4775c8581b81a35d167b88973479410#0",
+      "wien_ogd:970b67c853f03e87b20a15421c8d49bcd4ec32d0#0"
+     ]
+    }
+   }
+  },
+  "leistungen": {
+   "neu": [
+    {
+     "leistung_id": "angehoerigen_unterstuetzung_ersatzpflege",
+     "hash": "41ff555a27e2",
+     "sources": [
+      "sozialministeriumservice"
+     ],
+     "status": "kandidat",
+     "name": "Zuwendung zu den Kosten der Ersatzpflege (Unterstützung für pflegende Angehörige)"
+    },
+    {
+     "leistung_id": "behandlungsbeitrag_bvaeb",
+     "hash": "4ef13f72d6f2",
+     "sources": [
+      "bvaeb"
+     ],
+     "status": "kandidat",
+     "name": "Behandlungsbeitrag (BVAEB)"
+    },
+    {
+     "leistung_id": "elternkarenz_mutterschutz",
+     "hash": "eb23010b440b",
+     "sources": [
+      "oesterreich_gv"
+     ],
+     "status": "kandidat",
+     "name": "Mutterschutz, Elternkarenz und Elternteilzeit"
+    },
+    {
+     "leistung_id": "erwachsenenvertretung",
+     "hash": "ae0d1e801128",
+     "sources": [
+      "oesterreich_gv"
+     ],
+     "status": "kandidat",
+     "name": "Erwachsenenvertretung (gesetzlich, gewählt, gerichtlich)"
+    },
+    {
+     "leistung_id": "foerderung_24h_betreuung",
+     "hash": "91df6f807d03",
+     "sources": [
+      "fsw",
+      "gesundheit_gv",
+      "oesterreich_gv",
+      "sozialministeriumservice"
+     ],
+     "status": "konflikt",
+     "name": "Förderung der 24-Stunden-Betreuung"
+    },
+    {
+     "leistung_id": "gesundheitsangebote_svs",
+     "hash": "2c30aa11e918",
+     "sources": [
+      "svs"
+     ],
+     "status": "kandidat",
+     "name": "SVS-Gesundheitsangebote (Gesundheitswochen, Pflegeauszeit, Camps)"
+    },
+    {
+     "leistung_id": "impfungen",
+     "hash": "9fcc360b5581",
+     "sources": [
+      "oegk",
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Impfungen (Kostenübernahme/Angebote)"
+    },
+    {
+     "leistung_id": "krankenstand_fit2work",
+     "hash": "fb399e49151f",
+     "sources": [
+      "oesterreich_gv"
+     ],
+     "status": "kandidat",
+     "name": "Krankenstand, Wiedereingliederung, fit2work"
+    },
+    {
+     "leistung_id": "medizinische_versorgung_sv",
+     "hash": "746e99d928fa",
+     "sources": [
+      "oesterreich_gv"
+     ],
+     "status": "kandidat",
+     "name": "Leistungen der Krankenversicherung / medizinische Versorgung"
+    },
+    {
+     "leistung_id": "mobile_dienste",
+     "hash": "ea7ce4763574",
+     "sources": [
+      "gesundheit_gv",
+      "oesterreich_gv"
+     ],
+     "status": "konflikt",
+     "name": "Mobile Dienste und Hauskrankenpflege"
+    },
+    {
+     "leistung_id": "parkausweis_29b",
+     "hash": "e19467b0a790",
+     "sources": [
+      "sozialministeriumservice"
+     ],
+     "status": "kandidat",
+     "name": "Parkausweis nach § 29b StVO"
+    },
+    {
+     "leistung_id": "pension_allgemein",
+     "hash": "483c5473e2a0",
+     "sources": [
+      "oesterreich_gv"
+     ],
+     "status": "kandidat",
+     "name": "Pension (Alterspension, Pensionskonto)"
+    },
+    {
+     "leistung_id": "pflegeheim",
+     "hash": "2bc1ec0de10a",
+     "sources": [
+      "gesundheit_gv",
+      "oesterreich_gv"
+     ],
+     "status": "kandidat",
+     "name": "Alten- und Pflegeheime"
+    },
+    {
+     "leistung_id": "pflegekarenzgeld",
+     "hash": "d449bf82bd5c",
+     "sources": [
+      "pva",
+      "sozialministeriumservice"
+     ],
+     "status": "kandidat",
+     "name": "Pflegekarenzgeld (Pflegekarenz und Pflegeteilzeit)"
+    },
+    {
+     "leistung_id": "pflegekurse_zuwendung",
+     "hash": "3a0beaaaaf81",
+     "sources": [
+      "sozialministeriumservice"
+     ],
+     "status": "kandidat",
+     "name": "Zuwendung für Pflegekurse (pflegende Angehörige)"
+    },
+    {
+     "leistung_id": "rauchfrei",
+     "hash": "56ce6bffb180",
+     "sources": [
+      "gesundheit_gv",
+      "oegk",
+      "svbox_local"
+     ],
+     "status": "konflikt",
+     "name": "Frei von Tabak und Nikotin"
+    },
+    {
+     "leistung_id": "rehabilitation",
+     "hash": "5b7722627bbb",
+     "sources": [
+      "pva"
+     ],
+     "status": "kandidat",
+     "name": "Medizinische Rehabilitation (PVA)"
+    },
+    {
+     "leistung_id": "uebergangsgeld",
+     "hash": "5379976b238a",
+     "sources": [
+      "pva"
+     ],
+     "status": "kandidat",
+     "name": "Übergangsgeld während der Reha"
+    },
+    {
+     "leistung_id": "unfall_heilbehandlung",
+     "hash": "50979f9deaca",
+     "sources": [
+      "bvaeb",
+      "svs"
+     ],
+     "status": "kandidat",
+     "name": "Leistungen nach Arbeits-/Dienstunfall & Berufskrankheit (BVAEB)"
+    },
+    {
+     "leistung_id": "unterstuetzungsfonds_behinderung",
+     "hash": "2fd8c0e896be",
+     "sources": [
+      "sozialministeriumservice"
+     ],
+     "status": "kandidat",
+     "name": "Unterstützungsfonds für Menschen mit Behinderung"
+    },
+    {
+     "leistung_id": "vorsorgevollmacht",
+     "hash": "e8bc2017e87f",
+     "sources": [
+      "gesundheit_gv",
+      "oesterreich_gv"
+     ],
+     "status": "kandidat",
+     "name": "Vorsorgevollmacht und Erwachsenenvertretung"
+    },
+    {
+     "leistung_id": "zahnbehandlung_zahnersatz",
+     "hash": "fcad927ea687",
+     "sources": [
+      "bvaeb"
+     ],
+     "status": "kandidat",
+     "name": "Zahnbehandlung, Zahnspange & Zahnersatz (BVAEB)"
+    }
+   ],
+   "geaendert": [
+    {
+     "leistung_id": "angehoerigenbonus",
+     "name": "Angehörigenbonus",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oesterreich_gv"
+     ]
+    },
+    {
+     "leistung_id": "angehoerigengespraech",
+     "name": "Angehörigengespräch",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "anschlussheilverfahren",
+     "name": "Anschlussheilverfahren / Reha nach Unfall",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "pva",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "ausgleichszulage",
+     "name": "Ausgleichszulage zur Pension",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "behandlung_im_ausland",
+     "name": "Behandlung im Ausland / Krankenversicherung auf Reisen",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "behindertenpass",
+     "name": "Behindertenpass",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oesterreich_gv",
+      "sozialministeriumservice"
+     ]
+    },
+    {
+     "leistung_id": "besuchs_begleitdienst_wien",
+     "name": "Besuchs- und Begleitdienst (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "bewegt_im_park",
+     "name": "Bewegt im Park",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oegk",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "brustkrebs_frueherkennung",
+     "name": "Brustkrebs-Früherkennungsprogramm „früh erkennen“",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "darmkrebs_frueherkennung",
+     "name": "Darmkrebs-Früherkennung",
+     "quellen_vorher": [
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "elga",
+     "name": "ELGA – Elektronische Gesundheitsakte",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "eltern_kind_pass",
+     "name": "Eltern-Kind-Pass-Untersuchungen",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "erwachsenenvertretung_vollmacht",
+     "name": "Vorsorgevollmacht / Erwachsenenvertretung",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "essen_auf_raedern_wien",
+     "name": "Essen auf Rädern (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "fahrtendienst_fahrtkostenersatz_wien",
+     "name": "Fahrtendienst und Fahrtkostenersatz (Behinderung, Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "fahrtkostenzuschuss",
+     "name": "Zuschuss zu Fahrtkosten (ÖGK Wien)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "familienbeihilfe",
+     "name": "Familienbeihilfe",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oesterreich_gv",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "familienhospizkarenz",
+     "name": "Familienhospizkarenz",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oesterreich_gv",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "fit2work",
+     "name": "fit2work (Beratung zum Erhalt der Arbeitsfähigkeit)",
+     "quellen_vorher": [
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "fsw_pflegeberatung",
+     "name": "FSW-Beratung zu Pflege und Betreuung (Kund:innenservice, Beratungszentrum Pflege und Betreuung)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "gesundheitsberatung_1450",
+     "name": "Gesundheitsberatung 1450",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "gesundheitshunderter_svs",
+     "name": "Gesundheitshunderter (SVS)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "hausarzt_pve",
+     "name": "Hausärztin / Primärversorgungseinheit (PVE)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "hauskrankenpflege_wien",
+     "name": "Hauskrankenpflege (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "heilbehelfe_hilfsmittel",
+     "name": "Heilbehelfe und Hilfsmittel",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "heimhilfe_wien",
+     "name": "Heimhilfe (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "impfungen_erwachsene",
+     "name": "Impfprogramme für Erwachsene",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "kinderbetreuungsgeld",
+     "name": "Kinderbetreuungsgeld",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "oesterreich_gv",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "kinderimpfprogramm",
+     "name": "Kostenloses Kinderimpfprogramm",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "kontinenzberatung_wien",
+     "name": "Kontinenzberatung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "krankengeld",
+     "name": "Krankengeld (BVAEB)",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "krankentransport",
+     "name": "Krankentransport / Krankenbeförderung",
+     "quellen_vorher": [
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "kur",
+     "name": "Kur- und Erholungsaufenthalt",
+     "quellen_vorher": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "pva",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "kurzzeitpflege",
+     "name": "Kurzzeit-, Ersatz- und Urlaubspflege",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "kurzzeitpflege_urlaubspflege_wien",
+     "name": "Urlaubspflege / Kurzzeitpflege (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "medizinische_hauskrankenpflege",
+     "name": "Medizinische Hauskrankenpflege (Wien)",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "mehrstuendige_alltagsbegleitung_wien",
+     "name": "Mehrstündige Alltagsbegleitung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "mitversicherung_angehoerige",
+     "name": "Mitversicherung von Angehörigen",
+     "quellen_vorher": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "mobile_palliativbetreuung_wien",
+     "name": "Mobile Palliativbetreuung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "mobile_pflege_fsw",
+     "name": "Mobile Pflege und Betreuung zu Hause (Wien, FSW)",
+     "quellen_vorher": [
+      "fsw",
+      "gesundheit_gv",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "mundhygiene_kinder",
+     "name": "Gratis-Mundhygiene für Kinder und Jugendliche",
+     "quellen_vorher": [
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "palliativ_hospiz",
+     "name": "Palliativ- und Hospizversorgung",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "patientenverfuegung",
+     "name": "Patientenverfügung",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oesterreich_gv"
+     ]
+    },
+    {
+     "leistung_id": "pflegeberatung",
+     "name": "Pflegeberatung und Beratungsstellen",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "pflegegeld",
+     "name": "Pflegegeld",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oesterreich_gv",
+      "pva",
+      "seed",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "pflegekarenz",
+     "name": "Pflegekarenz / Pflegeteilzeit und Pflegekarenzgeld",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oesterreich_gv",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "pflegende_angehoerige_unterstuetzung",
+     "name": "Unterstützung für pflegende Angehörige (Überblick)",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "pflegende_angehoerige_wien",
+     "name": "Unterstützung für pflegende Angehörige (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "prostatakrebs_frueherkennung",
+     "name": "Prostatakrebs-Früherkennung",
+     "quellen_vorher": [
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "rechnung_einreichen",
+     "name": "Rechnung einreichen (Kostenerstattung online)",
+     "quellen_vorher": [
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "reha_beruflich",
+     "name": "Berufliche Rehabilitation",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "reha_kinder",
+     "name": "Rehabilitation für Kinder und Jugendliche",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "reha_medizinisch",
+     "name": "Rehabilitation (BVAEB)",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "oesterreich_gv",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "reha_onkologisch",
+     "name": "Onkologische Rehabilitation",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "pva",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "reha_pflegende_angehoerige",
+     "name": "Rehabilitation für pflegende Angehörige",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "reha_sozial",
+     "name": "Soziale Rehabilitation",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv"
+     ]
+    },
+    {
+     "leistung_id": "rehabilitationsgeld",
+     "name": "Rehabilitationsgeld",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "oesterreich_gv",
+      "pva",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "remobilisation_wien",
+     "name": "Remobilisation (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "rezeptgebuehrenbefreiung",
+     "name": "Befreiung von der Rezeptgebühr",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "oesterreich_gv",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "rezeptgebuehrenobergrenze",
+     "name": "Rezeptgebührenobergrenze (2 % des Jahresnettoeinkommens)",
+     "quellen_vorher": [
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "selbstaendig_gesund_svs",
+     "name": "Selbständig Gesund (SVS)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "selbsthilfe",
+     "name": "Selbsthilfegruppen",
+     "quellen_vorher": [
+      "gesundheit_gv"
+     ],
+     "quellen_jetzt": [
+      "gesundheit_gv",
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "senior_innen_wg_fsw",
+     "name": "Senior:innen-Wohngemeinschaft (Wien, FSW)",
+     "quellen_vorher": [
+      "fsw",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "sozialhilfe_wien",
+     "name": "Wiener Mindestsicherung (Sozialhilfe)",
+     "quellen_vorher": [
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "oesterreich_gv",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "tageszentren_wien",
+     "name": "Tageszentren für Senior:innen (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "uebergangspflege_wien",
+     "name": "Übergangspflege (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "unterstuetzungsfonds",
+     "name": "Unterstützungsfonds",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "versicherung_pflegende_angehoerige",
+     "name": "Versicherung für pflegende Angehörige",
+     "quellen_vorher": [
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "oesterreich_gv"
+     ]
+    },
+    {
+     "leistung_id": "vollmacht",
+     "name": "Vollmacht (Vertretung gegenüber der ÖGK)",
+     "quellen_vorher": [
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "vorsorgeuntersuchung",
+     "name": "Vorsorgeuntersuchung (Gesundheits-Check)",
+     "quellen_vorher": [
+      "aek_wien",
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "aek_wien",
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "waescheservice_wien",
+     "name": "Wäscheservice-Zustellung (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "wahlarzt_kostenerstattung",
+     "name": "Wahlarzt: Kostenerstattung (Rückerstattung)",
+     "quellen_vorher": [
+      "gesundheit_gv",
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "wochengeld",
+     "name": "Wochengeld (BVAEB)",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "wohn_pflegehaus_fsw",
+     "name": "Wohn- und Pflegehaus (Wien, FSW)",
+     "quellen_vorher": [
+      "fsw",
+      "seed"
+     ],
+     "quellen_jetzt": [
+      "fsw",
+      "seed"
+     ]
+    },
+    {
+     "leistung_id": "wohnhaus_wien",
+     "name": "Wohn- und Pflegehäuser mit Schwerpunkt Wohnen (Wien)",
+     "quellen_vorher": [
+      "fsw"
+     ],
+     "quellen_jetzt": [
+      "fsw"
+     ]
+    },
+    {
+     "leistung_id": "zahnbehandlung",
+     "name": "Zahnbehandlung",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "zahnersatz",
+     "name": "Zahnersatz",
+     "quellen_vorher": [
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "zahnspange_kfo",
+     "name": "Zahnspange / Kieferorthopädie für Kinder („Gratis-Zahnspange“)",
+     "quellen_vorher": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "oegk",
+      "seed",
+      "svbox_local"
+     ]
+    }
+   ],
+   "entfernt": [
+    {
+     "leistung_id": "betreuung_24_stunden",
+     "hash": "730b49f9df5f",
+     "sources": [
+      "gesundheit_gv"
+     ],
+     "status": "kandidat",
+     "name": "24-Stunden-Betreuung (inkl. Förderung)"
+    },
+    {
+     "leistung_id": "darmkrebs_vorsorge",
+     "hash": "d5292b804e78",
+     "sources": [
+      "gesundheit_gv"
+     ],
+     "status": "kandidat",
+     "name": "Darmkrebs-Vorsorge (Früherkennung)"
+    },
+    {
+     "leistung_id": "elga_info",
+     "hash": "a46d30d4cb94",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "ELGA – elektronische Gesundheitsakte"
+    },
+    {
+     "leistung_id": "foerderung_24h_betreuung_extern",
+     "hash": "f1aab7097533",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "24-Stunden-Betreuung: Förderung (nicht über den FSW – Verweis Sozialministeriumservice)"
+    },
+    {
+     "leistung_id": "gesundheitstelefon_1450",
+     "hash": "2af612816b95",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Telefonische Gesundheitsberatung 1450"
+    },
+    {
+     "leistung_id": "hausarzt_primaerversorgung",
+     "hash": "01e2618b4e8e",
+     "sources": [
+      "gesundheit_gv"
+     ],
+     "status": "kandidat",
+     "name": "Hausärzt:in und Primärversorgung"
+    },
+    {
+     "leistung_id": "krankentransport_fahrtkosten",
+     "hash": "6c1f35946f2d",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Krankentransporte und Fahrtkosten"
+    },
+    {
+     "leistung_id": "kur_aufenthalt",
+     "hash": "584ab50e5bdb",
+     "sources": [
+      "gesundheit_gv"
+     ],
+     "status": "kandidat",
+     "name": "Kur (Kuraufenthalt)"
+    },
+    {
+     "leistung_id": "medizinische_hauskrankenpflege_wien",
+     "hash": "2b80f176b108",
+     "sources": [
+      "fsw"
+     ],
+     "status": "kandidat",
+     "name": "Medizinische Hauskrankenpflege (Wien)"
+    },
+    {
+     "leistung_id": "nikotinfrei_rauchfrei",
+     "hash": "478fd36ed0d2",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Rauchfrei-/Nikotinfrei-Angebote (Rauchfrei Telefon)"
+    },
+    {
+     "leistung_id": "pflegeheim_tageszentrum",
+     "hash": "a2e69d0a3322",
+     "sources": [
+      "gesundheit_gv"
+     ],
+     "status": "kandidat",
+     "name": "Pflegeheime und Tageszentren"
+    },
+    {
+     "leistung_id": "prostata_frueherkennung",
+     "hash": "1fbbc699a777",
+     "sources": [
+      "gesundheit_gv"
+     ],
+     "status": "kandidat",
+     "name": "Prostatakrebs-Früherkennung"
+    },
+    {
+     "leistung_id": "rauchfrei_programm",
+     "hash": "0c064e9563d2",
+     "sources": [
+      "svbox_local"
+     ],
+     "status": "kandidat",
+     "name": "Frei von Tabak und Nikotin"
+    },
+    {
+     "leistung_id": "rauchfrei_telefon",
+     "hash": "c7e9232e0b1c",
+     "sources": [
+      "gesundheit_gv"
+     ],
+     "status": "kandidat",
+     "name": "Rauchfrei Telefon"
+    },
+    {
+     "leistung_id": "selbsthilfegruppen",
+     "hash": "c84b48e0b744",
+     "sources": [
+      "oegk"
+     ],
+     "status": "kandidat",
+     "name": "Selbsthilfegruppen"
+    }
+   ],
+   "status": [
+    {
+     "leistung_id": "anschlussheilverfahren",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "behindertenpass",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "elga",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "erwachsenenvertretung_vollmacht",
+     "von": "kuratiert+quellen",
+     "nach": "kuratiert"
+    },
+    {
+     "leistung_id": "familienbeihilfe",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "familienhospizkarenz",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "gesundheitshunderter_svs",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "hausarzt_pve",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "heilbehelfe_hilfsmittel",
+     "von": "kuratiert+quellen",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "krankentransport",
+     "von": "kuratiert+quellen",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "kur",
+     "von": "kuratiert+quellen",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "medizinische_hauskrankenpflege",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "mobile_pflege_fsw",
+     "von": "konflikt",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "pflegegeld",
+     "von": "kuratiert+quellen",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "reha_medizinisch",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "reha_onkologisch",
+     "von": "kuratiert",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "rezeptgebuehrenbefreiung",
+     "von": "kuratiert+quellen",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "selbstaendig_gesund_svs",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "selbsthilfe",
+     "von": "kandidat",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "sozialhilfe_wien",
+     "von": "kuratiert",
+     "nach": "kuratiert+quellen"
+    },
+    {
+     "leistung_id": "vorsorgeuntersuchung",
+     "von": "kuratiert+quellen",
+     "nach": "konflikt"
+    },
+    {
+     "leistung_id": "wochengeld",
+     "von": "kandidat",
+     "nach": "konflikt"
+    }
+   ]
+  },
+  "stellen": {
+   "neu": 9186,
+   "entfernt": 48,
+   "geaendert": 0
+  },
+  "formulare": {
+   "neu": 76,
+   "entfernt": 25,
+   "geaendert": 877
+  },
+  "formulare_geaendert": [
+   "aek_wien_009ee10800",
+   "aek_wien_017aa3e8f2",
+   "aek_wien_027344a8c7",
+   "aek_wien_037655d199",
+   "aek_wien_053cad683d",
+   "aek_wien_05613bd937",
+   "aek_wien_05db9806fb",
+   "aek_wien_05f01728ee",
+   "aek_wien_06839f51bf",
+   "aek_wien_0691d3fedb",
+   "aek_wien_06aa956d7c",
+   "aek_wien_06ae7bba7b",
+   "aek_wien_06c906a106",
+   "aek_wien_06fb296972",
+   "aek_wien_07769f5fe0",
+   "aek_wien_08332b00ae",
+   "aek_wien_08c712d4e0",
+   "aek_wien_0909be2330",
+   "aek_wien_0a5711d177",
+   "aek_wien_0ac91d3aa1",
+   "aek_wien_0b8a99a51a",
+   "aek_wien_0c419806ff",
+   "aek_wien_0d1acae98a",
+   "aek_wien_10f76674f1",
+   "aek_wien_13af345dcd",
+   "aek_wien_143bbe0a23",
+   "aek_wien_160aef28ca",
+   "aek_wien_182621444b",
+   "aek_wien_189d94f619",
+   "aek_wien_18b3d95144",
+   "aek_wien_19260ce58c",
+   "aek_wien_19ada6470f",
+   "aek_wien_1a189a0cb4",
+   "aek_wien_1aa169ca41",
+   "aek_wien_1af52488d4",
+   "aek_wien_1be4de9650",
+   "aek_wien_1c672bb29f",
+   "aek_wien_1c850d93bc",
+   "aek_wien_1dd43b5676",
+   "aek_wien_1dfb3663a3",
+   "aek_wien_1fabd3e130",
+   "aek_wien_2047be04ab",
+   "aek_wien_217ce09a56",
+   "aek_wien_224c5c0d56",
+   "aek_wien_23ddd0b8ee",
+   "aek_wien_23f2e83fdf",
+   "aek_wien_2475283340",
+   "aek_wien_279ec84489",
+   "aek_wien_296613fd9f",
+   "aek_wien_29728fc349",
+   "aek_wien_2bbe04e0bb",
+   "aek_wien_2db9be26f1",
+   "aek_wien_2e274f1540",
+   "aek_wien_2e3231d579",
+   "aek_wien_2ef77a9d5b",
+   "aek_wien_3153cd43cc",
+   "aek_wien_3193d67f57",
+   "aek_wien_33b03a397c",
+   "aek_wien_343160eb49",
+   "aek_wien_34390d239a",
+   "aek_wien_347d647fb4",
+   "aek_wien_34bd137063",
+   "aek_wien_34d4a0591d",
+   "aek_wien_3587381229",
+   "aek_wien_37e4861c21",
+   "aek_wien_38c85b30ab",
+   "aek_wien_38ec6f1ad3",
+   "aek_wien_39bfed70c7",
+   "aek_wien_3ae0435dd7",
+   "aek_wien_3c9c0d7d72",
+   "aek_wien_3cc3bcb4f0",
+   "aek_wien_3ecd426314",
+   "aek_wien_3f1bb13344",
+   "aek_wien_3f271bb31a",
+   "aek_wien_3f4dc85ea8",
+   "aek_wien_40e1659984",
+   "aek_wien_463e85ea9d",
+   "aek_wien_4721635d1b",
+   "aek_wien_486c716983",
+   "aek_wien_4f2531f828",
+   "aek_wien_4f52a6b1e7",
+   "aek_wien_4f81a06310",
+   "aek_wien_51c23972c0",
+   "aek_wien_51d12bc2d8",
+   "aek_wien_5207a5a6f0",
+   "aek_wien_522855074c",
+   "aek_wien_527fa2c9e8",
+   "aek_wien_52e0bab356",
+   "aek_wien_535f991a58",
+   "aek_wien_53de550e30",
+   "aek_wien_5475ae5c74",
+   "aek_wien_55fa30a60a",
+   "aek_wien_58a697659c",
+   "aek_wien_5b80a0f549",
+   "aek_wien_5b950a91cd",
+   "aek_wien_5c839f6370",
+   "aek_wien_5cd6f780d1",
+   "aek_wien_5f1bf9b9b0",
+   "aek_wien_5f579d26bf",
+   "aek_wien_5fbddb01c8",
+   "aek_wien_61593c8752",
+   "aek_wien_620fc6f352",
+   "aek_wien_628d7aaeeb",
+   "aek_wien_65012c936e",
+   "aek_wien_657478d6e1",
+   "aek_wien_66eb68e787",
+   "aek_wien_67d90c8d9d",
+   "aek_wien_685baa0d40",
+   "aek_wien_6914913f34",
+   "aek_wien_6a2d17e2f5",
+   "aek_wien_6b54b6ec7f",
+   "aek_wien_6bf1e15ed6",
+   "aek_wien_6cee8b67a9",
+   "aek_wien_6d09925db0",
+   "aek_wien_6f8b8da4e3",
+   "aek_wien_70b14605c1",
+   "aek_wien_70e136afde",
+   "aek_wien_7222a98052",
+   "aek_wien_7275a3becb",
+   "aek_wien_74390de914",
+   "aek_wien_7473aa22a5",
+   "aek_wien_75a79b2689",
+   "aek_wien_75ab24571d",
+   "aek_wien_78785d7420",
+   "aek_wien_7aa851c24a",
+   "aek_wien_7afbc63ceb",
+   "aek_wien_7cfc5e9c52",
+   "aek_wien_7dfb39c802",
+   "aek_wien_7e4fd2f333",
+   "aek_wien_80e4a5b10f",
+   "aek_wien_813bd7043b",
+   "aek_wien_81e1915eef",
+   "aek_wien_83d43d8941",
+   "aek_wien_84592728ea",
+   "aek_wien_866859d197",
+   "aek_wien_8875a1b431",
+   "aek_wien_892202cbc3",
+   "aek_wien_8a4674b494",
+   "aek_wien_8a5b6128eb",
+   "aek_wien_8c8acd39c7",
+   "aek_wien_916d14ebee",
+   "aek_wien_95b6b37a0d",
+   "aek_wien_963f2002df",
+   "aek_wien_9675db2ecc",
+   "aek_wien_9794da2f7e",
+   "aek_wien_98346bb7f4",
+   "aek_wien_9983329adc",
+   "aek_wien_9a19c68a4a",
+   "aek_wien_9b85e012ea",
+   "aek_wien_9c14452b16",
+   "aek_wien_9c473628b7",
+   "aek_wien_9ee3c9272d",
+   "aek_wien_a1dd6882db",
+   "aek_wien_a36685077e",
+   "aek_wien_a3f2c832c0",
+   "aek_wien_a40e85c19d",
+   "aek_wien_a49d3fdb31",
+   "aek_wien_a4fb11114b",
+   "aek_wien_a53a0a24cb",
+   "aek_wien_a6e73197b5",
+   "aek_wien_a7e2be326e",
+   "aek_wien_a9b3356687",
+   "aek_wien_a9f307e14c",
+   "aek_wien_aa310ff3b6",
+   "aek_wien_ab2acb844d",
+   "aek_wien_ab75acf8f2",
+   "aek_wien_aba8b8c804",
+   "aek_wien_ac2226d911",
+   "aek_wien_ad48e669f9",
+   "aek_wien_adc61ea3fd",
+   "aek_wien_ae92a01b09",
+   "aek_wien_aefa44b674",
+   "aek_wien_b004e1085e",
+   "aek_wien_b11dfdd3ba",
+   "aek_wien_b1b0793920",
+   "aek_wien_b3524e640b",
+   "aek_wien_b39264ca0f",
+   "aek_wien_b84d86af8a",
+   "aek_wien_b9760f2180",
+   "aek_wien_ba383b21db",
+   "aek_wien_bc82ebc47c",
+   "aek_wien_bf0ee0f9f6",
+   "aek_wien_c03c0c189c",
+   "aek_wien_c06c198bd0",
+   "aek_wien_c1b9e65911",
+   "aek_wien_c2837d1c79",
+   "aek_wien_c2f5b48ae3",
+   "aek_wien_c30869e4d6",
+   "aek_wien_c438d63de4",
+   "aek_wien_c4488f0e0e",
+   "aek_wien_c465e45054",
+   "aek_wien_c49889cab1",
+   "aek_wien_c4cda22075",
+   "aek_wien_c4e48cf2ec",
+   "aek_wien_c50f4a13b3",
+   "aek_wien_c5e725a2a6",
+   "aek_wien_c6ba450421",
+   "aek_wien_c72e1130f6",
+   "aek_wien_c9b51222b0",
+   "aek_wien_ca1c62eae0",
+   "aek_wien_caea3f42f9",
+   "aek_wien_cbd903f601",
+   "aek_wien_cc5f894a81",
+   "aek_wien_cc8a3e8160",
+   "aek_wien_cff8d17be4",
+   "aek_wien_d12cc20e80",
+   "aek_wien_d1fa1baaea",
+   "aek_wien_d3a3e0aa14",
+   "aek_wien_d48c937790",
+   "aek_wien_d4af35c781",
+   "aek_wien_d571977397",
+   "aek_wien_d5e460cf2e",
+   "aek_wien_d6c6b1ed05",
+   "aek_wien_d7c0c46b95",
+   "aek_wien_d8fdff5203",
+   "aek_wien_da53da52fb",
+   "aek_wien_daf75c362c",
+   "aek_wien_dbfb7c1360",
+   "aek_wien_dc3a894590",
+   "aek_wien_dc6e015f5d",
+   "aek_wien_dc99097197",
+   "aek_wien_dcebf49bd9",
+   "aek_wien_de49f79adf",
+   "aek_wien_de555dd12b",
+   "aek_wien_de802befe0",
+   "aek_wien_deb583b1d7",
+   "aek_wien_df97cfd88e",
+   "aek_wien_df9cb73699",
+   "aek_wien_dfa4bae022",
+   "aek_wien_e0107c8857",
+   "aek_wien_e03b156d29",
+   "aek_wien_e0d56232c0",
+   "aek_wien_e11e533b18",
+   "aek_wien_e30d7aad54",
+   "aek_wien_e551ba8639",
+   "aek_wien_e625c30995",
+   "aek_wien_e6dcc080bf",
+   "aek_wien_e6e75a0d01",
+   "aek_wien_e77dc0c724",
+   "aek_wien_e7989403f4",
+   "aek_wien_e84f15e32f",
+   "aek_wien_ea94fd1c96",
+   "aek_wien_ead62acc0f",
+   "aek_wien_eadd9d7a57",
+   "aek_wien_eae343260d",
+   "aek_wien_eb04e1ad56",
+   "aek_wien_ebb0128d90",
+   "aek_wien_ee921f5eb0",
+   "aek_wien_eea8a6971c",
+   "aek_wien_eebcc95bae",
+   "aek_wien_f122ba4ddb",
+   "aek_wien_f16f2af3ed",
+   "aek_wien_f20d99692e",
+   "aek_wien_f30fa6738d",
+   "aek_wien_f3529b336c",
+   "aek_wien_f36498083e",
+   "aek_wien_f3fe95b011",
+   "aek_wien_f5c6fbec34",
+   "aek_wien_f6233047e3",
+   "aek_wien_f6a6f74086",
+   "aek_wien_f6bcec3222",
+   "aek_wien_f844574d11",
+   "aek_wien_fa4c4e1781",
+   "aek_wien_fba8fa0d6d",
+   "aek_wien_fc42988a58",
+   "aek_wien_fd4440f114",
+   "aek_wien_fe896e5e2f",
+   "antrag_ahv_reha_unfall",
+   "antrag_reha_kur",
+   "bvaeb_00501224a1",
+   "bvaeb_0069d3b964",
+   "bvaeb_01f1a165be",
+   "bvaeb_051b400811",
+   "bvaeb_065d8e895c",
+   "bvaeb_0796027fc5",
+   "bvaeb_09a734f07d",
+   "bvaeb_0a67df4f3c",
+   "bvaeb_0e8b94fa7e",
+   "bvaeb_1098f9c623",
+   "bvaeb_1160a66e7f",
+   "bvaeb_11bea07cd0",
+   "bvaeb_12273d96ca",
+   "bvaeb_1240b06894",
+   "bvaeb_1403d06bcc",
+   "bvaeb_1697155509",
+   "bvaeb_1763dc833a",
+   "bvaeb_1a12297bd6",
+   "bvaeb_1c0f8f8d3a",
+   "bvaeb_1ce2e2b953",
+   "bvaeb_1d58dc8ef5",
+   "bvaeb_1f57895949",
+   "bvaeb_200740a15e",
+   "bvaeb_24be11517a",
+   "bvaeb_25ea3a3b7e",
+   "bvaeb_28933110ef",
+   "bvaeb_2aa6b404c4",
+   "bvaeb_2add9649c4",
+   "bvaeb_2bee139ee9",
+   "bvaeb_2c29fc0963",
+   "bvaeb_2dfe2f7289",
+   "bvaeb_2ed325adef",
+   "bvaeb_2f55cae04c",
+   "bvaeb_33a743386a",
+   "bvaeb_38a634851e",
+   "bvaeb_3982561d24",
+   "bvaeb_39db4d00e5",
+   "bvaeb_3ba0bf7a74",
+   "bvaeb_3c8c30e96f",
+   "bvaeb_3e9a8e5f48",
+   "bvaeb_404c4f26c0",
+   "bvaeb_41067e7420",
+   "bvaeb_410bedf9c6",
+   "bvaeb_4145947546",
+   "bvaeb_422efd0a45",
+   "bvaeb_446cc3f70c",
+   "bvaeb_45a5fbabcb",
+   "bvaeb_45b0e6c87e",
+   "bvaeb_4677209e4a",
+   "bvaeb_46ab629411",
+   "bvaeb_47c564ebf1",
+   "bvaeb_4883707c21",
+   "bvaeb_4c1a6be17c",
+   "bvaeb_4c64d23b39",
+   "bvaeb_511d7d28c5",
+   "bvaeb_525f68e91e",
+   "bvaeb_5419fbbbb8",
+   "bvaeb_54d957616b",
+   "bvaeb_5527680de4",
+   "bvaeb_58839a0196",
+   "bvaeb_5883d051d5",
+   "bvaeb_589cfcaaff",
+   "bvaeb_58c754344f",
+   "bvaeb_592bed5bec",
+   "bvaeb_5a1a9fa3be",
+   "bvaeb_5bc6b8dffc",
+   "bvaeb_5d0b1eec8a",
+   "bvaeb_5d4d098e01",
+   "bvaeb_5ddb0e4c68",
+   "bvaeb_5e7a0bd8bd",
+   "bvaeb_5e7d1d0757",
+   "bvaeb_5eabd48dc1",
+   "bvaeb_62785f5165",
+   "bvaeb_68226d72c0",
+   "bvaeb_68d39081bb",
+   "bvaeb_6939ede31c",
+   "bvaeb_6b46aa00ab",
+   "bvaeb_6c842c2f57",
+   "bvaeb_6d5e00c135",
+   "bvaeb_6dbed3cbf9",
+   "bvaeb_716bea428e",
+   "bvaeb_728da5a3aa",
+   "bvaeb_75188697d2",
+   "bvaeb_757a5ac305",
+   "bvaeb_781c18ad0f",
+   "bvaeb_79d36c1b4d",
+   "bvaeb_79d4a5a1ef",
+   "bvaeb_7fc8ec1068",
+   "bvaeb_82e5d4f0a4",
+   "bvaeb_843ea0d2d1",
+   "bvaeb_86a3bfe0c1",
+   "bvaeb_87c3dbbce0",
+   "bvaeb_88631596f5",
+   "bvaeb_896332b9b5",
+   "bvaeb_8a46949f88",
+   "bvaeb_8a92793171",
+   "bvaeb_8ad4444169",
+   "bvaeb_8c8a1f4aa2",
+   "bvaeb_9096928de6",
+   "bvaeb_915e26012b",
+   "bvaeb_92ce5203f6",
+   "bvaeb_93f298bd73",
+   "bvaeb_95328111e5",
+   "bvaeb_973523a26f",
+   "bvaeb_988eb10ec0",
+   "bvaeb_98ad753e16",
+   "bvaeb_9a53bc924e",
+   "bvaeb_9b960a7c46",
+   "bvaeb_9d7f0d0bf6",
+   "bvaeb_9dd45ff4e4",
+   "bvaeb_9e4c8a0a44",
+   "bvaeb_a0ee6b64e7",
+   "bvaeb_a338941990",
+   "bvaeb_a4623cc302",
+   "bvaeb_a676b72d7b",
+   "bvaeb_a75a07408c",
+   "bvaeb_a767871cbd",
+   "bvaeb_a950d4ed52",
+   "bvaeb_aa243f7fe3",
+   "bvaeb_ab4e6964a7",
+   "bvaeb_abc51fffe6",
+   "bvaeb_ac0155333c",
+   "bvaeb_ae64677c4d",
+   "bvaeb_af85004bfd",
+   "bvaeb_afe551a62b",
+   "bvaeb_b2dd2d5803",
+   "bvaeb_b3a645b562",
+   "bvaeb_b492dbff04",
+   "bvaeb_b49ce15e03",
+   "bvaeb_b810982b07",
+   "bvaeb_b92af1405b",
+   "bvaeb_b94c860ce4",
+   "bvaeb_b98a28852d",
+   "bvaeb_bb7ad8f6dc",
+   "bvaeb_bc56f75b63",
+   "bvaeb_c3b9f02942",
+   "bvaeb_c467dab2e3",
+   "bvaeb_c5d27cd9ce",
+   "bvaeb_c5da34e556",
+   "bvaeb_c616b64ba9",
+   "bvaeb_c89cfafb3f",
+   "bvaeb_c9064265c8",
+   "bvaeb_cc7106506f",
+   "bvaeb_d215f68314",
+   "bvaeb_d3f6e376f9",
+   "bvaeb_d44d39fd77",
+   "bvaeb_d4d77f7781",
+   "bvaeb_d5a2626631",
+   "bvaeb_d5d8b8b408",
+   "bvaeb_d85e66af90",
+   "bvaeb_d94f955fd5",
+   "bvaeb_d9d797a31a",
+   "bvaeb_da378a824e",
+   "bvaeb_da8753ba8e",
+   "bvaeb_db7f70fdbb",
+   "bvaeb_dc0837de70",
+   "bvaeb_dc6191e970",
+   "bvaeb_dc951b7f88",
+   "bvaeb_dd7edaf5bf",
+   "bvaeb_ddef6b67b1",
+   "bvaeb_e1c18f2dc6",
+   "bvaeb_e1e370212a",
+   "bvaeb_e2631888a4",
+   "bvaeb_e2e49d8c39",
+   "bvaeb_e4dfda0dbe",
+   "bvaeb_e5895eef67",
+   "bvaeb_e827f16987",
+   "bvaeb_eb2935e819",
+   "bvaeb_ebb13335c2",
+   "bvaeb_ecdbea0b2a",
+   "bvaeb_ed659af645",
+   "bvaeb_ee40fab5eb",
+   "bvaeb_ef3e056d8c",
+   "bvaeb_f02f463367",
+   "bvaeb_f0cff6a120",
+   "bvaeb_f0fdd1ddcc",
+   "bvaeb_f12eb49a57",
+   "bvaeb_f20302ae3f",
+   "bvaeb_f287b8a439",
+   "bvaeb_f2f5519e61",
+   "bvaeb_f39df4b02c",
+   "bvaeb_f4af63fcaf",
+   "bvaeb_fbefa3ab2b",
+   "bvaeb_fe7b5d744c",
+   "fsw_240315_verwendungsnachweis_dl_halbjaehrlich_handschriftlich_bf",
+   "fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf",
+   "fsw_240315_verwendungsnachweis_monatlich_handschriftlich_bf",
+   "fsw_anliegen_fsw_interaktiv",
+   "fsw_antrag_auf_aenderung_bzw_verlaengerung_der_foerderung",
+   "fsw_antrag_auf_ratenzahlung",
+   "fsw_antrag_beilage_angehoerige",
+   "fsw_antrag_beilage_freizeitfahrtendienst",
+   "fsw_antrag_beilage_personengemeinschaft",
+   "fsw_antrag_foerderung",
+   "fsw_antrag_foerderung_klimaticket",
+   "fsw_antrag_pflegegeldergaenzungsleistung_erhoehung_neubemessung_pge",
+   "fsw_antrag_pflegegeldergaenzungsleistung_verlaengerung_pge",
+   "fsw_ausfuellhilfe",
+   "fsw_bedarfsmeldung_wg",
+   "fsw_befundbericht_kinder",
+   "fsw_befundbericht_wohnen_und_pflege",
+   "fsw_einrichtungswunsch",
+   "fsw_haftungserklaerung",
+   "fsw_information_zum_verwendungsnachweis_pge_fuer_pa_bf",
+   "fsw_jahreskarte_der_wl_fuer_gehoerlose_menschen",
+   "fsw_mobile_fruehfoerderung",
+   "fsw_pge_pa_antrag_handschriftlich",
+   "fsw_sepa_lastschriftmandat",
+   "fsw_vollmacht",
+   "oegk_aktuellen_erstattungssaetze",
+   "oegk_alkoholfragebogen_vu",
+   "oegk_allgemeine_gesundheitsfragen",
+   "oegk_anamnesebogen_vu",
+   "oegk_antrag_auf_familienzuschlag",
+   "oegk_antrag_auf_kostenuebernahme_gemaess_anlage_4",
+   "oegk_antrag_selbsthilfegruppen_und_selbsthilfeorganisationen",
+   "oegk_antrag_verbaende_und_kontaktstellen",
+   "oegk_au_meldung",
+   "oegk_au_meldung_fuer_kundencenter",
+   "oegk_augenoptik_unmittelbare_verordnung",
+   "oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan",
+   "oegk_ausfuellhilfe_antrag_verbaende_und_kontaktstellen",
+   "oegk_ausschluss_doppelfoerderung",
+   "oegk_befundblatt_neu_vu",
+   "oegk_bestaetigung_der_aerztlichen_untersuchung_bei_inanspruchnahm",
+   "oegk_bestaetigung_ueber_voraussichtlichen_entbindungstermin",
+   "oegk_bewegt_im_park_bericht_zur_evaluation_2026",
+   "oegk_bewegungsbroschuere_gesunder_ruecken",
+   "oegk_bewilligung_fuer_zahnbehandlung",
+   "oegk_ct_zuweisung",
+   "oegk_dokumentationsblatt_pap_vu",
+   "oegk_e_card_ersatzbeleg",
+   "oegk_einmalspritzen_und_einmalnadeln",
+   "oegk_ergotherapie_vertragspartner",
+   "oegk_erklaerung",
+   "oegk_erste_hilfe_fuer_die_seele",
+   "oegk_fahrtkosten_wien",
+   "oegk_fertig_ausdruckenund_per_post_schicken",
+   "oegk_foerderleitfaden",
+   "oegk_fragebogen_zur_anamnese_krankengeschichte",
+   "oegk_genehmigung_fuer_grosse_psychotherapie",
+   "oegk_gratis_zahnspange_fuer_kinder_jugendliche",
+   "oegk_ich_sorg_vor_frauen_18_bis_49",
+   "oegk_ich_sorg_vor_frauen_ab_50",
+   "oegk_ich_sorg_vor_maenner_18_bis_49",
+   "oegk_ich_sorg_vor_maenner_ab_50",
+   "oegk_infoblatt",
+   "oegk_informationen_zur_frueherkennung_von_brustkrebs",
+   "oegk_informationen_zur_frueherkennung_von_gebaermutterhalskrebs",
+   "oegk_informationen_zur_frueherkennung_von_prostatakrebs",
+   "oegk_informationsblatt_unterstuetzungsfonds",
+   "oegk_kieferorthopaedie",
+   "oegk_kieferorthopaedie_vertragspartner_innen",
+   "oegk_kieferorthopaedie_wahlbehandler_innen",
+   "oegk_koloskopie_vu",
+   "oegk_kostenuebernahme_fuer_zahnersatz",
+   "oegk_kostenuebernahme_kieferorthopaedische_behandlung",
+   "oegk_kostenzuschuss_psychotherapeutische_behandlung",
+   "oegk_krankentransportwagen",
+   "oegk_labor_pathologie_zuweisung_vu",
+   "oegk_labor_zuweisung",
+   "oegk_leeres_formularherunterladen",
+   "oegk_listeherunterladen",
+   "oegk_logopaedie_vertragspartner",
+   "oegk_mahlzeitenteller_jugendliche",
+   "oegk_medizinische_hauskrankenpflege",
+   "oegk_meine_selbstversicherung_fuer_studierende_details",
+   "oegk_meldung_mutterschaftshilfe",
+   "oegk_momente_fuer_mich_tagebuch",
+   "oegk_mr_zuweisung",
+   "oegk_multimodale_schmerztherapie_blackroll",
+   "oegk_multimodale_schmerztherapie_dehnung",
+   "oegk_multimodale_schmerztherapie_entlastung",
+   "oegk_multimodale_schmerztherapie_gleichgewicht",
+   "oegk_multimodale_schmerztherapie_liegen",
+   "oegk_multimodale_schmerztherapie_mobilisation",
+   "oegk_multimodale_schmerztherapie_pezziball",
+   "oegk_multimodale_schmerztherapie_sitzen",
+   "oegk_multimodale_schmerztherapie_theraband",
+   "oegk_multimodale_schmerztherapie_tiefenspannung",
+   "oegk_my_self_insurance_for_students_details",
+   "oegk_ordinationsbedarf_spezialitaeten",
+   "oegk_ordinationsbedarf_verbandstoffe",
+   "oegk_pauschbetraege",
+   "oegk_physikalische_medizin_und_rehabilitation_wien",
+   "oegk_physikalische_medizin_vertragsinstitute",
+   "oegk_physiotherapie_vertragspartner",
+   "oegk_psychotherapie_vertragspartner",
+   "oegk_richtlinien",
+   "oegk_roe_zuweisung",
+   "oegk_roe_zuweisung_vu",
+   "oegk_selbstversicherung_bei_geringfuegiger_beschaeftigung_details",
+   "oegk_selbstversicherung_in_der_krankenversicherung_details",
+   "oegk_self_insurance_coverage_for_health_insurance_details",
+   "oegk_self_insurance_for_marginal_employment_details",
+   "oegk_spitalszuweisung",
+   "oegk_tarife_der_oegk_zahngesundheitszentren",
+   "oegk_tipps_wie_erholen_sie_sich_am_besten",
+   "oegk_trainingsplan_multimodale_schmerztherapie",
+   "oegk_ueberweisung",
+   "oegk_uebung_in_die_stille_lauschen",
+   "oegk_uebung_kleine_atemmeditation",
+   "oegk_uebung_mehr_mut_fuer_mich",
+   "oegk_uebung_positive_beziehungen_pflegen",
+   "oegk_vertragsfahrtendienst",
+   "oegk_vertretungsschein",
+   "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
+   "oegk_vo_fuer_sehbehelfe_und_augenprothesen",
+   "oegk_vo_zu_physikalischen_behandlungen",
+   "oegk_vorlage_mittelverwendung",
+   "oegk_wahlergotherapeutenlisten",
+   "oegk_wahllogopaeden",
+   "oegk_wahlphysiotherapeutenliste",
+   "oegk_weniger_schmerzen_besser_leben",
+   "oegk_wie_geht_es_mir",
+   "oegk_zeitbestaetigung_fuer_dienstgeber",
+   "oegv_form_233",
+   "pva_pal080",
+   "svs_0070dd8de1",
+   "svs_020a5678d0",
+   "svs_02a6e5560a",
+   "svs_053ab8caef",
+   "svs_055ffc706d",
+   "svs_05ba22bfec",
+   "svs_0857765cf6",
+   "svs_087aa96b7f",
+   "svs_08c67b09d4",
+   "svs_08f6632c05",
+   "svs_0a20090f43",
+   "svs_0ab0eb276b",
+   "svs_0ab29d9bdf",
+   "svs_0b0397c909",
+   "svs_0c5aa467a0",
+   "svs_0c79a28a3b",
+   "svs_0d0837efe6",
+   "svs_0d739443f8",
+   "svs_0ddb8c08eb",
+   "svs_0e5d3a75a7",
+   "svs_0f3e57a9a6",
+   "svs_10e1c7f77f",
+   "svs_119da7417b",
+   "svs_121801c48a",
+   "svs_12cf32e0b3",
+   "svs_135b6ca309",
+   "svs_1411e7434f",
+   "svs_159bd0ebce",
+   "svs_165250e244",
+   "svs_173140ab20",
+   "svs_17a00dd106",
+   "svs_1a47a1e71a",
+   "svs_1b61761d5c",
+   "svs_1c3976a941",
+   "svs_1c72512e1b",
+   "svs_1d9377fa4c",
+   "svs_1f3d9bab8d",
+   "svs_1fa1b79e09",
+   "svs_1ff5c611a9",
+   "svs_2084babeec",
+   "svs_21857ba383",
+   "svs_2260a44917",
+   "svs_242f379243",
+   "svs_252bb97593",
+   "svs_267ca5f971",
+   "svs_27deb3a04c",
+   "svs_295e174633",
+   "svs_2995b69651",
+   "svs_29a2c56be7",
+   "svs_29dfd03b3c",
+   "svs_2a5d79d382",
+   "svs_2a7ede4498",
+   "svs_2b6b6b97a2",
+   "svs_2b74591a7a",
+   "svs_2c0f5c2465",
+   "svs_2cbcc28731",
+   "svs_2edfe7df48",
+   "svs_2f0c2c8cee",
+   "svs_2f7b56fd2b",
+   "svs_307139b381",
+   "svs_31a2409f9b",
+   "svs_3279cb3c96",
+   "svs_346feb4ecf",
+   "svs_361135b683",
+   "svs_3675e2dcc1",
+   "svs_37916134ae",
+   "svs_37975c4cb5",
+   "svs_37a0a4e492",
+   "svs_3a04319e80",
+   "svs_3b575deede",
+   "svs_3c84fa8684",
+   "svs_3cb811755f",
+   "svs_3cf19bb39a",
+   "svs_3e89a7492c",
+   "svs_3f90063303",
+   "svs_41a31dc531",
+   "svs_43c09993d6",
+   "svs_44d3928abe",
+   "svs_451862d725",
+   "svs_45ddb57b0a",
+   "svs_46d47f7de6",
+   "svs_46eb402b69",
+   "svs_472195c587",
+   "svs_476c8ae372",
+   "svs_49018a6cbe",
+   "svs_49c8a54594",
+   "svs_4abe172341",
+   "svs_4b6dd6cdf1",
+   "svs_4c92497fe9",
+   "svs_4ce64bed8c",
+   "svs_5118c37e30",
+   "svs_51ed947fa5",
+   "svs_53077939af",
+   "svs_53c4ad582c",
+   "svs_5654837c3a",
+   "svs_569414ac79",
+   "svs_572e3a1873",
+   "svs_5aed63facc",
+   "svs_5b5418ab90",
+   "svs_5be35306a3",
+   "svs_5cc4906ec2",
+   "svs_5db13e8d84",
+   "svs_5e55aeb0bb",
+   "svs_5ea664782c",
+   "svs_5ea82d7f9c",
+   "svs_6077b075b0",
+   "svs_61a9860dc4",
+   "svs_61fa0aab81",
+   "svs_62426fce0d",
+   "svs_64d7a2fa52",
+   "svs_653977d251",
+   "svs_65616c1550",
+   "svs_656578596c",
+   "svs_65b6094c70",
+   "svs_69fb6a8e11",
+   "svs_6bb2c05b5b",
+   "svs_6ccf6e8ab4",
+   "svs_6d308ca16b",
+   "svs_6e0a5fdd9b",
+   "svs_6e22a33e3f",
+   "svs_6f835bdf72",
+   "svs_70346eaded",
+   "svs_71c7f92ec3",
+   "svs_72da9b6956",
+   "svs_73b8e92b48",
+   "svs_7471aae7d1",
+   "svs_74e122a2da",
+   "svs_764bfe25d7",
+   "svs_7678bec1e2",
+   "svs_778189f5ad",
+   "svs_7a4ceb55fe",
+   "svs_7a55986e00",
+   "svs_7ae3283450",
+   "svs_7b094da113",
+   "svs_7b20bbeff0",
+   "svs_7bb6cb0222",
+   "svs_7bffe9e062",
+   "svs_7d381b7e58",
+   "svs_7d5802d3d8",
+   "svs_7e4eba193d",
+   "svs_7ed51b9264",
+   "svs_7f190f005a",
+   "svs_7fd685b258",
+   "svs_7fd6e87443",
+   "svs_8071a4329a",
+   "svs_81122ff00f",
+   "svs_81e79096f1",
+   "svs_826b376cc3",
+   "svs_826e3c6fdc",
+   "svs_83356b783e",
+   "svs_838f02e277",
+   "svs_83f5e7f885",
+   "svs_842e58e23c",
+   "svs_84e1ffa3ee",
+   "svs_872e7c08de",
+   "svs_873a96b2ee",
+   "svs_88225eaf41",
+   "svs_8a2abc7390",
+   "svs_8b3041804f",
+   "svs_8e2d25e5b3",
+   "svs_8e5303e0b6",
+   "svs_8e9deedf69",
+   "svs_8ef4e4a8a0",
+   "svs_8fb4b88d50",
+   "svs_8ffbffc853",
+   "svs_90a7962ca4",
+   "svs_910ac7e409",
+   "svs_91b49b251d",
+   "svs_92e87cc6f1",
+   "svs_93597862f0",
+   "svs_93a8e6d064",
+   "svs_9461f559f9",
+   "svs_94be936a97",
+   "svs_957881df55",
+   "svs_9632b0f532",
+   "svs_9649e76a44",
+   "svs_9789119039",
+   "svs_979dc004c8",
+   "svs_9986ab3647",
+   "svs_9b63f5e633",
+   "svs_9b7ed48e5d",
+   "svs_9b817d61ff",
+   "svs_9ba9cd8c83",
+   "svs_9ceea8b1a5",
+   "svs_9e76b62d9d",
+   "svs_9f9974bc1b",
+   "svs_a340919067",
+   "svs_a3e61b98e0",
+   "svs_a515bdc420",
+   "svs_a51d6609b2",
+   "svs_a5649d4f09",
+   "svs_a75a51eb62",
+   "svs_a781424829",
+   "svs_a87f47911c",
+   "svs_a8e19b3632",
+   "svs_aa0774943e",
+   "svs_aaa7ee0d85",
+   "svs_ab71bef6db",
+   "svs_ab9bf50811",
+   "svs_ac2e2b8322",
+   "svs_ace9027e9b",
+   "svs_ade32a824d",
+   "svs_aec8f41370",
+   "svs_af4e3a6dc6",
+   "svs_b01fbaf337",
+   "svs_b0c94ab028",
+   "svs_b0d99f15d7",
+   "svs_b0f3f2c43b",
+   "svs_b0f52f06ae",
+   "svs_b2a994edee",
+   "svs_b2faf9a867",
+   "svs_b309d0e7d1",
+   "svs_b324e45072",
+   "svs_b3b63a9928",
+   "svs_b547a057ec",
+   "svs_b611711e7e",
+   "svs_b7edec2d26",
+   "svs_b9026c0661",
+   "svs_ba604a1d6e",
+   "svs_bba4eb373f",
+   "svs_c02e4d0e11",
+   "svs_c1640d8b0b",
+   "svs_c178d86228",
+   "svs_c256fa7b5e",
+   "svs_c3601c59f1",
+   "svs_c45fa61558",
+   "svs_c8e9ec326f",
+   "svs_c98bfa5613",
+   "svs_ca0209d3a4",
+   "svs_ca3160edc9",
+   "svs_ca759a2171",
+   "svs_cc625de488",
+   "svs_ce3087cbd9",
+   "svs_d13f124421",
+   "svs_d1714bfd91",
+   "svs_d1dedfbaf2",
+   "svs_d249925502",
+   "svs_d3eed22f08",
+   "svs_d476ca6794",
+   "svs_d56de5a120",
+   "svs_d60dbb1d91",
+   "svs_d7043a0c64",
+   "svs_d71a8bbaeb",
+   "svs_d79218d91e",
+   "svs_d9f78666b3",
+   "svs_da67a428d4",
+   "svs_dac53cc088",
+   "svs_dae7ddcdf1",
+   "svs_dcd1ee9558",
+   "svs_dd35620949",
+   "svs_de6db7e6fc",
+   "svs_de79deb4dd",
+   "svs_ded4396284",
+   "svs_df5710a971",
+   "svs_e10bb24dbe",
+   "svs_e2685bfcde",
+   "svs_e291592e5a",
+   "svs_e33037dfc2",
+   "svs_e689ccd17b",
+   "svs_e737cd1db8",
+   "svs_ecd9250cb3",
+   "svs_ed0063c15e",
+   "svs_ed87df8349",
+   "svs_ede51eb806",
+   "svs_ee74891811",
+   "svs_f04e94f7de",
+   "svs_f05fde2918",
+   "svs_f0fd72c75d",
+   "svs_f112e03cb1",
+   "svs_f11a5fd2c1",
+   "svs_f189140cd4",
+   "svs_f3850678ab",
+   "svs_f63d8f90ee",
+   "svs_f64bd39fcc",
+   "svs_f691c13c05",
+   "svs_f72386e769",
+   "svs_f73b2a8dbb",
+   "svs_f7f9d5ea65",
+   "svs_f839ad647c",
+   "svs_f92a457213",
+   "svs_f9acc43d54",
+   "svs_fbd7bfa4e7",
+   "svs_fc26178445",
+   "svs_fd85531df4",
+   "svs_fdc851d526",
+   "svs_fdff7f61d9",
+   "svs_fe1cdb6034",
+   "svs_feaa8e28b6",
+   "svs_ff6805b370",
+   "svs_ffbd6f72ac"
+  ]
+ },
+ "gates": [
+  {
+   "gate": "schema_fehlerfrei",
+   "ok": true,
+   "hart": true,
+   "detail": "0 Fehler"
+  },
+  {
+   "gate": "source_md_und_manifest",
+   "ok": false,
+   "hart": true,
+   "detail": {
+    "pva": [
+     "source_md"
+    ]
+   }
+  },
+  {
+   "gate": "keine_leeren_quellen",
+   "ok": true,
+   "hart": false,
+   "detail": "keine"
+  },
+  {
+   "gate": "golden: Mama packt's nicht mehr allein",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "mobile_pflege_fsw",
+     "pflegegeld"
+    ],
+    "top5": [
+     "mobile_pflege_fsw",
+     "pflegegeld",
+     "pflegekarenz",
+     "mobile_dienste",
+     "pflegeberatung"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Meine Mutter braucht jetzt Hilfe, was muss ich machen?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fsw_pflegeberatung",
+     "mobile_pflege_fsw",
+     "pflegeberatung",
+     "pflegegeld"
+    ],
+    "top5": [
+     "pflegegeld",
+     "mobile_pflege_fsw",
+     "pflegekarenz",
+     "pflegeberatung",
+     "mobile_dienste"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Taxi zur Bestrahlung",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fahrtkostenzuschuss",
+     "krankentransport"
+    ],
+    "top5": [
+     "fahrtkostenzuschuss",
+     "krankentransport",
+     "fahrtendienst_fahrtkostenersatz_wien",
+     "fahrtkostenersatz_gehoerlose_wien",
+     "anschlussheilverfahren"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Zahnspange Kind",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "zahnspange_kfo"
+    ],
+    "top3": [
+     "zahnspange_kfo",
+     "zahnbehandlung_zahnersatz",
+     "mundhygiene_kinder"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: mehr bewegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "bewegt_im_park"
+    ],
+    "top5": [
+     "bewegungsempfehlungen",
+     "gesundheitskurse_bewegung",
+     "gesunder_ruecken",
+     "bewegt_im_park",
+     "gesundheitshunderter_svs"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Pflegegeld beantragen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "pflegegeld"
+    ],
+    "top1": [
+     "pflegegeld"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Rezeptgebühr zu teuer, kleine Pension",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "rezeptgebuehrenbefreiung"
+    ],
+    "top3": [
+     "ausgleichszulage",
+     "rezeptgebuehrenbefreiung",
+     "rezeptgebuehrenobergrenze"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Meine Mama packt's nimma allein daham, was kann ich tun?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fsw_pflegeberatung",
+     "heimhilfe_wien",
+     "mobile_pflege_fsw",
+     "pflegeberatung",
+     "pflegegeld"
+    ],
+    "top5": [
+     "mobile_pflege_fsw",
+     "pflegegeld",
+     "pflegekarenz",
+     "mobile_dienste",
+     "heimhilfe_wien"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Die Medikamente sind so teuer, die Mama hat nur eine kleine Pension",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "rezeptgebuehrenbefreiung"
+    ],
+    "top5": [
+     "ausgleichszulage",
+     "rezeptgebuehrenbefreiung",
+     "rezeptgebuehrenobergrenze",
+     "heilmittel_bewilligungspflicht",
+     "pension_allgemein"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Wer zahlt das Taxi zur Bestrahlung?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fahrtkostenzuschuss",
+     "krankentransport"
+    ],
+    "top5": [
+     "fahrtkostenzuschuss",
+     "krankentransport",
+     "fahrtendienst_fahrtkostenersatz_wien",
+     "fahrtkostenersatz_gehoerlose_wien",
+     "krankengeld"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Ich will was für meine Gesundheit tun, mich mehr bewegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "bewegt_im_park",
+     "gesundheitshunderter_svs",
+     "vorsorgeuntersuchung"
+    ],
+    "top5": [
+     "gesundheitskurse_bewegung",
+     "bewegungsempfehlungen",
+     "gesundheitshunderter_svs",
+     "gesunder_ruecken",
+     "bewegt_im_park"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Mein Bub braucht vielleicht eine Zahnspange",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "zahnspange_kfo"
+    ],
+    "top5": [
+     "zahnspange_kfo",
+     "zahnbehandlung_zahnersatz",
+     "mundhygiene_kinder",
+     "zahnbehandlung",
+     "zahnersatz"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: nach dem Spital wieder fit werden, Erholung",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "kur",
+     "reha_medizinisch",
+     "reha_onkologisch"
+    ],
+    "top5": [
+     "reha_onkologisch",
+     "kur",
+     "reha_medizinisch",
+     "anschlussheilverfahren",
+     "reha_beruflich"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Ich muss mir frei nehmen um die Mama zu pflegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "familienhospizkarenz",
+     "pflegekarenz"
+    ],
+    "top5": [
+     "pflegekarenz",
+     "pflegekarenzgeld",
+     "pflegegeld",
+     "angehoerigen_unterstuetzung_ersatzpflege",
+     "gesundheitsangebote_svs"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: My mother can no longer cope alone at home and needs care",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "mobile_pflege_fsw",
+     "pflegegeld"
+    ],
+    "top5": [
+     "pflegegeld",
+     "pflegekarenz",
+     "angehoerigen_unterstuetzung_ersatzpflege",
+     "mobile_pflege_fsw",
+     "pflegekarenzgeld"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden: Annem evde artık tek başına yaşayamıyor, bakıma ihtiyacı var",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "mobile_pflege_fsw",
+     "pflegegeld"
+    ],
+    "top5": [
+     "pflegekarenz",
+     "pflegegeld",
+     "mobile_pflege_fsw",
+     "pflegekarenzgeld",
+     "pflegegeldergaenzungsleistung_pa_wien"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "links_demo_formulare_100",
+   "ok": false,
+   "hart": true,
+   "detail": {
+    "live": "6/7",
+    "fehlt": [
+     "fsw_bedarfsmeldung_wg"
+    ]
+   }
+  },
+  {
+   "gate": "links_formulare_95",
+   "ok": true,
+   "hart": true,
+   "detail": "617/617 = 100%"
+  },
+  {
+   "gate": "leistung_hat_quelle",
+   "ok": true,
+   "hart": true,
+   "detail": "alle mit Quelle"
+  },
+  {
+   "gate": "icd_hint_policy",
+   "ok": true,
+   "hart": true,
+   "detail": "ok (vom Build entfernt: 0)"
+  }
+ ],
+ "swap": true,
+ "links": {
+  "links": 26287,
+  "frisch_ok": 2170,
+  "quelle": "/Users/arne/_Coding/_reimedy_svhack/knowledge/build/links/links.jsonl",
+  "formulare_live": 953
+ }
+}

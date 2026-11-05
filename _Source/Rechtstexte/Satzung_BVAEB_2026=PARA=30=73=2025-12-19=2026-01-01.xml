@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sozdok xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dokid="Satzung_BVAEB_2026=PARA=30=73=2025-12-19=2026-01-01" xsi:noNamespaceSchemaLocation="Sozdok.xsd"><rvo dokidCms="AVSV_2025_0073_1767864087190">
+      <metadaten nichtanzeigen="n" titrvo="Satzung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2026" abkrvo="Satzung BVAEB 2026" dokart="Satzung" titaen="Satzung der Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau 2026 StF" abkaen="Satzung BVAEB 2026 StF" urheber="BVAEB" beschdat="2025-12-10" pubdat="2025-12-19" ikra="2026-01-01" sichtbarkeit="p" gldart="PARA" gldnr="30" gldsort="50">
+        <puborgane><puborgan puborg="avsv" nrpuborg="73" jahrgang="2025">avsv   Nr. 73/2025 </puborgan>
+        
+          </puborgane>
+      </metadaten>
+      <nutzdaten>
+        <abschnitt nr="1" typ="ns" paperf="h" endnhier="false">
+          <ueberschrift typ="para" halign="c" level="2">Bestätigung des Dienstgebers/der Dienstgeberin über das Entgelt</ueberschrift>
+          <absatz typ="abs" halign="j">
+            <gldsym>§ 30.</gldsym> (1) Der/Die Dienstgeber/in hat im Fall der Arbeitsunfähigkeit eines/einer Versicherten im Sinn des <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="84" abs="1" ursprung="u">§ 84 Abs. 1</rvolink>, <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="84" abs="4" ursprung="u">4</rvolink> und <rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="84" abs="5" ursprung="u">5</rvolink><nolink> B</nolink><gdash/>KUVG diesem/dieser oder der BVAEB für die Berechnung des Krankengeldes auf dem Formular „Arbeits- und Entgeltsbestätigung“ anzugeben:</absatz>
+          <liste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">1.</symbol>die Personaldaten des/der Versicherten (Vor- und Familienname, Wohnadresse, Versicherungsnummer),</listelem>
+              <listelem>
+                <symbol stellen="2">2.</symbol>den Eintrittstag sowie den letzten Arbeitstag,</listelem>
+              <listelem>
+                <symbol stellen="2">3.</symbol>die zuletzt ausgeübte Tätigkeit,</listelem>
+            </ziffernliste>
+            <betragliste typ="ziffer">
+              <listelem>
+                <symbol stellen="2">4.</symbol>den Grund der Arbeitseinstellung,</listelem>
+            </betragliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="2">5.</symbol>den Tag und den Grund der Beendigung des Dienstverhältnisses,</listelem>
+              <listelem>
+                <symbol stellen="2">6.</symbol>den genauen Brutto-Geldbezug (einschließlich Trinkgelder, Provisionen usw.) in dem Beitragszeitraum, der dem Ende des vollen Entgeltanspruches zuletzt vorangegangen ist; kommt ein solcher Beitragszeitraum nicht in Betracht, ist der genaue Brutto-Geldbezug des laufenden Beitragszeitraums anzugeben,</listelem>
+              <listelem>
+                <symbol stellen="2">7.</symbol>die Sachbezüge,</listelem>
+            </ziffernliste>
+            <betragliste typ="ziffer">
+              <listelem>
+                <symbol stellen="2">8.</symbol>den Anspruch auf Sonderzahlungen,</listelem>
+              <listelem>
+                <symbol stellen="2">9.</symbol>allenfalls die Leistung einer Kündigungsentschädigung oder einer Ersatzleistung für den Urlaub,</listelem>
+              <listelem>
+                <symbol stellen="3">10.</symbol>allenfalls für welche Dauer und in welcher Höhe für die Zeit der Arbeitsunfähigkeit volles Entgelt oder Teilentgelt über den letzten Arbeitstag hinaus weitergewährt wird,</listelem>
+            </betragliste>
+            <ziffernliste ebene="1">
+              <listelem>
+                <symbol stellen="3">11.</symbol>die Dienstgeberkontonummer.</listelem>
+            </ziffernliste>
+          </liste>
+          <absatz typ="abs" halign="j">(2) Für die Berechnung des Wochengeldes gilt Abs. 1 mit der Abweichung, dass statt des Betrages nach Z 6 der gebührende Arbeitsverdienst der letzten 13 Wochen (der letzten drei Kalendermonate) vor dem Eintritt des Versicherungsfalles der Mutterschaft (<rvolink abkrvo="B-KUVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="84" ursprung="u">§ 84</rvolink><nolink> B</nolink><gdash/>KUVG iVm <rvolink abkrvo="ASVG" verwart="d" typ="e" gldart="PARA" gldsort="50" gldnr="120" ziff="3" ursprung="u">§ 120 Z 3</rvolink><nolink> ASVG</nolink>), vermindert um die gesetzlichen Abzüge, zu melden ist.</absatz>
+        </abschnitt>
+      </nutzdaten>
+      <layoutdaten paperf="7" paperh="841.9" paperw="595.3" margl="85.05" margr="85.05" margt="85.05" margb="85.05" headerd="28.35" footerd="65.2" gutter="0" gutterpos="0" deftab="35.4"/>
+    </rvo></sozdok>
