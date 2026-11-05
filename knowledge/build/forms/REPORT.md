@@ -6,14 +6,14 @@ Vorgabe Arne: *„Alle Formulare müssen von Michi ausfüllbar sein, als PDF spe
 | | Anzahl |
 |---|---|
 | Formulare im Lotsen (`lotse_zeigen`) | 350 |
-| **geprüft** (Template wird ausgeliefert) | **137** |
+| **geprüft** (Template wird ausgeliefert) | **138** |
 | ungeprüft (Template vorhanden, Prüfung offen/negativ) | 90 |
-| nicht möglich | 123 |
+| nicht möglich | 122 |
 | Empfänger bestimmt (`empfaenger.jsonl`) | 350 |
 
-Nach Quelle: acroform/geprueft: 54, acroform/ungeprueft: 25, generiert/geprueft: 83, generiert/nicht_moeglich: 3, generiert/ungeprueft: 65, keine/nicht_moeglich: 8
+Nach Quelle: acroform/geprueft: 55, acroform/ungeprueft: 25, generiert/geprueft: 83, generiert/nicht_moeglich: 3, generiert/ungeprueft: 65, keine/nicht_moeglich: 8
 
-Felder gesamt 15962, davon mit Ontologie-Schlüssel 3817, von Michi füllbar 2664, ärztlich (gesperrt) 976. Angereicherte AcroForm-Kopien: 81.
+Felder gesamt 16030, davon mit Ontologie-Schlüssel 3832, von Michi füllbar 2673, ärztlich (gesperrt) 976. Angereicherte AcroForm-Kopien: 81.
 
 ### Nicht möglich – Gründe
 
@@ -25,7 +25,6 @@ Felder gesamt 15962, davon mit Ontologie-Schlüssel 3817, von Michi füllbar 266
 | Infoblatt/Merkblatt ohne Ausfüllfelder | 8 |
 | keine Ausfüllbereiche erkannt | 2 |
 | Bild-PDF ohne Textebene – OCR (Vision) ausstehend | 1 |
-| kein PDF im Cache (Download fehlgeschlagen) | 1 |
 
 ## Demo-Formulare
 
@@ -38,10 +37,11 @@ Felder gesamt 15962, davon mit Ontologie-Schlüssel 3817, von Michi füllbar 266
 | `fsw_bedarfsmeldung_wg` FSW Bedarfsmeldung Senior:innen-WG (Basispaket) | geprueft | geometrie+vision_llm+sichtpruefung | 21 | 7 |
 | `fsw_einrichtungswunsch` FSW Beilage Einrichtungswunsch Wohn- und Pflegehäu | geprueft | geometrie+vision_llm+sichtpruefung | 13 | 7 |
 | `oegk_fahrtkosten_wien` Antrag auf Zuschuss zu Fahrtkosten (Wien) | geprueft | geometrie+vision_llm+sichtpruefung | 13 | 6 |
+| `oegk_rezeptgebuehrenbefreiung` Antrag auf Rezeptgebührenbefreiung (ÖGK) | geprueft | geometrie+vision_llm+sichtpruefung | 68 | 9 |
 | `pva_pal080` Antrag auf Pflegegeld (PAL 080) | geprueft | geometrie+vision_llm+sichtpruefung | 100 | 33 |
 | `svs_8e5303e0b6` KV-154 (10200) Antrag auf Rezeptgebührenbefreiung_ | geprueft | geometrie+vision_llm+sichtpruefung | 52 | 7 |
 
-Rezeptgebührenbefreiung **ÖGK**: In `formulare_live` gibt es kein ÖGK-Antragsformular. `oegk_infoblatt` ist ein Infoblatt (als `antrag` klassifiziert) und bekommt daher kein Template. Geprüfte Alternativen: BVAEB `bvaeb_9096928de6`, SVS `svs_8e5303e0b6`.
+Rezeptgebührenbefreiung **ÖGK**: `oegk_rezeptgebuehrenbefreiung` (von der Links-Session nachgezogen, AcroForm, geprüft). `oegk_infoblatt` ist ein Merkblatt ohne Ausfüllfelder.
 
 ## Wie es funktioniert
 
@@ -126,6 +126,7 @@ Keine Diagnose, keine Befunddeutung. Die Ontologie wird nur additiv geändert.
 | `oegk_kostenzuschuss_psychotherapeutische_behandlung` | ÖGK | geprueft | acroform | 33/6 | geometrie+vision_llm |
 | `oegk_meldung_mutterschaftshilfe` | ÖGK | geprueft | generiert | 36/6 | geometrie+vision_llm |
 | `oegk_mr_zuweisung` | ÖGK | geprueft | acroform | 4/0 | geometrie+vision_llm |
+| `oegk_rezeptgebuehrenbefreiung` | ÖGK | geprueft | acroform | 68/9 | geometrie+vision_llm+sichtpruefung |
 | `oegk_vo_fuer_heilbehelfe_und_hilfsmittel` | ÖGK | geprueft | generiert | 19/0 | geometrie+vision_llm |
 | `oegk_vo_fuer_sehbehelfe_und_augenprothesen` | ÖGK | geprueft | generiert | 31/0 | geometrie+vision_llm |
 | `oegk_zeitbestaetigung_fuer_dienstgeber` | ÖGK | geprueft | generiert | 6/2 | geometrie+vision_llm |
@@ -234,7 +235,6 @@ Keine Diagnose, keine Befunddeutung. Die Ontologie wird nur additiv geändert.
 | `oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan` | ÖGK | nicht_moeglich | keine | 0/0 | Infoblatt/Merkblatt ohne Ausfüllfelder |
 | `oegk_ausfuellhilfe_antrag_verbaende_und_kontaktstellen` | ÖGK | nicht_moeglich | keine | 0/0 | Infoblatt/Merkblatt ohne Ausfüllfelder |
 | `oegk_infoblatt` | ÖGK | nicht_moeglich | keine | 0/0 | Infoblatt/Merkblatt ohne Ausfüllfelder |
-| `oegk_rezeptgebuehrenbefreiung` | ÖGK | nicht_moeglich |  | / | kein PDF im Cache (Download fehlgeschlagen) |
 | `oegv_form_1002` |  | nicht_moeglich |  | / | Live-Link ersetzt durch Elternseite (kein PDF auffindbar, §3 Regel 2b) |
 | `oegv_form_1008` |  | nicht_moeglich |  | / | Live-Link ersetzt durch Elternseite (kein PDF auffindbar, §3 Regel 2b) |
 | `oegv_form_1171` |  | nicht_moeglich |  | / | Live-Link ersetzt durch Elternseite (kein PDF auffindbar, §3 Regel 2b) |

@@ -69,6 +69,8 @@ DEMO = {
  "fsw_einrichtungswunsch": {"Name Kontaktaufnahme 3": o("vertreter.name_voll", R)},
  "fsw_bedarfsmeldung_wg": {"Unterschrift der betroffenen Person oder einer für diese zur Vertretung befugten Person 4": o(None, R, wer="unterschrift")},
  "antrag_ahv_reha_unfall": {},
+ "oegk_rezeptgebuehrenbefreiung": {"SVNR01_S01": o("person.svnr", R, pflicht=True), "Vor- und Familienname_S1": o("person.name_voll", R, pflicht=True),
+   **{f"SVNR0{i}_S02": o(None, R) for i in range(1, 6)}, "Ort_Datum_S02": o("ort_datum.heute", R), "Straße_S1": o("adresse.strasse_hausnr", R)},
  "svs_8e5303e0b6": {"f01_010": o(None, R), "f01_011": o(None, R), "f01_025": o(None, R), "f01_026": o(None, R), "f01_009": o(None, R)},
  "bvaeb_9096928de6": {
   "adresse": o(None, R), "Name_1": o("person.name_voll_umgekehrt", R, pflicht=True), "Adresse": o("adresse.voll", R, pflicht=True),

@@ -201,6 +201,9 @@ def empfaenger(formular_id: str, plz: str | None = None, traeger: str | None = N
                     "telefon": z.get("telefon"), "url": z.get("url")}}
         if zust and zust.get("stelle") and not zust["stelle"].get("email") and (st.get("zentrale") or {}).get("email"):
             zust["stelle"]["email_zentrale"] = st["zentrale"]["email"]
+    elif e["aufloesung"] == "nach_versicherung":
+        zust = {"status": "rueckfrage", "kandidaten": e["kandidaten"],
+                "grund": "Zuständig ist der eigene Versicherungsträger der Person – bitte traeger= mitgeben (z. B. PVA für Reha von Pensionist:innen)."}
     elif e["aufloesung"] == "unbekannt":
         zust = {"status": "siehe_formular", "adresse_im_formular": e.get("adresse_im_formular")}
     out["zustaendig"] = zust

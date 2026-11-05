@@ -88,7 +88,7 @@ MISC_RULES: list[tuple[str, str]] = [
     (r"gisa|gewerbe ?register", "unternehmen.gisa"),
     (r"\buid\b", "unternehmen.uid"),
     (r"firmenwortlaut|firmenname|name des betrieb|unternehmen", "unternehmen.name"),
-    (r"^(?!.*(geburt|seit|von|bis|beginn|ende|unfall|aufnahme|entlass|ausstell|zuletzt|eintritt|austritt|tod|sterbe|heirat|scheidung|gultig|letzte|erste|antritt|termin)).*(\bdatum\b|antragsdatum|datum$)", "datum.heute"),
+    (r"^(?!.*(geburt|\bgeb\b|svnr|versicherungsn|seit|von|bis|beginn|ende|unfall|aufnahme|entlass|ausstell|zuletzt|eintritt|austritt|tod|sterbe|heirat|scheidung|gultig|letzte|erste|antritt|termin)).*(\bdatum\b|antragsdatum|datum$)", "datum.heute"),
 ]
 
 

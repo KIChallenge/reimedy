@@ -1,0 +1,1718 @@
+{
+ "formular_id": "oegk_rezeptgebuehrenbefreiung",
+ "name": "Antrag auf Rezeptgebührenbefreiung (ÖGK)",
+ "traeger": "ÖGK",
+ "sha256": "8072f0e2332b70ba87441a6fceec6bc5e5424d0a1a7a50ef034db9f139588549",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.785277&version=1779440677",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Vor- und Familienname_S1",
+   "acro_name": "Vor- und Familienname_S1",
+   "page": 0,
+   "bbox": [
+    72.4,
+    212.9,
+    310.4,
+    238.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vor- und Familienname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "SVNR01_S01",
+   "acro_name": "SVNR01_S01",
+   "page": 0,
+   "bbox": [
+    311.6,
+    212.7,
+    538.8,
+    238.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNR + Geb. Datum",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Straße_S1",
+   "acro_name": "Straße_S1",
+   "page": 0,
+   "bbox": [
+    72.4,
+    258.6,
+    310.3,
+    284.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straße",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ_S1",
+   "acro_name": "PLZ_S1",
+   "page": 0,
+   "bbox": [
+    313.1,
+    258.6,
+    378.5,
+    284.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort_S1",
+   "acro_name": "Ort_S1",
+   "page": 0,
+   "bbox": [
+    381.3,
+    258.8,
+    538.1,
+    284.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_S1",
+   "acro_name": "Telefon_S1",
+   "page": 0,
+   "bbox": [
+    72.3,
+    305.6,
+    310.3,
+    331.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail_S1",
+   "acro_name": "E-Mail_S1",
+   "page": 0,
+   "bbox": [
+    313.1,
+    305.5,
+    537.9,
+    331.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienstand",
+   "acro_name": "Familienstand",
+   "page": 0,
+   "bbox": [
+    148.5,
+    337.1,
+    444.8,
+    379.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Familienstand",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "ledig",
+     "label": "ledig",
+     "bbox": [
+      148.6,
+      337.3,
+      161.4,
+      350.0
+     ],
+     "wert_semantik": "ledig"
+    },
+    {
+     "wert": "Lebensgemeinsachaft",
+     "label": "Lebensgemeinschaft",
+     "bbox": [
+      148.5,
+      351.7,
+      161.3,
+      364.5
+     ]
+    },
+    {
+     "wert": "verheiratet,#20jedoch#20getrennt#20lebend",
+     "label": "verheiratet, jedoch getrennt lebend",
+     "bbox": [
+      148.6,
+      366.4,
+      161.4,
+      379.2
+     ]
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet",
+     "bbox": [
+      219.4,
+      337.6,
+      232.1,
+      350.3
+     ],
+     "wert_semantik": "verheiratet"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden",
+     "bbox": [
+      325.7,
+      337.3,
+      338.4,
+      350.1
+     ],
+     "wert_semantik": "geschieden"
+    },
+    {
+     "wert": "Eingetragene#20Partnerschaft",
+     "label": "Eingetragene Partnerschaft",
+     "bbox": [
+      325.7,
+      351.8,
+      338.5,
+      364.6
+     ]
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet",
+     "bbox": [
+      432.0,
+      337.1,
+      444.8,
+      349.9
+     ],
+     "wert_semantik": "verwitwet"
+    }
+   ],
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox08_S1",
+   "acro_name": "Checkbox08_S1",
+   "page": 0,
+   "bbox": [
+    75.4,
+    449.7,
+    88.1,
+    462.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Lohn oder Gehalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Lohn oder Gehalt",
+     "bbox": [
+      75.4,
+      449.7,
+      88.1,
+      462.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR01_S01",
+   "acro_name": "EUR01_S01",
+   "page": 0,
+   "bbox": [
+    451.5,
+    447.2,
+    509.3,
+    463.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox09_S1",
+   "acro_name": "Checkbox09_S1",
+   "page": 0,
+   "bbox": [
+    75.1,
+    470.2,
+    87.9,
+    483.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Geldleistungen aus der Arbeitslosenversicherung (AMS)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Geldleistungen aus der Arbeitslosenversicherung (AMS)",
+     "bbox": [
+      75.1,
+      470.2,
+      87.9,
+      483.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR02_S01",
+   "acro_name": "EUR02_S01",
+   "page": 0,
+   "bbox": [
+    451.7,
+    467.8,
+    509.5,
+    484.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox10_S1",
+   "acro_name": "Checkbox10_S1",
+   "page": 0,
+   "bbox": [
+    75.3,
+    490.6,
+    88.1,
+    503.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pension oder Rente",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pension oder Rente",
+     "bbox": [
+      75.3,
+      490.6,
+      88.1,
+      503.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR03_S01",
+   "acro_name": "EUR03_S01",
+   "page": 0,
+   "bbox": [
+    451.5,
+    487.8,
+    509.4,
+    504.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox11_S1",
+   "acro_name": "Checkbox11_S1",
+   "page": 0,
+   "bbox": [
+    75.3,
+    510.8,
+    88.1,
+    523.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sozialhilfe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sozialhilfe (Bescheid beilegen)",
+     "bbox": [
+      75.3,
+      510.8,
+      88.1,
+      523.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR04_S01",
+   "acro_name": "EUR04_S01",
+   "page": 0,
+   "bbox": [
+    451.5,
+    507.8,
+    509.3,
+    524.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox12_S1",
+   "acro_name": "Checkbox12_S1",
+   "page": 0,
+   "bbox": [
+    75.2,
+    531.3,
+    88.0,
+    544.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kranken-, Wochen-, Rehabilitations- oder Wiedereingliederungsgeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kranken-, Wochen-, Rehabilitations- oder Wiedereingliederungsgeld",
+     "bbox": [
+      75.2,
+      531.3,
+      88.0,
+      544.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR05_S01",
+   "acro_name": "EUR05_S01",
+   "page": 0,
+   "bbox": [
+    451.3,
+    528.1,
+    509.1,
+    544.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox13_S1",
+   "acro_name": "Checkbox13_S1",
+   "page": 0,
+   "bbox": [
+    75.1,
+    551.4,
+    87.9,
+    564.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kinderbetreuungsgeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kinderbetreuungsgeld",
+     "bbox": [
+      75.1,
+      551.4,
+      87.9,
+      564.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR06_S01",
+   "acro_name": "EUR06_S01",
+   "page": 0,
+   "bbox": [
+    451.4,
+    548.9,
+    509.2,
+    565.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox14_S1",
+   "acro_name": "Checkbox14_S1",
+   "page": 0,
+   "bbox": [
+    75.1,
+    573.4,
+    87.9,
+    586.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Unterhalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Unterhalt (Geldleistung aus aufgelöster Ehe oder Partnerschaft)",
+     "bbox": [
+      75.1,
+      573.4,
+      87.9,
+      586.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR07_S01",
+   "acro_name": "EUR07_S01",
+   "page": 0,
+   "bbox": [
+    451.2,
+    569.2,
+    509.0,
+    585.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbo15_S1",
+   "acro_name": "Checkbo15_S1",
+   "page": 0,
+   "bbox": [
+    75.1,
+    618.3,
+    87.9,
+    631.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkommen aus dem Ausland",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einkommen aus dem Ausland",
+     "bbox": [
+      75.1,
+      618.3,
+      87.9,
+      631.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR08_S01",
+   "acro_name": "EUR08_S01",
+   "page": 0,
+   "bbox": [
+    451.6,
+    615.8,
+    509.4,
+    632.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox16_S1",
+   "acro_name": "Checkbox16_S1",
+   "page": 0,
+   "bbox": [
+    75.0,
+    664.5,
+    87.8,
+    677.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sachbezüge",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sachbezüge (z.B. freie Wohnung)",
+     "bbox": [
+      75.0,
+      664.5,
+      87.8,
+      677.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR10_S01",
+   "acro_name": "EUR10_S01",
+   "page": 0,
+   "bbox": [
+    451.4,
+    662.1,
+    509.2,
+    678.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox17_S1",
+   "acro_name": "Checkbox17_S1",
+   "page": 0,
+   "bbox": [
+    75.2,
+    690.5,
+    87.9,
+    703.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hilfe zum Lebensunterhalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Hilfe (z.B. zum Mindestsicherung, Lebensunterhalt Sozialhilfe, Wohnbeihilfe)",
+     "bbox": [
+      75.2,
+      690.5,
+      87.9,
+      703.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR11_S01",
+   "acro_name": "EUR11_S01",
+   "page": 0,
+   "bbox": [
+    451.9,
+    687.5,
+    509.7,
+    703.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox18_S1",
+   "acro_name": "Checkbox18_S1",
+   "page": 0,
+   "bbox": [
+    75.1,
+    716.5,
+    87.9,
+    729.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Selbständige Erwerbstätigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Selbständige Erwerbstätigkeit",
+     "bbox": [
+      75.1,
+      716.5,
+      87.9,
+      729.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR12_S01",
+   "acro_name": "EUR12_S01",
+   "page": 0,
+   "bbox": [
+    451.3,
+    714.0,
+    509.2,
+    730.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox19_S1",
+   "acro_name": "Checkbox19_S1",
+   "page": 0,
+   "bbox": [
+    75.2,
+    736.2,
+    87.9,
+    749.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstiges Einkommen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sonstiges Einkommen (z.B. Vermietung, Verpachtung)",
+     "bbox": [
+      75.2,
+      736.2,
+      87.9,
+      749.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR13_S01",
+   "acro_name": "EUR13_S01",
+   "page": 0,
+   "bbox": [
+    451.4,
+    734.3,
+    509.3,
+    750.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox01_S2",
+   "acro_name": "Checkbox01_S2",
+   "page": 1,
+   "bbox": [
+    75.2,
+    92.8,
+    88.0,
+    105.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkommen aus Selbstbewirtschaftung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Land-/forstwirtschaftliches Vorlage des aktuellen Einheitswertbescheides Einkommen aus Selbstbewirtschaftung erforderlich",
+     "bbox": [
+      75.2,
+      92.8,
+      88.0,
+      105.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR01_S02",
+   "acro_name": "EUR01_S02",
+   "page": 1,
+   "bbox": [
+    451.4,
+    90.0,
+    509.3,
+    106.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox02_S2",
+   "acro_name": "Checkbox02_S2",
+   "page": 1,
+   "bbox": [
+    75.3,
+    124.2,
+    88.0,
+    137.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Grund zugepachtet oder verpachtet?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Haben der verpachtet? Sie einen Vorlage land-/forstwirtschaftlichen Pachtvertrag erforderlich Grund zugepachtet",
+     "bbox": [
+      75.3,
+      124.2,
+      88.0,
+      137.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR02_S02",
+   "acro_name": "EUR02_S02",
+   "page": 1,
+   "bbox": [
+    451.6,
+    121.8,
+    509.4,
+    138.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Checkbox03_S2",
+   "acro_name": "Checkbox03_S2",
+   "page": 1,
+   "bbox": [
+    75.3,
+    155.9,
+    88.1,
+    168.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Grund übergeben?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Haben Schenkung)? Sie einen Vorlage land-/forstwirtschaftlichen Vertrag erforderlich Grund übergeben",
+     "bbox": [
+      75.3,
+      155.9,
+      88.1,
+      168.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR03_S02",
+   "acro_name": "EUR03_S02",
+   "page": 1,
+   "bbox": [
+    451.4,
+    152.8,
+    509.3,
+    169.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name01_S02",
+   "acro_name": "Name01_S02",
+   "page": 1,
+   "bbox": [
+    72.3,
+    264.7,
+    168.8,
+    281.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der im gemeinsamen Haushalt lebenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "SVNR01_S02",
+   "acro_name": "SVNR01_S02",
+   "page": 1,
+   "bbox": [
+    171.0,
+    265.2,
+    310.4,
+    281.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNR + Geb. Datum",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verw.Verhaeltnis01_S02",
+   "acro_name": "Verw.Verhaeltnis01_S02",
+   "page": 1,
+   "bbox": [
+    312.8,
+    265.0,
+    367.3,
+    282.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des Einkommens01_S02",
+   "acro_name": "Art des Einkommens01_S02",
+   "page": 1,
+   "bbox": [
+    369.5,
+    265.0,
+    466.2,
+    282.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR04_S02",
+   "acro_name": "EUR04_S02",
+   "page": 1,
+   "bbox": [
+    468.5,
+    265.2,
+    538.2,
+    281.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name02_S02",
+   "acro_name": "Name02_S02",
+   "page": 1,
+   "bbox": [
+    72.2,
+    285.5,
+    168.8,
+    302.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der im gemeinsamen Haushalt lebenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "SVNR02_S02",
+   "acro_name": "SVNR02_S02",
+   "page": 1,
+   "bbox": [
+    171.0,
+    286.0,
+    310.3,
+    302.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNR + Geb. Datum",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verw.Verhaeltnis02_S02",
+   "acro_name": "Verw.Verhaeltnis02_S02",
+   "page": 1,
+   "bbox": [
+    312.8,
+    285.8,
+    367.3,
+    302.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des Einkommens02_S02",
+   "acro_name": "Art des Einkommens02_S02",
+   "page": 1,
+   "bbox": [
+    369.5,
+    285.8,
+    466.2,
+    302.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR05_S02",
+   "acro_name": "EUR05_S02",
+   "page": 1,
+   "bbox": [
+    468.4,
+    286.4,
+    538.2,
+    302.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name03_S02",
+   "acro_name": "Name03_S02",
+   "page": 1,
+   "bbox": [
+    72.1,
+    305.6,
+    168.6,
+    322.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der im gemeinsamen Haushalt lebenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "SVNR03_S02",
+   "acro_name": "SVNR03_S02",
+   "page": 1,
+   "bbox": [
+    170.8,
+    306.3,
+    310.2,
+    322.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNR + Geb. Datum",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verw.Verhaeltnis03_S02",
+   "acro_name": "Verw.Verhaeltnis03_S02",
+   "page": 1,
+   "bbox": [
+    312.7,
+    305.9,
+    367.2,
+    323.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des Einkommens03_S02",
+   "acro_name": "Art des Einkommens03_S02",
+   "page": 1,
+   "bbox": [
+    369.4,
+    306.1,
+    466.1,
+    323.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR06_S02",
+   "acro_name": "EUR06_S02",
+   "page": 1,
+   "bbox": [
+    468.3,
+    306.7,
+    538.1,
+    322.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name04_S02",
+   "acro_name": "Name04_S02",
+   "page": 1,
+   "bbox": [
+    72.1,
+    326.1,
+    168.6,
+    343.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der im gemeinsamen Haushalt lebenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "SVNR04_S02",
+   "acro_name": "SVNR04_S02",
+   "page": 1,
+   "bbox": [
+    170.9,
+    326.7,
+    310.2,
+    343.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNR + Geb. Datum",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verw.Verhaeltnis04_S02",
+   "acro_name": "Verw.Verhaeltnis04_S02",
+   "page": 1,
+   "bbox": [
+    312.7,
+    326.4,
+    367.2,
+    343.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des Einkommens04_S02",
+   "acro_name": "Art des Einkommens04_S02",
+   "page": 1,
+   "bbox": [
+    369.4,
+    326.4,
+    466.1,
+    343.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR07_S02",
+   "acro_name": "EUR07_S02",
+   "page": 1,
+   "bbox": [
+    468.3,
+    327.0,
+    538.1,
+    343.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name05_S02",
+   "acro_name": "Name05_S02",
+   "page": 1,
+   "bbox": [
+    72.1,
+    345.5,
+    168.6,
+    362.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der im gemeinsamen Haushalt lebenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "SVNR05_S02",
+   "acro_name": "SVNR05_S02",
+   "page": 1,
+   "bbox": [
+    170.8,
+    346.2,
+    310.2,
+    362.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNR + Geb. Datum",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verw.Verhaeltnis05_S02",
+   "acro_name": "Verw.Verhaeltnis05_S02",
+   "page": 1,
+   "bbox": [
+    312.5,
+    345.8,
+    367.0,
+    362.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des Einkommens05_S02",
+   "acro_name": "Art des Einkommens05_S02",
+   "page": 1,
+   "bbox": [
+    369.4,
+    345.3,
+    466.0,
+    362.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR08_S02",
+   "acro_name": "EUR08_S02",
+   "page": 1,
+   "bbox": [
+    468.3,
+    345.8,
+    538.0,
+    362.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Packungen01_S01",
+   "acro_name": "Packungen01_S01",
+   "page": 1,
+   "bbox": [
+    454.1,
+    402.7,
+    535.4,
+    422.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Packungen Medikamente pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vermerke01_S02",
+   "acro_name": "Vermerke01_S02",
+   "page": 1,
+   "bbox": [
+    74.9,
+    475.6,
+    534.9,
+    492.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vermerke",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vermerke02_S02",
+   "acro_name": "Vermerke02_S02",
+   "page": 1,
+   "bbox": [
+    74.8,
+    493.5,
+    534.8,
+    510.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vermerke",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vermerke03_S02",
+   "acro_name": "Vermerke03_S02",
+   "page": 1,
+   "bbox": [
+    74.9,
+    510.7,
+    534.9,
+    527.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vermerke",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort_Datum_S02",
+   "acro_name": "Ort_Datum_S02",
+   "page": 1,
+   "bbox": [
+    70.7,
+    736.3,
+    235.7,
+    753.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort und Datum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 9,
+  "bilder": [
+   "cache/pruefung/oegk_rezeptgebuehrenbefreiung/p1.png",
+   "cache/pruefung/oegk_rezeptgebuehrenbefreiung/p2.png"
+  ],
+  "fp": "dfe7ebe40f812361",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, 05.11.2026): Name, SVNR-Kästchen, Adresse, Familienstand, Ort/Datum korrekt; Einkommen, Haushaltstabelle, Medikamente, Unterschrift leer"
+  },
+  "sicht_fp": "dfe7ebe40f812361",
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "ok": true
+ }
+}

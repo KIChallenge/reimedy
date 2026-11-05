@@ -23,7 +23,7 @@ _spec.loader.exec_module(F)
 
 GESPERRT = ("arzt.", "medizinisch.", "unterschrift.", "einkommen.", "bank.", "behoerde.")
 DEMO = ["pva_pal080", "antrag_reha_kur", "antrag_ahv_reha_unfall", "oegk_fahrtkosten_wien", "fsw_antrag_foerderung",
-        "fsw_einrichtungswunsch", "fsw_bedarfsmeldung_wg", "bvaeb_9096928de6", "svs_8e5303e0b6"]
+        "fsw_einrichtungswunsch", "fsw_bedarfsmeldung_wg", "bvaeb_9096928de6", "svs_8e5303e0b6", "oegk_rezeptgebuehrenbefreiung"]
 
 # Goldstandard: (formular_id, AcroForm-Name) → erwarteter Ontologie-Schlüssel (None = Michi füllt nicht / fragt nach).
 # Abgeleitet aus Michi b5-comms mappings.py (plan_pal080, plan_reha_kur, plan_fahrtkosten, plan_fsw).
@@ -170,6 +170,7 @@ def test_empfaenger_regeln():
     assert F.empfaenger("fsw_antrag_foerderung", plz="3100")["zustaendig"]["status"] == "nicht_zustaendig"
     assert F.empfaenger("antrag_reha_kur", plz="1030", traeger="PVA")["zustaendig"]["stelle"]["stelle_id"] == "pva_w"
     assert F.empfaenger("antrag_reha_kur", plz="1030")["rueckfragen"]
+    assert F.empfaenger("antrag_reha_kur", plz="1030")["zustaendig"]["status"] == "rueckfrage"
     assert F.empfaenger("gibt_es_nicht") is None
 
 

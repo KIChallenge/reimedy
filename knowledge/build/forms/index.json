@@ -1509,8 +1509,15 @@
    "name": "Antrag auf Rezeptgebührenbefreiung (ÖGK)",
    "traeger": "ÖGK",
    "art": "antrag",
-   "status": "nicht_moeglich",
-   "grund": "kein_pdf"
+   "template": "templates/oegk_rezeptgebuehrenbefreiung@8072f0e2332b.json",
+   "quelle": "acroform",
+   "n_felder": 68,
+   "n_semantik": 15,
+   "n_michi": 9,
+   "n_arzt": 0,
+   "pdf_angereichert": false,
+   "status": "geprueft",
+   "methode": "geometrie+vision_llm+sichtpruefung"
   },
   {
    "formular_id": "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",

@@ -7481,6 +7481,51 @@
    "wer": "versicherte"
   }
  },
+ "oegk_rezeptgebuehrenbefreiung": {
+  "Ort_Datum_S02": {
+   "herkunft": "review",
+   "semantik": "ort_datum.heute"
+  },
+  "SVNR01_S01": {
+   "herkunft": "review",
+   "pflicht": true,
+   "semantik": "person.svnr"
+  },
+  "SVNR01_S02": {
+   "herkunft": "review",
+   "semantik": null,
+   "wer": "versicherte"
+  },
+  "SVNR02_S02": {
+   "herkunft": "review",
+   "semantik": null,
+   "wer": "versicherte"
+  },
+  "SVNR03_S02": {
+   "herkunft": "review",
+   "semantik": null,
+   "wer": "versicherte"
+  },
+  "SVNR04_S02": {
+   "herkunft": "review",
+   "semantik": null,
+   "wer": "versicherte"
+  },
+  "SVNR05_S02": {
+   "herkunft": "review",
+   "semantik": null,
+   "wer": "versicherte"
+  },
+  "Straße_S1": {
+   "herkunft": "review",
+   "semantik": "adresse.strasse_hausnr"
+  },
+  "Vor- und Familienname_S1": {
+   "herkunft": "review",
+   "pflicht": true,
+   "semantik": "person.name_voll"
+  }
+ },
  "oegk_vo_fuer_sehbehelfe_und_augenprothesen@2b73d700fbba": {},
  "oegk_zeitbestaetigung_fuer_dienstgeber@652532d08857": {
   "f01_000": {

@@ -12,7 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 LIVE = HERE.parent / "links" / "formulare_live.jsonl"
 DEMO = ["pva_pal080", "antrag_reha_kur", "antrag_ahv_reha_unfall", "oegk_fahrtkosten_wien", "fsw_antrag_foerderung",
-        "fsw_einrichtungswunsch", "fsw_bedarfsmeldung_wg", "bvaeb_9096928de6", "svs_8e5303e0b6"]
+        "fsw_einrichtungswunsch", "fsw_bedarfsmeldung_wg", "bvaeb_9096928de6", "svs_8e5303e0b6", "oegk_rezeptgebuehrenbefreiung"]
 
 GRUND_TEXT = {
     "online": "Online-Antrag (kein PDF) – Michi verlinkt das Online-Formular, Empfänger ist gesetzt",
@@ -93,8 +93,8 @@ def main():
     for r in rows:
         if r["formular_id"] in DEMO:
             L.append(f"| `{r['formular_id']}` {r['name'][:50]} | {r['status']} | {r.get('methode', r.get('grund', ''))} | {r.get('n_felder', '')} | {r.get('n_michi', '')} |\n")
-    L.append("\nRezeptgebührenbefreiung **ÖGK**: In `formulare_live` gibt es kein ÖGK-Antragsformular. `oegk_infoblatt` ist ein Infoblatt "
-             "(als `antrag` klassifiziert) und bekommt daher kein Template. Geprüfte Alternativen: BVAEB `bvaeb_9096928de6`, SVS `svs_8e5303e0b6`.\n")
+    L.append("\nRezeptgebührenbefreiung **ÖGK**: `oegk_rezeptgebuehrenbefreiung` (von der Links-Session nachgezogen, AcroForm, geprüft). "
+             "`oegk_infoblatt` ist ein Merkblatt ohne Ausfüllfelder.\n")
     L.append("""
 ## Wie es funktioniert
 

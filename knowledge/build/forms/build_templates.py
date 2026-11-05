@@ -385,6 +385,8 @@ def anreichern(felder, frozen: dict, form: dict):
                 if "wert_semantik" in o:
                     continue
                 lab = S.norm(o.get("label"))
+                if re.search(r"getrennt|jedoch|ehemal|fruher|aufgelost|hinterblieb", lab + " " + S.norm(o.get("wert"))):
+                    continue  # Sonderformen nie automatisch
                 for v, pre in (("weiblich", "weibl"), ("mannlich", "mannl"), ("divers", "divers"), ("ledig", "ledig"),
                                ("verheiratet", "verh"), ("verwitwet", "verw"), ("geschieden", "gesch")):
                     if lab.startswith(pre) or v in lab.split() or S.norm(o.get("wert")).startswith(pre):
