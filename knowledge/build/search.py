@@ -553,18 +553,23 @@ class Lotse:
     @staticmethod
     def _forms():
         """knowledge/build/forms/forms_api.py (kb-forms). Fehlt es, antworten die Endpunkte mit 404 'noch nicht verfügbar'."""
-        import importlib
         fdir = BUILD / "forms"
         if not (fdir / "forms_api.py").exists():
             return None
-        if str(fdir) not in sys.path:
-            sys.path.insert(0, str(fdir))
+        import importlib.util
+        path = (fdir / "forms_api.py").resolve()
+        name = "lotse_forms_api"  # eigener Modulname: kein Konflikt mit anderen 'forms_api' in sys.modules
         try:
-            mod = sys.modules.get("forms_api") or importlib.import_module("forms_api")
-            m = (fdir / "forms_api.py").stat().st_mtime
-            if getattr(mod, "_lotse_mtime", m) != m:
-                mod = importlib.reload(mod)
-            mod._lotse_mtime = m
+            m = path.stat().st_mtime
+            mod = sys.modules.get(name)
+            if mod is None or Path(getattr(mod, "__file__", "")).resolve() != path or getattr(mod, "_lotse_mtime", None) != m:
+                spec = importlib.util.spec_from_file_location(name, path)
+                mod = importlib.util.module_from_spec(spec)
+                if str(fdir) not in sys.path:
+                    sys.path.insert(0, str(fdir))  # falls forms_api eigene Nachbarmodule importiert
+                spec.loader.exec_module(mod)
+                mod._lotse_mtime = m
+                sys.modules[name] = mod
             return mod
         except Exception:
             return None
