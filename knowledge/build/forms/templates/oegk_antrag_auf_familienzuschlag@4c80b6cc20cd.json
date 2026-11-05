@@ -1,0 +1,26 @@
+{
+ "formular_id": "oegk_antrag_auf_familienzuschlag",
+ "name": "Antrag auf Familienzuschlag",
+ "traeger": "ÖGK",
+ "sha256": "4c80b6cc20cd694147be9dc0072eda3527a4f399f02f1410bb0aef374a32a0c1",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.796733&version=1751618615",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "bild_pdf_ohne_text",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "bild_pdf_ohne_text"
+  ]
+ }
+}

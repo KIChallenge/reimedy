@@ -1,0 +1,926 @@
+{
+ "formular_id": "svs_c256fa7b5e",
+ "name": "Krankmeldung",
+ "traeger": "SVS",
+ "sha256": "368257e36eb9365a029b888f70b9f846eec2ad63c507ec3f2b95a1541f37e1a8",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.763497&version=1770286300",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    326.0,
+    99.0,
+    538.6,
+    111.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wiedner Hauptstr. 84-86",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.4,
+    121.0,
+    269.3,
+    133.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wiedner Hauptstr. 84-86",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.4,
+    216.7,
+    368.5,
+    229.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unterstützungsleistung bei lang andauernder Krankheit (§ 104a",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    368.5,
+    216.7,
+    538.9,
+    229.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "104a GSVG)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.7,
+    248.5,
+    368.5,
+    261.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel, Familienname, Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    368.5,
+    248.5,
+    538.6,
+    261.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.4,
+    280.4,
+    368.5,
+    292.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    368.5,
+    280.4,
+    538.9,
+    292.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.4,
+    291.4,
+    158.7,
+    303.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    238.1,
+    291.4,
+    470.5,
+    303.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    158.7,
+    310.0,
+    238.1,
+    322.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitsunfähig seit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    470.5,
+    310.0,
+    532.6,
+    322.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "voraussichtliche Dauer der Arbeitsunfähigkeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    158.7,
+    329.8,
+    238.1,
+    342.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitsfähig ab",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    158.7,
+    353.1,
+    532.6,
+    365.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Diagnose(n)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    158.7,
+    374.2,
+    215.4,
+    386.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Spitalspflege von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    243.8,
+    374.2,
+    300.5,
+    386.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    371.3,
+    374.2,
+    530.6,
+    386.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "im / in der",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    135.9,
+    393.9,
+    145.8,
+    403.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    192.6,
+    393.9,
+    202.5,
+    403.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    326.3,
+    393.3,
+    397.1,
+    405.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "nein Ausgang von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    425.5,
+    393.3,
+    496.3,
+    405.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.4,
+    488.5,
+    67.3,
+    498.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Arbeitsunfall",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    270.0,
+    488.5,
+    279.9,
+    498.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sport- oder häuslicher Unfall",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.4,
+    513.1,
+    67.3,
+    523.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Verkehrsunfall",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    270.0,
+    513.1,
+    279.9,
+    523.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Folge eines früheren Unfalles",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.4,
+    537.8,
+    67.3,
+    547.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Raufhandel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_025",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    270.0,
+    537.8,
+    279.9,
+    547.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Folge einer früheren nicht behobenen Krankheit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_026",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.4,
+    562.5,
+    67.3,
+    572.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Unfallversicherte Berufskrankheit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_027",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    270.0,
+    562.5,
+    279.9,
+    572.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Vorsätzlich herbeigeführte Arbeitsunfähigkeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_028",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    138.4,
+    138.9,
+    148.3,
+    148.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja.....",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    176.4,
+    138.9,
+    186.3,
+    148.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    314.6,
+    160.2,
+    351.5,
+    172.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "● Meine durchschnittliche tägliche Arbeitszeit betrug",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    116.2,
+    199.0,
+    153.1,
+    211.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "beträgt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    80.1,
+    214.3,
+    90.0,
+    224.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "überschreiten.....",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_033",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    170.9,
+    214.3,
+    180.8,
+    224.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nicht überschreiten.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_034",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    184.2,
+    235.6,
+    221.1,
+    248.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bei dieser Zahl sind",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_035",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    323.1,
+    235.6,
+    360.0,
+    248.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Lehrlinge und/oder",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_036",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    303.3,
+    306.4,
+    538.6,
+    318.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich ersuche um Überweisung auf mein Konto bei der",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_037",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    90.7,
+    329.0,
+    538.6,
+    341.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "feld_id": "f02_038",
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    90.7,
+    351.7,
+    538.6,
+    364.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "BIC:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_039",
+   "semantik": "bank.bic",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    297.6,
+    492.5,
+    538.9,
+    505.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Überschreiten der genannten Fristen darf das Krankengeld/die Un-",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_040",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    297.6,
+    660.0,
+    538.9,
+    672.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Die Arbeitsfähigkeit ist umgehend zu melden.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_041",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/svs_c256fa7b5e/p1.png",
+   "cache/pruefung/svs_c256fa7b5e/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "5840af63f60a6e27",
+  "ok": true
+ }
+}

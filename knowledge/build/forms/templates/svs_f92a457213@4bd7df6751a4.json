@@ -1,0 +1,408 @@
+{
+ "formular_id": "svs_f92a457213",
+ "name": "Anmeldeformular",
+ "traeger": "SVS",
+ "sha256": "4bd7df6751a4a904aaed77996145c5ebf0bd2300b83af29b26853ffa0acc501c",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.797933&version=1773662535",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    500.8,
+    175.3,
+    543.0,
+    187.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    47.3,
+    204.2,
+    344.3,
+    216.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vor- und Familienname:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    415.6,
+    204.2,
+    457.7,
+    216.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    458.2,
+    204.2,
+    500.3,
+    216.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    47.3,
+    233.5,
+    344.3,
+    246.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    47.3,
+    262.6,
+    344.3,
+    275.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    344.8,
+    262.6,
+    543.0,
+    275.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    47.3,
+    293.1,
+    543.0,
+    305.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "In welcher Branche sind Sie tätig?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    53.5,
+    325.3,
+    62.8,
+    334.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "selbständig erwerbstätig",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    53.5,
+    345.5,
+    62.8,
+    354.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "unselbständig erwerbstätig bei",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    204.6,
+    343.7,
+    404.8,
+    355.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "unselbständig erwerbstätig bei",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    53.5,
+    381.7,
+    62.8,
+    391.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "SVS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    124.3,
+    381.7,
+    133.6,
+    391.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    195.1,
+    381.7,
+    204.4,
+    391.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "BVAEB",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    301.3,
+    381.7,
+    310.6,
+    391.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstige:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    47.3,
+    394.6,
+    543.0,
+    407.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVS ÖGK BVAEB Sonstige:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    336.5,
+    413.7,
+    535.8,
+    426.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "ausgewählten Gesundheitsangebot und ak-",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 5,
+  "bilder": [
+   "cache/pruefung/svs_f92a457213/p1.png",
+   "cache/pruefung/svs_f92a457213/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "ÖGK",
+     "problem": "Blauer Wert steht nicht im passenden Ankreuzfeld, sondern in der Zeile darunter und überdeckt gedruckten Formulartext.",
+     "schwer": true
+    },
+    {
+     "feld": "Vor- und Familienname",
+     "problem": "Wert sitzt knapp im Feld; keine eindeutige Layout-Verletzung erkennbar.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "0e93714fb2932e1a",
+  "ok": false
+ }
+}

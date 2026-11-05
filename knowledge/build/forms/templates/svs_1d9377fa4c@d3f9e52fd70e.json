@@ -1,0 +1,529 @@
+{
+ "formular_id": "svs_1d9377fa4c",
+ "name": "FZB12a - August 2025 Antragstellender Elternteil Versicherungsnummer Laufende Nr. Tag Mona",
+ "traeger": "SVS",
+ "sha256": "d3f9e52fd70e1cf03343a75953bd574374aecb32cae15a64e4841a23d5eb4fc1",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.766882&version=1757320704",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    109.1,
+    567.4,
+    121.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betreuung des Kindes durch beide Elternteile",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    115.6,
+    311.4,
+    128.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "(für Familienzeitbonus)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    153.2,
+    311.4,
+    165.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragstellender Elternteil Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    181.6,
+    311.8,
+    194.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    209.9,
+    311.4,
+    222.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    247.5,
+    311.4,
+    260.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zweiter Elternteil Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    275.9,
+    311.8,
+    288.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    302.2,
+    311.4,
+    314.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    341.0,
+    311.4,
+    353.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    367.3,
+    311.8,
+    379.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    393.7,
+    311.8,
+    406.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    608.7,
+    567.4,
+    621.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenhausaufenthalt des Kindes steht dem Vorliegen einer Familienzeit nicht entgegen (§ 2 Abs 3a FamZeitbG).",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    136.1,
+    648.6,
+    515.3,
+    661.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "in der Krankenanstalt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    136.1,
+    668.7,
+    263.6,
+    681.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Zeitraum von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    320.9,
+    668.7,
+    448.4,
+    681.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    759.0,
+    567.4,
+    771.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Als Nachweis werden die entsprechenden Aufzeichnungen des antragstellenden Elternteils über die konkreten Betreuungs­",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    133.2,
+    57.5,
+    512.5,
+    70.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "in der Krankenanstalt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_016",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    133.2,
+    77.7,
+    260.8,
+    90.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Zeitraum von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_017",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    318.0,
+    77.7,
+    445.6,
+    90.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_018",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    227.0,
+    165.8,
+    567.4,
+    178.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "zutreffend bestätigt.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_019",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    182.6,
+    246.7,
+    512.5,
+    259.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Konkrete medizinische Indikation:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_020",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    227.0,
+    253.8,
+    567.4,
+    266.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Konkrete medizinische Indikation:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_021",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    227.0,
+    291.6,
+    567.4,
+    304.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "gene Familienzeitbonus auch vom Dritten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_022",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/svs_1d9377fa4c/p1.png",
+   "cache/pruefung/svs_1d9377fa4c/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Vorname/n",
+     "problem": "Zwei blaue Vornamen eingetragen; das zweite Feld wirkt dem Kind/anderen Bereich zugeordnet statt der antragstellenden Person.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "a5cb69719eead1c0",
+  "ok": false
+ }
+}

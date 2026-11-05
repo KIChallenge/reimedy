@@ -1,0 +1,503 @@
+{
+ "formular_id": "oegv_form_1150",
+ "name": "Geburt eines Kindes - Vollmacht für Behördenwege (Wien)",
+ "traeger": null,
+ "sha256": "744d4057945454f22b94c87f28d435d2b98914e1f35e842503fea8fdbaea5789",
+ "version_url": "https://www.wien.gv.at/pdf/ma62/vollm.pdf",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "n",
+   "acro_name": "n",
+   "page": 0,
+   "bbox": [
+    117.8,
+    93.4,
+    219.1,
+    374.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name Adresse",
+   "acro_name": "Name Adresse",
+   "page": 0,
+   "bbox": [
+    85.0,
+    117.3,
+    391.0,
+    135.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name, Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "unseres/r - s oder r ergänzen",
+   "acro_name": "unseres/r - s oder r ergänzen",
+   "page": 0,
+   "bbox": [
+    248.5,
+    140.8,
+    257.6,
+    160.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "unseres/r - s oder r ergänzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "meines/r - s oder r ergänzen",
+   "acro_name": "meines/r - s oder r ergänzen",
+   "page": 0,
+   "bbox": [
+    294.4,
+    140.8,
+    304.0,
+    160.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "meines/r - s oder r ergänzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum",
+   "acro_name": "Geburtsdatum",
+   "page": 0,
+   "bbox": [
+    146.8,
+    161.4,
+    240.1,
+    179.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift der Mutter undoder des ehelichen Vaters",
+   "acro_name": "Unterschrift der Mutter undoder des ehelichen Vaters",
+   "page": 0,
+   "bbox": [
+    272.6,
+    229.5,
+    517.4,
+    247.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift der Mutter und/oder des ehelichen Vaters",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Vorname der Mutter",
+   "acro_name": "Familienname Vorname der Mutter",
+   "page": 0,
+   "bbox": [
+    85.0,
+    300.4,
+    471.8,
+    318.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname, Vorname der Mutter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "unseres/r; s oder r ergänzen",
+   "acro_name": "unseres/r; s oder r ergänzen",
+   "page": 0,
+   "bbox": [
+    206.5,
+    335.7,
+    219.9,
+    355.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "unseres/r;s oder r ergänzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "meines/r, s oder r ergänzen",
+   "acro_name": "meines/r, s oder r ergänzen",
+   "page": 0,
+   "bbox": [
+    259.0,
+    340.6,
+    279.1,
+    355.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "meines/r, s oder r ergänzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum des Kindes",
+   "acro_name": "Geburtsdatum des Kindes",
+   "page": 0,
+   "bbox": [
+    302.5,
+    341.1,
+    362.7,
+    355.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum des Kindes",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "kind.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "geborenen/r, n oder r ergänzen",
+   "acro_name": "geborenen/r, n oder r ergänzen",
+   "page": 0,
+   "bbox": [
+    410.0,
+    335.7,
+    422.5,
+    355.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "geborenen/r, n oder r ergänzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "gewünschter Name des Kindes",
+   "acro_name": "gewünschter Name des Kindes",
+   "page": 0,
+   "bbox": [
+    84.6,
+    398.0,
+    485.2,
+    412.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "gewünschter Name des Kindes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Religionsbekenntnis der Mutter",
+   "acro_name": "Religionsbekenntnis der Mutter",
+   "page": 0,
+   "bbox": [
+    254.5,
+    417.0,
+    361.3,
+    431.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Religionsbekenntnis der Mutter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Religionsbekenntnis des Vaters",
+   "acro_name": "Religionsbekenntnis des Vaters",
+   "page": 0,
+   "bbox": [
+    257.1,
+    435.5,
+    363.9,
+    449.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Religionsbekenntnis des Vaters",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ledig",
+   "acro_name": "ledig",
+   "page": 0,
+   "bbox": [
+    80.8,
+    610.7,
+    93.5,
+    622.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ledig",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ledig",
+     "bbox": [
+      80.8,
+      610.7,
+      93.5,
+      622.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verheiratet",
+   "acro_name": "verheiratet",
+   "page": 0,
+   "bbox": [
+    152.3,
+    611.2,
+    164.6,
+    623.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "verheiratet",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "verheiratet",
+     "bbox": [
+      152.3,
+      611.2,
+      164.6,
+      623.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwitwet",
+   "acro_name": "verwitwet",
+   "page": 0,
+   "bbox": [
+    364.6,
+    611.6,
+    377.8,
+    624.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "verwitwet",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "verwitwet ist.",
+     "bbox": [
+      364.6,
+      611.6,
+      377.8,
+      624.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "aktuelles Datum",
+   "acro_name": "aktuelles Datum",
+   "page": 0,
+   "bbox": [
+    134.7,
+    739.0,
+    221.4,
+    753.4
+   ],
+   "typ": "datum",
+   "label_wörtlich": "aktuelles Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift der Mutter undoder des ehelichen Vaters_2",
+   "acro_name": "Unterschrift der Mutter undoder des ehelichen Vaters_2",
+   "page": 0,
+   "bbox": [
+    262.9,
+    734.5,
+    509.6,
+    752.8
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift der Mutter und/oder des ehelichen Vaters",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "geschieden",
+   "acro_name": "geschieden",
+   "page": 0,
+   "bbox": [
+    255.6,
+    611.2,
+    267.0,
+    623.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "geschieden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "geschieden",
+     "bbox": [
+      255.6,
+      611.2,
+      267.0,
+      623.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 5,
+  "bilder": [
+   "cache/pruefung/oegv_form_1150/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "c1cea078098aa18a",
+  "ok": true
+ }
+}

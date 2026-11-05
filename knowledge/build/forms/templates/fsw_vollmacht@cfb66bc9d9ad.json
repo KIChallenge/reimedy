@@ -1,0 +1,611 @@
+{
+ "formular_id": "fsw_vollmacht",
+ "name": "Vollmacht zur Vertretung gegenüber dem Fonds Soziales Wien",
+ "traeger": "FSW",
+ "sha256": "cfb66bc9d9ad410da18900acc9167312b3e98434ab2eebcee1e521482d99d29b",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/Vollmacht.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname VollmachtgeberIn",
+   "acro_name": "Familienname VollmachtgeberIn",
+   "page": 0,
+   "bbox": [
+    28.8,
+    201.6,
+    235.3,
+    226.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname VollmachtgeberIn",
+   "acro_name": "Vorname VollmachtgeberIn",
+   "page": 0,
+   "bbox": [
+    243.6,
+    201.6,
+    444.7,
+    226.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Straße Vollmachtgeberin",
+   "acro_name": "Straße Vollmachtgeberin",
+   "page": 0,
+   "bbox": [
+    28.0,
+    242.4,
+    384.7,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straße der Adresse Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.strasse",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr VollmachtgeberIn ",
+   "acro_name": "Hausnr VollmachtgeberIn ",
+   "page": 0,
+   "bbox": [
+    395.8,
+    242.4,
+    432.1,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege VollmachtgeberIn",
+   "acro_name": "Stiege VollmachtgeberIn",
+   "page": 0,
+   "bbox": [
+    440.3,
+    242.4,
+    476.7,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.stiege",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr VollmachtgeberIn 4",
+   "acro_name": "Tuernr VollmachtgeberIn 4",
+   "page": 0,
+   "bbox": [
+    484.4,
+    242.4,
+    520.7,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tuernummer der Adresse Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "feld_id": "PLZ VollmachtgeberIn",
+   "acro_name": "PLZ VollmachtgeberIn",
+   "page": 0,
+   "bbox": [
+    28.0,
+    284.2,
+    169.2,
+    309.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "vertreter.adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort VollmachtnehmerIn",
+   "acro_name": "Ort VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    177.6,
+    284.2,
+    318.9,
+    504.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer VollmachtgeberIn",
+   "acro_name": "Telefonnummer VollmachtgeberIn",
+   "page": 0,
+   "bbox": [
+    346.0,
+    284.2,
+    566.6,
+    309.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Vollmachtgeber:in",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum VollmachtgeberIn",
+   "acro_name": "Geburtsdatum VollmachtgeberIn",
+   "page": 0,
+   "bbox": [
+    28.7,
+    325.3,
+    224.9,
+    350.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Vollmachtgeber:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FSW Kundinnennummer VollmachtgeberIn 1",
+   "acro_name": "FSW Kundinnennummer VollmachtgeberIn 1",
+   "page": 0,
+   "bbox": [
+    346.0,
+    325.3,
+    566.6,
+    350.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "FSW-Kund:innennummer (falls vorhanden)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname VollmachtnehmerIn",
+   "acro_name": "Familienname VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    28.7,
+    393.4,
+    249.3,
+    418.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname VollmachtnehmerIn",
+   "acro_name": "Vorname VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    258.2,
+    392.7,
+    478.8,
+    417.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strasse VollmachtnehmerIn",
+   "acro_name": "Strasse VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    28.0,
+    436.9,
+    384.7,
+    461.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname der Adresse Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.strasse",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr VollmachnehmerIn",
+   "acro_name": "Hausnr VollmachnehmerIn",
+   "page": 0,
+   "bbox": [
+    395.8,
+    436.9,
+    432.1,
+    461.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.hausnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege VollmachtnehmerIn",
+   "acro_name": "Stiege VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    440.3,
+    436.9,
+    476.7,
+    461.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.stiege",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr VollmachtnehmerIn",
+   "acro_name": "Tuernr VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    485.1,
+    436.9,
+    521.4,
+    461.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tuernummer der Adresse Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.tuer",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ VollmachtnehmerIn",
+   "acro_name": "PLZ VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    28.0,
+    479.1,
+    169.2,
+    504.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "vertreter.adresse.plz",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer VollmachtnehmerIn",
+   "acro_name": "Telefonnummer VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    345.7,
+    479.1,
+    566.3,
+    504.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Vollmachtnehmer:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum VollmachtnehmerIn",
+   "acro_name": "Geburtsdatum VollmachtnehmerIn",
+   "page": 0,
+   "bbox": [
+    28.7,
+    520.7,
+    224.9,
+    545.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Vollmachtnehmer:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "vertreter.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertretung saemtlichen Angelegenheiten der Foerderung",
+   "acro_name": "Vertretung saemtlichen Angelegenheiten der Foerderung",
+   "page": 0,
+   "bbox": [
+    28.8,
+    606.4,
+    46.8,
+    624.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Vertretung in saemtlichen Angelegenheiten der Foerderung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Vertretung in sämtlichen Angelegenheiten der Förderung",
+     "bbox": [
+      28.8,
+      606.4,
+      46.8,
+      624.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertretung als",
+   "acro_name": "Vertretung als",
+   "page": 0,
+   "bbox": [
+    29.1,
+    703.9,
+    47.1,
+    722.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Vertretung als (Sie können einen oder beide Punkte ankreuzen)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Vertretung als: (Sie können einen oder beide Punkte ankreuzen)",
+     "bbox": [
+      29.1,
+      703.9,
+      47.1,
+      722.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zustellbevollmaechtigter",
+   "acro_name": "Zustellbevollmaechtigter",
+   "page": 0,
+   "bbox": [
+    49.8,
+    732.9,
+    67.8,
+    750.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Zustellbevollmächtigte:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Zustellbevollmächtigte:r: Kostenbeitragsvorschreibung. Darf alle Schriftstücke des FSW entgegennehmen,",
+     "bbox": [
+      49.8,
+      732.9,
+      67.8,
+      750.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einholung von Informationen und Auskunftserteilung betreffend Förderungen, nicht aber Setzen von Ve",
+   "acro_name": "Einholung von Informationen und Auskunftserteilung betreffend Förderungen, nicht aber Setzen von Ve",
+   "page": 0,
+   "bbox": [
+    49.8,
+    759.2,
+    67.8,
+    777.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Vertrauensperson: darf keine Vertretungshandlungen Darf dem FSW setzen Informationen oder Schriftstücke weitergeben entgegennehmen. und",
+     "bbox": [
+      49.8,
+      759.2,
+      67.8,
+      777.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift",
+   "acro_name": "Datum Unterschrift",
+   "page": 1,
+   "bbox": [
+    30.4,
+    732.3,
+    154.6,
+    758.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung des:der Vollmachtgebers:Vollmachgeberin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": false,
+  "befunde": [
+   "Überlappung Ort VollmachtnehmerIn / Geburtsdatum VollmachtgeberIn",
+   "Überlappung Ort VollmachtnehmerIn / Familienname VollmachtnehmerIn",
+   "Überlappung Ort VollmachtnehmerIn / Vorname VollmachtnehmerIn",
+   "Überlappung Ort VollmachtnehmerIn / Strasse VollmachtnehmerIn"
+  ],
+  "n_gefuellt": 16,
+  "bilder": [
+   "cache/pruefung/fsw_vollmacht/p1.png",
+   "cache/pruefung/fsw_vollmacht/p2.png"
+  ],
+  "fp": "62779949c0a5dc2c",
+  "ok": false
+ }
+}

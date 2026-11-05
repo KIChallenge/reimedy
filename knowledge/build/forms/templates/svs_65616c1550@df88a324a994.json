@@ -1,0 +1,312 @@
+{
+ "formular_id": "svs_65616c1550",
+ "name": "PDF (0.2MB) – Formulare & Anträge",
+ "traeger": "SVS",
+ "sha256": "df88a324a994ea39fcb3c6f6489906dd695f76d69636e81fb3a27982c3748714",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.728131&version=1663737430",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    356.9,
+    188.1,
+    535.1,
+    200.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ordnungsbegriff",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    161.0,
+    274.9,
+    321.6,
+    287.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "grundlagenteiles:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    322.1,
+    274.9,
+    535.6,
+    287.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "grundlagenteiles:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    161.0,
+    302.0,
+    321.6,
+    314.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beitragsjahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    322.1,
+    302.0,
+    535.6,
+    314.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beitragsjahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.1,
+    321.2,
+    160.6,
+    333.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beitragsjahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    322.1,
+    321.2,
+    535.6,
+    333.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zurechnung zu Gunsten (Name, VSNR)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.1,
+    359.5,
+    160.6,
+    372.0
+   ],
+   "typ": "text",
+   "label_wörtlich": " t3G T7S%L#O l(t d+",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    161.0,
+    359.5,
+    321.6,
+    372.0
+   ],
+   "typ": "text",
+   "label_wörtlich": " t3G T7S%L#O l(t d+",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    320.2,
+    403.6,
+    535.6,
+    416.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragsteller:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.1,
+    451.6,
+    319.7,
+    464.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familien- und Vorname(n) des/der Betriebsführer(s)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    320.2,
+    451.6,
+    535.6,
+    464.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/svs_65616c1550/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Zurechnung zu Gunsten (Name, VSNR)",
+     "problem": "Blaue Eingabe steht in der richtigen Tabelle, aber im Feldbereich wirkt sie etwas knapp; kein klarer Fehler erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Antragsteller:",
+     "problem": "Der Wert „Berger“ steht im Antragsteller-Bereich, passt aber nicht eindeutig zum sichtbaren Label im Feld; Layout wirkt leicht verrutscht.",
+     "schwer": false
+    },
+    {
+     "feld": "Familien- und Vorname(n) des/der Betriebsführer(s)",
+     "problem": "Wert „Berger Anna“ liegt im passenden Feld und überdeckt keinen gedruckten Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Wert „1234140348“ liegt im passenden Feld und überdeckt keinen gedruckten Text.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "5afe007ec5e7e33d",
+  "ok": true
+ }
+}

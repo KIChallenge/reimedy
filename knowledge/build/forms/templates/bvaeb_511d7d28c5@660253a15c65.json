@@ -1,0 +1,760 @@
+{
+ "formular_id": "bvaeb_511d7d28c5",
+ "name": "AnhangStfGebr_01.01.2021",
+ "traeger": "BVAEB",
+ "sha256": "660253a15c650deebd5e482a8f3163db6e3edc22be04d45ae036cbc2f78aa89b",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.741718&version=1610025900",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    63.7,
+    268.3,
+    554.3,
+    280.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer (für allfällige Rückfragen):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    240.1,
+    318.2,
+    431.7,
+    330.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "1. Seit wann besteht das Leiden?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    100.6,
+    371.0,
+    178.2,
+    383.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    206.8,
+    371.0,
+    284.4,
+    383.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "von - bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    313.0,
+    371.0,
+    432.4,
+    383.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Abschluss",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    100.6,
+    384.3,
+    178.2,
+    396.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    206.8,
+    384.3,
+    284.4,
+    396.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "von - bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    313.0,
+    384.3,
+    432.4,
+    396.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Abschluss",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    100.6,
+    463.6,
+    267.1,
+    475.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    277.6,
+    463.6,
+    394.1,
+    475.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "von - bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    100.6,
+    476.8,
+    267.0,
+    488.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    277.6,
+    476.8,
+    394.1,
+    488.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "von - bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    454.7,
+    506.3,
+    464.6,
+    516.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja ☐ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    483.6,
+    506.3,
+    493.5,
+    516.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    152.7,
+    518.2,
+    285.9,
+    530.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Seit wann?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    454.6,
+    547.7,
+    464.6,
+    557.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja ☐ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    483.6,
+    547.7,
+    493.5,
+    557.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    454.6,
+    602.3,
+    464.6,
+    612.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja ☐ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    483.6,
+    602.3,
+    493.5,
+    612.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    207.6,
+    614.1,
+    310.4,
+    626.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Monatliche Höhe? EUR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    191.6,
+    627.3,
+    408.1,
+    639.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Von welcher Stelle?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    454.6,
+    656.9,
+    464.6,
+    666.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja ☐ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    483.5,
+    656.9,
+    493.5,
+    666.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    207.6,
+    668.7,
+    310.4,
+    680.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Monatliche Höhe? EUR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    454.7,
+    530.7,
+    464.6,
+    540.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja ☐ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_024",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    483.6,
+    530.7,
+    493.5,
+    540.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_025",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    454.6,
+    577.4,
+    464.6,
+    587.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja ☐ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_026",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    483.6,
+    577.4,
+    493.5,
+    587.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_027",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    142.2,
+    589.2,
+    414.4,
+    601.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    265.8,
+    614.7,
+    275.8,
+    624.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "☐",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    308.4,
+    614.7,
+    318.4,
+    624.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "☐ ☐",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.3,
+    614.7,
+    396.3,
+    624.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "☐ ☐ ☐",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    454.6,
+    678.6,
+    464.6,
+    688.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja ☐ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    483.5,
+    678.6,
+    493.5,
+    688.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_033",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/bvaeb_511d7d28c5/p1.png",
+   "cache/pruefung/bvaeb_511d7d28c5/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Telefonnummer (für allfällige Rückfragen)",
+     "problem": "Blauer Wert steht im richtigen Feld, überdeckt aber den gedruckten Label-Text teilweise",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "2fec36535cb8efa3",
+  "ok": false
+ }
+}

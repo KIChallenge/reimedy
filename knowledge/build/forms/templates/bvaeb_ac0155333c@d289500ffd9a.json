@@ -1,0 +1,358 @@
+{
+ "formular_id": "bvaeb_ac0155333c",
+ "name": "Antrag auf Fahrtkostenerstattung",
+ "traeger": "BVAEB",
+ "sha256": "d289500ffd9ade00e1e288c6b5713390ff94e45ff73f7a41661248a9d717ff90",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729181&version=1609327975",
+ "pages": 2,
+ "page_sizes": [
+  [
+   420.0,
+   595.0
+  ],
+  [
+   420.0,
+   595.0
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Versicherter",
+   "acro_name": "Versicherter",
+   "page": 0,
+   "bbox": [
+    132.7,
+    94.7,
+    264.0,
+    110.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Versicherte(r)",
+   "max_zeichen": 35,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    306.7,
+    96.0,
+    399.3,
+    110.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Patient",
+   "acro_name": "Patient",
+   "page": 0,
+   "bbox": [
+    120.0,
+    142.7,
+    262.0,
+    158.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Patient(in)",
+   "max_zeichen": 40,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_2",
+   "acro_name": "VSNR_2",
+   "page": 0,
+   "bbox": [
+    306.7,
+    143.3,
+    399.3,
+    158.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_1",
+   "acro_name": "Adresse_1",
+   "page": 0,
+   "bbox": [
+    112.0,
+    178.7,
+    390.0,
+    194.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Adresse",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_2",
+   "acro_name": "Adresse_2",
+   "page": 0,
+   "bbox": [
+    71.3,
+    202.7,
+    390.0,
+    218.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Adresse",
+   "max_zeichen": 90,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Diagnose_1",
+   "acro_name": "Diagnose_1",
+   "page": 0,
+   "bbox": [
+    70.7,
+    307.3,
+    312.7,
+    323.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Diagnose",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Diagnose_2",
+   "acro_name": "Diagnose_2",
+   "page": 0,
+   "bbox": [
+    71.3,
+    328.7,
+    391.3,
+    344.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Diagnose",
+   "max_zeichen": 90,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandlung_1",
+   "acro_name": "Behandlung_1",
+   "page": 0,
+   "bbox": [
+    85.3,
+    372.0,
+    390.7,
+    388.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Behandlung",
+   "max_zeichen": 90,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandlung_2",
+   "acro_name": "Behandlung_2",
+   "page": 0,
+   "bbox": [
+    71.3,
+    393.3,
+    391.3,
+    409.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Behandlung",
+   "max_zeichen": 90,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zuweisung",
+   "acro_name": "Zuweisung",
+   "page": 0,
+   "bbox": [
+    74.0,
+    446.0,
+    280.0,
+    455.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "zugewiesen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Untersuchung",
+     "label": "Untersuchung",
+     "bbox": [
+      74.0,
+      446.0,
+      82.7,
+      455.3
+     ]
+    },
+    {
+     "wert": "Behandlung",
+     "label": "Behandlung",
+     "bbox": [
+      271.3,
+      446.0,
+      280.0,
+      455.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begleitperson",
+   "acro_name": "Begleitperson",
+   "page": 0,
+   "bbox": [
+    74.0,
+    500.7,
+    280.0,
+    510.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Artikel unserer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Kind",
+     "label": "ein Kind",
+     "bbox": [
+      74.0,
+      500.7,
+      82.7,
+      510.0
+     ]
+    },
+    {
+     "wert": "Behinderte",
+     "label": "eine behinderte Person",
+     "bbox": [
+      271.3,
+      500.7,
+      280.0,
+      510.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 0,
+   "bbox": [
+    71.3,
+    542.0,
+    182.0,
+    557.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Textfeld Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/bvaeb_ac0155333c/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "9815e52315d9c382",
+  "ok": true
+ }
+}

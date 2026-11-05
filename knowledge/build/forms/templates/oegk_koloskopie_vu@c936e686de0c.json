@@ -1,0 +1,312 @@
+{
+ "formular_id": "oegk_koloskopie_vu",
+ "name": "Koloskopie VU",
+ "traeger": "ÖGK",
+ "sha256": "c936e686de0c18babb2a9011552d00a15ecdbbb328b9837a2780bf4e7232add8",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.808279&version=1782890724",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    108.9,
+    77.3,
+    271.8,
+    89.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vertragspartner-Nr.:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    79.7,
+    93.7,
+    271.8,
+    106.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Fachgebiet:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    123.7,
+    110.1,
+    271.8,
+    122.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ordinationsbundesland:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    444.7,
+    185.2,
+    500.2,
+    197.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "* Bei Polypen / Sonstiges sind Angaben verpflichtend",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    500.2,
+    185.2,
+    566.9,
+    197.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "* Bei Polypen / Sonstiges sind Angaben verpflichtend",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    277.1,
+    338.7,
+    337.2,
+    351.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausgang der Komplikation",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    500.2,
+    338.7,
+    566.9,
+    351.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " Tod des Patienten  unbekannt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.6,
+    381.3,
+    72.1,
+    393.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Untersuchungsdatum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    337.2,
+    631.7,
+    394.4,
+    644.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " Rektum-Ca.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    394.4,
+    631.7,
+    444.7,
+    644.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " Rektum-Ca.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    444.7,
+    631.7,
+    500.2,
+    644.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " Rektum-Ca.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    500.2,
+    631.7,
+    566.9,
+    644.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " Rektum-Ca.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    367.4,
+    722.7,
+    394.4,
+    734.7
+   ],
+   "typ": "text",
+   "label_wörtlich": " Kontrollkoloskopie in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/oegk_koloskopie_vu/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "e06d6510fa3aed85",
+  "ok": true
+ }
+}

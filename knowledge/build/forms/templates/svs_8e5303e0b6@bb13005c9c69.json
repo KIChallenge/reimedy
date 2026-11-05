@@ -1,0 +1,1142 @@
+{
+ "formular_id": "svs_8e5303e0b6",
+ "name": "KV-154 (10200) Antrag auf Rezeptgebührenbefreiung_mit Datamatrix",
+ "traeger": "SVS",
+ "sha256": "bb13005c9c69aabfc69a67844fcc7a4f5253aac9fce2ede5ab86625907960736",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.751362&version=1628504849",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    234.0,
+    124.9,
+    246.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname (auch",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    125.6,
+    234.0,
+    429.0,
+    246.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "(auch frühere[r] Name[n]) und Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    429.7,
+    234.0,
+    570.8,
+    246.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    274.5,
+    124.9,
+    287.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Personenstand",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    125.6,
+    274.5,
+    429.0,
+    287.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "verwitwet hinterbliebene(r) eingetragene(r) Partner/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    300.4,
+    429.0,
+    312.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wohnanschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    429.7,
+    300.4,
+    570.8,
+    312.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    331.2,
+    429.0,
+    343.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des Ehepartners/der Ehepartnerin bzw. des eingetragenen Partners/der eingetragenen Partnerin",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    430.4,
+    331.2,
+    570.8,
+    343.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "VSNR oder Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "partner.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.0,
+    362.6,
+    226.8,
+    375.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "A. EINKOMMENSVERHÄLTNISSE DES/DER",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    448.0,
+    362.6,
+    570.6,
+    375.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte(r)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    394.9,
+    446.5,
+    407.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erwerbstätigkeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    448.0,
+    394.9,
+    570.6,
+    407.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "mtl. Bruttobetrag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    414.9,
+    446.5,
+    427.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Pensionsversicherung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    434.8,
+    446.5,
+    447.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Rentenbezüge aus der Unfallversicherung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    448.0,
+    434.8,
+    570.6,
+    447.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unfallversicherung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    454.9,
+    446.5,
+    467.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "fürsorge/Heeresversorgungsgesetz",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    474.9,
+    446.5,
+    487.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verpachtung,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    448.0,
+    474.9,
+    570.6,
+    487.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verpachtung,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    495.6,
+    446.5,
+    508.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einkünfte Sachbezüge, etc.)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    448.0,
+    495.6,
+    570.6,
+    508.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "etc.)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    525.7,
+    570.6,
+    538.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der unterhaltspflichtigen Person",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.4,
+    568.0,
+    386.8,
+    580.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Die Beträge sind als Nettobeträge anzuführen.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    388.2,
+    568.0,
+    479.5,
+    580.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "sind als Nettobeträge anzuführen.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    481.0,
+    568.0,
+    570.6,
+    580.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "anzuführen.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    619.3,
+    199.4,
+    631.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "und Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_025",
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    200.2,
+    619.3,
+    316.0,
+    631.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_026",
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    316.7,
+    619.3,
+    386.8,
+    631.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_027",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    54.6,
+    105.6,
+    570.6,
+    118.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Heilbehelfe oder Hilfsmittel etc.)? Wenn ja, welche?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    335.3,
+    143.8,
+    570.6,
+    156.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "erkrankten Person(en):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    54.6,
+    171.4,
+    333.8,
+    183.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "der erkrankten Person(en):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    54.6,
+    252.0,
+    570.6,
+    264.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wie hoch ist der Aufwand an Rezeptgebühren pro Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    54.6,
+    277.6,
+    570.6,
+    290.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wie viele Medikamentenpackungen pro Monat beziehen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    259.0,
+    343.6,
+    309.0,
+    355.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Nach Abzug der Heimkosten verbleiben mtl. EUR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_033",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    54.7,
+    424.8,
+    216.6,
+    436.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wochen bekannt zu geben.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_034",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    259.9,
+    424.8,
+    478.8,
+    436.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "die die Beantwortung der angeführten Punkte betreffen,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_035",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    385.4,
+    456.3,
+    577.6,
+    468.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anstalt ausgefüllt!",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_036",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    384.7,
+    472.6,
+    577.6,
+    485.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einkommen laut Punkt A",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_037",
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.5,
+    490.3,
+    577.6,
+    502.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einkommen laut Punkt B",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_038",
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.1,
+    504.4,
+    576.4,
+    517.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "anrechenbares Einkommen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_039",
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    384.7,
+    523.6,
+    577.6,
+    536.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "141 BSVG einfacher Richtsatz Familienrichtsatz",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_040",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.5,
+    541.3,
+    577.6,
+    553.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "für Kind(er)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_041",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.1,
+    555.4,
+    576.4,
+    568.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "gem. § 141 BSVG",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_042",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.5,
+    575.4,
+    577.6,
+    587.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "+ / -",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_043",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    259.0,
+    588.3,
+    294.5,
+    600.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zurechnungsbetrag gem. § 4 Abs. 1 Z 3 der Richtlinien (",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_044",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.5,
+    592.3,
+    577.6,
+    604.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zurechnungsbetrag gem. § 4 Abs. 1 Z 3 der Richtlinien ( VO)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_045",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    54.6,
+    608.6,
+    383.6,
+    621.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zurechnungsbetrag gem. § 4 Abs. 1 Z 3 der Richtlinien ( VO)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_046",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    386.1,
+    606.4,
+    576.4,
+    619.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_047",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    385.1,
+    626.4,
+    577.6,
+    638.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "+ / -",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_048",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    54.6,
+    668.8,
+    384.0,
+    681.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Medizinische Stellungnahme:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_049",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    384.7,
+    705.2,
+    577.6,
+    717.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Festgestellt Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f02_050",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    385.4,
+    735.1,
+    577.6,
+    747.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angestellte:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_051",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/svs_8e5303e0b6/p1.png",
+   "cache/pruefung/svs_8e5303e0b6/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "796377124dd1efb5",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "796377124dd1efb5",
+  "ok": true
+ }
+}

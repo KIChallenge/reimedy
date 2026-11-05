@@ -1,0 +1,1135 @@
+{
+ "formular_id": "bvaeb_f2f5519e61",
+ "name": "Antrag auf Selbstversicherung nach §19a ASVG",
+ "traeger": "BVAEB",
+ "sha256": "7f976cc1339f66d73bc72be239b1e1ba1214b2bdd629df27198585ce873d9368",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.712458&version=1768284258",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    45.4,
+    162.1,
+    374.2,
+    179.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname (auch alle früher geführten Namen)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    45.4,
+    195.1,
+    374.2,
+    212.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift01",
+   "acro_name": "Anschrift01",
+   "page": 0,
+   "bbox": [
+    45.4,
+    226.4,
+    374.2,
+    243.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (Postleitzahl, Ort, Straße, Nr.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer",
+   "acro_name": "Versicherungsnummer",
+   "page": 0,
+   "bbox": [
+    377.6,
+    162.4,
+    437.8,
+    179.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "erste 4 Stellen der Versicherungsnummer",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "feld_id": "Geburtsdatum",
+   "acro_name": "Geburtsdatum",
+   "page": 0,
+   "bbox": [
+    440.0,
+    162.4,
+    549.4,
+    179.4
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum in der Form MMTTJJ",
+   "max_zeichen": 6,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "feld_id": "Tag",
+   "acro_name": "Tag",
+   "page": 0,
+   "bbox": [
+    439.2,
+    195.1,
+    471.3,
+    212.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag",
+   "max_zeichen": 2,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Monat",
+   "acro_name": "Monat",
+   "page": 0,
+   "bbox": [
+    475.1,
+    195.1,
+    507.3,
+    212.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Monat",
+   "max_zeichen": 2,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Jahr",
+   "acro_name": "Jahr",
+   "page": 0,
+   "bbox": [
+    515.2,
+    195.1,
+    547.4,
+    212.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahr",
+   "max_zeichen": 2,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx01",
+   "acro_name": "chkbx01",
+   "page": 0,
+   "bbox": [
+    380.4,
+    220.8,
+    387.5,
+    227.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "weiblich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "weiblich",
+     "bbox": [
+      380.4,
+      220.8,
+      387.5,
+      227.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx02",
+   "acro_name": "chkbx02",
+   "page": 0,
+   "bbox": [
+    380.4,
+    230.3,
+    387.5,
+    237.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "männlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "männlich",
+     "bbox": [
+      380.4,
+      230.3,
+      387.5,
+      237.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsangehörigkeit",
+   "acro_name": "Staatsangehörigkeit",
+   "page": 0,
+   "bbox": [
+    439.8,
+    226.5,
+    549.4,
+    243.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Staatsangehörigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.staatsbuergerschaft",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer",
+   "acro_name": "Telefonnummer",
+   "page": 0,
+   "bbox": [
+    45.4,
+    259.0,
+    260.8,
+    276.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse",
+   "acro_name": "E-Mail-Adresse",
+   "page": 0,
+   "bbox": [
+    263.6,
+    259.0,
+    549.4,
+    276.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kassenvermerke",
+   "acro_name": "Kassenvermerke",
+   "page": 0,
+   "bbox": [
+    45.4,
+    291.0,
+    549.4,
+    308.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kassenvermerke",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dienstgeber",
+   "acro_name": "Dienstgeber",
+   "page": 0,
+   "bbox": [
+    266.5,
+    311.5,
+    549.4,
+    328.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstgeber",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arbeitgeber.name",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name01",
+   "acro_name": "Name01",
+   "page": 0,
+   "bbox": [
+    215.4,
+    331.2,
+    549.4,
+    345.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift02",
+   "acro_name": "Anschrift02",
+   "page": 0,
+   "bbox": [
+    215.4,
+    345.2,
+    549.4,
+    359.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (Postleitzahl, Ort, Straße, Nr.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Entgeld1",
+   "acro_name": "Entgeld1",
+   "page": 0,
+   "bbox": [
+    269.5,
+    359.7,
+    549.3,
+    370.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "monatliches Entgelt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx03",
+   "acro_name": "chkbx03",
+   "page": 0,
+   "bbox": [
+    306.2,
+    372.0,
+    314.7,
+    380.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dienstleistungsscheck ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja r nein",
+     "bbox": [
+      306.2,
+      372.0,
+      314.7,
+      380.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx04",
+   "acro_name": "chkbx04",
+   "page": 0,
+   "bbox": [
+    344.8,
+    372.0,
+    353.3,
+    380.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dienstleistungsscheck nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein",
+     "bbox": [
+      344.8,
+      372.0,
+      353.3,
+      380.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name02",
+   "acro_name": "Name02",
+   "page": 0,
+   "bbox": [
+    215.4,
+    385.5,
+    549.4,
+    399.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift03",
+   "acro_name": "Anschrift03",
+   "page": 0,
+   "bbox": [
+    215.4,
+    399.6,
+    549.4,
+    413.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (Postleitzahl, Ort, Straße, Nr.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Entgeld2",
+   "acro_name": "Entgeld2",
+   "page": 0,
+   "bbox": [
+    269.6,
+    414.2,
+    549.3,
+    424.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "monatliches Entgelt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx05",
+   "acro_name": "chkbx05",
+   "page": 0,
+   "bbox": [
+    306.2,
+    426.8,
+    314.7,
+    435.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dienstleistungsscheck ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja r nein",
+     "bbox": [
+      306.2,
+      426.8,
+      314.7,
+      435.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx06",
+   "acro_name": "chkbx06",
+   "page": 0,
+   "bbox": [
+    344.8,
+    426.8,
+    353.3,
+    435.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dienstleistungsscheck nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein",
+     "bbox": [
+      344.8,
+      426.8,
+      353.3,
+      435.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name03",
+   "acro_name": "Name03",
+   "page": 0,
+   "bbox": [
+    215.4,
+    440.0,
+    549.4,
+    454.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift04",
+   "acro_name": "Anschrift04",
+   "page": 0,
+   "bbox": [
+    215.4,
+    454.0,
+    549.4,
+    468.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (Postleitzahl, Ort, Straße, Nr.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Entgeld3",
+   "acro_name": "Entgeld3",
+   "page": 0,
+   "bbox": [
+    269.6,
+    468.5,
+    549.4,
+    479.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "monatliches Entgelt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx07",
+   "acro_name": "chkbx07",
+   "page": 0,
+   "bbox": [
+    306.2,
+    481.4,
+    314.7,
+    490.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dienstleistungsscheck ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja r nein",
+     "bbox": [
+      306.2,
+      481.4,
+      314.7,
+      490.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx08",
+   "acro_name": "chkbx08",
+   "page": 0,
+   "bbox": [
+    344.8,
+    481.4,
+    353.3,
+    489.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dienstleistungsscheck nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein",
+     "bbox": [
+      344.8,
+      481.4,
+      353.3,
+      489.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx09",
+   "acro_name": "chkbx09",
+   "page": 0,
+   "bbox": [
+    471.8,
+    511.1,
+    480.4,
+    519.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ja, es besteht eine Pflichtversicherung bzw. Versicherungspflicht im In- oder Ausland.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja r nein",
+     "bbox": [
+      471.8,
+      511.1,
+      480.4,
+      519.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx10",
+   "acro_name": "chkbx10",
+   "page": 0,
+   "bbox": [
+    510.9,
+    511.1,
+    519.4,
+    519.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nein, es besteht keine Pflichtversicherung bzw. Versicherungspflicht im In- oder Ausland.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein",
+     "bbox": [
+      510.9,
+      511.1,
+      519.4,
+      519.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsträger01",
+   "acro_name": "Versicherungsträger01",
+   "page": 0,
+   "bbox": [
+    45.4,
+    524.2,
+    549.4,
+    541.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn ja, bei welchem Versicherungsträger bzw. in welchem Land besteht diese Pflichtversicherung?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx11",
+   "acro_name": "chkbx11",
+   "page": 0,
+   "bbox": [
+    472.2,
+    553.2,
+    480.7,
+    561.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ja, ich beziehe eine Eigenpension oder Rente.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja r nein",
+     "bbox": [
+      472.2,
+      553.2,
+      480.7,
+      561.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx12",
+   "acro_name": "chkbx12",
+   "page": 0,
+   "bbox": [
+    510.9,
+    553.2,
+    519.4,
+    561.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nein, ich beziehe keine Eigenpension oder Rente.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein",
+     "bbox": [
+      510.9,
+      553.2,
+      519.4,
+      561.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Land",
+   "acro_name": "Land",
+   "page": 0,
+   "bbox": [
+    175.7,
+    563.3,
+    467.7,
+    577.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn ja, aus welchem Land?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsträger02",
+   "acro_name": "Versicherungsträger02",
+   "page": 0,
+   "bbox": [
+    175.7,
+    577.5,
+    467.7,
+    591.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn ja, von welcher Stelle?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx13",
+   "acro_name": "chkbx13",
+   "page": 0,
+   "bbox": [
+    472.2,
+    595.3,
+    480.7,
+    603.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ja, ich gehöre einer gesetzlichen beruflichen Vertretung an.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja r nein",
+     "bbox": [
+      472.2,
+      595.3,
+      480.7,
+      603.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "chkbx14",
+   "acro_name": "chkbx14",
+   "page": 0,
+   "bbox": [
+    510.9,
+    595.3,
+    519.4,
+    603.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nein, ich gehöre keiner gesetzlichen beruflichen Vertretung an.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein",
+     "bbox": [
+      510.9,
+      595.3,
+      519.4,
+      603.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertretung",
+   "acro_name": "Vertretung",
+   "page": 0,
+   "bbox": [
+    130.4,
+    605.2,
+    467.7,
+    619.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn ja, welcher gesetzlichen beruflichen Vertretung gehören Sie an?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN",
+   "acro_name": "IBAN",
+   "page": 0,
+   "bbox": [
+    45.4,
+    654.8,
+    294.8,
+    671.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BIC",
+   "acro_name": "BIC",
+   "page": 0,
+   "bbox": [
+    299.1,
+    654.8,
+    549.4,
+    671.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "BIC",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.bic",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name04",
+   "acro_name": "Name04",
+   "page": 0,
+   "bbox": [
+    45.4,
+    699.2,
+    280.6,
+    716.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der Kontoinhaberin bzw. des Kontoinhabers",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.kontoinhaber",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort",
+   "acro_name": "Ort",
+   "page": 0,
+   "bbox": [
+    45.4,
+    774.4,
+    170.1,
+    791.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort und Datum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 17,
+  "bilder": [
+   "cache/pruefung/bvaeb_f2f5519e61/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Wenn ja, bei welchem Versicherungsträger bzw. in welchem Land?",
+     "problem": "Wert steht im Abschnitt zu Pflichtversicherung/Eigenpension und wirkt dort nicht eindeutig dem vorgesehenen Feld zugeordnet; zudem ist der Eintrag unplausibel doppelt in benachbarten Folgefragen gesetzt.",
+     "schwer": false
+    },
+    {
+     "feld": "Wenn ja, aus welchem Land?",
+     "problem": "Der eingetragene Wert „ÖGK“ passt hier nicht zum gefragten Landfeld.",
+     "schwer": true
+    },
+    {
+     "feld": "Wenn ja, von welcher Stelle?",
+     "problem": "Der eingetragene Wert „ÖGK“ passt hier nicht zum Feld für die auszahlende Stelle.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "8fb89171a8cbecf0",
+  "ok": false
+ }
+}

@@ -1,0 +1,1624 @@
+{
+ "formular_id": "bvaeb_c3b9f02942",
+ "name": "Antrag auf Kinder- und Jugendlichen Rehabilitation",
+ "traeger": "BVAEB",
+ "sha256": "5b12deb243db3ed22700c60def91150e9012e43b528bb2471e954ff25016ba0d",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.802430&version=1768564037",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Sozialversicherungstraeger_1",
+   "acro_name": "Sozialversicherungstraeger_1",
+   "page": 0,
+   "bbox": [
+    246.4,
+    106.2,
+    547.0,
+    118.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zuständiger Sozialversicherungsträger:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_1",
+   "acro_name": "Ja_1",
+   "page": 0,
+   "bbox": [
+    243.6,
+    162.2,
+    324.8,
+    173.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Familienname / Vorname(n):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      243.6,
+      162.2,
+      255.3,
+      173.9
+     ]
+    },
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      313.2,
+      162.2,
+      324.8,
+      173.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_1",
+   "acro_name": "Name_1",
+   "page": 0,
+   "bbox": [
+    66.2,
+    183.4,
+    393.8,
+    195.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname / Vorname(n): weiblich männlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    400.1,
+    173.9,
+    533.6,
+    199.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_1",
+   "acro_name": "Adresse_1",
+   "page": 0,
+   "bbox": [
+    66.4,
+    223.5,
+    545.1,
+    246.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hauptwohnsitz (PLZ, Ort, Straße, Nr.):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_1",
+   "acro_name": "Telefon_1",
+   "page": 0,
+   "bbox": [
+    111.5,
+    253.6,
+    268.5,
+    267.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eMail_1",
+   "acro_name": "eMail_1",
+   "page": 0,
+   "bbox": [
+    304.2,
+    250.6,
+    545.4,
+    264.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "eMail:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_2",
+   "acro_name": "Ja_2",
+   "page": 0,
+   "bbox": [
+    176.9,
+    275.2,
+    252.1,
+    286.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Pflegegeldbezug",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      176.9,
+      275.2,
+      188.6,
+      286.8
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja, Pflegestufe:",
+     "bbox": [
+      240.5,
+      275.2,
+      252.1,
+      286.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegestufe_1",
+   "acro_name": "Pflegestufe_1",
+   "page": 0,
+   "bbox": [
+    322.0,
+    276.3,
+    479.1,
+    288.7
+   ],
+   "typ": "zahl",
+   "label_wörtlich": "ja, Pflegestufe:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "pflegegeld.stufe",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_2",
+   "acro_name": "Name_2",
+   "page": 0,
+   "bbox": [
+    66.6,
+    310.1,
+    394.2,
+    322.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r Name:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_2",
+   "acro_name": "VSNR_2",
+   "page": 0,
+   "bbox": [
+    407.1,
+    308.6,
+    540.6,
+    332.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_3",
+   "acro_name": "Ja_3",
+   "page": 0,
+   "bbox": [
+    241.0,
+    370.3,
+    322.1,
+    381.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Familienname / Vorname(n):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      241.0,
+      370.3,
+      252.6,
+      381.9
+     ]
+    },
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      310.5,
+      370.3,
+      322.1,
+      381.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_3",
+   "acro_name": "Name_3",
+   "page": 0,
+   "bbox": [
+    66.6,
+    387.4,
+    394.2,
+    399.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname / Vorname(n): weiblich männlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_3",
+   "acro_name": "VSNR_3",
+   "page": 0,
+   "bbox": [
+    400.3,
+    382.0,
+    533.9,
+    409.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "vertreter.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_2",
+   "acro_name": "Adresse_2",
+   "page": 0,
+   "bbox": [
+    66.2,
+    424.4,
+    545.0,
+    438.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (PLZ, Ort, Straße, Nr.):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_2",
+   "acro_name": "Telefon_2",
+   "page": 0,
+   "bbox": [
+    110.8,
+    444.1,
+    267.9,
+    456.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eMail_2",
+   "acro_name": "eMail_2",
+   "page": 0,
+   "bbox": [
+    303.6,
+    444.1,
+    544.7,
+    456.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "eMail:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_4",
+   "acro_name": "Ja_4",
+   "page": 0,
+   "bbox": [
+    93.9,
+    505.9,
+    148.1,
+    517.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      93.9,
+      505.9,
+      105.5,
+      517.6
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "nein ja",
+     "bbox": [
+      136.4,
+      505.9,
+      148.1,
+      517.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wann_1",
+   "acro_name": "Wann_1",
+   "page": 0,
+   "bbox": [
+    195.3,
+    503.7,
+    306.4,
+    518.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "nein ja Wann",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wo_1",
+   "acro_name": "Wo_1",
+   "page": 0,
+   "bbox": [
+    327.2,
+    503.7,
+    499.2,
+    518.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wo",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wann_2",
+   "acro_name": "Wann_2",
+   "page": 0,
+   "bbox": [
+    195.3,
+    519.0,
+    306.4,
+    533.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wann",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wo_2",
+   "acro_name": "Wo_2",
+   "page": 0,
+   "bbox": [
+    327.2,
+    519.0,
+    499.2,
+    533.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wo",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wann_3",
+   "acro_name": "Wann_3",
+   "page": 0,
+   "bbox": [
+    195.3,
+    534.3,
+    306.4,
+    548.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wann",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wo_3",
+   "acro_name": "Wo_3",
+   "page": 0,
+   "bbox": [
+    327.2,
+    534.3,
+    499.2,
+    548.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wo",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antwort_1",
+   "acro_name": "Antwort_1",
+   "page": 0,
+   "bbox": [
+    71.1,
+    591.5,
+    547.9,
+    718.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "spruch genommen?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 0,
+   "bbox": [
+    72.0,
+    751.8,
+    125.1,
+    767.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum (heutiges Datum automatisch eingefügt)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_5",
+   "acro_name": "Ja_5",
+   "page": 1,
+   "bbox": [
+    71.2,
+    107.0,
+    145.4,
+    118.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Unfalltag/Akutereignis:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      71.2,
+      107.0,
+      82.9,
+      118.6
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja Datum:",
+     "bbox": [
+      133.8,
+      107.0,
+      145.4,
+      118.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_2",
+   "acro_name": "Datum_2",
+   "page": 1,
+   "bbox": [
+    196.5,
+    106.4,
+    260.6,
+    121.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Datum:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus_1",
+   "acro_name": "Krankenhaus_1",
+   "page": 1,
+   "bbox": [
+    335.1,
+    100.5,
+    546.2,
+    113.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenhaus:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufnahmetag_1",
+   "acro_name": "Aufnahmetag_1",
+   "page": 1,
+   "bbox": [
+    335.1,
+    120.2,
+    546.2,
+    133.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aufnahmetag:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Entlassungstag_1",
+   "acro_name": "Entlassungstag_1",
+   "page": 1,
+   "bbox": [
+    439.8,
+    141.0,
+    546.4,
+    154.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "(Voraussichtlicher) Entlassungstag:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angabe_1",
+   "acro_name": "Angabe_1",
+   "page": 1,
+   "bbox": [
+    69.7,
+    195.2,
+    415.9,
+    210.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "(verpflichtend ist ein Befundbericht des Facharztes / Akutspitals beizulegen):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ICD10-Code_1",
+   "acro_name": "ICD10-Code_1",
+   "page": 1,
+   "bbox": [
+    480.3,
+    195.2,
+    545.9,
+    210.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "ICD10-Code:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angabe_2",
+   "acro_name": "Angabe_2",
+   "page": 1,
+   "bbox": [
+    69.7,
+    226.9,
+    545.9,
+    261.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben zum Rehabilitationsziel (Teilhabe-orientiert):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angabe_3",
+   "acro_name": "Angabe_3",
+   "page": 1,
+   "bbox": [
+    69.7,
+    272.7,
+    545.9,
+    301.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Relevante Nebendiagnosen/Einschränkungen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Groesse_1",
+   "acro_name": "Groesse_1",
+   "page": 1,
+   "bbox": [
+    105.3,
+    311.3,
+    162.9,
+    326.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Größe:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gewicht_1",
+   "acro_name": "Gewicht_1",
+   "page": 1,
+   "bbox": [
+    249.4,
+    311.3,
+    306.9,
+    326.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "cm Gewicht:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_6",
+   "acro_name": "Ja_6",
+   "page": 1,
+   "bbox": [
+    71.2,
+    352.9,
+    82.8,
+    364.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Mobilisierende Indikationen (Ortho, NEU, KCH, NC)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "Mobilisierende Indikationen (Ortho, NEU, KCH, NC)",
+     "bbox": [
+      71.2,
+      352.9,
+      82.8,
+      364.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_7",
+   "acro_name": "Ja_7",
+   "page": 1,
+   "bbox": [
+    71.2,
+    370.4,
+    82.8,
+    382.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Herz-Kreislauf-Erkrankungen / Pulmologische Erkrankungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "2",
+     "label": "Herz-Kreislauf-Erkrankungen / Pulmologische Erkrankungen",
+     "bbox": [
+      71.2,
+      370.4,
+      82.8,
+      382.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_8",
+   "acro_name": "Ja_8",
+   "page": 1,
+   "bbox": [
+    71.2,
+    388.0,
+    82.8,
+    399.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Onkologische Erkrankungen / Erkrankungen des Stoffwechselsystems",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "3",
+     "label": "Onkologische Erkrankungen / Erkrankungen des Stoffwechselsystems",
+     "bbox": [
+      71.2,
+      388.0,
+      82.8,
+      399.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_9",
+   "acro_name": "Ja_9",
+   "page": 1,
+   "bbox": [
+    71.2,
+    405.0,
+    82.8,
+    416.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "mental health (Entwicklungs- und Sozialpädiatrie / Kinder-",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "4",
+     "label": "mental health (Entwicklungs- und Sozialpädiatrie / Kinder-",
+     "bbox": [
+      71.2,
+      405.0,
+      82.8,
+      416.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_10",
+   "acro_name": "Ja_10",
+   "page": 1,
+   "bbox": [
+    283.6,
+    428.3,
+    344.8,
+    440.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Begleitperson für Aufenthalt notwendig:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      283.6,
+      428.3,
+      295.3,
+      440.0
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja, Begründung:",
+     "bbox": [
+      333.2,
+      428.3,
+      344.8,
+      440.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begruendung_1",
+   "acro_name": "Begruendung_1",
+   "page": 1,
+   "bbox": [
+    420.2,
+    427.4,
+    545.7,
+    442.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aufenthalt notwendig: nein ja, Begründung:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_11",
+   "acro_name": "Ja_11",
+   "page": 1,
+   "bbox": [
+    312.4,
+    449.0,
+    374.5,
+    460.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Sekundärpatienten nur bei Onkologischen Erkrankungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      312.4,
+      449.0,
+      324.0,
+      460.7
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja, wie viele Personen ………",
+     "bbox": [
+      362.9,
+      449.0,
+      374.5,
+      460.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl_Personen_1",
+   "acro_name": "Anzahl_Personen_1",
+   "page": 1,
+   "bbox": [
+    476.4,
+    447.5,
+    546.0,
+    462.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Onkologischen Erkrankungen nein ja, wie viele Personen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antrittstermin_1",
+   "acro_name": "Antrittstermin_1",
+   "page": 1,
+   "bbox": [
+    307.9,
+    483.8,
+    546.4,
+    498.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Optimaler Antrittstermin des Rehab-Aufenthaltes:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_12",
+   "acro_name": "Ja_12",
+   "page": 1,
+   "bbox": [
+    141.4,
+    513.3,
+    194.5,
+    524.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ist gehfähig",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      141.4,
+      513.3,
+      153.0,
+      524.9
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja",
+     "bbox": [
+      182.9,
+      513.3,
+      194.5,
+      524.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_13",
+   "acro_name": "Ja_13",
+   "page": 1,
+   "bbox": [
+    295.2,
+    513.3,
+    342.4,
+    524.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ist gehfähig nein ja mit Hilfsmittel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      295.2,
+      513.3,
+      306.9,
+      524.9
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja",
+     "bbox": [
+      330.8,
+      513.3,
+      342.4,
+      524.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_14",
+   "acro_name": "Ja_14",
+   "page": 1,
+   "bbox": [
+    422.3,
+    513.3,
+    475.5,
+    524.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "nein ja mit Hilfsmittel nein ja Rollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      422.3,
+      513.3,
+      434.0,
+      524.9
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja",
+     "bbox": [
+      463.9,
+      513.3,
+      475.5,
+      524.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_15",
+   "acro_name": "Ja_15",
+   "page": 1,
+   "bbox": [
+    295.2,
+    531.1,
+    343.4,
+    542.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "benötigt fremde Hilfe (waschen, anziehen, usw.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      295.2,
+      531.1,
+      306.9,
+      542.8
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja",
+     "bbox": [
+      331.8,
+      531.1,
+      343.4,
+      542.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_16",
+   "acro_name": "Ja_16",
+   "page": 1,
+   "bbox": [
+    71.4,
+    569.3,
+    83.0,
+    594.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Transport",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      71.4,
+      569.3,
+      83.0,
+      580.9
+     ]
+    },
+    {
+     "wert": "ja",
+     "label": "ja, für die Anreise wird Transport benötigt:",
+     "bbox": [
+      71.4,
+      583.3,
+      83.0,
+      594.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_17",
+   "acro_name": "Ja_17",
+   "page": 1,
+   "bbox": [
+    282.5,
+    583.9,
+    294.1,
+    595.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ohne Sanitäter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "ohne Sanitäter",
+     "bbox": [
+      282.5,
+      583.9,
+      294.1,
+      595.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_18",
+   "acro_name": "Ja_18",
+   "page": 1,
+   "bbox": [
+    282.5,
+    598.6,
+    294.1,
+    610.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "mit Sanitäter (liegend oder mit Tragsessel)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "2",
+     "label": "mit Sanitäter (liegend oder mit Tragsessel)",
+     "bbox": [
+      282.5,
+      598.6,
+      294.1,
+      610.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_19",
+   "acro_name": "Ja_19",
+   "page": 1,
+   "bbox": [
+    282.5,
+    612.6,
+    294.1,
+    624.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Privat (PKW, Taxi)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "3",
+     "label": "Privat (PKW, Taxi)",
+     "bbox": [
+      282.5,
+      612.6,
+      294.1,
+      624.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_4",
+   "acro_name": "Name_4",
+   "page": 1,
+   "bbox": [
+    66.6,
+    651.7,
+    326.1,
+    667.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der/des zuständigen Ärztin/Arztes:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_3",
+   "acro_name": "Datum_3",
+   "page": 1,
+   "bbox": [
+    66.9,
+    669.6,
+    131.0,
+    684.9
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Name der/des",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_3",
+   "acro_name": "Telefon_3",
+   "page": 1,
+   "bbox": [
+    388.9,
+    637.4,
+    547.2,
+    650.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon/DW:",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fax_1",
+   "acro_name": "Fax_1",
+   "page": 1,
+   "bbox": [
+    353.9,
+    654.9,
+    547.0,
+    668.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Fax:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eMail_3",
+   "acro_name": "eMail_3",
+   "page": 1,
+   "bbox": [
+    332.1,
+    683.0,
+    547.4,
+    698.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unterschrift und Stempel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 14,
+  "bilder": [
+   "cache/pruefung/bvaeb_c3b9f02942/p1.png",
+   "cache/pruefung/bvaeb_c3b9f02942/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Familienname / Vorname(n): weiblich männlich → Berger Sandra",
+     "problem": "Name der Vertreterin steht im Feld für das Kind/Jugendlichen, nicht bei der antragstellenden Person.",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer: 4321030215",
+     "problem": "Wert erscheint im Feld „Versicherte/r Name“ bzw. bei der Zeile für den Namen, statt im Namensfeld/bei der Person; falsche Zuordnung.",
+     "schwer": true
+    },
+    {
+     "feld": "Name der/des",
+     "problem": "Hier wurde das Datum eingefügt; das Feld ist für den Namen der/des zuständigen Ärztin/Arztes gedacht.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "3016cf6a4a0fbc2e",
+  "ok": false
+ }
+}

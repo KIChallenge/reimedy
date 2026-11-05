@@ -1,0 +1,38 @@
+{
+ "formular_id": "svs_fdc851d526",
+ "name": "Anlage_D_Formular-Kostenvoranschlag.pdf",
+ "traeger": "SVS",
+ "sha256": "c8be73bb195b32b5e961ccbbf1921f1517cdf04b9d63934cf24aaa4e343e8d47",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.794146&version=1749102440",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/svs_fdc851d526/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "2b565c65dd881752",
+  "ok": true
+ }
+}

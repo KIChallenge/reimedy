@@ -1,0 +1,4616 @@
+{
+ "formular_id": "fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf",
+ "name": "Verwendungsnachweis halbjaehrlich handschriftlich",
+ "traeger": "FSW",
+ "sha256": "845945c7983329783248a0c003f8d7e743f33d41f7248fa5fe162d9301896552",
+ "version_url": "https://www.fsw.at/downloads/leben-mit-behinderung/240315_Verwendungsnachweis_halbjaehrlich_handschriftlich_bf.pdf",
+ "pages": 33,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   679.0,
+   960.0
+  ],
+  [
+   679.0,
+   960.0
+  ],
+  [
+   679.0,
+   960.0
+  ],
+  [
+   679.0,
+   960.0
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    440.9,
+    208.3,
+    571.3,
+    220.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderperiodenmonat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    440.9,
+    242.4,
+    571.3,
+    254.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Monate:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.9,
+    301.6,
+    571.3,
+    314.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Excel an den Fonds Soziales Wien (FSW) zu übermitteln.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    133.8,
+    315.2,
+    243.3,
+    344.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "1. bzw. Monat 7.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    345.0,
+    315.2,
+    570.0,
+    344.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "6. bzw. 12. Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.9,
+    332.7,
+    571.3,
+    345.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "6. bzw. 12. Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.9,
+    339.3,
+    571.3,
+    351.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.9,
+    553.7,
+    571.2,
+    566.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoauszuges Kontoauszuges",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    24.4,
+    115.3,
+    569.8,
+    127.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs -",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    133.8,
+    128.8,
+    570.0,
+    161.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamt 6 Durchschnittlich Monate",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    24.4,
+    407.3,
+    569.8,
+    419.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Durchschnittliche Anzahl Assistent:innen pro Fördermonat:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    441.4,
+    420.9,
+    570.0,
+    438.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe (Auszahlungsbetrag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    24.4,
+    490.9,
+    569.8,
+    503.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs -",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    133.8,
+    504.5,
+    570.0,
+    541.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamt 6 Durchschnittlich Monate",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    24.4,
+    615.9,
+    569.7,
+    628.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "DL-Modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    24.4,
+    768.9,
+    569.7,
+    781.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen im letzten halben Jahr:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    441.4,
+    782.6,
+    570.0,
+    803.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe (Auszahlungsbetrag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    441.4,
+    95.7,
+    570.0,
+    111.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Abgaben Gesamtsumme der letzten 6 Fördermonate:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    441.4,
+    113.4,
+    570.0,
+    134.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    24.4,
+    392.6,
+    569.8,
+    405.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Durchschnittliche Anzahl Assistent:innen pro",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    441.4,
+    406.1,
+    570.0,
+    427.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    24.4,
+    681.9,
+    569.7,
+    694.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Durchschn. Anzahl assistenzleistender Angehöriger pro",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    441.4,
+    695.6,
+    570.0,
+    716.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe (Gesamtbetrag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    24.4,
+    752.7,
+    569.7,
+    765.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    24.4,
+    69.7,
+    569.9,
+    82.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_024",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    441.4,
+    83.2,
+    570.0,
+    116.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Steuerberatung Kontokosten Gesamtsumme Gesamtsumme der der 6 6 Fördermonate: Fördermonate:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_025",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    441.4,
+    118.7,
+    570.0,
+    134.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten Gesamtkosten der 6 Fördermonate:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_026",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    441.4,
+    187.0,
+    570.0,
+    210.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtsumme:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_027",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 4,
+   "bbox": [
+    457.2,
+    208.3,
+    553.1,
+    220.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "für PA)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f05_028",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 4,
+   "bbox": [
+    457.2,
+    242.4,
+    553.1,
+    254.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f05_029",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 4,
+   "bbox": [
+    42.3,
+    315.0,
+    553.1,
+    327.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwendungsmonat/",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f05_030",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 4,
+   "bbox": [
+    42.3,
+    321.6,
+    553.1,
+    334.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahr:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f05_031",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 4,
+   "bbox": [
+    42.3,
+    409.8,
+    553.1,
+    422.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f05_032",
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 4,
+   "bbox": [
+    42.3,
+    620.2,
+    553.1,
+    632.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoauszuges Kontoauszuges",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f05_033",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    164.4,
+    551.6,
+    176.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "modell modell modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_034",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    179.1,
+    551.6,
+    191.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "bitte mit (x) ankreuzen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_035",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    232.2,
+    551.6,
+    244.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "FA FDV WV NS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_036",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    252.9,
+    551.6,
+    265.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_037",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    333.3,
+    551.6,
+    345.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis * geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_038",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    353.7,
+    551.6,
+    366.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_039",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    570.7,
+    551.6,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen: Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_040",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    601.0,
+    551.6,
+    613.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs­",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_041",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    621.8,
+    551.6,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_042",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    709.5,
+    551.6,
+    722.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis* geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_043",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    42.7,
+    729.9,
+    551.6,
+    742.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_044",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    122.1,
+    551.6,
+    134.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK Arbeitnehmer:innen- und Arbeitgeber:innenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_045",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    143.2,
+    551.6,
+    155.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstgeberabgabe",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_046",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    191.1,
+    551.6,
+    203.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_047",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    276.7,
+    551.6,
+    289.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(ohne Angehörige)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_048",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    430.6,
+    551.6,
+    443.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_049",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    451.0,
+    551.6,
+    463.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angehörige",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_050",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    558.1,
+    551.6,
+    570.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_051",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    614.8,
+    551.6,
+    627.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_052",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    656.0,
+    551.6,
+    668.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Steuerberatung/Personalverrechnung (verpflichtend)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_053",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 6,
+   "bbox": [
+    42.7,
+    704.2,
+    551.6,
+    716.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f07_054",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 7,
+   "bbox": [
+    42.2,
+    129.8,
+    552.1,
+    142.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "WV Gewerbeschein Assistenz 24 Assistenz24 gemeinnützige GmbH",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f08_055",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 7,
+   "bbox": [
+    42.2,
+    168.2,
+    553.1,
+    180.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "NS Werkvertrag ohne ZFK Zentrum für Kompetenzen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f08_056",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 8,
+   "bbox": [
+    457.2,
+    208.3,
+    553.1,
+    220.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "für PA)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f09_057",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 8,
+   "bbox": [
+    457.2,
+    242.4,
+    553.1,
+    254.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f09_058",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 8,
+   "bbox": [
+    42.3,
+    315.0,
+    553.1,
+    327.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwendungsmonat/",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f09_059",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 8,
+   "bbox": [
+    42.3,
+    321.6,
+    553.1,
+    334.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahr:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f09_060",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 8,
+   "bbox": [
+    42.3,
+    409.8,
+    553.1,
+    422.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f09_061",
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 8,
+   "bbox": [
+    42.3,
+    620.2,
+    553.1,
+    632.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoauszuges Kontoauszuges",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f09_062",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    164.4,
+    551.6,
+    176.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "modell modell modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_063",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    179.1,
+    551.6,
+    191.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "bitte mit (x) ankreuzen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_064",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    232.2,
+    551.6,
+    244.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "FA FDV WV NS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_065",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    252.9,
+    551.6,
+    265.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_066",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    333.3,
+    551.6,
+    345.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis * geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_067",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    353.7,
+    551.6,
+    366.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_068",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    570.7,
+    551.6,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen: Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_069",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    601.0,
+    551.6,
+    613.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs­",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_070",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    621.8,
+    551.6,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_071",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    709.5,
+    551.6,
+    722.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis* geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_072",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 9,
+   "bbox": [
+    42.7,
+    729.9,
+    551.6,
+    742.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f10_073",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    122.1,
+    551.6,
+    134.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK Arbeitnehmer:innen- und Arbeitgeber:innenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_074",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    143.2,
+    551.6,
+    155.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstgeberabgabe",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_075",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    191.1,
+    551.6,
+    203.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_076",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    276.7,
+    551.6,
+    289.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(ohne Angehörige)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_077",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    430.6,
+    551.6,
+    443.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_078",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    451.0,
+    551.6,
+    463.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angehörige",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_079",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    558.1,
+    551.6,
+    570.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_080",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    614.8,
+    551.6,
+    627.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_081",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    656.0,
+    551.6,
+    668.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Steuerberatung/Personalverrechnung (verpflichtend)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_082",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 10,
+   "bbox": [
+    42.7,
+    704.2,
+    551.6,
+    716.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f11_083",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 11,
+   "bbox": [
+    42.2,
+    129.8,
+    552.1,
+    142.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "WV Gewerbeschein Assistenz 24 Assistenz24 gemeinnützige GmbH",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f12_084",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 11,
+   "bbox": [
+    42.2,
+    168.2,
+    553.1,
+    180.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "NS Werkvertrag ohne ZFK Zentrum für Kompetenzen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f12_085",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 12,
+   "bbox": [
+    457.2,
+    208.3,
+    553.1,
+    220.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "für PA)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f13_086",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 12,
+   "bbox": [
+    457.2,
+    242.4,
+    553.1,
+    254.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f13_087",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 12,
+   "bbox": [
+    42.3,
+    315.0,
+    553.1,
+    327.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwendungsmonat/",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f13_088",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 12,
+   "bbox": [
+    42.3,
+    321.6,
+    553.1,
+    334.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahr:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f13_089",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 12,
+   "bbox": [
+    42.3,
+    409.8,
+    553.1,
+    422.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f13_090",
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 12,
+   "bbox": [
+    42.3,
+    620.2,
+    553.1,
+    632.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoauszuges Kontoauszuges",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f13_091",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    164.4,
+    551.6,
+    176.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "modell modell modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_092",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    179.1,
+    551.6,
+    191.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "bitte mit (x) ankreuzen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_093",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    232.2,
+    551.6,
+    244.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "FA FDV WV NS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_094",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    252.9,
+    551.6,
+    265.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_095",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    333.3,
+    551.6,
+    345.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis * geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_096",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    353.7,
+    551.6,
+    366.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_097",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    570.7,
+    551.6,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen: Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_098",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    601.0,
+    551.6,
+    613.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs­",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_099",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    621.8,
+    551.6,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_100",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    709.5,
+    551.6,
+    722.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis* geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_101",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 13,
+   "bbox": [
+    42.7,
+    729.9,
+    551.6,
+    742.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f14_102",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    122.1,
+    551.6,
+    134.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK Arbeitnehmer:innen- und Arbeitgeber:innenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_103",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    143.2,
+    551.6,
+    155.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstgeberabgabe",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_104",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    191.1,
+    551.6,
+    203.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_105",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    276.7,
+    551.6,
+    289.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(ohne Angehörige)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_106",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    430.6,
+    551.6,
+    443.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_107",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    451.0,
+    551.6,
+    463.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angehörige",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_108",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    558.1,
+    551.6,
+    570.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_109",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    614.8,
+    551.6,
+    627.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_110",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    656.0,
+    551.6,
+    668.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Steuerberatung/Personalverrechnung (verpflichtend)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_111",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 14,
+   "bbox": [
+    42.7,
+    704.2,
+    551.6,
+    716.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f15_112",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 15,
+   "bbox": [
+    42.2,
+    129.8,
+    552.1,
+    142.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "WV Gewerbeschein Assistenz 24 Assistenz24 gemeinnützige GmbH",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f16_113",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 15,
+   "bbox": [
+    42.2,
+    168.2,
+    553.1,
+    180.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "NS Werkvertrag ohne ZFK Zentrum für Kompetenzen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f16_114",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 16,
+   "bbox": [
+    457.2,
+    208.3,
+    553.1,
+    220.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "für PA)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f17_115",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 16,
+   "bbox": [
+    457.2,
+    242.4,
+    553.1,
+    254.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f17_116",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 16,
+   "bbox": [
+    42.3,
+    315.0,
+    553.1,
+    327.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwendungsmonat/",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f17_117",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 16,
+   "bbox": [
+    42.3,
+    321.6,
+    553.1,
+    334.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahr:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f17_118",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 16,
+   "bbox": [
+    42.3,
+    409.8,
+    553.1,
+    422.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f17_119",
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 16,
+   "bbox": [
+    42.3,
+    620.2,
+    553.1,
+    632.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoauszuges Kontoauszuges",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f17_120",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    164.4,
+    551.6,
+    176.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "modell modell modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_121",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    179.1,
+    551.6,
+    191.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "bitte mit (x) ankreuzen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_122",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    232.2,
+    551.6,
+    244.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "FA FDV WV NS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_123",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    252.9,
+    551.6,
+    265.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_124",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    333.3,
+    551.6,
+    345.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis * geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_125",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    353.7,
+    551.6,
+    366.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_126",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    570.7,
+    551.6,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen: Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_127",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    601.0,
+    551.6,
+    613.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs­",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_128",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    621.8,
+    551.6,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_129",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    709.5,
+    551.6,
+    722.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis* geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_130",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 17,
+   "bbox": [
+    42.7,
+    729.9,
+    551.6,
+    742.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f18_131",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    122.1,
+    551.6,
+    134.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK Arbeitnehmer:innen- und Arbeitgeber:innenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_132",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    143.2,
+    551.6,
+    155.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstgeberabgabe",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_133",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    191.1,
+    551.6,
+    203.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_134",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    276.7,
+    551.6,
+    289.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(ohne Angehörige)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_135",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    430.6,
+    551.6,
+    443.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_136",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    451.0,
+    551.6,
+    463.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angehörige",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_137",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    558.1,
+    551.6,
+    570.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_138",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    614.8,
+    551.6,
+    627.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_139",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    656.0,
+    551.6,
+    668.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Steuerberatung/Personalverrechnung (verpflichtend)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_140",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 18,
+   "bbox": [
+    42.7,
+    704.2,
+    551.6,
+    716.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f19_141",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 19,
+   "bbox": [
+    42.2,
+    129.8,
+    552.1,
+    142.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "WV Gewerbeschein Assistenz 24 Assistenz24 gemeinnützige GmbH",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f20_142",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 19,
+   "bbox": [
+    42.2,
+    168.2,
+    553.1,
+    180.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "NS Werkvertrag ohne ZFK Zentrum für Kompetenzen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f20_143",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 20,
+   "bbox": [
+    457.2,
+    208.3,
+    553.1,
+    220.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "für PA)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f21_144",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 20,
+   "bbox": [
+    457.2,
+    242.4,
+    553.1,
+    254.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f21_145",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 20,
+   "bbox": [
+    42.3,
+    315.0,
+    553.1,
+    327.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwendungsmonat/",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f21_146",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 20,
+   "bbox": [
+    42.3,
+    321.6,
+    553.1,
+    334.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahr:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f21_147",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 20,
+   "bbox": [
+    42.3,
+    409.8,
+    553.1,
+    422.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f21_148",
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 20,
+   "bbox": [
+    42.3,
+    620.2,
+    553.1,
+    632.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoauszuges Kontoauszuges",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f21_149",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    164.4,
+    551.6,
+    176.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "modell modell modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_150",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    179.1,
+    551.6,
+    191.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "bitte mit (x) ankreuzen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_151",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    232.2,
+    551.6,
+    244.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "FA FDV WV NS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_152",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    252.9,
+    551.6,
+    265.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_153",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    333.3,
+    551.6,
+    345.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis * geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_154",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    353.7,
+    551.6,
+    366.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_155",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    570.7,
+    551.6,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen: Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_156",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    601.0,
+    551.6,
+    613.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs­",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_157",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    621.8,
+    551.6,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_158",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    709.5,
+    551.6,
+    722.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis* geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_159",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 21,
+   "bbox": [
+    42.7,
+    729.9,
+    551.6,
+    742.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f22_160",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    122.1,
+    551.6,
+    134.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK Arbeitnehmer:innen- und Arbeitgeber:innenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_161",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    143.2,
+    551.6,
+    155.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstgeberabgabe",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_162",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    191.1,
+    551.6,
+    203.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_163",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    276.7,
+    551.6,
+    289.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(ohne Angehörige)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_164",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    430.6,
+    551.6,
+    443.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_165",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    451.0,
+    551.6,
+    463.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angehörige",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_166",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    558.1,
+    551.6,
+    570.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_167",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    614.8,
+    551.6,
+    627.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_168",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    656.0,
+    551.6,
+    668.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Steuerberatung/Personalverrechnung (verpflichtend)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_169",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 22,
+   "bbox": [
+    42.7,
+    704.2,
+    551.6,
+    716.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f23_170",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 23,
+   "bbox": [
+    42.2,
+    129.8,
+    552.1,
+    142.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "WV Gewerbeschein Assistenz 24 Assistenz24 gemeinnützige GmbH",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f24_171",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 23,
+   "bbox": [
+    42.2,
+    168.2,
+    553.1,
+    180.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "NS Werkvertrag ohne ZFK Zentrum für Kompetenzen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f24_172",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 24,
+   "bbox": [
+    457.2,
+    208.3,
+    553.1,
+    220.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "für PA)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f25_173",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 24,
+   "bbox": [
+    457.2,
+    242.4,
+    553.1,
+    254.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f25_174",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 24,
+   "bbox": [
+    42.3,
+    315.0,
+    553.1,
+    327.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwendungsmonat/",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f25_175",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 24,
+   "bbox": [
+    42.3,
+    321.6,
+    553.1,
+    334.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahr:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f25_176",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 24,
+   "bbox": [
+    42.3,
+    409.8,
+    553.1,
+    422.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f25_177",
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 24,
+   "bbox": [
+    42.3,
+    620.2,
+    553.1,
+    632.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoauszuges Kontoauszuges",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f25_178",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    164.4,
+    551.6,
+    176.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "modell modell modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_179",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    179.1,
+    551.6,
+    191.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "bitte mit (x) ankreuzen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_180",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    232.2,
+    551.6,
+    244.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "FA FDV WV NS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_181",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    252.9,
+    551.6,
+    265.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_182",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    333.3,
+    551.6,
+    345.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis * geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_183",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    353.7,
+    551.6,
+    366.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_184",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    570.7,
+    551.6,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen: Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_185",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    601.0,
+    551.6,
+    613.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigungs­",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_186",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    621.8,
+    551.6,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnisse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_187",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    709.5,
+    551.6,
+    722.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Arbeitgeber:innenmodell verhältnis* geleisteten netto",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_188",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 25,
+   "bbox": [
+    42.7,
+    729.9,
+    551.6,
+    742.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f26_189",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    122.1,
+    551.6,
+    134.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK Arbeitnehmer:innen- und Arbeitgeber:innenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_190",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    143.2,
+    551.6,
+    155.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstgeberabgabe",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_191",
+   "semantik": "arbeitgeber.name",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    191.1,
+    551.6,
+    203.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Summe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_192",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    276.7,
+    551.6,
+    289.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(ohne Angehörige)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_193",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    430.6,
+    551.6,
+    443.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_194",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    451.0,
+    551.6,
+    463.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angehörige",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_195",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    558.1,
+    551.6,
+    570.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_196",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    614.8,
+    551.6,
+    627.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_197",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    656.0,
+    551.6,
+    668.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Steuerberatung/Personalverrechnung (verpflichtend)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_198",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 26,
+   "bbox": [
+    42.7,
+    704.2,
+    551.6,
+    716.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f27_199",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 27,
+   "bbox": [
+    42.2,
+    129.8,
+    552.1,
+    142.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "WV Gewerbeschein Assistenz 24 Assistenz24 gemeinnützige GmbH",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f28_200",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 27,
+   "bbox": [
+    42.2,
+    168.2,
+    553.1,
+    180.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "NS Werkvertrag ohne ZFK Zentrum für Kompetenzen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f28_201",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 28,
+   "bbox": [
+    183.4,
+    75.5,
+    189.1,
+    85.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f29_202",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 28,
+   "bbox": [
+    189.1,
+    75.5,
+    194.9,
+    85.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f29_203",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 28,
+   "bbox": [
+    95.8,
+    737.7,
+    236.2,
+    750.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "1",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f29_204",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 30,
+   "bbox": [
+    183.4,
+    75.5,
+    189.1,
+    85.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f31_205",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 30,
+   "bbox": [
+    189.1,
+    75.5,
+    194.9,
+    85.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f31_206",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 30,
+   "bbox": [
+    95.8,
+    724.9,
+    236.2,
+    737.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "1",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f31_207",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p1.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p2.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p3.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p4.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p5.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p6.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p7.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p8.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p9.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p10.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p11.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p12.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p13.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p14.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p15.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p16.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p17.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p18.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p19.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p20.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p21.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p22.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p23.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p24.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p25.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p26.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p27.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p28.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p29.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_halbjaehrlich_handschriftlich_bf/p31.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Ort, Datum",
+     "problem": "Blauer Text steht im falschen Bereich bzw. über dem Feldrand statt sauber im Ort/Datum-Feld",
+     "schwer": true
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Der blaue Wert liegt im falschen Formularbereich und gehört hier offenbar nicht zur Person/zu diesem Feld",
+     "schwer": true
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Blauer Wert steht im falschen Feld bzw. im unteren linken Feldbereich statt bei Ort, Datum.",
+     "schwer": true
+    },
+    {
+     "feld": "Wien, 05.11.2026",
+     "problem": "Roter Rahmen liegt auf gedrucktem Formulartext im Bereich der Beschriftung der unteren linken Zelle.",
+     "schwer": true
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Blauer Wert steht im falschen Tabellenbereich und liegt auf der Zeile bei 'Kundennummer' statt im Ort/Datum-Feld; außerdem überdeckt er gedruckten Textbereich am linken Rand.",
+     "schwer": true
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Blauer Wert steht nicht im vorgesehenen Feld, sondern ragt in den linken Rand-/Beschriftungsbereich hinein und liegt auf der unteren Feldlinie.",
+     "schwer": true
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Blauer Wert steht im Feld, aber überdeckt den gedruckten Text/Labelbereich unten links leicht.",
+     "schwer": true
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Blauer Wert steht im falschen Feldbereich: er liegt unten links bei der Zeile 'Geburtsdatum oder Kundennummer' statt im Feld 'Ort, Datum'",
+     "schwer": true
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Blauer Text überdeckt bzw. ragt in den gedruckten Tabellenrand/linienbereich hinein",
+     "schwer": true
+    },
+    {
+     "feld": "Dienstgeberabgabe",
+     "problem": "Der blaue Wert 'Muster GmbH' steht im Bereich 'Finanzamt' bzw. in einer Zeile des Abgaben-/Tabellenblocks, nicht im Feld 'Dienstgeberabgabe'",
+     "schwer": true
+    },
+    {
+     "feld": "Muster GmbH",
+     "problem": "Blauer Text liegt auf einem nicht passenden Tabellen-/Zeilenfeld der Abgabenübersicht und gehört nicht zu einer freien Ausfülllinie",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "749bf29fa7c46c10",
+  "ok": false
+ }
+}

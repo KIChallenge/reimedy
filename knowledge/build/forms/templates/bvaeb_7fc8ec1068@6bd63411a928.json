@@ -1,0 +1,396 @@
+{
+ "formular_id": "bvaeb_7fc8ec1068",
+ "name": "Therapeutenangaben – Diagnostik bei Behandlungsbeginn",
+ "traeger": "BVAEB",
+ "sha256": "6bd63411a928da022742d523805a05f5b7074ac75bda48db6a720d15fc833127",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.712628&version=1606741059",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "SVNR",
+   "acro_name": "SVNR",
+   "page": 0,
+   "bbox": [
+    87.7,
+    154.0,
+    263.2,
+    173.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNR",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Patientenname",
+   "acro_name": "Patientenname",
+   "page": 0,
+   "bbox": [
+    337.7,
+    154.0,
+    537.6,
+    173.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Patientenname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "wenn nein Vorbehandlung bei",
+   "acro_name": "wenn nein Vorbehandlung bei",
+   "page": 0,
+   "bbox": [
+    367.3,
+    176.0,
+    538.4,
+    191.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "wenn nein, Vorbehandlung bei",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vermittlung der Behandlung durch",
+   "acro_name": "Vermittlung der Behandlung durch",
+   "page": 0,
+   "bbox": [
+    56.6,
+    221.0,
+    536.5,
+    240.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vermittlung der Behandlung durch",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Subjektive Symptomatik und deren Genese",
+   "acro_name": "Subjektive Symptomatik und deren Genese",
+   "page": 0,
+   "bbox": [
+    56.6,
+    312.9,
+    537.6,
+    332.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Subjektive Symptomatik und deren Genese",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "emotionaler kognitiver Handlungsebene 1",
+   "acro_name": "emotionaler kognitiver Handlungsebene 1",
+   "page": 0,
+   "bbox": [
+    56.6,
+    372.7,
+    536.5,
+    392.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "emotionaler, kognitiver Handlungsebene [1]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "emotionaler kognitiver Handlungsebene 2",
+   "acro_name": "emotionaler kognitiver Handlungsebene 2",
+   "page": 0,
+   "bbox": [
+    56.6,
+    395.7,
+    536.5,
+    415.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "emotionaler, kognitiver Handlungsebene [2]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Probleme Beziehungsprobleme im privaten und beruflichen Bereich  erfassen 1",
+   "acro_name": "Probleme Beziehungsprobleme im privaten und beruflichen Bereich  erfassen 1",
+   "page": 0,
+   "bbox": [
+    56.6,
+    483.1,
+    536.5,
+    502.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Probleme, Beziehungsprobleme im privaten und beruflichen Bereich – erfassen [1]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Probleme Beziehungsprobleme im privaten und beruflichen Bereich  erfassen 2",
+   "acro_name": "Probleme Beziehungsprobleme im privaten und beruflichen Bereich  erfassen 2",
+   "page": 0,
+   "bbox": [
+    56.6,
+    506.1,
+    536.4,
+    525.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Probleme, Beziehungsprobleme im privaten und beruflichen Bereich – erfassen [2]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum der ersten Behandlung",
+   "acro_name": "Datum der ersten Behandlung",
+   "page": 0,
+   "bbox": [
+    205.6,
+    528.9,
+    535.9,
+    548.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der ersten Behandlung",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wie viele Sitzungen werden notwendig sein",
+   "acro_name": "Wie viele Sitzungen werden notwendig sein",
+   "page": 0,
+   "bbox": [
+    272.3,
+    552.0,
+    535.9,
+    571.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wie viele Sitzungen werden notwendig sein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Welche Sitzungsfrequenz ist geplant",
+   "acro_name": "Welche Sitzungsfrequenz ist geplant",
+   "page": 0,
+   "bbox": [
+    239.3,
+    574.9,
+    535.9,
+    594.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche Sitzungsfrequenz ist geplant",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorgesehene Methode",
+   "acro_name": "Vorgesehene Methode",
+   "page": 0,
+   "bbox": [
+    169.6,
+    597.9,
+    535.9,
+    617.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorgesehene Methode",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angabe desr ArztesÄrztin welcher eine Begleitbehandlung durchführt",
+   "acro_name": "Angabe desr ArztesÄrztin welcher eine Begleitbehandlung durchführt",
+   "page": 0,
+   "bbox": [
+    405.0,
+    654.2,
+    537.7,
+    669.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe des/r Arztes/Ärztin, welche/r eine Begleitbehandlung durchführt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Welche",
+   "acro_name": "Welche",
+   "page": 0,
+   "bbox": [
+    98.8,
+    701.4,
+    538.7,
+    721.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "DatumStempelUnterschrift BehandlerIn",
+   "acro_name": "DatumStempelUnterschrift BehandlerIn",
+   "page": 0,
+   "bbox": [
+    56.6,
+    752.7,
+    351.7,
+    772.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum/Stempel/Unterschrift BehandlerIn",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift PatientIn",
+   "acro_name": "Unterschrift PatientIn",
+   "page": 0,
+   "bbox": [
+    355.8,
+    752.7,
+    536.5,
+    772.5
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift PatientIn",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/bvaeb_7fc8ec1068/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "62cc54baebad9df0",
+  "ok": true
+ }
+}

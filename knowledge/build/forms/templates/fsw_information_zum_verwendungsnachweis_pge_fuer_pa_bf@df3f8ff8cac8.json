@@ -1,0 +1,30 @@
+{
+ "formular_id": "fsw_information_zum_verwendungsnachweis_pge_fuer_pa_bf",
+ "name": "Information zum Verwendungsnachweis PGE für PA",
+ "traeger": "FSW",
+ "sha256": "df3f8ff8cac830fc41307c39f93aee5d509f3c2dd18dcbb5e93ece9dcb045d41",
+ "version_url": "https://www.fsw.at/downloads/leben-mit-behinderung/Information-zum-Verwendungsnachweis-PGE-fuer-PA_bf.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.2,
+   842.0
+  ],
+  [
+   595.2,
+   842.0
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

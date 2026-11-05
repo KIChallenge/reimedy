@@ -1,0 +1,2124 @@
+{
+ "formular_id": "fsw_jahreskarte_der_wl_fuer_gehoerlose_menschen",
+ "name": "Antrag auf Fahrtkostenersatz für öffentliche Verkehrsmittel für gehörlose Menschen",
+ "traeger": "FSW",
+ "sha256": "050faebe8294d5d6e6835093f0cdbcc6eab81911dffc9e997419050f89d421bd",
+ "version_url": "https://www.fsw.at/downloads/formulare/Jahreskarte_der_WL_fuer_gehoerlose_Menschen.pdf",
+ "pages": 7,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname Kundin 3",
+   "acro_name": "Familienname Kundin 3",
+   "page": 0,
+   "bbox": [
+    28.5,
+    230.4,
+    293.9,
+    256.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kundin 3",
+   "acro_name": "Vorname Kundin 3",
+   "page": 0,
+   "bbox": [
+    302.4,
+    230.4,
+    566.9,
+    256.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FSW-KundInnennummer 3",
+   "acro_name": "FSW-KundInnennummer 3",
+   "page": 0,
+   "bbox": [
+    28.5,
+    275.6,
+    293.7,
+    302.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "FSW-Kund:innennummer (falls vorhanden)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum Kundin 2",
+   "acro_name": "Geburtsdatum Kundin 2",
+   "page": 0,
+   "bbox": [
+    302.4,
+    276.3,
+    566.9,
+    302.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht Kundin",
+   "acro_name": "Geschlecht Kundin",
+   "page": 0,
+   "bbox": [
+    27.8,
+    318.3,
+    281.3,
+    337.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geschlecht Kund:in",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "m#E4nnlich",
+     "label": "männlich",
+     "bbox": [
+      27.8,
+      318.6,
+      45.8,
+      336.6
+     ],
+     "wert_semantik": "männlich"
+    },
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      95.2,
+      318.3,
+      113.2,
+      336.3
+     ],
+     "wert_semantik": "weiblich"
+    },
+    {
+     "wert": "divers#20#2F#20inter#20#2F#20offen",
+     "label": "divers/inter/offen",
+     "bbox": [
+      163.0,
+      319.2,
+      181.0,
+      337.2
+     ],
+     "wert_semantik": "divers"
+    },
+    {
+     "wert": "keine#20Angabe",
+     "label": "keine Angabe",
+     "bbox": [
+      263.3,
+      319.2,
+      281.3,
+      337.2
+     ]
+    }
+   ],
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Akademischer Grad Kundin 3",
+   "acro_name": "Akademischer Grad Kundin 3",
+   "page": 0,
+   "bbox": [
+    367.2,
+    318.9,
+    566.9,
+    345.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Akademischer Grad/Titel Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienstand Kundin",
+   "acro_name": "Familienstand Kundin",
+   "page": 0,
+   "bbox": [
+    28.0,
+    387.4,
+    350.2,
+    429.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Familienstand Kund:in",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet",
+     "bbox": [
+      331.7,
+      387.4,
+      349.7,
+      405.4
+     ],
+     "wert_semantik": "verwitwet"
+    },
+    {
+     "wert": "aufgeloeste#20eingetragene#20Partnerschaft",
+     "label": "aufgelöste Partnerschaft eingetragene",
+     "bbox": [
+      212.1,
+      411.4,
+      230.1,
+      429.4
+     ]
+    },
+    {
+     "wert": "hinterbliebene#20eingetragene#20Partnerin#20#20hinterbliebener#20eingetragener#20Partner",
+     "label": "hinterbliebene:r eingetragene:r Partner:in",
+     "bbox": [
+      332.2,
+      411.4,
+      350.2,
+      429.4
+     ]
+    },
+    {
+     "wert": "eingetragene#20Partnerschaft",
+     "label": "eingetragene Partnerschaft",
+     "bbox": [
+      77.8,
+      410.7,
+      95.8,
+      428.7
+     ]
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden",
+     "bbox": [
+      212.7,
+      388.9,
+      230.7,
+      406.9
+     ],
+     "wert_semantik": "geschieden"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet",
+     "bbox": [
+      78.1,
+      388.9,
+      96.1,
+      406.9
+     ],
+     "wert_semantik": "verheiratet"
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig",
+     "bbox": [
+      28.0,
+      388.9,
+      46.0,
+      406.9
+     ],
+     "wert_semantik": "ledig"
+    }
+   ],
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienstand seit 3",
+   "acro_name": "Familienstand seit 3",
+   "page": 0,
+   "bbox": [
+    78.5,
+    450.5,
+    202.4,
+    477.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Familienstand seit (im Format Tag.Monat. Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.familienstand_seit",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaft Oesterreich 3",
+   "acro_name": "Staatsbürgerschaft Oesterreich 3",
+   "page": 0,
+   "bbox": [
+    27.7,
+    522.9,
+    45.7,
+    540.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Staatsbürgerschaft Österreich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Österreich",
+     "bbox": [
+      27.7,
+      522.9,
+      45.7,
+      540.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaft andere 2",
+   "acro_name": "Staatsbürgerschaft andere 2",
+   "page": 0,
+   "bbox": [
+    162.0,
+    523.6,
+    365.0,
+    550.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "andere / weitere Staatsbuergerschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.staatsbuergerschaft",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaft Geburtsland 2",
+   "acro_name": "Staatsbürgerschaft Geburtsland 2",
+   "page": 0,
+   "bbox": [
+    373.5,
+    523.6,
+    566.9,
+    550.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsland",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.geburtsland",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaft Staatenlos 3",
+   "acro_name": "Staatsbürgerschaft Staatenlos 3",
+   "page": 0,
+   "bbox": [
+    28.0,
+    556.0,
+    46.1,
+    574.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Staatsbürgerschaft staatenlos",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "staatenlos",
+     "bbox": [
+      28.0,
+      556.0,
+      46.1,
+      574.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaft ungeklaert 3",
+   "acro_name": "Staatsbürgerschaft ungeklaert 3",
+   "page": 0,
+   "bbox": [
+    161.8,
+    556.0,
+    179.8,
+    574.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Staatsbürgerschaft ungeklärt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ungeklärt",
+     "bbox": [
+      161.8,
+      556.0,
+      179.8,
+      574.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthaltsstatus EU 3",
+   "acro_name": "Aufenthaltsstatus EU 3",
+   "page": 0,
+   "bbox": [
+    27.3,
+    612.9,
+    45.4,
+    630.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aufenthaltsstatus EU/EWR-Buerger:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "EU/EWR-Bürger:in",
+     "bbox": [
+      27.3,
+      612.9,
+      45.4,
+      630.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthaltsstatus asylberechtigt 3",
+   "acro_name": "Aufenthaltsstatus asylberechtigt 3",
+   "page": 0,
+   "bbox": [
+    122.9,
+    612.9,
+    140.9,
+    630.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aufenthaltsstatus asylberechtigt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "asylberechtigt",
+     "bbox": [
+      122.9,
+      612.9,
+      140.9,
+      630.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthaltsstatus AsylwerberIn 3",
+   "acro_name": "Aufenthaltsstatus AsylwerberIn 3",
+   "page": 0,
+   "bbox": [
+    201.5,
+    612.9,
+    219.5,
+    630.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aufenthaltsstatus Asylwerber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Asylwerber:in",
+     "bbox": [
+      201.5,
+      612.9,
+      219.5,
+      630.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthaltsstatus subsidär 3",
+   "acro_name": "Aufenthaltsstatus subsidär 3",
+   "page": 0,
+   "bbox": [
+    276.5,
+    613.3,
+    294.5,
+    631.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aufenthaltsstatus subsidär schutzberechtigt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "subsidiär schutzberechtigt",
+     "bbox": [
+      276.5,
+      613.3,
+      294.5,
+      631.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthaltsstatus Daueraufenthalt 3",
+   "acro_name": "Aufenthaltsstatus Daueraufenthalt 3",
+   "page": 0,
+   "bbox": [
+    367.9,
+    612.9,
+    385.9,
+    630.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aufenthaltsstatus Daueraufenthalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Daueraufenthalt",
+     "bbox": [
+      367.9,
+      612.9,
+      385.9,
+      630.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthaltsstatus befristet 3",
+   "acro_name": "Aufenthaltsstatus befristet 3",
+   "page": 0,
+   "bbox": [
+    453.1,
+    613.3,
+    471.1,
+    632.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aufenthaltsstatus Aufenthalt befristet",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Aufenthalt befristet",
+     "bbox": [
+      453.1,
+      613.3,
+      471.1,
+      632.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstiger Aufenthaltsstatus KundIn 3",
+   "acro_name": "sonstiger Aufenthaltsstatus KundIn 3",
+   "page": 0,
+   "bbox": [
+    27.3,
+    649.0,
+    566.2,
+    674.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstiger Aufenthaltsstatus",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer KundIn 4",
+   "acro_name": "Telefonnummer KundIn 4",
+   "page": 0,
+   "bbox": [
+    28.2,
+    727.9,
+    292.9,
+    754.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Kund:in",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail Adresse KundIn 4",
+   "acro_name": "E-Mail Adresse KundIn 4",
+   "page": 0,
+   "bbox": [
+    304.5,
+    727.9,
+    566.9,
+    754.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail Adresse Kund:in (falls vorhanden)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen Hauptwohnsitz 3",
+   "acro_name": "Strassennamen Hauptwohnsitz 3",
+   "page": 1,
+   "bbox": [
+    28.3,
+    57.9,
+    391.1,
+    84.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr Hauptwohnsitz 3",
+   "acro_name": "Hausnr Hauptwohnsitz 3",
+   "page": 1,
+   "bbox": [
+    403.9,
+    57.9,
+    450.1,
+    84.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege Hauptwohnsitz 3",
+   "acro_name": "Stiege Hauptwohnsitz 3",
+   "page": 1,
+   "bbox": [
+    462.0,
+    58.3,
+    510.0,
+    84.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.stiege",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr Hauptwohnsitz 3",
+   "acro_name": "Tuernr Hauptwohnsitz 3",
+   "page": 1,
+   "bbox": [
+    519.1,
+    58.3,
+    567.0,
+    84.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.tuer",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ Hauptwohnsitz 3",
+   "acro_name": "PLZ Hauptwohnsitz 3",
+   "page": 1,
+   "bbox": [
+    27.9,
+    103.7,
+    132.0,
+    130.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort Hauptwohnsitz 3",
+   "acro_name": "Ort Hauptwohnsitz 3",
+   "page": 1,
+   "bbox": [
+    142.6,
+    103.7,
+    391.2,
+    130.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresszusatz Hauptwohnsitz 3",
+   "acro_name": "Adresszusatz Hauptwohnsitz 3",
+   "page": 1,
+   "bbox": [
+    28.2,
+    149.2,
+    455.4,
+    175.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresszusatz Hauptwohnsitz (zum Beispiel Name der Einrichtung, wenn Sie zurzeit nicht in einem Privathaushalt leben)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Postadresse",
+   "acro_name": "Postadresse",
+   "page": 1,
+   "bbox": [
+    464.4,
+    149.2,
+    523.7,
+    167.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Hauptwohnsitz ist Postadresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      464.4,
+      149.2,
+      482.4,
+      167.2
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      505.7,
+      149.2,
+      523.7,
+      167.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthalt Hauptwohnsitz dauerhaft 2",
+   "acro_name": "Aufenthalt Hauptwohnsitz dauerhaft 2",
+   "page": 1,
+   "bbox": [
+    217.8,
+    183.5,
+    270.2,
+    201.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Dauerhafter Aufenthalt am Hauptwohnsitz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      252.2,
+      183.5,
+      270.2,
+      201.5
+     ]
+    },
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      217.8,
+      183.5,
+      235.8,
+      201.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthalt in Oe seit 3",
+   "acro_name": "Aufenthalt in Oe seit 3",
+   "page": 1,
+   "bbox": [
+    28.6,
+    248.6,
+    132.7,
+    275.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aufenthalt in Österreich seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthalt in Wien seit 3",
+   "acro_name": "Aufenthalt in Wien seit 3",
+   "page": 1,
+   "bbox": [
+    144.9,
+    248.6,
+    249.0,
+    275.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aufenthalt in Wien seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthalt 12 Monate 3",
+   "acro_name": "Aufenthalt 12 Monate 3",
+   "page": 1,
+   "bbox": [
+    258.0,
+    248.6,
+    567.3,
+    275.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aufenthalt in den letzten 12 Monaten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertretungsbefugte Person vorhanden",
+   "acro_name": "Vertretungsbefugte Person vorhanden",
+   "page": 1,
+   "bbox": [
+    28.5,
+    402.6,
+    87.1,
+    420.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Vertretungsbefugte Person vorhanden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      69.6,
+      402.6,
+      87.1,
+      420.1
+     ]
+    },
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.5,
+      402.9,
+      46.0,
+      420.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art der Vertretungsbefugnis 3",
+   "acro_name": "Art der Vertretungsbefugnis 3",
+   "page": 1,
+   "bbox": [
+    27.6,
+    462.1,
+    369.4,
+    506.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Art der Vertretungsbefugnis\r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Obsorgeberechtigte#20Obsorgeberechtigter",
+     "label": "Obsorgeberechtigte:r",
+     "bbox": [
+      255.8,
+      489.0,
+      273.3,
+      506.5
+     ]
+    },
+    {
+     "wert": "gew#E4hlte#20Erwachsenenvertretung",
+     "label": "gewählte Erwachsenenvertretung",
+     "bbox": [
+      351.9,
+      462.1,
+      369.4,
+      479.6
+     ]
+    },
+    {
+     "wert": "gesetzliche#20Erwachsenenvertretung",
+     "label": "gesetzliche Erwachsenenvertretung",
+     "bbox": [
+      192.0,
+      462.1,
+      209.6,
+      479.6
+     ]
+    },
+    {
+     "wert": "Vorsorgebevollm#E4chtigte#20Vorsorgebevollm#E4chtigter",
+     "label": "Vorsorgebevollmächtigte:r",
+     "bbox": [
+      125.5,
+      489.0,
+      143.0,
+      506.5
+     ]
+    },
+    {
+     "wert": "gerichtliche#20Erwachsenenvertretung",
+     "label": "gerichtliche Erwachsenenvertretung",
+     "bbox": [
+      27.6,
+      462.1,
+      45.1,
+      479.6
+     ]
+    },
+    {
+     "wert": "Bevollm#E4chtigte#20Bevollm#E4chtigter",
+     "label": "Bevollmächtigte:r",
+     "bbox": [
+      27.7,
+      489.0,
+      45.2,
+      506.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Vertretung 2",
+   "acro_name": "Familienname Vertretung 2",
+   "page": 1,
+   "bbox": [
+    28.4,
+    554.8,
+    293.5,
+    581.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Vertretung 2",
+   "acro_name": "Vorname Vertretung 2",
+   "page": 1,
+   "bbox": [
+    302.3,
+    554.8,
+    567.0,
+    581.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Akademischer Grad Titel Vertretung 2",
+   "acro_name": "Akademischer Grad Titel Vertretung 2",
+   "page": 1,
+   "bbox": [
+    28.4,
+    600.2,
+    187.9,
+    626.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Akademischer Grad / Titel vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Vertretung 2",
+   "acro_name": "Telefonnummer Vertretung 2",
+   "page": 1,
+   "bbox": [
+    28.4,
+    675.4,
+    291.5,
+    700.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse Vertretung 2",
+   "acro_name": "E-Mail-Adresse Vertretung 2",
+   "page": 1,
+   "bbox": [
+    302.0,
+    675.4,
+    567.0,
+    700.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen Vertretung 2",
+   "acro_name": "Strassennamen Vertretung 2",
+   "page": 1,
+   "bbox": [
+    28.1,
+    719.0,
+    391.0,
+    745.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.strasse",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr Vertretung 2",
+   "acro_name": "Hausnr Vertretung 2",
+   "page": 1,
+   "bbox": [
+    403.9,
+    719.0,
+    450.1,
+    745.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege Vertretung 2",
+   "acro_name": "Stiege Vertretung 2",
+   "page": 1,
+   "bbox": [
+    462.0,
+    719.0,
+    510.4,
+    745.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.stiege",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr Vertretung 2",
+   "acro_name": "Tuernr Vertretung 2",
+   "page": 1,
+   "bbox": [
+    516.8,
+    719.0,
+    567.0,
+    745.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.tuer",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ Vertretung 2",
+   "acro_name": "PLZ Vertretung 2",
+   "page": 1,
+   "bbox": [
+    28.4,
+    762.6,
+    132.6,
+    789.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "vertreter.adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort Vertrretung 2",
+   "acro_name": "Ort Vertrretung 2",
+   "page": 1,
+   "bbox": [
+    143.7,
+    762.6,
+    392.3,
+    789.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum drittes Kind",
+   "acro_name": "Geburtsdatum drittes Kind",
+   "page": 2,
+   "bbox": [
+    442.7,
+    236.5,
+    567.0,
+    263.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum drittes Kind (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "kind.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum zweites Kind",
+   "acro_name": "Geburtsdatum zweites Kind",
+   "page": 2,
+   "bbox": [
+    443.0,
+    192.6,
+    567.3,
+    219.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum zweites Kind (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "kind.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum erstes Kind",
+   "acro_name": "Geburtsdatum erstes Kind",
+   "page": 2,
+   "bbox": [
+    442.7,
+    150.8,
+    567.0,
+    177.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum erstes Kind (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "kind.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum Partnerin",
+   "acro_name": "Geburtsdatum Partnerin",
+   "page": 2,
+   "bbox": [
+    443.0,
+    109.0,
+    567.3,
+    135.4
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Ehepartner:in/ eingetragene:r Partner:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "partner.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "3. Kind  Familien- und Vorname ",
+   "acro_name": "3. Kind  Familien- und Vorname ",
+   "page": 2,
+   "bbox": [
+    28.3,
+    236.5,
+    434.6,
+    263.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Drittes Kind Familien- und Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "2. Kind  Familien- und Vorname ",
+   "acro_name": "2. Kind  Familien- und Vorname ",
+   "page": 2,
+   "bbox": [
+    28.3,
+    193.3,
+    433.7,
+    219.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zweites Kind  Familien- und Vorname ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "1. Kind  Familien- und Vorname ",
+   "acro_name": "1. Kind  Familien- und Vorname ",
+   "page": 2,
+   "bbox": [
+    28.3,
+    150.8,
+    433.7,
+    177.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erstes Kind Familien- und Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EhepartnerIn eingetrageneR PartnerIn (Nach- u. Vorname)",
+   "acro_name": "EhepartnerIn eingetrageneR PartnerIn (Nach- u. Vorname)",
+   "page": 2,
+   "bbox": [
+    28.3,
+    109.0,
+    434.6,
+    135.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ehepartner:in/ eingetragene:r Partner:in (Familienname und Vorname)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "partner.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "keine unterhaltsberechtigten unterhaltspflichtigen Angehörigen",
+   "acro_name": "keine unterhaltsberechtigten unterhaltspflichtigen Angehörigen",
+   "page": 2,
+   "bbox": [
+    28.3,
+    73.6,
+    46.4,
+    91.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "keine unterhaltsberechtigten oder unterhaltsverpflichteten Angehörigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe keine unterhaltsberechtigten oder unterhaltsverpflichteten Angehörigen",
+     "bbox": [
+      28.3,
+      73.6,
+      46.4,
+      91.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN Internationale Kontonummer 3",
+   "acro_name": "IBAN Internationale Kontonummer 3",
+   "page": 2,
+   "bbox": [
+    28.3,
+    410.3,
+    507.0,
+    436.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN Internationale Kontonummer für Überweisung der Förderung",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KontoinhaberIn",
+   "acro_name": "KontoinhaberIn",
+   "page": 2,
+   "bbox": [
+    28.3,
+    363.4,
+    507.0,
+    389.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoinhaber:in (Bitte geben Sie Ihren Namen und eventuell Titel genau so an wie auf Ihrer Bankkarte)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.kontoinhaber",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "1 Unterlage Lichtbildausweis",
+   "acro_name": "1 Unterlage Lichtbildausweis",
+   "page": 3,
+   "bbox": [
+    28.3,
+    92.5,
+    46.4,
+    110.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, Amtlicher Lichtbildausweis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "amtlicher Lichtbildausweis",
+     "bbox": [
+      28.3,
+      92.5,
+      46.4,
+      110.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "2 Unterlage Staatsbuergerschaft",
+   "acro_name": "2 Unterlage Staatsbuergerschaft",
+   "page": 3,
+   "bbox": [
+    28.3,
+    114.9,
+    46.4,
+    132.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, Nachweis Staatsbuergerschaft ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Nachweis der österreichischen Staatsbürgerschaft oder Nachweis der",
+     "bbox": [
+      28.3,
+      114.9,
+      46.4,
+      132.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "3 Unterlage aktuelle Einkommensnachweise",
+   "acro_name": "3 Unterlage aktuelle Einkommensnachweise",
+   "page": 3,
+   "bbox": [
+    28.3,
+    154.2,
+    46.4,
+    172.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, aktuelle Einkommensnachweise",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "aktuelle Kinderbetreuungsgeld, Einkommensnachweise Wochengeld, (z. B. Rente; Lohn-, auch Gehaltszettel, aus dem Ausland) Pensionsbescheid,",
+     "bbox": [
+      28.3,
+      154.2,
+      46.4,
+      172.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "4 Unterlage Nachweis Gehoerlosigkeit",
+   "acro_name": "4 Unterlage Nachweis Gehoerlosigkeit",
+   "page": 3,
+   "bbox": [
+    28.3,
+    177.9,
+    46.4,
+    195.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, Nachweis der völligen Gehoerlosigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Nachweis der völligen Gehörlosigkeit (z. B. Behindertenpass mit Eintrag",
+     "bbox": [
+      28.3,
+      177.9,
+      46.4,
+      195.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "5 Unterlage Jahreskarte",
+   "acro_name": "5 Unterlage Jahreskarte",
+   "page": 3,
+   "bbox": [
+    28.3,
+    200.3,
+    46.4,
+    218.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, aktuell gültige Jahreskarte der Wiener Linien oder gültifes Top-Jugendticket oder gültiges KlimaTicket Ö oder VOR KlimaTicket Metropolregion inklusive Zahlungsnachweis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "inklusive Aktuell gültige Zahlungsnachweis Jahreskarte der Wiener Linien, gültiges Top-Jugendticket,",
+     "bbox": [
+      28.3,
+      200.3,
+      46.4,
+      218.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "6 Nachweis Vertretungsbefugnis",
+   "acro_name": "6 Nachweis Vertretungsbefugnis",
+   "page": 3,
+   "bbox": [
+    28.3,
+    254.1,
+    46.4,
+    272.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dokumente in Kopie bei erster Antragstellung, falls zutreffend Nachweis Vertretungsbefugnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Nachweis der Vertretungsbefugnis",
+     "bbox": [
+      28.3,
+      254.1,
+      46.4,
+      272.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "7 Heiratsurkunde",
+   "acro_name": "7 Heiratsurkunde",
+   "page": 3,
+   "bbox": [
+    28.3,
+    276.5,
+    46.4,
+    294.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dokumente in Kopie bei erster Antragstellung, falls zutreffend Heiratsurkunde oder Partnerschaftsurkunde",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Heiratsurkunde oder Partnerschaftsurkunde",
+     "bbox": [
+      28.3,
+      276.5,
+      46.4,
+      294.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "8 Unterlage aktuelles Einkommen PartnerIn",
+   "acro_name": "8 Unterlage aktuelles Einkommen PartnerIn",
+   "page": 3,
+   "bbox": [
+    28.3,
+    298.8,
+    46.4,
+    316.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dokumente in Kopie bei erster Antragstellung, falls zutreffend aktuelle Einkommensnachweise des:der Ehepartner:in / eingetragene:n Partner:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "aktuelle sionsbescheid, Einkommensnachweise Nachweis über AMS-Bezug des:der Ehepartners:Ehepartnerin bzw. Mindestsicherung, oder",
+     "bbox": [
+      28.3,
+      298.8,
+      46.4,
+      316.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "9 Verpflichtungserklaerung",
+   "acro_name": "9 Verpflichtungserklaerung",
+   "page": 3,
+   "bbox": [
+    28.3,
+    321.7,
+    46.4,
+    339.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dokumente in Kopie bei erster Antragstellung, falls zutreffend Verpflichtungs-/Haftungserklärung, die für Sie abgegeben wurde\r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Verpflichtungs-/Haftungserklärung, die für Sie abgegeben wurde",
+     "bbox": [
+      28.3,
+      321.7,
+      46.4,
+      339.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "11 aktuelle Einkommensnachweise ",
+   "acro_name": "11 aktuelle Einkommensnachweise ",
+   "page": 3,
+   "bbox": [
+    28.3,
+    374.5,
+    46.4,
+    392.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erneuter Antragstellung Dokumente in Kopie, aktuelle Einkommensnachweise ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "aktuelle Einkommensnachweise",
+     "bbox": [
+      28.3,
+      374.5,
+      46.4,
+      392.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "5 Unterlage Jahreskarte 1",
+   "acro_name": "5 Unterlage Jahreskarte 1",
+   "page": 3,
+   "bbox": [
+    28.3,
+    403.8,
+    46.4,
+    421.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, aktuell gültige Jahreskarte der Wiener Linien oder gültiges Top-Jugendticket oder gueltiges KlimaTicket OE oder VOR KlimaTicket Metropolregion inklusive Zahlungsnachweis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Aktuell inklusive gültige Zahlungsnachweis Jahreskarte der Wiener Linien, gültiges Top-Jugendticket,",
+     "bbox": [
+      28.3,
+      403.8,
+      46.4,
+      421.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "13 aktuelle Einkommensnachweise",
+   "acro_name": "13 aktuelle Einkommensnachweise",
+   "page": 3,
+   "bbox": [
+    28.3,
+    455.3,
+    46.4,
+    473.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, falls zutreffend aktuelle Einkommensnachweise des:der Ehepartner:in/ eingetragene:n Partner:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "aktuelle Einkommensnachweise des:der Ehepartners:Ehepartnerin oder",
+     "bbox": [
+      28.3,
+      455.3,
+      46.4,
+      473.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "16 Nachweis Änderung persönliche Daten",
+   "acro_name": "16 Nachweis Änderung persönliche Daten",
+   "page": 3,
+   "bbox": [
+    28.3,
+    483.3,
+    46.4,
+    501.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bei erster Antragstellung Dokumente in Kopie, falls zutreffend Nachweis über Änderungen Ihrer persönlichen Daten gegenüber Ihrem vorhergehenden Antrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Nachweis über Änderungen Ihrer persönlichen Daten gegenüber Ihrem",
+     "bbox": [
+      28.3,
+      483.3,
+      46.4,
+      501.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort, Datum 3",
+   "acro_name": "Ort, Datum 3",
+   "page": 4,
+   "bbox": [
+    28.3,
+    368.5,
+    152.6,
+    394.9
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift KundIn",
+   "acro_name": "Unterschrift KundIn",
+   "page": 4,
+   "bbox": [
+    170.1,
+    368.5,
+    563.6,
+    419.0
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift des:der Kund:in oder der für sie:ihn zur Vertretung befugten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.vertreter",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name Unterschrift KundIn 4",
+   "acro_name": "Name Unterschrift KundIn 4",
+   "page": 4,
+   "bbox": [
+    168.6,
+    444.3,
+    562.1,
+    470.6
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Name der unterschreibenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 32,
+  "bilder": [
+   "cache/pruefung/fsw_jahreskarte_der_wl_fuer_gehoerlose_menschen/p1.png",
+   "cache/pruefung/fsw_jahreskarte_der_wl_fuer_gehoerlose_menschen/p2.png",
+   "cache/pruefung/fsw_jahreskarte_der_wl_fuer_gehoerlose_menschen/p3.png",
+   "cache/pruefung/fsw_jahreskarte_der_wl_fuer_gehoerlose_menschen/p4.png",
+   "cache/pruefung/fsw_jahreskarte_der_wl_fuer_gehoerlose_menschen/p5.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Geburtsdatum Kund:in",
+     "problem": "Datum im falschen Format/abgeschnitten (Jahr endet sichtbar als 1948 statt 2025).",
+     "schwer": true
+    },
+    {
+     "feld": "Ehepartner:in/ eingetragene:r Partner:in",
+     "problem": "Nur 'Karl' eingetragen; Feld verlangt Familien- und Vorname.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "c536e7ebc30ac121",
+  "ok": false
+ }
+}

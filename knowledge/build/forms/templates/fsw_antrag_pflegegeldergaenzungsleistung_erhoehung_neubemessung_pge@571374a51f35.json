@@ -1,0 +1,1738 @@
+{
+ "formular_id": "fsw_antrag_pflegegeldergaenzungsleistung_erhoehung_neubemessung_pge",
+ "name": "antrag pflegegeldergaenzungsleistung erhoehung-neubemessung-PGE",
+ "traeger": "FSW",
+ "sha256": "571374a51f35c49ee718621e51abd13a42770428b115f26db8c2bc2fb482a859",
+ "version_url": "https://www.fsw.at/downloads/leben-mit-behinderung/antrag_pflegegeldergaenzungsleistung_erhoehung-neubemessung-PGE.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Art des Antrages",
+   "acro_name": "Art des Antrages",
+   "page": 0,
+   "bbox": [
+    28.6,
+    299.8,
+    338.5,
+    317.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Antrag ist",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Temporaere#20Erhoehung",
+     "label": "Temporäre Erhöhung",
+     "bbox": [
+      28.6,
+      299.8,
+      46.6,
+      317.8
+     ]
+    },
+    {
+     "wert": "Dauerhafte#20Erhoehung",
+     "label": "Dauerhafte Erhöhung",
+     "bbox": [
+      176.3,
+      299.8,
+      194.3,
+      317.8
+     ]
+    },
+    {
+     "wert": "Neubemessung",
+     "label": "Neubemessung",
+     "bbox": [
+      320.5,
+      299.8,
+      338.5,
+      317.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Akademischer Grad",
+   "acro_name": "Akademischer Grad",
+   "page": 0,
+   "bbox": [
+    28.3,
+    430.2,
+    215.4,
+    455.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Akademischer Grad/Titel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anrede",
+   "acro_name": "Anrede",
+   "page": 0,
+   "bbox": [
+    233.9,
+    430.2,
+    293.2,
+    448.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Anrede",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Frau",
+     "label": "Frau",
+     "bbox": [
+      233.9,
+      430.2,
+      251.9,
+      448.2
+     ]
+    },
+    {
+     "wert": "Herr",
+     "label": "Herr",
+     "bbox": [
+      275.2,
+      430.2,
+      293.2,
+      448.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachname",
+   "acro_name": "Nachname",
+   "page": 0,
+   "bbox": [
+    28.0,
+    472.6,
+    293.4,
+    498.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Nachname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachname vor der 1. Eheschließung/eingetragenen Partnerschaft",
+   "acro_name": "Nachname vor der 1. Eheschließung/eingetragenen Partnerschaft",
+   "page": 0,
+   "bbox": [
+    301.9,
+    472.6,
+    566.9,
+    498.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Nachname vor der 1. Eheschliessung bzw. eingetragenen Partnerschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.geburtsname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "erster Vorname",
+   "acro_name": "erster Vorname",
+   "page": 0,
+   "bbox": [
+    28.0,
+    513.7,
+    293.4,
+    539.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialversicherungsnummer",
+   "acro_name": "Sozialversicherungsnummer",
+   "page": 0,
+   "bbox": [
+    28.3,
+    576.9,
+    226.8,
+    602.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sozialversicherungsnummer (4 stelliger Code und Geburtsdatum XXXX-Tag.Monat.Jahr)",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungstraeger",
+   "acro_name": "Versicherungstraeger",
+   "page": 0,
+   "bbox": [
+    233.5,
+    576.9,
+    566.9,
+    602.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungstraeger",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer",
+   "acro_name": "Telefonnummer",
+   "page": 0,
+   "bbox": [
+    28.7,
+    639.0,
+    293.4,
+    665.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse",
+   "acro_name": "E-Mail-Adresse",
+   "page": 0,
+   "bbox": [
+    301.7,
+    639.0,
+    566.9,
+    665.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mailadresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Derzeitige Pflegegeldstufe ist",
+   "acro_name": "Derzeitige Pflegegeldstufe ist",
+   "page": 0,
+   "bbox": [
+    28.7,
+    704.8,
+    191.5,
+    722.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Derzeitige Pflegegeldstufe ist",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "3",
+     "label": "3",
+     "bbox": [
+      28.7,
+      704.8,
+      46.7,
+      722.8
+     ]
+    },
+    {
+     "wert": "4",
+     "label": "4",
+     "bbox": [
+      64.6,
+      704.8,
+      82.6,
+      722.8
+     ]
+    },
+    {
+     "wert": "5",
+     "label": "5",
+     "bbox": [
+      101.2,
+      704.8,
+      119.2,
+      722.8
+     ]
+    },
+    {
+     "wert": "6",
+     "label": "6",
+     "bbox": [
+      137.0,
+      704.8,
+      155.0,
+      722.8
+     ]
+    },
+    {
+     "wert": "7",
+     "label": "7",
+     "bbox": [
+      173.5,
+      704.8,
+      191.5,
+      722.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Laeuft derzeit ein Antrag auf Erhoehung des Pflegegeldes?",
+   "acro_name": "Laeuft derzeit ein Antrag auf Erhoehung des Pflegegeldes?",
+   "page": 0,
+   "bbox": [
+    229.6,
+    713.3,
+    247.6,
+    731.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Laeuft derzeit ein Antrag auf Erhoehung des Pflegegeldes?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      229.6,
+      713.3,
+      247.6,
+      731.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Läuft derzeit ein Antrag auf Erhöhung des Pflegegeldes?",
+   "acro_name": "Läuft derzeit ein Antrag auf Erhöhung des Pflegegeldes?",
+   "page": 0,
+   "bbox": [
+    276.6,
+    713.3,
+    294.6,
+    731.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Laeuft derzeit ein Antrag auf Erhoehung des Pflegegeldes?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      276.6,
+      713.3,
+      294.6,
+      731.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antrag gestellt am",
+   "acro_name": "Antrag gestellt am",
+   "page": 0,
+   "bbox": [
+    363.5,
+    713.3,
+    468.2,
+    740.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antrag gestellt am",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PPA am Arbeitsplatz",
+   "acro_name": "PPA am Arbeitsplatz",
+   "page": 0,
+   "bbox": [
+    28.3,
+    767.2,
+    268.9,
+    785.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Nehmen Sie Persoenliche Assistenz am Arbeitsplatz in Anspruch",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Nein, ich nehme derzeit keine PAA in Anspruch.",
+     "bbox": [
+      28.3,
+      767.2,
+      46.4,
+      785.2
+     ]
+    },
+    {
+     "wert": "JA",
+     "label": "Ja, ich beanspruche PAA-Stunden.",
+     "bbox": [
+      250.9,
+      767.2,
+      268.9,
+      785.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PAA Stunden pro Woche",
+   "acro_name": "PAA Stunden pro Woche",
+   "page": 0,
+   "bbox": [
+    416.0,
+    779.9,
+    520.7,
+    806.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "PAA Stunden pro Woche",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Veränderung der Einkommenssituation",
+   "acro_name": "Veränderung der Einkommenssituation",
+   "page": 1,
+   "bbox": [
+    28.3,
+    43.9,
+    46.4,
+    61.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Veraenderung der Einkommenssituation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Veränderung der Einkommenssituation",
+     "bbox": [
+      28.3,
+      43.9,
+      46.4,
+      61.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Persönliche Assistenz am Arbeitsplatz",
+   "acro_name": "Persönliche Assistenz am Arbeitsplatz",
+   "page": 1,
+   "bbox": [
+    223.0,
+    43.9,
+    241.0,
+    61.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Persoenliche Assistenz am Arbeitsplatz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Persönliche Assistenz am Arbeitsplatz",
+     "bbox": [
+      223.0,
+      43.9,
+      241.0,
+      61.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegegeldänderung",
+   "acro_name": "Pflegegeldänderung",
+   "page": 1,
+   "bbox": [
+    414.9,
+    43.9,
+    432.9,
+    61.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pflegegeldaenderung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Pflegegeldänderung",
+     "bbox": [
+      414.9,
+      43.9,
+      432.9,
+      61.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Umzug in eigene Wohnung",
+   "acro_name": "Umzug in eigene Wohnung",
+   "page": 1,
+   "bbox": [
+    28.3,
+    66.5,
+    46.4,
+    84.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Umzug in eigene Wohnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Umzug in eigene Wohnung",
+     "bbox": [
+      28.3,
+      66.5,
+      46.4,
+      84.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Auszug einer erwachsenen Person aus gemeinsamen Haushalt",
+   "acro_name": "Auszug einer erwachsenen Person aus gemeinsamen Haushalt",
+   "page": 1,
+   "bbox": [
+    158.7,
+    66.5,
+    176.7,
+    84.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aenderung der Haushaltsgroesse (z.B. Einzug oder Auszug einer erwachsenen Person)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Änderung der Haushaltsgröße (z.B. Einzug oder Auszug einer erwachsenen",
+     "bbox": [
+      158.7,
+      66.5,
+      176.7,
+      84.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstiges 3",
+   "acro_name": "sonstiges 3",
+   "page": 1,
+   "bbox": [
+    28.3,
+    103.4,
+    566.9,
+    130.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "sonstiges",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Veränderung des Gesundheitszustandes",
+   "acro_name": "Veränderung des Gesundheitszustandes",
+   "page": 1,
+   "bbox": [
+    28.3,
+    158.7,
+    46.4,
+    176.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Veraenderung des Gesundheitszustandes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Veränderung des Gesundheitszustandes",
+     "bbox": [
+      28.3,
+      158.7,
+      46.4,
+      176.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankheit",
+   "acro_name": "Krankheit",
+   "page": 1,
+   "bbox": [
+    216.1,
+    158.7,
+    234.1,
+    176.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Krankheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Krankheit",
+     "bbox": [
+      216.1,
+      158.7,
+      234.1,
+      176.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schwangerschaft",
+   "acro_name": "Schwangerschaft",
+   "page": 1,
+   "bbox": [
+    292.7,
+    158.7,
+    310.7,
+    176.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Schwangerschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Schwangerschaft",
+     "bbox": [
+      292.7,
+      158.7,
+      310.7,
+      176.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schwangerschaft 1",
+   "acro_name": "Schwangerschaft 1",
+   "page": 1,
+   "bbox": [
+    391.2,
+    158.7,
+    409.2,
+    176.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Schwangerschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "JA",
+     "label": "Schwangerschaft/ Kind im gemeinsamen Haushalt",
+     "bbox": [
+      391.2,
+      158.7,
+      409.2,
+      176.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstiges (Grund für die benötigte Erhöhung)",
+   "acro_name": "sonstiges (Grund für die benötigte Erhöhung)",
+   "page": 1,
+   "bbox": [
+    28.3,
+    192.8,
+    566.9,
+    219.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "sonstiges (Grund für die benoetigte Erhoehung)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beschreibung Grund für benötigte Erhöhung",
+   "acro_name": "Beschreibung Grund für benötigte Erhöhung",
+   "page": 1,
+   "bbox": [
+    28.3,
+    272.1,
+    566.9,
+    468.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschreibung der Veraenderung, die zum Antrag fuehrte (insbesondere des koerperlichen Zustandes und den daraus resultierenden Folgen im Alltag – entsprechende aussagekraeftige Befunde bitte beilegen): ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB Mo-Fr",
+   "acro_name": "GB Mo-Fr",
+   "page": 1,
+   "bbox": [
+    119.1,
+    520.1,
+    189.3,
+    547.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grundbeduerfnisse Stunden pro Wochentag (Montag bis Freitag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB SUMME Mo-FR",
+   "acro_name": "GB SUMME Mo-FR",
+   "page": 1,
+   "bbox": [
+    189.3,
+    523.3,
+    215.3,
+    545.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grundbedürfnisse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB Sa-So",
+   "acro_name": "GB Sa-So",
+   "page": 1,
+   "bbox": [
+    214.1,
+    520.1,
+    284.2,
+    547.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grundbeduerfnisse Stunden pro Wochenendtag (Samstag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB SUMME Sa-So",
+   "acro_name": "GB SUMME Sa-So",
+   "page": 1,
+   "bbox": [
+    293.5,
+    522.9,
+    319.5,
+    544.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grundbedürfnisse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB zus. Woche",
+   "acro_name": "GB zus. Woche",
+   "page": 1,
+   "bbox": [
+    319.5,
+    520.1,
+    389.6,
+    547.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grundbeduerfnisse zusaetzliche Stunden pro Woche (Montag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB SUMME zus. Woche",
+   "acro_name": "GB SUMME zus. Woche",
+   "page": 1,
+   "bbox": [
+    391.5,
+    522.3,
+    417.5,
+    544.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "(Mo-So)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB zus. Monat1",
+   "acro_name": "GB zus. Monat1",
+   "page": 1,
+   "bbox": [
+    415.6,
+    520.1,
+    485.7,
+    547.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grundbeduerfnisse zusaetzliche Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GB Gesamt",
+   "acro_name": "GB Gesamt",
+   "page": 1,
+   "bbox": [
+    497.2,
+    520.1,
+    567.4,
+    547.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grundbeduerfnisse Gesamtbedarf  Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haushalt Mo-Fr",
+   "acro_name": "Haushalt Mo-Fr",
+   "page": 1,
+   "bbox": [
+    119.1,
+    552.0,
+    189.3,
+    578.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haushalt Stunden pro Wochentag (Montag bis Freitag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "H SUMME Mo-FR",
+   "acro_name": "H SUMME Mo-FR",
+   "page": 1,
+   "bbox": [
+    189.3,
+    553.3,
+    215.3,
+    575.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haushalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haushalt Sa-So",
+   "acro_name": "Haushalt Sa-So",
+   "page": 1,
+   "bbox": [
+    214.1,
+    552.0,
+    284.2,
+    578.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haushalt Stunden pro Wochenendtag (Samstag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "H SUMME Sa-So",
+   "acro_name": "H SUMME Sa-So",
+   "page": 1,
+   "bbox": [
+    293.5,
+    554.6,
+    319.5,
+    576.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haushalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haushalt zus. Woche",
+   "acro_name": "Haushalt zus. Woche",
+   "page": 1,
+   "bbox": [
+    319.5,
+    552.0,
+    389.6,
+    578.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haushalt zusaetzliche Stunden pro Woche (Montag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "H SUMME zus. Woche",
+   "acro_name": "H SUMME zus. Woche",
+   "page": 1,
+   "bbox": [
+    391.5,
+    554.6,
+    417.5,
+    576.6
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haushalt zus. Monat",
+   "acro_name": "Haushalt zus. Monat",
+   "page": 1,
+   "bbox": [
+    415.6,
+    552.0,
+    485.7,
+    578.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haushalt zusaetzliche Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haushalt Gesamt",
+   "acro_name": "Haushalt Gesamt",
+   "page": 1,
+   "bbox": [
+    497.6,
+    552.0,
+    567.7,
+    578.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haushalt Gesamtbedarf  Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL Mo-Fr",
+   "acro_name": "BGL Mo-Fr",
+   "page": 1,
+   "bbox": [
+    119.1,
+    583.2,
+    189.3,
+    610.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bereiche des gesellschaftlichen Lebens Stunden pro Wochentag (Montag bis Freitag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL SUMME Mo-FR",
+   "acro_name": "BGL SUMME Mo-FR",
+   "page": 1,
+   "bbox": [
+    188.2,
+    586.2,
+    214.1,
+    608.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bereiche schaftlichen des Lebens gesell-",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL Sa-So",
+   "acro_name": "BGL Sa-So",
+   "page": 1,
+   "bbox": [
+    214.1,
+    583.2,
+    284.2,
+    610.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bereiche des gesellschaftlichen Lebens Stunden pro Wochenendtag (Samstag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL SUMME Sa-So",
+   "acro_name": "BGL SUMME Sa-So",
+   "page": 1,
+   "bbox": [
+    293.5,
+    586.9,
+    319.5,
+    608.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bereiche schaftlichen des Lebens gesell-",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL zus. Woche",
+   "acro_name": "BGL zus. Woche",
+   "page": 1,
+   "bbox": [
+    319.5,
+    583.2,
+    389.6,
+    610.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bereiche des gesellschaftlichen Lebens zusaetzliche Stunden pro Woche (Montag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL SUMME zus. Woche",
+   "acro_name": "BGL SUMME zus. Woche",
+   "page": 1,
+   "bbox": [
+    391.5,
+    586.9,
+    417.5,
+    608.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL zus. Monat",
+   "acro_name": "BGL zus. Monat",
+   "page": 1,
+   "bbox": [
+    415.6,
+    583.2,
+    485.7,
+    610.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "gesellschaftlichen Lebens zusaetzliche Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BGL Gesamt",
+   "acro_name": "BGL Gesamt",
+   "page": 1,
+   "bbox": [
+    497.6,
+    583.2,
+    567.7,
+    610.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Berich des gesellschaftlichen Lebens Gesamtbedarf  Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG Mo-Fr",
+   "acro_name": "EG Mo-Fr",
+   "page": 1,
+   "bbox": [
+    119.1,
+    614.2,
+    189.3,
+    641.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erhaltung der Gesundheit Stunden pro Wochentag (Montag bis Freitag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG SUMME Mo-FR",
+   "acro_name": "EG SUMME Mo-FR",
+   "page": 1,
+   "bbox": [
+    188.2,
+    617.3,
+    214.1,
+    639.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erhaltung Gesundheit der",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG Sa-So",
+   "acro_name": "EG Sa-So",
+   "page": 1,
+   "bbox": [
+    214.1,
+    614.2,
+    284.2,
+    641.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erhaltung der Gesundheit Stunden pro Wochenendtag (Samstag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG SUMME Sa-So",
+   "acro_name": "EG SUMME Sa-So",
+   "page": 1,
+   "bbox": [
+    293.5,
+    615.2,
+    319.5,
+    637.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erhaltung Gesundheit der",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG zus. Woche",
+   "acro_name": "EG zus. Woche",
+   "page": 1,
+   "bbox": [
+    319.5,
+    614.2,
+    389.6,
+    641.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erhaltung der Gesundheit zusaetzliche Stunden pro Woche (Montag bis Sonntag)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG SUMME zus. Woche",
+   "acro_name": "EG SUMME zus. Woche",
+   "page": 1,
+   "bbox": [
+    391.5,
+    616.3,
+    417.5,
+    638.3
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG zus. Monat",
+   "acro_name": "EG zus. Monat",
+   "page": 1,
+   "bbox": [
+    415.6,
+    614.2,
+    485.7,
+    641.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erhaltung der Gesundheit zusaetzliche Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EG Gesamt",
+   "acro_name": "EG Gesamt",
+   "page": 1,
+   "bbox": [
+    497.6,
+    614.2,
+    567.7,
+    641.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erhaltung der Gesundheit Gesamtbedarf  Stunden pro Monat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "x Werkstage",
+   "acro_name": "x Werkstage",
+   "page": 1,
+   "bbox": [
+    29.0,
+    653.2,
+    95.2,
+    675.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesundheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "x WE-Tage",
+   "acro_name": "x WE-Tage",
+   "page": 1,
+   "bbox": [
+    99.7,
+    653.2,
+    166.9,
+    675.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesundheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "_Buchhaltungstage",
+   "acro_name": "_Buchhaltungstage",
+   "page": 1,
+   "bbox": [
+    174.5,
+    652.4,
+    232.2,
+    674.4
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "_WOCHENSUMME Buchhaltungstage",
+   "acro_name": "_WOCHENSUMME Buchhaltungstage",
+   "page": 1,
+   "bbox": [
+    246.6,
+    651.6,
+    333.1,
+    673.6
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "_WE-SUMME Buchhaltungstage",
+   "acro_name": "_WE-SUMME Buchhaltungstage",
+   "page": 1,
+   "bbox": [
+    339.4,
+    651.0,
+    393.0,
+    673.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gesamtbedarf  Stunden pro Monat ",
+   "acro_name": "Gesamtbedarf  Stunden pro Monat ",
+   "page": 1,
+   "bbox": [
+    497.6,
+    646.0,
+    567.7,
+    673.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtbedarf  Stunden pro Monat ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort, Datum 1",
+   "acro_name": "Ort, Datum 1",
+   "page": 1,
+   "bbox": [
+    28.3,
+    759.7,
+    153.1,
+    786.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Ort und Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift Antragsteller",
+   "acro_name": "Unterschrift Antragsteller",
+   "page": 1,
+   "bbox": [
+    171.1,
+    759.7,
+    565.2,
+    810.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "UK_52940",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift Antragsteller 2",
+   "acro_name": "Unterschrift Antragsteller 2",
+   "page": 1,
+   "bbox": [
+    171.1,
+    759.7,
+    565.2,
+    810.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "UK_52940",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/fsw_antrag_pflegegeldergaenzungsleistung_erhoehung_neubemessung_pge/p1.png",
+   "cache/pruefung/fsw_antrag_pflegegeldergaenzungsleistung_erhoehung_neubemessung_pge/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "ef0a8448cf22db87",
+  "ok": true
+ }
+}

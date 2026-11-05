@@ -1,0 +1,773 @@
+{
+ "formular_id": "bvaeb_98ad753e16",
+ "name": "Arbeitsunfähigkeitsmeldung (Krankmeldung)",
+ "traeger": "BVAEB",
+ "sha256": "f79d5d1d6537f94c1979aa90e7d4b1824360cd869e81bfa995de59e542b76a62",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729177&version=1617101272",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "adresse",
+   "acro_name": "adresse",
+   "page": 0,
+   "bbox": [
+    3.9,
+    1.0,
+    54.2,
+    16.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "feld_id": "unterorganisation",
+   "acro_name": "unterorganisation",
+   "page": 0,
+   "bbox": [
+    59.1,
+    1.0,
+    108.9,
+    16.7
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "unterorganisation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Hauptstelle",
+     "label": "Hauptstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    },
+    {
+     "wert": "Bezirksstelle",
+     "label": "Bezirksstelle"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_1",
+   "acro_name": "Name_1",
+   "page": 0,
+   "bbox": [
+    18.7,
+    86.2,
+    123.6,
+    530.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Familienname",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_2",
+   "acro_name": "Name_2",
+   "page": 0,
+   "bbox": [
+    123.2,
+    86.2,
+    206.9,
+    530.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vorname",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    207.2,
+    94.6,
+    293.6,
+    530.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_1",
+   "acro_name": "Adresse_1",
+   "page": 0,
+   "bbox": [
+    18.7,
+    129.1,
+    293.6,
+    591.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Adresse",
+   "max_zeichen": 120,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Postleitzahl_Ort_1",
+   "acro_name": "Postleitzahl_Ort_1",
+   "page": 0,
+   "bbox": [
+    18.4,
+    187.2,
+    293.6,
+    620.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Postleitzahl/Ort",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dienstgeber_1",
+   "acro_name": "Dienstgeber_1",
+   "page": 0,
+   "bbox": [
+    18.7,
+    215.8,
+    293.6,
+    650.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Dienstgeber",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "arbeitgeber.name",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Diagnose_1",
+   "acro_name": "Diagnose_1",
+   "page": 0,
+   "bbox": [
+    63.1,
+    235.0,
+    293.6,
+    249.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Diagnose",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfallsdatum_1",
+   "acro_name": "Unfallsdatum_1",
+   "page": 0,
+   "bbox": [
+    63.1,
+    249.8,
+    141.9,
+    265.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Unfallsdatum",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_2",
+   "acro_name": "Ja_2",
+   "page": 0,
+   "bbox": [
+    23.6,
+    273.9,
+    199.0,
+    316.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Unfall",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Arbeitsunfall",
+     "label": "Arbeits- o. Dienstunfall (Berufskrankheit)",
+     "bbox": [
+      23.6,
+      273.9,
+      31.0,
+      281.3
+     ]
+    },
+    {
+     "wert": "Verkehrsunfall",
+     "label": "Verkehrsunfall",
+     "bbox": [
+      191.6,
+      273.9,
+      199.0,
+      281.3
+     ]
+    },
+    {
+     "wert": "Raufhandel",
+     "label": "Raufhandel",
+     "bbox": [
+      23.6,
+      285.7,
+      31.0,
+      293.1
+     ]
+    },
+    {
+     "wert": "Trunkenheit",
+     "label": "Folge von Trunkenheit",
+     "bbox": [
+      88.2,
+      285.7,
+      95.6,
+      293.1
+     ]
+    },
+    {
+     "wert": "Suchtgift",
+     "label": "Folge von Suchtgiftmissbrauch",
+     "bbox": [
+      23.6,
+      297.0,
+      31.0,
+      304.4
+     ]
+    },
+    {
+     "wert": "Dienstbesch",
+     "label": "Folge einer Dienst-(Kriegs-)Beschädigung",
+     "bbox": [
+      23.6,
+      308.9,
+      31.0,
+      316.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_3",
+   "acro_name": "Ja_3",
+   "page": 0,
+   "bbox": [
+    25.1,
+    352.2,
+    69.0,
+    359.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Bettruhe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja",
+     "bbox": [
+      25.1,
+      352.2,
+      32.5,
+      359.6
+     ]
+    },
+    {
+     "wert": "nein",
+     "label": "nein",
+     "bbox": [
+      61.6,
+      352.2,
+      69.0,
+      359.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Von_1",
+   "acro_name": "Von_1",
+   "page": 0,
+   "bbox": [
+    186.0,
+    329.5,
+    215.0,
+    337.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld von",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bis_1",
+   "acro_name": "Bis_1",
+   "page": 0,
+   "bbox": [
+    230.0,
+    329.5,
+    259.5,
+    337.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld bis",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Von_2",
+   "acro_name": "Von_2",
+   "page": 0,
+   "bbox": [
+    186.0,
+    349.0,
+    215.0,
+    357.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld von",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bis_2",
+   "acro_name": "Bis_2",
+   "page": 0,
+   "bbox": [
+    230.0,
+    349.0,
+    259.5,
+    357.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld bis",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arbeitsunfaehig_ab_1",
+   "acro_name": "Arbeitsunfaehig_ab_1",
+   "page": 0,
+   "bbox": [
+    18.5,
+    390.2,
+    97.5,
+    830.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Arbeitsunfähig ab",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wiederbestellt_fuer_1",
+   "acro_name": "Wiederbestellt_fuer_1",
+   "page": 0,
+   "bbox": [
+    100.0,
+    390.2,
+    168.5,
+    830.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Wiederbestellt für",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "letzter_Tag_arbeitunfaeigkeit_1",
+   "acro_name": "letzter_Tag_arbeitunfaeigkeit_1",
+   "page": 0,
+   "bbox": [
+    171.0,
+    390.2,
+    293.6,
+    830.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld letzter Tag der Arbeitsunfähigkeit",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rueckdatierung_1",
+   "acro_name": "Rueckdatierung_1",
+   "page": 0,
+   "bbox": [
+    370.9,
+    45.8,
+    462.1,
+    162.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Rückdatierung",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begruendung_1",
+   "acro_name": "Begruendung_1",
+   "page": 0,
+   "bbox": [
+    302.0,
+    80.3,
+    575.9,
+    112.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Ärztliche Begründung",
+   "max_zeichen": 120,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 0,
+   "bbox": [
+    297.5,
+    117.7,
+    350.4,
+    552.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Textfeld Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_1",
+   "acro_name": "Ja_1",
+   "page": 0,
+   "bbox": [
+    470.9,
+    156.2,
+    478.8,
+    174.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Rückdatierung auf",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "akzept",
+     "label": "akzeptiert",
+     "bbox": [
+      470.9,
+      156.2,
+      478.8,
+      163.5
+     ]
+    },
+    {
+     "wert": "abgelehnt",
+     "label": "abgelehnt, weil",
+     "bbox": [
+      470.9,
+      167.0,
+      478.8,
+      174.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ablehnungsgrund_1",
+   "acro_name": "Ablehnungsgrund_1",
+   "page": 0,
+   "bbox": [
+    304.9,
+    177.8,
+    552.2,
+    195.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Ablehnungsgrund",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kommentarleiste_drucken",
+   "acro_name": "kommentarleiste_drucken",
+   "page": 0,
+   "bbox": [
+    314.6,
+    18.0,
+    576.6,
+    32.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "kommentarleiste_drucken",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kommentar_drucken",
+   "acro_name": "kommentar_drucken",
+   "page": 0,
+   "bbox": [
+    314.6,
+    31.2,
+    576.6,
+    73.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "kommentar_drucken",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kommentarleiste_zuruecksetzen",
+   "acro_name": "kommentarleiste_zuruecksetzen",
+   "page": 0,
+   "bbox": [
+    329.8,
+    18.0,
+    591.7,
+    32.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "kommentarleiste_zuruecksetzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kommentar_zuruecksetzen",
+   "acro_name": "kommentar_zuruecksetzen",
+   "page": 0,
+   "bbox": [
+    329.8,
+    31.2,
+    591.2,
+    73.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "kommentar_zuruecksetzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": false,
+  "befunde": [
+   "Überlappung Name_1 / Adresse_1",
+   "Überlappung Name_1 / Postleitzahl_Ort_1",
+   "Überlappung Name_1 / Dienstgeber_1",
+   "Überlappung Name_2 / Adresse_1",
+   "Überlappung Name_2 / Postleitzahl_Ort_1",
+   "Überlappung Name_2 / Dienstgeber_1",
+   "Überlappung VSNR_1 / Adresse_1",
+   "Überlappung VSNR_1 / Postleitzahl_Ort_1",
+   "Überlappung VSNR_1 / Dienstgeber_1",
+   "Überlappung Adresse_1 / Postleitzahl_Ort_1",
+   "Überlappung Adresse_1 / Dienstgeber_1",
+   "Überlappung Postleitzahl_Ort_1 / Dienstgeber_1"
+  ],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/bvaeb_98ad753e16/p1.png"
+  ],
+  "fp": "9d732b6eec0c7e9a",
+  "ok": false
+ }
+}

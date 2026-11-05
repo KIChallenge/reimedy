@@ -1,0 +1,1362 @@
+{
+ "formular_id": "oegk_leeres_formularherunterladen",
+ "name": "Leeres Formularherunterladen",
+ "traeger": "ÖGK",
+ "sha256": "af90e9239fc6b22a7b3abc01bdf3d6c08845427963a57d3deed85817a66a8fc3",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.753789&version=1634555392",
+ "pages": 4,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    113.6,
+    368.4,
+    126.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "f ü r",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    160.3,
+    368.4,
+    172.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname und Vorname(n), Titel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    368.8,
+    160.3,
+    529.7,
+    172.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sozialversicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    252.8,
+    290.3,
+    265.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    290.8,
+    252.8,
+    529.7,
+    265.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    316.3,
+    368.4,
+    328.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitgeber / Arbeitgeberin",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "arbeitgeber.name",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    395.5,
+    368.4,
+    408.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "beschäftigt seit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    425.4,
+    368.4,
+    437.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beginn Krankenstand",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    455.2,
+    368.4,
+    467.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "(vorauss.) Beginn Arbeitsfähigkeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    482.5,
+    525.8,
+    495.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "1",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    297.9,
+    580.3,
+    525.8,
+    592.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Normalarbeitszeit in Stunden)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    65.7,
+    630.4,
+    524.3,
+    642.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tätigkeits- bzw. Anforderungsprofil (Zutreffendes ankreuzen)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    184.7,
+    661.3,
+    194.3,
+    677.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ständig",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    260.7,
+    661.3,
+    270.3,
+    677.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "überwiegend",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    365.5,
+    661.3,
+    375.1,
+    677.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "zeitweise",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    451.3,
+    661.3,
+    460.9,
+    677.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nie",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    184.1,
+    680.8,
+    193.7,
+    696.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ständig",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    260.1,
+    680.8,
+    269.7,
+    696.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "überwiegend",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    364.9,
+    680.8,
+    374.5,
+    696.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "zeitweise",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    450.7,
+    680.8,
+    460.3,
+    696.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nie",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    184.8,
+    700.3,
+    194.5,
+    716.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ständig",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    260.8,
+    700.3,
+    270.4,
+    716.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "überwiegend",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    365.6,
+    700.3,
+    375.2,
+    716.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "zeitweise",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    451.4,
+    700.3,
+    461.1,
+    716.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nie",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    70.8,
+    718.4,
+    214.8,
+    730.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gehen: □ ständig",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    65.7,
+    58.3,
+    524.3,
+    70.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Version 2018",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_025",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    89.2,
+    80.5,
+    105.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "fixe Arbeitszeiten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_026",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    201.8,
+    89.2,
+    211.4,
+    105.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Gleitzeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_027",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    288.2,
+    89.2,
+    297.8,
+    105.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Schichtarbeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    398.1,
+    89.2,
+    407.7,
+    105.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nachtarbeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    108.6,
+    80.5,
+    124.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "häufig wechselnde Arbeitszeiten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    259.0,
+    108.6,
+    268.6,
+    124.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Stückakkord",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    348.3,
+    108.6,
+    357.9,
+    124.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "taktgebunden/Fließband",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    128.2,
+    80.5,
+    144.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bildschirmarbeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_033",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    185.8,
+    128.2,
+    195.4,
+    144.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Telefondienst",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_034",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    287.8,
+    128.2,
+    297.4,
+    144.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kundenkontakt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_035",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    397.6,
+    128.2,
+    407.3,
+    144.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Außendienst",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_036",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    147.8,
+    80.5,
+    163.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "häufig wechselnde Arbeitsstätten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_037",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    276.5,
+    147.8,
+    286.2,
+    163.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Reisetätigkeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_038",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    380.7,
+    147.8,
+    390.3,
+    163.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Lenken eines KFZ",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_039",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    211.7,
+    80.5,
+    227.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Besondere Anforderungen an den Bewegungs- und",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_040",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    329.0,
+    80.5,
+    345.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Besondere Anforderungen an die Sinnesorgane",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_041",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    416.9,
+    80.5,
+    432.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Besondere psychische Anforderungen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_042",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    534.1,
+    80.5,
+    550.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Besondere Anforderungen an das Kommunikationsverhalten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_043",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    70.8,
+    636.6,
+    80.5,
+    652.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Gefährdungs- und Belastungsfaktoren",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_044",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    70.8,
+    91.0,
+    80.5,
+    107.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_045",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    141.6,
+    91.0,
+    151.3,
+    107.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_046",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    65.7,
+    124.5,
+    525.8,
+    137.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "□ ja □ nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_047",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    70.8,
+    184.6,
+    80.5,
+    200.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "hinsichtlich Arbeitsplatz und Arbeitsumgebung: z.B.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_048",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    70.8,
+    277.4,
+    80.5,
+    293.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "hinsichtlich sonstiger Unterstützungsmaßnahmen: z.B.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_049",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    65.7,
+    447.0,
+    148.6,
+    459.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wiedereingliederungsteilzeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_050",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    149.1,
+    447.0,
+    233.7,
+    459.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wiedereingliederungsteilzeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_051",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    65.7,
+    506.2,
+    148.6,
+    518.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "(TT.MM.JJJJ)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_052",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    149.1,
+    506.2,
+    233.7,
+    518.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "(TT.MM.JJJJ)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_053",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    397.1,
+    506.2,
+    524.2,
+    518.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "(in %)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_054",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    234.2,
+    535.9,
+    318.8,
+    548.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stunden",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_055",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    319.3,
+    535.9,
+    396.7,
+    548.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "(in %)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_056",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    70.8,
+    755.0,
+    214.8,
+    767.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "2",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_057",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    70.8,
+    228.9,
+    80.5,
+    244.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Daher wird aus arbeitsmedizinischer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_058",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    301.2,
+    228.9,
+    310.9,
+    244.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Daher wird aus arbeitsmedizinischer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_059",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    65.4,
+    342.6,
+    529.9,
+    355.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum Unterschrift und Stempel Arbeitsmedizinerin/Arbeitsmediziner",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_060",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/oegk_leeres_formularherunterladen/p1.png",
+   "cache/pruefung/oegk_leeres_formularherunterladen/p2.png",
+   "cache/pruefung/oegk_leeres_formularherunterladen/p3.png",
+   "cache/pruefung/oegk_leeres_formularherunterladen/p4.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Anna Berger (bei „für“)",
+     "problem": "Wert steht im falschen Feld; gehört nicht in das kleine „für“-Feld.",
+     "schwer": true
+    },
+    {
+     "feld": "Anna Berger (bei „Familienname und Vorname(n), Titel“)",
+     "problem": "Wert ist nicht passend zur Feldbeschriftung; Personenname steht nicht eindeutig als Vor- und Nachname getrennt.",
+     "schwer": true
+    },
+    {
+     "feld": "1234140348",
+     "problem": "Sozialversicherungsnummer steht im richtigen Feld; keine Layout-Probleme erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "+43 1 2345678",
+     "problem": "Telefonnummer wirkt im Feld passend platziert, keine Überdeckung oder Feldverletzung erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "anna.berger@example.org",
+     "problem": "E-Mail wirkt im Feld passend platziert, keine Überdeckung oder Feldverletzung erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Muster GmbH",
+     "problem": "Arbeitgeber-Feld passend befüllt, keine Layout-Probleme erkennbar.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "44e6cb91831e318e",
+  "ok": false
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "formular_id": "svs_a3e61b98e0",
+ "name": "Lebensbestätigung tschechisch",
+ "traeger": "SVS",
+ "sha256": "5d62e849b7258d72c18be34cd40f3e5ff063142dc0ec153a9c85c18c3a3edf5e",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.744412&version=1733380215",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    267.8,
+    96.9,
+    550.8,
+    109.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    195.0,
+    551.2,
+    207.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "POTVRZENÍ O ŽITÍ",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    122.4,
+    258.8,
+    353.6,
+    270.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Paní / Pan",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    431.8,
+    258.8,
+    539.1,
+    270.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "narozen(a)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f02_003",
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    99.0,
+    292.4,
+    357.6,
+    304.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "bytem",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    395.0,
+    292.4,
+    539.0,
+    304.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stav",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    378.1,
+    552.1,
+    390.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vlastnoruční podpis osoby pobírající důchod",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.9,
+    586.0,
+    544.3,
+    598.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "příslušným dokladem (dokladem totožnosti s fotografií; např. Pasem)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/svs_a3e61b98e0/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Paní / Pan",
+     "problem": "Blauer Wert steht im falschen Feld/zu weit links über dem Textlabel statt sauber im Ausfüllbereich der Zeile.",
+     "schwer": true
+    },
+    {
+     "feld": "narozen(a)",
+     "problem": "Blauer Wert ist im richtigen Bereich, aber liegt sehr nah am gedruckten Text; kein schwerer Fehler erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Stav",
+     "problem": "Blauer Wert steht im Feld, wirkt aber etwas eng an der Linie; kein schwerer Fehler erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Wert steht im passenden Feld und überdeckt keinen gedruckten Text; kein Problem.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "e742c01ded3ad86d",
+  "ok": false
+ }
+}

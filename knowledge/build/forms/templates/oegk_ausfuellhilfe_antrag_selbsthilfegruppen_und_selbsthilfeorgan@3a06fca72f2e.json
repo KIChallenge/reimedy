@@ -1,0 +1,38 @@
+{
+ "formular_id": "oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan",
+ "name": "Ausfüllhilfe Antrag Selbsthilfegruppen und Selbsthilfeorganisationen",
+ "traeger": "ÖGK",
+ "sha256": "3a06fca72f2e916f648a02fea7cf01cb2f731eca8bfd1e9717f80619f7ad420a",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.794330&version=1770817861",
+ "pages": 4,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   841.9,
+   595.3
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

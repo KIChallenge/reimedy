@@ -1,0 +1,919 @@
+{
+ "formular_id": "oegk_allgemeine_gesundheitsfragen",
+ "name": "Allgemeine Gesundheitsfragen",
+ "traeger": "ÖGK",
+ "sha256": "152ad1c1602fa55396ff6feb6532e0cffbc8d4bf6950fcc8cb78fe727d015d7f",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.770020&version=1777023416",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familien- und Vorname",
+   "acro_name": "Familien- und Vorname",
+   "page": 0,
+   "bbox": [
+    198.3,
+    131.8,
+    543.9,
+    146.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe von Familiennamen und Vornamen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialversicherungsnummer",
+   "acro_name": "Sozialversicherungsnummer",
+   "page": 0,
+   "bbox": [
+    228.0,
+    156.0,
+    415.1,
+    170.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe der Sozialversicherungsnummer",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum",
+   "acro_name": "Geburtsdatum",
+   "page": 0,
+   "bbox": [
+    486.4,
+    155.7,
+    544.0,
+    170.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Angabe des Geburtsdatums",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer",
+   "acro_name": "Telefonnummer",
+   "page": 0,
+   "bbox": [
+    110.6,
+    177.5,
+    283.3,
+    191.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe der Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Mail-Adresse",
+   "acro_name": "Mail-Adresse",
+   "page": 0,
+   "bbox": [
+    341.7,
+    177.5,
+    543.9,
+    191.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe der Mail-Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wohnadresse",
+   "acro_name": "Wohnadresse",
+   "page": 0,
+   "bbox": [
+    149.2,
+    200.6,
+    543.9,
+    214.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe der Wohnadresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Größe",
+   "acro_name": "Größe",
+   "page": 0,
+   "bbox": [
+    110.2,
+    225.2,
+    165.6,
+    239.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe der Körpergröße in Zentimeter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gewicht",
+   "acro_name": "Gewicht",
+   "page": 0,
+   "bbox": [
+    377.1,
+    224.7,
+    423.6,
+    239.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe des Körpergewichts in Kilogramm",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ungewollte Gewichtsabnahme",
+   "acro_name": "Ungewollte Gewichtsabnahme",
+   "page": 0,
+   "bbox": [
+    384.7,
+    253.4,
+    449.7,
+    265.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ungewollte Gewichtsabnahme",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20keine#20ungewollte#20Gewichtsabnahme",
+     "label": "nein",
+     "bbox": [
+      384.7,
+      253.4,
+      397.2,
+      265.8
+     ]
+    },
+    {
+     "wert": "Ja,#20ungewollte#20Gewichtsabnahme",
+     "label": "ja,",
+     "bbox": [
+      437.3,
+      253.4,
+      449.7,
+      265.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ungewollte Gewichtsabnahme",
+   "acro_name": "ungewollte Gewichtsabnahme",
+   "page": 0,
+   "bbox": [
+    478.6,
+    250.3,
+    521.7,
+    264.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe der ungewollten Gewichtsabnahme in Kilogramm",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beschwerden/Symptome",
+   "acro_name": "Beschwerden/Symptome",
+   "page": 0,
+   "bbox": [
+    403.2,
+    273.9,
+    543.9,
+    288.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben von Beschwerden bzw Symptome (z.B. Schmerzen, Fieber, Atemnot, udgl)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begin Beschwerden/Symptome",
+   "acro_name": "Begin Beschwerden/Symptome",
+   "page": 0,
+   "bbox": [
+    109.5,
+    298.6,
+    191.6,
+    312.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beginn der Beschwerden bzw Symptome",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Auslöser Beschwerden/Symptome",
+   "acro_name": "Auslöser Beschwerden/Symptome",
+   "page": 0,
+   "bbox": [
+    253.0,
+    298.6,
+    388.7,
+    312.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Auslöser der Beschwerden bzw Symptome",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "erstmalig Beschwerden/Symptome",
+   "acro_name": "erstmalig Beschwerden/Symptome",
+   "page": 0,
+   "bbox": [
+    457.8,
+    300.8,
+    521.0,
+    314.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Erstmalig Beschwerden/Symptome",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20keine#20erstmaligen#20Beschwerden#2FSymptome",
+     "label": "nein",
+     "bbox": [
+      457.8,
+      300.8,
+      470.2,
+      313.2
+     ]
+    },
+    {
+     "wert": "Ja,#20erstmalige#20Beschwerden#2FSymptome",
+     "label": "ja",
+     "bbox": [
+      508.5,
+      301.6,
+      521.0,
+      314.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frühere Erkrankungen",
+   "acro_name": "Frühere Erkrankungen",
+   "page": 0,
+   "bbox": [
+    70.9,
+    350.1,
+    543.9,
+    383.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben von früheren Erkrankungen (z.B. Diabetes, Herzinfarkt, Schlaganfall, Thrombosen, udgl)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frühere Operationen",
+   "acro_name": "Frühere Operationen",
+   "page": 0,
+   "bbox": [
+    70.9,
+    395.6,
+    543.9,
+    432.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben von früheren Operationen (wann?)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Allergien/Unverträglichkeiten",
+   "acro_name": "Allergien/Unverträglichkeiten",
+   "page": 0,
+   "bbox": [
+    70.9,
+    444.8,
+    543.9,
+    476.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben von Allergien/Unverträglichkeiten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stuhlgang",
+   "acro_name": "Stuhlgang",
+   "page": 0,
+   "bbox": [
+    305.0,
+    480.0,
+    387.7,
+    492.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Probleme beim Stuhlgang",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20keine#20Probleme#20beim#20Stuhlgang",
+     "label": "nein",
+     "bbox": [
+      305.0,
+      480.0,
+      317.5,
+      492.5
+     ]
+    },
+    {
+     "wert": "Ja,#20Probleme#20beim#20Stuhlgang",
+     "label": "ja",
+     "bbox": [
+      375.3,
+      480.0,
+      387.7,
+      492.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Harnlassen",
+   "acro_name": "Harnlassen",
+   "page": 0,
+   "bbox": [
+    305.0,
+    503.6,
+    387.7,
+    516.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Probleme beim Harnlassen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20keine#20Probleme#20beim#20Harnlassen",
+     "label": "nein",
+     "bbox": [
+      305.0,
+      505.0,
+      317.5,
+      516.6
+     ]
+    },
+    {
+     "wert": "Ja,#20Probleme#20beim#20Harnlassen",
+     "label": "ja",
+     "bbox": [
+      375.3,
+      503.6,
+      387.7,
+      516.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ansteckende Erkrankung",
+   "acro_name": "ansteckende Erkrankung",
+   "page": 0,
+   "bbox": [
+    305.0,
+    538.4,
+    388.0,
+    550.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ansteckende Erkrankung (z.B. Hepatitis, HIV, udgl)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20keine#20ansteckende#20Erkrankung#20#28z.B.#20Hepatitis,#20HIV,#20udgl#29",
+     "label": "nein",
+     "bbox": [
+      305.0,
+      538.4,
+      317.5,
+      550.9
+     ]
+    },
+    {
+     "wert": "Ja,#20ansteckende#20Erkrankung#20#28z.B.#20Hepatitis,#20HIV,#20udgl#29",
+     "label": "ja",
+     "bbox": [
+      375.6,
+      538.4,
+      388.0,
+      550.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nikotin",
+   "acro_name": "Nikotin",
+   "page": 0,
+   "bbox": [
+    305.0,
+    562.0,
+    388.0,
+    574.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Nikotin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20ich#20konsumiere#20kein#20Nikotin",
+     "label": "nein",
+     "bbox": [
+      305.0,
+      562.2,
+      317.5,
+      574.7
+     ]
+    },
+    {
+     "wert": "Ja,#20ich#20konsumiere#20Nikotin",
+     "label": "ja",
+     "bbox": [
+      375.6,
+      562.0,
+      388.0,
+      574.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nikotin pro Tag",
+   "acro_name": "Nikotin pro Tag",
+   "page": 0,
+   "bbox": [
+    423.5,
+    560.4,
+    491.3,
+    574.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wie oft konsumieren Sie Nikotin pro Tag?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Alkohol",
+   "acro_name": "Alkohol",
+   "page": 0,
+   "bbox": [
+    122.8,
+    586.9,
+    515.5,
+    599.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Alkoholkonsum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "t#E4glich",
+     "label": "täglich",
+     "bbox": [
+      122.8,
+      586.9,
+      135.2,
+      599.4
+     ]
+    },
+    {
+     "wert": "mehrmals#20pro#20Woche",
+     "label": "mehrmals pro Woche",
+     "bbox": [
+      179.5,
+      586.9,
+      191.9,
+      599.4
+     ]
+    },
+    {
+     "wert": "mehrmals#20pro#20Monat",
+     "label": "mehrmals pro Monat",
+     "bbox": [
+      314.6,
+      586.9,
+      327.1,
+      599.4
+     ]
+    },
+    {
+     "wert": "selten",
+     "label": "selten",
+     "bbox": [
+      448.1,
+      586.9,
+      460.5,
+      599.4
+     ]
+    },
+    {
+     "wert": "nie",
+     "label": "nie",
+     "bbox": [
+      503.1,
+      586.9,
+      515.5,
+      599.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bewegung/Sport",
+   "acro_name": "Bewegung/Sport",
+   "page": 0,
+   "bbox": [
+    173.6,
+    611.3,
+    435.1,
+    623.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Bewegung/Sport",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Mehr#20als#20drei#20Stunden#20pro#20Woche",
+     "label": "> 3 Std pro Woche",
+     "bbox": [
+      173.6,
+      611.3,
+      186.0,
+      623.7
+     ]
+    },
+    {
+     "wert": "Ein#20bis#20drei#20Stunden#20pro#20Woche",
+     "label": "1-3 Std pro Woche",
+     "bbox": [
+      298.5,
+      611.3,
+      310.9,
+      623.7
+     ]
+    },
+    {
+     "wert": "Weniger#20als#20eine#20Stunde#20pro#20Woche",
+     "label": "< 1 Std pro Woche",
+     "bbox": [
+      422.7,
+      611.3,
+      435.1,
+      623.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikamente",
+   "acro_name": "Medikamente",
+   "page": 0,
+   "bbox": [
+    70.9,
+    647.8,
+    543.9,
+    677.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben von Medikamente (z.B. Thrombo Ass 100mg 1-0-0)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Insulin",
+   "acro_name": "Insulin",
+   "page": 0,
+   "bbox": [
+    305.0,
+    684.9,
+    388.0,
+    697.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Insulin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20ich#20spritze#20kein#20Insulin",
+     "label": "nein",
+     "bbox": [
+      305.0,
+      684.9,
+      317.5,
+      697.3
+     ]
+    },
+    {
+     "wert": "Ja,#20ich#20spritze#20Insulin",
+     "label": "ja, seit",
+     "bbox": [
+      375.6,
+      684.9,
+      388.0,
+      697.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Insulin seit",
+   "acro_name": "Insulin seit",
+   "page": 0,
+   "bbox": [
+    431.2,
+    680.8,
+    499.1,
+    695.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich spritze Insulin seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Blutverdünnung",
+   "acro_name": "Blutverdünnung",
+   "page": 0,
+   "bbox": [
+    304.7,
+    706.0,
+    388.0,
+    719.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Blutverdünnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Nein,#20ich#20nehme#20nichts#20zur#20Blutverd#FCnnung",
+     "label": "nein",
+     "bbox": [
+      304.7,
+      706.0,
+      317.2,
+      718.4
+     ]
+    },
+    {
+     "wert": "Ja,#20ich#20nehme#20etwas#20zur#20Blutverd#FCnnung",
+     "label": "ja, seit",
+     "bbox": [
+      375.6,
+      707.1,
+      388.0,
+      719.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Blutverdünnung seit",
+   "acro_name": "Blutverdünnung seit",
+   "page": 0,
+   "bbox": [
+    431.2,
+    704.4,
+    499.1,
+    718.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich nehme etwas zur Blutverdünnung seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 0,
+   "bbox": [
+    70.9,
+    751.3,
+    138.7,
+    765.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Eingabe des heutigen Datums",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/oegk_allgemeine_gesundheitsfragen/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "119c0a42f055ae10",
+  "ok": true
+ }
+}

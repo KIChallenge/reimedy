@@ -1,0 +1,211 @@
+{
+ "formular_id": "svs_ade32a824d",
+ "name": "Lebensbestätigung ungarisch",
+ "traeger": "SVS",
+ "sha256": "7657f4a8ef3ac0b25da19e3d6c81c1dc012ac84bcf5bf191577c21e51ac8091f",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.744414&version=1733380229",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    253.7,
+    96.9,
+    550.8,
+    109.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    195.0,
+    551.2,
+    207.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÉLETBENLÉTI IGAZOLÁS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    119.5,
+    256.7,
+    357.0,
+    268.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Név",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    445.7,
+    256.7,
+    541.2,
+    268.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "született:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f02_003",
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    119.5,
+    290.3,
+    354.2,
+    302.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "lakcím",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_004",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    450.4,
+    290.3,
+    540.3,
+    302.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "családi állapot",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    376.0,
+    552.1,
+    388.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "A nyugdíjban részesülő személy személyes aláírása",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.9,
+    590.1,
+    538.3,
+    602.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "a számú okirattal (fényképes igazolvány; illetve útlevél) igazolta.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 5,
+  "bilder": [
+   "cache/pruefung/svs_ade32a824d/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "9ba167ae2a8ec115",
+  "ok": true
+ }
+}

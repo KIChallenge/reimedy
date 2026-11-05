@@ -1,0 +1,385 @@
+{
+ "formular_id": "svs_9789119039",
+ "name": "PDF (0.2MB) – Formulare & Anträge",
+ "traeger": "SVS",
+ "sha256": "c32f7d43dcbe4672ec3b64db82bbf3fa7325b7789d8cbbff0549ea9a5948df9c",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.728060&version=1663737309",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    377.8,
+    148.2,
+    581.9,
+    160.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "(2)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    379.2,
+    176.5,
+    492.7,
+    189.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ordnungsbegriff (2)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    426.6,
+    248.7,
+    581.6,
+    261.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unfallversicherung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "versicherung.art",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    292.7,
+    262.9,
+    425.2,
+    275.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Daten des BETRIEBSFÜHRERS",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "vertreter.rolle",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    299.8,
+    291.2,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname, Titel (3)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    292.7,
+    299.8,
+    425.2,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    426.5,
+    312.8,
+    581.6,
+    325.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "V e r s i c h e r u n g s n u m m e r (4)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    292.6,
+    327.0,
+    425.0,
+    339.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Daten der abzumeldenden Person (5)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    362.8,
+    217.9,
+    375.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "  B x6H T>_ x |kOIK w [>W M$m :L E BV L+",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    218.4,
+    362.8,
+    291.1,
+    375.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "  B x6H T>_ x |kOIK w [>W M$m :L E BV L+",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    316.8,
+    363.1,
+    425.0,
+    375.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    217.9,
+    383.2,
+    307.4,
+    395.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": " EY vS^2 W8` j^xX AAAAAAAAAAAAAAAAAAAAAA jm+ Letzter Tag der versicherungspflichtigen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    316.8,
+    394.3,
+    581.6,
+    406.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tätigkeit/hauptberuflichen Beschäftigung (6) (Tag, Monat, Jahr)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    427.8,
+    316.3,
+    440.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienrechtliche Beziehung zum Betriebsführer (8)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.8,
+    427.8,
+    581.6,
+    440.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Präsenzdienst/Zivildienst von - bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 8,
+  "bilder": [
+   "cache/pruefung/svs_9789119039/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Daten des BETRIEBSFÜHRERS",
+     "problem": "Wert 'Vorsorgevollmacht' steht offenbar im Feld für den Betriebsführer und passt nicht zur Person/Position; zudem wirkt der Bereich überlagert.",
+     "schwer": true
+    },
+    {
+     "feld": "Unfallversicherung",
+     "problem": "Rote Markierung/Eintrag liegt im Bereich des Betriebsführer-Datenblocks statt eindeutig im passenden Feld; mögliche Fehlzuordnung.",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer (4)",
+     "problem": "Ein Versicherungsnummernwert ist im oberen rechten Block eingetragen und wirkt dort nicht eindeutig passend zum dortigen Feldkontext.",
+     "schwer": true
+    },
+    {
+     "feld": "V e r s i c h e r u n g s n u m m e r (4)",
+     "problem": "Versicherungsnummer erscheint zweimal in unterschiedlichen Bereichen; Zuordnung wirkt im Layout inkonsistent.",
+     "schwer": false
+    },
+    {
+     "feld": "Familienrechtliche Beziehung zum Betriebsführer (8)",
+     "problem": "Wert 'verwitwet' ist eingetragen; Feld scheint zwar passend, aber die Zuordnung zur betroffenen Person ist im Kontext der Formulartabelle nicht eindeutig geprüft.",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname",
+     "problem": "Vorname 'Anna' erscheint doppelt/mehrfach in unterschiedlichen Feldern; eine Zuordnung wirkt redundant oder möglicherweise falsch platziert.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "4d18bb08fb07131a",
+  "ok": false
+ }
+}

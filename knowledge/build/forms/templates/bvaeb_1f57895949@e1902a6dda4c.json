@@ -1,0 +1,969 @@
+{
+ "formular_id": "bvaeb_1f57895949",
+ "name": "Antrag auf Anschlussheilverfahren/ Rehabilitation nach Unfall",
+ "traeger": "BVAEB",
+ "sha256": "e1902a6dda4c744c4063c859fa2c3a43cf7ed0a8e51d6dd2445cda3d586f39df",
+ "version_url": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.555952&version=1577720109",
+ "pages": 2,
+ "page_sizes": [
+  [
+   642.3,
+   888.9
+  ],
+  [
+   642.3,
+   888.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    344.2,
+    66.0,
+    588.2,
+    106.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Eingangsstempel des Versicherungsträgers",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    311.7,
+    126.9,
+    589.7,
+    138.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zuständiger Kranken- bzw. Pensionsversicherungsträger:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    51.9,
+    141.1,
+    307.2,
+    153.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zuständiger Kranken- bzw. Pensionsversicherungsträger:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.2,
+    141.1,
+    420.6,
+    153.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Pensionsversicherungsträger:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    51.9,
+    165.2,
+    307.2,
+    177.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    420.6,
+    165.2,
+    485.8,
+    177.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    485.8,
+    165.2,
+    590.9,
+    177.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    51.9,
+    189.3,
+    307.2,
+    201.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    420.6,
+    189.3,
+    485.8,
+    201.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ weibl. £ männl.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    485.8,
+    189.3,
+    590.9,
+    201.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ weibl. £ männl.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    51.9,
+    213.4,
+    307.2,
+    225.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (Int. KFZ-K., PLZ, Ort, Straße, Nr.)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.2,
+    213.4,
+    420.6,
+    225.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ weibl. £ männl.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    420.6,
+    213.4,
+    485.8,
+    225.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "e-mail",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.2,
+    237.5,
+    590.9,
+    250.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben des Krankenhauses:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    51.9,
+    257.4,
+    307.2,
+    269.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben des Krankenhauses:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.2,
+    328.2,
+    590.9,
+    340.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "d. Rehab-Aufenthaltes:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    405.2,
+    693.5,
+    574.8,
+    705.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ £",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    51.9,
+    710.9,
+    363.9,
+    723.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Transportmittel (PKW, Taxi)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    363.9,
+    710.9,
+    590.9,
+    723.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ £",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    363.9,
+    790.3,
+    590.9,
+    802.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unterschrift und Stempel der Krankenanstalt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    52.3,
+    818.6,
+    590.4,
+    831.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum Unterschrift und Stempel der Krankenanstalt e-mail:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    243.4,
+    58.9,
+    434.8,
+    71.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ärztlicher Befundbericht:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_021",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    434.8,
+    58.9,
+    505.6,
+    71.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Befundbericht:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_022",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    51.9,
+    93.0,
+    243.4,
+    105.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_023",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    243.4,
+    93.0,
+    434.8,
+    105.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_024",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    434.8,
+    93.0,
+    505.6,
+    105.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_025",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    505.6,
+    93.0,
+    590.9,
+    105.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_026",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    51.9,
+    314.1,
+    243.4,
+    326.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krank heitsbeginn und -verlauf, Komplikationen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_027",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    243.4,
+    314.1,
+    434.8,
+    326.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Komplikationen:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    51.9,
+    356.6,
+    243.4,
+    369.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bisherige Therapien (medikamentös, physikalisch):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    243.4,
+    356.6,
+    434.8,
+    369.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "physikalisch):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    51.9,
+    535.2,
+    243.4,
+    547.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben zum Rehabilitationsziel:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    398.1,
+    600.2,
+    578.8,
+    612.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "von welcher Stelle:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": "pflegegeld.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    398.1,
+    636.2,
+    578.8,
+    648.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Pensionsleistung £ £ von welcher Stelle:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_033",
+   "semantik": "pension.art",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    398.1,
+    648.2,
+    578.8,
+    660.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ £ von welcher Stelle:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_034",
+   "semantik": "pension.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    406.4,
+    684.2,
+    578.8,
+    696.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Patieneneinverständnis zum Antrag £ £ Patientenunterschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_035",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    321.4,
+    710.4,
+    590.9,
+    722.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erledigung des Versicherungsträgers:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_036",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    51.9,
+    724.6,
+    321.4,
+    737.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erledigung des Versicherungsträgers:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_037",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    51.9,
+    752.9,
+    321.4,
+    765.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Rehabilitation:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_038",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    321.4,
+    752.9,
+    590.9,
+    765.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "RZ/SKA:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_039",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    51.9,
+    795.4,
+    321.4,
+    807.9
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f02_040",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    321.4,
+    795.4,
+    590.9,
+    807.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift des Chefarztes/der Chefärztin:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_041",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 18,
+  "bilder": [
+   "cache/pruefung/bvaeb_1f57895949/p1.png",
+   "cache/pruefung/bvaeb_1f57895949/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Zuständiger Kranken- bzw. Pensionsversicherungsträger",
+     "problem": "Wert steht im richtigen Feld, aber der Eintrag erscheint doppelt/überlappend in derselben Kopfzeile.",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer (S. 1)",
+     "problem": "Die Versicherungsnummer steht zweimal nebeneinander im selben Feldbereich; wirkt doppelt ausgefüllt.",
+     "schwer": true
+    },
+    {
+     "feld": "weibl./männl. (S. 1)",
+     "problem": "Die Markierung/Textausgabe liegt nicht sauber nur auf den Checkboxen, sondern als Text im Geschlechtsbereich.",
+     "schwer": false
+    },
+    {
+     "feld": "Telefon/Fax",
+     "problem": "Telefonnummer wurde offenbar in den Geschlechts-/Kontaktbereich eingetragen und nicht sauber im Telefonfeld platziert.",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer (S. 2)",
+     "problem": "Versicherungsnummer ist im richtigen Bereich, aber zusätzlich sehr nah am gedruckten Feldtext platziert; keine klare Fehlplatzierung erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "von welcher Stelle (Pflegeteil)",
+     "problem": "PVA-Eintrag liegt im richtigen Feldbereich.",
+     "schwer": false
+    },
+    {
+     "feld": "Pensionsleistung / von welcher Stelle",
+     "problem": "Alterspension und PVA stehen in den vorgesehenen Feldern; keine eindeutige Fehlplatzierung sichtbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Erledigung des Versicherungsträgers",
+     "problem": "ÖGK ist im richtigen Amtsbereich eingetragen.",
+     "schwer": false
+    },
+    {
+     "feld": "Datum",
+     "problem": "Datum steht im richtigen Feldbereich.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "f9936077b17b1525",
+  "ok": false
+ }
+}

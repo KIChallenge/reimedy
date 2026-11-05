@@ -1,0 +1,506 @@
+{
+ "formular_id": "oegk_au_meldung",
+ "name": "AU Meldung",
+ "traeger": "ÖGK",
+ "sha256": "9a552a8b6ecd12130a12d08c58ece4fecc1ac3c9b5aa96be92efc4d1f3c1916c",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734170&version=1585216877",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    459.5,
+    31.9,
+    572.6,
+    44.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "(Erläuterungen umseitig) BESTÄTIGUNG",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.0,
+    55.6,
+    96.7,
+    68.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausstellungsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    104.5,
+    63.8,
+    278.1,
+    76.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausstellungsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    33.5,
+    91.0,
+    90.2,
+    103.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausstellungsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    72.5,
+    268.6,
+    129.2,
+    281.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausgehzeit von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    290.6,
+    371.0,
+    362.0,
+    385.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "wird bestätigt bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    371.6,
+    373.2,
+    572.9,
+    385.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    377.6,
+    96.4,
+    390.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    104.2,
+    377.6,
+    278.1,
+    390.1
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift und Stempel der Ärztin/des Arztes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    447.7,
+    102.0,
+    460.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausstellungsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    113.4,
+    456.2,
+    277.8,
+    468.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausstellungsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    36.8,
+    484.3,
+    93.5,
+    496.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausstellungsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    493.5,
+    277.8,
+    506.0
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift und Stempel der Ärztin/des Arztes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    512.9,
+    277.8,
+    525.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    521.8,
+    277.8,
+    534.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    544.1,
+    277.8,
+    556.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Mon. Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    570.3,
+    277.8,
+    582.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Vers.-Nr. Geburtsdaten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    498.2,
+    589.5,
+    571.9,
+    602.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "nicht bewilligt*) , weil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    598.7,
+    277.8,
+    611.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse während des Krankenstandes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    305.4,
+    668.8,
+    384.8,
+    681.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vermerke der Kasse",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.4,
+    796.8,
+    97.1,
+    809.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitsunfähigkeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    104.0,
+    200.1,
+    228.7,
+    212.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vermerke",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_021",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/oegk_au_meldung/p1.png",
+   "cache/pruefung/oegk_au_meldung/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "12a1711b8ee78258",
+  "ok": true
+ }
+}

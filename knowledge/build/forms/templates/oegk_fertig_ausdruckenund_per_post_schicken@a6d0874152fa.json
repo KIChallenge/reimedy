@@ -1,0 +1,1044 @@
+{
+ "formular_id": "oegk_fertig_ausdruckenund_per_post_schicken",
+ "name": "Fertig ausdruckenund per Post schicken",
+ "traeger": "ÖGK",
+ "sha256": "a6d0874152fa5faf56dce881e90518b854bea4f2465447addc1060f983d6075f",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.787807&version=1714654747",
+ "pages": 5,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Versicherungsträger 1",
+   "acro_name": "Versicherungsträger 1",
+   "page": 0,
+   "bbox": [
+    205.4,
+    217.2,
+    519.2,
+    234.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsträger [1]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsträger 2",
+   "acro_name": "Versicherungsträger 2",
+   "page": 0,
+   "bbox": [
+    205.1,
+    243.2,
+    519.3,
+    260.2
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Bundesland:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Wählen Sie ein Element aus.",
+     "label": "Wählen Sie ein Element aus."
+    },
+    {
+     "wert": "Burgenland",
+     "label": "Burgenland"
+    },
+    {
+     "wert": "Kärnten",
+     "label": "Kärnten"
+    },
+    {
+     "wert": "Niederösterreich",
+     "label": "Niederösterreich"
+    },
+    {
+     "wert": "Oberösterreich",
+     "label": "Oberösterreich"
+    },
+    {
+     "wert": "Salzburg",
+     "label": "Salzburg"
+    },
+    {
+     "wert": "Steiermark",
+     "label": "Steiermark"
+    },
+    {
+     "wert": "Tirol",
+     "label": "Tirol"
+    },
+    {
+     "wert": "Vorarlberg",
+     "label": "Vorarlberg"
+    },
+    {
+     "wert": "Wien",
+     "label": "Wien"
+    }
+   ],
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "keine passende Auswahl-Option – Michi fragt nach"
+  },
+  {
+   "feld_id": "Versicherungsträger 3",
+   "acro_name": "Versicherungsträger 3",
+   "page": 0,
+   "bbox": [
+    205.4,
+    268.8,
+    519.2,
+    285.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsträger [3]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsträger 4",
+   "acro_name": "Versicherungsträger 4",
+   "page": 0,
+   "bbox": [
+    205.4,
+    294.6,
+    519.2,
+    311.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsträger [4]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antrag",
+   "acro_name": "Antrag",
+   "page": 0,
+   "bbox": [
+    77.8,
+    328.8,
+    387.8,
+    336.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "PLZ,",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Erstantrag",
+     "label": "PLZ,",
+     "bbox": [
+      77.8,
+      328.8,
+      85.7,
+      336.7
+     ]
+    },
+    {
+     "wert": "Folgeantrag",
+     "label": "☐Erstantrag",
+     "bbox": [
+      228.7,
+      328.8,
+      236.7,
+      336.7
+     ]
+    },
+    {
+     "wert": "Behandlerwechsel",
+     "label": "☐Folgeantrag",
+     "bbox": [
+      379.9,
+      328.8,
+      387.8,
+      336.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Patientin",
+   "acro_name": "Familienname Patientin",
+   "page": 0,
+   "bbox": [
+    72.2,
+    417.5,
+    523.2,
+    444.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Patient/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Patientin",
+   "acro_name": "Vorname Patientin",
+   "page": 0,
+   "bbox": [
+    72.2,
+    454.2,
+    360.5,
+    480.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Patient/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer Patientin",
+   "acro_name": "Versicherungsnummer Patientin",
+   "page": 0,
+   "bbox": [
+    362.8,
+    454.2,
+    523.2,
+    480.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Patient/in",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift PatientIn",
+   "acro_name": "Anschrift PatientIn",
+   "page": 0,
+   "bbox": [
+    72.5,
+    490.3,
+    523.0,
+    537.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift Patient/In",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherter",
+   "acro_name": "Versicherter",
+   "page": 0,
+   "bbox": [
+    72.2,
+    550.3,
+    360.5,
+    579.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer Versicherter",
+   "acro_name": "Versicherungsnummer Versicherter",
+   "page": 0,
+   "bbox": [
+    362.8,
+    550.3,
+    523.2,
+    579.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Versicherte/r",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Daten derdes leistungserbringenden klinischen PsychologinPsychologen Name VPNR Praxisadresse",
+   "acro_name": "Daten derdes leistungserbringenden klinischen PsychologinPsychologen Name VPNR Praxisadresse",
+   "page": 0,
+   "bbox": [
+    72.5,
+    659.5,
+    523.0,
+    750.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Daten der/des leistungserbringende/n klinischen Psychologin/Psychologen (Name, VPNR, Praxisadresse)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "11 Vierstellige Diagnose nach ICD10ICD11",
+   "acro_name": "11 Vierstellige Diagnose nach ICD10ICD11",
+   "page": 1,
+   "bbox": [
+    357.7,
+    126.4,
+    551.8,
+    152.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "1.1. Vierstellige Diagnose nach ICD-10/ICD-11",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "12 GAFWert",
+   "acro_name": "12 GAFWert",
+   "page": 1,
+   "bbox": [
+    357.7,
+    154.4,
+    551.8,
+    180.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "1.2. GAF-Wert",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufstaetigkeit",
+   "acro_name": "Berufstaetigkeit",
+   "page": 1,
+   "bbox": [
+    362.8,
+    189.7,
+    450.6,
+    198.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": null,
+     "bbox": [
+      362.8,
+      189.7,
+      370.8,
+      197.6
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Berufstätigkeit inkl. Art der Berufstätigkeit ☐Ja",
+     "bbox": [
+      442.7,
+      190.1,
+      450.6,
+      198.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "13 Berufstaetigkeit",
+   "acro_name": "13 Berufstaetigkeit",
+   "page": 1,
+   "bbox": [
+    361.9,
+    199.0,
+    541.9,
+    216.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "☒ Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandlung",
+   "acro_name": "Behandlung",
+   "page": 1,
+   "bbox": [
+    363.1,
+    229.3,
+    450.8,
+    237.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "☐Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "☐Ja",
+     "bbox": [
+      363.1,
+      229.3,
+      371.0,
+      237.3
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "☐Ja",
+     "bbox": [
+      442.9,
+      229.3,
+      450.8,
+      237.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "14 Facharzt",
+   "acro_name": "14 Facharzt",
+   "page": 1,
+   "bbox": [
+    361.9,
+    269.3,
+    541.9,
+    286.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "undefined",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "15 Behandlungsbezogene Anamnese in Stichworten Belastungsfaktoren bspw Körperliche Erkrankungen Krankheitsbeginn familiäre Aspekte traumatische Ereignisse Substanzabusus aktuelle Medikation Krankenstände im Zusammenhang mit der Erkrankung stationäre Aufenthalte bisherige andere Behandlungen zB PsychotherapieRow1",
+   "acro_name": "15 Behandlungsbezogene Anamnese in Stichworten Belastungsfaktoren bspw Körperliche Erkrankungen Krankheitsbeginn familiäre Aspekte traumatische Ereignisse Substanzabusus aktuelle Medikation Krankenstände im Zusammenhang mit der Erkrankung stationäre Aufenthalte bisherige andere Behandlungen zB PsychotherapieRow1",
+   "page": 1,
+   "bbox": [
+    72.5,
+    338.6,
+    551.5,
+    475.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "1.5. Behandlungsbezogene Anamnese (in Stichworten) Belastungsfaktoren (bspw. Körperliche Erkrankungen), Krankheitsbeginn, familiäre Aspekte, traumatische Ereignisse, Substanzabusus, aktuelle Medikation, Krankenstände im Zusammenhang mit der Erkrankung, stationäre Aufenthalte, bisherige andere Behandlungen, z.B. Psychotherapie)_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "16 Angaben zum bisherigen klinischpsychologischen Behandlungsverlauf und zur Intensität der Störung in Stichworten Behandlungsmotivation Arbeitsbeziehung Compliance Kooperation mit anderen Berufs gruppen Zielerarbeitungund Erreichung Veränderungen im Behandlungsfokus und der Ziel setzung erfolgte Interventionen und ErgebnisseRow1",
+   "acro_name": "16 Angaben zum bisherigen klinischpsychologischen Behandlungsverlauf und zur Intensität der Störung in Stichworten Behandlungsmotivation Arbeitsbeziehung Compliance Kooperation mit anderen Berufs gruppen Zielerarbeitungund Erreichung Veränderungen im Behandlungsfokus und der Ziel setzung erfolgte Interventionen und ErgebnisseRow1",
+   "page": 1,
+   "bbox": [
+    72.5,
+    539.8,
+    551.5,
+    759.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "1.6. Angaben zum bisherigen klinisch-psychologischen Behandlungsverlauf und zur Intensität der Störung (in Stichworten) (Behandlungsmotivation, Arbeitsbeziehung, Compliance, Kooperation mit anderen Berufs- gruppen, Zielerarbeitung-und Erreichung, Veränderungen im Behandlungsfokus und der Ziel- setzung, erfolgte Interventionen und Ergebnisse,…)_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "17 Konkrete Zielsetzung der Krankenbehandlung in Bezug auf die ICD10ICD11 Diagnose resp GAFWert bisher erreichte Ziele und offene ZielsetzungenRow1",
+   "acro_name": "17 Konkrete Zielsetzung der Krankenbehandlung in Bezug auf die ICD10ICD11 Diagnose resp GAFWert bisher erreichte Ziele und offene ZielsetzungenRow1",
+   "page": 2,
+   "bbox": [
+    72.5,
+    100.8,
+    551.5,
+    196.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "1.7. Konkrete Zielsetzung der Krankenbehandlung in Bezug auf die ICD-10/ICD-11 Diagnose resp. GAF-Wert, bisher erreichte Ziele und offene Zielsetzungen_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "21 Beginn der klinischpsychologischen Behandlung 1 Behandlungseinheit Datum",
+   "acro_name": "21 Beginn der klinischpsychologischen Behandlung 1 Behandlungseinheit Datum",
+   "page": 2,
+   "bbox": [
+    464.6,
+    211.9,
+    551.8,
+    238.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "2.1. Beginn der klinisch-psychologischen Behandlung (1. Behandlungseinheit, Datum)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "22 Bisher stattgefundene Behandlungseinheiten zum Zeitpunkt der Antragstellung",
+   "acro_name": "22 Bisher stattgefundene Behandlungseinheiten zum Zeitpunkt der Antragstellung",
+   "page": 2,
+   "bbox": [
+    464.6,
+    245.0,
+    551.8,
+    273.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "2.2. Bisher stattgefundene Behandlungseinheiten (zum Zeitpunkt der Antragstellung)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "23 Anzahl Einheiten bei anderen klinischen Psychologinnen oder Psychotherapeutinnen wenn zutreffend",
+   "acro_name": "23 Anzahl Einheiten bei anderen klinischen Psychologinnen oder Psychotherapeutinnen wenn zutreffend",
+   "page": 2,
+   "bbox": [
+    464.6,
+    275.4,
+    551.8,
+    302.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "2.3. Anzahl Einheiten bei anderen klinischen Psycholog/innen oder Psychotherapeut/innen (wenn zutreffend)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "24 Beantragte Einheiten",
+   "acro_name": "24 Beantragte Einheiten",
+   "page": 2,
+   "bbox": [
+    464.6,
+    303.4,
+    551.8,
+    332.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "2.4. Beantragte Einheiten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "25 Voraussichtlich benötigte Gesamteinheiten",
+   "acro_name": "25 Voraussichtlich benötigte Gesamteinheiten",
+   "page": 2,
+   "bbox": [
+    464.6,
+    333.2,
+    551.8,
+    362.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "2.5. Voraussichtlich benötigte Gesamteinheiten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "26 Begründung des weiteren TherapiebedarfesRow1",
+   "acro_name": "26 Begründung des weiteren TherapiebedarfesRow1",
+   "page": 2,
+   "bbox": [
+    72.5,
+    384.8,
+    551.5,
+    438.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "2.6. Begründung des weiteren Therapiebedarfes_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "27 Geplante Frequenz",
+   "acro_name": "27 Geplante Frequenz",
+   "page": 2,
+   "bbox": [
+    284.6,
+    439.9,
+    551.8,
+    468.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "2.7. Geplante Frequenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "geplantes Setting",
+   "acro_name": "geplantes Setting",
+   "page": 2,
+   "bbox": [
+    290.0,
+    473.9,
+    298.1,
+    513.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Einzelsetting",
+     "label": null,
+     "bbox": [
+      290.0,
+      473.9,
+      298.0,
+      481.8
+     ]
+    },
+    {
+     "wert": "Gruppensetting",
+     "label": "☐Einzelsetting",
+     "bbox": [
+      290.0,
+      490.0,
+      298.0,
+      497.9
+     ]
+    },
+    {
+     "wert": "anderes",
+     "label": "☐Gruppensetting",
+     "bbox": [
+      290.2,
+      505.9,
+      298.1,
+      513.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "28 geplantes Setting",
+   "acro_name": "28 geplantes Setting",
+   "page": 2,
+   "bbox": [
+    288.8,
+    514.2,
+    542.6,
+    531.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "anderes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "29 Art des Bezuges Eltern Geschwister",
+   "acro_name": "29 Art des Bezuges Eltern Geschwister",
+   "page": 2,
+   "bbox": [
+    288.8,
+    552.5,
+    542.4,
+    569.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Bezuges (Eltern, Geschwister",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "30 Anmerkungen",
+   "acro_name": "30 Anmerkungen",
+   "page": 2,
+   "bbox": [
+    74.2,
+    584.3,
+    551.5,
+    651.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beilagen",
+   "acro_name": "Beilagen",
+   "page": 3,
+   "bbox": [
+    71.8,
+    314.0,
+    79.8,
+    348.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Beilagen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Untersuchnug",
+     "label": "Beilagen:",
+     "bbox": [
+      71.8,
+      314.0,
+      79.8,
+      322.0
+     ]
+    },
+    {
+     "wert": "weitere#20Nachweise",
+     "label": "☐Nachweis",
+     "bbox": [
+      71.8,
+      340.9,
+      79.7,
+      348.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "31 weitere Nachweise",
+   "acro_name": "31 weitere Nachweise",
+   "page": 3,
+   "bbox": [
+    184.3,
+    334.4,
+    520.9,
+    351.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "☒ Nachweis über eine ärztliche Untersuchung jedenfalls vor der 2. Behandlungseinheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "32 Anmerkungen_2",
+   "acro_name": "32 Anmerkungen_2",
+   "page": 3,
+   "bbox": [
+    73.2,
+    404.6,
+    523.0,
+    502.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "33 Anzahl der bewilligten Behandlungsein heiten",
+   "acro_name": "33 Anzahl der bewilligten Behandlungsein heiten",
+   "page": 3,
+   "bbox": [
+    298.8,
+    547.1,
+    523.2,
+    574.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl der bewilligten Behandlungsein- heiten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "34 Behandlungsfrequenz",
+   "acro_name": "34 Behandlungsfrequenz",
+   "page": 3,
+   "bbox": [
+    298.8,
+    576.1,
+    523.2,
+    602.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandlungsfrequenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "35 Bewilligung ab Frühestens mit Eingangsdatum des Antrages",
+   "acro_name": "35 Bewilligung ab Frühestens mit Eingangsdatum des Antrages",
+   "page": 3,
+   "bbox": [
+    298.8,
+    604.1,
+    523.2,
+    631.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bewilligung ab Frühestens mit Eingangsdatum des Antrages",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "36 Anmerkungen_3",
+   "acro_name": "36 Anmerkungen_3",
+   "page": 3,
+   "bbox": [
+    72.2,
+    647.3,
+    523.0,
+    715.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 9,
+  "bilder": [
+   "cache/pruefung/oegk_fertig_ausdruckenund_per_post_schicken/p1.png",
+   "cache/pruefung/oegk_fertig_ausdruckenund_per_post_schicken/p2.png",
+   "cache/pruefung/oegk_fertig_ausdruckenund_per_post_schicken/p3.png",
+   "cache/pruefung/oegk_fertig_ausdruckenund_per_post_schicken/p4.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "bd3e9896366203b8",
+  "ok": true
+ }
+}

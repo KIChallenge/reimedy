@@ -1,0 +1,737 @@
+{
+ "formular_id": "svs_0a20090f43",
+ "name": "KBGG4 – Jänner 2025 Seite 1 Bitte unbedingt vollständig ausfüllen bzw Zutreffendes ankreuz",
+ "traeger": "SVS",
+ "sha256": "19db263542ac43056edc94221657acd7ef3783b260415014f21d83f35ff70cbc",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.727459&version=1747206513",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    103.5,
+    567.4,
+    116.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verzicht auf Leistungen nach dem",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    219.1,
+    311.4,
+    231.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragsteller/in Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    247.5,
+    311.8,
+    260.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    275.8,
+    311.4,
+    288.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    313.4,
+    311.4,
+    325.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    341.8,
+    311.8,
+    354.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    370.1,
+    311.8,
+    382.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    422.0,
+    39.7,
+    430.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kinderbetreuungsgeld",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    204.1,
+    425.3,
+    331.7,
+    437.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    374.2,
+    425.3,
+    501.7,
+    437.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    431.6,
+    567.4,
+    444.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "q Kinderbetreuungsgeld von bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    458.9,
+    39.7,
+    467.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Beihilfe zum Kinderbetreuungsgeld",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    468.4,
+    567.4,
+    480.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "q Beihilfe zum Kinderbetreuungsgeld von bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    637.7,
+    39.7,
+    646.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus Land- und Forstwirtschaft (Erfolgt die Ermittlung des Gewinnes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    661.7,
+    39.7,
+    670.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus selbstständiger Arbeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    673.7,
+    39.7,
+    682.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus Gewerbebetrieb",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    685.7,
+    39.7,
+    694.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus nichtselbstständiger Arbeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    697.7,
+    39.7,
+    706.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Steuerbefreite Einkünfte aufgrund von völkerrechtlichen Verträgen (zB Internationale",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    709.7,
+    39.7,
+    718.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einem Abgeordneten zum Europäischen Parlament oder seinen Hinterbliebenen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    723.2,
+    567.4,
+    735.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "q Einem Abgeordneten zum Europäischen Parlament oder seinen Hinterbliebenen nach Artikel 9 des Abgeordnetenstatuts des Europäischen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    787.2,
+    198.7,
+    799.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    198.7,
+    787.2,
+    563.4,
+    799.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift Antragsteller/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    228.2,
+    103.5,
+    567.4,
+    116.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beendigung von Leistungen nach dem",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    28.3,
+    219.1,
+    311.4,
+    231.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragsteller/in Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_023",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    28.3,
+    247.5,
+    311.8,
+    260.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_024",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    28.3,
+    275.8,
+    311.4,
+    288.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_025",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    28.3,
+    313.4,
+    311.4,
+    325.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_026",
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    28.3,
+    341.8,
+    311.8,
+    354.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_027",
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    28.3,
+    370.1,
+    311.8,
+    382.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    60.9,
+    415.3,
+    68.1,
+    424.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kinderbetreuungsgeld",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    287.7,
+    415.3,
+    294.8,
+    424.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Beihilfe zum Kinderbetreuungsgeld",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    127.6,
+    434.1,
+    256.7,
+    446.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Letzter Bezugstag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    354.4,
+    434.1,
+    483.4,
+    446.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Letzter Bezugstag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 13,
+  "bilder": [
+   "cache/pruefung/svs_0a20090f43/p1.png",
+   "cache/pruefung/svs_0a20090f43/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "6aa043eb0d7ea2af",
+  "ok": true
+ }
+}

@@ -1,0 +1,738 @@
+{
+ "formular_id": "bvaeb_0a67df4f3c",
+ "name": "Anlage zum Antrag auf Familienzeitbonus",
+ "traeger": "BVAEB",
+ "sha256": "e72949b399cb71247e986a65b681c2cd04801c2a4e7b39cfec252d6b65d4492a",
+ "version_url": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638294&version=1727330396",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "VSNR Dienstnhemer (Vater)",
+   "acro_name": "VSNR Dienstnhemer (Vater)",
+   "page": 0,
+   "bbox": [
+    311.8,
+    171.1,
+    566.9,
+    197.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Dienstnehmer (Vater)",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Dienstnhemer (Vater)",
+   "acro_name": "Familienname Dienstnhemer (Vater)",
+   "page": 0,
+   "bbox": [
+    99.8,
+    200.1,
+    566.9,
+    226.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Dienstnhemer (Vater)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Dienstnhemer (Vater)",
+   "acro_name": "Vorname Dienstnhemer (Vater)",
+   "page": 0,
+   "bbox": [
+    99.8,
+    228.3,
+    566.9,
+    254.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Dienstnhemer (Vater)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer Kind",
+   "acro_name": "Versicherungsnummer Kind",
+   "page": 0,
+   "bbox": [
+    311.8,
+    265.4,
+    566.9,
+    291.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Kind",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Kind",
+   "acro_name": "Familienname Kind",
+   "page": 0,
+   "bbox": [
+    99.8,
+    291.4,
+    566.9,
+    317.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kind",
+   "acro_name": "Vorname Kind",
+   "page": 0,
+   "bbox": [
+    99.8,
+    322.9,
+    566.9,
+    348.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienzeit1",
+   "acro_name": "Familienzeit1",
+   "page": 0,
+   "bbox": [
+    61.8,
+    388.9,
+    411.0,
+    397.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "28 Tage",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "28 Tage",
+     "bbox": [
+      61.8,
+      388.9,
+      70.3,
+      397.4
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "29 Tage",
+     "bbox": [
+      175.2,
+      388.9,
+      183.7,
+      397.4
+     ]
+    },
+    {
+     "wert": "2",
+     "label": "30 Tage",
+     "bbox": [
+      288.9,
+      388.9,
+      297.4,
+      397.4
+     ]
+    },
+    {
+     "wert": "3",
+     "label": "31 Tage",
+     "bbox": [
+      402.5,
+      388.9,
+      411.0,
+      397.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beginn Familienzeit",
+   "acro_name": "Beginn Familienzeit",
+   "page": 0,
+   "bbox": [
+    196.1,
+    411.4,
+    365.5,
+    425.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beginn der Familienzeit (1. Tag) = Abmeldung von der Sozialversicherung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort, Datum Seite 1",
+   "acro_name": "Ort, Datum Seite 1",
+   "page": 0,
+   "bbox": [
+    30.0,
+    719.2,
+    226.2,
+    790.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum Seite 1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stempel und Unterschrift Seite 1",
+   "acro_name": "Stempel und Unterschrift Seite 1",
+   "page": 0,
+   "bbox": [
+    231.9,
+    719.2,
+    564.1,
+    790.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Stempel und Unterschrift Seite 1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR Erwerbstätiger (Vater)",
+   "acro_name": "VSNR Erwerbstätiger (Vater)",
+   "page": 1,
+   "bbox": [
+    311.2,
+    142.0,
+    566.3,
+    161.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Erwerbstätiger (Vater)",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Erwerbstätiger (Vater)",
+   "acro_name": "Familienname Erwerbstätiger (Vater)",
+   "page": 1,
+   "bbox": [
+    99.2,
+    164.0,
+    566.3,
+    183.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Erwerbstätiger (Vater)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Erwerbstätiger (Vater)",
+   "acro_name": "Vorname Erwerbstätiger (Vater)",
+   "page": 1,
+   "bbox": [
+    99.2,
+    185.7,
+    566.3,
+    205.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Erwerbstätiger (Vater)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb-Selbständiger",
+   "acro_name": "Erwerb-Selbständiger",
+   "page": 1,
+   "bbox": [
+    60.2,
+    209.3,
+    68.7,
+    217.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Selbständiger",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Neuer Selbständiger bzw.",
+     "bbox": [
+      60.2,
+      209.3,
+      68.7,
+      217.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb-Gesellschafter OG/KG",
+   "acro_name": "Erwerb-Gesellschafter OG/KG",
+   "page": 1,
+   "bbox": [
+    230.0,
+    209.6,
+    238.5,
+    218.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Gesellschafter OG/KG",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Gesellschafter einer OG/KG",
+     "bbox": [
+      230.0,
+      209.6,
+      238.5,
+      218.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb-Betriebsführer",
+   "acro_name": "Erwerb-Betriebsführer",
+   "page": 1,
+   "bbox": [
+    400.1,
+    209.3,
+    408.6,
+    217.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Betriebsführer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Betriebsführer (BSVG)",
+     "bbox": [
+      400.1,
+      209.3,
+      408.6,
+      217.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gewerbetreibender",
+   "acro_name": "Gewerbetreibender",
+   "page": 1,
+   "bbox": [
+    60.2,
+    231.3,
+    68.7,
+    239.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Gewerbetreibender",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Gewerbetreibender (GSVG)",
+     "bbox": [
+      60.2,
+      231.3,
+      68.7,
+      239.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb-Geschäftsführer GmbH",
+   "acro_name": "Erwerb-Geschäftsführer GmbH",
+   "page": 1,
+   "bbox": [
+    230.0,
+    231.3,
+    238.5,
+    239.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Geschäftsführer GmbH",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Geschäftsführender GmbH-",
+     "bbox": [
+      230.0,
+      231.3,
+      238.5,
+      239.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb-Angehöriger",
+   "acro_name": "Erwerb-Angehöriger",
+   "page": 1,
+   "bbox": [
+    400.1,
+    231.3,
+    408.6,
+    239.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Angehöriger",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Hauptberuflich beschäftigter",
+     "bbox": [
+      400.1,
+      231.3,
+      408.6,
+      239.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer Kind 2",
+   "acro_name": "Versicherungsnummer Kind 2",
+   "page": 1,
+   "bbox": [
+    311.2,
+    280.2,
+    566.3,
+    302.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Kind",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Kind 2",
+   "acro_name": "Familienname Kind 2",
+   "page": 1,
+   "bbox": [
+    99.2,
+    303.5,
+    566.3,
+    323.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kind 2",
+   "acro_name": "Vorname Kind 2",
+   "page": 1,
+   "bbox": [
+    99.2,
+    325.0,
+    566.3,
+    344.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienzeit2",
+   "acro_name": "Familienzeit2",
+   "page": 1,
+   "bbox": [
+    62.4,
+    370.3,
+    410.8,
+    378.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "28 Tage",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "28 Tage",
+     "bbox": [
+      62.4,
+      370.3,
+      70.9,
+      378.8
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "29 Tage",
+     "bbox": [
+      175.2,
+      370.3,
+      183.7,
+      378.8
+     ]
+    },
+    {
+     "wert": "2",
+     "label": "30 Tage",
+     "bbox": [
+      288.6,
+      370.3,
+      297.1,
+      378.8
+     ]
+    },
+    {
+     "wert": "3",
+     "label": "31 Tage",
+     "bbox": [
+      402.3,
+      370.3,
+      410.8,
+      378.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beginn Familienzeit 2",
+   "acro_name": "Beginn Familienzeit 2",
+   "page": 1,
+   "bbox": [
+    194.9,
+    387.0,
+    364.3,
+    401.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beginn der Familienzeit (1. Tag) = Abmeldung von der Sozialversicherung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort, Datum Seite 2",
+   "acro_name": "Ort, Datum Seite 2",
+   "page": 1,
+   "bbox": [
+    31.7,
+    750.3,
+    227.8,
+    801.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum Seite 2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift Seite 2",
+   "acro_name": "Unterschrift Seite 2",
+   "page": 1,
+   "bbox": [
+    231.9,
+    750.3,
+    564.1,
+    801.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift Seite 2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 14,
+  "bilder": [
+   "cache/pruefung/bvaeb_0a67df4f3c/p1.png",
+   "cache/pruefung/bvaeb_0a67df4f3c/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "5f78471f5667262e",
+  "ok": true
+ }
+}

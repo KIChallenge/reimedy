@@ -1,0 +1,495 @@
+{
+ "formular_id": "oegk_kostenuebernahme_fuer_zahnersatz",
+ "name": "Kostenübernahme für Zahnersatz",
+ "traeger": "ÖGK",
+ "sha256": "3b5ee36659f29383c2aea24bc70896e42918e75029685d4d20a19e5b5b1597e8",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734191&version=1585217012",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   419.5
+  ],
+  [
+   595.3,
+   419.5
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    212.5,
+    38.3,
+    578.2,
+    50.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    311.8,
+    75.9,
+    566.9,
+    88.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandlungsplan und Antrag auf Kostenübernahme",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    192.8,
+    120.2,
+    290.0,
+    135.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Patient/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    157.8,
+    297.7,
+    170.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    296.5,
+    181.6,
+    577.7,
+    194.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "als Dauerversorgung (T)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    194.0,
+    297.7,
+    206.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    296.5,
+    194.0,
+    577.7,
+    206.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kunststoff-Prothese (KU)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    192.8,
+    208.1,
+    290.0,
+    223.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r (Nur auszufüllen, wenn Patient/in eine/ein Angehörige/r ist)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    296.2,
+    206.1,
+    578.3,
+    218.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r (Nur auszufüllen, wenn Patient/in eine/ein Angehörige/r ist)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    295.9,
+    217.9,
+    577.7,
+    230.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.6,
+    241.7,
+    297.2,
+    254.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    504.2,
+    265.8,
+    575.0,
+    278.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtbetrag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    504.2,
+    277.9,
+    575.0,
+    290.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anteil d. Vers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    300.4,
+    298.9,
+    445.0,
+    311.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum Unterschrift des/der Patienten/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    447.8,
+    299.3,
+    578.2,
+    311.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anteil d. Vers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    302.1,
+    297.7,
+    314.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unfallstag Ursache des Unfalles",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    392.3,
+    331.0,
+    449.0,
+    343.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtkosten . . . EUR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    392.3,
+    344.8,
+    449.0,
+    357.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anteil der Kasse . . . EUR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    392.3,
+    358.7,
+    449.0,
+    371.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anteil des Vers. . . . EUR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    384.6,
+    292.0,
+    397.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "11-ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    447.8,
+    384.0,
+    575.7,
+    396.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum, Stempel und Unterschrift der Kasse",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/oegk_kostenuebernahme_fuer_zahnersatz/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Patient/in",
+     "problem": "Blauer Wert steht im passenden Feld, aber überdeckt den gedruckten Formulartitel/Platzhalter teilweise nicht.",
+     "schwer": false
+    },
+    {
+     "feld": "Anschrift",
+     "problem": "Blauer Wert steht im passenden Feld, überdeckt aber den gedruckten Feldtext/Zeilenbereich teilweise nicht.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "5cd45066c69fe584",
+  "ok": true
+ }
+}

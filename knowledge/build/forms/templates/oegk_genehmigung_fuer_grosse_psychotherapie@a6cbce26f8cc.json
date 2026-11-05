@@ -1,0 +1,634 @@
+{
+ "formular_id": "oegk_genehmigung_fuer_grosse_psychotherapie",
+ "name": "Genehmigung für große Psychotherapie",
+ "traeger": "ÖGK",
+ "sha256": "a6cbce26f8cca7f38ac25d3ddc89f7429859e9bd6913c0cc5022a1cdcf6a1b68",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734183&version=1585216931",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   419.5
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    18.5,
+    12.3,
+    207.7,
+    57.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    212.5,
+    37.7,
+    578.3,
+    50.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    85.5,
+    573.7,
+    98.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "auf Genehmigung der großen Psychotherapie",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    99.7,
+    573.7,
+    112.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    193.2,
+    117.2,
+    290.4,
+    132.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    128.0,
+    573.7,
+    140.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    157.3,
+    300.5,
+    169.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    170.5,
+    573.7,
+    183.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Diagnose",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    185.5,
+    300.5,
+    198.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Diagnose",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    198.9,
+    573.4,
+    211.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Therapiebeginn mit Quartal",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    213.8,
+    300.5,
+    226.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Therapiebeginn mit Quartal",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.1,
+    229.9,
+    34.2,
+    241.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Genehmigung für die ersten 5 Stunden",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    227.2,
+    573.4,
+    239.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Genehmigung für die ersten 5 Stunden",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    243.7,
+    300.5,
+    256.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Genehmigung für die ersten 5 Stunden",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    255.6,
+    573.7,
+    268.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Genehmigung für die Therapiefortsetzung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    23.1,
+    259.4,
+    33.9,
+    270.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Genehmigung für die Therapiefortsetzung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    304.4,
+    269.5,
+    573.7,
+    282.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "im Quartal",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    300.5,
+    283.1,
+    578.3,
+    295.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Voraussichtliche Dauer der Psychotherapie",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    34.3,
+    300.8,
+    45.4,
+    311.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "bis zu 2 Quartalen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    34.1,
+    316.8,
+    45.2,
+    327.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "bis zu 6 Quartalen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.6,
+    315.0,
+    329.0,
+    325.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "bewilligt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    34.3,
+    332.3,
+    45.4,
+    343.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "über 6 Quartale",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.6,
+    332.3,
+    329.0,
+    342.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "abgelehnt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    34.1,
+    347.8,
+    45.3,
+    359.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Zutreffendes ankreuzen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    383.1,
+    130.4,
+    395.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Verordnung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    144.6,
+    383.4,
+    294.8,
+    395.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift und Stempel der Ärztin/des Arztes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_025",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    306.2,
+    383.1,
+    413.9,
+    395.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_026",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    428.0,
+    383.4,
+    578.2,
+    395.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift und Stempel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_027",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/oegk_genehmigung_fuer_grosse_psychotherapie/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Vorname Versicherungsnummer",
+     "problem": "Wert steht im Versicherungsnummer-Feld statt im Vorname-Feld; falsches Feld.",
+     "schwer": true
+    },
+    {
+     "feld": "Anna",
+     "problem": "Blauer Text liegt im rechten Eingabebereich der Indikationsstellung/Therapieplan-Spalte, nicht im Feld passend zum Label; gehört hier nicht zur Personendatenzeile.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "ebf97f893aafd47c",
+  "ok": false
+ }
+}

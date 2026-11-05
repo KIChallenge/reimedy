@@ -1,0 +1,888 @@
+{
+ "formular_id": "bvaeb_47c564ebf1",
+ "name": "Antrag auf Beihilfe zum Kinderbetreuungsgeld",
+ "traeger": "BVAEB",
+ "sha256": "8e686684a9fe5c524b8ae4fcc475efb871d50056007e221cc69ccf6d96318cec",
+ "version_url": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638103&version=1764919756",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "VSNR Antragsteller",
+   "acro_name": "VSNR Antragsteller",
+   "page": 0,
+   "bbox": [
+    311.8,
+    204.1,
+    566.9,
+    230.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Antragsteller/in",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Antragsteller/in",
+   "acro_name": "Familienname Antragsteller/in",
+   "page": 0,
+   "bbox": [
+    99.8,
+    230.3,
+    566.9,
+    256.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Antragsteller/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Antragsteller/in",
+   "acro_name": "Vorname Antragsteller/in",
+   "page": 0,
+   "bbox": [
+    99.8,
+    258.4,
+    566.9,
+    284.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Antragsteller/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer Kind",
+   "acro_name": "Versicherungsnummer Kind",
+   "page": 0,
+   "bbox": [
+    311.8,
+    297.7,
+    566.9,
+    323.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Kind",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Kind",
+   "acro_name": "Familienname Kind",
+   "page": 0,
+   "bbox": [
+    99.8,
+    324.5,
+    566.9,
+    350.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kind",
+   "acro_name": "Vorname Kind",
+   "page": 0,
+   "bbox": [
+    99.8,
+    353.8,
+    566.9,
+    379.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beihilfe von",
+   "acro_name": "Beihilfe von",
+   "page": 0,
+   "bbox": [
+    183.1,
+    560.5,
+    289.1,
+    575.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich beantrage die Beihilfe zum pauschalem Kinderbetreuungsgeld von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beihilfe bis",
+   "acro_name": "Beihilfe bis",
+   "page": 0,
+   "bbox": [
+    395.7,
+    559.8,
+    501.7,
+    574.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich beantrage die Beihilfe zum pauschalem Kinderbetreuungsgeld bis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienstand",
+   "acro_name": "Familienstand",
+   "page": 0,
+   "bbox": [
+    131.8,
+    588.8,
+    254.0,
+    609.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "alleinstehend",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "alleinstehend q verheiratet/in eingetragener q verheiratet/in Partnerschaft eingetragener lebend Partnerschaft",
+     "bbox": [
+      131.8,
+      588.8,
+      140.3,
+      597.3
+     ],
+     "wert_semantik": "verheiratet"
+    },
+    {
+     "wert": "2",
+     "label": "verheiratet/in Partnerschaft eingetragener lebend Partnerschaft lebend",
+     "bbox": [
+      245.5,
+      588.8,
+      254.0,
+      597.3
+     ],
+     "wert_semantik": "verheiratet"
+    },
+    {
+     "wert": "1",
+     "label": "Lebensgemeinschaft",
+     "bbox": [
+      131.8,
+      600.9,
+      140.3,
+      609.4
+     ]
+    }
+   ],
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "keine passende Auswahl-Option – Michi fragt nach"
+  },
+  {
+   "feld_id": "land-u-forstwirschaft",
+   "acro_name": "land-u-forstwirschaft",
+   "page": 0,
+   "bbox": [
+    344.7,
+    645.2,
+    395.7,
+    653.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Einkünfte aus Land- und Forstwirschaft nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "ja",
+     "bbox": [
+      344.7,
+      645.2,
+      353.2,
+      653.7
+     ]
+    },
+    {
+     "wert": "0",
+     "label": "nein",
+     "bbox": [
+      387.2,
+      645.2,
+      395.7,
+      653.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gewerbe",
+   "acro_name": "Gewerbe",
+   "page": 0,
+   "bbox": [
+    344.7,
+    661.2,
+    395.7,
+    669.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Einkünfte aus Gewerbebetrieb nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "ja",
+     "bbox": [
+      344.7,
+      661.2,
+      353.2,
+      669.7
+     ]
+    },
+    {
+     "wert": "0",
+     "label": "nein",
+     "bbox": [
+      387.2,
+      661.2,
+      395.7,
+      669.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "selbständig",
+   "acro_name": "selbständig",
+   "page": 0,
+   "bbox": [
+    344.7,
+    676.8,
+    395.7,
+    685.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Einkünfte aus selbständiger Arbeit nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "ja",
+     "bbox": [
+      344.7,
+      676.8,
+      353.2,
+      685.3
+     ]
+    },
+    {
+     "wert": "0",
+     "label": "nein",
+     "bbox": [
+      387.2,
+      676.8,
+      395.7,
+      685.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ich besitze keine Urkunde, in der der andere Elternteil aufscheint",
+   "acro_name": "ich besitze keine Urkunde, in der der andere Elternteil aufscheint",
+   "page": 0,
+   "bbox": [
+    33.2,
+    701.7,
+    41.7,
+    710.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ich besitze keine Urkunde, in der der andere Elternteil aufscheint",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich besitze keine Urkunde, in der der andere Elternteil aufscheint.",
+     "bbox": [
+      33.2,
+      701.7,
+      41.7,
+      710.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ich bin derzeit nicht in der Lage, den Namen des anderen Elternteils anzugeben",
+   "acro_name": "Ich bin derzeit nicht in der Lage, den Namen des anderen Elternteils anzugeben",
+   "page": 0,
+   "bbox": [
+    33.2,
+    727.4,
+    41.7,
+    735.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich bin derzeit nicht in der Lage, den Namen des anderen Elternteils anzugeben",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich lege die Geburtsurkunde oder Urkunde über das Vaterschaftsanerkenntnis",
+     "bbox": [
+      33.2,
+      727.4,
+      41.7,
+      735.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ich lege die Geburtsurkunde oder Urkunde über das Vaterschaftsanerkenntnis vor",
+   "acro_name": "Ich lege die Geburtsurkunde oder Urkunde über das Vaterschaftsanerkenntnis vor",
+   "page": 0,
+   "bbox": [
+    33.2,
+    753.0,
+    41.7,
+    761.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich lege die Geburtsurkunde oder Urkunde über das Vaterschaftsanerkenntnis vor",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich bin derzeit nicht in der Lage, den Namen des anderen Elternteiles anzugeben",
+     "bbox": [
+      33.2,
+      753.0,
+      41.7,
+      761.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachweis",
+   "acro_name": "Nachweis",
+   "page": 0,
+   "bbox": [
+    154.5,
+    765.1,
+    563.4,
+    783.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Nachweis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beihilfe_von",
+   "acro_name": "Beihilfe_von",
+   "page": 0,
+   "bbox": [
+    118.1,
+    550.6,
+    126.6,
+    572.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "abAntrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "ab Antragstellung (Einlangen des Antrags)",
+     "bbox": [
+      118.1,
+      550.6,
+      126.6,
+      559.1
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "oder später ab",
+     "bbox": [
+      118.1,
+      563.5,
+      126.6,
+      572.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beihilfe_bis",
+   "acro_name": "Beihilfe_bis",
+   "page": 0,
+   "bbox": [
+    330.4,
+    550.6,
+    338.9,
+    572.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "365Tage",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "zum höchstmöglichen Ausmaß (365 Tage)",
+     "bbox": [
+      330.4,
+      550.6,
+      338.9,
+      559.1
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "oder kürzer bis",
+     "bbox": [
+      330.4,
+      563.5,
+      338.9,
+      572.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verischerungsnummer 2. Elternteil",
+   "acro_name": "Verischerungsnummer 2. Elternteil",
+   "page": 1,
+   "bbox": [
+    311.8,
+    148.0,
+    566.9,
+    174.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verischerungsnummer 2. Elternteil bzw Partner",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "partner.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname 2. Elternteil",
+   "acro_name": "Familienname 2. Elternteil",
+   "page": 1,
+   "bbox": [
+    99.8,
+    176.2,
+    566.9,
+    202.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname 2. Elternteil/Parnter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "partner.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Antragsteller/in 2",
+   "acro_name": "Vorname Antragsteller/in 2",
+   "page": 1,
+   "bbox": [
+    99.8,
+    205.0,
+    566.9,
+    231.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname 2 Elternteil bzw Partner",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "partner.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gemeinsamer Wohnsitz während des Beantragungszeitraum von",
+   "acro_name": "Gemeinsamer Wohnsitz während des Beantragungszeitraum von",
+   "page": 1,
+   "bbox": [
+    115.7,
+    258.3,
+    221.7,
+    272.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gemeinsamer Wohnsitz während des Beantragungszeitraum von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gemeinsamer Wohnsitz während des Beantragungszeitraum bis",
+   "acro_name": "Gemeinsamer Wohnsitz während des Beantragungszeitraum bis",
+   "page": 1,
+   "bbox": [
+    264.2,
+    258.3,
+    370.2,
+    272.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gemeinsamer Wohnsitz während des Beantragungszeitraum bis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "völkerrechtliche Verträge",
+   "acro_name": "völkerrechtliche Verträge",
+   "page": 1,
+   "bbox": [
+    345.1,
+    309.7,
+    395.9,
+    318.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Einkünfte aus völkerrechtlichen Verträgen nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "ja",
+     "bbox": [
+      345.1,
+      309.7,
+      353.6,
+      318.2
+     ]
+    },
+    {
+     "wert": "0",
+     "label": "nein",
+     "bbox": [
+      387.4,
+      309.7,
+      395.9,
+      318.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "wochengeld",
+   "acro_name": "wochengeld",
+   "page": 1,
+   "bbox": [
+    345.1,
+    325.8,
+    395.9,
+    334.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Wöchengeldähnliche Leistung nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "ja",
+     "bbox": [
+      345.1,
+      325.8,
+      353.6,
+      334.3
+     ]
+    },
+    {
+     "wert": "0",
+     "label": "nein",
+     "bbox": [
+      387.4,
+      325.8,
+      395.9,
+      334.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eu-parlament",
+   "acro_name": "eu-parlament",
+   "page": 1,
+   "bbox": [
+    345.1,
+    341.3,
+    395.9,
+    349.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Bezüge EU Parlament nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "ja",
+     "bbox": [
+      345.1,
+      341.3,
+      353.6,
+      349.8
+     ]
+    },
+    {
+     "wert": "0",
+     "label": "nein",
+     "bbox": [
+      387.4,
+      341.3,
+      395.9,
+      349.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 1,
+   "bbox": [
+    69.7,
+    597.8,
+    177.4,
+    612.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift Antragsteller/in",
+   "acro_name": "Unterschrift Antragsteller/in",
+   "page": 1,
+   "bbox": [
+    28.3,
+    637.8,
+    297.6,
+    684.3
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift Antragsteller/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift 2. Elternteil bzw. Partner",
+   "acro_name": "Unterschrift 2. Elternteil bzw. Partner",
+   "page": 1,
+   "bbox": [
+    297.6,
+    649.7,
+    566.9,
+    684.3
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift 2. Elternteil bzw. Partner",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 10,
+  "bilder": [
+   "cache/pruefung/bvaeb_47c564ebf1/p1.png",
+   "cache/pruefung/bvaeb_47c564ebf1/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "8115e9b0cfcb307c",
+  "ok": true
+ }
+}

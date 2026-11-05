@@ -1,0 +1,354 @@
+{
+ "formular_id": "fsw_sepa_lastschriftmandat",
+ "name": "SEPA-Lastschriftmandat",
+ "traeger": "FSW",
+ "sha256": "e18855250bc2a3f68b1c4d454f0b776ff30c5d246e27ce3a4301cd7d39a51fc3",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-SEPA-Lastschriftmandat.pdf",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "FSW KundInnennummer 3",
+   "acro_name": "FSW KundInnennummer 3",
+   "page": 0,
+   "bbox": [
+    301.8,
+    194.2,
+    565.5,
+    220.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "FSW-Kund:innennummer/Mandatsreferenz (9- oder 12-stellig)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Zahlungspflichtige 3",
+   "acro_name": "Familienname Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    29.8,
+    263.8,
+    294.7,
+    290.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Zahlungspflichtige 3",
+   "acro_name": "Vorname Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    301.8,
+    263.8,
+    565.5,
+    290.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassenname Zahlungspflichtige 3",
+   "acro_name": "Strassenname Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    29.8,
+    309.9,
+    343.9,
+    336.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname Adresse des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr Zahlungspflichtige 3",
+   "acro_name": "Hausnr Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    350.4,
+    309.9,
+    398.1,
+    336.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer Adresse des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege Zahlungspflichtige 3",
+   "acro_name": "Stiege Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    406.9,
+    309.9,
+    454.6,
+    336.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege Adresse des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.stiege",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr Zahlungspflichtige 3",
+   "acro_name": "Tuernr Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    462.8,
+    309.9,
+    510.4,
+    336.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer Adresse des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.tuer",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ Zahlungspflichtige 3",
+   "acro_name": "PLZ Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    29.8,
+    355.2,
+    133.9,
+    381.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl Adresse des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort Zahlungspflichtige 3",
+   "acro_name": "Ort Zahlungspflichtige 3",
+   "page": 0,
+   "bbox": [
+    141.0,
+    355.2,
+    341.6,
+    381.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort Adresse des:der Zahlungspflichtigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KontoinhaberIn 5",
+   "acro_name": "KontoinhaberIn 5",
+   "page": 0,
+   "bbox": [
+    29.9,
+    434.4,
+    226.4,
+    460.8
+   ],
+   "typ": "text",
+   "label_wörtlich": " Kontoinhaber:in – Bitte geben Sie den Namen und eventuell Titel genau so an wie auf der Bankkarte.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.kontoinhaber",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN 5",
+   "acro_name": "IBAN 5",
+   "page": 0,
+   "bbox": [
+    233.1,
+    434.4,
+    565.5,
+    460.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN (Internationale Kontonummer) ",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Zeichnungsberechtigte 3",
+   "acro_name": "Familienname Zeichnungsberechtigte 3",
+   "page": 0,
+   "bbox": [
+    29.8,
+    671.4,
+    294.7,
+    697.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Zeichnungsberechtigte Person für das genannte Konto",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Zeichnungsberechtigte ",
+   "acro_name": "Vorname Zeichnungsberechtigte ",
+   "page": 0,
+   "bbox": [
+    302.5,
+    671.4,
+    565.5,
+    697.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Zeichnungsberechtigte Person für das genannte Konto",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 4",
+   "acro_name": "Datum 4",
+   "page": 0,
+   "bbox": [
+    29.8,
+    716.4,
+    171.0,
+    742.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld 2",
+   "acro_name": "Unterschriftsfeld 2",
+   "page": 0,
+   "bbox": [
+    178.9,
+    717.9,
+    565.5,
+    768.4
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift der zeichnungsberechtigten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 11,
+  "bilder": [
+   "cache/pruefung/fsw_sepa_lastschriftmandat/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "5c8317a90051ad6d",
+  "ok": true
+ }
+}

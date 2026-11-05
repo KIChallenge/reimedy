@@ -1,0 +1,333 @@
+{
+ "formular_id": "bvaeb_95328111e5",
+ "name": "Bekanntgabe der Bankverbindung für Pensionsüberweisungen (Inland, Beamte)",
+ "traeger": "BVAEB",
+ "sha256": "175dbac35209ed85f79432a5f686ef5e46debcf4830763daf68766fb67ef8e82",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.727930&version=1762321454",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Name des Anspruchsberechtigten",
+   "acro_name": "Name des Anspruchsberechtigten",
+   "page": 0,
+   "bbox": [
+    229.0,
+    244.7,
+    517.7,
+    266.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des Anspruchsberechtigten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift erste Zeile",
+   "acro_name": "Anschrift erste Zeile",
+   "page": 0,
+   "bbox": [
+    114.7,
+    268.2,
+    517.7,
+    290.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift erste Zeile",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift zweite Zeile",
+   "acro_name": "Anschrift zweite Zeile",
+   "page": 0,
+   "bbox": [
+    115.6,
+    289.3,
+    518.6,
+    311.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift zweite Zeile",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name der Bank oder des Kreditinstitutes",
+   "acro_name": "Name der Bank oder des Kreditinstitutes",
+   "page": 0,
+   "bbox": [
+    183.6,
+    335.0,
+    518.5,
+    357.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der Bank oder des Kreditinstitutes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.institut",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN",
+   "acro_name": "IBAN",
+   "page": 0,
+   "bbox": [
+    230.3,
+    312.7,
+    519.4,
+    334.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name des Konotinhabers",
+   "acro_name": "Name des Konotinhabers",
+   "page": 0,
+   "bbox": [
+    123.4,
+    358.1,
+    518.1,
+    380.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des Konotinhabers",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort der Unterschriftssetzung",
+   "acro_name": "Ort der Unterschriftssetzung",
+   "page": 0,
+   "bbox": [
+    63.7,
+    597.1,
+    170.5,
+    619.1
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Ort der Unterschriftssetzung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum der Unterschriftssetzung",
+   "acro_name": "Datum der Unterschriftssetzung",
+   "page": 0,
+   "bbox": [
+    183.6,
+    597.2,
+    278.2,
+    619.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Ort der Unterschriftssetzung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name des Überprüfers der Bank",
+   "acro_name": "Name des Überprüfers der Bank",
+   "page": 0,
+   "bbox": [
+    329.7,
+    658.8,
+    497.1,
+    680.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des Überprüfers der Bank",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.institut",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort der Unterschriftssetzung des Kreditinstitutes",
+   "acro_name": "Ort der Unterschriftssetzung des Kreditinstitutes",
+   "page": 0,
+   "bbox": [
+    64.1,
+    735.3,
+    169.6,
+    757.3
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Ort der Unterschriftssetzung des Kreditinstitutes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum der Unterschriftssetzung des Kreditinstitutes",
+   "acro_name": "Datum der Unterschriftssetzung des Kreditinstitutes",
+   "page": 0,
+   "bbox": [
+    183.6,
+    735.8,
+    280.0,
+    757.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftssetzung des Kreditinstitutes",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stampiglie und Unterschrift des Kreditinstitutes",
+   "acro_name": "Stampiglie und Unterschrift des Kreditinstitutes",
+   "page": 0,
+   "bbox": [
+    291.3,
+    725.7,
+    516.4,
+    757.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Stampiglie und Unterschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialversicherungsnummer",
+   "acro_name": "Sozialversicherungsnummer",
+   "page": 0,
+   "bbox": [
+    210.7,
+    221.7,
+    519.0,
+    243.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sozialversicherungsnummer",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift der/des Anspruchsberechtigten",
+   "acro_name": "Unterschrift der/des Anspruchsberechtigten",
+   "page": 0,
+   "bbox": [
+    290.9,
+    587.5,
+    516.8,
+    619.5
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift der/des Anspruchsberechtigten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/bvaeb_95328111e5/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "a85a077c380e58a9",
+  "ok": true
+ }
+}

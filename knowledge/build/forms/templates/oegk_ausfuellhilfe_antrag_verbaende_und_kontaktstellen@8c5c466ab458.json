@@ -1,0 +1,42 @@
+{
+ "formular_id": "oegk_ausfuellhilfe_antrag_verbaende_und_kontaktstellen",
+ "name": "Ausfüllhilfe Antrag Verbände und Kontaktstellen",
+ "traeger": "ÖGK",
+ "sha256": "8c5c466ab4584b6c08a1194f9904f48304eeb048ace958d937ae9e9839b465ad",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.794332&version=1770817878",
+ "pages": 5,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   841.9,
+   595.3
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

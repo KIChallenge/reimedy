@@ -1,0 +1,30 @@
+{
+ "formular_id": "oegk_infoblatt",
+ "name": "Information zur Rezeptgebühr-Befreiung bei sozialer Schutzbeduerftigkeit_2026",
+ "traeger": "ÖGK",
+ "sha256": "ab1716d53effbffb0362605222f6b9ee064f16b9e42dc043f9f14496c4275e53",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.765321&version=1772606650",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

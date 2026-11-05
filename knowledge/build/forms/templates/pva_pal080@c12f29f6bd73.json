@@ -1,0 +1,2927 @@
+{
+ "formular_id": "pva_pal080",
+ "name": "Antrag auf Pflegegeld (PAL 080)",
+ "traeger": "PVA",
+ "sha256": "c12f29f6bd732ded90a43d64a1579235fa86ef9689e45291966b822a7926b2ce",
+ "version_url": "https://www.pv.at/cdscontent/load?contentid=10008.781956",
+ "pages": 8,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Antrag Pflg",
+   "acro_name": "Antrag Pflg",
+   "page": 0,
+   "bbox": [
+    58.3,
+    126.6,
+    226.8,
+    164.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ANTRAG",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ZUERKENNUNG /  ERHÖHUNG",
+     "bbox": [
+      58.3,
+      126.6,
+      71.5,
+      139.7
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ERHÖHUNG",
+     "bbox": [
+      213.6,
+      127.5,
+      226.8,
+      140.7
+     ]
+    },
+    {
+     "wert": "03",
+     "label": "WEITERGEWÄHRUNG nach BEFRISTUNG",
+     "bbox": [
+      58.3,
+      151.6,
+      71.5,
+      164.8
+     ]
+    }
+   ],
+   "pflicht": true,
+   "semantik": null,
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    366.0,
+    232.2,
+    522.4,
+    251.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer mit Geburtsdatum in der Form TTMMJJ",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Fam.Name",
+   "acro_name": "Fam.Name",
+   "page": 0,
+   "bbox": [
+    145.6,
+    260.1,
+    548.5,
+    277.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname",
+   "max_zeichen": 66,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    145.6,
+    281.9,
+    340.8,
+    298.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Titel",
+   "acro_name": "Titel",
+   "page": 0,
+   "bbox": [
+    432.3,
+    281.9,
+    548.5,
+    298.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel",
+   "max_zeichen": 18,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "frühere Namen",
+   "acro_name": "frühere Namen",
+   "page": 0,
+   "bbox": [
+    145.6,
+    306.5,
+    340.8,
+    323.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "frühere Namen",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.geburtsname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum",
+   "acro_name": "Geburtsdatum",
+   "page": 0,
+   "bbox": [
+    431.9,
+    307.5,
+    548.1,
+    324.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Geschlecht",
+   "acro_name": "Geschlecht",
+   "page": 0,
+   "bbox": [
+    145.7,
+    330.1,
+    548.5,
+    347.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geschlecht",
+   "max_zeichen": 47,
+   "format": "enum",
+   "optionen": null,
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stabü",
+   "acro_name": "Stabü",
+   "page": 0,
+   "bbox": [
+    158.9,
+    354.2,
+    173.5,
+    382.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Stabü-Österreich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "Österreich",
+     "bbox": [
+      158.9,
+      354.2,
+      173.5,
+      367.4
+     ],
+     "wert_semantik": "Österreich"
+    },
+    {
+     "wert": "02",
+     "label": "andere:.............................................................................................................",
+     "bbox": [
+      158.9,
+      369.7,
+      173.5,
+      382.9
+     ]
+    }
+   ],
+   "semantik": "person.staatsbuergerschaft",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "andere Staatsbürgerschaft",
+   "acro_name": "andere Staatsbürgerschaft",
+   "page": 0,
+   "bbox": [
+    221.0,
+    366.2,
+    548.5,
+    379.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "andere Staatsbürgerschaft",
+   "max_zeichen": 40,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Personenstand seit",
+   "acro_name": "Personenstand seit",
+   "page": 0,
+   "bbox": [
+    68.8,
+    413.6,
+    136.6,
+    427.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Personenstand seit",
+   "max_zeichen": 10,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.familienstand_seit",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Personenstand",
+   "acro_name": "Personenstand",
+   "page": 0,
+   "bbox": [
+    158.9,
+    399.4,
+    429.3,
+    431.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Personenstand",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ledig",
+     "bbox": [
+      158.9,
+      399.4,
+      173.5,
+      412.6
+     ],
+     "wert_semantik": "ledig"
+    },
+    {
+     "wert": "02",
+     "label": "verheiratet",
+     "bbox": [
+      246.2,
+      399.4,
+      260.8,
+      412.6
+     ],
+     "wert_semantik": "verheiratet"
+    },
+    {
+     "wert": "03",
+     "label": "verwitwet",
+     "bbox": [
+      331.7,
+      399.4,
+      346.4,
+      412.6
+     ],
+     "wert_semantik": "verwitwet"
+    },
+    {
+     "wert": "04",
+     "label": "geschieden",
+     "bbox": [
+      414.6,
+      399.4,
+      429.3,
+      412.6
+     ],
+     "wert_semantik": "geschieden"
+    },
+    {
+     "wert": "05",
+     "label": "eingetragene Partnerschaft",
+     "bbox": [
+      158.9,
+      418.0,
+      173.5,
+      431.2
+     ],
+     "wert_semantik": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "08",
+     "label": "ehemalige eingetragene Partnerschaft",
+     "bbox": [
+      331.6,
+      418.0,
+      346.2,
+      431.2
+     ]
+    }
+   ],
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse Straße",
+   "acro_name": "Adresse Straße",
+   "page": 0,
+   "bbox": [
+    146.0,
+    446.9,
+    402.1,
+    463.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse - Straße, Gasse, Platz",
+   "max_zeichen": 42,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Hausnummer, Stiege, Tür",
+   "acro_name": "Hausnummer, Stiege, Tür",
+   "page": 0,
+   "bbox": [
+    406.7,
+    446.9,
+    548.5,
+    463.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer, Stiege, Tür",
+   "max_zeichen": 26,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.hausnr_stiege_tuer",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "PLZ",
+   "acro_name": "PLZ",
+   "page": 0,
+   "bbox": [
+    146.0,
+    475.7,
+    229.9,
+    492.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl",
+   "max_zeichen": 6,
+   "format": "NNNN",
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Ort",
+   "acro_name": "Ort",
+   "page": 0,
+   "bbox": [
+    233.6,
+    475.7,
+    403.3,
+    492.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort",
+   "max_zeichen": 27,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Land",
+   "acro_name": "Land",
+   "page": 0,
+   "bbox": [
+    407.4,
+    475.3,
+    548.5,
+    492.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Land",
+   "max_zeichen": 22,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.land",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "voruebergehend",
+   "acro_name": "voruebergehend",
+   "page": 0,
+   "bbox": [
+    147.8,
+    504.0,
+    548.5,
+    521.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bei einem vorübergehenden Aufenthalt in einem Heim, Krankenhaus, bie Familienangehörigen usw. geben Sie bitte die genaue Adresse bekannt. ",
+   "max_zeichen": 72,
+   "format": null,
+   "optionen": null,
+   "semantik": "aufenthalt.temporaer.voll",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon",
+   "acro_name": "Telefon",
+   "page": 0,
+   "bbox": [
+    146.0,
+    532.4,
+    285.0,
+    549.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": 22,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Email",
+   "acro_name": "Email",
+   "page": 0,
+   "bbox": [
+    346.5,
+    532.0,
+    548.5,
+    549.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail",
+   "max_zeichen": 39,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person",
+   "acro_name": "Andere Person",
+   "page": 0,
+   "bbox": [
+    145.7,
+    582.6,
+    431.8,
+    618.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ANTRAGSTELLUNG",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "mit der gesetzlichen Vertretung betraut",
+     "bbox": [
+      145.7,
+      582.6,
+      160.3,
+      595.8
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "bevollmächtigt",
+     "bbox": [
+      416.4,
+      582.6,
+      431.0,
+      595.8
+     ]
+    },
+    {
+     "wert": "03",
+     "label": "gesetzliche oder gerichtliche Erwachsenenvertretung, Kuratorium)",
+     "bbox": [
+      417.1,
+      605.3,
+      431.8,
+      618.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachweis",
+   "acro_name": "Nachweis",
+   "page": 0,
+   "bbox": [
+    218.6,
+    621.9,
+    305.4,
+    635.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Nachweis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "liegt bei",
+     "bbox": [
+      218.6,
+      621.9,
+      233.2,
+      635.1
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "wird nachgereicht",
+     "bbox": [
+      290.7,
+      621.9,
+      305.4,
+      635.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname andere",
+   "acro_name": "Familienname andere",
+   "page": 0,
+   "bbox": [
+    145.2,
+    642.8,
+    549.7,
+    659.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname von ausfüllender Person",
+   "max_zeichen": 66,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname andere Person",
+   "acro_name": "Vorname andere Person",
+   "page": 0,
+   "bbox": [
+    145.2,
+    665.8,
+    339.5,
+    682.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname andere Person",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Titel2",
+   "acro_name": "Titel2",
+   "page": 0,
+   "bbox": [
+    429.1,
+    665.8,
+    549.7,
+    682.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel",
+   "max_zeichen": 18,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.titel",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse Straße 1",
+   "acro_name": "Adresse Straße 1",
+   "page": 0,
+   "bbox": [
+    145.2,
+    695.6,
+    403.1,
+    712.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse - Straße, Gasse, Platz von ausfüllender Person",
+   "max_zeichen": 42,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.strasse",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnummer, Stiege, Tür2",
+   "acro_name": "Hausnummer, Stiege, Tür2",
+   "page": 0,
+   "bbox": [
+    407.9,
+    695.6,
+    549.7,
+    712.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer, Stiege, Tür",
+   "max_zeichen": 26,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.hausnr_stiege_tuer",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ 1",
+   "acro_name": "PLZ 1",
+   "page": 0,
+   "bbox": [
+    145.2,
+    723.8,
+    230.1,
+    740.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl - ausfüllende Person",
+   "max_zeichen": 6,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "vertreter.adresse.plz",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort 1",
+   "acro_name": "Ort 1",
+   "page": 0,
+   "bbox": [
+    236.2,
+    723.8,
+    403.3,
+    740.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort - ausfüllende Person",
+   "max_zeichen": 27,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.ort",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Land2",
+   "acro_name": "Land2",
+   "page": 0,
+   "bbox": [
+    407.9,
+    723.8,
+    549.7,
+    740.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Land",
+   "max_zeichen": 22,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.land",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon 1",
+   "acro_name": "Telefon 1",
+   "page": 0,
+   "bbox": [
+    145.2,
+    749.1,
+    282.0,
+    769.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer - ausfüllende Person",
+   "max_zeichen": 22,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Email2",
+   "acro_name": "Email2",
+   "page": 0,
+   "bbox": [
+    343.3,
+    749.1,
+    549.7,
+    769.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail",
+   "max_zeichen": 39,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p1",
+   "acro_name": "VSNR_1",
+   "page": 1,
+   "bbox": [
+    435.3,
+    3.9,
+    591.8,
+    23.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer mit Geburtsdatum in der Form TTMMJJ",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Leiden",
+   "acro_name": "Leiden",
+   "page": 1,
+   "bbox": [
+    48.9,
+    107.9,
+    540.3,
+    122.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wegen welcher Leiden ist Betreuung und Hilfe erforderlich bzw. hat sich Ihr Pflegebdarf erhöht?",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Leiden2",
+   "acro_name": "Leiden2",
+   "page": 1,
+   "bbox": [
+    49.0,
+    129.3,
+    540.3,
+    143.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wegen welcher Leiden ist Betreuung und Hilfe erforderlich bzw. hat sich Ihr Pflegebdarf erhöht?",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "körperl. Einschränkung",
+   "acro_name": "körperl. Einschränkung",
+   "page": 1,
+   "bbox": [
+    189.0,
+    207.0,
+    242.5,
+    220.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "körperliche Einschränkung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ja",
+     "bbox": [
+      189.0,
+      207.0,
+      203.7,
+      220.2
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "nein",
+     "bbox": [
+      227.9,
+      207.0,
+      242.5,
+      220.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rollstuhlfahrer",
+   "acro_name": "Rollstuhlfahrer",
+   "page": 1,
+   "bbox": [
+    189.0,
+    224.0,
+    242.5,
+    237.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Rollstuhlfahrer*in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ja",
+     "bbox": [
+      189.0,
+      224.0,
+      203.7,
+      237.2
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "nein",
+     "bbox": [
+      227.9,
+      224.0,
+      242.5,
+      237.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sehbehinderung",
+   "acro_name": "Sehbehinderung",
+   "page": 1,
+   "bbox": [
+    189.0,
+    239.3,
+    242.5,
+    252.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Sehbehinderung / Blindheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ja",
+     "bbox": [
+      189.0,
+      239.3,
+      203.7,
+      252.5
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "nein",
+     "bbox": [
+      227.9,
+      239.3,
+      242.5,
+      252.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "geistige Beeinträchtigung",
+   "acro_name": "geistige Beeinträchtigung",
+   "page": 1,
+   "bbox": [
+    442.6,
+    207.0,
+    498.2,
+    220.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": " ja  nein geistige Beeinträchtigung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ja",
+     "bbox": [
+      442.6,
+      207.0,
+      457.2,
+      220.2
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "nein",
+     "bbox": [
+      483.6,
+      207.0,
+      498.2,
+      220.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Demenz",
+   "acro_name": "Demenz",
+   "page": 1,
+   "bbox": [
+    442.6,
+    224.0,
+    498.2,
+    237.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": " ja  nein Gedächtnisstörung / Demenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ja",
+     "bbox": [
+      442.6,
+      224.0,
+      457.2,
+      237.2
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "nein",
+     "bbox": [
+      483.6,
+      224.0,
+      498.2,
+      237.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "psychische Erkrankung",
+   "acro_name": "psychische Erkrankung",
+   "page": 1,
+   "bbox": [
+    442.6,
+    239.3,
+    498.2,
+    252.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": " ja  nein psychische Erkrankung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ja",
+     "bbox": [
+      442.6,
+      239.3,
+      457.2,
+      252.5
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "nein",
+     "bbox": [
+      483.6,
+      239.3,
+      498.2,
+      252.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "regelm. Medikamente",
+   "acro_name": "regelm. Medikamente",
+   "page": 1,
+   "bbox": [
+    47.2,
+    278.8,
+    61.9,
+    306.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Nehmen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      47.2,
+      278.8,
+      61.9,
+      292.0
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, welche:",
+     "bbox": [
+      47.2,
+      293.6,
+      61.9,
+      306.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikamente",
+   "acro_name": "Medikamente",
+   "page": 1,
+   "bbox": [
+    121.4,
+    290.5,
+    540.3,
+    303.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche Medikamente nehmen Sie regelmäßig ein?",
+   "max_zeichen": 69,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikamente2",
+   "acro_name": "Medikamente2",
+   "page": 1,
+   "bbox": [
+    64.7,
+    312.3,
+    540.3,
+    325.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche Medikamente nehmen Sie regelmäßig ein?",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausbesuch",
+   "acro_name": "Hausbesuch",
+   "page": 1,
+   "bbox": [
+    46.8,
+    362.1,
+    61.4,
+    391.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "informiert",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      46.8,
+      362.1,
+      61.4,
+      375.3
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja,",
+     "bbox": [
+      46.8,
+      378.7,
+      61.4,
+      391.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name weitere Person",
+   "acro_name": "Name weitere Person",
+   "page": 1,
+   "bbox": [
+    77.2,
+    376.0,
+    540.3,
+    388.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname(n) und Vorname(n) sowie Adresse und Telefonnummer der weiteren Person, die noch verständigt werden soll.",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse weitere Person",
+   "acro_name": "Adresse weitere Person",
+   "page": 1,
+   "bbox": [
+    63.6,
+    397.8,
+    540.3,
+    410.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname(n) und Vorname(n) sowie Adresse und Telefonnummer der weiteren Person, die noch verständigt werden soll.",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betreuung durch andere Person",
+   "acro_name": "Betreuung durch andere Person",
+   "page": 1,
+   "bbox": [
+    77.3,
+    446.4,
+    164.0,
+    460.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      77.3,
+      446.8,
+      92.0,
+      460.0
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bitte um weitere Angaben",
+     "bbox": [
+      149.3,
+      446.4,
+      164.0,
+      459.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Person Stelle Pflegeperson",
+   "acro_name": "Person Stelle Pflegeperson",
+   "page": 1,
+   "bbox": [
+    46.5,
+    467.1,
+    61.1,
+    480.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pflegeperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "ja",
+     "label": "Pflegeperson(en)",
+     "bbox": [
+      46.5,
+      467.1,
+      61.1,
+      480.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name und Adresse Pflegeperson",
+   "acro_name": "Name und Adresse Pflegeperson",
+   "page": 1,
+   "bbox": [
+    64.1,
+    489.9,
+    215.6,
+    506.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname(n) und Vorname(n) sowie Adresse der Pflegeperson",
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name und Adresse Pflegeperson2",
+   "acro_name": "Name und Adresse Pflegeperson2",
+   "page": 1,
+   "bbox": [
+    64.1,
+    511.2,
+    215.6,
+    528.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname(n) und Vorname(n) sowie Adresse der Pflegeperson",
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name und Adresse Pflegeperson3",
+   "acro_name": "Name und Adresse Pflegeperson3",
+   "page": 1,
+   "bbox": [
+    64.1,
+    533.4,
+    215.6,
+    550.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname(n) und Vorname(n) sowie Adresse der Pflegeperson",
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienhospiz",
+   "acro_name": "Familienhospiz",
+   "page": 1,
+   "bbox": [
+    343.5,
+    465.6,
+    358.2,
+    494.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Familienhospizkarenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      343.5,
+      465.6,
+      358.2,
+      478.7
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, von",
+     "bbox": [
+      343.5,
+      481.3,
+      358.2,
+      494.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienhospiz seit",
+   "acro_name": "Familienhospiz seit",
+   "page": 1,
+   "bbox": [
+    398.7,
+    477.3,
+    456.0,
+    491.3
+   ],
+   "typ": "text",
+   "label_wörtlich": " ja, von",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienhospiz bis",
+   "acro_name": "Familienhospiz bis",
+   "page": 1,
+   "bbox": [
+    478.8,
+    477.4,
+    536.1,
+    491.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekarenz/-teilzeit",
+   "acro_name": "Pflegekarenz/-teilzeit",
+   "page": 1,
+   "bbox": [
+    343.5,
+    513.6,
+    358.2,
+    542.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Pflegeteilzeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      343.5,
+      513.6,
+      358.2,
+      526.7
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, von",
+     "bbox": [
+      343.5,
+      529.3,
+      358.2,
+      542.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekarenz seit",
+   "acro_name": "Pflegekarenz seit",
+   "page": 1,
+   "bbox": [
+    398.1,
+    525.0,
+    455.4,
+    539.9
+   ],
+   "typ": "text",
+   "label_wörtlich": " ja, von",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekarenz bis",
+   "acro_name": "Pflegekarenz bis",
+   "page": 1,
+   "bbox": [
+    480.8,
+    525.0,
+    538.1,
+    538.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "24 Stunden Betreuuung",
+   "acro_name": "24 Stunden Betreuuung",
+   "page": 1,
+   "bbox": [
+    424.2,
+    548.5,
+    494.7,
+    561.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Besteht eine 24-Stunden-Betreuung?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      424.2,
+      548.5,
+      438.9,
+      561.6
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja",
+     "bbox": [
+      480.1,
+      548.5,
+      494.7,
+      561.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "mobile Dienste",
+   "acro_name": "mobile Dienste",
+   "page": 1,
+   "bbox": [
+    46.5,
+    573.8,
+    61.1,
+    587.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "mobile Dienste",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "ja",
+     "label": "mobile Dienste",
+     "bbox": [
+      46.5,
+      573.8,
+      61.1,
+      587.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name mobiler Dienst",
+   "acro_name": "Name mobiler Dienst",
+   "page": 1,
+   "bbox": [
+    229.5,
+    587.0,
+    548.6,
+    613.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "z.B. mobile Hilfe Hauskrankenpflege, und Essen auf Betreuung, Rädern",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Person Stelle ambulant teilstationär",
+   "acro_name": "Person Stelle ambulant teilstationär",
+   "page": 1,
+   "bbox": [
+    46.5,
+    617.6,
+    61.1,
+    630.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ambulante / teilstationäre Dienste (z.B. Behinderteneinrichtung, Tagesheimstätte, Tagespflege, Kindergarten, Hort)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "ja",
+     "label": "ambulante / teilstationäre",
+     "bbox": [
+      46.5,
+      617.6,
+      61.1,
+      630.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ambulante teilstationäre Einrichtung, Kostenträger",
+   "acro_name": "ambulante teilstationäre Einrichtung, Kostenträger",
+   "page": 1,
+   "bbox": [
+    229.5,
+    631.6,
+    548.6,
+    678.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einrichtung sowie Adresse ambulante / teilstationäre Dienste und Kostenträger",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wohnsituation",
+   "acro_name": "Wohnsituation",
+   "page": 1,
+   "bbox": [
+    46.5,
+    683.8,
+    61.1,
+    747.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "dauernde Unterbringung in einer stationären Einrichtung (z.B. Alten-, Pflege-, Wohn- oder Erziehungsheim, Krankenanstalt)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "dauernde Unterbringung in",
+     "bbox": [
+      46.5,
+      683.8,
+      61.1,
+      697.0
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "betreutes Wohnen",
+     "bbox": [
+      46.5,
+      734.6,
+      61.1,
+      747.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "dauernde Einrichtung, Kostenträger",
+   "acro_name": "dauernde Einrichtung, Kostenträger",
+   "page": 1,
+   "bbox": [
+    225.5,
+    699.0,
+    548.6,
+    755.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einrichtung der dauernden Unterbringung sowie Adresse und Kostenträger",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p2",
+   "acro_name": "VSNR_1",
+   "page": 2,
+   "bbox": [
+    435.3,
+    3.4,
+    591.8,
+    23.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer mit Geburtsdatum in der Form TTMMJJ",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus",
+   "acro_name": "Krankenhaus",
+   "page": 2,
+   "bbox": [
+    77.3,
+    97.7,
+    164.0,
+    110.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "z.B.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      77.3,
+      97.7,
+      92.0,
+      110.9
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bitte um weitere Angaben",
+     "bbox": [
+      149.3,
+      97.7,
+      164.0,
+      110.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KH von",
+   "acro_name": "KH von",
+   "page": 2,
+   "bbox": [
+    70.7,
+    136.0,
+    145.0,
+    150.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "von",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KH bis",
+   "acro_name": "KH bis",
+   "page": 2,
+   "bbox": [
+    170.8,
+    136.0,
+    245.2,
+    150.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Spital",
+   "acro_name": "Spital",
+   "page": 2,
+   "bbox": [
+    265.9,
+    133.0,
+    542.9,
+    150.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenanstalt, Aufenthalt von bis, Kostenträger",
+   "max_zeichen": 45,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KH von 2",
+   "acro_name": "KH von 2",
+   "page": 2,
+   "bbox": [
+    70.6,
+    158.4,
+    144.9,
+    172.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "von",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KH bis 2",
+   "acro_name": "KH bis 2",
+   "page": 2,
+   "bbox": [
+    171.0,
+    158.4,
+    245.3,
+    172.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Spital2",
+   "acro_name": "Spital2",
+   "page": 2,
+   "bbox": [
+    265.9,
+    155.4,
+    542.9,
+    172.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenanstalt, Aufenthalt von bis, Kostenträger",
+   "max_zeichen": 45,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfall",
+   "acro_name": "Unfall",
+   "page": 2,
+   "bbox": [
+    78.2,
+    201.6,
+    164.0,
+    215.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Sind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      78.2,
+      202.4,
+      92.8,
+      215.6
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bitte um weitere Angaben",
+     "bbox": [
+      149.3,
+      201.6,
+      164.0,
+      214.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unfall",
+   "acro_name": "Datum Unfall",
+   "page": 2,
+   "bbox": [
+    147.0,
+    224.5,
+    221.3,
+    238.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum des Unfalls:",
+   "max_zeichen": 10,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfallhergang",
+   "acro_name": "Unfallhergang",
+   "page": 2,
+   "bbox": [
+    49.7,
+    258.4,
+    542.9,
+    271.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unfallhergang (stichwortartig)",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfallhergang2",
+   "acro_name": "Unfallhergang2",
+   "page": 2,
+   "bbox": [
+    49.7,
+    280.1,
+    542.9,
+    293.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unfallhergang (stichwortartig)",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfallschuld",
+   "acro_name": "Unfallschuld",
+   "page": 2,
+   "bbox": [
+    329.6,
+    300.2,
+    401.4,
+    314.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "eine andere Person am Unfall schuld?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      329.6,
+      300.2,
+      344.2,
+      313.3
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja",
+     "bbox": [
+      386.7,
+      301.0,
+      401.4,
+      314.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arbeitsunfall",
+   "acro_name": "Arbeitsunfall",
+   "page": 2,
+   "bbox": [
+    329.6,
+    316.3,
+    401.4,
+    329.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "der Unfall ein Arbeitsunfall?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      329.6,
+      316.8,
+      344.2,
+      329.9
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja",
+     "bbox": [
+      386.7,
+      316.3,
+      401.4,
+      329.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfallanzeige",
+   "acro_name": "Unfallanzeige",
+   "page": 2,
+   "bbox": [
+    255.8,
+    332.5,
+    270.4,
+    361.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Wurde eine Unfallanzeige erstattet?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      255.8,
+      332.5,
+      270.4,
+      345.6
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bei der Stelle",
+     "bbox": [
+      255.8,
+      348.6,
+      270.4,
+      361.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzeige wo?",
+   "acro_name": "Anzeige wo?",
+   "page": 2,
+   "bbox": [
+    358.0,
+    342.5,
+    542.9,
+    358.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn ja, bei welcher Stelle wurde die Unfallanzeige erstattet?",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "andere Leistung",
+   "acro_name": "andere Leistung",
+   "page": 2,
+   "bbox": [
+    76.5,
+    411.0,
+    164.4,
+    425.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "7",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      76.5,
+      411.9,
+      91.1,
+      425.1
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bitte um weitere Angaben",
+     "bbox": [
+      149.8,
+      411.0,
+      164.4,
+      424.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "andere Leistung beantragt",
+   "acro_name": "andere Leistung beantragt",
+   "page": 2,
+   "bbox": [
+    76.5,
+    442.9,
+    164.4,
+    456.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Wenn",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      76.5,
+      442.9,
+      91.1,
+      456.0
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bitte um weitere Angaben",
+     "bbox": [
+      149.8,
+      442.9,
+      164.4,
+      456.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art der Leistung?",
+   "acro_name": "Art der Leistung?",
+   "page": 2,
+   "bbox": [
+    134.6,
+    465.9,
+    364.6,
+    479.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art der Leistung, auszahlende Stelle, Aktenzeichen",
+   "max_zeichen": 40,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art der Leistung seit",
+   "acro_name": "Art der Leistung seit",
+   "page": 2,
+   "bbox": [
+    399.2,
+    464.5,
+    473.5,
+    478.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "seit:",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "auszahlende Stelle",
+   "acro_name": "auszahlende Stelle",
+   "page": 2,
+   "bbox": [
+    52.8,
+    505.1,
+    542.9,
+    522.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art der ausländischen Leistung und zuständige Stelle",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegesachleistung",
+   "acro_name": "Pflegesachleistung",
+   "page": 2,
+   "bbox": [
+    46.4,
+    562.9,
+    61.0,
+    595.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "z.B.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      46.4,
+      562.9,
+      61.0,
+      576.0
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja,",
+     "bbox": [
+      46.4,
+      582.1,
+      61.0,
+      595.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegesachleistung aus EU",
+   "acro_name": "Pflegesachleistung aus EU",
+   "page": 2,
+   "bbox": [
+    86.4,
+    575.6,
+    542.9,
+    592.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art der Pflegesachleistung, auszahlende Stelle und Aktenzeichen",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ausländische Pension",
+   "acro_name": "ausländische Pension",
+   "page": 2,
+   "bbox": [
+    78.2,
+    647.1,
+    164.4,
+    660.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "8",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      78.2,
+      647.1,
+      92.8,
+      660.3
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bitte um weitere Angaben",
+     "bbox": [
+      149.8,
+      647.1,
+      164.4,
+      660.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ausländische Pension benatragt",
+   "acro_name": "ausländische Pension benatragt",
+   "page": 2,
+   "bbox": [
+    78.2,
+    678.1,
+    164.4,
+    691.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Wenn",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "nein",
+     "bbox": [
+      78.2,
+      678.1,
+      92.8,
+      691.2
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ja, bitte um weitere Angaben",
+     "bbox": [
+      149.8,
+      678.1,
+      164.4,
+      691.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art der ausl. Leistung",
+   "acro_name": "Art der ausl. Leistung",
+   "page": 2,
+   "bbox": [
+    138.2,
+    698.3,
+    348.6,
+    715.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art der Leistung, auszahlende Stelle, Aktenzeichen",
+   "max_zeichen": 34,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art der Leistung seit2",
+   "acro_name": "Art der Leistung seit2",
+   "page": 2,
+   "bbox": [
+    397.0,
+    701.5,
+    471.3,
+    715.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "seit:",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ausl. Leistung Stelle",
+   "acro_name": "ausl. Leistung Stelle",
+   "page": 2,
+   "bbox": [
+    51.4,
+    742.0,
+    542.9,
+    759.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "letzte Dienstelle",
+   "max_zeichen": 75,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p3",
+   "acro_name": "VSNR_1",
+   "page": 3,
+   "bbox": [
+    435.3,
+    3.0,
+    591.8,
+    22.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer mit Geburtsdatum in der Form TTMMJJ",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeberatung",
+   "acro_name": "Pflegeberatung",
+   "page": 3,
+   "bbox": [
+    46.2,
+    105.2,
+    60.8,
+    134.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "9",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "Nein",
+     "bbox": [
+      46.2,
+      105.2,
+      60.8,
+      118.4
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "Ja, ich stimme zu, dass meine personenbezogenen Daten",
+     "bbox": [
+      46.2,
+      121.6,
+      60.8,
+      134.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragstellung andere Person",
+   "acro_name": "Antragstellung andere Person",
+   "page": 3,
+   "bbox": [
+    46.2,
+    185.2,
+    60.8,
+    198.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ja, ich habe bei der pflegebedürftigen Person die Zustimmung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "Ja, ich habe bei der pflegebedürftigen Person die Zustimmung",
+     "bbox": [
+      46.2,
+      185.2,
+      60.8,
+      198.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anweisung",
+   "acro_name": "Anweisung",
+   "page": 3,
+   "bbox": [
+    46.2,
+    434.4,
+    60.8,
+    502.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "KEIN",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "Anweisung auf ein Konto wird gewünscht.",
+     "bbox": [
+      46.2,
+      434.4,
+      60.8,
+      447.6
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "Barzahlung wird ausdrücklich beantragt.",
+     "bbox": [
+      46.2,
+      489.3,
+      60.8,
+      502.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 3,
+   "bbox": [
+    48.0,
+    683.2,
+    168.2,
+    697.9
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Antragsdatum",
+   "max_zeichen": 10,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterlagen",
+   "acro_name": "Unterlagen",
+   "page": 3,
+   "bbox": [
+    49.4,
+    732.3,
+    544.4,
+    747.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beilage(n):",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterlagen2",
+   "acro_name": "Unterlagen2",
+   "page": 3,
+   "bbox": [
+    48.8,
+    752.6,
+    543.8,
+    768.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beilage(n):",
+   "max_zeichen": 80,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 31,
+  "bilder": [
+   "cache/pruefung/pva_pal080/p1.png",
+   "cache/pruefung/pva_pal080/p2.png",
+   "cache/pruefung/pva_pal080/p3.png",
+   "cache/pruefung/pva_pal080/p4.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Versicherungsnummer S. 2/3",
+     "problem": "Wert steht im Kopfbereich statt im eigentlichen Eingabefeld",
+     "schwer": true
+    },
+    {
+     "feld": "Datum des Unfalls",
+     "problem": "steht im richtigen Feld, ragt aber knapp in den gedruckten Punktbereich hinein",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "019c7012801e44f4",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "019c7012801e44f4",
+  "ok": true
+ }
+}

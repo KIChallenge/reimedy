@@ -1,0 +1,824 @@
+{
+ "formular_id": "oegk_kostenzuschuss_psychotherapeutische_behandlung",
+ "name": "Kostenzuschuss psychotherapeutische Behandlung",
+ "traeger": "ÖGK",
+ "sha256": "39f82fe0c70789ec33a3b379b5860abac5dfb40b11fb3a8784fe278f73990cbc",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.705041&version=1606837723",
+ "pages": 4,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    62.9,
+    191.0,
+    166.1,
+    213.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    168.5,
+    191.0,
+    243.1,
+    213.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer",
+   "acro_name": "Versicherungsnummer",
+   "page": 0,
+   "bbox": [
+    254.0,
+    191.0,
+    319.3,
+    213.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift",
+   "acro_name": "Anschrift",
+   "page": 0,
+   "bbox": [
+    62.9,
+    230.4,
+    320.0,
+    252.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherte/r",
+   "acro_name": "Versicherte/r",
+   "page": 0,
+   "bbox": [
+    62.9,
+    260.3,
+    320.0,
+    282.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dientgeber/Dienstort",
+   "acro_name": "Dientgeber/Dienstort",
+   "page": 0,
+   "bbox": [
+    62.9,
+    290.6,
+    320.0,
+    312.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dientgeber/Dienstort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name Psychotherapeutin / Psychotherapeuten",
+   "acro_name": "Name Psychotherapeutin / Psychotherapeuten",
+   "page": 0,
+   "bbox": [
+    346.6,
+    190.6,
+    523.3,
+    212.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name Psychotherapeuten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Praxisadresse",
+   "acro_name": "Praxisadresse",
+   "page": 0,
+   "bbox": [
+    346.6,
+    230.3,
+    523.3,
+    252.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Praxisadresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vierstellige Diagnosen nach ICD10",
+   "acro_name": "Vierstellige Diagnosen nach ICD10",
+   "page": 1,
+   "bbox": [
+    265.2,
+    102.3,
+    537.5,
+    124.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vierstellige Diagnose(n) nach ICD-10",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GAFWert  Einschätzung der Therapeutindes Therapeuten zum Zeitpunkt der",
+   "acro_name": "GAFWert  Einschätzung der Therapeutindes Therapeuten zum Zeitpunkt der",
+   "page": 1,
+   "bbox": [
+    249.8,
+    168.0,
+    324.1,
+    189.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "GAF-Wert *: (Einschätzung der Therapeutin/des Therapeuten zum Zeitpunkt der",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufstätig - Ja",
+   "acro_name": "Berufstätig - Ja",
+   "page": 1,
+   "bbox": [
+    173.7,
+    210.3,
+    187.9,
+    224.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Berufstätig - Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "1.3. Berufstätigkeit *: ja",
+     "bbox": [
+      173.7,
+      210.3,
+      187.9,
+      224.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufstätig - nein",
+   "acro_name": "Berufstätig - nein",
+   "page": 1,
+   "bbox": [
+    259.1,
+    210.3,
+    273.3,
+    224.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein",
+     "bbox": [
+      259.1,
+      210.3,
+      273.3,
+      224.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandlung - Ja",
+   "acro_name": "Behandlung - Ja",
+   "page": 1,
+   "bbox": [
+    154.2,
+    263.5,
+    168.4,
+    277.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Behandlung - Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nein ¨",
+     "bbox": [
+      154.2,
+      263.5,
+      168.4,
+      277.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandlung - nein",
+   "acro_name": "Behandlung - nein",
+   "page": 1,
+   "bbox": [
+    192.8,
+    263.3,
+    207.0,
+    277.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Behandlung - nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Behandlung *: ja ¨ nein",
+     "bbox": [
+      192.8,
+      263.3,
+      207.0,
+      277.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name der Fachärztindes Facharztes",
+   "acro_name": "Name der Fachärztindes Facharztes",
+   "page": 1,
+   "bbox": [
+    258.7,
+    285.5,
+    537.5,
+    305.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der Fachärztin/des Facharztes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FachärztinFacharztÄrztinArzt für Allgemeinmedizin",
+   "acro_name": "FachärztinFacharztÄrztinArzt für Allgemeinmedizin",
+   "page": 1,
+   "bbox": [
+    74.8,
+    355.8,
+    537.5,
+    376.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Fachärztin/Facharzt/Ärztin/Arzt für Allgemeinmedizin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Diagnose sofern bekannt",
+   "acro_name": "Diagnose sofern bekannt",
+   "page": 1,
+   "bbox": [
+    74.8,
+    438.2,
+    537.5,
+    460.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Diagnose, sofern bekannt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "zwei Jahre  wenn ja bitte nähere Angaben zu Institution und Zeitrahmen",
+   "acro_name": "zwei Jahre  wenn ja bitte nähere Angaben zu Institution und Zeitrahmen",
+   "page": 1,
+   "bbox": [
+    74.8,
+    509.5,
+    537.5,
+    531.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "zwei Jahre *: (wenn ja, bitte nähere Angaben zu Institution und Zeitrahmen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandlungsbezogene Anamnese",
+   "acro_name": "Behandlungsbezogene Anamnese",
+   "page": 1,
+   "bbox": [
+    75.2,
+    607.7,
+    537.0,
+    813.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandlungsbezogene Anamnese",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angaben zur Intensität der Störung",
+   "acro_name": "Angaben zur Intensität der Störung",
+   "page": 2,
+   "bbox": [
+    75.2,
+    59.5,
+    537.0,
+    403.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben zur Intensität der Störung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Konkrete Zielsetzungen",
+   "acro_name": "Konkrete Zielsetzungen",
+   "page": 2,
+   "bbox": [
+    75.2,
+    458.5,
+    537.0,
+    697.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Konkrete Zielsetzungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anmerkungen",
+   "acro_name": "Anmerkungen",
+   "page": 2,
+   "bbox": [
+    75.2,
+    731.4,
+    537.0,
+    813.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beginn Datum der 1 Stunde",
+   "acro_name": "Beginn Datum der 1 Stunde",
+   "page": 3,
+   "bbox": [
+    216.8,
+    59.0,
+    319.7,
+    80.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beginn* (Datum der 1. Stunde",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bisherige Stundenanzahl",
+   "acro_name": "Bisherige Stundenanzahl",
+   "page": 3,
+   "bbox": [
+    466.8,
+    59.2,
+    530.9,
+    80.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bisherige Stundenanzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Therapiemethode",
+   "acro_name": "Therapiemethode",
+   "page": 3,
+   "bbox": [
+    162.2,
+    89.5,
+    321.1,
+    110.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Therapiemethode",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frequenz",
+   "acro_name": "Frequenz",
+   "page": 3,
+   "bbox": [
+    388.3,
+    91.5,
+    530.9,
+    110.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Frequenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einzel 50min",
+   "acro_name": "Einzel 50min",
+   "page": 3,
+   "bbox": [
+    175.3,
+    119.1,
+    189.4,
+    133.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einzel 50min",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Setting *: Einzel 50min",
+     "bbox": [
+      175.3,
+      119.1,
+      189.4,
+      133.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gruppe 90 min",
+   "acro_name": "Gruppe 90 min",
+   "page": 3,
+   "bbox": [
+    298.1,
+    119.1,
+    312.3,
+    133.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Gruppe 90 min",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Setting *: Einzel 50min ¨ Gruppe 90min",
+     "bbox": [
+      298.1,
+      119.1,
+      312.3,
+      133.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Setting Andere",
+   "acro_name": "Setting Andere",
+   "page": 3,
+   "bbox": [
+    351.2,
+    113.6,
+    515.0,
+    134.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Setting Andere",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Setting Andere_Auswahl",
+   "acro_name": "Setting Andere_Auswahl",
+   "page": 3,
+   "bbox": [
+    520.2,
+    118.9,
+    534.3,
+    133.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Setting Andere_Auswahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Gruppe 90min ¨",
+     "bbox": [
+      520.2,
+      118.9,
+      534.3,
+      133.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anmerkungen_Psychotherapie",
+   "acro_name": "Anmerkungen_Psychotherapie",
+   "page": 3,
+   "bbox": [
+    140.6,
+    136.2,
+    530.8,
+    156.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen_Psychotherapie",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beantragte Stundenanzahl",
+   "acro_name": "Beantragte Stundenanzahl",
+   "page": 3,
+   "bbox": [
+    208.4,
+    171.0,
+    256.6,
+    192.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beantragte Stundenanzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gesamtstundenanzahl",
+   "acro_name": "Gesamtstundenanzahl",
+   "page": 3,
+   "bbox": [
+    208.0,
+    209.6,
+    256.3,
+    230.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtstundenanzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/oegk_kostenzuschuss_psychotherapeutische_behandlung/p1.png",
+   "cache/pruefung/oegk_kostenzuschuss_psychotherapeutische_behandlung/p2.png",
+   "cache/pruefung/oegk_kostenzuschuss_psychotherapeutische_behandlung/p3.png",
+   "cache/pruefung/oegk_kostenzuschuss_psychotherapeutische_behandlung/p4.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "e75493f0260574e9",
+  "ok": true
+ }
+}

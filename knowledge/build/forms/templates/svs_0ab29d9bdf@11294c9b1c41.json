@@ -1,0 +1,201 @@
+{
+ "formular_id": "svs_0ab29d9bdf",
+ "name": "Antrag auf Kostenübernahme einer geplanten Krankenbehandlung im Ausland (Art. 20 VO(EG) 88",
+ "traeger": "SVS",
+ "sha256": "11294c9b1c41f8af273202b985464db951f9196d0d1583acaea9e3ff6d8b95aa",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.796956&version=1788953020",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    56.4,
+    214.8,
+    340.2,
+    227.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Auszufüllen von der/dem Versicherten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.7,
+    252.7,
+    340.2,
+    265.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel, Familienname, Vorname des/der Versicherten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    340.2,
+    252.7,
+    425.2,
+    265.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    425.2,
+    252.7,
+    538.6,
+    265.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.4,
+    290.6,
+    340.2,
+    303.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angehörigendaten, nur falls dieser der Kunde/Patient ist",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    340.2,
+    290.6,
+    425.2,
+    303.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    425.2,
+    290.6,
+    538.9,
+    303.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/svs_0ab29d9bdf/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Geburtsdatum",
+     "problem": "blauer Wert liegt im passenden Feld und überdeckt keinen gedruckten Text",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "blauer Wert liegt im passenden Feld und überdeckt keinen gedruckten Text",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "3969a0faf4f58e49",
+  "ok": true
+ }
+}

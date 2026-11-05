@@ -1,0 +1,112 @@
+{
+ "formular_id": "svs_d249925502",
+ "name": "Lebensbestätigung",
+ "traeger": "SVS",
+ "sha256": "693beb5309019f726c04b5fc33c875c61874fcd99ad9d88e5e78ae523da8dc31",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.728375&version=1733380133",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    296.2,
+    96.8,
+    543.7,
+    109.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    57.6,
+    395.1,
+    544.6,
+    407.6
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Persönliche Unterschrift der pensionsbeziehenden Person",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    57.6,
+    703.3,
+    544.6,
+    715.8
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Ort, Datum Stempel und Unterschrift von der beglaubigenden Stelle",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/svs_d249925502/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Wert steht im richtigen Feld, überdeckt aber leicht den gedruckten Rahmen/Linienbereich am unteren Rand des Feldes",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "fc38923ec52dae83",
+  "ok": true
+ }
+}

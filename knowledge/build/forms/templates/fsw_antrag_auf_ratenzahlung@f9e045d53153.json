@@ -1,0 +1,396 @@
+{
+ "formular_id": "fsw_antrag_auf_ratenzahlung",
+ "name": "Antrag auf Ratenzahlung",
+ "traeger": "FSW",
+ "sha256": "f9e045d53153490f47ed05147a2ae7392947df38ce87e51a2cf5fcfbe52b48d0",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/antrag-auf-ratenzahlung.1685707607.pdf",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    28.5,
+    217.0,
+    293.9,
+    243.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    302.4,
+    217.7,
+    566.9,
+    244.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FSW KundInnennummer",
+   "acro_name": "FSW KundInnennummer",
+   "page": 0,
+   "bbox": [
+    28.5,
+    262.2,
+    293.7,
+    288.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "FSW-Kund:innennummer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hoehe der Forderung",
+   "acro_name": "Hoehe der Forderung",
+   "page": 0,
+   "bbox": [
+    30.6,
+    334.7,
+    185.4,
+    361.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Forderung des FSW",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einmalzahlung",
+   "acro_name": "Einmalzahlung",
+   "page": 0,
+   "bbox": [
+    218.8,
+    341.4,
+    237.1,
+    384.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Einmalzahlung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      218.8,
+      341.4,
+      236.8,
+      359.4
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      219.1,
+      366.4,
+      237.1,
+      384.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einmalzahlung Betrag",
+   "acro_name": "Einmalzahlung Betrag",
+   "page": 0,
+   "bbox": [
+    302.3,
+    337.2,
+    381.3,
+    363.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag Einmalzahlung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bis Datum",
+   "acro_name": "Bis Datum",
+   "page": 0,
+   "bbox": [
+    426.6,
+    336.4,
+    536.5,
+    362.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zahlung bis zum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beginn der monatlichen Raten",
+   "acro_name": "Beginn der monatlichen Raten",
+   "page": 0,
+   "bbox": [
+    29.9,
+    401.6,
+    218.3,
+    428.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beginn der Raten-Zahlung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "monatliche Rate",
+   "acro_name": "monatliche Rate",
+   "page": 0,
+   "bbox": [
+    302.2,
+    401.2,
+    535.7,
+    427.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich kann jeden Monat so viel zahlen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erhoete Rate in Monaten mit Sonderzahlung",
+   "acro_name": "Erhoete Rate in Monaten mit Sonderzahlung",
+   "page": 0,
+   "bbox": [
+    29.2,
+    463.6,
+    266.5,
+    490.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich zahle höhere Raten in Monaten mit Sonderzahlung\r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "jeweils Monate",
+   "acro_name": "jeweils Monate",
+   "page": 0,
+   "bbox": [
+    394.1,
+    462.7,
+    566.6,
+    489.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jeweils in den Monaten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zahlungsweise",
+   "acro_name": "Zahlungsweise",
+   "page": 0,
+   "bbox": [
+    29.9,
+    516.9,
+    320.4,
+    536.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Zahlungsweise",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "per#20SEPA#20Lastschriftmandat",
+     "label": "per Sie finden SEPA-Lastschriftmandat das Formular auf www.fsw.at/antrag.",
+     "bbox": [
+      29.9,
+      516.9,
+      47.9,
+      534.9
+     ]
+    },
+    {
+     "wert": "mit#20SEPA#20Zahlungsanweisungen",
+     "label": "mit SEPA-Zahlungsanweisungen (Zahlscheinen)",
+     "bbox": [
+      302.4,
+      518.0,
+      320.4,
+      536.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift KundIn ",
+   "acro_name": "Datum Unterschrift KundIn ",
+   "page": 0,
+   "bbox": [
+    31.6,
+    727.8,
+    172.9,
+    767.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftszeichnung Kund:in",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift",
+   "acro_name": "Unterschrift",
+   "page": 0,
+   "bbox": [
+    180.5,
+    728.5,
+    566.6,
+    767.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift des:der Kund:in oder der vertretungsbefugten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.vertreter",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name Blockbuchstaben",
+   "acro_name": "Name Blockbuchstaben",
+   "page": 0,
+   "bbox": [
+    179.4,
+    782.4,
+    566.9,
+    808.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der unterschreibenden Person in BLOCKBUCHSTABEN",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/fsw_antrag_auf_ratenzahlung/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "e9dfcc3da093ef6b",
+  "ok": true
+ }
+}

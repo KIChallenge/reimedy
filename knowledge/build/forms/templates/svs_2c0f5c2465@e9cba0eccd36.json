@@ -1,0 +1,694 @@
+{
+ "formular_id": "svs_2c0f5c2465",
+ "name": "Einladung",
+ "traeger": "SVS",
+ "sha256": "e9cba0eccd36d8b5e7679bf65757c6072f910869ea32e62300aedf1d73181c86",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.794619&version=1774955303",
+ "pages": 5,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    84.9,
+    289.9,
+    150.6,
+    302.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "VERSICHERTE",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "versicherte_person.name_voll_umgekehrt",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    151.1,
+    289.9,
+    297.4,
+    302.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "VERSICHERTE PERSON",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "versicherte_person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    297.9,
+    289.9,
+    403.8,
+    302.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "versicherte_person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    404.2,
+    289.9,
+    445.1,
+    302.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "versicherte_person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    445.5,
+    289.9,
+    538.5,
+    302.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "versicherte_person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    151.1,
+    316.0,
+    355.9,
+    328.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "versicherte_person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    356.4,
+    316.0,
+    403.8,
+    328.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "versicherte_person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    445.5,
+    316.0,
+    538.5,
+    328.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "versicherte_person.titel",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    151.1,
+    342.0,
+    355.9,
+    354.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "versicherte_person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    445.5,
+    342.0,
+    538.5,
+    354.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "versicherte_person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    85.2,
+    356.3,
+    538.4,
+    368.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "versicherte_person.name_voll_umgekehrt",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    63.1,
+    450.9,
+    74.7,
+    462.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "„Sonderklasse-Geldleistungsberechtigung“",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    63.1,
+    499.3,
+    74.7,
+    510.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "„volle Geldleistungsberechtigung“",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    85.2,
+    576.8,
+    538.4,
+    589.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "oder Geldleistungsberechtigung beibehalten.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    85.2,
+    91.1,
+    538.4,
+    103.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "4",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    56.9,
+    190.5,
+    299.9,
+    203.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "oder verspäteter Angaben erbracht wurden,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    300.4,
+    190.5,
+    538.4,
+    203.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "wurden, zurückgezahlt werden müssen.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    204.5,
+    293.8,
+    216.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "oder verspäteter Angaben erbracht wurden,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    306.6,
+    204.5,
+    532.4,
+    216.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "wurden, zurückgezahlt werden müssen.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    218.3,
+    293.8,
+    230.1
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    306.6,
+    218.3,
+    532.4,
+    230.1
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    232.1,
+    293.8,
+    243.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    306.6,
+    232.1,
+    532.4,
+    243.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    245.9,
+    293.8,
+    257.7
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    306.6,
+    245.9,
+    532.4,
+    257.7
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_024",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    56.9,
+    275.3,
+    538.4,
+    287.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verzögerungen führen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_025",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    56.9,
+    439.1,
+    538.4,
+    451.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "der Geldleistungsberechtigung erst nach sechs Monaten ab Beginn der Option.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_026",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    56.9,
+    598.3,
+    538.4,
+    610.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "und Privatpatient beim Arzt)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_027",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    57.1,
+    294.1,
+    538.7,
+    306.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "svs.at/vvt.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_028",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 10,
+  "bilder": [
+   "cache/pruefung/svs_2c0f5c2465/p1.png",
+   "cache/pruefung/svs_2c0f5c2465/p2.png",
+   "cache/pruefung/svs_2c0f5c2465/p3.png",
+   "cache/pruefung/svs_2c0f5c2465/p4.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "VERSICHERTE PERSON / Berger Sandra",
+     "problem": "Text steht in einem Feldbereich, der offenbar für die versicherte Person gedacht ist, wirkt aber nicht passend zur Feldbezeichnung bzw. überlappt den Bereich der Beschriftung",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Die Versicherungsnummer ist mehrfach in derselben Zeile eingetragen; eine der Platzierungen liegt sehr nah an bzw. über dem Feldinhalt, wirkt wie doppelt gesetzt",
+     "schwer": false
+    },
+    {
+     "feld": "Familienname / Berger",
+     "problem": "Wert ist zwar im Familiennamenbereich, aber zusätzlich erscheint derselbe Name auch in einem benachbarten Feldbereich; Layout wirkt dadurch doppelt belegt",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname / Sandra",
+     "problem": "Wert sitzt im Vornamenbereich, aber es gibt zusätzlich eine weitere blaue Einfügung unterhalb im selben Block, was auf eine falsche Zuordnung der Feldposition hindeutet",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname Geburtsdatum / Berger Sandra",
+     "problem": "Kombinierter Wert steht in einem offenbar unpassenden bzw. nicht eindeutig zugeordneten Feldbereich und gehört nicht sauber zu Vorname oder Geburtsdatum",
+     "schwer": true
+    },
+    {
+     "feld": "Geburtsdatum / 21.08.1975",
+     "problem": "Wert liegt im Geburtsdatum-Feld; keine schwerwiegende Überdeckung erkennbar",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "98bf837c0dc01fdf",
+  "ok": false
+ }
+}

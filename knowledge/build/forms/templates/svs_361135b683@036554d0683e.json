@@ -1,0 +1,190 @@
+{
+ "formular_id": "svs_361135b683",
+ "name": "Lebensbestätigung polnisch",
+ "traeger": "SVS",
+ "sha256": "036554d0683efd378b01900f13e327163691c890bc32073c3b63aa4463df398e",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.744408&version=1733380177",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    260.8,
+    97.0,
+    550.8,
+    109.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    195.1,
+    551.2,
+    207.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZAŚWIADCZENIE O ŻYCIU",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    119.5,
+    258.9,
+    359.5,
+    270.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Pani/Pan",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    459.0,
+    258.9,
+    537.6,
+    270.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "urodzona/-y dnia",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    437.6,
+    292.5,
+    540.4,
+    304.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "zamieszkała/-y………………………………...................... stan cywilny",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    391.9,
+    552.1,
+    404.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Własnoręczny podpis osoby pobierającej emeryturę",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.9,
+    599.9,
+    534.2,
+    611.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "dokumentem (dowód tożsamości ze zdjęciem, np. Paszport",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/svs_361135b683/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "f3aca7797c7e92e2",
+  "ok": true
+ }
+}

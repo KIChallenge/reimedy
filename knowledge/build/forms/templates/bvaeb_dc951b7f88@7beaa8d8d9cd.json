@@ -1,0 +1,26 @@
+{
+ "formular_id": "bvaeb_dc951b7f88",
+ "name": "Information zur Beitragserstattung für Mehrfachtätigkeit",
+ "traeger": "BVAEB",
+ "sha256": "7beaa8d8d9cdef69daefd6fc13978ba2108e353325264a804c1f736f156ee696",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.741727&version=1732615734",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

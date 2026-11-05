@@ -1,0 +1,266 @@
+{
+ "formular_id": "bvaeb_d5d8b8b408",
+ "name": "Antrag Mitversicherung von Kindern",
+ "traeger": "BVAEB",
+ "sha256": "5457dd0e4edd8772beba953636f4330ed3aa2b070be4bbc9a4f9dafef33b5893",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.741714&version=1732604971",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    63.7,
+    239.3,
+    554.3,
+    251.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer (für allfällige Rückfragen):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    83.8,
+    367.5,
+    394.8,
+    379.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn nicht, Bekanntgabe der Adresse des Kindes:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    297.6,
+    578.3,
+    459.2,
+    590.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche Ausbildung absolviert das Kind derzeit?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    235.3,
+    658.6,
+    412.8,
+    670.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "b) Wenn nicht, bei wem lebt es?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    182.4,
+    685.0,
+    412.9,
+    697.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Genaue Adresse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    353.9,
+    711.5,
+    453.8,
+    723.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Auf wessen Veranlassung lebt das Kind nicht bei Ihnen?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    313.7,
+    737.9,
+    455.2,
+    749.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "d) Wer trägt überwiegend die Kosten des Kindes?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    208.6,
+    187.0,
+    416.8,
+    199.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Mit welchen Personen?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    101.9,
+    239.8,
+    415.7,
+    251.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wer bestreitet den Unterhalt des Kindes?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_008",
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    293.6,
+    334.1,
+    432.4,
+    346.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "e) Grad der Verwandtschaft/Verschwägerung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/bvaeb_d5d8b8b408/p1.png",
+   "cache/pruefung/bvaeb_d5d8b8b408/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Telefonnummer (für allfällige Rückfragen)",
+     "problem": "Blauer Wert steht im richtigen Feld, aber der gedruckte Text im Feld wird teilweise überdeckt und ist dadurch unleserlich.",
+     "schwer": true
+    },
+    {
+     "feld": "Wenn nicht, Bekanntgabe der Adresse des Kindes",
+     "problem": "Blauer Wert steht im richtigen Feld, aber der Text liegt auf/zu nah an der gedruckten Linie und überdeckt sie teilweise.",
+     "schwer": false
+    },
+    {
+     "feld": "Genaue Adresse",
+     "problem": "Blauer Wert steht im richtigen Feld, aber der Text liegt auf/zu nah an der gedruckten Linie und überdeckt sie teilweise.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "cabbf165705a8de1",
+  "ok": false
+ }
+}

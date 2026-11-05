@@ -1,0 +1,716 @@
+{
+ "formular_id": "svs_d56de5a120",
+ "name": "GS-020029_Krankmeldung_ungarisch",
+ "traeger": "SVS",
+ "sha256": "003c0800c007df0f82827f22d27bd93f0692c3457a1cfdfb7dadc3426c3b0492",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.802839&version=1770291411",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.5,
+   842.2
+  ],
+  [
+   595.5,
+   842.2
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    144.0,
+    283.2,
+    156.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "1051 Wien",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    275.5,
+    389.6,
+    288.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Megszólítás, vezetéknév, keresztnév",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    390.1,
+    275.5,
+    538.4,
+    288.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Biztosítási szám",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    304.0,
+    389.6,
+    316.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Megszólítás, vezetéknév, keresztnév",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    390.1,
+    304.0,
+    538.4,
+    316.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Biztosítási szám",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    332.3,
+    538.4,
+    344.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Cím",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    344.8,
+    538.4,
+    357.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Cím",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    145.9,
+    464.9,
+    155.2,
+    474.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "igen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    198.6,
+    464.9,
+    207.9,
+    474.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nem",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    477.2,
+    538.4,
+    489.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ágynyugalom igen nem Kijárás órától óráig",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    581.7,
+    67.0,
+    591.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Munkahelyi baleset",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    284.6,
+    581.7,
+    293.8,
+    591.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sport- vagy háztartási baleset",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    597.7,
+    67.0,
+    606.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Közlekedési baleset",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    284.6,
+    597.7,
+    293.8,
+    606.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Korábbi baleset következménye",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    613.6,
+    67.0,
+    622.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Verekedés",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    284.6,
+    613.6,
+    293.8,
+    622.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Korábbi, nem gyógyított betegség következménye",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    626.1,
+    67.0,
+    635.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Balesetbiztosításban szereplő foglalkozási",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    284.6,
+    626.1,
+    293.8,
+    635.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Szándékosan előidézett munkaképtelenség",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    79.1,
+    151.8,
+    88.3,
+    161.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "igen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    171.1,
+    151.8,
+    180.4,
+    161.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nem",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    79.1,
+    250.0,
+    88.3,
+    259.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "meghaladja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    171.1,
+    250.0,
+    180.4,
+    259.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nem haladja meg.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    297.9,
+    510.8,
+    547.3,
+    523.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "időpontjáig nem fizethető ki!",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    542.3,
+    291.4,
+    551.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Táppénz kiegészítő biztosítás esetén",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    304.2,
+    542.3,
+    541.1,
+    552.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Támogatási szolgáltatás",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_024",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    576.8,
+    291.4,
+    586.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "számított 7 napon belül.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_025",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    304.2,
+    611.6,
+    541.1,
+    621.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "számított 7 napon belül be kell nyújtania.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_026",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    622.8,
+    291.4,
+    632.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "számított 7 napon belül be kell nyújtania.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_027",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    304.2,
+    657.7,
+    541.1,
+    667.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "támogatási ellátás kifizetésének kérelmét is jelenti.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    63.1,
+    668.9,
+    291.4,
+    678.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "támogatási ellátás kifizetésének kérelmét is jelenti.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    56.9,
+    695.8,
+    297.4,
+    708.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "A munkaképességet haladéktalanul be kell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    297.9,
+    695.8,
+    547.3,
+    708.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "jelenteni.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/svs_d56de5a120/p1.png",
+   "cache/pruefung/svs_d56de5a120/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "9777a1438bf8836e",
+  "ok": true
+ }
+}

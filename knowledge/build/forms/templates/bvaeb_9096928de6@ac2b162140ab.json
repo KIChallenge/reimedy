@@ -1,0 +1,2115 @@
+{
+ "formular_id": "bvaeb_9096928de6",
+ "name": "Antrag auf Befreiung von der Rezeptgebühr / vom Behandlungsbeitrag",
+ "traeger": "BVAEB",
+ "sha256": "ac2b162140ab6961a13dc8060e1a8f5f9e21bdfa67f3d4e55b8be86998c78d68",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729173&version=1767962508",
+ "pages": 3,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "unterorganisation",
+   "acro_name": "unterorganisation",
+   "page": 0,
+   "bbox": [
+    62.7,
+    90.5,
+    313.7,
+    103.9
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Auwahl der Organisation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Landesstelle für Wien, NÖ u. Bgld.",
+     "label": "Landesstelle für Wien, NÖ u. Bgld."
+    },
+    {
+     "wert": "Landesstelle für Steiermark",
+     "label": "Landesstelle für Steiermark"
+    },
+    {
+     "wert": "Landesstelle für Salzburg",
+     "label": "Landesstelle für Salzburg"
+    },
+    {
+     "wert": "Landesstelle für Oberösterreich",
+     "label": "Landesstelle für Oberösterreich"
+    },
+    {
+     "wert": "Landesstelle für Kärnten",
+     "label": "Landesstelle für Kärnten"
+    },
+    {
+     "wert": "Landesstelle für Tirol",
+     "label": "Landesstelle für Tirol"
+    },
+    {
+     "wert": "Landesstelle für Vorarlberg",
+     "label": "Landesstelle für Vorarlberg"
+    }
+   ],
+   "semantik": "versicherung.landesstelle",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "adresse",
+   "acro_name": "adresse",
+   "page": 0,
+   "bbox": [
+    59.0,
+    140.5,
+    309.9,
+    206.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Adresse der Organisation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_1",
+   "acro_name": "Name_1",
+   "page": 0,
+   "bbox": [
+    57.0,
+    427.0,
+    419.9,
+    452.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachmame - Antragsteller/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    420.8,
+    436.9,
+    550.5,
+    452.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Sozialversicherung",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand",
+   "acro_name": "Famstand",
+   "page": 0,
+   "bbox": [
+    56.3,
+    467.1,
+    449.2,
+    502.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Familienstand:",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "ledig",
+     "label": "ledig",
+     "bbox": [
+      56.3,
+      467.1,
+      66.7,
+      478.1
+     ],
+     "wert_semantik": "ledig"
+    },
+    {
+     "wert": "verh",
+     "label": "verheiratet",
+     "bbox": [
+      109.0,
+      467.1,
+      119.5,
+      478.1
+     ],
+     "wert_semantik": "verheiratet"
+    },
+    {
+     "wert": "verw",
+     "label": "verwitwet",
+     "bbox": [
+      188.0,
+      467.1,
+      198.4,
+      478.1
+     ],
+     "wert_semantik": "verwitwet"
+    },
+    {
+     "wert": "getrennt",
+     "label": "getrennt lebend",
+     "bbox": [
+      259.0,
+      467.1,
+      269.5,
+      478.1
+     ]
+    },
+    {
+     "wert": "gesch",
+     "label": "geschieden",
+     "bbox": [
+      355.2,
+      467.1,
+      365.6,
+      478.1
+     ],
+     "wert_semantik": "geschieden"
+    },
+    {
+     "wert": "Gemeinschaft",
+     "label": "Lebensgemeinschaft",
+     "bbox": [
+      438.7,
+      467.1,
+      449.2,
+      478.1
+     ]
+    },
+    {
+     "wert": "eingetragene#20Partnerschaft",
+     "label": "eingetragene Partnerschaft",
+     "bbox": [
+      56.3,
+      491.0,
+      66.7,
+      502.0
+     ]
+    },
+    {
+     "wert": "fruehere#20eingetragene#20Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft",
+     "bbox": [
+      259.0,
+      490.7,
+      269.5,
+      501.7
+     ]
+    }
+   ],
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse",
+   "acro_name": "Adresse",
+   "page": 0,
+   "bbox": [
+    57.0,
+    536.1,
+    332.3,
+    580.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Festnetz",
+   "acro_name": "Festnetz",
+   "page": 0,
+   "bbox": [
+    393.4,
+    545.6,
+    548.1,
+    557.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Festnetz-Nr.",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Handy",
+   "acro_name": "Handy",
+   "page": 0,
+   "bbox": [
+    384.4,
+    557.8,
+    548.1,
+    569.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Handy Nr.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Email",
+   "acro_name": "Email",
+   "page": 0,
+   "bbox": [
+    367.4,
+    569.9,
+    548.1,
+    581.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld E-Mail Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lohn",
+   "acro_name": "Lohn",
+   "page": 0,
+   "bbox": [
+    236.4,
+    645.4,
+    246.8,
+    656.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Lohn, Gehalt (auch geringfügig)",
+     "bbox": [
+      236.4,
+      645.4,
+      246.8,
+      656.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pension",
+   "acro_name": "Pension",
+   "page": 0,
+   "bbox": [
+    236.4,
+    657.2,
+    246.8,
+    668.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pension",
+     "bbox": [
+      236.4,
+      657.2,
+      246.8,
+      668.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rente",
+   "acro_name": "Rente",
+   "page": 0,
+   "bbox": [
+    236.4,
+    669.3,
+    246.8,
+    680.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Rente",
+     "bbox": [
+      236.4,
+      669.3,
+      246.8,
+      680.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Landw",
+   "acro_name": "Landw",
+   "page": 0,
+   "bbox": [
+    236.4,
+    681.1,
+    246.8,
+    692.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Land- und/oder Forstwirtschaft",
+     "bbox": [
+      236.4,
+      681.1,
+      246.8,
+      692.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gewerbebetrieb",
+   "acro_name": "Gewerbebetrieb",
+   "page": 0,
+   "bbox": [
+    236.4,
+    693.5,
+    246.8,
+    704.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Betrieb eines Gewerbes",
+     "bbox": [
+      236.4,
+      693.5,
+      246.8,
+      704.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kapitalvermoegen",
+   "acro_name": "Kapitalvermoegen",
+   "page": 0,
+   "bbox": [
+    236.4,
+    705.4,
+    246.8,
+    716.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kapitalvermögen",
+     "bbox": [
+      236.4,
+      705.4,
+      246.8,
+      716.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankengeld",
+   "acro_name": "Krankengeld",
+   "page": 0,
+   "bbox": [
+    236.4,
+    718.1,
+    246.8,
+    729.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Krankengeld",
+     "bbox": [
+      236.4,
+      718.1,
+      246.8,
+      729.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wochengeld",
+   "acro_name": "Wochengeld",
+   "page": 0,
+   "bbox": [
+    236.4,
+    729.9,
+    246.8,
+    740.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Wochengeld",
+     "bbox": [
+      236.4,
+      729.9,
+      246.8,
+      740.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterhalt",
+   "acro_name": "Unterhalt",
+   "page": 0,
+   "bbox": [
+    416.6,
+    753.9,
+    427.0,
+    764.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Partnerschaft)",
+     "bbox": [
+      416.6,
+      753.9,
+      427.0,
+      764.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstig",
+   "acro_name": "sonstig",
+   "page": 0,
+   "bbox": [
+    416.6,
+    766.0,
+    427.0,
+    777.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "(zB Vermietung, Sachbezüge, Ausgedinge)",
+     "bbox": [
+      416.6,
+      766.0,
+      427.0,
+      777.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "traeger",
+   "acro_name": "traeger",
+   "page": 0,
+   "bbox": [
+    551.1,
+    39.9,
+    591.8,
+    53.1
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "traeger",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau",
+     "label": "Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sichtbar",
+   "acro_name": "sichtbar",
+   "page": 0,
+   "bbox": [
+    551.1,
+    21.8,
+    591.8,
+    35.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "sichtbar",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sichtbar_traeger",
+   "acro_name": "sichtbar_traeger",
+   "page": 0,
+   "bbox": [
+    551.1,
+    5.8,
+    591.8,
+    20.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "für Trägerauswahlaktivierung: Optionen/Standard :1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_2",
+   "acro_name": "Namen_2",
+   "page": 1,
+   "bbox": [
+    52.5,
+    86.7,
+    195.2,
+    112.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_2",
+   "acro_name": "Gebdat_2",
+   "page": 1,
+   "bbox": [
+    197.1,
+    86.7,
+    263.1,
+    112.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_2",
+   "acro_name": "Famstand_2",
+   "page": 1,
+   "bbox": [
+    265.3,
+    86.7,
+    336.7,
+    112.0
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_2",
+   "acro_name": "verwandt_2",
+   "page": 1,
+   "bbox": [
+    338.9,
+    86.7,
+    421.9,
+    112.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_2",
+   "acro_name": "Berufsarten_2",
+   "page": 1,
+   "bbox": [
+    424.0,
+    86.7,
+    549.3,
+    112.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_3",
+   "acro_name": "Namen_3",
+   "page": 1,
+   "bbox": [
+    52.5,
+    114.1,
+    195.2,
+    141.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_3",
+   "acro_name": "Gebdat_3",
+   "page": 1,
+   "bbox": [
+    197.1,
+    114.1,
+    263.1,
+    141.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_3",
+   "acro_name": "Famstand_3",
+   "page": 1,
+   "bbox": [
+    265.3,
+    114.1,
+    336.7,
+    141.2
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_3",
+   "acro_name": "verwandt_3",
+   "page": 1,
+   "bbox": [
+    338.9,
+    114.1,
+    421.9,
+    141.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 40,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_3",
+   "acro_name": "Berufsarten_3",
+   "page": 1,
+   "bbox": [
+    424.0,
+    114.1,
+    549.3,
+    141.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_4",
+   "acro_name": "Namen_4",
+   "page": 1,
+   "bbox": [
+    52.5,
+    143.4,
+    195.2,
+    169.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_4",
+   "acro_name": "Gebdat_4",
+   "page": 1,
+   "bbox": [
+    197.1,
+    143.4,
+    263.1,
+    169.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_4",
+   "acro_name": "Famstand_4",
+   "page": 1,
+   "bbox": [
+    265.3,
+    143.4,
+    336.7,
+    169.8
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_4",
+   "acro_name": "verwandt_4",
+   "page": 1,
+   "bbox": [
+    338.9,
+    143.4,
+    421.9,
+    169.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_4",
+   "acro_name": "Berufsarten_4",
+   "page": 1,
+   "bbox": [
+    424.0,
+    143.4,
+    549.3,
+    169.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_5",
+   "acro_name": "Namen_5",
+   "page": 1,
+   "bbox": [
+    52.5,
+    171.4,
+    195.2,
+    197.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_5",
+   "acro_name": "Gebdat_5",
+   "page": 1,
+   "bbox": [
+    197.1,
+    171.4,
+    263.1,
+    197.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_5",
+   "acro_name": "Famstand_5",
+   "page": 1,
+   "bbox": [
+    265.3,
+    171.4,
+    336.7,
+    197.1
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_5",
+   "acro_name": "verwandt_5",
+   "page": 1,
+   "bbox": [
+    338.9,
+    171.4,
+    421.9,
+    197.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_5",
+   "acro_name": "Berufsarten_5",
+   "page": 1,
+   "bbox": [
+    424.0,
+    171.4,
+    549.3,
+    197.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_6",
+   "acro_name": "Namen_6",
+   "page": 1,
+   "bbox": [
+    52.5,
+    198.9,
+    195.2,
+    226.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_6",
+   "acro_name": "Gebdat_6",
+   "page": 1,
+   "bbox": [
+    197.1,
+    198.8,
+    263.1,
+    226.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_6",
+   "acro_name": "Famstand_6",
+   "page": 1,
+   "bbox": [
+    265.3,
+    198.8,
+    336.7,
+    226.3
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_6",
+   "acro_name": "verwandt_6",
+   "page": 1,
+   "bbox": [
+    338.9,
+    198.8,
+    421.9,
+    226.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_6",
+   "acro_name": "Berufsarten_6",
+   "page": 1,
+   "bbox": [
+    424.0,
+    198.8,
+    549.3,
+    226.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_7",
+   "acro_name": "Namen_7",
+   "page": 1,
+   "bbox": [
+    51.3,
+    323.7,
+    194.7,
+    351.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_8",
+   "acro_name": "Berufsarten_8",
+   "page": 1,
+   "bbox": [
+    423.7,
+    353.0,
+    549.1,
+    378.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_9",
+   "acro_name": "verwandt_9",
+   "page": 1,
+   "bbox": [
+    339.1,
+    380.9,
+    421.9,
+    408.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_9",
+   "acro_name": "Berufsarten_9",
+   "page": 1,
+   "bbox": [
+    424.3,
+    380.3,
+    549.8,
+    407.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_9",
+   "acro_name": "Famstand_9",
+   "page": 1,
+   "bbox": [
+    265.1,
+    380.3,
+    336.5,
+    407.8
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_9",
+   "acro_name": "Gebdat_9",
+   "page": 1,
+   "bbox": [
+    196.9,
+    380.3,
+    262.9,
+    407.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_9",
+   "acro_name": "Namen_9",
+   "page": 1,
+   "bbox": [
+    51.3,
+    380.3,
+    194.7,
+    407.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_8",
+   "acro_name": "verwandt_8",
+   "page": 1,
+   "bbox": [
+    339.1,
+    353.6,
+    421.9,
+    378.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_8",
+   "acro_name": "Famstand_8",
+   "page": 1,
+   "bbox": [
+    265.1,
+    353.0,
+    336.5,
+    378.1
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_8",
+   "acro_name": "Gebdat_8",
+   "page": 1,
+   "bbox": [
+    196.9,
+    353.0,
+    262.9,
+    378.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Namen_8",
+   "acro_name": "Namen_8",
+   "page": 1,
+   "bbox": [
+    51.3,
+    353.0,
+    194.7,
+    378.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat_7",
+   "acro_name": "Gebdat_7",
+   "page": 1,
+   "bbox": [
+    196.9,
+    323.7,
+    262.9,
+    351.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Geburtstdatum",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Famstand_7",
+   "acro_name": "Famstand_7",
+   "page": 1,
+   "bbox": [
+    265.1,
+    323.7,
+    336.5,
+    351.2
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Textfeld Familienstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": " ",
+     "label": " "
+    },
+    {
+     "wert": "ledig",
+     "label": "ledig"
+    },
+    {
+     "wert": "verheiratet",
+     "label": "verheiratet"
+    },
+    {
+     "wert": "verwitwet",
+     "label": "verwitwet"
+    },
+    {
+     "wert": "getrennt lebend",
+     "label": "getrennt lebend"
+    },
+    {
+     "wert": "geschieden",
+     "label": "geschieden"
+    },
+    {
+     "wert": "Lebensgemeinschaft",
+     "label": "Lebensgemeinschaft"
+    },
+    {
+     "wert": "eingetragene Partnerschaft",
+     "label": "eingetragene Partnerschaft"
+    },
+    {
+     "wert": "frühere eingetragene Partnerschaft",
+     "label": "frühere eingetragene Partnerschaft"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verwandt_7",
+   "acro_name": "verwandt_7",
+   "page": 1,
+   "bbox": [
+    339.1,
+    323.7,
+    421.9,
+    351.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Verwandschaftsverh. z. Antragst.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsarten_7",
+   "acro_name": "Berufsarten_7",
+   "page": 1,
+   "bbox": [
+    423.7,
+    323.7,
+    549.1,
+    351.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Beruf(e) / Einkommensarten ",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ich_leide",
+   "acro_name": "ich_leide",
+   "page": 1,
+   "bbox": [
+    56.9,
+    480.1,
+    328.9,
+    494.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Ich leide - mein/e anspruchsberechtigte/r Angehörige/r leidet - an folgender lang andauernder Krankheit /folgendem Gebrechen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rezept",
+   "acro_name": "Rezept",
+   "page": 1,
+   "bbox": [
+    56.3,
+    545.6,
+    66.8,
+    556.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Rezeptgebühren",
+     "bbox": [
+      56.3,
+      545.6,
+      66.8,
+      556.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KOA",
+   "acro_name": "KOA",
+   "page": 1,
+   "bbox": [
+    56.3,
+    557.7,
+    66.8,
+    568.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kostenanteilen",
+     "bbox": [
+      56.3,
+      557.7,
+      66.8,
+      568.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandlung",
+   "acro_name": "Behandlung",
+   "page": 1,
+   "bbox": [
+    56.3,
+    569.2,
+    66.8,
+    579.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Behandlungsbeiträgen",
+     "bbox": [
+      56.3,
+      569.2,
+      66.8,
+      579.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sonstig24",
+   "acro_name": "Sonstig24",
+   "page": 1,
+   "bbox": [
+    118.9,
+    580.0,
+    327.8,
+    594.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Sonstiges",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstig_23",
+   "acro_name": "sonstig_23",
+   "page": 1,
+   "bbox": [
+    56.3,
+    581.9,
+    66.8,
+    592.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sonstiges:",
+     "bbox": [
+      56.3,
+      581.9,
+      66.8,
+      592.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialhilfe",
+   "acro_name": "Sozialhilfe",
+   "page": 1,
+   "bbox": [
+    252.7,
+    719.2,
+    345.2,
+    729.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Kontrollkästchen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nein",
+     "label": "Nein",
+     "bbox": [
+      334.8,
+      719.2,
+      345.2,
+      729.6
+     ]
+    },
+    {
+     "wert": "Ja",
+     "label": "Wurde um Sozialhilfe angesucht? Ja",
+     "bbox": [
+      252.7,
+      719.2,
+      263.1,
+      729.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 2,
+   "bbox": [
+    63.2,
+    158.3,
+    113.9,
+    173.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Textfeld Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 8,
+  "bilder": [
+   "cache/pruefung/bvaeb_9096928de6/p1.png",
+   "cache/pruefung/bvaeb_9096928de6/p2.png",
+   "cache/pruefung/bvaeb_9096928de6/p3.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "1779238185e6fe93",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "1779238185e6fe93",
+  "ok": true
+ }
+}

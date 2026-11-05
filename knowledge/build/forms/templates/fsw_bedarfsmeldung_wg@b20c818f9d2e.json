@@ -1,0 +1,577 @@
+{
+ "formular_id": "fsw_bedarfsmeldung_wg",
+ "name": "FSW Bedarfsmeldung Senior:innen-WG (Basispaket)",
+ "traeger": "FSW",
+ "sha256": "b20c818f9d2e1bc96fc83df1bb87b5388964b0607bbdabe91633a545dcbb0eec",
+ "version_url": "https://www.fsw.at/p/seniorinnen-wohngemeinschaften-basispaket",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Name Partnerorganisation",
+   "acro_name": "Name Partnerorganisation",
+   "page": 0,
+   "bbox": [
+    28.4,
+    253.1,
+    333.5,
+    279.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name Partnerorganisation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassenname der Adresse WG",
+   "acro_name": "Strassenname der Adresse WG",
+   "page": 0,
+   "bbox": [
+    29.1,
+    299.5,
+    332.1,
+    326.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Strassenname der Adresse Wohngemeinschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr der Adresse WG",
+   "acro_name": "Hausnr der Adresse WG",
+   "page": 0,
+   "bbox": [
+    343.7,
+    299.5,
+    411.7,
+    326.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse Wohngemeinschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege der Adresse WG",
+   "acro_name": "Stiege der Adresse WG",
+   "page": 0,
+   "bbox": [
+    422.2,
+    299.5,
+    490.2,
+    326.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse Wohngemeinschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr der Adresse WG",
+   "acro_name": "Tuernr der Adresse WG",
+   "page": 0,
+   "bbox": [
+    499.3,
+    299.5,
+    567.3,
+    326.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer der Adresse Wohngemeinschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ der Adresse WG",
+   "acro_name": "PLZ der Adresse WG",
+   "page": 0,
+   "bbox": [
+    29.1,
+    344.5,
+    133.3,
+    370.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse Wohngemeinschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort der Adresse WG",
+   "acro_name": "Ort der Adresse WG",
+   "page": 0,
+   "bbox": [
+    144.6,
+    344.5,
+    332.4,
+    370.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse Wohngemeinschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ansprechperson",
+   "acro_name": "Ansprechperson",
+   "page": 0,
+   "bbox": [
+    344.3,
+    344.5,
+    566.6,
+    370.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der Ansprechperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Kundin",
+   "acro_name": "Familienname Kundin",
+   "page": 0,
+   "bbox": [
+    28.4,
+    445.8,
+    293.4,
+    472.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kundin",
+   "acro_name": "Vorname Kundin",
+   "page": 0,
+   "bbox": [
+    301.9,
+    445.8,
+    566.9,
+    472.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FSW Kundinnennummer  1",
+   "acro_name": "FSW Kundinnennummer  1",
+   "page": 0,
+   "bbox": [
+    28.1,
+    492.5,
+    293.4,
+    518.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "FSW-Kund:innennummer (falls vorhanden) \n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum Kundin",
+   "acro_name": "Geburtsdatum Kundin",
+   "page": 0,
+   "bbox": [
+    301.9,
+    491.8,
+    459.9,
+    518.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (Bitte geben Sie Tag, Monat und Jahr an) Beispiel 31.01.1972",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht Kundin",
+   "acro_name": "Geschlecht Kundin",
+   "page": 0,
+   "bbox": [
+    27.6,
+    537.8,
+    269.1,
+    556.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geschlecht Kund:in",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      27.6,
+      538.5,
+      45.6,
+      556.5
+     ],
+     "wert_semantik": "männlich"
+    },
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      90.4,
+      538.2,
+      108.4,
+      556.2
+     ],
+     "wert_semantik": "weiblich"
+    },
+    {
+     "wert": "divers#2Finter#2Foffen",
+     "label": "divers/inter/offen",
+     "bbox": [
+      154.6,
+      537.8,
+      172.6,
+      555.8
+     ],
+     "wert_semantik": "divers"
+    },
+    {
+     "wert": "keine#20Angabe",
+     "label": "keine Angabe",
+     "bbox": [
+      251.1,
+      537.8,
+      269.1,
+      555.8
+     ]
+    }
+   ],
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Akademischer Grad Titel Kundin",
+   "acro_name": "Akademischer Grad Titel Kundin",
+   "page": 0,
+   "bbox": [
+    333.5,
+    537.2,
+    563.0,
+    563.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Akademischer Grad/Titel Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FSW Plegegeldstufe",
+   "acro_name": "FSW Plegegeldstufe",
+   "page": 0,
+   "bbox": [
+    28.1,
+    573.7,
+    107.5,
+    600.1
+   ],
+   "typ": "zahl",
+   "label_wörtlich": "Pflegegeldstufe Kund:in\n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "pflegegeld.stufe",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kundin selbststaendig Hilfe",
+   "acro_name": "Kundin selbststaendig Hilfe",
+   "page": 0,
+   "bbox": [
+    29.2,
+    672.7,
+    88.0,
+    691.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Kund:in kann selbstaendig Hilfe holen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      29.2,
+      673.0,
+      47.2,
+      691.0
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      70.0,
+      672.7,
+      88.0,
+      690.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kundin Mobilitaet Notsituation",
+   "acro_name": "Kundin Mobilitaet Notsituation",
+   "page": 0,
+   "bbox": [
+    254.3,
+    672.7,
+    313.1,
+    691.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ausreichende Mobilitaet für Notsituation vorhanden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      254.3,
+      673.0,
+      272.3,
+      691.0
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      295.1,
+      672.7,
+      313.1,
+      690.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kundin Unterstuetzung",
+   "acro_name": "Kundin Unterstuetzung",
+   "page": 0,
+   "bbox": [
+    30.0,
+    713.6,
+    566.9,
+    807.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Der:Die Kund:in benoetigt in folgenden Bereichen Unterstuetzung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift der betroffenen Person oder einer für diese zur Vertretung befugten Person 4",
+   "acro_name": "Unterschrift der betroffenen Person oder einer für diese zur Vertretung befugten Person 4",
+   "page": 1,
+   "bbox": [
+    164.8,
+    293.6,
+    559.2,
+    315.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der unterschreibenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 7",
+   "acro_name": "Datum 7",
+   "page": 1,
+   "bbox": [
+    28.6,
+    222.7,
+    156.9,
+    245.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begruendung Einzug",
+   "acro_name": "Begruendung Einzug",
+   "page": 1,
+   "bbox": [
+    28.7,
+    56.4,
+    567.3,
+    150.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begruendung für Einzug in die Senior:innen-Wohngemeinschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/fsw_bedarfsmeldung_wg/p1.png",
+   "cache/pruefung/fsw_bedarfsmeldung_wg/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "1ba5bd1003546267",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "1ba5bd1003546267",
+  "ok": true
+ }
+}

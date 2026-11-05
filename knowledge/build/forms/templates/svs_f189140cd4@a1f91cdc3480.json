@@ -1,0 +1,296 @@
+{
+ "formular_id": "svs_f189140cd4",
+ "name": "Bestätigung der Krankenanstalt betreffend die Pflege und Betreuung des Kindes durch den Elternteil",
+ "traeger": "SVS",
+ "sha256": "a1f91cdc3480219a6c2060516ddf19e5fbd8d1ea98b763a8e74ba94ce997c35b",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.766881&version=1700654888",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Antragsteller VSNR",
+   "acro_name": "Antragsteller VSNR",
+   "page": 0,
+   "bbox": [
+    311.5,
+    140.6,
+    567.1,
+    166.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Antragsteller/in",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kind VSNR",
+   "acro_name": "Kind VSNR",
+   "page": 0,
+   "bbox": [
+    311.5,
+    234.8,
+    566.9,
+    260.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer zweiter Elternteil",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller Familienname",
+   "acro_name": "Antragsteller Familienname",
+   "page": 0,
+   "bbox": [
+    95.8,
+    166.8,
+    567.1,
+    194.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragsteller Familienname/n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller Vorname",
+   "acro_name": "Antragsteller Vorname",
+   "page": 0,
+   "bbox": [
+    95.8,
+    194.4,
+    567.1,
+    222.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragsteller Vorname/n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kind Familienname",
+   "acro_name": "Kind Familienname",
+   "page": 0,
+   "bbox": [
+    95.8,
+    260.7,
+    567.1,
+    288.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "KindFamilienname/n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kind Vorname",
+   "acro_name": "Kind Vorname",
+   "page": 0,
+   "bbox": [
+    95.8,
+    288.3,
+    567.1,
+    315.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Elternteil Vorname/n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller Krankenanstalt",
+   "acro_name": "Antragsteller Krankenanstalt",
+   "page": 0,
+   "bbox": [
+    136.1,
+    510.8,
+    515.3,
+    530.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenanstalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller Zeitraum von",
+   "acro_name": "Antragsteller Zeitraum von",
+   "page": 0,
+   "bbox": [
+    134.2,
+    528.7,
+    261.8,
+    548.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zeitraum von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller Zeitraum bis 2",
+   "acro_name": "Antragsteller Zeitraum bis 2",
+   "page": 0,
+   "bbox": [
+    321.4,
+    528.9,
+    448.4,
+    548.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zeitraum bis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort-Datum",
+   "acro_name": "Ort-Datum",
+   "page": 0,
+   "bbox": [
+    29.4,
+    714.5,
+    225.7,
+    788.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort, Datum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stempel, Unterschrift",
+   "acro_name": "Stempel, Unterschrift",
+   "page": 0,
+   "bbox": [
+    229.6,
+    723.1,
+    565.3,
+    787.3
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Stempel und Unterschrift der für die Krankenanstalt zeichnungsberechtigten\nPerson (firmenmäßige Zeichnung)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 5,
+  "bilder": [
+   "cache/pruefung/svs_f189140cd4/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Versicherungsnummer Antragsteller/in",
+     "problem": "Wert steht im passenden Feld und überdeckt keinen gedruckten Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Antragsteller Familienname/n",
+     "problem": "Wert steht im passenden Feld und bleibt im freien Ausfüllbereich.",
+     "schwer": false
+    },
+    {
+     "feld": "Antragsteller Vorname/n",
+     "problem": "Wert steht im passenden Feld und bleibt im freien Ausfüllbereich.",
+     "schwer": false
+    },
+    {
+     "feld": "KindFamilienname/n",
+     "problem": "Wert steht im passenden Feld; keine Überdeckung von Formulardruck erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Ort, Datum",
+     "problem": "Wert steht im passenden Feld und ragt nicht aus dem Feld.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "af4da93bda52c29d",
+  "ok": true
+ }
+}

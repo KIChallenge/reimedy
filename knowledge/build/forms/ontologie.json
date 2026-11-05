@@ -1,0 +1,1109 @@
+{
+ "version": "1.0",
+ "stand": "2026-11-05",
+ "hinweis": "Vertrag mit Michi (ARCHITEKTUR §8.1.1): Schlüssel werden nur additiv geändert. Beispiele sind eine fiktive Testperson (Anna Berger, Tochter Sandra als Vertreterin) für die Prüfschleife.",
+ "regeln": {
+  "michi_fuellt_nie": [
+   "unterschrift.*",
+   "arzt.*",
+   "medizinisch.*",
+   "behoerde.*",
+   "einkommen.*"
+  ],
+  "nur_person_selbst": [
+   "bank.*",
+   "einkommen.*",
+   "unterschrift.*"
+  ]
+ },
+ "schluessel": {
+  "person.anrede": {
+   "beschreibung": "Anrede der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Frau",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.titel": {
+   "beschreibung": "Akademischer Titel der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.vorname": {
+   "beschreibung": "Vorname der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Anna",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.familienname": {
+   "beschreibung": "Familienname (Nachname) der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.name_voll": {
+   "beschreibung": "Vor- und Familienname der antragstellenden/versicherten Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Anna Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.name_voll_umgekehrt": {
+   "beschreibung": "Familienname, Vorname der antragstellenden/versicherten Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger Anna",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.svnr": {
+   "beschreibung": "Versicherungsnummer der antragstellenden/versicherten Person (10 Ziffern, 4+6: laufende Nr. + Geburtsdatum TTMMJJ)",
+   "typ": "text",
+   "format": "NNNNTTMMJJ",
+   "beispiel": "1234140348",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.geburtsdatum": {
+   "beschreibung": "Geburtsdatum der antragstellenden/versicherten Person",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "14.03.1948",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.geburtsjahr": {
+   "beschreibung": "Geburtsjahr der antragstellenden/versicherten Person",
+   "typ": "zahl",
+   "format": "JJJJ",
+   "beispiel": "1948",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.geburtsort": {
+   "beschreibung": "Geburtsort der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.geburtsland": {
+   "beschreibung": "Geburtsland der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Österreich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.geburtsname": {
+   "beschreibung": "Geburtsname / früherer Name der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Huber",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.geschlecht": {
+   "beschreibung": "Geschlecht der antragstellenden/versicherten Person (weiblich|männlich|divers|offen|inter|keine Angabe)",
+   "typ": "text",
+   "format": "enum",
+   "beispiel": "weiblich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.staatsbuergerschaft": {
+   "beschreibung": "Staatsbürgerschaft der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Österreich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.familienstand": {
+   "beschreibung": "Familienstand der antragstellenden/versicherten Person (ledig|verheiratet|verwitwet|geschieden|eingetragene Partnerschaft …)",
+   "typ": "text",
+   "format": "enum",
+   "beispiel": "verwitwet",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.familienstand_seit": {
+   "beschreibung": "Familienstand seit der antragstellenden/versicherten Person",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "02.05.2019",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "person.beruf": {
+   "beschreibung": "Beruf / Tätigkeit der antragstellenden/versicherten Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Pensionistin",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.strasse": {
+   "beschreibung": "Straße (Wohnadresse der Person)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Musterstraße",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.hausnr": {
+   "beschreibung": "Hausnummer (Wohnadresse der Person)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "12",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.stiege": {
+   "beschreibung": "Stiege (Wohnadresse der Person)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "1",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.tuer": {
+   "beschreibung": "Türnummer (Wohnadresse der Person)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "4",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.hausnr_stiege_tuer": {
+   "beschreibung": "Hausnr./Stiege/Tür (Wohnadresse der Person) in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "12/1/4",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.strasse_hausnr": {
+   "beschreibung": "Straße mit Hausnr./Stiege/Tür (Wohnadresse der Person) in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Musterstraße 12/4",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.plz": {
+   "beschreibung": "Postleitzahl (Wohnadresse der Person)",
+   "typ": "text",
+   "format": "NNNN",
+   "beispiel": "1030",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.ort": {
+   "beschreibung": "Ort (Wohnadresse der Person)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.plz_ort": {
+   "beschreibung": "PLZ und Ort (Wohnadresse der Person) in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "1030 Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.land": {
+   "beschreibung": "Staat (Wohnadresse der Person)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Österreich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "adresse.voll": {
+   "beschreibung": "Komplette Anschrift (Wohnadresse der Person) in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Musterstraße 12/4, 1030 Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "kontakt.telefon": {
+   "beschreibung": "Telefonnummer der Person",
+   "typ": "text",
+   "format": "E.164 oder national",
+   "beispiel": "+43 1 2345678",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "kontakt.email": {
+   "beschreibung": "E-Mail-Adresse der Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "anna.berger@example.org",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherung.traeger": {
+   "beschreibung": "Zuständiger Krankenversicherungsträger (Kurzname, z. B. ÖGK, SVS, BVAEB)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "ÖGK",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherung.landesstelle": {
+   "beschreibung": "Landesstelle des Versicherungsträgers",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherung.art": {
+   "beschreibung": "Art der Versicherung (Pension, Erwerbstätigkeit, mitversichert …)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Pensionistin",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherung.mitversichert": {
+   "beschreibung": "Ist die Person mitversichert? (ja/nein)",
+   "typ": "checkbox",
+   "format": null,
+   "beispiel": "nein",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.anrede": {
+   "beschreibung": "Anrede der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Frau",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.titel": {
+   "beschreibung": "Akademischer Titel der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.vorname": {
+   "beschreibung": "Vorname der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Sandra",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.familienname": {
+   "beschreibung": "Familienname (Nachname) der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.name_voll": {
+   "beschreibung": "Vor- und Familienname der Versicherten, von der die Mitversicherung abgeleitet ist in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Sandra Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.name_voll_umgekehrt": {
+   "beschreibung": "Familienname, Vorname der Versicherten, von der die Mitversicherung abgeleitet ist in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger Sandra",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.svnr": {
+   "beschreibung": "Versicherungsnummer der Versicherten, von der die Mitversicherung abgeleitet ist (10 Ziffern, 4+6: laufende Nr. + Geburtsdatum TTMMJJ)",
+   "typ": "text",
+   "format": "NNNNTTMMJJ",
+   "beispiel": "5678210875",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.geburtsdatum": {
+   "beschreibung": "Geburtsdatum der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "21.08.1975",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.geburtsjahr": {
+   "beschreibung": "Geburtsjahr der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "zahl",
+   "format": "JJJJ",
+   "beispiel": "1975",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.geburtsort": {
+   "beschreibung": "Geburtsort der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.geburtsland": {
+   "beschreibung": "Geburtsland der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.geburtsname": {
+   "beschreibung": "Geburtsname / früherer Name der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.geschlecht": {
+   "beschreibung": "Geschlecht der Versicherten, von der die Mitversicherung abgeleitet ist (weiblich|männlich|divers|offen|inter|keine Angabe)",
+   "typ": "text",
+   "format": "enum",
+   "beispiel": "weiblich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.staatsbuergerschaft": {
+   "beschreibung": "Staatsbürgerschaft der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Österreich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.familienstand": {
+   "beschreibung": "Familienstand der Versicherten, von der die Mitversicherung abgeleitet ist (ledig|verheiratet|verwitwet|geschieden|eingetragene Partnerschaft …)",
+   "typ": "text",
+   "format": "enum",
+   "beispiel": "verheiratet",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.familienstand_seit": {
+   "beschreibung": "Familienstand seit der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.beruf": {
+   "beschreibung": "Beruf / Tätigkeit der Versicherten, von der die Mitversicherung abgeleitet ist",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Angestellte",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.strasse": {
+   "beschreibung": "Straße der versicherten (hauptversicherten) Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Beispielgasse",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.hausnr": {
+   "beschreibung": "Hausnummer der versicherten (hauptversicherten) Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "7",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.stiege": {
+   "beschreibung": "Stiege der versicherten (hauptversicherten) Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.tuer": {
+   "beschreibung": "Türnummer der versicherten (hauptversicherten) Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "3",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.hausnr_stiege_tuer": {
+   "beschreibung": "Hausnr./Stiege/Tür der versicherten (hauptversicherten) Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "7/3",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.strasse_hausnr": {
+   "beschreibung": "Straße mit Hausnr./Stiege/Tür der versicherten (hauptversicherten) Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Beispielgasse 7/3",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.plz": {
+   "beschreibung": "Postleitzahl der versicherten (hauptversicherten) Person",
+   "typ": "text",
+   "format": "NNNN",
+   "beispiel": "1100",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.ort": {
+   "beschreibung": "Ort der versicherten (hauptversicherten) Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.plz_ort": {
+   "beschreibung": "PLZ und Ort der versicherten (hauptversicherten) Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "1100 Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.land": {
+   "beschreibung": "Staat der versicherten (hauptversicherten) Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Österreich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "versicherte_person.adresse.voll": {
+   "beschreibung": "Komplette Anschrift der versicherten (hauptversicherten) Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Beispielgasse 7/3, 1100 Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.anrede": {
+   "beschreibung": "Anrede der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Frau",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.titel": {
+   "beschreibung": "Akademischer Titel der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.vorname": {
+   "beschreibung": "Vorname der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Sandra",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.familienname": {
+   "beschreibung": "Familienname (Nachname) der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.name_voll": {
+   "beschreibung": "Vor- und Familienname der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige) in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Sandra Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.name_voll_umgekehrt": {
+   "beschreibung": "Familienname, Vorname der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige) in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger Sandra",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.svnr": {
+   "beschreibung": "Versicherungsnummer der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige) (10 Ziffern, 4+6: laufende Nr. + Geburtsdatum TTMMJJ)",
+   "typ": "text",
+   "format": "NNNNTTMMJJ",
+   "beispiel": "5678210875",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.geburtsdatum": {
+   "beschreibung": "Geburtsdatum der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "21.08.1975",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.geburtsjahr": {
+   "beschreibung": "Geburtsjahr der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "zahl",
+   "format": "JJJJ",
+   "beispiel": "1975",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.geburtsort": {
+   "beschreibung": "Geburtsort der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.geburtsland": {
+   "beschreibung": "Geburtsland der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.geburtsname": {
+   "beschreibung": "Geburtsname / früherer Name der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.geschlecht": {
+   "beschreibung": "Geschlecht der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige) (weiblich|männlich|divers|offen|inter|keine Angabe)",
+   "typ": "text",
+   "format": "enum",
+   "beispiel": "weiblich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.staatsbuergerschaft": {
+   "beschreibung": "Staatsbürgerschaft der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Österreich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.familienstand": {
+   "beschreibung": "Familienstand der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige) (ledig|verheiratet|verwitwet|geschieden|eingetragene Partnerschaft …)",
+   "typ": "text",
+   "format": "enum",
+   "beispiel": "verheiratet",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.familienstand_seit": {
+   "beschreibung": "Familienstand seit der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.beruf": {
+   "beschreibung": "Beruf / Tätigkeit der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Angestellte",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.strasse": {
+   "beschreibung": "Straße der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Beispielgasse",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.hausnr": {
+   "beschreibung": "Hausnummer der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "7",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.stiege": {
+   "beschreibung": "Stiege der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.tuer": {
+   "beschreibung": "Türnummer der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "3",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.hausnr_stiege_tuer": {
+   "beschreibung": "Hausnr./Stiege/Tür der vertretenden Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "7/3",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.strasse_hausnr": {
+   "beschreibung": "Straße mit Hausnr./Stiege/Tür der vertretenden Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Beispielgasse 7/3",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.plz": {
+   "beschreibung": "Postleitzahl der vertretenden Person",
+   "typ": "text",
+   "format": "NNNN",
+   "beispiel": "1100",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.ort": {
+   "beschreibung": "Ort der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.plz_ort": {
+   "beschreibung": "PLZ und Ort der vertretenden Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "1100 Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.land": {
+   "beschreibung": "Staat der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Österreich",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.adresse.voll": {
+   "beschreibung": "Komplette Anschrift der vertretenden Person in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Beispielgasse 7/3, 1100 Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.rolle": {
+   "beschreibung": "Rolle der vertretenden Person (Vorsorgevollmacht|gewählte|gesetzliche|gerichtliche Erwachsenenvertretung|Angehörige)",
+   "typ": "text",
+   "format": "enum",
+   "beispiel": "Vorsorgevollmacht",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.beziehung": {
+   "beschreibung": "Verwandtschaftsverhältnis zur Person (z. B. Tochter)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Tochter",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.telefon": {
+   "beschreibung": "Telefonnummer der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "+43 660 1234567",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "vertreter.email": {
+   "beschreibung": "E-Mail der vertretenden Person",
+   "typ": "text",
+   "format": null,
+   "beispiel": "sandra.berger@example.org",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "kind.vorname": {
+   "beschreibung": "Vorname des Kindes (Familien-/Kinderformulare)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Lena",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "kind.familienname": {
+   "beschreibung": "Familienname des Kindes",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "kind.geburtsdatum": {
+   "beschreibung": "Geburtsdatum des Kindes",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "03.02.2015",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "kind.svnr": {
+   "beschreibung": "Versicherungsnummer des Kindes",
+   "typ": "text",
+   "format": "NNNNTTMMJJ",
+   "beispiel": "4321030215",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "partner.vorname": {
+   "beschreibung": "Vorname Ehe-/Lebenspartner:in",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Karl",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "partner.familienname": {
+   "beschreibung": "Familienname Ehe-/Lebenspartner:in",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Berger",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "partner.svnr": {
+   "beschreibung": "Versicherungsnummer Ehe-/Lebenspartner:in",
+   "typ": "text",
+   "format": "NNNNTTMMJJ",
+   "beispiel": "2345050545",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "partner.geburtsdatum": {
+   "beschreibung": "Geburtsdatum Ehe-/Lebenspartner:in",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "05.05.1945",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "bank.iban": {
+   "beschreibung": "IBAN (nur die Person selbst)",
+   "typ": "text",
+   "format": "IBAN",
+   "beispiel": "AT61 1904 3002 3457 3201",
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "bank.bic": {
+   "beschreibung": "BIC (nur die Person selbst)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "BKAUATWW",
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "bank.kontoinhaber": {
+   "beschreibung": "Kontoinhaber:in (nur die Person selbst)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Anna Berger",
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "bank.institut": {
+   "beschreibung": "Name des Kreditinstituts",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Musterbank",
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "pension.bezieht": {
+   "beschreibung": "Bezieht eine Pension (ja/nein)",
+   "typ": "checkbox",
+   "format": null,
+   "beispiel": "ja",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "pension.traeger": {
+   "beschreibung": "Pensionsauszahlende Stelle (z. B. PVA)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "PVA",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "pension.art": {
+   "beschreibung": "Art der Pension (Alters-, Witwen-, Invaliditätspension …)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Alterspension",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "pflegegeld.bezieht": {
+   "beschreibung": "Bezieht Pflegegeld (ja/nein)",
+   "typ": "checkbox",
+   "format": null,
+   "beispiel": "nein",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "pflegegeld.stufe": {
+   "beschreibung": "Pflegegeldstufe 1–7",
+   "typ": "zahl",
+   "format": null,
+   "beispiel": "2",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "pflegegeld.traeger": {
+   "beschreibung": "Auszahlende Stelle des Pflegegelds",
+   "typ": "text",
+   "format": null,
+   "beispiel": "PVA",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "arbeitgeber.name": {
+   "beschreibung": "Name des Dienstgebers",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Muster GmbH",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "arbeitgeber.adresse": {
+   "beschreibung": "Anschrift des Dienstgebers",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Industriestraße 1, 1220 Wien",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "arbeitgeber.telefon": {
+   "beschreibung": "Telefon des Dienstgebers",
+   "typ": "text",
+   "format": null,
+   "beispiel": "+43 1 9876543",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "arbeitgeber.beitragskontonummer": {
+   "beschreibung": "Beitragskontonummer des Dienstgebers",
+   "typ": "text",
+   "format": null,
+   "beispiel": "123456789",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "unternehmen.name": {
+   "beschreibung": "Firmenwortlaut / Betrieb (Selbständige, SVS)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Muster e.U.",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "unternehmen.gisa": {
+   "beschreibung": "GISA-Zahl / Gewerbe",
+   "typ": "text",
+   "format": null,
+   "beispiel": "12345678",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "unternehmen.uid": {
+   "beschreibung": "UID-Nummer",
+   "typ": "text",
+   "format": null,
+   "beispiel": "ATU12345678",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "aufenthalt.temporaer.voll": {
+   "beschreibung": "Vorübergehende Aufenthaltsadresse (Heim, Krankenhaus, Reha) in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Reha-Zentrum Kurpark, Kurpark 3, 2500 Baden",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "aufenthalt.temporaer.strasse": {
+   "beschreibung": "Vorübergehende Aufenthaltsadresse: Straße/Nr.",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Kurpark 3",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "aufenthalt.temporaer.plz": {
+   "beschreibung": "Vorübergehende Aufenthaltsadresse: PLZ",
+   "typ": "text",
+   "format": "NNNN",
+   "beispiel": "2500",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "aufenthalt.temporaer.ort": {
+   "beschreibung": "Vorübergehende Aufenthaltsadresse: Ort",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Baden",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "aufenthalt.temporaer.von": {
+   "beschreibung": "Vorübergehender Aufenthalt von",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "01.12.2026",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "aufenthalt.temporaer.bis": {
+   "beschreibung": "Vorübergehender Aufenthalt bis",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "21.12.2026",
+   "ampel_default": "gruen",
+   "michi_fuellt": true
+  },
+  "datum.heute": {
+   "beschreibung": "Datum der Antragstellung (heute; Person prüft am Tag der Unterschrift)",
+   "typ": "datum",
+   "format": "TT.MM.JJJJ",
+   "beispiel": "05.11.2026",
+   "ampel_default": "gelb",
+   "michi_fuellt": true
+  },
+  "ort.heute": {
+   "beschreibung": "Ort der Antragstellung (meist Wohnort)",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Wien",
+   "ampel_default": "gelb",
+   "michi_fuellt": true
+  },
+  "ort_datum.heute": {
+   "beschreibung": "Ort und Datum in einem Feld",
+   "typ": "text",
+   "format": null,
+   "beispiel": "Wien, 05.11.2026",
+   "ampel_default": "gelb",
+   "michi_fuellt": true
+  },
+  "unterschrift.person": {
+   "beschreibung": "Unterschrift der Person – füllt Michi NIE",
+   "typ": "unterschrift",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "unterschrift.vertreter": {
+   "beschreibung": "Unterschrift der vertretenden Person – füllt Michi NIE",
+   "typ": "unterschrift",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "unterschrift.sonstige": {
+   "beschreibung": "Andere Unterschrift/Stempel (Dienstgeber, Behörde) – füllt Michi NIE",
+   "typ": "unterschrift",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "einkommen.angaben": {
+   "beschreibung": "Angaben zu Einkommen/Vermögen – nur die Person selbst",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "arzt.angaben": {
+   "beschreibung": "Ärztliche Angaben (Diagnose, Befund, Verordnung, Stempel) – füllt Michi NIE",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "arzt.name": {
+   "beschreibung": "Name der Ärztin/des Arztes – füllt Michi NIE (wer=arzt)",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "medizinisch.angaben": {
+   "beschreibung": "Medizinische Angaben der Person (Leiden, Beschwerden, Medikamente, Einschränkungen) – Michi füllt nie, nur die Person bzw. Ärzt:in",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  },
+  "behoerde.vermerk": {
+   "beschreibung": "Vom Träger/Amt auszufüllen (Eingangsstempel, Aktenzahl) – nie füllen",
+   "typ": "text",
+   "format": null,
+   "beispiel": null,
+   "ampel_default": "rot",
+   "michi_fuellt": false
+  }
+ }
+}

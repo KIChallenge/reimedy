@@ -1,0 +1,2843 @@
+{
+ "formular_id": "svs_842e58e23c",
+ "name": "Anlage_B_Rollstuhlerhebungsblatt.pdf",
+ "traeger": "SVS",
+ "sha256": "332614ca9a6ca02edbfc9482f1ba8850d775555de9d219ff891b5784d399f726",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.794144&version=1749102454",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Koerpergewicht in kg",
+   "acro_name": "Koerpergewicht in kg",
+   "page": 0,
+   "bbox": [
+    161.6,
+    252.9,
+    214.1,
+    271.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Körpergewicht in kg:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Koerpergroesse in cm",
+   "acro_name": "Koerpergroesse in cm",
+   "page": 0,
+   "bbox": [
+    322.0,
+    252.9,
+    374.5,
+    271.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Körpergröße in cm:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert",
+   "acro_name": "Beinamputiert",
+   "page": 0,
+   "bbox": [
+    448.9,
+    250.0,
+    534.9,
+    287.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beinamputiert:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Privat",
+   "acro_name": "Privat",
+   "page": 0,
+   "bbox": [
+    62.1,
+    304.0,
+    72.8,
+    314.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "privat (allein)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "privat (allein)",
+     "bbox": [
+      62.1,
+      304.0,
+      72.8,
+      314.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Privat 2",
+   "acro_name": "Privat 2",
+   "page": 0,
+   "bbox": [
+    62.1,
+    320.5,
+    72.8,
+    331.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "privat (m. Betreuungsperson)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "privat (m. Betreuungsperson)",
+     "bbox": [
+      62.1,
+      320.5,
+      72.8,
+      331.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus",
+   "acro_name": "Krankenhaus",
+   "page": 0,
+   "bbox": [
+    222.5,
+    304.0,
+    233.2,
+    314.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "dzt. Krankenhaus",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "dzt. Krankenhaus",
+     "bbox": [
+      222.5,
+      304.0,
+      233.2,
+      314.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim",
+   "acro_name": "Pflegeheim",
+   "page": 0,
+   "bbox": [
+    222.5,
+    320.5,
+    233.2,
+    331.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pflegeheim oder Pflegezentrum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pflegeheim oder Pflegezentrum",
+     "bbox": [
+      222.5,
+      320.5,
+      233.2,
+      331.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim",
+   "acro_name": "Pensionistenheim",
+   "page": 0,
+   "bbox": [
+    382.8,
+    304.0,
+    393.6,
+    314.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pensionistenheim",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pensionistenheim",
+     "bbox": [
+      382.8,
+      304.0,
+      393.6,
+      314.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B",
+   "acro_name": "Pensionistenheim B",
+   "page": 0,
+   "bbox": [
+    382.8,
+    320.5,
+    393.6,
+    331.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pensionistenheim (B-Station)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pensionistenheim (B-Station)",
+     "bbox": [
+      382.8,
+      320.5,
+      393.6,
+      331.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 1",
+   "acro_name": "KF 1",
+   "page": 0,
+   "bbox": [
+    62.1,
+    363.6,
+    72.8,
+    374.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "fährt KF selbst (Antrieb mit Händen)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "fährt KF selbst (Antrieb mit Händen)",
+     "bbox": [
+      62.1,
+      363.6,
+      72.8,
+      374.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 3",
+   "acro_name": "KF 3",
+   "page": 0,
+   "bbox": [
+    303.2,
+    363.6,
+    313.9,
+    374.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "fährt KF selbst (trippelt)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "fährt KF selbst (trippelt)",
+     "bbox": [
+      303.2,
+      363.6,
+      313.9,
+      374.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 2",
+   "acro_name": "KF 2",
+   "page": 0,
+   "bbox": [
+    62.1,
+    380.0,
+    72.8,
+    390.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "fährt KF nur zum Teil selbst",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "fährt KF nur zum Teil selbst",
+     "bbox": [
+      62.1,
+      380.0,
+      72.8,
+      390.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 4",
+   "acro_name": "KF 4",
+   "page": 0,
+   "bbox": [
+    303.2,
+    380.0,
+    313.9,
+    390.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "KF wird von Betreuungsperson bedient",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "KF wird von Betreuungsperson bedient",
+     "bbox": [
+      303.2,
+      380.0,
+      313.9,
+      390.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 5",
+   "acro_name": "KF 5",
+   "page": 0,
+   "bbox": [
+    62.1,
+    423.0,
+    72.8,
+    433.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Standardrollstuhl bis 190 kg",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Standardrollstuhl bis 190 kg",
+     "bbox": [
+      62.1,
+      423.0,
+      72.8,
+      433.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 6",
+   "acro_name": "KF 6",
+   "page": 0,
+   "bbox": [
+    303.2,
+    423.0,
+    313.9,
+    433.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Elektroantrieb für mechanischen Rollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Elektroantrieb für mechanischen Rollstuhl",
+     "bbox": [
+      303.2,
+      423.0,
+      313.9,
+      433.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 7",
+   "acro_name": "KF 7",
+   "page": 0,
+   "bbox": [
+    62.1,
+    440.1,
+    72.8,
+    450.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leichtgewichtsrollstuhl bis 125 kg",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leichtgewichtsrollstuhl bis 125 kg",
+     "bbox": [
+      62.1,
+      440.1,
+      72.8,
+      450.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 8",
+   "acro_name": "KF 8",
+   "page": 0,
+   "bbox": [
+    303.2,
+    440.1,
+    313.9,
+    450.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pflegerollstuhl / Multifunktionsrollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pflegerollstuhl / Multifunktionsrollstuhl",
+     "bbox": [
+      303.2,
+      440.1,
+      313.9,
+      450.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 9",
+   "acro_name": "KF 9",
+   "page": 0,
+   "bbox": [
+    62.1,
+    456.0,
+    72.8,
+    466.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leichtgewichtsrollstuhl bis 160 kg",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leichtgewichtsrollstuhl bis 160 kg",
+     "bbox": [
+      62.1,
+      456.0,
+      72.8,
+      466.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 10",
+   "acro_name": "KF 10",
+   "page": 0,
+   "bbox": [
+    303.2,
+    456.6,
+    313.9,
+    467.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Elektrorollstuhl für den Innen- u. Außenbereich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Elektrorollstuhl für den Innen- u. Außenbereich",
+     "bbox": [
+      303.2,
+      456.6,
+      313.9,
+      467.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 11",
+   "acro_name": "KF 11",
+   "page": 0,
+   "bbox": [
+    62.1,
+    473.2,
+    72.8,
+    483.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leichtgewichts-Faltaktivrollstuhl bis 140 kg",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leichtgewichts-Faltaktivrollstuhl bis 140 kg",
+     "bbox": [
+      62.1,
+      473.2,
+      72.8,
+      483.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 12",
+   "acro_name": "KF 12",
+   "page": 0,
+   "bbox": [
+    303.2,
+    473.9,
+    313.9,
+    484.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hochkonfigurierter Elektrorollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Hochkonfigurierter Elektrorollstuhl",
+     "bbox": [
+      303.2,
+      473.9,
+      313.9,
+      484.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 13",
+   "acro_name": "KF 13",
+   "page": 0,
+   "bbox": [
+    62.1,
+    490.0,
+    72.8,
+    500.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leichtgewichts-Faltaktivrollstuhl bis 180 kg",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leichtgewichts-Faltaktivrollstuhl bis 180 kg",
+     "bbox": [
+      62.1,
+      490.0,
+      72.8,
+      500.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 14",
+   "acro_name": "KF 14",
+   "page": 0,
+   "bbox": [
+    62.1,
+    524.1,
+    72.8,
+    534.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Elektrischer Muskelkraftverstärker",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Elektrischer Muskelkraftverstärker",
+     "bbox": [
+      62.1,
+      524.1,
+      72.8,
+      534.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 16",
+   "acro_name": "KF 16",
+   "page": 0,
+   "bbox": [
+    303.2,
+    524.1,
+    313.9,
+    534.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hemiplegierollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Hemiplegierollstuhl",
+     "bbox": [
+      303.2,
+      524.1,
+      313.9,
+      534.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 17",
+   "acro_name": "KF 17",
+   "page": 0,
+   "bbox": [
+    62.1,
+    507.3,
+    72.8,
+    518.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kinderrollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kinderrollstuhl",
+     "bbox": [
+      62.1,
+      507.3,
+      72.8,
+      518.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 18",
+   "acro_name": "KF 18",
+   "page": 0,
+   "bbox": [
+    62.1,
+    541.2,
+    72.8,
+    552.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Mechanischer Muskelkraftverstärker",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Mechanischer Muskelkraftverstärker",
+     "bbox": [
+      62.1,
+      541.2,
+      72.8,
+      552.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 19",
+   "acro_name": "KF 19",
+   "page": 0,
+   "bbox": [
+    303.2,
+    507.3,
+    313.9,
+    518.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Elektrorollstuhl mit Aufrichtefunktion",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Elektrorollstuhl mit Aufrichtefunktion",
+     "bbox": [
+      303.2,
+      507.3,
+      313.9,
+      518.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 20",
+   "acro_name": "KF 20",
+   "page": 0,
+   "bbox": [
+    303.2,
+    541.2,
+    313.9,
+    552.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Duschstuhl fahrbar kleine Räder",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Duschstuhl fahrbar kleine Räder",
+     "bbox": [
+      303.2,
+      541.2,
+      313.9,
+      552.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 21",
+   "acro_name": "KF 21",
+   "page": 0,
+   "bbox": [
+    62.1,
+    558.6,
+    72.8,
+    569.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstiges:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sonstiges:",
+     "bbox": [
+      62.1,
+      558.6,
+      72.8,
+      569.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KF 22",
+   "acro_name": "KF 22",
+   "page": 0,
+   "bbox": [
+    303.2,
+    557.8,
+    313.9,
+    568.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Duschstuhl fahrbar große Räder",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Duschstuhl fahrbar große Räder",
+     "bbox": [
+      303.2,
+      557.8,
+      313.9,
+      568.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Koerpergewicht in kg 1",
+   "acro_name": "Koerpergewicht in kg 1",
+   "page": 0,
+   "bbox": [
+    131.0,
+    551.4,
+    294.8,
+    591.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstiges:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Koerpergewicht in kg 2",
+   "acro_name": "Koerpergewicht in kg 2",
+   "page": 0,
+   "bbox": [
+    114.5,
+    615.3,
+    214.1,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sitzbreite:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Koerpergroesse in cm 1",
+   "acro_name": "Koerpergroesse in cm 1",
+   "page": 0,
+   "bbox": [
+    269.3,
+    615.3,
+    374.5,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sitzhöhe:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 1",
+   "acro_name": "Beinamputiert 1",
+   "page": 0,
+   "bbox": [
+    424.6,
+    615.3,
+    534.9,
+    634.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sitztiefe:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Koerpergewicht in kg 3",
+   "acro_name": "Koerpergewicht in kg 3",
+   "page": 0,
+   "bbox": [
+    163.0,
+    640.3,
+    214.1,
+    659.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Rückenlehnenhöhe:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Koerpergroesse in cm 2",
+   "acro_name": "Koerpergroesse in cm 2",
+   "page": 0,
+   "bbox": [
+    318.9,
+    640.3,
+    374.5,
+    659.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Höhe der Armlehnen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 2",
+   "acro_name": "Beinamputiert 2",
+   "page": 0,
+   "bbox": [
+    476.5,
+    640.2,
+    534.9,
+    659.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unterschenkellänge:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Koerpergewicht in kg 4",
+   "acro_name": "Koerpergewicht in kg 4",
+   "page": 0,
+   "bbox": [
+    163.0,
+    665.3,
+    214.1,
+    684.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Außenbreite (max):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 2",
+   "acro_name": "Krankenhaus 2",
+   "page": 0,
+   "bbox": [
+    164.0,
+    716.3,
+    174.7,
+    727.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Standard",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Standard",
+     "bbox": [
+      164.0,
+      716.3,
+      174.7,
+      727.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 2",
+   "acro_name": "Pensionistenheim 2",
+   "page": 0,
+   "bbox": [
+    324.4,
+    716.3,
+    335.1,
+    727.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "lang",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "lang",
+     "bbox": [
+      324.4,
+      716.3,
+      335.1,
+      727.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 3",
+   "acro_name": "Pensionistenheim 3",
+   "page": 0,
+   "bbox": [
+    434.0,
+    716.3,
+    444.7,
+    727.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "kurz (Desk)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "kurz (Desk)",
+     "bbox": [
+      434.0,
+      716.3,
+      444.7,
+      727.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Privat 4",
+   "acro_name": "Privat 4",
+   "page": 0,
+   "bbox": [
+    62.4,
+    733.5,
+    73.2,
+    744.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "höhenverstellbar",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "höhenverstellbar",
+     "bbox": [
+      62.4,
+      733.5,
+      73.2,
+      744.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 2",
+   "acro_name": "Pflegeheim 2",
+   "page": 0,
+   "bbox": [
+    164.0,
+    733.5,
+    174.7,
+    744.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hemiauflage",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Hemiauflage",
+     "bbox": [
+      164.0,
+      733.5,
+      174.7,
+      744.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 3",
+   "acro_name": "Pflegeheim 3",
+   "page": 0,
+   "bbox": [
+    242.4,
+    733.5,
+    253.2,
+    744.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "li. oder",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "li. oder",
+     "bbox": [
+      242.4,
+      733.5,
+      253.2,
+      744.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 4",
+   "acro_name": "Pflegeheim 4",
+   "page": 0,
+   "bbox": [
+    288.0,
+    733.5,
+    298.8,
+    744.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "re.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "re.",
+     "bbox": [
+      288.0,
+      733.5,
+      298.8,
+      744.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 2",
+   "acro_name": "Pensionistenheim B 2",
+   "page": 0,
+   "bbox": [
+    324.4,
+    733.5,
+    335.1,
+    744.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kleiderschutz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kleiderschutz",
+     "bbox": [
+      324.4,
+      733.5,
+      335.1,
+      744.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 3",
+   "acro_name": "Pensionistenheim B 3",
+   "page": 0,
+   "bbox": [
+    434.0,
+    733.5,
+    444.7,
+    744.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Radspritzschutz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Radspritzschutz",
+     "bbox": [
+      434.0,
+      733.5,
+      444.7,
+      744.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 3",
+   "acro_name": "Krankenhaus 3",
+   "page": 1,
+   "bbox": [
+    164.0,
+    59.7,
+    174.7,
+    70.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "geteilt, abnehmbar und abschwenkbar",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "geteilt, abnehmbar und abschwenkbar",
+     "bbox": [
+      164.0,
+      59.7,
+      174.7,
+      70.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 5",
+   "acro_name": "Pflegeheim 5",
+   "page": 1,
+   "bbox": [
+    164.0,
+    76.8,
+    174.7,
+    87.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "hochschwenkbar",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "hochschwenkbar",
+     "bbox": [
+      164.0,
+      76.8,
+      174.7,
+      87.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 4",
+   "acro_name": "Pensionistenheim B 4",
+   "page": 1,
+   "bbox": [
+    324.4,
+    76.8,
+    335.1,
+    87.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "links",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "links",
+     "bbox": [
+      324.4,
+      76.8,
+      335.1,
+      87.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 5",
+   "acro_name": "Pensionistenheim B 5",
+   "page": 1,
+   "bbox": [
+    434.0,
+    76.8,
+    444.7,
+    87.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "rechts",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "rechts",
+     "bbox": [
+      434.0,
+      76.8,
+      444.7,
+      87.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 6",
+   "acro_name": "Pflegeheim 6",
+   "page": 1,
+   "bbox": [
+    164.0,
+    99.2,
+    174.7,
+    110.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Fußbrett",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Fußbrett",
+     "bbox": [
+      164.0,
+      99.2,
+      174.7,
+      110.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 6",
+   "acro_name": "Pensionistenheim B 6",
+   "page": 1,
+   "bbox": [
+    324.4,
+    99.2,
+    335.1,
+    110.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "geteilt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "geteilt",
+     "bbox": [
+      324.4,
+      99.2,
+      335.1,
+      110.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 7",
+   "acro_name": "Pensionistenheim B 7",
+   "page": 1,
+   "bbox": [
+    434.0,
+    99.2,
+    444.7,
+    110.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "durchgehend",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "durchgehend",
+     "bbox": [
+      434.0,
+      99.2,
+      444.7,
+      110.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 4",
+   "acro_name": "Krankenhaus 4",
+   "page": 1,
+   "bbox": [
+    164.0,
+    122.1,
+    174.7,
+    132.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Standardbremsen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Standardbremsen",
+     "bbox": [
+      164.0,
+      122.1,
+      174.7,
+      132.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 4",
+   "acro_name": "Pensionistenheim 4",
+   "page": 1,
+   "bbox": [
+    353.6,
+    122.1,
+    364.4,
+    132.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bremshebelverlängerung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Bremshebelverlängerung",
+     "bbox": [
+      353.6,
+      122.1,
+      364.4,
+      132.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 7",
+   "acro_name": "Pflegeheim 7",
+   "page": 1,
+   "bbox": [
+    164.0,
+    138.6,
+    174.7,
+    149.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einhandbremse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einhandbremse",
+     "bbox": [
+      164.0,
+      138.6,
+      174.7,
+      149.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 8",
+   "acro_name": "Pflegeheim 8",
+   "page": 1,
+   "bbox": [
+    255.3,
+    138.6,
+    266.1,
+    149.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "links od.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "links od.",
+     "bbox": [
+      255.3,
+      138.6,
+      266.1,
+      149.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 9",
+   "acro_name": "Pflegeheim 9",
+   "page": 1,
+   "bbox": [
+    303.9,
+    138.6,
+    314.7,
+    149.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "rechts",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "rechts",
+     "bbox": [
+      303.9,
+      138.6,
+      314.7,
+      149.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 8",
+   "acro_name": "Pensionistenheim B 8",
+   "page": 1,
+   "bbox": [
+    353.9,
+    138.6,
+    364.7,
+    149.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Begleitpersonenbremse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Begleitpersonenbremse",
+     "bbox": [
+      353.9,
+      138.6,
+      364.7,
+      149.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 5",
+   "acro_name": "Krankenhaus 5",
+   "page": 1,
+   "bbox": [
+    163.3,
+    161.5,
+    174.1,
+    172.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Standard",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Standard",
+     "bbox": [
+      163.3,
+      161.5,
+      174.1,
+      172.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 5",
+   "acro_name": "Pensionistenheim 5",
+   "page": 1,
+   "bbox": [
+    323.7,
+    161.5,
+    334.5,
+    172.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "fest",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "fest",
+     "bbox": [
+      323.7,
+      161.5,
+      334.5,
+      172.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 6",
+   "acro_name": "Pensionistenheim 6",
+   "page": 1,
+   "bbox": [
+    434.0,
+    161.5,
+    444.7,
+    172.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "anpassbar",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "anpassbar",
+     "bbox": [
+      434.0,
+      161.5,
+      444.7,
+      172.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 10",
+   "acro_name": "Pflegeheim 10",
+   "page": 1,
+   "bbox": [
+    164.0,
+    177.9,
+    174.7,
+    188.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Lumbalknick",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Lumbalknick",
+     "bbox": [
+      164.0,
+      177.9,
+      174.7,
+      188.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim B 9",
+   "acro_name": "Pensionistenheim B 9",
+   "page": 1,
+   "bbox": [
+    324.4,
+    177.9,
+    335.1,
+    188.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "verstellbar (Grad)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "verstellbar (Grad)",
+     "bbox": [
+      324.4,
+      177.9,
+      335.1,
+      188.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 6",
+   "acro_name": "Krankenhaus 6",
+   "page": 1,
+   "bbox": [
+    164.0,
+    201.0,
+    174.7,
+    211.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Standard",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Standard",
+     "bbox": [
+      164.0,
+      201.0,
+      174.7,
+      211.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 7",
+   "acro_name": "Pensionistenheim 7",
+   "page": 1,
+   "bbox": [
+    324.4,
+    201.0,
+    335.1,
+    211.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "fest",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "fest",
+     "bbox": [
+      324.4,
+      201.0,
+      335.1,
+      211.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 7",
+   "acro_name": "Krankenhaus 7",
+   "page": 1,
+   "bbox": [
+    198.8,
+    223.5,
+    209.5,
+    234.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "6‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "6‘‘",
+     "bbox": [
+      198.8,
+      223.5,
+      209.5,
+      234.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 8",
+   "acro_name": "Pensionistenheim 8",
+   "page": 1,
+   "bbox": [
+    324.4,
+    223.5,
+    335.1,
+    234.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "luftbereift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "luftbereift",
+     "bbox": [
+      324.4,
+      223.5,
+      335.1,
+      234.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 8",
+   "acro_name": "Krankenhaus 8",
+   "page": 1,
+   "bbox": [
+    235.4,
+    223.5,
+    246.2,
+    234.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "7‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "7‘‘",
+     "bbox": [
+      235.4,
+      223.5,
+      246.2,
+      234.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 9",
+   "acro_name": "Krankenhaus 9",
+   "page": 1,
+   "bbox": [
+    272.0,
+    223.5,
+    282.8,
+    234.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Größe: 6‘‘ 7‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Größe: 6‘‘ 7‘‘",
+     "bbox": [
+      272.0,
+      223.5,
+      282.8,
+      234.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 3",
+   "acro_name": "Beinamputiert 3",
+   "page": 1,
+   "bbox": [
+    285.4,
+    221.2,
+    316.0,
+    235.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Größe: 6‘‘ 7‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 9",
+   "acro_name": "Pensionistenheim 9",
+   "page": 1,
+   "bbox": [
+    434.0,
+    223.5,
+    444.7,
+    234.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "pannensicher",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "pannensicher",
+     "bbox": [
+      434.0,
+      223.5,
+      444.7,
+      234.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 10",
+   "acro_name": "Krankenhaus 10",
+   "page": 1,
+   "bbox": [
+    198.8,
+    245.1,
+    209.5,
+    255.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "22‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "22‘‘",
+     "bbox": [
+      198.8,
+      245.1,
+      209.5,
+      255.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 11",
+   "acro_name": "Krankenhaus 11",
+   "page": 1,
+   "bbox": [
+    235.4,
+    245.1,
+    246.2,
+    255.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "24‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "24‘‘",
+     "bbox": [
+      235.4,
+      245.1,
+      246.2,
+      255.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 12",
+   "acro_name": "Krankenhaus 12",
+   "page": 1,
+   "bbox": [
+    272.0,
+    245.1,
+    282.8,
+    255.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Größe: 22‘‘ 24‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Größe: 22‘‘ 24‘‘",
+     "bbox": [
+      272.0,
+      245.1,
+      282.8,
+      255.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 10",
+   "acro_name": "Pensionistenheim 10",
+   "page": 1,
+   "bbox": [
+    324.4,
+    245.1,
+    335.1,
+    255.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "luftbereift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "luftbereift",
+     "bbox": [
+      324.4,
+      245.1,
+      335.1,
+      255.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 11",
+   "acro_name": "Pensionistenheim 11",
+   "page": 1,
+   "bbox": [
+    434.0,
+    245.1,
+    444.7,
+    255.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "pannensicher",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "pannensicher",
+     "bbox": [
+      434.0,
+      245.1,
+      444.7,
+      255.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 12",
+   "acro_name": "Pensionistenheim 12",
+   "page": 1,
+   "bbox": [
+    324.4,
+    263.0,
+    335.1,
+    273.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Greifreifen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Greifreifen",
+     "bbox": [
+      324.4,
+      263.0,
+      335.1,
+      273.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pensionistenheim 13",
+   "acro_name": "Pensionistenheim 13",
+   "page": 1,
+   "bbox": [
+    434.0,
+    263.0,
+    444.7,
+    273.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Greifreifenüberzug",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Greifreifenüberzug",
+     "bbox": [
+      434.0,
+      263.0,
+      444.7,
+      273.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 13",
+   "acro_name": "Krankenhaus 13",
+   "page": 1,
+   "bbox": [
+    164.0,
+    262.9,
+    174.7,
+    273.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Speichenschutz (transparent)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Speichenschutz (transparent)",
+     "bbox": [
+      164.0,
+      262.9,
+      174.7,
+      273.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 14",
+   "acro_name": "Krankenhaus 14",
+   "page": 1,
+   "bbox": [
+    164.0,
+    285.3,
+    174.7,
+    296.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Therapietisch",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Therapietisch",
+     "bbox": [
+      164.0,
+      285.3,
+      174.7,
+      296.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 11",
+   "acro_name": "Pflegeheim 11",
+   "page": 1,
+   "bbox": [
+    164.0,
+    302.2,
+    174.7,
+    312.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Schaumstoffkissen 5 cm",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Schaumstoffkissen 5 cm",
+     "bbox": [
+      164.0,
+      302.2,
+      174.7,
+      312.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 15",
+   "acro_name": "Krankenhaus 15",
+   "page": 1,
+   "bbox": [
+    290.4,
+    285.3,
+    301.2,
+    296.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Inkontinenzschutz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Inkontinenzschutz",
+     "bbox": [
+      290.4,
+      285.3,
+      301.2,
+      296.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 12",
+   "acro_name": "Pflegeheim 12",
+   "page": 1,
+   "bbox": [
+    290.4,
+    302.2,
+    301.2,
+    312.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Luftwabenkissen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Luftwabenkissen",
+     "bbox": [
+      290.4,
+      302.2,
+      301.2,
+      312.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenhaus 16",
+   "acro_name": "Krankenhaus 16",
+   "page": 1,
+   "bbox": [
+    416.8,
+    285.3,
+    427.6,
+    296.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Beckengurt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Beckengurt",
+     "bbox": [
+      416.8,
+      285.3,
+      427.6,
+      296.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegeheim 13",
+   "acro_name": "Pflegeheim 13",
+   "page": 1,
+   "bbox": [
+    416.8,
+    301.5,
+    427.6,
+    312.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wabensitzkissen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Wabensitzkissen",
+     "bbox": [
+      416.8,
+      301.5,
+      427.6,
+      312.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ergänzungrn 2",
+   "acro_name": "Ergänzungrn 2",
+   "page": 1,
+   "bbox": [
+    56.9,
+    357.7,
+    538.8,
+    437.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ergänzungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ergänzungrn 3",
+   "acro_name": "Ergänzungrn 3",
+   "page": 1,
+   "bbox": [
+    56.9,
+    462.3,
+    538.8,
+    541.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Allfällige Begründungen für Ausstattungsvarianten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 4",
+   "acro_name": "Beinamputiert 4",
+   "page": 1,
+   "bbox": [
+    285.4,
+    243.7,
+    316.0,
+    257.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Größe: 22‘‘ 24‘‘",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 6",
+   "acro_name": "Beinamputiert 6",
+   "page": 1,
+   "bbox": [
+    63.2,
+    586.5,
+    294.8,
+    614.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ansprechpartner:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 7",
+   "acro_name": "Beinamputiert 7",
+   "page": 1,
+   "bbox": [
+    305.0,
+    586.5,
+    534.7,
+    614.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "telefonisch erreichbar:",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 8",
+   "acro_name": "Beinamputiert 8",
+   "page": 1,
+   "bbox": [
+    56.7,
+    732.1,
+    170.7,
+    751.1
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 9",
+   "acro_name": "Beinamputiert 9",
+   "page": 1,
+   "bbox": [
+    63.2,
+    636.7,
+    294.8,
+    664.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/svs_842e58e23c/p1.png",
+   "cache/pruefung/svs_842e58e23c/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "a74612fc09aff981",
+  "ok": true
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "formular_id": "oegv_form_1182",
+ "name": "24-Stunden-Betreuungselbststaendigunselbststaendig-FormulareMerkblattEnglisch",
+ "traeger": null,
+ "sha256": "6ed536acb9d3424940b0a72ddb393f19b93c651021add3887ff7e6ac5196dff6",
+ "version_url": "https://www.sozialministerium.gv.at/dam/jcr:4e7ecc87-d9e9-47c8-857b-744d58b0b07d/190314_Merkblatt_PersonenbetreuerInnen_EN_pdfUA.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

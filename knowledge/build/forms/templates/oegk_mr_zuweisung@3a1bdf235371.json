@@ -1,0 +1,127 @@
+{
+ "formular_id": "oegk_mr_zuweisung",
+ "name": "MR Zuweisung",
+ "traeger": "ÖGK",
+ "sha256": "3a1bdf2353710104c4cafe3c38179ce943dbeb0c09cf7b4829f0d6362bc32e1b",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734168&version=1761742542",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.2,
+   866.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "feld_id": "Signature1",
+   "acro_name": "Signature1",
+   "page": 0,
+   "bbox": [
+    0.0,
+    841.9,
+    0.0,
+    841.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Signature2",
+   "acro_name": "Signature2",
+   "page": 0,
+   "bbox": [
+    0.0,
+    841.9,
+    0.0,
+    841.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Signature3",
+   "acro_name": "Signature3",
+   "page": 0,
+   "bbox": [
+    0.0,
+    841.9,
+    0.0,
+    841.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Signature4",
+   "acro_name": "Signature4",
+   "page": 0,
+   "bbox": [
+    0.0,
+    841.9,
+    0.0,
+    841.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/oegk_mr_zuweisung/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "d5b636223f8bd4c3",
+  "ok": true
+ }
+}

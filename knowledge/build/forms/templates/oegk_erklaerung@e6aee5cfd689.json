@@ -1,0 +1,135 @@
+{
+ "formular_id": "oegk_erklaerung",
+ "name": "ERKLÄRUNG Familienname und Vorname der Patientin/des Patienten (in Blockschrift) Anschrift",
+ "traeger": "ÖGK",
+ "sha256": "e6aee5cfd689ed2abd72110bfe77c8a36611c88ff7b0321977646691b3ceabf3",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734177&version=1585216911",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   419.5
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    70.8,
+    72.4,
+    524.5,
+    84.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "ERKLÄRUNG",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    70.8,
+    108.3,
+    524.5,
+    120.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname und Vorname der Patientin/des Patienten (in Blockschrift)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    142.3,
+    141.3,
+    432.6,
+    153.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich bin bei der",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    137.3,
+    178.6,
+    307.4,
+    191.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "und habe am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/oegk_erklaerung/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Familienname und Vorname der Patientin/des Patienten",
+     "problem": "Wert steht im richtigen Feld, aber die Schreibweise ist invers zur Beschriftung (Vorname/Nachname-Reihenfolge nicht klar passend zum Label).",
+     "schwer": true
+    },
+    {
+     "feld": "Ich bin bei der",
+     "problem": "Blauer Wert ragt leicht über den Feldbereich bzw. liegt sehr nah an der rechten Feldkante; kein eindeutiger Überdruck auf Formulartext erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "und habe am",
+     "problem": "Wert steht im passenden Feld, liegt aber sehr nahe an der Feldkante; kein eindeutiger Layoutfehler.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "94043755edce54b2",
+  "ok": false
+ }
+}

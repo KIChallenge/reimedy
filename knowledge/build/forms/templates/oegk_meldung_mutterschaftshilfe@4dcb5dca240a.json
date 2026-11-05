@@ -1,0 +1,821 @@
+{
+ "formular_id": "oegk_meldung_mutterschaftshilfe",
+ "name": "Meldung Mutterschaftshilfe",
+ "traeger": "ÖGK",
+ "sha256": "4dcb5dca240a070de7b2b38220deb3836d6688b12dca267715d8a24b38765760",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734171&version=1585216906",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    14.6,
+    1.0,
+    45.7,
+    13.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    107.9,
+    1.0,
+    198.6,
+    13.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Andere Kostenträger",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    198.6,
+    1.0,
+    245.4,
+    13.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erwerbstätig",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    245.4,
+    1.0,
+    293.5,
+    13.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "1 5",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    14.6,
+    40.6,
+    45.7,
+    53.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    45.7,
+    40.6,
+    76.9,
+    53.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bitte den Namen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "page": 0,
+   "bbox": [
+    76.9,
+    40.6,
+    107.9,
+    53.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Namen des Kostentägers",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    14.9,
+    323.5,
+    114.5,
+    336.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Ausstellungsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    14.6,
+    420.2,
+    45.7,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    107.9,
+    420.2,
+    198.6,
+    432.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Krankenversicherungsträger Unterschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    198.6,
+    420.2,
+    245.4,
+    432.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Krankenversicherungsträger Unterschrift der Schwangeren",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    245.4,
+    420.2,
+    293.5,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenversicherungsträger Schwangeren",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.1,
+    420.2,
+    333.3,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenversicherungsträger",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    333.3,
+    420.2,
+    364.5,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenversicherungsträger",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    364.5,
+    420.2,
+    395.5,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenversicherungsträger",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    395.5,
+    420.2,
+    486.2,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenversicherungsträger",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    486.2,
+    420.2,
+    533.0,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankenversicherungsträger 11-ÖGK 12/45.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    533.0,
+    420.2,
+    581.1,
+    432.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "12/45. 16.01.2020",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    14.6,
+    459.9,
+    45.7,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "ÖGK",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    45.7,
+    459.9,
+    76.9,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bitte den Namen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    76.9,
+    459.9,
+    107.9,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Namen des Kostentägers",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    107.9,
+    459.9,
+    198.6,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Andere Kostenträger",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    245.4,
+    459.9,
+    293.5,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.1,
+    459.9,
+    333.3,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    333.3,
+    459.9,
+    364.5,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    364.5,
+    459.9,
+    395.5,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_025",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    395.5,
+    459.9,
+    486.2,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_026",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    533.0,
+    459.9,
+    581.1,
+    472.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_027",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    245.4,
+    468.4,
+    293.5,
+    480.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bitte den Namen des Kostentägers einsetzen! Bitte zutreffendes Feld",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_028",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.1,
+    468.4,
+    333.3,
+    480.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bitte den Namen des Kostentägers einsetzen! Bitte zutreffendes Feld bezeichnen!",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_029",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    533.0,
+    468.4,
+    581.1,
+    480.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bitte den Namen des Kostentägers einsetzen! Bitte zutreffendes Feld",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_030",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    14.6,
+    511.1,
+    293.5,
+    523.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_031",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.1,
+    511.1,
+    581.1,
+    523.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_032",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    193.5,
+    539.8,
+    293.1,
+    552.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Frau",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_033",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    481.1,
+    539.8,
+    580.7,
+    552.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Frau",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_034",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    415.5,
+    804.9,
+    566.9,
+    817.4
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift der Schwangeren",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_035",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/oegk_meldung_mutterschaftshilfe/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "ÖGK",
+     "problem": "Blauer Wert steht im Kasten oben links, das Feld ist offenbar für den Kostenträger-Block vorgesehen; Zuordnung wirkt jedoch nicht eindeutig problematisch.",
+     "schwer": false
+    },
+    {
+     "feld": "Andere Kostenträger",
+     "problem": "Blauer Wert steht im Feld für den anderen Kostenträger; offenbar statt eines freien Eintrags nur die Abkürzung ÖGK eingesetzt, was im Layout unplausibel wirkt.",
+     "schwer": false
+    },
+    {
+     "feld": "Namen des Kostentägers",
+     "problem": "Blauer Wert steht im Namen-des-Kostenträgers-Feld, aber als wiederholtes ÖGK an einer Stelle, die wie ein Etikett-/Blockfeld wirkt; mögliche Fehlzuordnung innerhalb des Kostenträgerblocks.",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Der blaue Wert steht im Versicherungsnummer-Feld der linken unteren Hälfte; das Feld wirkt für die antragstellende Person passend, kein Layoutfehler erkennbar.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "9c331cc892f3abe4",
+  "ok": true
+ }
+}

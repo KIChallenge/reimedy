@@ -1,0 +1,30 @@
+{
+ "formular_id": "oegv_form_1183",
+ "name": "24-Stunden-Betreuungselbststaendigunselbststaendig-FormulareMerkblattKroatisch",
+ "traeger": null,
+ "sha256": "cd5a5389d7af9a7fc7000ffe632498e047522431b0a0a5db53dcfb0a9c55981a",
+ "version_url": "https://www.sozialministerium.gv.at/dam/jcr:4920d79c-ba5b-4aca-a628-49bae4f4c630/200422_Merkblatt_PersonenbetreuerInnen_(HR)_pdfUA.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

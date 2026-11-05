@@ -1,0 +1,218 @@
+{
+ "formular_id": "svs_27deb3a04c",
+ "name": "Lebensbestätigung italienisch",
+ "traeger": "SVS",
+ "sha256": "d1196a02e0ca7f52a9d375ab356d6f84e5b827f75278f914c078673bc3d208e5",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.792062&version=1733380283",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    253.7,
+    96.9,
+    550.8,
+    109.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    195.0,
+    551.2,
+    207.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "MODULO DI CERTIFICAZIONE DI ESISTENZA IN VITA",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    161.0,
+    256.7,
+    357.7,
+    268.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Nome e cognome",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": "pension.bezieht",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    450.4,
+    256.7,
+    543.7,
+    268.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Data di nascita",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f02_003",
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    133.1,
+    290.3,
+    355.7,
+    302.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Residente in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_004",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    430.4,
+    290.3,
+    544.4,
+    302.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stato civile",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    376.0,
+    552.1,
+    388.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Firma personale del titolare della pensione",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.9,
+    588.1,
+    538.3,
+    600.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "con un documento (documento d'identità con foto; ad es. passaporto)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 5,
+  "bilder": [
+   "cache/pruefung/svs_27deb3a04c/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Nome e cognome",
+     "problem": "Wert steht im falschen Feld; eingetragen ist nur 'ja' statt des Namensfelds der Person.",
+     "schwer": true
+    },
+    {
+     "feld": "Ver­sicherungsnummer",
+     "problem": "Wert liegt im richtigen Feld, aber knapp am unteren Rand; kein schwerer Fehler erkennbar.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "23c1ac04c37ac898",
+  "ok": false
+ }
+}

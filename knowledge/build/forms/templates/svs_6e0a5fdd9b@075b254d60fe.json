@@ -1,0 +1,217 @@
+{
+ "formular_id": "svs_6e0a5fdd9b",
+ "name": "Lebensbestätigung französisch",
+ "traeger": "SVS",
+ "sha256": "075b254d60fe642555d7f1492257f64c9d472a91877c9f20057d63b4cfa6e969",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.744406&version=1733380153",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    267.8,
+    97.0,
+    545.4,
+    109.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    195.1,
+    544.9,
+    207.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "CERTIFICAT DE VIE",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    172.3,
+    254.8,
+    311.0,
+    266.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Madame / Monsieur",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    415.2,
+    254.8,
+    535.1,
+    266.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "né(e) le",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    137.6,
+    296.2,
+    315.6,
+    308.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "domicilié(e) à",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    463.2,
+    296.2,
+    533.0,
+    308.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "situation familiale",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    381.9,
+    544.9,
+    394.4
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Signature personnelle de la personne bénéficiaire de la pension",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.9,
+    590.0,
+    532.3,
+    602.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "des documents (pièce d’identité avec photo ; par ex. Passeport)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/svs_6e0a5fdd9b/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Name",
+     "problem": "Blauer Wert steht im Feld, aber der Text ist sehr nah an der unteren Rahmenlinie",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "4a6ae9ab57718d8a",
+  "ok": true
+ }
+}

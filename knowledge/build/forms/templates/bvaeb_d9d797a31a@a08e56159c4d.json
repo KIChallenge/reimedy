@@ -1,0 +1,691 @@
+{
+ "formular_id": "bvaeb_d9d797a31a",
+ "name": "Beiblatt zum Dienstleistungsscheck",
+ "traeger": "BVAEB",
+ "sha256": "a08e56159c4dede04921c86786c781a95edb17378bfd2599353c38b8144963fc",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.712448&version=1762150937",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.6,
+   843.0
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    30.4,
+    172.6,
+    222.4,
+    189.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitgeber:in: Familienname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arbeitgeber.name",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    241.9,
+    172.6,
+    414.5,
+    189.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialversicherungsnummer",
+   "acro_name": "Sozialversicherungsnummer",
+   "page": 0,
+   "bbox": [
+    427.8,
+    173.7,
+    571.9,
+    190.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sozialversicherungsnummer",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Titel",
+   "acro_name": "Titel",
+   "page": 0,
+   "bbox": [
+    30.2,
+    214.5,
+    107.8,
+    231.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ",
+   "acro_name": "PLZ",
+   "page": 0,
+   "bbox": [
+    30.0,
+    252.6,
+    82.4,
+    269.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort",
+   "acro_name": "Ort",
+   "page": 0,
+   "bbox": [
+    95.3,
+    252.6,
+    209.5,
+    269.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wohnort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht",
+   "acro_name": "Geschlecht",
+   "page": 0,
+   "bbox": [
+    134.0,
+    213.3,
+    252.4,
+    230.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geschlecht",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift",
+   "acro_name": "Anschrift",
+   "page": 0,
+   "bbox": [
+    224.0,
+    252.6,
+    577.2,
+    269.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straße, Hausnummer, Stiege, Stock, Türnummer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon",
+   "acro_name": "Telefon",
+   "page": 0,
+   "bbox": [
+    30.4,
+    293.4,
+    158.3,
+    310.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EMail",
+   "acro_name": "EMail",
+   "page": 0,
+   "bbox": [
+    179.4,
+    293.1,
+    458.9,
+    310.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bestätigung Verwandtschaft/Haushalt",
+   "acro_name": "Bestätigung Verwandtschaft/Haushalt",
+   "page": 0,
+   "bbox": [
+    23.4,
+    364.8,
+    35.8,
+    377.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hiermit bestätige ich, dass ich mit dem bzw. der unten angeführten Arbeitnehmer:in nicht in einem der aufgezählten Verwandtschaftsverhältnisse stehe oder in einem gemeinsamen Haushalt lebe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Hiermit bestätige ich, dass ich mit dem bzw. der unten angeführten",
+     "bbox": [
+      23.4,
+      364.8,
+      35.8,
+      377.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 0,
+   "bbox": [
+    218.9,
+    407.8,
+    343.3,
+    424.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname_2",
+   "acro_name": "Familienname_2",
+   "page": 0,
+   "bbox": [
+    30.4,
+    483.8,
+    222.4,
+    500.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitnehmer:in: Familienname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname_2",
+   "acro_name": "Vorname_2",
+   "page": 0,
+   "bbox": [
+    241.9,
+    483.8,
+    414.5,
+    500.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialversicherungsnummer_2",
+   "acro_name": "Sozialversicherungsnummer_2",
+   "page": 0,
+   "bbox": [
+    427.8,
+    485.0,
+    571.9,
+    502.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sozialversicherungsnummer",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat bei Wohnsitz im Ausland",
+   "acro_name": "Staat bei Wohnsitz im Ausland",
+   "page": 0,
+   "bbox": [
+    424.4,
+    523.1,
+    577.1,
+    540.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Staat, bei Wohnsitz im Ausland",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsangehörigkeit",
+   "acro_name": "Staatsangehörigkeit",
+   "page": 0,
+   "bbox": [
+    259.4,
+    524.1,
+    410.9,
+    541.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Staatsangehörigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.staatsbuergerschaft",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht_2",
+   "acro_name": "Geschlecht_2",
+   "page": 0,
+   "bbox": [
+    118.4,
+    525.5,
+    240.4,
+    542.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geschlecht",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Titel_2",
+   "acro_name": "Titel_2",
+   "page": 0,
+   "bbox": [
+    30.2,
+    524.9,
+    99.4,
+    541.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ_2",
+   "acro_name": "PLZ_2",
+   "page": 0,
+   "bbox": [
+    30.0,
+    564.3,
+    82.4,
+    581.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort_2",
+   "acro_name": "Ort_2",
+   "page": 0,
+   "bbox": [
+    95.3,
+    564.3,
+    209.5,
+    581.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wohnort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift_2",
+   "acro_name": "Anschrift_2",
+   "page": 0,
+   "bbox": [
+    224.0,
+    564.3,
+    577.2,
+    581.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straße, Hausnummer, Stiege, Stock, Türnummer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_2",
+   "acro_name": "Telefon_2",
+   "page": 0,
+   "bbox": [
+    30.4,
+    604.4,
+    158.3,
+    621.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EMail_2",
+   "acro_name": "EMail_2",
+   "page": 0,
+   "bbox": [
+    179.4,
+    603.6,
+    454.1,
+    620.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN",
+   "acro_name": "IBAN",
+   "page": 0,
+   "bbox": [
+    30.4,
+    644.8,
+    320.9,
+    661.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bankverbindung (IBAN)",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BIC",
+   "acro_name": "BIC",
+   "page": 0,
+   "bbox": [
+    344.3,
+    644.9,
+    576.4,
+    661.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "BIC (nur bei ausländischer Bankverbindung)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.bic",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_2",
+   "acro_name": "Datum_2",
+   "page": 0,
+   "bbox": [
+    218.9,
+    694.0,
+    343.3,
+    711.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zusendung Antrag Selbstversicherung",
+   "acro_name": "Zusendung Antrag Selbstversicherung",
+   "page": 0,
+   "bbox": [
+    23.6,
+    733.0,
+    35.5,
+    744.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich möchte in die Kranken-und Pensionsversicherung einbezogen werden und ersuche um Übermittlung eines Antrages auf Selbstversicherung gemäß § 19a ASVG",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ich möchte in die Kranken- und Pensionsversicherung",
+     "bbox": [
+      23.6,
+      733.0,
+      35.5,
+      744.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 21,
+  "bilder": [
+   "cache/pruefung/bvaeb_d9d797a31a/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Berger",
+     "problem": "Familienname der Arbeitnehmer:in im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "1234140348",
+     "problem": "Sozialversicherungsnummer im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "1030",
+     "problem": "PLZ im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "Wien",
+     "problem": "Wohnort im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "Musterstraße 12/4",
+     "problem": "Adresse im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "+43 1 2345678",
+     "problem": "Telefonnummer im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "anna.berger@example.org",
+     "problem": "E-Mail-Adresse im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "05.11.2026",
+     "problem": "Datum im Feld für Arbeitgeber:in eingetragen",
+     "schwer": true
+    },
+    {
+     "feld": "Österreich",
+     "problem": "Staatsangehörigkeit im Feld für Arbeitgeber:in nicht vorhanden; dort wurde ein anderer Wert in diesem Bereich platziert",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "3d770b12810e63fc",
+  "ok": false
+ }
+}

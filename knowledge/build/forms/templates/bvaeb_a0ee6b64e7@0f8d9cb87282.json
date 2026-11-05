@@ -1,0 +1,333 @@
+{
+ "formular_id": "bvaeb_a0ee6b64e7",
+ "name": "Pensionskontoerklärung - EWR / Schweiz / Beamte",
+ "traeger": "BVAEB",
+ "sha256": "0f8d9cb872822f6490b35f7a337779e496a37ce9e07023df54354b4841b44b81",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.727931&version=1762259125",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Name d Anspruchsberechtigten",
+   "acro_name": "Name d Anspruchsberechtigten",
+   "page": 0,
+   "bbox": [
+    210.2,
+    165.6,
+    522.4,
+    183.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name d. Anspruchsberechtigten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "undefined",
+   "acro_name": "undefined",
+   "page": 0,
+   "bbox": [
+    228.6,
+    184.6,
+    522.4,
+    202.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "undefined",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift 1",
+   "acro_name": "Anschrift 1",
+   "page": 0,
+   "bbox": [
+    114.2,
+    204.1,
+    524.2,
+    221.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift [1]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift 2",
+   "acro_name": "Anschrift 2",
+   "page": 0,
+   "bbox": [
+    114.8,
+    222.5,
+    524.9,
+    240.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift [2]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "undefined_2",
+   "acro_name": "undefined_2",
+   "page": 0,
+   "bbox": [
+    232.9,
+    241.4,
+    520.6,
+    259.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "undefined",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "bei KreditinstitutBank",
+   "acro_name": "bei KreditinstitutBank",
+   "page": 0,
+   "bbox": [
+    185.0,
+    260.4,
+    521.8,
+    278.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "bei (Kreditinstitut/Bank",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.institut",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "lautend auf 1",
+   "acro_name": "lautend auf 1",
+   "page": 0,
+   "bbox": [
+    125.9,
+    280.0,
+    523.6,
+    297.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "lautend auf [1]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "lautend auf 2",
+   "acro_name": "lautend auf 2",
+   "page": 0,
+   "bbox": [
+    65.2,
+    298.9,
+    519.0,
+    315.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "lautend auf [2]",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort",
+   "acro_name": "Ort",
+   "page": 0,
+   "bbox": [
+    65.2,
+    548.0,
+    150.8,
+    566.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 0,
+   "bbox": [
+    163.2,
+    548.0,
+    242.6,
+    566.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift derdes Anspruchsberechtigten",
+   "acro_name": "Unterschrift derdes Anspruchsberechtigten",
+   "page": 0,
+   "bbox": [
+    291.6,
+    548.0,
+    524.2,
+    566.3
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift der/des Anspruchsberechtigten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort_2",
+   "acro_name": "Ort_2",
+   "page": 0,
+   "bbox": [
+    65.2,
+    718.8,
+    150.8,
+    737.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_2",
+   "acro_name": "Datum_2",
+   "page": 0,
+   "bbox": [
+    163.2,
+    718.8,
+    242.6,
+    737.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stampiglie und Unterschrift",
+   "acro_name": "Stampiglie und Unterschrift",
+   "page": 0,
+   "bbox": [
+    291.5,
+    718.8,
+    523.9,
+    737.0
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Stampiglie und Unterschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/bvaeb_a0ee6b64e7/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "41be8e312baa89a9",
+  "ok": true
+ }
+}

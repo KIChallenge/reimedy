@@ -1,0 +1,144 @@
+{
+ "formular_id": "oegk_bestaetigung_ueber_voraussichtlichen_entbindungstermin",
+ "name": "Bestätigung über voraussichtlichen Entbindungstermin",
+ "traeger": "ÖGK",
+ "sha256": "b92a960a63ad81d1e991813ad0f5335ddf8be43b4e0c9f577eb1d56a0e76a952",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734175&version=1585216909",
+ "pages": 1,
+ "page_sizes": [
+  [
+   419.5,
+   297.6
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    118.1,
+    22.4,
+    391.9,
+    34.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Frau, Herrn, Firma",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    280.1,
+    85.5,
+    390.4,
+    102.3
+   ],
+   "typ": "text",
+   "label_wörtlich": ", Vers.-Nr.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    52.2,
+    89.4,
+    228.0,
+    101.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Frau",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    87.4,
+    108.2,
+    391.9,
+    120.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "wohnhaft in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    120.5,
+    127.1,
+    258.9,
+    139.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "voraussichtlich am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/oegk_bestaetigung_ueber_voraussichtlichen_entbindungstermin/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "b1a44c3690cf071c",
+  "ok": true
+ }
+}

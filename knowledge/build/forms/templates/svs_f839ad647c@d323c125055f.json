@@ -1,0 +1,1210 @@
+{
+ "formular_id": "svs_f839ad647c",
+ "name": "PDF (0.2MB) – Formulare & Anträge",
+ "traeger": "SVS",
+ "sha256": "d323c125055f3d752f6338bba01f5f8b98c6358bd77a9255cd36f1045b97ecd4",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.728126&version=1663737363",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    55.3,
+    212.0,
+    560.6,
+    224.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "nach dem Bauern-Sozialversicherungsgesetz (BSVG)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    55.3,
+    249.7,
+    560.6,
+    262.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Höherversicherung sowie die Meldebestimmungen nach dem BSVG genau durchzulesen und die darin enthaltenen Hinweise",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    435.2,
+    260.4,
+    561.4,
+    272.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "und die darin enthaltenen Hinweise",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    257.2,
+    275.0,
+    362.0,
+    287.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Daten des Antragstellers",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    363.5,
+    275.0,
+    433.8,
+    287.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragstellers",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    315.7,
+    255.7,
+    328.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname, Titel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    256.4,
+    315.7,
+    362.0,
+    328.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    362.8,
+    315.7,
+    433.8,
+    328.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hauptwohnsitz anzugeben)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    344.8,
+    124.2,
+    357.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wohnanschrift (Straße/Gasse/Platz/Nr.,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    124.7,
+    344.8,
+    330.8,
+    357.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "(Straße/Gasse/Platz/Nr., bei mehreren Wohnsitzen ist der Hauptwohnsitz",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    331.3,
+    344.8,
+    457.6,
+    357.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hauptwohnsitz anzugeben)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    458.0,
+    344.8,
+    561.4,
+    357.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    373.8,
+    124.2,
+    386.3
+   ],
+   "typ": "text",
+   "label_wörtlich": " c |MX gS^r 2 /[TsoK:&+ Ec a @gcilVd+ FV",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    125.6,
+    373.8,
+    330.8,
+    386.3
+   ],
+   "typ": "text",
+   "label_wörtlich": " c |MX gS^r 2 /[TsoK:&+ Ec a @gcilVd+ FV",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    332.3,
+    373.8,
+    561.4,
+    386.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail Adresse",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    222.4,
+    396.4,
+    560.8,
+    408.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Angaben zur",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    225.8,
+    414.5,
+    232.8,
+    421.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "als selbständiger Betriebsführer am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    225.8,
+    433.2,
+    232.8,
+    440.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "als beitragspflichtiger Angehöriger am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    342.4,
+    436.6,
+    560.8,
+    449.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "als beitragspflichtiger",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    268.3,
+    451.7,
+    275.3,
+    458.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Übergabe",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    346.2,
+    451.7,
+    353.2,
+    458.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Verpachtung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    55.3,
+    456.8,
+    220.9,
+    469.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "beendet?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.0,
+    456.8,
+    341.6,
+    469.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "durch Verkauf",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    268.3,
+    460.9,
+    275.3,
+    467.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Verkauf",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    346.2,
+    460.9,
+    353.2,
+    467.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstiger Grund:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    306.2,
+    477.1,
+    560.8,
+    489.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wurde bereits ein Antrag auf",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_025",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    225.8,
+    495.1,
+    232.8,
+    502.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_026",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    264.8,
+    495.1,
+    271.8,
+    502.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_027",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    306.2,
+    498.6,
+    560.8,
+    511.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "nein ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_028",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    221.6,
+    517.3,
+    306.2,
+    529.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "kranken- oder pensionsversichert?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_029",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.0,
+    517.3,
+    560.8,
+    529.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "kranken- oder pensionsversichert?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_030",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    306.2,
+    536.0,
+    560.8,
+    548.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beziehen oder bezogen Sie eine",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_031",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    225.8,
+    550.1,
+    232.8,
+    557.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_032",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    261.2,
+    550.1,
+    268.2,
+    557.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_033",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    221.6,
+    559.5,
+    306.2,
+    572.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherung?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_034",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.0,
+    559.5,
+    560.8,
+    572.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherung?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_035",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    225.8,
+    576.6,
+    232.8,
+    583.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_036",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    261.2,
+    576.6,
+    268.2,
+    583.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_037",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    221.6,
+    583.9,
+    306.2,
+    596.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Mindestsicherung gestellt?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_038",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.0,
+    583.9,
+    560.8,
+    596.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Mindestsicherung gestellt?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_039",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    306.2,
+    604.9,
+    560.8,
+    617.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Haben Sie einen Pensionsantrag",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_040",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    225.8,
+    619.0,
+    232.8,
+    625.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_041",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    261.2,
+    619.0,
+    268.2,
+    625.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_042",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    221.6,
+    628.4,
+    306.2,
+    640.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "oder noch nicht erledigt ist?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_043",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.0,
+    628.4,
+    560.8,
+    640.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "oder noch nicht erledigt ist?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_044",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    225.8,
+    646.4,
+    232.8,
+    653.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_045",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    261.2,
+    646.4,
+    268.2,
+    653.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_046",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    221.6,
+    653.8,
+    306.2,
+    666.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Präsenzdienst (Zivildienst) geleistet?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_047",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    307.0,
+    653.8,
+    348.8,
+    666.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Präsenzdienst (Zivildienst) geleistet?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_048",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    349.6,
+    653.8,
+    560.8,
+    666.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Präsenzdienst (Zivildienst) geleistet?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_049",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    222.4,
+    688.4,
+    348.8,
+    700.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "(gilt nur für die Pensionsversicherung)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_050",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    136.1,
+    84.0,
+    144.1,
+    92.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "in der Krankenversicherung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_051",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    136.1,
+    102.7,
+    144.1,
+    110.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "in der Pensionsversicherung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_052",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    59.0,
+    346.6,
+    67.1,
+    354.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hiermit untersage ich die Datenübermittlung an die Finanzverwaltung.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_053",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 10,
+  "bilder": [
+   "cache/pruefung/svs_f839ad647c/p1.png",
+   "cache/pruefung/svs_f839ad647c/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Vorname",
+     "problem": "Blauer Wert steht nicht im passenden Vorname-Feld bzw. ist versetzt im Adressbereich platziert.",
+     "schwer": true
+    },
+    {
+     "feld": "Antragstellers",
+     "problem": "Nachname ist im Kopfbereich des Datenblocks platziert; Label/Feldzuordnung wirkt nicht sauber.",
+     "schwer": false
+    },
+    {
+     "feld": "Wohnanschrift (Straße/Gasse/Platz/Nr., bei mehreren Wohnsitzen ist der Hau...",
+     "problem": "Wohnanschrift-Wert erscheint mehrfach/versetzt in mehreren Zeilen und liegt nicht klar nur im zugehörigen Feld.",
+     "schwer": false
+    },
+    {
+     "feld": "Telefonnummer",
+     "problem": "Telefonnummer steht im rechten Kontaktdatenfeld etwas außerhalb/versetzt zur Beschriftung, Zuordnung aber noch erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "1030 Wien",
+     "problem": "PLZ/Ort-Wert liegt im unteren linken Adressfeld; keine klare Feldverletzung erkennbar, aber Platzierung wirkt verschoben.",
+     "schwer": false
+    },
+    {
+     "feld": "anna.berger@example.org",
+     "problem": "E-Mail-Wert ist zusätzlich im unteren Adressblock platziert und nicht nur im E-Mail-Feld; Zuordnung wirkt uneindeutig.",
+     "schwer": false
+    },
+    {
+     "feld": "E-Mail Adresse",
+     "problem": "E-Mail-Wert liegt zwar im Feld, aber die zusätzliche Platzierung im Adressbereich spricht für eine falsche Feldzuordnung.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "d496d1ce64ee71ff",
+  "ok": false
+ }
+}

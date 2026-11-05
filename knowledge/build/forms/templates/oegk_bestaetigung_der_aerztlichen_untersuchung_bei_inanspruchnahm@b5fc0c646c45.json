@@ -1,0 +1,256 @@
+{
+ "formular_id": "oegk_bestaetigung_der_aerztlichen_untersuchung_bei_inanspruchnahm",
+ "name": "Bestätigung der ärztlichen Untersuchung bei Inanspruchnahme einer klinisch-psychologischen Behandlung oder Psychotherapie",
+ "traeger": "ÖGK",
+ "sha256": "b5fc0c646c450065fa85243c29594d3b0d54037ff004ab19e240ce788bf23a99",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.787151&version=1782729710",
+ "pages": 1,
+ "page_sizes": [
+  [
+   623.6,
+   447.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    228.2,
+    49.2,
+    590.2,
+    61.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitslose bliebene",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    196.7,
+    142.6,
+    236.4,
+    155.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    425.6,
+    151.8,
+    525.6,
+    163.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Tag Monat Jahr Der Patient wurde am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.3,
+    173.9,
+    307.5,
+    186.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Weise.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    210.8,
+    307.5,
+    223.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    196.7,
+    227.7,
+    236.4,
+    240.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Männer Versicherter (nur auszufüllen, wenn Patient Angehöriger ist)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    259.0,
+    307.5,
+    271.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Frauen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    32.6,
+    288.1,
+    307.5,
+    300.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "sich",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    338.5,
+    375.1,
+    443.3,
+    387.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "[Sitzung] innerhalb desselben Abrechnungszeitraumes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    461.8,
+    375.1,
+    566.6,
+    387.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Abrechnungszeitraumes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/oegk_bestaetigung_der_aerztlichen_untersuchung_bei_inanspruchnahm/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Wert steht im richtigen Feld, aber wirkt knapp und leicht innerhalb des Formulartextbereichs; kein schwerer Fehler",
+     "schwer": false
+    },
+    {
+     "feld": "Tag Monat Jahr Der Patient wurde am → 14.03.1948",
+     "problem": "blauer Text liegt im richtigen Datumsfeld, überdeckt aber den gedruckten Satzteil leicht nicht lesbar; echter Fehler",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "acb8136071628dc0",
+  "ok": false
+ }
+}

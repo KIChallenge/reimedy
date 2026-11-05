@@ -1,0 +1,874 @@
+{
+ "formular_id": "fsw_antrag_auf_aenderung_bzw_verlaengerung_der_foerderung",
+ "name": "Antrag auf Änderung bzw. Verlängerung der Förderung",
+ "traeger": "FSW",
+ "sha256": "02b35b6839b27fc2b95c425434daabae63c5db5c2ccf125b21bde8e73df13e1f",
+ "version_url": "https://www.fsw.at/downloads/formulare/Antrag-auf-Aenderung-bzw-Verlaengerung-der-Foerderung.pdf",
+ "pages": 5,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname KundIn",
+   "acro_name": "Familienname KundIn",
+   "page": 0,
+   "bbox": [
+    28.5,
+    321.0,
+    293.9,
+    347.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname KundIn",
+   "acro_name": "Vorname KundIn",
+   "page": 0,
+   "bbox": [
+    302.4,
+    321.0,
+    566.9,
+    347.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum KundIn",
+   "acro_name": "Geburtsdatum KundIn",
+   "page": 0,
+   "bbox": [
+    28.1,
+    366.0,
+    156.6,
+    392.4
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (Bitte geben Sie Tag, Monat und Jahr an) Beispiel 31.01.1972",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Keine Datenänderung",
+   "acro_name": "Keine Datenänderung",
+   "page": 0,
+   "bbox": [
+    29.1,
+    405.8,
+    47.1,
+    423.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": " Meine Daten haben sich nicht geändert.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Meine Daten haben sich nicht geändert.",
+     "bbox": [
+      29.1,
+      405.8,
+      47.1,
+      423.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datenänderung",
+   "acro_name": "Datenänderung",
+   "page": 0,
+   "bbox": [
+    29.1,
+    432.7,
+    47.1,
+    450.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich gebe neue Daten bekannt.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich Zustellbevollmächtigte:r, gebe neue Daten bekannt. Aufenthaltsstatus, Zum Beispiel: Einkommen Adresse, Telefonnummer,",
+     "bbox": [
+      29.1,
+      432.7,
+      47.1,
+      450.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Neue Daten",
+   "acro_name": "Neue Daten",
+   "page": 0,
+   "bbox": [
+    52.2,
+    472.0,
+    566.9,
+    574.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Neue Daten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wechsel der Einrichtung",
+   "acro_name": "Wechsel der Einrichtung",
+   "page": 0,
+   "bbox": [
+    29.0,
+    659.5,
+    47.0,
+    677.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich möchte von einer anderen Einrichtung betreut werden.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich möchte von einer anderen Einrichtung betreut werden.",
+     "bbox": [
+      29.0,
+      659.5,
+      47.0,
+      677.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Wechsel",
+   "acro_name": "Datum Wechsel",
+   "page": 0,
+   "bbox": [
+    370.3,
+    655.2,
+    498.8,
+    681.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum, ab wann Sie von einer anderen Einrichtung betreut werden möchten.",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wunscheinrichtung",
+   "acro_name": "Wunscheinrichtung",
+   "page": 0,
+   "bbox": [
+    52.2,
+    712.0,
+    566.9,
+    806.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich möchte von dieser Einrichtung betreut werden:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Änderung der Leistung",
+   "acro_name": "Änderung der Leistung",
+   "page": 1,
+   "bbox": [
+    29.0,
+    31.9,
+    47.0,
+    49.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich möchte meine Leistung ändern.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich möchte meine Leistung ändern, z. B. eine höhere Betreuungsstufe, eine",
+     "bbox": [
+      29.0,
+      31.9,
+      47.0,
+      49.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Leistungsaenderung",
+   "acro_name": "Datum Leistungsaenderung",
+   "page": 1,
+   "bbox": [
+    73.2,
+    69.4,
+    201.7,
+    95.9
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum, ab wann Sie die Leistung ändern möchten.",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Änderung der Leistung auf",
+   "acro_name": "Änderung der Leistung auf",
+   "page": 1,
+   "bbox": [
+    263.6,
+    69.4,
+    566.3,
+    95.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Leistung, die ich in Zukunft möchte:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verlaengerung der Leistung",
+   "acro_name": "Verlaengerung der Leistung",
+   "page": 1,
+   "bbox": [
+    29.0,
+    129.0,
+    47.0,
+    147.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich möchte meine Leistung verlängern.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich möchte meine Leistung verlängern.",
+     "bbox": [
+      29.0,
+      129.0,
+      47.0,
+      147.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Welche Verlängerung Leistung",
+   "acro_name": "Welche Verlängerung Leistung",
+   "page": 1,
+   "bbox": [
+    201.5,
+    124.7,
+    566.9,
+    151.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Diese Leistung möchte ich verlängern.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "weitere Leistung 2",
+   "acro_name": "weitere Leistung 2",
+   "page": 1,
+   "bbox": [
+    29.0,
+    173.3,
+    47.0,
+    191.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich möchte eine weitere Leistung.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich möchte eine weitere Leistung.",
+     "bbox": [
+      29.0,
+      173.3,
+      47.0,
+      191.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Welche Zusätzliche Leistung",
+   "acro_name": "Welche Zusätzliche Leistung",
+   "page": 1,
+   "bbox": [
+    201.5,
+    169.8,
+    566.9,
+    196.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich möchte diese weitere Leistung.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begruendung",
+   "acro_name": "Begruendung",
+   "page": 1,
+   "bbox": [
+    29.1,
+    255.9,
+    567.9,
+    434.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bedarf durch Unfall entstanden",
+   "acro_name": "Bedarf durch Unfall entstanden",
+   "page": 1,
+   "bbox": [
+    28.3,
+    484.8,
+    88.0,
+    502.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ist der Bedarf durch einen Unfall oder ein anderes Schadensereignis entstanden?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.3,
+      484.8,
+      46.3,
+      502.8
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      70.0,
+      484.8,
+      88.0,
+      502.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift KundIn 3",
+   "acro_name": "Datum Unterschrift KundIn 3",
+   "page": 1,
+   "bbox": [
+    28.7,
+    628.6,
+    170.0,
+    668.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftszeichnung Kund:in",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift Kund:in oder Befugte:r",
+   "acro_name": "Unterschrift Kund:in oder Befugte:r",
+   "page": 1,
+   "bbox": [
+    180.0,
+    630.7,
+    567.6,
+    669.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": " Unterschrift der:des Kundin:Kunden oder der für sie:ihn zur Vertretung befugten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.vertreter",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name der unterschreibenden Person Kundin 3",
+   "acro_name": "Name der unterschreibenden Person Kundin 3",
+   "page": 1,
+   "bbox": [
+    180.0,
+    683.1,
+    567.6,
+    709.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der unterschreibenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begründung Zeugin/Zeuge",
+   "acro_name": "Begründung Zeugin/Zeuge",
+   "page": 2,
+   "bbox": [
+    29.8,
+    121.7,
+    567.9,
+    245.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung, warum der:die Kund:in nicht selbst unterschreiben kann",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname erste ZeugIn 4",
+   "acro_name": "Familienname erste ZeugIn 4",
+   "page": 2,
+   "bbox": [
+    29.8,
+    283.3,
+    294.8,
+    309.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname erste ZeugIn 4",
+   "acro_name": "Vorname erste ZeugIn 4",
+   "page": 2,
+   "bbox": [
+    303.0,
+    283.3,
+    566.9,
+    309.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung erste Zeugin / erster Zeuge 4",
+   "acro_name": "Beziehung erste Zeugin / erster Zeuge 4",
+   "page": 2,
+   "bbox": [
+    29.8,
+    327.6,
+    294.3,
+    354.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beziehung der:des ersten Zeugin:Zeugen zur Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon erste Zeugin / erster Zeuge 4",
+   "acro_name": "Telefon erste Zeugin / erster Zeuge 4",
+   "page": 2,
+   "bbox": [
+    303.0,
+    327.6,
+    567.9,
+    354.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift erste Zeugin / erster Zeuge 4",
+   "acro_name": "Datum Unterschrift erste Zeugin / erster Zeuge 4",
+   "page": 2,
+   "bbox": [
+    29.8,
+    379.9,
+    171.0,
+    419.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld Zeuge 1",
+   "acro_name": "Unterschriftsfeld Zeuge 1",
+   "page": 2,
+   "bbox": [
+    179.4,
+    380.0,
+    566.9,
+    419.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname zweite ZeugIn 5",
+   "acro_name": "Familienname zweite ZeugIn 5",
+   "page": 2,
+   "bbox": [
+    29.8,
+    466.7,
+    294.8,
+    493.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname zweite ZeugIn 4",
+   "acro_name": "Vorname zweite ZeugIn 4",
+   "page": 2,
+   "bbox": [
+    303.0,
+    466.7,
+    566.9,
+    493.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung zweite ZeugIn 4",
+   "acro_name": "Beziehung zweite ZeugIn 4",
+   "page": 2,
+   "bbox": [
+    29.8,
+    511.0,
+    294.3,
+    537.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beziehung der:des zweiten Zeugin:Zeugen zur Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer zweite ZeugIn 4",
+   "acro_name": "Telefonnummer zweite ZeugIn 4",
+   "page": 2,
+   "bbox": [
+    303.0,
+    511.0,
+    566.9,
+    537.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift zweite ZeugIn 4",
+   "acro_name": "Datum Unterschrift zweite ZeugIn 4",
+   "page": 2,
+   "bbox": [
+    29.8,
+    563.0,
+    171.0,
+    602.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld Zeuge 3",
+   "acro_name": "Unterschriftsfeld Zeuge 3",
+   "page": 2,
+   "bbox": [
+    179.4,
+    563.0,
+    566.9,
+    602.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/fsw_antrag_auf_aenderung_bzw_verlaengerung_der_foerderung/p1.png",
+   "cache/pruefung/fsw_antrag_auf_aenderung_bzw_verlaengerung_der_foerderung/p2.png",
+   "cache/pruefung/fsw_antrag_auf_aenderung_bzw_verlaengerung_der_foerderung/p3.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Datum, ab wann Sie von einer anderen Einrichtung betreut wer",
+     "problem": "Wert steht im passenden Feld, aber die Datumsangabe wirkt wie ein späterer Termin und passt nicht zum Formularkontext auf der Seite; kein Layoutfehler erkennbar",
+     "schwer": false
+    },
+    {
+     "feld": "05.11.2026 (Seite 2, Leistung ändern)",
+     "problem": "Im richtigen Feld und ohne Überdeckung gedruckten Texts",
+     "schwer": false
+    },
+    {
+     "feld": "05.11.2026 (Seite 2, Datum der Unterschriftszeichnung)",
+     "problem": "Im richtigen Feld und ohne Überdeckung gedruckten Texts",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "89c6db32e97cff55",
+  "ok": true
+ }
+}

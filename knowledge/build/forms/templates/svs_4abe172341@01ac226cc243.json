@@ -1,0 +1,232 @@
+{
+ "formular_id": "svs_4abe172341",
+ "name": "Lebensbestätigung kroatisch",
+ "traeger": "SVS",
+ "sha256": "01ac226cc243c8f6983e1b0a8f5bed30656f6f7e9304da46843278eef2aeca84",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.744407&version=1733380164",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    269.5,
+    89.5,
+    538.3,
+    102.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    187.5,
+    537.8,
+    200.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "POTVRDA O ČINJENICI ŽIVOTA",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    167.0,
+    249.3,
+    350.3,
+    261.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gospođa/gospodin",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": "person.anrede",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    433.4,
+    249.3,
+    532.7,
+    261.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "rođen(a) dana",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f02_003",
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    138.4,
+    282.9,
+    345.6,
+    294.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "s boravkom u",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    430.0,
+    282.9,
+    532.6,
+    294.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "bračno stanje",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    58.1,
+    382.4,
+    537.1,
+    394.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Osobni potpis korisnika mirovine",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.9,
+    587.3,
+    528.9,
+    599.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "dokumentom (identifikacijskom ispravom sa slikom ; npr. putovnicom)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/svs_4abe172341/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Name / Versicherungsnummer",
+     "problem": "Blauer Wert steht im Versicherungsnummer-Feld; das Name-Feld ist leer. Kein Layoutfehler erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Gospođa/gospodin",
+     "problem": "Wert 'Frau' steht im passenden Ankreuz-/Ausfüllfeld und überdeckt keinen gedruckten Text.",
+     "schwer": false
+    },
+    {
+     "feld": "rođen(a) dana",
+     "problem": "Datum steht im passenden Feld und bleibt innerhalb des Rahmens.",
+     "schwer": false
+    },
+    {
+     "feld": "bračno stanje",
+     "problem": "Wert 'verwitwet' steht im passenden Feld und bleibt innerhalb des Rahmens.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "45419f4a09e7fc45",
+  "ok": true
+ }
+}

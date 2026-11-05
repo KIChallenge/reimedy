@@ -1,0 +1,694 @@
+{
+ "formular_id": "oegk_vo_fuer_sehbehelfe_und_augenprothesen",
+ "name": "VO für Sehbehelfe und Augenprothesen",
+ "traeger": "ÖGK",
+ "sha256": "2b73d700fbba88f689e8c8957c73a1e7a0a3423d1ac4583090b43d1ff424c7dd",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734164&version=1734516365",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   419.5
+  ],
+  [
+   595.3,
+   419.5
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    18.5,
+    12.8,
+    207.7,
+    58.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    212.5,
+    38.3,
+    578.3,
+    50.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    534.4,
+    80.6,
+    542.6,
+    88.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    564.2,
+    80.6,
+    572.5,
+    88.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ja Nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    393.6,
+    87.6,
+    401.9,
+    95.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Brillengläser",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    412.4,
+    87.6,
+    420.7,
+    95.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Brillengläser",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    436.5,
+    97.5,
+    578.3,
+    110.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Fassung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    393.6,
+    103.2,
+    401.9,
+    111.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Vorname Versicherungsnummer Fassung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    412.4,
+    103.2,
+    420.7,
+    111.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Vorname Versicherungsnummer Fassung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    502.4,
+    107.1,
+    552.0,
+    119.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Die Kasse übernimmt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    454.1,
+    138.0,
+    572.6,
+    150.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "EUR ",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.9,
+    155.4,
+    296.6,
+    167.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    436.5,
+    157.8,
+    578.3,
+    170.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "EUR ",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    325.1,
+    167.9,
+    409.4,
+    180.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.1,
+    191.1,
+    297.9,
+    203.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    311.0,
+    222.0,
+    423.6,
+    234.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    297.7,
+    238.5,
+    578.3,
+    251.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "sphärisch zylindrisch Achse",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    277.3,
+    263.3,
+    393.5,
+    275.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tabo",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    268.8,
+    277.9,
+    393.5,
+    290.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Pupillardistanz",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    393.5,
+    283.2,
+    578.3,
+    295.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "o",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    277.3,
+    291.7,
+    393.5,
+    304.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "mm",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    393.5,
+    297.4,
+    578.3,
+    309.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "o",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    268.8,
+    306.3,
+    393.5,
+    318.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "R o",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    393.5,
+    311.9,
+    578.3,
+    324.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "o",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    77.7,
+    325.8,
+    388.4,
+    338.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Sehbehelfes:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    443.7,
+    328.2,
+    563.8,
+    340.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verrechnet am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_025",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    91.1,
+    344.1,
+    388.4,
+    356.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Allfällige med. Begründung:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_026",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    382.5,
+    122.0,
+    395.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Verordnung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_027",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    133.3,
+    382.3,
+    388.4,
+    394.8
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift und Stempel der Ärztin/des Arztes 11-ÖGK 12/77. 01.01.2020",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_028",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    399.2,
+    382.5,
+    455.9,
+    395.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_029",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    472.6,
+    382.5,
+    571.5,
+    395.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stempel der/des Vertrags-partnerin/partners",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_030",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/oegk_vo_fuer_sehbehelfe_und_augenprothesen/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "7b4c6ee2bc9b6a2c",
+  "ok": true
+ }
+}

@@ -1,0 +1,423 @@
+{
+ "formular_id": "bvaeb_d215f68314",
+ "name": "Antrag auf Partnerschaftsbonus",
+ "traeger": "BVAEB",
+ "sha256": "75daa5e960aa382816af17ee3e9299c7aef0d501636868ebf5f0a30df740061c",
+ "version_url": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638295&version=1725539872",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Versicherungsnummer Antragsteller Vater 2",
+   "acro_name": "Versicherungsnummer Antragsteller Vater 2",
+   "page": 0,
+   "bbox": [
+    137.5,
+    212.6,
+    350.6,
+    232.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Antragsteller Vater",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Antragsteller Vater 2",
+   "acro_name": "Familienname Antragsteller Vater 2",
+   "page": 0,
+   "bbox": [
+    137.5,
+    235.0,
+    350.6,
+    255.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Antragsteller Vater",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Antragsteller Vater 2",
+   "acro_name": "Vorname Antragsteller Vater 2",
+   "page": 0,
+   "bbox": [
+    137.5,
+    258.1,
+    350.6,
+    278.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Antragsteller Vater",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Antragsteller Vater 2",
+   "acro_name": "Telefonnummer Antragsteller Vater 2",
+   "page": 0,
+   "bbox": [
+    137.5,
+    281.2,
+    350.6,
+    301.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Antragsteller Vater",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-mail Antragsteller Vater 2",
+   "acro_name": "E-mail Antragsteller Vater 2",
+   "page": 0,
+   "bbox": [
+    137.5,
+    304.1,
+    350.6,
+    324.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-mail Antragsteller Vater",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Iban Antragsteller Vater 2",
+   "acro_name": "Iban Antragsteller Vater 2",
+   "page": 0,
+   "bbox": [
+    137.5,
+    325.7,
+    350.6,
+    345.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Iban Antragsteller Vater",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ich ersuche um Postanweisung 2",
+   "acro_name": "Ich ersuche um Postanweisung 2",
+   "page": 0,
+   "bbox": [
+    149.7,
+    355.0,
+    158.2,
+    363.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich ersuche um Postanweisung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich ersuche um Postanweisung",
+     "bbox": [
+      149.7,
+      355.0,
+      158.2,
+      363.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer zweiter Elternteil Mutter 2",
+   "acro_name": "Versicherungsnummer zweiter Elternteil Mutter 2",
+   "page": 0,
+   "bbox": [
+    353.8,
+    212.6,
+    566.9,
+    232.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer zweiter Elternteil Mutter",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname zweiter Elternteil Mutter 2",
+   "acro_name": "Familienname zweiter Elternteil Mutter 2",
+   "page": 0,
+   "bbox": [
+    353.8,
+    235.0,
+    566.9,
+    255.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname zweiter Elternteil Mutter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname zweiter Elternteil Mutter 2",
+   "acro_name": "Vorname zweiter Elternteil Mutter 2",
+   "page": 0,
+   "bbox": [
+    353.8,
+    258.1,
+    566.9,
+    278.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname zweiter Elternteil Mutter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer zweiter Elternteil Mutter 2",
+   "acro_name": "Telefonnummer zweiter Elternteil Mutter 2",
+   "page": 0,
+   "bbox": [
+    353.8,
+    281.2,
+    566.9,
+    301.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer zweiter Elternteil Mutter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "e-mail zweiter Elternteil Mutter 2",
+   "acro_name": "e-mail zweiter Elternteil Mutter 2",
+   "page": 0,
+   "bbox": [
+    353.8,
+    304.2,
+    566.9,
+    324.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "e-mail zweiter Elternteil Mutter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Kind 2",
+   "acro_name": "Familienname Kind 2",
+   "page": 0,
+   "bbox": [
+    137.8,
+    402.2,
+    351.0,
+    422.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname/n Kind 2",
+   "acro_name": "Vorname/n Kind 2",
+   "page": 0,
+   "bbox": [
+    137.8,
+    432.7,
+    564.9,
+    452.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer Kind 2",
+   "acro_name": "Versicherungsnummer Kind 2",
+   "page": 0,
+   "bbox": [
+    403.1,
+    410.5,
+    566.1,
+    429.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Kind",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 2",
+   "acro_name": "Datum 2",
+   "page": 0,
+   "bbox": [
+    32.3,
+    680.3,
+    175.2,
+    727.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift Vater 2",
+   "acro_name": "Unterschrift Vater 2",
+   "page": 0,
+   "bbox": [
+    181.4,
+    680.3,
+    560.7,
+    727.1
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift Vater",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/bvaeb_d215f68314/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Versicherungsnummer Antragsteller Vater",
+     "problem": "Wert steht im Feld des Antragstellers und passt zum Label; aber die Person ist als Antragsteller/ינ markiert, nicht als Vater. Falls als Vater gemeint, keine Tabellenzuordnung erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname Antragsteller Vater",
+     "problem": "Wert steht im Vorname-Feld und passt zum Label, aber der eingetragene Vorname 'Anna' gehört nicht zur antragstellenden Vater-Person; Personenzuordnung wirkt falsch.",
+     "schwer": true
+    },
+    {
+     "feld": "E-mail Antragsteller Vater",
+     "problem": "Wert steht im E-Mail-Feld und ragt knapp, aber erkennbar nicht über den Rahmen hinaus; kein echter Layoutfehler sichtbar.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "6b89f46185007a5b",
+  "ok": false
+ }
+}

@@ -1,0 +1,9481 @@
+{
+ "formular_id": "pva_gvr001_uebergangsgeld",
+ "name": "Antrag auf Übergangsgeld / berufliche Maßnahmen der Rehabilitation (GVR 001)",
+ "traeger": "PVA",
+ "sha256": "28ea152ae7d90a46e466aae0a20be0bac211d77e8655820866d55f5df6e8edb5",
+ "version_url": "https://www.pv.at/cdscontent/load?contentid=10008.781947",
+ "pages": 16,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   841.9,
+   595.3
+  ],
+  [
+   841.9,
+   595.3
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    128.9,
+    135.7,
+    284.2,
+    154.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "nummer Versicherungs-",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rehabilitation",
+   "acro_name": "Rehabilitation",
+   "page": 0,
+   "bbox": [
+    40.2,
+    218.2,
+    54.9,
+    263.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Antrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "BERUFLICHE MASSNAHMEN DER REHABILITATION",
+     "bbox": [
+      40.2,
+      218.2,
+      54.9,
+      231.3
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "ÜBERGANGSGELD BEI MEDIZINISCHEN MASSNAHMEN",
+     "bbox": [
+      40.2,
+      250.5,
+      54.9,
+      263.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rehabeinrichtung",
+   "acro_name": "Rehabeinrichtung",
+   "page": 0,
+   "bbox": [
+    196.5,
+    265.8,
+    550.9,
+    281.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "MEDIZINISCHEN MASSNAHMEN DER REHABILITATION",
+   "max_zeichen": 58,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthalt von",
+   "acro_name": "Aufenthalt von",
+   "page": 0,
+   "bbox": [
+    140.2,
+    287.2,
+    333.8,
+    302.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Aufenthalt",
+   "max_zeichen": 30,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "aufenthalt.temporaer.von",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufenthalt bis",
+   "acro_name": "Aufenthalt bis",
+   "page": 0,
+   "bbox": [
+    357.3,
+    287.2,
+    550.9,
+    302.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Aufenthalt",
+   "max_zeichen": 30,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "aufenthalt.temporaer.bis",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    135.9,
+    394.8,
+    383.1,
+    410.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname:",
+   "max_zeichen": 40,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    435.7,
+    394.8,
+    551.4,
+    410.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname:",
+   "max_zeichen": 18,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Titel",
+   "acro_name": "Titel",
+   "page": 0,
+   "bbox": [
+    91.1,
+    418.2,
+    191.2,
+    433.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname:",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zuname alt",
+   "acro_name": "Zuname alt",
+   "page": 0,
+   "bbox": [
+    277.4,
+    418.2,
+    551.4,
+    433.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel: .................................... Frühere",
+   "max_zeichen": 44,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.geburtsname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht",
+   "acro_name": "Geschlecht",
+   "page": 0,
+   "bbox": [
+    121.3,
+    441.5,
+    273.6,
+    457.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geschlecht:",
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum",
+   "acro_name": "Geburtsdatum",
+   "page": 0,
+   "bbox": [
+    379.6,
+    441.5,
+    551.4,
+    457.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Namen: ....................................................................................................",
+   "max_zeichen": 22,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsort",
+   "acro_name": "Geburtsort",
+   "page": 0,
+   "bbox": [
+    121.0,
+    467.7,
+    258.3,
+    483.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geschlecht:",
+   "max_zeichen": 22,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.geburtsort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsland",
+   "acro_name": "Geburtsland",
+   "page": 0,
+   "bbox": [
+    294.0,
+    467.7,
+    551.4,
+    483.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsort: ..................................................",
+   "max_zeichen": 42,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.geburtsland",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat",
+   "acro_name": "Staat",
+   "page": 0,
+   "bbox": [
+    160.1,
+    491.0,
+    396.0,
+    506.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsort: .................................................. Land: ..............................................................................................",
+   "max_zeichen": 38,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.staatsbuergerschaft",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat seit",
+   "acro_name": "Staat seit",
+   "page": 0,
+   "bbox": [
+    427.2,
+    491.0,
+    551.4,
+    506.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Staatsangehörigkeit: .....................................................................................",
+   "max_zeichen": 20,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.familienstand_seit",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse Straße",
+   "acro_name": "Adresse Straße",
+   "page": 0,
+   "bbox": [
+    115.9,
+    511.6,
+    479.8,
+    527.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "max_zeichen": 59,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ",
+   "acro_name": "PLZ",
+   "page": 0,
+   "bbox": [
+    493.3,
+    511.6,
+    551.4,
+    527.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "seit: ..............................................",
+   "max_zeichen": 6,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort",
+   "acro_name": "Ort",
+   "page": 0,
+   "bbox": [
+    115.9,
+    545.7,
+    282.6,
+    561.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straße, Gasse, Platz",
+   "max_zeichen": 27,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bundesland",
+   "acro_name": "Bundesland",
+   "page": 0,
+   "bbox": [
+    291.0,
+    545.7,
+    354.2,
+    561.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnr.,",
+   "max_zeichen": 5,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Land",
+   "acro_name": "Land",
+   "page": 0,
+   "bbox": [
+    363.5,
+    545.7,
+    551.4,
+    561.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnr., Stiege, Tür Postleitzahl",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon",
+   "acro_name": "Telefon",
+   "page": 0,
+   "bbox": [
+    115.9,
+    575.8,
+    302.8,
+    591.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort",
+   "max_zeichen": 30,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Email",
+   "acro_name": "Email",
+   "page": 0,
+   "bbox": [
+    310.0,
+    575.8,
+    551.4,
+    591.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bundesland Land",
+   "max_zeichen": 39,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Muttersprache",
+   "acro_name": "Muttersprache",
+   "page": 0,
+   "bbox": [
+    318.8,
+    619.2,
+    551.4,
+    634.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn Sie beherrschen, die teilen Sie deutsche uns Sprache bitte Ihre nicht Muttersprache",
+   "max_zeichen": 38,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Personenstand",
+   "acro_name": "Personenstand",
+   "page": 0,
+   "bbox": [
+    154.0,
+    648.5,
+    466.3,
+    690.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Personenstand:",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "ledig",
+     "bbox": [
+      154.0,
+      648.5,
+      168.6,
+      661.7
+     ],
+     "wert_semantik": "ledig"
+    },
+    {
+     "wert": "02",
+     "label": "verheiratet",
+     "bbox": [
+      253.1,
+      648.5,
+      267.7,
+      661.7
+     ],
+     "wert_semantik": "verheiratet"
+    },
+    {
+     "wert": "03",
+     "label": "verwitwet",
+     "bbox": [
+      351.2,
+      648.5,
+      365.8,
+      661.7
+     ],
+     "wert_semantik": "verwitwet"
+    },
+    {
+     "wert": "04",
+     "label": "geschieden",
+     "bbox": [
+      451.7,
+      648.5,
+      466.3,
+      661.7
+     ],
+     "wert_semantik": "geschieden"
+    },
+    {
+     "wert": "05",
+     "label": "in eingetragener Partnerschaft lebend",
+     "bbox": [
+      154.0,
+      662.2,
+      168.6,
+      675.4
+     ]
+    },
+    {
+     "wert": "06",
+     "label": "aufgelöste eingetragene Partnerschaft",
+     "bbox": [
+      351.2,
+      662.2,
+      365.8,
+      675.4
+     ]
+    },
+    {
+     "wert": "07",
+     "label": "hinterbliebene*r eingetragene*r Partner*in",
+     "bbox": [
+      154.0,
+      677.5,
+      168.6,
+      690.6
+     ]
+    }
+   ],
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ehe 1",
+   "acro_name": "Ehe 1",
+   "page": 0,
+   "bbox": [
+    379.4,
+    695.9,
+    444.7,
+    711.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Eheschließung(en) / Eintragung der Partnerschaft(en):",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ehe 2",
+   "acro_name": "Ehe 2",
+   "page": 0,
+   "bbox": [
+    465.4,
+    695.9,
+    530.8,
+    711.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Eintragung der Partnerschaft(en):",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Scheidung 1",
+   "acro_name": "Scheidung 1",
+   "page": 0,
+   "bbox": [
+    379.4,
+    714.0,
+    444.7,
+    729.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ehescheidung(en) / Auﬂösung der Partnerschaft(en):",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Scheidung 2",
+   "acro_name": "Scheidung 2",
+   "page": 0,
+   "bbox": [
+    465.4,
+    714.0,
+    530.8,
+    729.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Auﬂösung der Partnerschaft(en):",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tod1",
+   "acro_name": "Tod1",
+   "page": 0,
+   "bbox": [
+    379.4,
+    731.3,
+    444.7,
+    746.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Todes des*der Ehepartner*in / eingetragenen Partner*in:",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tod2",
+   "acro_name": "Tod2",
+   "page": 0,
+   "bbox": [
+    465.0,
+    731.3,
+    530.3,
+    746.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ehepartner*in / eingetragenen Partner*in:",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p1",
+   "acro_name": "VSNR_1",
+   "page": 1,
+   "bbox": [
+    435.9,
+    3.7,
+    591.2,
+    22.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person",
+   "acro_name": "Andere Person",
+   "page": 1,
+   "bbox": [
+    63.0,
+    105.3,
+    77.7,
+    157.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "mit der gesetzlichen Vertretung betraute Person",
+     "bbox": [
+      63.0,
+      105.3,
+      77.7,
+      118.5
+     ]
+    },
+    {
+     "wert": "03",
+     "label": "bevollmächtigte Person",
+     "bbox": [
+      63.0,
+      144.0,
+      77.7,
+      157.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Obsorge",
+   "acro_name": "Obsorge",
+   "page": 1,
+   "bbox": [
+    403.8,
+    105.3,
+    518.2,
+    118.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "gesetzlichen Vertretung betraute Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "gesetzlichen Vertretung betraute Person",
+     "bbox": [
+      403.8,
+      105.3,
+      418.4,
+      118.5
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "#",
+     "bbox": [
+      503.5,
+      105.3,
+      518.2,
+      118.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sachwalter",
+   "acro_name": "Sachwalter",
+   "page": 1,
+   "bbox": [
+    403.8,
+    144.0,
+    518.2,
+    157.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "bevollmächtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "bevollmächtigte Person",
+     "bbox": [
+      403.8,
+      144.0,
+      418.4,
+      157.2
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "#",
+     "bbox": [
+      503.5,
+      144.0,
+      518.2,
+      157.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname andere",
+   "acro_name": "Familienname andere",
+   "page": 1,
+   "bbox": [
+    132.2,
+    162.9,
+    381.0,
+    178.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "bevollmächtigte Person",
+   "max_zeichen": 40,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname andere",
+   "acro_name": "Vorname andere",
+   "page": 1,
+   "bbox": [
+    434.8,
+    162.9,
+    551.1,
+    178.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname:.......................................................................................... Vorname:",
+   "max_zeichen": 18,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse Straße 1",
+   "acro_name": "Adresse Straße 1",
+   "page": 1,
+   "bbox": [
+    113.9,
+    189.0,
+    551.2,
+    204.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "max_zeichen": 72,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.strasse",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ Ort 1",
+   "acro_name": "PLZ Ort 1",
+   "page": 1,
+   "bbox": [
+    113.9,
+    222.0,
+    325.6,
+    237.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straße, Gasse, Platz",
+   "max_zeichen": 34,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.plz_ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon1",
+   "acro_name": "Telefon1",
+   "page": 1,
+   "bbox": [
+    356.9,
+    222.0,
+    550.6,
+    237.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnr., Stiege, Tür",
+   "max_zeichen": 31,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "REV",
+   "acro_name": "REV",
+   "page": 1,
+   "bbox": [
+    62.3,
+    354.0,
+    77.0,
+    390.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "stellung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      62.3,
+      354.0,
+      77.0,
+      367.1
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein  führen Sie bitte alle Zeiten",
+     "bbox": [
+      62.3,
+      377.6,
+      77.0,
+      390.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KEZ?",
+   "acro_name": "KEZ?",
+   "page": 1,
+   "bbox": [
+    448.5,
+    493.8,
+    499.8,
+    506.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "EU/EWR-Staat erzogen?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja # nein",
+     "bbox": [
+      448.5,
+      493.8,
+      463.2,
+      506.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      485.2,
+      493.8,
+      499.8,
+      506.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum BS",
+   "acro_name": "Zeitraum BS",
+   "page": 1,
+   "bbox": [
+    158.8,
+    617.0,
+    264.4,
+    652.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Berufs-(Fach-)schule",
+   "max_zeichen": 32,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art BS",
+   "acro_name": "Art BS",
+   "page": 1,
+   "bbox": [
+    269.2,
+    617.0,
+    428.2,
+    652.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Berufs-(Fach-)schule",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Abschluss BS?",
+   "acro_name": "Abschluss BS?",
+   "page": 1,
+   "bbox": [
+    453.0,
+    627.9,
+    509.2,
+    641.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "abgeschlossen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      453.0,
+      627.9,
+      467.6,
+      641.1
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      494.6,
+      627.9,
+      509.2,
+      641.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum HS",
+   "acro_name": "Zeitraum HS",
+   "page": 1,
+   "bbox": [
+    158.8,
+    657.2,
+    264.4,
+    692.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Höhere Schule",
+   "max_zeichen": 32,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art HS",
+   "acro_name": "Art HS",
+   "page": 1,
+   "bbox": [
+    269.2,
+    657.2,
+    428.2,
+    692.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Höhere Schule",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Abschluss HS?",
+   "acro_name": "Abschluss HS?",
+   "page": 1,
+   "bbox": [
+    453.0,
+    666.9,
+    509.2,
+    680.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      453.0,
+      666.9,
+      467.6,
+      680.1
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      494.6,
+      666.9,
+      509.2,
+      680.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum Studium",
+   "acro_name": "Zeitraum Studium",
+   "page": 1,
+   "bbox": [
+    158.8,
+    696.3,
+    264.4,
+    732.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hochschule / Universität",
+   "max_zeichen": 32,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art Studium",
+   "acro_name": "Art Studium",
+   "page": 1,
+   "bbox": [
+    269.2,
+    696.3,
+    428.2,
+    732.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hochschule / Universität",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Abschluss Studium?",
+   "acro_name": "Abschluss Studium?",
+   "page": 1,
+   "bbox": [
+    453.0,
+    706.9,
+    509.2,
+    720.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      453.0,
+      706.9,
+      467.6,
+      720.1
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      494.6,
+      706.9,
+      509.2,
+      720.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p2",
+   "acro_name": "VSNR_1",
+   "page": 2,
+   "bbox": [
+    435.9,
+    3.7,
+    591.2,
+    22.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 1",
+   "acro_name": "Zeitraum v 1",
+   "page": 2,
+   "bbox": [
+    45.3,
+    115.9,
+    100.0,
+    148.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 1",
+   "acro_name": "Zeitraum b 1",
+   "page": 2,
+   "bbox": [
+    104.9,
+    115.9,
+    159.6,
+    148.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 1",
+   "acro_name": "ART 1",
+   "page": 2,
+   "bbox": [
+    165.0,
+    115.9,
+    310.9,
+    148.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "d) nicht beschäftigt wegen",
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 1",
+   "acro_name": "ORT 1",
+   "page": 2,
+   "bbox": [
+    317.1,
+    115.9,
+    549.8,
+    148.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bundesland, Staat",
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 2",
+   "acro_name": "Zeitraum v 2",
+   "page": 2,
+   "bbox": [
+    45.3,
+    155.2,
+    100.0,
+    187.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 2",
+   "acro_name": "Zeitraum b 2",
+   "page": 2,
+   "bbox": [
+    104.9,
+    155.2,
+    159.6,
+    187.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 2",
+   "acro_name": "ART 2",
+   "page": 2,
+   "bbox": [
+    165.0,
+    155.2,
+    310.9,
+    187.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 2",
+   "acro_name": "ORT 2",
+   "page": 2,
+   "bbox": [
+    317.1,
+    155.2,
+    549.8,
+    187.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 3",
+   "acro_name": "Zeitraum v 3",
+   "page": 2,
+   "bbox": [
+    45.3,
+    194.9,
+    100.0,
+    227.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 3",
+   "acro_name": "Zeitraum b 3",
+   "page": 2,
+   "bbox": [
+    104.9,
+    194.9,
+    159.6,
+    227.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 3",
+   "acro_name": "ART 3",
+   "page": 2,
+   "bbox": [
+    165.0,
+    194.9,
+    310.9,
+    227.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 3",
+   "acro_name": "ORT 3",
+   "page": 2,
+   "bbox": [
+    317.1,
+    194.9,
+    549.8,
+    227.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 4",
+   "acro_name": "Zeitraum v 4",
+   "page": 2,
+   "bbox": [
+    45.3,
+    234.8,
+    100.0,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 4",
+   "acro_name": "Zeitraum b 4",
+   "page": 2,
+   "bbox": [
+    104.9,
+    234.8,
+    159.6,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 4",
+   "acro_name": "ART 4",
+   "page": 2,
+   "bbox": [
+    165.0,
+    234.8,
+    310.9,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 4",
+   "acro_name": "ORT 4",
+   "page": 2,
+   "bbox": [
+    317.1,
+    234.8,
+    549.8,
+    267.4
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 5",
+   "acro_name": "Zeitraum v 5",
+   "page": 2,
+   "bbox": [
+    45.3,
+    274.3,
+    100.0,
+    306.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 5",
+   "acro_name": "Zeitraum b 5",
+   "page": 2,
+   "bbox": [
+    104.9,
+    274.3,
+    159.6,
+    306.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 5",
+   "acro_name": "ART 5",
+   "page": 2,
+   "bbox": [
+    165.0,
+    274.3,
+    310.9,
+    306.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 5",
+   "acro_name": "ORT 5",
+   "page": 2,
+   "bbox": [
+    317.1,
+    274.3,
+    549.8,
+    306.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 6",
+   "acro_name": "Zeitraum v 6",
+   "page": 2,
+   "bbox": [
+    45.3,
+    314.1,
+    100.0,
+    346.7
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 6",
+   "acro_name": "Zeitraum b 6",
+   "page": 2,
+   "bbox": [
+    104.9,
+    314.1,
+    159.6,
+    346.7
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 6",
+   "acro_name": "ART 6",
+   "page": 2,
+   "bbox": [
+    165.0,
+    314.1,
+    310.9,
+    346.7
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 6",
+   "acro_name": "ORT 6",
+   "page": 2,
+   "bbox": [
+    317.1,
+    314.1,
+    549.8,
+    346.7
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 7",
+   "acro_name": "Zeitraum v 7",
+   "page": 2,
+   "bbox": [
+    45.3,
+    353.9,
+    100.0,
+    386.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 7",
+   "acro_name": "Zeitraum b 7",
+   "page": 2,
+   "bbox": [
+    104.9,
+    353.9,
+    159.6,
+    386.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 7",
+   "acro_name": "ART 7",
+   "page": 2,
+   "bbox": [
+    165.0,
+    353.9,
+    310.9,
+    386.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 7",
+   "acro_name": "ORT 7",
+   "page": 2,
+   "bbox": [
+    317.1,
+    353.9,
+    549.8,
+    386.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 8",
+   "acro_name": "Zeitraum v 8",
+   "page": 2,
+   "bbox": [
+    45.3,
+    393.7,
+    100.0,
+    426.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 8",
+   "acro_name": "Zeitraum b 8",
+   "page": 2,
+   "bbox": [
+    104.9,
+    393.7,
+    159.6,
+    426.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 8",
+   "acro_name": "ART 8",
+   "page": 2,
+   "bbox": [
+    165.0,
+    393.7,
+    310.9,
+    426.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 8",
+   "acro_name": "ORT 8",
+   "page": 2,
+   "bbox": [
+    317.1,
+    393.7,
+    549.8,
+    426.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 9",
+   "acro_name": "Zeitraum v 9",
+   "page": 2,
+   "bbox": [
+    45.3,
+    431.9,
+    100.0,
+    464.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 9",
+   "acro_name": "Zeitraum b 9",
+   "page": 2,
+   "bbox": [
+    104.9,
+    431.9,
+    159.6,
+    464.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 9",
+   "acro_name": "ART 9",
+   "page": 2,
+   "bbox": [
+    165.0,
+    431.9,
+    310.9,
+    464.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 9",
+   "acro_name": "ORT 9",
+   "page": 2,
+   "bbox": [
+    317.1,
+    431.9,
+    549.8,
+    464.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 10",
+   "acro_name": "Zeitraum v 10",
+   "page": 2,
+   "bbox": [
+    45.3,
+    472.0,
+    100.0,
+    504.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 10",
+   "acro_name": "Zeitraum b 10",
+   "page": 2,
+   "bbox": [
+    104.9,
+    472.0,
+    159.6,
+    504.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 10",
+   "acro_name": "ART 10",
+   "page": 2,
+   "bbox": [
+    165.0,
+    472.0,
+    310.9,
+    504.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 10",
+   "acro_name": "ORT 10",
+   "page": 2,
+   "bbox": [
+    317.1,
+    472.0,
+    549.8,
+    504.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 11",
+   "acro_name": "Zeitraum v 11",
+   "page": 2,
+   "bbox": [
+    45.3,
+    511.2,
+    100.0,
+    543.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 11",
+   "acro_name": "Zeitraum b 11",
+   "page": 2,
+   "bbox": [
+    104.9,
+    511.2,
+    159.6,
+    543.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 11",
+   "acro_name": "ART 11",
+   "page": 2,
+   "bbox": [
+    165.0,
+    511.2,
+    310.9,
+    543.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 11",
+   "acro_name": "ORT 11",
+   "page": 2,
+   "bbox": [
+    317.1,
+    511.2,
+    549.8,
+    543.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 12",
+   "acro_name": "Zeitraum v 12",
+   "page": 2,
+   "bbox": [
+    45.3,
+    550.6,
+    100.0,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 12",
+   "acro_name": "Zeitraum b 12",
+   "page": 2,
+   "bbox": [
+    104.9,
+    550.6,
+    159.6,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 12",
+   "acro_name": "ART 12",
+   "page": 2,
+   "bbox": [
+    165.0,
+    550.6,
+    310.9,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 12",
+   "acro_name": "ORT 12",
+   "page": 2,
+   "bbox": [
+    317.1,
+    550.6,
+    549.8,
+    583.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 13",
+   "acro_name": "Zeitraum v 13",
+   "page": 2,
+   "bbox": [
+    45.3,
+    590.5,
+    100.0,
+    623.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 13",
+   "acro_name": "Zeitraum b 13",
+   "page": 2,
+   "bbox": [
+    104.9,
+    590.5,
+    159.6,
+    623.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 13",
+   "acro_name": "ART 13",
+   "page": 2,
+   "bbox": [
+    165.0,
+    590.5,
+    310.9,
+    623.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 13",
+   "acro_name": "ORT 13",
+   "page": 2,
+   "bbox": [
+    317.1,
+    590.5,
+    549.8,
+    623.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 14",
+   "acro_name": "Zeitraum v 14",
+   "page": 2,
+   "bbox": [
+    45.3,
+    630.4,
+    100.0,
+    663.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 14",
+   "acro_name": "Zeitraum b 14",
+   "page": 2,
+   "bbox": [
+    104.9,
+    630.4,
+    159.6,
+    663.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 14",
+   "acro_name": "ART 14",
+   "page": 2,
+   "bbox": [
+    165.0,
+    630.4,
+    310.9,
+    663.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 14",
+   "acro_name": "ORT 14",
+   "page": 2,
+   "bbox": [
+    317.1,
+    630.4,
+    549.8,
+    663.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 15",
+   "acro_name": "Zeitraum v 15",
+   "page": 2,
+   "bbox": [
+    45.3,
+    669.6,
+    100.0,
+    702.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 15",
+   "acro_name": "Zeitraum b 15",
+   "page": 2,
+   "bbox": [
+    104.9,
+    669.6,
+    159.6,
+    702.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 15",
+   "acro_name": "ART 15",
+   "page": 2,
+   "bbox": [
+    165.0,
+    669.6,
+    310.9,
+    702.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 15",
+   "acro_name": "ORT 15",
+   "page": 2,
+   "bbox": [
+    317.1,
+    669.6,
+    549.8,
+    702.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum v 16",
+   "acro_name": "Zeitraum v 16",
+   "page": 2,
+   "bbox": [
+    45.3,
+    709.6,
+    100.0,
+    742.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum b 16",
+   "acro_name": "Zeitraum b 16",
+   "page": 2,
+   "bbox": [
+    104.9,
+    709.6,
+    159.6,
+    742.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 8,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART 16",
+   "acro_name": "ART 16",
+   "page": 2,
+   "bbox": [
+    165.0,
+    709.6,
+    310.9,
+    742.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 46,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ORT 16",
+   "acro_name": "ORT 16",
+   "page": 2,
+   "bbox": [
+    317.1,
+    709.6,
+    549.8,
+    742.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 76,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p3",
+   "acro_name": "VSNR_1",
+   "page": 3,
+   "bbox": [
+    435.9,
+    3.2,
+    591.2,
+    21.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ausbildungswunsch",
+   "acro_name": "Ausbildungswunsch",
+   "page": 3,
+   "bbox": [
+    68.3,
+    86.8,
+    550.8,
+    100.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "AUSBILDUNGSWUNSCH (nur bei Antrag auf berufliche Maßnahmen der Rehabilitation auszufüllen)",
+   "max_zeichen": 79,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rehabmaßnahmen",
+   "acro_name": "Rehabmaßnahmen",
+   "page": 3,
+   "bbox": [
+    447.4,
+    134.0,
+    528.8,
+    147.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Maßnahmen der Rehabilitation durchgeführt?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "ja",
+     "bbox": [
+      447.4,
+      134.0,
+      462.0,
+      147.1
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "nein",
+     "bbox": [
+      514.2,
+      134.0,
+      528.8,
+      147.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Welche Rehamaßnahmen",
+   "acro_name": "Welche Rehamaßnahmen",
+   "page": 3,
+   "bbox": [
+    143.0,
+    149.1,
+    550.8,
+    161.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wenn ja, welche:",
+   "max_zeichen": 67,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schulungsinstitution",
+   "acro_name": "Schulungsinstitution",
+   "page": 3,
+   "bbox": [
+    216.5,
+    165.0,
+    550.8,
+    179.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bei welcher Schulungsinstitution:",
+   "max_zeichen": 55,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kostentraeger",
+   "acro_name": "Kostentraeger",
+   "page": 3,
+   "bbox": [
+    190.6,
+    182.4,
+    550.8,
+    196.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bei welchem Kostenträger:",
+   "max_zeichen": 59,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankheit_1",
+   "acro_name": "Krankheit_1",
+   "page": 3,
+   "bbox": [
+    52.3,
+    276.9,
+    365.3,
+    292.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "(Bitte ärztliche Gutachten / Befunde beilegen!)",
+   "max_zeichen": 51,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "krank seit_1",
+   "acro_name": "krank seit_1",
+   "page": 3,
+   "bbox": [
+    409.2,
+    276.9,
+    542.0,
+    292.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "seit:",
+   "max_zeichen": 21,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankheit_2",
+   "acro_name": "Krankheit_2",
+   "page": 3,
+   "bbox": [
+    52.3,
+    301.8,
+    365.3,
+    317.3
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 51,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "krank seit_2",
+   "acro_name": "krank seit_2",
+   "page": 3,
+   "bbox": [
+    409.2,
+    301.8,
+    542.0,
+    317.3
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 21,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "gehfaehig",
+   "acro_name": "gehfaehig",
+   "page": 3,
+   "bbox": [
+    425.8,
+    325.6,
+    507.3,
+    338.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "persönlich zu einer ärztlichen Untersuchung zu kommen?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      425.8,
+      325.6,
+      440.5,
+      338.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      492.7,
+      325.6,
+      507.3,
+      338.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "AU",
+   "acro_name": "AU",
+   "page": 3,
+   "bbox": [
+    215.7,
+    396.6,
+    287.2,
+    409.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Arbeitsunfall",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      215.7,
+      396.6,
+      230.3,
+      409.8
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      272.6,
+      396.6,
+      287.2,
+      409.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfallanzeige",
+   "acro_name": "Unfallanzeige",
+   "page": 3,
+   "bbox": [
+    215.7,
+    418.6,
+    287.2,
+    431.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Wurde Unfallanzeige erstattet?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      215.7,
+      418.6,
+      230.3,
+      431.8
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      272.6,
+      418.6,
+      287.2,
+      431.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verstraeger",
+   "acro_name": "Verstraeger",
+   "page": 3,
+   "bbox": [
+    340.2,
+    412.0,
+    542.0,
+    427.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wurde Unfallanzeige erstattet? # nein # ja",
+   "max_zeichen": 33,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BK",
+   "acro_name": "BK",
+   "page": 3,
+   "bbox": [
+    215.7,
+    458.6,
+    287.2,
+    471.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Berufskrankheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      215.7,
+      458.6,
+      230.3,
+      471.8
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      272.6,
+      458.6,
+      287.2,
+      471.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufskrankheit",
+   "acro_name": "Berufskrankheit",
+   "page": 3,
+   "bbox": [
+    340.2,
+    452.0,
+    542.0,
+    467.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "# nein # ja",
+   "max_zeichen": 33,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstiger Unfall",
+   "acro_name": "sonstiger Unfall",
+   "page": 3,
+   "bbox": [
+    48.8,
+    531.0,
+    120.8,
+    544.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "•",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      48.8,
+      531.0,
+      63.5,
+      544.2
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      106.2,
+      531.0,
+      120.8,
+      544.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfallhergang",
+   "acro_name": "Unfallhergang",
+   "page": 3,
+   "bbox": [
+    148.3,
+    525.1,
+    540.8,
+    540.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "# nein # ja",
+   "max_zeichen": 64,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fremdverschulden",
+   "acro_name": "Fremdverschulden",
+   "page": 3,
+   "bbox": [
+    48.8,
+    602.0,
+    120.8,
+    615.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "•",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      48.8,
+      602.0,
+      63.5,
+      615.2
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      106.2,
+      602.0,
+      120.8,
+      615.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fremdverschulden Datum",
+   "acro_name": "Fremdverschulden Datum",
+   "page": 3,
+   "bbox": [
+    149.0,
+    596.4,
+    225.7,
+    611.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "# nein # ja",
+   "max_zeichen": 12,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schädiger",
+   "acro_name": "Schädiger",
+   "page": 3,
+   "bbox": [
+    273.6,
+    596.4,
+    540.8,
+    611.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "# nein # ja",
+   "max_zeichen": 43,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schadenersatz",
+   "acro_name": "Schadenersatz",
+   "page": 3,
+   "bbox": [
+    393.3,
+    634.0,
+    489.8,
+    647.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Anspruch auf Schadenersatz geltend gemacht?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      393.3,
+      634.0,
+      408.0,
+      647.2
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      475.2,
+      634.0,
+      489.8,
+      647.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorsätzliche Handlung",
+   "acro_name": "Vorsätzliche Handlung",
+   "page": 3,
+   "bbox": [
+    48.8,
+    708.0,
+    120.8,
+    721.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "herbeigeführt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      48.8,
+      708.0,
+      63.5,
+      721.2
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      106.2,
+      708.0,
+      120.8,
+      721.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gerichtsverfahren",
+   "acro_name": "Gerichtsverfahren",
+   "page": 3,
+   "bbox": [
+    48.8,
+    740.0,
+    120.8,
+    753.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "War",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      48.8,
+      740.0,
+      63.5,
+      753.2
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      106.2,
+      740.0,
+      120.8,
+      753.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gericht/Geschäftszahl",
+   "acro_name": "Gericht/Geschäftszahl",
+   "page": 3,
+   "bbox": [
+    144.1,
+    734.6,
+    543.3,
+    749.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "# nein # ja",
+   "max_zeichen": 65,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p4",
+   "acro_name": "VSNR_1",
+   "page": 4,
+   "bbox": [
+    435.9,
+    3.2,
+    591.2,
+    21.8
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kein Einkommen",
+   "acro_name": "kein Einkommen",
+   "page": 4,
+   "bbox": [
+    63.0,
+    84.9,
+    77.6,
+    98.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kein Einkommen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Kein Einkommen",
+     "bbox": [
+      63.0,
+      84.9,
+      77.6,
+      98.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "unselbststaendig",
+   "acro_name": "unselbststaendig",
+   "page": 4,
+   "bbox": [
+    63.0,
+    107.0,
+    77.6,
+    120.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkommen aus unselbstständiger Erwerbstätigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Einkommen aus unselbstständiger Erwerbstätigkeit",
+     "bbox": [
+      63.0,
+      107.0,
+      77.6,
+      120.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Eink_1",
+   "acro_name": "Eink_1",
+   "page": 4,
+   "bbox": [
+    484.9,
+    114.3,
+    550.7,
+    129.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "brutto mtl.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "selbststaendig",
+   "acro_name": "selbststaendig",
+   "page": 4,
+   "bbox": [
+    63.0,
+    142.9,
+    77.6,
+    156.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkommen aus selbstständiger Erwerbstätigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Einkommen aus selbstständiger Erwerbstätigkeit",
+     "bbox": [
+      63.0,
+      142.9,
+      77.6,
+      156.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Eink_2",
+   "acro_name": "Eink_2",
+   "page": 4,
+   "bbox": [
+    484.9,
+    137.4,
+    550.7,
+    153.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "jährlich",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "L+F",
+   "acro_name": "L+F",
+   "page": 4,
+   "bbox": [
+    63.0,
+    165.1,
+    77.6,
+    178.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus Land(Forst)wirtschaft mit einem Einheitswert",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Einkünfte aus Land(Forst)wirtschaft mit einem Einheitswert",
+     "bbox": [
+      63.0,
+      165.1,
+      77.6,
+      178.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Eink_3",
+   "acro_name": "Eink_3",
+   "page": 4,
+   "bbox": [
+    484.9,
+    159.8,
+    550.7,
+    175.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Land(Forst)wirtschaft mit einem Einheitswert von",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "AMS",
+   "acro_name": "AMS",
+   "page": 4,
+   "bbox": [
+    63.0,
+    187.2,
+    77.6,
+    200.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Geldleistung nach dem Arbeitsmarktservicegesetz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Geldleistung nach dem Arbeitsmarktservicegesetz",
+     "bbox": [
+      63.0,
+      187.2,
+      77.6,
+      200.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Eink_4",
+   "acro_name": "Eink_4",
+   "page": 4,
+   "bbox": [
+    484.9,
+    194.3,
+    550.7,
+    209.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Lebensunterhaltes) Arbeitsmarktservicegesetz",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstiges",
+   "acro_name": "sonstiges",
+   "page": 4,
+   "bbox": [
+    63.0,
+    222.1,
+    77.6,
+    235.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstiges Einkommen aus ....................................................................",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Sonstiges Einkommen aus ....................................................................",
+     "bbox": [
+      63.0,
+      222.1,
+      77.6,
+      235.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstiges Einkommen aus",
+   "acro_name": "sonstiges Einkommen aus",
+   "page": 4,
+   "bbox": [
+    206.7,
+    216.7,
+    393.0,
+    232.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "# Sonstiges Einkommen",
+   "max_zeichen": 30,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Eink_5",
+   "acro_name": "Eink_5",
+   "page": 4,
+   "bbox": [
+    484.9,
+    216.7,
+    550.7,
+    232.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "aus .................................................................... brutto mtl.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankengeld",
+   "acro_name": "Krankengeld",
+   "page": 4,
+   "bbox": [
+    82.7,
+    272.5,
+    97.3,
+    285.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Krankenversicherung (zB Krankengeld, Rehabilitationsgeld)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Krankenversicherung (zB Krankengeld, Rehabilitationsgeld)",
+     "bbox": [
+      82.7,
+      272.5,
+      97.3,
+      285.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Eink_6",
+   "acro_name": "Eink_6",
+   "page": 4,
+   "bbox": [
+    484.9,
+    267.4,
+    550.7,
+    282.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankengeld, Rehabilitationsgeld) brutto mtl.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arbeitslosengeld",
+   "acro_name": "Arbeitslosengeld",
+   "page": 4,
+   "bbox": [
+    82.7,
+    294.8,
+    97.3,
+    307.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Arbeitslosenversicherung (zB Arbeitslosengeld, Notstandshilfe)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Arbeitslosenversicherung (zB Arbeitslosengeld, Notstandshilfe)",
+     "bbox": [
+      82.7,
+      294.8,
+      97.3,
+      307.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Eink_7",
+   "acro_name": "Eink_7",
+   "page": 4,
+   "bbox": [
+    484.9,
+    289.7,
+    550.7,
+    305.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "(zB Arbeitslosengeld, Notstandshilfe) brutto mtl.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rückfrage",
+   "acro_name": "Rückfrage",
+   "page": 4,
+   "bbox": [
+    63.0,
+    339.1,
+    531.0,
+    352.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Sind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      63.0,
+      339.1,
+      77.6,
+      352.3
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      516.4,
+      339.1,
+      531.0,
+      352.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arbeitgeber",
+   "acro_name": "Arbeitgeber",
+   "page": 4,
+   "bbox": [
+    99.1,
+    332.5,
+    508.8,
+    348.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "# ja",
+   "max_zeichen": 67,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "bereits Pflegegeld",
+   "acro_name": "bereits Pflegegeld",
+   "page": 4,
+   "bbox": [
+    63.0,
+    456.1,
+    531.0,
+    469.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "lienbeihilfe)?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja",
+     "bbox": [
+      63.0,
+      456.1,
+      77.6,
+      469.3
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      516.4,
+      456.1,
+      531.0,
+      469.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegegeld Traeger",
+   "acro_name": "Pflegegeld Traeger",
+   "page": 4,
+   "bbox": [
+    99.1,
+    450.6,
+    509.6,
+    466.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "# ja",
+   "max_zeichen": 67,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angehoeriger_1",
+   "acro_name": "Angehoeriger_1",
+   "page": 4,
+   "bbox": [
+    45.2,
+    574.5,
+    177.0,
+    609.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des*der Angehörigen",
+   "max_zeichen": 42,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1a",
+   "acro_name": "VSNR_1a",
+   "page": 4,
+   "bbox": [
+    180.4,
+    574.5,
+    256.9,
+    609.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsdatum",
+   "max_zeichen": 11,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verhaeltnis_1",
+   "acro_name": "Verhaeltnis_1",
+   "page": 4,
+   "bbox": [
+    259.9,
+    574.5,
+    336.5,
+    609.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "verhältnis",
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gem. Haushalt 1",
+   "acro_name": "Gem. Haushalt 1",
+   "page": 4,
+   "bbox": [
+    339.1,
+    579.3,
+    353.8,
+    607.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja, seit",
+     "bbox": [
+      339.1,
+      579.3,
+      353.8,
+      592.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      339.1,
+      594.2,
+      353.8,
+      607.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "seit_1",
+   "acro_name": "seit_1",
+   "page": 4,
+   "bbox": [
+    384.1,
+    574.5,
+    416.2,
+    588.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "# ja, seit",
+   "max_zeichen": 5,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ArtundHoehe_1",
+   "acro_name": "ArtundHoehe_1",
+   "page": 4,
+   "bbox": [
+    419.6,
+    574.5,
+    483.6,
+    609.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "# # ja, nein seit",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Euro_1",
+   "acro_name": "Euro_1",
+   "page": 4,
+   "bbox": [
+    511.5,
+    583.2,
+    551.9,
+    598.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "EUR",
+   "max_zeichen": 6,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angehoeriger_2",
+   "acro_name": "Angehoeriger_2",
+   "page": 4,
+   "bbox": [
+    45.2,
+    614.6,
+    177.0,
+    649.3
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 42,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_2",
+   "acro_name": "VSNR_2",
+   "page": 4,
+   "bbox": [
+    180.4,
+    614.6,
+    256.9,
+    649.3
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 11,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verhaeltnis_2",
+   "acro_name": "Verhaeltnis_2",
+   "page": 4,
+   "bbox": [
+    259.9,
+    614.6,
+    336.5,
+    649.3
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gem. Haushalt 2",
+   "acro_name": "Gem. Haushalt 2",
+   "page": 4,
+   "bbox": [
+    339.1,
+    618.7,
+    353.8,
+    647.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "#",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja, seit",
+     "bbox": [
+      339.1,
+      618.7,
+      353.8,
+      631.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      339.1,
+      634.7,
+      353.8,
+      647.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "seit_2",
+   "acro_name": "seit_2",
+   "page": 4,
+   "bbox": [
+    384.1,
+    614.2,
+    416.2,
+    628.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "# ja, seit",
+   "max_zeichen": 5,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ArtundHoehe_2",
+   "acro_name": "ArtundHoehe_2",
+   "page": 4,
+   "bbox": [
+    419.6,
+    614.6,
+    483.6,
+    649.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "# # ja, nein seit",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Euro_2",
+   "acro_name": "Euro_2",
+   "page": 4,
+   "bbox": [
+    511.5,
+    623.5,
+    551.9,
+    639.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "EUR",
+   "max_zeichen": 6,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angehoeriger_3",
+   "acro_name": "Angehoeriger_3",
+   "page": 4,
+   "bbox": [
+    45.2,
+    654.2,
+    177.0,
+    688.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 42,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_3",
+   "acro_name": "VSNR_3",
+   "page": 4,
+   "bbox": [
+    180.4,
+    654.2,
+    256.9,
+    688.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 11,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verhaeltnis_3",
+   "acro_name": "Verhaeltnis_3",
+   "page": 4,
+   "bbox": [
+    259.9,
+    654.2,
+    336.5,
+    688.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gem. Haushalt 3",
+   "acro_name": "Gem. Haushalt 3",
+   "page": 4,
+   "bbox": [
+    339.1,
+    658.6,
+    353.8,
+    686.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "#",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja, seit",
+     "bbox": [
+      339.1,
+      658.6,
+      353.8,
+      671.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      339.1,
+      673.6,
+      353.8,
+      686.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "seit_3",
+   "acro_name": "seit_3",
+   "page": 4,
+   "bbox": [
+    384.1,
+    654.0,
+    416.2,
+    668.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "# ja, seit",
+   "max_zeichen": 5,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ArtundHoehe_3",
+   "acro_name": "ArtundHoehe_3",
+   "page": 4,
+   "bbox": [
+    419.6,
+    654.2,
+    483.6,
+    688.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "# # ja, nein seit",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Euro_3",
+   "acro_name": "Euro_3",
+   "page": 4,
+   "bbox": [
+    511.5,
+    664.0,
+    551.9,
+    679.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "EUR",
+   "max_zeichen": 6,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angehoeriger_4",
+   "acro_name": "Angehoeriger_4",
+   "page": 4,
+   "bbox": [
+    45.2,
+    694.5,
+    177.0,
+    729.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 42,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_4",
+   "acro_name": "VSNR_4",
+   "page": 4,
+   "bbox": [
+    180.4,
+    694.5,
+    256.9,
+    729.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 11,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verhaeltnis_4",
+   "acro_name": "Verhaeltnis_4",
+   "page": 4,
+   "bbox": [
+    259.9,
+    694.5,
+    336.5,
+    729.2
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 24,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gem. Haushalt 4",
+   "acro_name": "Gem. Haushalt 4",
+   "page": 4,
+   "bbox": [
+    339.1,
+    698.6,
+    353.8,
+    726.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "#",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ja, seit",
+     "bbox": [
+      339.1,
+      698.6,
+      353.8,
+      711.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      339.1,
+      713.6,
+      353.8,
+      726.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "seit_4",
+   "acro_name": "seit_4",
+   "page": 4,
+   "bbox": [
+    384.1,
+    693.6,
+    416.2,
+    707.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "# ja, seit",
+   "max_zeichen": 5,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ArtundHoehe_4",
+   "acro_name": "ArtundHoehe_4",
+   "page": 4,
+   "bbox": [
+    419.6,
+    694.5,
+    483.6,
+    729.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "# # ja, nein seit",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Euro_4",
+   "acro_name": "Euro_4",
+   "page": 4,
+   "bbox": [
+    511.5,
+    703.0,
+    551.9,
+    718.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "EUR",
+   "max_zeichen": 6,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p5",
+   "acro_name": "VSNR_1",
+   "page": 5,
+   "bbox": [
+    436.4,
+    3.8,
+    591.8,
+    22.4
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Konto",
+   "acro_name": "Konto",
+   "page": 5,
+   "bbox": [
+    62.9,
+    105.8,
+    77.5,
+    181.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Die",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "wird gewünscht",
+     "bbox": [
+      62.9,
+      105.8,
+      77.5,
+      118.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "wird nicht gewünscht. Barzahlung wird ausdrücklich beantragt.",
+     "bbox": [
+      62.9,
+      168.3,
+      77.5,
+      181.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bank",
+   "acro_name": "Bank",
+   "page": 5,
+   "bbox": [
+    164.8,
+    118.9,
+    268.6,
+    134.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Konto bei",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.institut",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kontoinhaber",
+   "acro_name": "Kontoinhaber",
+   "page": 5,
+   "bbox": [
+    378.3,
+    118.9,
+    550.5,
+    134.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "bei (Bank): ...................................... lautend auf",
+   "max_zeichen": 28,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.kontoinhaber",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN",
+   "acro_name": "IBAN",
+   "page": 5,
+   "bbox": [
+    112.7,
+    142.4,
+    364.6,
+    158.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Konto bei (Bank): ...................................... lautend auf (Name): ...............................................................",
+   "max_zeichen": 41,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BIC",
+   "acro_name": "BIC",
+   "page": 5,
+   "bbox": [
+    405.9,
+    142.4,
+    550.5,
+    158.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN: ...........................................................................................",
+   "max_zeichen": 23,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.bic",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort Antrag_1",
+   "acro_name": "Ort Antrag_1",
+   "page": 5,
+   "bbox": [
+    68.4,
+    544.4,
+    139.9,
+    560.0
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 5,
+   "bbox": [
+    142.3,
+    544.4,
+    208.9,
+    560.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beilagen",
+   "acro_name": "Beilagen",
+   "page": 5,
+   "bbox": [
+    65.2,
+    635.1,
+    555.4,
+    705.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Folgende Unterlagen werden dem Antrag angeschlossen:",
+   "max_zeichen": 486,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p13",
+   "acro_name": "VSNR_1",
+   "page": 13,
+   "bbox": [
+    351.8,
+    166.2,
+    550.7,
+    183.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_2#p13",
+   "acro_name": "VSNR_2",
+   "page": 13,
+   "bbox": [
+    383.7,
+    344.7,
+    549.8,
+    363.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "VSNR / Geburtsdatum",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname_KEZ",
+   "acro_name": "Familienname_KEZ",
+   "page": 13,
+   "bbox": [
+    143.2,
+    377.6,
+    379.0,
+    403.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname",
+   "max_zeichen": 38,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Titel_KEZ",
+   "acro_name": "Titel_KEZ",
+   "page": 13,
+   "bbox": [
+    467.8,
+    377.6,
+    551.9,
+    403.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel",
+   "max_zeichen": 13,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname_KEZ",
+   "acro_name": "Vorname_KEZ",
+   "page": 13,
+   "bbox": [
+    143.2,
+    405.9,
+    379.0,
+    431.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": 38,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht_KEZ",
+   "acro_name": "Geschlecht_KEZ",
+   "page": 13,
+   "bbox": [
+    467.8,
+    405.9,
+    551.9,
+    431.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geschlecht",
+   "max_zeichen": 13,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GU Ausland",
+   "acro_name": "GU Ausland",
+   "page": 13,
+   "bbox": [
+    456.5,
+    602.5,
+    530.3,
+    616.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geburtsurkunde bei Geburt im Ausland",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Geburtsurkunde bei Geburt im Ausland",
+     "bbox": [
+      456.5,
+      602.5,
+      470.7,
+      616.7
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      516.1,
+      602.5,
+      530.3,
+      616.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vaternw",
+   "acro_name": "Vaternw",
+   "page": 13,
+   "bbox": [
+    456.5,
+    631.5,
+    530.3,
+    645.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Vaterschaftsnachweis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Vaterschaftsnachweis",
+     "bbox": [
+      456.5,
+      631.5,
+      470.7,
+      645.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      516.1,
+      631.5,
+      530.3,
+      645.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Heiratsurkunde",
+   "acro_name": "Heiratsurkunde",
+   "page": 13,
+   "bbox": [
+    456.5,
+    664.5,
+    530.3,
+    678.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "leiblichen Heiratsurkunde Elternteil oder des Kindes Partnerschaftsurkunde mit dem",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "leiblichen Heiratsurkunde Elternteil oder des Kindes Partnerschaftsurkunde mit dem",
+     "bbox": [
+      456.5,
+      664.5,
+      470.7,
+      678.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      516.1,
+      664.5,
+      530.3,
+      678.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adoptionsvertrag",
+   "acro_name": "Adoptionsvertrag",
+   "page": 13,
+   "bbox": [
+    456.5,
+    698.8,
+    530.3,
+    712.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Adoptionsvertrag oder Adoptionsurkunde",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Adoptionsvertrag oder Adoptionsurkunde",
+     "bbox": [
+      456.5,
+      698.8,
+      470.7,
+      712.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      516.1,
+      698.8,
+      530.3,
+      712.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegschaftsvertrag",
+   "acro_name": "Pflegschaftsvertrag",
+   "page": 13,
+   "bbox": [
+    456.5,
+    739.5,
+    530.3,
+    753.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "dem 31.12.1987 erfolgte:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "dem 31.12.1987 erfolgte:",
+     "bbox": [
+      456.5,
+      739.5,
+      470.7,
+      753.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      516.1,
+      739.5,
+      530.3,
+      753.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p14",
+   "acro_name": "VSNR_1",
+   "page": 14,
+   "bbox": [
+    60.6,
+    50.5,
+    78.3,
+    249.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name Vers",
+   "acro_name": "Name Vers",
+   "page": 14,
+   "bbox": [
+    78.9,
+    469.3,
+    91.5,
+    761.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ankreuzen endes Zutreﬀ Bitte  ERKLÄRUNG",
+   "max_zeichen": 48,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat Vers_dd",
+   "acro_name": "Gebdat Vers_dd",
+   "page": 14,
+   "bbox": [
+    78.9,
+    410.9,
+    91.5,
+    436.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR",
+   "max_zeichen": 2,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat Vers_mm",
+   "acro_name": "Gebdat Vers_mm",
+   "page": 14,
+   "bbox": [
+    78.9,
+    381.1,
+    91.5,
+    406.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 2,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gebdat Vers_jjjj",
+   "acro_name": "Gebdat Vers_jjjj",
+   "page": 14,
+   "bbox": [
+    78.9,
+    326.2,
+    91.5,
+    376.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG",
+   "max_zeichen": 4,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ich/Verstorbene",
+   "acro_name": "Ich/Verstorbene",
+   "page": 14,
+   "bbox": [
+    104.3,
+    695.7,
+    118.4,
+    780.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Ich",
+     "bbox": [
+      104.3,
+      766.6,
+      118.4,
+      780.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "die",
+     "bbox": [
+      104.3,
+      695.7,
+      118.4,
+      709.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zuname Kind 1",
+   "acro_name": "Zuname Kind 1",
+   "page": 14,
+   "bbox": [
+    149.2,
+    424.7,
+    166.2,
+    546.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG geb.: , tatsächlich Kind(er) angeführte(s) Kind 1.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zuname Kind 2",
+   "acro_name": "Zuname Kind 2",
+   "page": 14,
+   "bbox": [
+    149.2,
+    299.9,
+    166.2,
+    421.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG erkläre erzogen überwiegend und Kind 2.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zuname Kind 3",
+   "acro_name": "Zuname Kind 3",
+   "page": 14,
+   "bbox": [
+    149.2,
+    175.1,
+    166.2,
+    297.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "dass wahrheitsgemäß, (hat). habe Kind 3.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zuname Kind 4",
+   "acro_name": "Zuname Kind 4",
+   "page": 14,
+   "bbox": [
+    149.2,
+    50.2,
+    166.2,
+    172.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kind 1",
+   "acro_name": "Vorname Kind 1",
+   "page": 14,
+   "bbox": [
+    169.2,
+    424.7,
+    186.2,
+    546.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG geb.: , tatsächlich Kind(er) angeführte(s) Kind 1.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kind 2",
+   "acro_name": "Vorname Kind 2",
+   "page": 14,
+   "bbox": [
+    169.2,
+    299.9,
+    186.2,
+    421.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG erkläre erzogen überwiegend und Kind 2.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kind 3",
+   "acro_name": "Vorname Kind 3",
+   "page": 14,
+   "bbox": [
+    169.2,
+    175.1,
+    186.2,
+    297.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "dass wahrheitsgemäß, (hat). habe Kind 3.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kind 4",
+   "acro_name": "Vorname Kind 4",
+   "page": 14,
+   "bbox": [
+    169.2,
+    50.2,
+    186.2,
+    172.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR Geburt Kind 1",
+   "acro_name": "VSNR Geburt Kind 1",
+   "page": 14,
+   "bbox": [
+    189.2,
+    424.7,
+    206.2,
+    546.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG geb.: , tatsächlich Kind(er) angeführte(s) Kind 1.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR Geburt Kind 2",
+   "acro_name": "VSNR Geburt Kind 2",
+   "page": 14,
+   "bbox": [
+    189.2,
+    299.9,
+    206.2,
+    421.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG erkläre erzogen überwiegend und Kind 2.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR Geburt Kind 3",
+   "acro_name": "VSNR Geburt Kind 3",
+   "page": 14,
+   "bbox": [
+    189.2,
+    175.1,
+    206.2,
+    297.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "dass wahrheitsgemäß, (hat). habe Kind 3.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR Geburt Kind 4",
+   "acro_name": "VSNR Geburt Kind 4",
+   "page": 14,
+   "bbox": [
+    189.2,
+    50.2,
+    206.2,
+    172.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geb Kind 1",
+   "acro_name": "Geb Kind 1",
+   "page": 14,
+   "bbox": [
+    209.2,
+    424.7,
+    226.2,
+    546.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG geb.: , tatsächlich Kind(er) angeführte(s) Kind 1.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geb Kind 2",
+   "acro_name": "Geb Kind 2",
+   "page": 14,
+   "bbox": [
+    209.2,
+    299.9,
+    226.2,
+    421.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG erkläre erzogen überwiegend und Kind 2.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geb Kind 3",
+   "acro_name": "Geb Kind 3",
+   "page": 14,
+   "bbox": [
+    209.2,
+    175.1,
+    226.2,
+    297.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "dass wahrheitsgemäß, (hat). habe Kind 3.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geb Kind 4",
+   "acro_name": "Geb Kind 4",
+   "page": 14,
+   "bbox": [
+    209.2,
+    50.2,
+    226.2,
+    172.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art Kind 1",
+   "acro_name": "Art Kind 1",
+   "page": 14,
+   "bbox": [
+    229.2,
+    424.7,
+    246.2,
+    546.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG geb.: , tatsächlich Kind(er) angeführte(s) Kind 1.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art Kind 2",
+   "acro_name": "Art Kind 2",
+   "page": 14,
+   "bbox": [
+    229.2,
+    299.9,
+    246.2,
+    421.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG erkläre erzogen überwiegend und Kind 2.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art Kind 3",
+   "acro_name": "Art Kind 3",
+   "page": 14,
+   "bbox": [
+    229.2,
+    175.1,
+    246.2,
+    297.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "dass wahrheitsgemäß, (hat). habe Kind 3.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art Kind 4",
+   "acro_name": "Art Kind 4",
+   "page": 14,
+   "bbox": [
+    229.2,
+    50.2,
+    246.2,
+    172.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop 1",
+   "acro_name": "Adop 1",
+   "page": 14,
+   "bbox": [
+    250.4,
+    446.6,
+    265.6,
+    545.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ja,",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "  seit  vom bis ",
+     "bbox": [
+      251.4,
+      531.2,
+      265.6,
+      545.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      250.4,
+      446.6,
+      264.6,
+      460.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop Dat 1",
+   "acro_name": "Adop Dat 1",
+   "page": 14,
+   "bbox": [
+    248.2,
+    464.4,
+    262.3,
+    498.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "ERKLÄRUNG , Kind(er) Kind 1.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop 2",
+   "acro_name": "Adop 2",
+   "page": 14,
+   "bbox": [
+    250.4,
+    321.9,
+    264.8,
+    420.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ja,",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "  seit  vom bis ",
+     "bbox": [
+      250.6,
+      406.4,
+      264.8,
+      420.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      250.4,
+      321.9,
+      264.6,
+      336.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop Dat 2",
+   "acro_name": "Adop Dat 2",
+   "page": 14,
+   "bbox": [
+    248.7,
+    339.2,
+    262.8,
+    373.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "überwiegend Kind 2.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop 3",
+   "acro_name": "Adop 3",
+   "page": 14,
+   "bbox": [
+    250.4,
+    197.2,
+    264.6,
+    295.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "habe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "  seit  vom bis ",
+     "bbox": [
+      250.4,
+      281.6,
+      264.6,
+      295.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      250.4,
+      197.2,
+      264.6,
+      211.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop Dat 3",
+   "acro_name": "Adop Dat 3",
+   "page": 14,
+   "bbox": [
+    248.0,
+    214.6,
+    262.2,
+    248.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop 4",
+   "acro_name": "Adop 4",
+   "page": 14,
+   "bbox": [
+    250.4,
+    72.3,
+    264.6,
+    171.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ja,",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "  seit  vom bis ",
+     "bbox": [
+      250.4,
+      156.9,
+      264.6,
+      171.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      250.4,
+      72.3,
+      264.6,
+      86.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop Dat 4",
+   "acro_name": "Adop Dat 4",
+   "page": 14,
+   "bbox": [
+    248.5,
+    89.9,
+    262.7,
+    123.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop frei 1",
+   "acro_name": "Adop frei 1",
+   "page": 14,
+   "bbox": [
+    267.8,
+    446.6,
+    283.0,
+    545.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " seit  vom bis ",
+     "bbox": [
+      268.8,
+      531.2,
+      283.0,
+      545.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      267.8,
+      446.6,
+      282.0,
+      460.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Freigabe Adop Dat 1",
+   "acro_name": "Freigabe Adop Dat 1",
+   "page": 14,
+   "bbox": [
+    265.6,
+    464.4,
+    279.8,
+    498.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "ERKLÄRUNG , Kind(er) Kind 1.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop frei 2",
+   "acro_name": "Adop frei 2",
+   "page": 14,
+   "bbox": [
+    267.8,
+    321.9,
+    282.0,
+    420.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " seit  vom bis ",
+     "bbox": [
+      267.8,
+      406.4,
+      282.0,
+      420.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      267.8,
+      321.9,
+      282.0,
+      336.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Freigabe Adop Dat 2",
+   "acro_name": "Freigabe Adop Dat 2",
+   "page": 14,
+   "bbox": [
+    265.2,
+    339.2,
+    279.4,
+    373.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "überwiegend Kind 2.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop frei 3",
+   "acro_name": "Adop frei 3",
+   "page": 14,
+   "bbox": [
+    267.8,
+    197.2,
+    282.0,
+    295.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " seit  vom bis ",
+     "bbox": [
+      267.8,
+      281.6,
+      282.0,
+      295.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      267.8,
+      197.2,
+      282.0,
+      211.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Freigabe Adop Dat 3",
+   "acro_name": "Freigabe Adop Dat 3",
+   "page": 14,
+   "bbox": [
+    265.1,
+    214.6,
+    279.2,
+    248.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adop frei 4",
+   "acro_name": "Adop frei 4",
+   "page": 14,
+   "bbox": [
+    267.8,
+    72.3,
+    282.0,
+    171.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " seit  vom bis ",
+     "bbox": [
+      267.8,
+      156.9,
+      282.0,
+      171.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      267.8,
+      72.3,
+      282.0,
+      86.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Freigabe Adop Dat 4",
+   "acro_name": "Freigabe Adop Dat 4",
+   "page": 14,
+   "bbox": [
+    264.9,
+    89.9,
+    279.1,
+    123.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind1",
+   "acro_name": "Pflegekind1",
+   "page": 14,
+   "bbox": [
+    290.3,
+    446.6,
+    304.5,
+    545.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": " ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "seit  vom bis ",
+     "bbox": [
+      290.3,
+      531.2,
+      304.5,
+      545.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      290.3,
+      446.6,
+      304.5,
+      460.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind2",
+   "acro_name": "Pflegekind2",
+   "page": 14,
+   "bbox": [
+    290.3,
+    321.9,
+    304.5,
+    420.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": " ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "seit  vom bis ",
+     "bbox": [
+      290.3,
+      406.4,
+      304.5,
+      420.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      290.3,
+      321.9,
+      304.5,
+      336.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind3",
+   "acro_name": "Pflegekind3",
+   "page": 14,
+   "bbox": [
+    290.3,
+    197.2,
+    304.5,
+    295.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": " ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "seit  vom bis ",
+     "bbox": [
+      290.3,
+      281.6,
+      304.5,
+      295.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      290.3,
+      197.2,
+      304.5,
+      211.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind4",
+   "acro_name": "Pflegekind4",
+   "page": 14,
+   "bbox": [
+    290.3,
+    72.3,
+    304.5,
+    171.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": " ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "seit  vom bis ",
+     "bbox": [
+      290.3,
+      156.9,
+      304.5,
+      171.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      290.3,
+      72.3,
+      304.5,
+      86.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 1",
+   "acro_name": "Pflegekind Dat 1",
+   "page": 14,
+   "bbox": [
+    306.3,
+    428.1,
+    320.5,
+    525.8
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 2",
+   "acro_name": "Pflegekind Dat 2",
+   "page": 14,
+   "bbox": [
+    306.3,
+    303.8,
+    320.5,
+    401.5
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 3",
+   "acro_name": "Pflegekind Dat 3",
+   "page": 14,
+   "bbox": [
+    306.3,
+    179.4,
+    320.5,
+    277.1
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 4",
+   "acro_name": "Pflegekind Dat 4",
+   "page": 14,
+   "bbox": [
+    306.3,
+    54.2,
+    320.5,
+    152.0
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekindergeld1",
+   "acro_name": "Pflegekindergeld1",
+   "page": 14,
+   "bbox": [
+    329.0,
+    446.6,
+    344.2,
+    545.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis ",
+     "bbox": [
+      330.0,
+      531.2,
+      344.2,
+      545.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "  ",
+     "bbox": [
+      329.0,
+      446.6,
+      343.2,
+      460.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekindergeld2",
+   "acro_name": "Pflegekindergeld2",
+   "page": 14,
+   "bbox": [
+    329.0,
+    321.9,
+    343.2,
+    420.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis ",
+     "bbox": [
+      329.0,
+      406.4,
+      343.2,
+      420.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "  ",
+     "bbox": [
+      329.0,
+      321.9,
+      343.2,
+      336.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekindergeld3",
+   "acro_name": "Pflegekindergeld3",
+   "page": 14,
+   "bbox": [
+    329.0,
+    197.2,
+    343.2,
+    295.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis ",
+     "bbox": [
+      329.0,
+      281.6,
+      343.2,
+      295.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "  ",
+     "bbox": [
+      329.0,
+      197.2,
+      343.2,
+      211.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekindergeld4",
+   "acro_name": "Pflegekindergeld4",
+   "page": 14,
+   "bbox": [
+    329.0,
+    72.3,
+    343.2,
+    171.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis ",
+     "bbox": [
+      329.0,
+      156.9,
+      343.2,
+      171.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "  ",
+     "bbox": [
+      329.0,
+      72.3,
+      343.2,
+      86.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 1 v",
+   "acro_name": "Pflegekind Dat 1 v",
+   "page": 14,
+   "bbox": [
+    344.1,
+    428.6,
+    358.9,
+    524.0
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 2 v",
+   "acro_name": "Pflegekind Dat 2 v",
+   "page": 14,
+   "bbox": [
+    344.1,
+    304.3,
+    358.9,
+    399.7
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 3 v",
+   "acro_name": "Pflegekind Dat 3 v",
+   "page": 14,
+   "bbox": [
+    344.1,
+    179.0,
+    358.9,
+    274.3
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 4 v",
+   "acro_name": "Pflegekind Dat 4 v",
+   "page": 14,
+   "bbox": [
+    344.1,
+    54.6,
+    358.9,
+    149.9
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 1 b",
+   "acro_name": "Pflegekind Dat 1 b",
+   "page": 14,
+   "bbox": [
+    362.1,
+    428.6,
+    376.8,
+    528.7
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegekind Dat 2 b",
+   "acro_name": "Pflegekind Dat 2 b",
+   "page": 14,
+   "bbox": [
+    362.1,
+    304.3,
+    376.8,
+    404.4
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PflegekindDat 3 b",
+   "acro_name": "PflegekindDat 3 b",
+   "page": 14,
+   "bbox": [
+    362.1,
+    179.0,
+    376.8,
+    279.0
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PflegekindDat 4 b",
+   "acro_name": "PflegekindDat 4 b",
+   "page": 14,
+   "bbox": [
+    362.1,
+    54.6,
+    376.8,
+    154.7
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein am ja,  nein am ja,  nein ja  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Übernahme Beiträge Pflegekind1",
+   "acro_name": "Übernahme Beiträge Pflegekind1",
+   "page": 14,
+   "bbox": [
+    384.3,
+    446.7,
+    398.5,
+    545.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "   seit  vom bis",
+     "bbox": [
+      384.3,
+      531.3,
+      397.8,
+      545.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "   ",
+     "bbox": [
+      384.3,
+      446.7,
+      398.5,
+      460.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Übernahme Beiträge Pflegekind2",
+   "acro_name": "Übernahme Beiträge Pflegekind2",
+   "page": 14,
+   "bbox": [
+    384.3,
+    322.0,
+    398.5,
+    420.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "   seit  vom bis",
+     "bbox": [
+      384.3,
+      406.5,
+      398.5,
+      420.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "   ",
+     "bbox": [
+      384.3,
+      322.0,
+      398.5,
+      336.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Übernahme Beiträge Pflegekind3",
+   "acro_name": "Übernahme Beiträge Pflegekind3",
+   "page": 14,
+   "bbox": [
+    384.3,
+    197.3,
+    398.5,
+    295.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "   seit  vom bis",
+     "bbox": [
+      384.3,
+      281.7,
+      398.5,
+      295.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "   ",
+     "bbox": [
+      384.3,
+      197.3,
+      398.5,
+      211.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Übernahme Beiträge Pflegekind4",
+   "acro_name": "Übernahme Beiträge Pflegekind4",
+   "page": 14,
+   "bbox": [
+    384.3,
+    72.4,
+    398.5,
+    171.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "   seit  vom bis",
+     "bbox": [
+      384.3,
+      157.0,
+      398.5,
+      171.1
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "   ",
+     "bbox": [
+      384.3,
+      72.4,
+      398.5,
+      86.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Inl 1",
+   "acro_name": "Erz Inl 1",
+   "page": 14,
+   "bbox": [
+    442.3,
+    531.2,
+    474.5,
+    545.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis vom bis",
+     "bbox": [
+      442.3,
+      531.2,
+      456.5,
+      545.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "vom bis vom bis",
+     "bbox": [
+      460.3,
+      531.2,
+      474.5,
+      545.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Inl 2",
+   "acro_name": "Erz Inl 2",
+   "page": 14,
+   "bbox": [
+    442.3,
+    406.4,
+    474.5,
+    420.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis vom bis",
+     "bbox": [
+      442.3,
+      406.4,
+      456.5,
+      420.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "vom bis vom bis",
+     "bbox": [
+      460.3,
+      406.4,
+      474.5,
+      420.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Inl 3",
+   "acro_name": "Erz Inl 3",
+   "page": 14,
+   "bbox": [
+    442.3,
+    281.6,
+    474.5,
+    295.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis vom bis",
+     "bbox": [
+      442.3,
+      281.6,
+      456.5,
+      295.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "vom bis vom bis",
+     "bbox": [
+      460.3,
+      281.9,
+      474.5,
+      295.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Inl 4",
+   "acro_name": "Erz Inl 4",
+   "page": 14,
+   "bbox": [
+    442.3,
+    156.9,
+    474.5,
+    171.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "   seit  vom bis ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis vom bis",
+     "bbox": [
+      442.3,
+      156.9,
+      456.5,
+      171.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "vom bis vom bis",
+     "bbox": [
+      460.3,
+      156.9,
+      474.5,
+      171.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 1 v",
+   "acro_name": "Erz Dat 1 v",
+   "page": 14,
+   "bbox": [
+    474.1,
+    426.6,
+    488.9,
+    522.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 2 v",
+   "acro_name": "Erz Dat 2 v",
+   "page": 14,
+   "bbox": [
+    474.1,
+    302.3,
+    488.9,
+    397.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 3 v",
+   "acro_name": "Erz Dat 3 v",
+   "page": 14,
+   "bbox": [
+    474.1,
+    177.0,
+    488.9,
+    272.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 4 v",
+   "acro_name": "Erz Dat 4 v",
+   "page": 14,
+   "bbox": [
+    474.1,
+    52.6,
+    488.9,
+    147.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 1 b",
+   "acro_name": "Erz Dat 1 b",
+   "page": 14,
+   "bbox": [
+    491.1,
+    426.6,
+    505.8,
+    526.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 2 b",
+   "acro_name": "Erz Dat 2 b",
+   "page": 14,
+   "bbox": [
+    491.1,
+    302.3,
+    505.8,
+    402.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 3 b",
+   "acro_name": "Erz Dat 3 b",
+   "page": 14,
+   "bbox": [
+    491.1,
+    177.0,
+    505.8,
+    277.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 4 b",
+   "acro_name": "Erz Dat 4 b",
+   "page": 14,
+   "bbox": [
+    491.1,
+    52.6,
+    505.8,
+    152.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 5 v",
+   "acro_name": "Erz Dat 5 v",
+   "page": 14,
+   "bbox": [
+    510.1,
+    426.6,
+    524.8,
+    522.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 6 v",
+   "acro_name": "Erz Dat 6 v",
+   "page": 14,
+   "bbox": [
+    510.1,
+    302.3,
+    524.8,
+    397.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 7 v",
+   "acro_name": "Erz Dat 7 v",
+   "page": 14,
+   "bbox": [
+    510.1,
+    177.0,
+    524.8,
+    272.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 8 v",
+   "acro_name": "Erz Dat 8 v",
+   "page": 14,
+   "bbox": [
+    510.1,
+    52.6,
+    524.8,
+    148.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 5 b",
+   "acro_name": "Erz Dat 5 b",
+   "page": 14,
+   "bbox": [
+    528.0,
+    426.6,
+    542.7,
+    527.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 6 b",
+   "acro_name": "Erz Dat 6 b",
+   "page": 14,
+   "bbox": [
+    528.0,
+    302.3,
+    542.7,
+    403.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 7 b",
+   "acro_name": "Erz Dat 7 b",
+   "page": 14,
+   "bbox": [
+    528.0,
+    177.0,
+    542.7,
+    277.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat 8 b",
+   "acro_name": "Erz Dat 8 b",
+   "page": 14,
+   "bbox": [
+    528.0,
+    52.6,
+    542.7,
+    153.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "ja Zeit der in nur nein,",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p15",
+   "acro_name": "VSNR_1",
+   "page": 15,
+   "bbox": [
+    6.3,
+    5.2,
+    24.0,
+    204.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "feld_id": "Erz Ausl 1",
+   "acro_name": "Erz Ausl 1",
+   "page": 15,
+   "bbox": [
+    80.4,
+    447.6,
+    94.6,
+    545.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis Staat vom bis Staat",
+     "bbox": [
+      80.4,
+      531.4,
+      94.6,
+      545.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      80.4,
+      447.6,
+      94.6,
+      461.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Ausl 2",
+   "acro_name": "Erz Ausl 2",
+   "page": 15,
+   "bbox": [
+    80.4,
+    322.8,
+    94.6,
+    420.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis Staat vom bis Staat",
+     "bbox": [
+      80.4,
+      406.6,
+      94.6,
+      420.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      80.4,
+      322.8,
+      94.6,
+      337.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Ausl 3",
+   "acro_name": "Erz Ausl 3",
+   "page": 15,
+   "bbox": [
+    80.4,
+    198.1,
+    94.6,
+    296.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis Staat vom bis Staat",
+     "bbox": [
+      80.4,
+      281.9,
+      94.6,
+      296.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      80.4,
+      198.1,
+      94.6,
+      212.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Ausl 4",
+   "acro_name": "Erz Ausl 4",
+   "page": 15,
+   "bbox": [
+    80.4,
+    73.5,
+    94.6,
+    171.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "vom bis Staat vom bis Staat",
+     "bbox": [
+      80.4,
+      157.2,
+      94.6,
+      171.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "nein",
+     "bbox": [
+      80.4,
+      73.5,
+      94.6,
+      87.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 1 v",
+   "acro_name": "Erz Dat Ausl 1 v",
+   "page": 15,
+   "bbox": [
+    95.1,
+    427.7,
+    109.3,
+    522.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 2 v",
+   "acro_name": "Erz Dat Ausl 2 v",
+   "page": 15,
+   "bbox": [
+    95.1,
+    302.7,
+    109.3,
+    397.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 3 v",
+   "acro_name": "Erz Dat Ausl 3 v",
+   "page": 15,
+   "bbox": [
+    95.1,
+    178.0,
+    109.3,
+    272.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 4 v",
+   "acro_name": "Erz Dat Ausl 4 v",
+   "page": 15,
+   "bbox": [
+    95.1,
+    53.2,
+    109.3,
+    147.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 1 b",
+   "acro_name": "Erz Dat Ausl 1 b",
+   "page": 15,
+   "bbox": [
+    112.7,
+    427.7,
+    126.8,
+    527.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 2 b",
+   "acro_name": "Erz Dat Ausl 2 b",
+   "page": 15,
+   "bbox": [
+    112.7,
+    302.7,
+    126.8,
+    402.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 3 b",
+   "acro_name": "Erz Dat Ausl 3 b",
+   "page": 15,
+   "bbox": [
+    112.7,
+    178.0,
+    126.8,
+    277.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 4 b",
+   "acro_name": "Erz Dat Ausl 4 b",
+   "page": 15,
+   "bbox": [
+    112.7,
+    53.2,
+    126.8,
+    153.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat1",
+   "acro_name": "Staat1",
+   "page": 15,
+   "bbox": [
+    129.1,
+    427.7,
+    143.3,
+    519.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat2",
+   "acro_name": "Staat2",
+   "page": 15,
+   "bbox": [
+    128.4,
+    302.7,
+    142.6,
+    394.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat3",
+   "acro_name": "Staat3",
+   "page": 15,
+   "bbox": [
+    129.1,
+    178.0,
+    143.3,
+    269.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat4",
+   "acro_name": "Staat4",
+   "page": 15,
+   "bbox": [
+    129.1,
+    53.2,
+    143.3,
+    144.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 5 v",
+   "acro_name": "Erz Dat Ausl 5 v",
+   "page": 15,
+   "bbox": [
+    145.7,
+    427.7,
+    159.9,
+    522.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 6 v",
+   "acro_name": "Erz Dat Ausl 6 v",
+   "page": 15,
+   "bbox": [
+    145.7,
+    303.1,
+    159.9,
+    397.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 7 v",
+   "acro_name": "Erz Dat Ausl 7 v",
+   "page": 15,
+   "bbox": [
+    145.7,
+    178.0,
+    159.9,
+    272.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 8 v",
+   "acro_name": "Erz Dat Ausl 8 v",
+   "page": 15,
+   "bbox": [
+    145.7,
+    53.2,
+    159.9,
+    147.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.  nein ja",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 5 b",
+   "acro_name": "Erz Dat Ausl 5 b",
+   "page": 15,
+   "bbox": [
+    163.3,
+    427.0,
+    177.5,
+    526.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 6 b",
+   "acro_name": "Erz Dat Ausl 6 b",
+   "page": 15,
+   "bbox": [
+    163.3,
+    302.7,
+    177.5,
+    402.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 7 b",
+   "acro_name": "Erz Dat Ausl 7 b",
+   "page": 15,
+   "bbox": [
+    163.3,
+    178.0,
+    177.5,
+    277.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erz Dat Ausl 8 b",
+   "acro_name": "Erz Dat Ausl 8 b",
+   "page": 15,
+   "bbox": [
+    163.3,
+    53.2,
+    177.5,
+    153.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.  nein ja",
+   "max_zeichen": 16,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat5",
+   "acro_name": "Staat5",
+   "page": 15,
+   "bbox": [
+    179.8,
+    427.7,
+    194.0,
+    519.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat6",
+   "acro_name": "Staat6",
+   "page": 15,
+   "bbox": [
+    179.8,
+    302.7,
+    194.0,
+    394.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat7",
+   "acro_name": "Staat7",
+   "page": 15,
+   "bbox": [
+    179.8,
+    178.0,
+    194.0,
+    269.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staat8",
+   "acro_name": "Staat8",
+   "page": 15,
+   "bbox": [
+    179.8,
+    53.2,
+    194.0,
+    144.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.  nein",
+   "max_zeichen": 14,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Karenz 1",
+   "acro_name": "Karenz 1",
+   "page": 15,
+   "bbox": [
+    214.6,
+    446.6,
+    228.8,
+    544.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis Staat vom bis Staat",
+     "bbox": [
+      214.6,
+      531.0,
+      228.8,
+      544.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      214.6,
+      446.6,
+      228.8,
+      460.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Karenz 2",
+   "acro_name": "Karenz 2",
+   "page": 15,
+   "bbox": [
+    214.6,
+    321.8,
+    228.8,
+    419.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis Staat vom bis Staat",
+     "bbox": [
+      214.6,
+      405.6,
+      228.8,
+      419.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      214.6,
+      321.8,
+      228.8,
+      336.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Karenz 3",
+   "acro_name": "Karenz 3",
+   "page": 15,
+   "bbox": [
+    214.6,
+    197.1,
+    228.8,
+    295.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis Staat vom bis Staat",
+     "bbox": [
+      214.6,
+      280.9,
+      228.8,
+      295.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      214.6,
+      197.1,
+      228.8,
+      211.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Karenz 4",
+   "acro_name": "Karenz 4",
+   "page": 15,
+   "bbox": [
+    214.6,
+    72.5,
+    228.8,
+    170.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": " vom bis Staat vom bis Staat",
+     "bbox": [
+      214.6,
+      156.2,
+      228.8,
+      170.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      214.6,
+      72.5,
+      228.8,
+      86.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person 1",
+   "acro_name": "Andere Person 1",
+   "page": 15,
+   "bbox": [
+    245.6,
+    446.6,
+    259.8,
+    544.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Person",
+     "bbox": [
+      245.6,
+      530.4,
+      259.8,
+      544.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      245.6,
+      446.6,
+      259.8,
+      460.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person 2",
+   "acro_name": "Andere Person 2",
+   "page": 15,
+   "bbox": [
+    245.6,
+    321.8,
+    259.8,
+    419.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Person",
+     "bbox": [
+      245.6,
+      405.6,
+      259.8,
+      419.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      245.6,
+      321.8,
+      259.8,
+      336.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person 3",
+   "acro_name": "Andere Person 3",
+   "page": 15,
+   "bbox": [
+    245.6,
+    197.1,
+    259.8,
+    295.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Person",
+     "bbox": [
+      245.6,
+      280.9,
+      259.8,
+      295.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      245.6,
+      197.1,
+      259.8,
+      211.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person 4",
+   "acro_name": "Andere Person 4",
+   "page": 15,
+   "bbox": [
+    245.6,
+    72.5,
+    259.8,
+    170.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": " vom bis Staat vom bis Staat ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Person",
+     "bbox": [
+      245.6,
+      156.2,
+      259.8,
+      170.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      245.6,
+      72.5,
+      259.8,
+      86.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "andere Person1",
+   "acro_name": "andere Person1",
+   "page": 15,
+   "bbox": [
+    262.1,
+    429.1,
+    275.1,
+    475.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein  nein",
+   "max_zeichen": 7,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "andere Person2",
+   "acro_name": "andere Person2",
+   "page": 15,
+   "bbox": [
+    261.4,
+    305.3,
+    274.5,
+    351.4
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein  nein",
+   "max_zeichen": 7,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "andere Person3",
+   "acro_name": "andere Person3",
+   "page": 15,
+   "bbox": [
+    261.6,
+    180.3,
+    274.7,
+    226.4
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein  nein",
+   "max_zeichen": 7,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "andere Person4",
+   "acro_name": "andere Person4",
+   "page": 15,
+   "bbox": [
+    261.2,
+    55.9,
+    274.3,
+    102.1
+   ],
+   "typ": "text",
+   "label_wörtlich": " nein  nein",
+   "max_zeichen": 7,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person VSNR 1_2",
+   "acro_name": "Andere Person VSNR 1_2",
+   "page": 15,
+   "bbox": [
+    279.9,
+    427.4,
+    292.9,
+    542.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person VSNR 2_2",
+   "acro_name": "Andere Person VSNR 2_2",
+   "page": 15,
+   "bbox": [
+    279.9,
+    303.3,
+    292.9,
+    418.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person VSNR 3_2",
+   "acro_name": "Andere Person VSNR 3_2",
+   "page": 15,
+   "bbox": [
+    279.9,
+    179.0,
+    292.9,
+    293.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere Person VSNR 4_2",
+   "acro_name": "Andere Person VSNR 4_2",
+   "page": 15,
+   "bbox": [
+    279.9,
+    53.9,
+    292.9,
+    168.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname And 1",
+   "acro_name": "Familienname And 1",
+   "page": 15,
+   "bbox": [
+    314.4,
+    427.4,
+    331.4,
+    542.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "ZUR ERKLÄRUNG Kind 1.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname And 2",
+   "acro_name": "Familienname And 2",
+   "page": 15,
+   "bbox": [
+    314.4,
+    303.3,
+    331.4,
+    418.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "KINDERERZIEHUNG Kind 2.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname And 3",
+   "acro_name": "Familienname And 3",
+   "page": 15,
+   "bbox": [
+    314.4,
+    179.0,
+    331.4,
+    294.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname And 4",
+   "acro_name": "Familienname And 4",
+   "page": 15,
+   "bbox": [
+    314.1,
+    53.6,
+    331.1,
+    168.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname And 1",
+   "acro_name": "Vorname And 1",
+   "page": 15,
+   "bbox": [
+    335.1,
+    427.4,
+    352.1,
+    542.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 1.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname And 2",
+   "acro_name": "Vorname And 2",
+   "page": 15,
+   "bbox": [
+    335.1,
+    303.3,
+    352.1,
+    418.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 2.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname And 3",
+   "acro_name": "Vorname And 3",
+   "page": 15,
+   "bbox": [
+    335.1,
+    179.0,
+    352.1,
+    294.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 3.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname And 4",
+   "acro_name": "Vorname And 4",
+   "page": 15,
+   "bbox": [
+    335.1,
+    53.6,
+    352.1,
+    168.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kind 4.   nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR And 1",
+   "acro_name": "VSNR And 1",
+   "page": 15,
+   "bbox": [
+    355.5,
+    427.4,
+    372.5,
+    542.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR And 2",
+   "acro_name": "VSNR And 2",
+   "page": 15,
+   "bbox": [
+    355.5,
+    303.3,
+    372.5,
+    418.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR And 3",
+   "acro_name": "VSNR And 3",
+   "page": 15,
+   "bbox": [
+    355.5,
+    179.0,
+    372.5,
+    294.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR And 4",
+   "acro_name": "VSNR And 4",
+   "page": 15,
+   "bbox": [
+    355.5,
+    53.6,
+    372.5,
+    168.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "nein ja vom bis Staat vom bis Staat   nein ja   nein ja (VSNR): Person",
+   "max_zeichen": 19,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "and Elternteil 1",
+   "acro_name": "and Elternteil 1",
+   "page": 15,
+   "bbox": [
+    396.1,
+    447.6,
+    410.3,
+    545.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Staat vom bis Staat  ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Staat vom bis Staat  ",
+     "bbox": [
+      396.1,
+      531.4,
+      410.3,
+      545.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      396.1,
+      447.6,
+      410.3,
+      461.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "and Elternteil 2",
+   "acro_name": "and Elternteil 2",
+   "page": 15,
+   "bbox": [
+    396.1,
+    322.8,
+    410.3,
+    420.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Staat vom bis Staat  ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Staat vom bis Staat  ",
+     "bbox": [
+      396.1,
+      406.6,
+      410.3,
+      420.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      396.1,
+      322.8,
+      410.3,
+      337.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "and Elternteil 3",
+   "acro_name": "and Elternteil 3",
+   "page": 15,
+   "bbox": [
+    396.1,
+    198.1,
+    410.3,
+    296.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Staat vom bis Staat  ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Staat vom bis Staat  ",
+     "bbox": [
+      396.1,
+      281.9,
+      410.3,
+      296.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      396.1,
+      198.1,
+      410.3,
+      212.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "and Elternteil 4",
+   "acro_name": "and Elternteil 4",
+   "page": 15,
+   "bbox": [
+    396.1,
+    73.5,
+    410.3,
+    171.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Staat vom bis Staat  ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Staat vom bis Staat  ",
+     "bbox": [
+      396.1,
+      157.2,
+      410.3,
+      171.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": " ",
+     "bbox": [
+      396.1,
+      73.5,
+      410.3,
+      87.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb And 1",
+   "acro_name": "Erwerb And 1",
+   "page": 15,
+   "bbox": [
+    441.1,
+    447.6,
+    455.3,
+    545.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "",
+     "bbox": [
+      441.1,
+      531.4,
+      455.3,
+      545.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      441.1,
+      447.6,
+      455.3,
+      461.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb And 2",
+   "acro_name": "Erwerb And 2",
+   "page": 15,
+   "bbox": [
+    441.1,
+    322.8,
+    455.3,
+    420.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "",
+     "bbox": [
+      441.1,
+      406.6,
+      455.3,
+      420.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      441.1,
+      322.8,
+      455.3,
+      337.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb And 3",
+   "acro_name": "Erwerb And 3",
+   "page": 15,
+   "bbox": [
+    441.1,
+    198.1,
+    455.3,
+    296.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "",
+     "bbox": [
+      441.1,
+      281.9,
+      455.3,
+      296.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      441.1,
+      198.1,
+      455.3,
+      212.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erwerb And 4",
+   "acro_name": "Erwerb And 4",
+   "page": 15,
+   "bbox": [
+    441.1,
+    73.5,
+    455.3,
+    171.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "",
+     "bbox": [
+      441.1,
+      157.2,
+      455.3,
+      171.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "",
+     "bbox": [
+      441.1,
+      73.5,
+      455.3,
+      87.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1#p15",
+   "acro_name": "Datum_1",
+   "page": 15,
+   "bbox": [
+    520.9,
+    639.0,
+    534.2,
+    702.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Elternteil (für Betriebshilfe den in Elternteil Lebensjahren ausgeübt? und richtig unvollständige dass dass informiert,",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 25,
+  "bilder": [
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p1.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p2.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p3.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p4.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p5.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p6.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p14.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p15.png",
+   "cache/pruefung/pva_gvr001_uebergangsgeld/p16.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Familienname / Vorname / Titel / Frühere Namen",
+     "problem": "Mehrere Werte sind gegenseitig vertauscht bzw. in falschen Feldern platziert (z.B. Berger, Anna, Huber).",
+     "schwer": true
+    },
+    {
+     "feld": "Geschlecht",
+     "problem": "Blauer Wert steht im falschen Feld (Wien statt Geschlecht).",
+     "schwer": true
+    },
+    {
+     "feld": "Geburtsort / Staatsangehörigkeit / Land / seit",
+     "problem": "Mehrere Werte sind in den falschen Feldern platziert (z.B. Österreich, 02.05.2019).",
+     "schwer": true
+    },
+    {
+     "feld": "Ort / Bundesland / E-Mail / Telefonnummer",
+     "problem": "Kontakt- und Ortsangaben sind in die falschen Felder geraten (z.B. +43 1 2345678, anna.berger@example.org).",
+     "schwer": true
+    },
+    {
+     "feld": "Bevollmächtigte Person",
+     "problem": "In der Vertreter-Section sind Name und Adresse offenbar teilweise falsch zugeordnet (z.B. Berger/Sandra/Beispielgasse).",
+     "schwer": true
+    },
+    {
+     "feld": "Seite 3 / person.svnr",
+     "problem": "Wert steht in der Kopfzeile statt im dafür vorgesehenen Feld; Layout-Zuordnung unklar.",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Wert ist auf Seite 16 zusätzlich oben rechts außerhalb des vorgesehenen Feldes platziert",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "7d2a333f4826149b",
+  "ok": false
+ }
+}

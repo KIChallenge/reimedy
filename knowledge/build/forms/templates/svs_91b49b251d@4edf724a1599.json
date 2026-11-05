@@ -1,0 +1,501 @@
+{
+ "formular_id": "svs_91b49b251d",
+ "name": "Sozialversicherungsanstalt der Selbständigen Wiedner Hauptstraße 84-86 1051 Wien RÜCKERSTA",
+ "traeger": "SVS",
+ "sha256": "4edf724a159953f77d7fa32f3b12b72e08e2865740d79b1901a60fdbff2248ce",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.728034&version=1673943094",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   842.0
+  ],
+  [
+   595.3,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    177.8,
+    340.0,
+    190.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "1051 Wien",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "versicherung.landesstelle",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    340.5,
+    177.8,
+    538.4,
+    190.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Firma und Adresse (Stempel) des",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    263.4,
+    340.0,
+    275.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "übernommener Transportkosten mit ….",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    276.5,
+    406.5,
+    289.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "übernommener Transportkosten mit ….",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    407.0,
+    276.5,
+    538.4,
+    289.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    303.7,
+    406.5,
+    316.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel, Familienname, Vorname des Patienten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    407.0,
+    303.7,
+    538.4,
+    316.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    331.0,
+    538.4,
+    343.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    337.4,
+    538.4,
+    349.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    85.3,
+    411.2,
+    94.6,
+    420.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Untersuchung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    173.1,
+    411.2,
+    182.3,
+    420.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Behandlung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    63.1,
+    478.0,
+    72.4,
+    487.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "öffentlicher Verkehrsmittel im Hinblick auf den Gesundheitszustand",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    63.1,
+    492.1,
+    72.4,
+    501.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "eines PKWs (Taxis) erforderlich, weil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    63.1,
+    506.0,
+    72.4,
+    515.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "eines Krankenwagens erforderlich, weil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    164.1,
+    520.0,
+    173.3,
+    529.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nicht erforderlich.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    164.1,
+    534.1,
+    173.3,
+    543.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "erforderlich, weil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    608.9,
+    311.6,
+    621.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    57.0,
+    44.1,
+    269.1,
+    56.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bei Direktverrechnung vom Transportunternehmen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_017",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    269.6,
+    44.1,
+    467.6,
+    56.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Von der Behandlungsstelle auszufüllen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    468.1,
+    44.1,
+    538.5,
+    56.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Raum für Ver-",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    468.1,
+    89.7,
+    538.5,
+    102.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Patienten; Unterschrift und Stempel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_020",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/svs_91b49b251d/p1.png",
+   "cache/pruefung/svs_91b49b251d/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Wien",
+     "problem": "Blauer Wert steht im linken oberen Adressfeld, passt dort grundsätzlich; kein Fehler sichtbar",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Wert ist im richtigen Feld platziert, aber die Nummer wurde auf Seite 1 zweimal eingetragen",
+     "schwer": false
+    },
+    {
+     "feld": "Titel, Familienname, Vorname des Patienten",
+     "problem": "Wert steht im passenden Patientenfeld und gehört zur Antragstellerin",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "5cb341e21da226cc",
+  "ok": true
+ }
+}

@@ -1,0 +1,3397 @@
+{
+ "formular_id": "fsw_antrag_foerderung",
+ "name": "FSW Antrag auf Förderung von Leistungen",
+ "traeger": "FSW",
+ "sha256": "ae20ab1c963a2e98c30e7b29bc8e5a974619180cc7b337b568bffee00876582b",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/fsw-antrag-auf-foerderung-von-leistungen.pdf",
+ "pages": 13,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Leistungen Pflege und Betreuung",
+   "acro_name": "Leistungen Pflege und Betreuung",
+   "page": 0,
+   "bbox": [
+    101.4,
+    239.5,
+    119.4,
+    257.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leistungen Pflege und Betreuung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leistungen Pflege und Betreuung",
+     "bbox": [
+      101.4,
+      239.5,
+      119.4,
+      257.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Leistungen Behinderung und Inklusion",
+   "acro_name": "Leistungen Behinderung und Inklusion",
+   "page": 0,
+   "bbox": [
+    101.4,
+    278.9,
+    119.4,
+    296.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leistungen Behinderung und Inklusion",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leistungen Behinderung und Inklusion",
+     "bbox": [
+      101.4,
+      278.9,
+      119.4,
+      296.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Leistungen Obdach- und Wohnungslosenhilfe",
+   "acro_name": "Leistungen Obdach- und Wohnungslosenhilfe",
+   "page": 0,
+   "bbox": [
+    101.4,
+    319.7,
+    119.4,
+    337.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leistungen Obdach- und Wohnungslosenhilfe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leistungen Obdach- und Wohnungslosenhilfe",
+     "bbox": [
+      101.4,
+      319.7,
+      119.4,
+      337.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Titel KundIn",
+   "acro_name": "Familienname Titel KundIn",
+   "page": 0,
+   "bbox": [
+    29.7,
+    410.9,
+    295.1,
+    437.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname und Titel Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Vorname KundIn",
+   "acro_name": "Vorname KundIn",
+   "page": 0,
+   "bbox": [
+    300.5,
+    410.9,
+    565.5,
+    437.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Geschlecht KundIn",
+   "acro_name": "Geschlecht KundIn",
+   "page": 0,
+   "bbox": [
+    29.6,
+    459.2,
+    292.4,
+    477.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geschlecht Kund:in",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      29.6,
+      459.2,
+      47.6,
+      477.2
+     ],
+     "wert_semantik": "männlich"
+    },
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      98.7,
+      459.3,
+      116.7,
+      477.3
+     ],
+     "wert_semantik": "weiblich"
+    },
+    {
+     "wert": "divers#2Finter#2Foffen",
+     "label": "divers/inter/offen",
+     "bbox": [
+      169.0,
+      459.5,
+      187.0,
+      477.5
+     ],
+     "wert_semantik": "divers"
+    },
+    {
+     "wert": "keine#20Angabe",
+     "label": "keine Angabe",
+     "bbox": [
+      274.4,
+      459.5,
+      292.4,
+      477.5
+     ]
+    }
+   ],
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum KundIn",
+   "acro_name": "Geburtsdatum KundIn",
+   "page": 0,
+   "bbox": [
+    29.7,
+    494.5,
+    295.3,
+    520.9
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Geburtsland KundIn",
+   "acro_name": "Geburtsland KundIn",
+   "page": 0,
+   "bbox": [
+    300.5,
+    494.5,
+    565.5,
+    520.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsland Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.geburtsland",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienstand ",
+   "acro_name": "Familienstand ",
+   "page": 0,
+   "bbox": [
+    29.9,
+    565.4,
+    295.3,
+    591.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienstand Kund:in",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "semantik": "person.familienstand",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienstand seit",
+   "acro_name": "Familienstand seit",
+   "page": 0,
+   "bbox": [
+    29.9,
+    609.4,
+    153.7,
+    635.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Familienstand seit (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.familienstand_seit",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer KundIn",
+   "acro_name": "Telefonnummer KundIn",
+   "page": 0,
+   "bbox": [
+    29.7,
+    676.8,
+    295.3,
+    703.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Kund:in",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail Adresse KundIn",
+   "acro_name": "E-Mail Adresse KundIn",
+   "page": 0,
+   "bbox": [
+    300.5,
+    676.8,
+    565.5,
+    703.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse Kund:in (falls vorhanden)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen Lebensmittelpunkt",
+   "acro_name": "Strassennamen Lebensmittelpunkt",
+   "page": 0,
+   "bbox": [
+    29.7,
+    741.6,
+    343.6,
+    768.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Lebensmittelpunkt Straßenname der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Hausnr Lebensmittelpunkt",
+   "acro_name": "Hausnr Lebensmittelpunkt",
+   "page": 0,
+   "bbox": [
+    352.0,
+    741.6,
+    398.2,
+    768.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer Lebensmittelpunkt Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.hausnr",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Stiege Lebensmittelpunkt",
+   "acro_name": "Stiege Lebensmittelpunkt",
+   "page": 0,
+   "bbox": [
+    407.1,
+    741.6,
+    455.1,
+    768.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege Lebensmittelpunkt Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.stiege",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr Lebensmittelpunkt",
+   "acro_name": "Tuernr Lebensmittelpunkt",
+   "page": 0,
+   "bbox": [
+    464.2,
+    741.6,
+    512.1,
+    768.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer Lebensmittelpunkt Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.tuer",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ Lebensmittelpunkt",
+   "acro_name": "PLZ Lebensmittelpunkt",
+   "page": 0,
+   "bbox": [
+    29.7,
+    783.4,
+    134.7,
+    809.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl Lebensmittelpunkt Kund:in",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Ort Lebensmittelpunkt",
+   "acro_name": "Ort Lebensmittelpunkt",
+   "page": 0,
+   "bbox": [
+    146.7,
+    783.4,
+    343.7,
+    809.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort Lebensmittelpunkt Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Vertretungsbefugte Person",
+   "acro_name": "Vertretungsbefugte Person",
+   "page": 1,
+   "bbox": [
+    36.6,
+    132.4,
+    465.6,
+    150.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Vertretungsbefugte Person vorhanden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      36.6,
+      132.4,
+      54.6,
+      150.4
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      447.6,
+      132.6,
+      465.6,
+      150.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Titel vertretungsbefugte Person 3",
+   "acro_name": "Familienname Titel vertretungsbefugte Person 3",
+   "page": 1,
+   "bbox": [
+    30.0,
+    206.7,
+    295.0,
+    233.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname und Titel vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname vertretungsbefugte Person 3",
+   "acro_name": "Vorname vertretungsbefugte Person 3",
+   "page": 1,
+   "bbox": [
+    300.8,
+    206.7,
+    565.4,
+    233.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer vertretungsbefugte Person 3",
+   "acro_name": "Telefonnummer vertretungsbefugte Person 3",
+   "page": 1,
+   "bbox": [
+    29.9,
+    250.0,
+    294.8,
+    275.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse vertretungsbefugte Person 3",
+   "acro_name": "E-Mail-Adresse vertretungsbefugte Person 3",
+   "page": 1,
+   "bbox": [
+    300.8,
+    250.0,
+    565.9,
+    275.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse vertretungsbefugte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname ZustellbevollmaechtigteR",
+   "acro_name": "Familienname ZustellbevollmaechtigteR",
+   "page": 1,
+   "bbox": [
+    29.8,
+    436.9,
+    294.8,
+    463.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname und Titel Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname ZustellbevollmaechtigteR",
+   "acro_name": "Vorname ZustellbevollmaechtigteR",
+   "page": 1,
+   "bbox": [
+    300.6,
+    436.9,
+    565.2,
+    463.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer ZustellbevollmaechtigteR",
+   "acro_name": "Telefonnummer ZustellbevollmaechtigteR",
+   "page": 1,
+   "bbox": [
+    29.9,
+    480.4,
+    294.8,
+    505.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse ZustellbevollmaechtigteR",
+   "acro_name": "E-Mail-Adresse ZustellbevollmaechtigteR",
+   "page": 1,
+   "bbox": [
+    300.6,
+    480.4,
+    565.7,
+    505.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen ZustellbevollmaechtigteR 2",
+   "acro_name": "Strassennamen ZustellbevollmaechtigteR 2",
+   "page": 1,
+   "bbox": [
+    29.9,
+    522.4,
+    343.7,
+    548.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname der Adresse Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.strasse",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr ZustellbevollmaechtigteR 2",
+   "acro_name": "Hausnr ZustellbevollmaechtigteR 2",
+   "page": 1,
+   "bbox": [
+    352.1,
+    522.4,
+    398.3,
+    548.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer Adresse Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege ZustellbevollmaechtigteR 2",
+   "acro_name": "Stiege ZustellbevollmaechtigteR 2",
+   "page": 1,
+   "bbox": [
+    407.3,
+    522.4,
+    455.2,
+    548.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege Adresse Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.stiege",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr ZustellbevollmaechtigteR 2",
+   "acro_name": "Tuernr ZustellbevollmaechtigteR 2",
+   "page": 1,
+   "bbox": [
+    464.3,
+    522.4,
+    512.2,
+    548.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer Adresse Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.tuer",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ ZustellbevollmaechtigteR 2",
+   "acro_name": "PLZ ZustellbevollmaechtigteR 2",
+   "page": 1,
+   "bbox": [
+    29.9,
+    565.9,
+    134.9,
+    592.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl Adresse Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "vertreter.adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort ZustellbevollmaechtigteR 2",
+   "acro_name": "Ort ZustellbevollmaechtigteR 2",
+   "page": 1,
+   "bbox": [
+    146.9,
+    565.9,
+    343.8,
+    592.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort Adresse Zustellbevollmächtige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertretungsbefugte Person 2",
+   "acro_name": "Vertretungsbefugte Person 2",
+   "page": 1,
+   "bbox": [
+    29.9,
+    768.0,
+    47.9,
+    786.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Die vertretungsbefugte Person, die ich in Punkt 3 angegeben habe, ist auch meine Vertrauensperson. \n(In diesem Fall müssen Sie die Daten nicht nochmals angeben).",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Die (In diesem vertretungsbefugte Fall müssen Sie Person, die Daten die ich nicht in Punkt nochmals 3 angegeben angeben). habe, ist auch",
+     "bbox": [
+      29.9,
+      768.0,
+      47.9,
+      786.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertretungsbefugte Person 3",
+   "acro_name": "Vertretungsbefugte Person 3",
+   "page": 1,
+   "bbox": [
+    29.9,
+    794.7,
+    47.9,
+    812.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich benenne die unten genannte(n) Person(en) als Vertrauensperson(en).",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich benenne die unten genannte(n) Person(en) als Vertrauensperson(en).",
+     "bbox": [
+      29.9,
+      794.7,
+      47.9,
+      812.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Vertrauensperson",
+   "acro_name": "Familienname Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    29.7,
+    54.9,
+    294.7,
+    81.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname und Titel der Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Vertrauensperson",
+   "acro_name": "Vorname Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    300.5,
+    54.9,
+    565.1,
+    81.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname der Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Vertrauensperson",
+   "acro_name": "Telefonnummer Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    29.6,
+    98.7,
+    294.5,
+    123.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer der Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse Vertrauensperson",
+   "acro_name": "E-Mail-Adresse Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    300.5,
+    98.7,
+    565.6,
+    123.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse der Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname weitere Vertrauensperson",
+   "acro_name": "Familienname weitere Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    29.7,
+    163.4,
+    294.7,
+    189.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname und Titel der weiteren Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname weitere Vertrauensperson",
+   "acro_name": "Vorname weitere Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    300.5,
+    163.4,
+    565.1,
+    189.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname der weiteren Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer weitere Vertrauensperson",
+   "acro_name": "Telefonnummer weitere Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    29.6,
+    207.2,
+    294.5,
+    232.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer der weiteren Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse weitere Vertrauensperson",
+   "acro_name": "E-Mail-Adresse weitere Vertrauensperson",
+   "page": 2,
+   "bbox": [
+    300.5,
+    207.2,
+    565.6,
+    232.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse der weiteren Vertrauensperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einkommen",
+   "acro_name": "Einkommen",
+   "page": 2,
+   "bbox": [
+    36.3,
+    402.6,
+    54.6,
+    462.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Einkommen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ich#20habe#20ein#20Einkommen,#20zum#20Beispiel#20Pension,#20Gehalt,#20Geld#20vom#20AMS#20",
+     "label": "Ich Pension, habe Gehalt, ein Einkommen, Geld vom zum AMS Beispiel",
+     "bbox": [
+      36.5,
+      402.6,
+      54.6,
+      420.6
+     ]
+    },
+    {
+     "wert": "Ich#20habe#20kein#20Einkommen",
+     "label": "Ich habe kein Einkommen",
+     "bbox": [
+      36.3,
+      444.2,
+      54.3,
+      462.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift KundIn 4",
+   "acro_name": "Datum Unterschrift KundIn 4",
+   "page": 3,
+   "bbox": [
+    29.8,
+    179.1,
+    171.0,
+    218.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftszeichnung Kund:in",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld KundIn",
+   "acro_name": "Unterschriftsfeld KundIn",
+   "page": 3,
+   "bbox": [
+    180.0,
+    179.1,
+    565.5,
+    218.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": " Unterschrift der:des Kundin:Kunden oder der vertretungsbefugten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begründung Zeugin/Zeuge 4",
+   "acro_name": "Begründung Zeugin/Zeuge 4",
+   "page": 3,
+   "bbox": [
+    29.8,
+    327.2,
+    565.5,
+    450.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung für die Unterschrift durch zwei Zeug:innen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname erste ZeugIn 3",
+   "acro_name": "Familienname erste ZeugIn 3",
+   "page": 3,
+   "bbox": [
+    29.8,
+    488.8,
+    294.8,
+    515.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname erste ZeugIn 3",
+   "acro_name": "Vorname erste ZeugIn 3",
+   "page": 3,
+   "bbox": [
+    303.0,
+    488.8,
+    565.5,
+    515.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung erste Zeugin / erster Zeuge 3",
+   "acro_name": "Beziehung erste Zeugin / erster Zeuge 3",
+   "page": 3,
+   "bbox": [
+    29.8,
+    533.2,
+    294.3,
+    559.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beziehung der:des ersten Zeugin:Zeugen zur Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon erste Zeugin / erster Zeuge 3",
+   "acro_name": "Telefon erste Zeugin / erster Zeuge 3",
+   "page": 3,
+   "bbox": [
+    303.0,
+    533.2,
+    565.5,
+    559.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift erste Zeugin / erster Zeuge 3",
+   "acro_name": "Datum Unterschrift erste Zeugin / erster Zeuge 3",
+   "page": 3,
+   "bbox": [
+    29.8,
+    585.4,
+    171.0,
+    624.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld Zeuge 1",
+   "acro_name": "Unterschriftsfeld Zeuge 1",
+   "page": 3,
+   "bbox": [
+    179.4,
+    585.5,
+    565.5,
+    624.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift erste:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname zweite ZeugIn 4",
+   "acro_name": "Familienname zweite ZeugIn 4",
+   "page": 3,
+   "bbox": [
+    29.8,
+    672.2,
+    294.8,
+    698.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname zweite ZeugIn 3",
+   "acro_name": "Vorname zweite ZeugIn 3",
+   "page": 3,
+   "bbox": [
+    303.0,
+    672.2,
+    565.5,
+    698.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung zweite ZeugIn 3",
+   "acro_name": "Beziehung zweite ZeugIn 3",
+   "page": 3,
+   "bbox": [
+    29.8,
+    716.5,
+    294.3,
+    743.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beziehung der:des zweiten Zeugin:Zeugen zur Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer zweite ZeugIn 3",
+   "acro_name": "Telefonnummer zweite ZeugIn 3",
+   "page": 3,
+   "bbox": [
+    303.0,
+    716.5,
+    565.5,
+    743.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift zweite ZeugIn 3",
+   "acro_name": "Datum Unterschrift zweite ZeugIn 3",
+   "page": 3,
+   "bbox": [
+    29.8,
+    768.5,
+    171.0,
+    808.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld Zeuge 2",
+   "acro_name": "Unterschriftsfeld Zeuge 2",
+   "page": 3,
+   "bbox": [
+    179.4,
+    768.5,
+    565.5,
+    807.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift zweite:r Zeug:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfall",
+   "acro_name": "Unfall",
+   "page": 4,
+   "bbox": [
+    29.6,
+    113.6,
+    117.0,
+    131.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ist der Bedarf durch einen Unfall oder ein anderes Schadensereignis entstanden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      29.6,
+      113.6,
+      47.6,
+      131.6
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      98.9,
+      113.6,
+      117.0,
+      131.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflege und Betreuung zu Hause",
+   "acro_name": "Pflege und Betreuung zu Hause",
+   "page": 4,
+   "bbox": [
+    29.8,
+    200.0,
+    47.8,
+    218.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pflege und Betreuung zu Hause",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pflege und Betreuung zu Hause",
+     "bbox": [
+      29.8,
+      200.0,
+      47.8,
+      218.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tagesbetreuung",
+   "acro_name": "Tagesbetreuung",
+   "page": 4,
+   "bbox": [
+    29.8,
+    229.9,
+    47.8,
+    248.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Tagesbetreuung (Tageszentrum, Tageshospiz)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Tagesbetreuung (Tageszentrum, Tageshospiz)",
+     "bbox": [
+      29.8,
+      229.9,
+      47.8,
+      248.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wohngemeinschaft",
+   "acro_name": "Wohngemeinschaft",
+   "page": 4,
+   "bbox": [
+    29.8,
+    260.1,
+    47.8,
+    278.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Senior:innen-Wohngemeinschaft – Basispaket (Unterstützung und Begleitung im Gemeinschaftsleben, \nfür Bewohner:innen von Betreuten Wohngemeinschaften)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Senior:innen-Wohngemeinschaft – Basispaket",
+     "bbox": [
+      29.8,
+      260.1,
+      47.8,
+      278.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wohn und Pflegehäuser",
+   "acro_name": "Wohn und Pflegehäuser",
+   "page": 4,
+   "bbox": [
+    29.8,
+    391.7,
+    47.8,
+    409.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wohn- und Pflegehäuser",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Wohn- und Pflegehäuser",
+     "bbox": [
+      29.8,
+      391.7,
+      47.8,
+      409.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wohn- und Pflegehäuser: befristet",
+   "acro_name": "Wohn- und Pflegehäuser: befristet",
+   "page": 4,
+   "bbox": [
+    51.4,
+    412.3,
+    69.5,
+    430.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wohn- und Pflegehäuser: befristet",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "befristet",
+     "bbox": [
+      51.4,
+      412.3,
+      69.5,
+      430.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wohn- und Pflegehäuser: unbefristet",
+   "acro_name": "Wohn- und Pflegehäuser: unbefristet",
+   "page": 4,
+   "bbox": [
+    114.2,
+    412.3,
+    132.2,
+    430.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wohn- und Pflegehäuser: unbefristet",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "unbefristet",
+     "bbox": [
+      114.2,
+      412.3,
+      132.2,
+      430.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kurzzeitpflege",
+   "acro_name": "Kurzzeitpflege",
+   "page": 4,
+   "bbox": [
+    29.8,
+    443.5,
+    47.8,
+    461.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kurzzeitpflege – Remobilisation: Die Leistung ist mit maximal 92 Tagen befristet.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kurzzeitpflege Die Leistung ist – mit Remobilisation: maximal 92 Tagen befristet.",
+     "bbox": [
+      29.8,
+      443.5,
+      47.8,
+      461.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Entlastung Angehoeriger",
+   "acro_name": "Entlastung Angehoeriger",
+   "page": 4,
+   "bbox": [
+    29.8,
+    480.0,
+    47.8,
+    498.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Betreutes Wohnen – Entlastung für Angehörige: \nDie Leistung ist mit maximal 35 Tagen befristet. ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Die Betreutes Leistung Wohnen ist mit – maximal Entlastung 35 Tagen für Angehörige: befristet.",
+     "bbox": [
+      29.8,
+      480.0,
+      47.8,
+      498.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Urlaubspflege",
+   "acro_name": "Urlaubspflege",
+   "page": 4,
+   "bbox": [
+    29.8,
+    510.3,
+    47.8,
+    528.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Urlaubspflege – Allgemeine Pflege und Betreuung: \nDie Leistung ist mit maximal 35 Tagen befristet.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Urlaubspflege Die Leistung ist – mit Allgemeine maximal Pflege 35 Tagen und befristet. Betreuung:",
+     "bbox": [
+      29.8,
+      510.3,
+      47.8,
+      528.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dringend",
+   "acro_name": "Dringend",
+   "page": 4,
+   "bbox": [
+    29.8,
+    614.3,
+    47.8,
+    632.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich möchte dringend in eine Einrichtung einziehen. Der FSW soll in ganz Wien nach einem Wohn- und Pflegeplatz suchen. ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich einem möchte Wohn- dringend und Pflegeplatz in eine Einrichtung suchen. einziehen. Der FSW soll in ganz",
+     "bbox": [
+      29.8,
+      614.3,
+      47.8,
+      632.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezirke dringend",
+   "acro_name": "Bezirke dringend",
+   "page": 4,
+   "bbox": [
+    50.5,
+    649.4,
+    567.8,
+    701.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Folgende Bezirke sind mir am liebsten:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeit",
+   "acro_name": "Zeit",
+   "page": 4,
+   "bbox": [
+    29.8,
+    714.5,
+    47.8,
+    732.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe Zeit, auf einen bestimmten Wohn- und Pflegeplatz zu warten. ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe Zeit, auf einen bestimmten Wohn- und Pflegeplatz zu warten.",
+     "bbox": [
+      29.8,
+      714.5,
+      47.8,
+      732.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezirke Zeit",
+   "acro_name": "Bezirke Zeit",
+   "page": 4,
+   "bbox": [
+    50.5,
+    746.3,
+    567.8,
+    798.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich möchte nur in folgende Bezirke oder Einrichtungen ziehen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kontaktaufnahme mit mir",
+   "acro_name": "Kontaktaufnahme mit mir",
+   "page": 5,
+   "bbox": [
+    34.9,
+    59.1,
+    52.9,
+    77.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sobald ein Wohnplatz oder Pflegeplatz für mich frei wird, soll das FSW-Kund:innenservice mit mir Kontakt aufnehmen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "mit mir",
+     "bbox": [
+      34.9,
+      59.1,
+      52.9,
+      77.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kontaktaufnahme folgende Person",
+   "acro_name": "Kontaktaufnahme folgende Person",
+   "page": 5,
+   "bbox": [
+    34.9,
+    82.3,
+    52.9,
+    100.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sobald ein Wohnplatz oder Pflegeplatz für mich frei wird, soll das FSW-Kund:innenservice Kontakt mit folgender Person aufnehmen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "mit folgender Person:",
+     "bbox": [
+      34.9,
+      82.3,
+      52.9,
+      100.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Kontaktaufnahme",
+   "acro_name": "Familienname Kontaktaufnahme",
+   "page": 5,
+   "bbox": [
+    35.2,
+    118.1,
+    300.6,
+    144.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Kontaktaufnahme 2",
+   "acro_name": "Telefonnummer Kontaktaufnahme 2",
+   "page": 5,
+   "bbox": [
+    35.2,
+    161.2,
+    300.7,
+    187.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail Adresse Kontaktaufnahme 2",
+   "acro_name": "E-Mail Adresse Kontaktaufnahme 2",
+   "page": 5,
+   "bbox": [
+    305.7,
+    161.2,
+    566.9,
+    187.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KontoinhaberIn 3",
+   "acro_name": "KontoinhaberIn 3",
+   "page": 5,
+   "bbox": [
+    35.6,
+    268.1,
+    299.6,
+    294.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name Kontoinhaber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.kontoinhaber",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN 3",
+   "acro_name": "IBAN 3",
+   "page": 5,
+   "bbox": [
+    35.4,
+    332.1,
+    566.4,
+    358.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN (Internationale Kontonummer) ",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Keine Unterhaltsverpflichtung Unterhaltsberechtigung PuB",
+   "acro_name": "Keine Unterhaltsverpflichtung Unterhaltsberechtigung PuB",
+   "page": 5,
+   "bbox": [
+    34.9,
+    423.2,
+    52.9,
+    441.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe keine unterhaltsverpflichteten oder unterhaltsberechtigten Angehörigen.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe keine unterhaltsverpflichteten oder unterhaltsberechtigten Angehörigen.",
+     "bbox": [
+      34.9,
+      423.2,
+      52.9,
+      441.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterhaltsberechtigte Angehoerige PuB",
+   "acro_name": "Unterhaltsberechtigte Angehoerige PuB",
+   "page": 5,
+   "bbox": [
+    34.9,
+    450.6,
+    52.9,
+    468.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe unterhaltsberechtigte Angehörige. Das sind Angehörige, die ein Recht haben, von mir Unterhalt zu bekommen.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe unterhaltsberechtigte Angehörige. Das sind Angehörige, die ein",
+     "bbox": [
+      34.9,
+      450.6,
+      52.9,
+      468.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterhaltsverpflichtete Angehoerige PuB",
+   "acro_name": "Unterhaltsverpflichtete Angehoerige PuB",
+   "page": 5,
+   "bbox": [
+    34.9,
+    514.4,
+    52.9,
+    532.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe unterhaltsverpflichtete Angehörige. Das sind Angehörige, die zu meinem Unterhalt verpflichtet sind.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe unterhaltsverpflichtete Angehörige. Das sind Angehörige, die zu",
+     "bbox": [
+      34.9,
+      514.4,
+      52.9,
+      532.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl volljaehrige Personen",
+   "acro_name": "Anzahl volljaehrige Personen",
+   "page": 5,
+   "bbox": [
+    35.6,
+    617.8,
+    232.1,
+    644.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " Wie viele volljährige Personen leben in Ihrem Haushalt?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aktuelle Befunde",
+   "acro_name": "Aktuelle Befunde",
+   "page": 5,
+   "bbox": [
+    35.2,
+    688.3,
+    53.2,
+    706.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe einen aktuellen Befund über meinen Bedarf für Wohnen und Pflege. ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe einen aktuellen Befund über meinen Bedarf für Wohnen und Pflege.",
+     "bbox": [
+      35.2,
+      688.3,
+      53.2,
+      706.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Keine Aktuellen Befunde",
+   "acro_name": "Keine Aktuellen Befunde",
+   "page": 5,
+   "bbox": [
+    34.6,
+    750.4,
+    52.6,
+    768.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe noch keinen aktuellen Befund über meinen Bedarf.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe noch keinen aktuellen Befund über meinen Bedarf.",
+     "bbox": [
+      34.6,
+      750.4,
+      52.6,
+      768.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfall 2",
+   "acro_name": "Unfall 2",
+   "page": 6,
+   "bbox": [
+    29.6,
+    93.0,
+    194.7,
+    111.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ist der Bedarf durch einen Unfall oder ein anderes Schadensereignis entstanden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      29.6,
+      93.0,
+      47.6,
+      111.0
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      176.7,
+      93.0,
+      194.7,
+      111.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rollstuhl",
+   "acro_name": "Rollstuhl",
+   "page": 6,
+   "bbox": [
+    29.6,
+    131.5,
+    194.7,
+    149.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Benutzen Sie einen Rollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      29.6,
+      131.5,
+      47.6,
+      149.5
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      176.7,
+      131.5,
+      194.7,
+      149.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tagesstruktur",
+   "acro_name": "Tagesstruktur",
+   "page": 6,
+   "bbox": [
+    34.7,
+    187.6,
+    52.7,
+    205.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Tagesstruktur inklusive Mobilitätskonzept",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Tagesstruktur inklusive Mobilitätskonzept",
+     "bbox": [
+      34.7,
+      187.6,
+      52.7,
+      205.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betreutes Wohnen",
+   "acro_name": "Betreutes Wohnen",
+   "page": 6,
+   "bbox": [
+    34.7,
+    213.7,
+    52.7,
+    231.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Betreutes Wohnen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Betreutes Wohnen",
+     "bbox": [
+      34.7,
+      213.7,
+      52.7,
+      231.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Teilbetreutes Wohnen",
+   "acro_name": "Teilbetreutes Wohnen",
+   "page": 6,
+   "bbox": [
+    51.4,
+    237.4,
+    69.5,
+    255.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Betreutes Wohnen: Teilbetreutes Wohnen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Teilbetreutes Wohnen",
+     "bbox": [
+      51.4,
+      237.4,
+      69.5,
+      255.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vollbetreutes Wohnen",
+   "acro_name": "Vollbetreutes Wohnen",
+   "page": 6,
+   "bbox": [
+    51.4,
+    265.3,
+    69.5,
+    283.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Betreutes Wohnen: Vollbetreutes Wohnen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Vollbetreutes Wohnen",
+     "bbox": [
+      51.4,
+      265.3,
+      69.5,
+      283.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Mobile Fruehfoerderung",
+   "acro_name": "Mobile Fruehfoerderung",
+   "page": 6,
+   "bbox": [
+    34.9,
+    336.5,
+    52.9,
+    354.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Mobile Frühförderung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Mobile Frühförderung",
+     "bbox": [
+      34.9,
+      336.5,
+      52.9,
+      354.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schule",
+   "acro_name": "Schule",
+   "page": 6,
+   "bbox": [
+    34.7,
+    408.1,
+    52.7,
+    426.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Schule",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Schule:",
+     "bbox": [
+      34.7,
+      408.1,
+      52.7,
+      426.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schule Adresse",
+   "acro_name": "Schule Adresse",
+   "page": 6,
+   "bbox": [
+    55.1,
+    439.7,
+    566.0,
+    464.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse der Schule",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hilfsmittel",
+   "acro_name": "Hilfsmittel",
+   "page": 6,
+   "bbox": [
+    34.7,
+    469.6,
+    52.7,
+    487.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hilfsmittel, PKW-Adaptierung oder Blindenführhund. Hilfsmittel sind zum Beispiel: Hörgeräte, Kommunikationshilfen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Hilfsmittel, PKW-Adaptierung oder Blindenführhund. Hilfsmittel sind zum",
+     "bbox": [
+      34.7,
+      469.6,
+      52.7,
+      487.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hilfsmittel Beantragnung",
+   "acro_name": "Hilfsmittel Beantragnung",
+   "page": 6,
+   "bbox": [
+    55.1,
+    503.4,
+    565.5,
+    528.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Für welches Hilfsmittel beantragen Sie die Förderung?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dolmetschleistung",
+   "acro_name": "Dolmetschleistung",
+   "page": 6,
+   "bbox": [
+    34.7,
+    544.7,
+    52.7,
+    562.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Dolmetschleistungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Dolmetschleistungen",
+     "bbox": [
+      34.7,
+      544.7,
+      52.7,
+      562.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsintegration",
+   "acro_name": "Berufsintegration",
+   "page": 6,
+   "bbox": [
+    34.7,
+    583.0,
+    52.7,
+    601.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Berufsintegration",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Berufsintegration",
+     "bbox": [
+      34.7,
+      583.0,
+      52.7,
+      601.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Berufsqualifizierung",
+   "acro_name": "Berufsqualifizierung",
+   "page": 6,
+   "bbox": [
+    34.7,
+    618.3,
+    52.7,
+    636.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Berufsqualifizierung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Berufsqualifizierung",
+     "bbox": [
+      34.7,
+      618.3,
+      52.7,
+      636.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lehrlingsausbildung",
+   "acro_name": "Lehrlingsausbildung",
+   "page": 6,
+   "bbox": [
+    34.7,
+    653.6,
+    52.7,
+    671.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Lehrlingsausbildung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Lehrlingsausbildung",
+     "bbox": [
+      34.7,
+      653.6,
+      52.7,
+      671.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lohnkostenzuschuss",
+   "acro_name": "Lohnkostenzuschuss",
+   "page": 6,
+   "bbox": [
+    34.7,
+    689.5,
+    52.7,
+    707.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Lohnkostenzuschuss",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Lohnkostenzuschuss",
+     "bbox": [
+      34.7,
+      689.5,
+      52.7,
+      707.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "MentorInnenzuschuss",
+   "acro_name": "MentorInnenzuschuss",
+   "page": 6,
+   "bbox": [
+    34.7,
+    725.0,
+    52.7,
+    743.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Mentor:innenzuschuss",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Mentor:innenzuschuss",
+     "bbox": [
+      34.7,
+      725.0,
+      52.7,
+      743.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegegldergänzungsleistung",
+   "acro_name": "Pflegegldergänzungsleistung",
+   "page": 6,
+   "bbox": [
+    34.7,
+    760.5,
+    52.7,
+    778.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pflegegeldergänzungsleistung für Persönliche Assistenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pflegegeldergänzungsleistung für Persönliche Assistenz",
+     "bbox": [
+      34.7,
+      760.5,
+      52.7,
+      778.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fahrtendienst",
+   "acro_name": "Fahrtendienst",
+   "page": 7,
+   "bbox": [
+    35.3,
+    30.3,
+    53.3,
+    48.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Fahrtendienst",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Fahrtendienst:",
+     "bbox": [
+      35.3,
+      30.3,
+      53.3,
+      48.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fahrtendienst Start",
+   "acro_name": "Fahrtendienst Start",
+   "page": 7,
+   "bbox": [
+    55.7,
+    61.2,
+    566.2,
+    86.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich möchte hier abgeholt werden:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fahrtendienst Ziel",
+   "acro_name": "Fahrtendienst Ziel",
+   "page": 7,
+   "bbox": [
+    55.7,
+    103.0,
+    565.3,
+    128.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich möchte hierhin fahren:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fahrtbegleitung",
+   "acro_name": "Fahrtbegleitung",
+   "page": 7,
+   "bbox": [
+    35.3,
+    134.8,
+    53.3,
+    152.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Fahrtbegleitung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Fahrtbegleitung",
+     "bbox": [
+      35.3,
+      134.8,
+      53.3,
+      152.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fahrtkostenersatz",
+   "acro_name": "Fahrtkostenersatz",
+   "page": 7,
+   "bbox": [
+    35.3,
+    160.9,
+    53.3,
+    178.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Fahrtkostenersatz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Fahrtkostenersatz",
+     "bbox": [
+      35.3,
+      160.9,
+      53.3,
+      178.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Mobilitaetstraining",
+   "acro_name": "Mobilitaetstraining",
+   "page": 7,
+   "bbox": [
+    35.3,
+    187.0,
+    53.3,
+    205.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Mobilitätstraining",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Mobilitätstraining",
+     "bbox": [
+      35.3,
+      187.0,
+      53.3,
+      205.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Freizeitfahrtendienst",
+   "acro_name": "Freizeitfahrtendienst",
+   "page": 7,
+   "bbox": [
+    35.1,
+    213.1,
+    53.2,
+    231.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Freizeitfahrtendienst für dauerhaft schwer gehbehinderte Menschen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Freizeitfahrtendienst für dauerhaft schwer gehbehinderte Menschen",
+     "bbox": [
+      35.1,
+      213.1,
+      53.2,
+      231.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sonstige Leistung",
+   "acro_name": "Sonstige Leistung",
+   "page": 7,
+   "bbox": [
+    35.3,
+    285.4,
+    53.3,
+    303.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstige Leistung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sonstige Leistung:",
+     "bbox": [
+      35.3,
+      285.4,
+      53.3,
+      303.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Welche sonstige Leistung",
+   "acro_name": "Welche sonstige Leistung",
+   "page": 7,
+   "bbox": [
+    55.7,
+    316.3,
+    565.5,
+    341.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bitte beschreiben Sie die sonstige Leistung:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anmerkung Bedarf",
+   "acro_name": "Anmerkung Bedarf",
+   "page": 7,
+   "bbox": [
+    35.1,
+    358.9,
+    565.3,
+    383.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen zum Bedarf",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KontoinhaberIn 4",
+   "acro_name": "KontoinhaberIn 4",
+   "page": 7,
+   "bbox": [
+    35.2,
+    492.3,
+    299.2,
+    518.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name Kontoinhaber:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.kontoinhaber",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN 4",
+   "acro_name": "IBAN 4",
+   "page": 7,
+   "bbox": [
+    35.0,
+    555.9,
+    566.2,
+    582.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN (Internationale Kontonummer) ",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Keine Unterhaltsverpflichtung Unterhaltsberechtigung BuI",
+   "acro_name": "Keine Unterhaltsverpflichtung Unterhaltsberechtigung BuI",
+   "page": 7,
+   "bbox": [
+    35.5,
+    665.8,
+    53.5,
+    683.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe keine unterhaltsverpflichteten oder unterhaltsberechtigten Angehörigen.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe keine unterhaltsverpflichteten oder unterhaltsberechtigten Angehörigen.",
+     "bbox": [
+      35.5,
+      665.8,
+      53.5,
+      683.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterhaltsberechtigte Angehoerige BuI",
+   "acro_name": "Unterhaltsberechtigte Angehoerige BuI",
+   "page": 7,
+   "bbox": [
+    35.3,
+    693.3,
+    53.3,
+    711.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe unterhaltsberechtigte Angehörige. Das sind Angehörige, die ein Recht haben, von mir Unterhalt zu bekommen.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe unterhaltsberechtigte Angehörige. Das sind Angehörige, die ein",
+     "bbox": [
+      35.3,
+      693.3,
+      53.3,
+      711.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterhaltsverpflichtete Angehoerige BuI",
+   "acro_name": "Unterhaltsverpflichtete Angehoerige BuI",
+   "page": 7,
+   "bbox": [
+    35.5,
+    756.3,
+    53.5,
+    774.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe unterhaltsverpflichtete Angehörige. Das sind Angehörige, die zu meinem Unterhalt verpflichtet sind.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe unterhaltsverpflichtete Angehörige. Das sind Angehörige, die zu",
+     "bbox": [
+      35.5,
+      756.3,
+      53.5,
+      774.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Leistungen Obdach- und Wohnungslosenhilfe 2",
+   "acro_name": "Leistungen Obdach- und Wohnungslosenhilfe 2",
+   "page": 8,
+   "bbox": [
+    37.6,
+    108.6,
+    55.6,
+    126.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Leistungen Obdach- und Wohnungslosenhilfe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Leistungen Obdach- und Wohnungslosenhilfe",
+     "bbox": [
+      37.6,
+      108.6,
+      55.6,
+      126.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vermögen",
+   "acro_name": "Vermögen",
+   "page": 8,
+   "bbox": [
+    37.3,
+    183.4,
+    55.6,
+    271.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Vermögen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ich#20habe#20Vermoegen.",
+     "label": "Ich habe Vermögen",
+     "bbox": [
+      37.6,
+      183.4,
+      55.6,
+      201.4
+     ]
+    },
+    {
+     "wert": "Ich#20habe#20kein#20Vermoegen.",
+     "label": "Ich habe kein Vermögen",
+     "bbox": [
+      37.3,
+      253.1,
+      55.3,
+      271.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Personengemeinschaft",
+   "acro_name": "Personengemeinschaft",
+   "page": 8,
+   "bbox": [
+    37.6,
+    333.1,
+    55.6,
+    386.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Möchten Sie die Leistung gemeinsam mit Ihrem:Ihrer Partner:in und/oder Ihren Kindern nutzen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ich#20moechte#20die#20Leistung#20allein#20nutzen.",
+     "label": "Ich möchte die Leistung allein nutzen.",
+     "bbox": [
+      37.6,
+      333.1,
+      55.6,
+      351.1
+     ]
+    },
+    {
+     "wert": "Ich#20moechte#20die#20Leistung#20gemeinsam#20mit#20Partner:in#20und#2Foder#20meinen#20Kindern#20nutzen.",
+     "label": "Ich möchte die Leistung gemeinsam mit Partner:in und/oder meinen Kindern",
+     "bbox": [
+      37.6,
+      368.9,
+      55.6,
+      386.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 40,
+  "bilder": [
+   "cache/pruefung/fsw_antrag_foerderung/p1.png",
+   "cache/pruefung/fsw_antrag_foerderung/p2.png",
+   "cache/pruefung/fsw_antrag_foerderung/p3.png",
+   "cache/pruefung/fsw_antrag_foerderung/p4.png",
+   "cache/pruefung/fsw_antrag_foerderung/p5.png",
+   "cache/pruefung/fsw_antrag_foerderung/p6.png",
+   "cache/pruefung/fsw_antrag_foerderung/p7.png",
+   "cache/pruefung/fsw_antrag_foerderung/p8.png",
+   "cache/pruefung/fsw_antrag_foerderung/p9.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Familienstand seit",
+     "problem": "Wert steht im falschen Feld: Auf Seite 1 fehlt ein passendes Feld für 'Familienstand seit'; der eingetragene Wert liegt im Feld 'seit' unter Familienstand, was hier zwar plausibel ist, aber der Formulartext fragt nach TT.MM.JJJJ und der Bereich wirkt korrekt platziert.",
+     "schwer": false
+    },
+    {
+     "feld": "Leistungen Pflege und Betreuung",
+     "problem": "Roter Rahmen/Markierung auf Seite 1 liegt auf einem freien Auswahlfeld; kein Fehler erkennbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Vertretungsbefugte Person / Ja",
+     "problem": "Checkbox/Feld ist nicht ausgefüllt, obwohl eine vertretungsbefugte Person eingetragen wurde. Layoutproblem: keine Markierung sichtbar im Ja-Feld.",
+     "schwer": false
+    },
+    {
+     "feld": "Zustellbevollmächtige:r",
+     "problem": "Feldinhalte sind bei der richtigen Person eingetragen; kein Layoutfehler sichtbar.",
+     "schwer": false
+    },
+    {
+     "feld": "Vertrauenspersonen",
+     "problem": "Die auf Seite 3 gefüllten Felder gehören zu den vorgesehenen Vertrauenspersonen-Feldern; kein Hinweis auf falsche Tabelle oder Überdeckung.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "e149ab36685dd56b",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "e149ab36685dd56b",
+  "ok": true
+ }
+}

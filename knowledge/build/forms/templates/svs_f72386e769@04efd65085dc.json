@@ -1,0 +1,590 @@
+{
+ "formular_id": "svs_f72386e769",
+ "name": "PDF (0.1MB) – Formulare & Anträge",
+ "traeger": "SVS",
+ "sha256": "04efd65085dc5f5c1f7247a188881389629bbffa8ec9ab1a59f9b351a1f1d628",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.782161&version=1701326197",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    264.0,
+    538.3,
+    276.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "der/des Versicherten:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "versicherte_person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    292.9,
+    396.6,
+    305.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der/des Versicherten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "versicherte_person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    292.9,
+    538.3,
+    305.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer/Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    321.7,
+    396.6,
+    334.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zuletzt wohnhaft in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "versicherte_person.adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    321.7,
+    538.3,
+    334.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Sterbedatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "versicherte_person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    344.8,
+    538.3,
+    357.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragsteller/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "vertreter.rolle",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    373.8,
+    396.6,
+    386.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "vY_G=wU&J|QzG Vt pI<+d h>O +xlz'1h3\"yo?m<+!|(|ko9ih{h;+ EV",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    373.8,
+    538.3,
+    386.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer/Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "versicherte_person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    402.6,
+    396.6,
+    415.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "y 9)))yYYy II)yiy iIY9II)I)i)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    402.6,
+    538.3,
+    415.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandtschaftsverhältnis *)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    449.5,
+    67.0,
+    458.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "dass ich mit der/dem Versicherten zur Zeit ihres/seines Ablebens",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    492.0,
+    67.0,
+    501.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "dass ich die einzige bezugsberechtigte Person bin.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    503.6,
+    67.0,
+    512.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "dass neben mir noch folgende Person/en bezugsberechtigt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    505.5,
+    538.3,
+    518.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "mir noch folgende Person/en bezugsberechtigt ist/sind:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    534.4,
+    396.6,
+    546.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    534.4,
+    538.3,
+    546.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer/Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    563.2,
+    396.6,
+    575.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    563.2,
+    538.3,
+    575.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer/Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    592.2,
+    396.6,
+    604.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    592.2,
+    538.3,
+    604.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer/Geburtsdatum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    621.0,
+    538.3,
+    633.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    671.8,
+    290.3,
+    684.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    290.8,
+    671.8,
+    538.3,
+    684.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bankverbindung:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    700.6,
+    290.3,
+    713.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "BIC",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": "bank.bic",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    290.8,
+    700.6,
+    538.3,
+    713.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoinhaber/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": "bank.kontoinhaber",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 12,
+  "bilder": [
+   "cache/pruefung/svs_f72386e769/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Antragsteller/in → Vorsorgevollmacht",
+     "problem": "Wert steht im Feld für den Antragsteller, passt aber offenbar nicht zur antragstellenden Person/Vertreter-Zuordnung im Layout",
+     "schwer": true
+    },
+    {
+     "feld": "Name → Berger Anna",
+     "problem": "Wert steht in einer Tabelle für weitere bezugsberechtigte Personen/Angehörige, nicht im Hauptbereich der antragstellenden Person",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer/Geburtsdatum → 1234140348",
+     "problem": "Wert steht in einer Tabelle für weitere bezugsberechtigte Personen/Angehörige, nicht im Hauptbereich der antragstellenden Person",
+     "schwer": true
+    },
+    {
+     "feld": "Name → Berger Anna",
+     "problem": "Wert steht erneut in einer Tabelle für weitere bezugsberechtigte Personen/Angehörige, nicht im Hauptbereich der antragstellenden Person",
+     "schwer": true
+    },
+    {
+     "feld": "Versicherungsnummer/Geburtsdatum → 1234140348",
+     "problem": "Wert steht erneut in einer Tabelle für weitere bezugsberechtigte Personen/Angehörige, nicht im Hauptbereich der antragstellenden Person",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "395bb17e5e893807",
+  "ok": false
+ }
+}

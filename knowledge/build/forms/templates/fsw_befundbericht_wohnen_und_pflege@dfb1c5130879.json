@@ -1,0 +1,1241 @@
+{
+ "formular_id": "fsw_befundbericht_wohnen_und_pflege",
+ "name": "Befundbericht: Wohnen und Pflege",
+ "traeger": "FSW",
+ "sha256": "dfb1c5130879cf625d643d2b703e37851924977deb7bf34a1af2bfc36e769c29",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Befundbericht-Wohnen-und-Pflege.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "feld_id": "Familienname KundIn 5",
+   "acro_name": "Familienname KundIn 5",
+   "page": 0,
+   "bbox": [
+    29.8,
+    257.5,
+    294.7,
+    282.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname KundIn 5",
+   "acro_name": "Vorname KundIn 5",
+   "page": 0,
+   "bbox": [
+    304.0,
+    257.5,
+    565.6,
+    282.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum KundIn 5",
+   "acro_name": "Geburtsdatum KundIn 5",
+   "page": 0,
+   "bbox": [
+    29.8,
+    301.1,
+    153.1,
+    326.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aktuelle Diagnosen",
+   "acro_name": "Aktuelle Diagnosen",
+   "page": 0,
+   "bbox": [
+    29.8,
+    407.6,
+    565.5,
+    506.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aktuelle Diagnosen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Infektionskrankheiten 6",
+   "acro_name": "Infektionskrankheiten 6",
+   "page": 0,
+   "bbox": [
+    29.8,
+    557.2,
+    227.7,
+    582.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Infektionskrankheiten Kund:in (zum Beispiel Hepatitis C)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KeimtraegerIn 6",
+   "acro_name": "KeimtraegerIn 6",
+   "page": 0,
+   "bbox": [
+    248.9,
+    557.1,
+    446.8,
+    582.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Der:die Kund:in ist derzeit Keimträger:in? (zum Beispiel  MRSA)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ansteckungsgefahr",
+   "acro_name": "Ansteckungsgefahr",
+   "page": 0,
+   "bbox": [
+    460.3,
+    560.0,
+    521.4,
+    577.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Besteht noch Ansteckungsgefahr?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      460.3,
+      560.0,
+      477.8,
+      577.5
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      503.9,
+      560.0,
+      521.4,
+      577.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Orientierung",
+   "acro_name": "Orientierung",
+   "page": 0,
+   "bbox": [
+    29.8,
+    615.1,
+    47.8,
+    657.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Orientierung Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "orientiert",
+     "label": "orientiert",
+     "bbox": [
+      29.8,
+      615.1,
+      47.8,
+      633.1
+     ]
+    },
+    {
+     "wert": "desorientiert",
+     "label": "desorientiert:",
+     "bbox": [
+      29.8,
+      640.0,
+      47.5,
+      657.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert zeitweise 5",
+   "acro_name": "desorientiert zeitweise 5",
+   "page": 0,
+   "bbox": [
+    107.2,
+    639.8,
+    125.2,
+    657.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert zeitweise",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "zeitweise",
+     "bbox": [
+      107.2,
+      639.8,
+      125.2,
+      657.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert dauernd 5",
+   "acro_name": "desorientiert dauernd 5",
+   "page": 0,
+   "bbox": [
+    169.6,
+    640.2,
+    187.6,
+    658.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert dauernd",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "dauernd",
+     "bbox": [
+      169.6,
+      640.2,
+      187.6,
+      658.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert Tag 5",
+   "acro_name": "desorientiert Tag 5",
+   "page": 0,
+   "bbox": [
+    231.9,
+    639.9,
+    249.9,
+    657.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert am Tag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Tag",
+     "bbox": [
+      231.9,
+      639.9,
+      249.9,
+      657.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert Nacht 5",
+   "acro_name": "desorientiert Nacht 5",
+   "page": 0,
+   "bbox": [
+    277.3,
+    640.2,
+    295.3,
+    658.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert in der Nacht ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Nacht",
+     "bbox": [
+      277.3,
+      640.2,
+      295.3,
+      658.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert zeitlich 5",
+   "acro_name": "desorientiert zeitlich 5",
+   "page": 0,
+   "bbox": [
+    332.0,
+    640.2,
+    350.0,
+    658.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert zeitlich ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "zeitlich",
+     "bbox": [
+      332.0,
+      640.2,
+      350.0,
+      658.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert Ort 5",
+   "acro_name": "desorientiert Ort 5",
+   "page": 0,
+   "bbox": [
+    389.7,
+    639.4,
+    407.8,
+    657.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert örtlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "örtlich",
+     "bbox": [
+      389.7,
+      639.4,
+      407.8,
+      657.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert persoenlich 5",
+   "acro_name": "desorientiert persoenlich 5",
+   "page": 0,
+   "bbox": [
+    447.9,
+    639.4,
+    465.9,
+    657.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert persönlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "persönlich",
+     "bbox": [
+      447.9,
+      639.4,
+      465.9,
+      657.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "desorientiert situativ 5",
+   "acro_name": "desorientiert situativ 5",
+   "page": 0,
+   "bbox": [
+    518.2,
+    639.3,
+    536.2,
+    657.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist desorientiert situativ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "situativ",
+     "bbox": [
+      518.2,
+      639.3,
+      536.2,
+      657.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Allgemeinzustand KundIn 5",
+   "acro_name": "Allgemeinzustand KundIn 5",
+   "page": 0,
+   "bbox": [
+    29.8,
+    703.2,
+    293.9,
+    728.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Allgemeinzustand Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ernährungszustand KundIn 5",
+   "acro_name": "Ernährungszustand KundIn 5",
+   "page": 0,
+   "bbox": [
+    301.6,
+    703.2,
+    565.6,
+    728.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ernährungszustand Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kommunikation KundIn 6",
+   "acro_name": "Kommunikation KundIn 6",
+   "page": 0,
+   "bbox": [
+    29.8,
+    743.9,
+    565.5,
+    768.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kommunikation Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ausscheidung KundIn 6",
+   "acro_name": "Ausscheidung KundIn 6",
+   "page": 0,
+   "bbox": [
+    29.8,
+    786.2,
+    293.9,
+    811.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausscheidung Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stuhl",
+   "acro_name": "Stuhl",
+   "page": 0,
+   "bbox": [
+    301.5,
+    786.2,
+    380.6,
+    804.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Stuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "kontinent",
+     "label": "kontinent",
+     "bbox": [
+      301.5,
+      786.2,
+      319.5,
+      804.2
+     ]
+    },
+    {
+     "wert": "inkontinent",
+     "label": "inkontinent",
+     "bbox": [
+      362.6,
+      786.2,
+      380.6,
+      804.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Harn",
+   "acro_name": "Harn",
+   "page": 0,
+   "bbox": [
+    438.0,
+    786.2,
+    518.6,
+    804.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Harn",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "kontinent",
+     "label": "kontinent",
+     "bbox": [
+      438.0,
+      786.2,
+      456.0,
+      804.2
+     ]
+    },
+    {
+     "wert": "inkontinent",
+     "label": "inkontinent",
+     "bbox": [
+      500.5,
+      786.2,
+      518.6,
+      804.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "selbstaendig",
+   "acro_name": "selbstaendig",
+   "page": 1,
+   "bbox": [
+    29.8,
+    46.8,
+    47.8,
+    64.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist selbstständig",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "selbstständig",
+     "bbox": [
+      29.8,
+      46.8,
+      47.8,
+      64.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Personenbegleitung erforderlich",
+   "acro_name": "Personenbegleitung erforderlich",
+   "page": 1,
+   "bbox": [
+    116.8,
+    46.8,
+    134.8,
+    64.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Personenbegleitung erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Personenbegleitung erforderlich",
+     "bbox": [
+      116.8,
+      46.8,
+      134.8,
+      64.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Transfer erforderlich",
+   "acro_name": "Transfer erforderlich",
+   "page": 1,
+   "bbox": [
+    231.9,
+    46.8,
+    249.9,
+    64.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Transfer erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Transfer erforderlich",
+     "bbox": [
+      231.9,
+      46.8,
+      249.9,
+      64.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "bettlaegerig",
+   "acro_name": "bettlaegerig",
+   "page": 1,
+   "bbox": [
+    349.9,
+    46.8,
+    367.9,
+    64.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kund:in ist bettlägerig",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "bettlägerig",
+     "bbox": [
+      349.9,
+      46.8,
+      367.9,
+      64.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "rezidivierende Stuerze",
+   "acro_name": "rezidivierende Stuerze",
+   "page": 1,
+   "bbox": [
+    429.4,
+    46.8,
+    447.4,
+    64.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "rezidivierende Stürze",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "rezidivierende Stürze",
+     "bbox": [
+      429.4,
+      46.8,
+      447.4,
+      64.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hilfsmittel erforderlich",
+   "acro_name": "Hilfsmittel erforderlich",
+   "page": 1,
+   "bbox": [
+    29.8,
+    76.3,
+    47.8,
+    94.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Hilfsmittel erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Hilfsmittel erforderlich",
+     "bbox": [
+      29.8,
+      76.3,
+      47.8,
+      94.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "welche Hilfsmittel",
+   "acro_name": "welche Hilfsmittel",
+   "page": 1,
+   "bbox": [
+    47.5,
+    116.0,
+    565.5,
+    215.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche Hilfsmittel sind erforderlich?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "dauernde pfölegerische Anwesenheit",
+   "acro_name": "dauernde pfölegerische Anwesenheit",
+   "page": 1,
+   "bbox": [
+    29.8,
+    249.2,
+    47.8,
+    267.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "dauernde pflegerische Anwesenheit erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "dauernde erforderlich pflegerische Anwesenheit",
+     "bbox": [
+      29.8,
+      249.2,
+      47.8,
+      267.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "dauernde aerztliche Anwesenheit 5",
+   "acro_name": "dauernde aerztliche Anwesenheit 5",
+   "page": 1,
+   "bbox": [
+    197.3,
+    249.2,
+    215.3,
+    267.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "dauernde ärztliche Anwesenheit erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Anwesenheit dauernde ärztliche erforderlich",
+     "bbox": [
+      197.3,
+      249.2,
+      215.3,
+      267.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "keine ausreichende Pflege und Betreuung 5",
+   "acro_name": "keine ausreichende Pflege und Betreuung 5",
+   "page": 1,
+   "bbox": [
+    328.8,
+    249.9,
+    346.8,
+    267.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "mobile / teilstationäre Pflege und Betreuung ist nicht ausreichend",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "mobile ist nicht / ausreichend teilstationäre Pflege und Betreuung",
+     "bbox": [
+      328.8,
+      249.9,
+      346.8,
+      267.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begruendung fuer aerztliche Anwesenheit 5",
+   "acro_name": "Begruendung fuer aerztliche Anwesenheit 5",
+   "page": 1,
+   "bbox": [
+    29.9,
+    290.8,
+    565.5,
+    390.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung für den Bedarf der dauernden ärztlichen Anwesenheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bedarf Wohn Pflegeleistung vorauss",
+   "acro_name": "Bedarf Wohn Pflegeleistung vorauss",
+   "page": 1,
+   "bbox": [
+    29.7,
+    411.6,
+    122.1,
+    429.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Bedarf für Wohn-/Pflegeleistung besteht voraussichtlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Dauerhaft",
+     "label": "dauerhaft",
+     "bbox": [
+      29.7,
+      411.6,
+      47.7,
+      429.6
+     ]
+    },
+    {
+     "wert": "Befristet",
+     "label": "befristet",
+     "bbox": [
+      104.1,
+      411.6,
+      122.1,
+      429.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erschwerende Faktoren",
+   "acro_name": "Erschwerende Faktoren",
+   "page": 1,
+   "bbox": [
+    29.7,
+    456.0,
+    47.7,
+    474.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Erschwerende Faktoren für die Pflege und Betreuung: keine",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "keine",
+     "bbox": [
+      29.7,
+      456.0,
+      47.7,
+      474.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erschwerende Faktoren 2",
+   "acro_name": "Erschwerende Faktoren 2",
+   "page": 1,
+   "bbox": [
+    83.5,
+    456.0,
+    101.5,
+    474.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Erschwerende Faktoren für die Pflege und Betreuung: Tag-Nacht-Umkehr",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Tag-Nacht-Umkehr",
+     "bbox": [
+      83.5,
+      456.0,
+      101.5,
+      474.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erschwerende Faktoren 3",
+   "acro_name": "Erschwerende Faktoren 3",
+   "page": 1,
+   "bbox": [
+    185.2,
+    456.4,
+    203.2,
+    474.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Erschwerende Faktoren für die Pflege und Betreuung: wiederkehrende Verhaltensauffälligkeiten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "wiederkehrende Verhaltensauffälligkeiten",
+     "bbox": [
+      185.2,
+      456.4,
+      203.2,
+      474.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erschwerende Faktoren 4",
+   "acro_name": "Erschwerende Faktoren 4",
+   "page": 1,
+   "bbox": [
+    373.2,
+    456.0,
+    391.2,
+    474.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Erschwerende Faktoren für die Pflege und Betreuung: aktiver Drogenkonsum / Alkoholmissbrauch",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "aktiver Drogenkonsum / Alkoholmissbrauch",
+     "bbox": [
+      373.2,
+      456.0,
+      391.2,
+      474.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere erschwerende Faktoren",
+   "acro_name": "Andere erschwerende Faktoren",
+   "page": 1,
+   "bbox": [
+    28.5,
+    494.6,
+    564.1,
+    593.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Andere erschwerende Faktoren für die Pflege und Betreuung anführen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift Arzt 8",
+   "acro_name": "Datum Unterschrift Arzt 8",
+   "page": 1,
+   "bbox": [
+    29.8,
+    692.7,
+    154.0,
+    717.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld 1",
+   "acro_name": "Unterschriftsfeld 1",
+   "page": 1,
+   "bbox": [
+    173.4,
+    692.7,
+    565.5,
+    787.0
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift und Stempel des:der Arztes:Ärztin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/fsw_befundbericht_wohnen_und_pflege/p1.png",
+   "cache/pruefung/fsw_befundbericht_wohnen_und_pflege/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "5fea54f41d0e8377",
+  "ok": true
+ }
+}

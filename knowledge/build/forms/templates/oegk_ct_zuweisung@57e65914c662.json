@@ -1,0 +1,926 @@
+{
+ "formular_id": "oegk_ct_zuweisung",
+ "name": "CT Zuweisung",
+ "traeger": "ÖGK",
+ "sha256": "57e65914c662cedf74648eae757203c35aa0c98f831513e4018f67c0ac502438",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734166&version=1774528408",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    18.5,
+    15.7,
+    207.7,
+    60.9
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    212.5,
+    41.1,
+    578.2,
+    53.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.8,
+    155.2,
+    296.5,
+    167.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.0,
+    190.9,
+    297.8,
+    203.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    311.8,
+    196.9,
+    566.9,
+    209.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "( möglichst exakte Abgrenzung ! ):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    311.8,
+    225.2,
+    566.9,
+    237.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.6,
+    239.1,
+    297.1,
+    251.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    311.8,
+    253.5,
+    566.9,
+    266.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigt bei (Dienstgeber/in, Dienstort)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.0,
+    266.8,
+    297.3,
+    279.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigt bei (Dienstgeber/in, Dienstort)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    129.0,
+    298.9,
+    572.6,
+    311.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Klinische Symptomatik:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    327.3,
+    572.6,
+    339.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Klinische Symptomatik:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    129.0,
+    355.6,
+    572.6,
+    368.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Konkrete Fragestellung:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    383.8,
+    572.6,
+    396.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Konkrete Fragestellung:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    141.2,
+    440.7,
+    572.6,
+    453.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bereits erhobene Befunde:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    22.7,
+    468.8,
+    572.6,
+    481.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bereits erhobene Befunde:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    462.0,
+    559.7,
+    572.6,
+    572.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Besondere Vermerke:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    157.3,
+    586.7,
+    345.8,
+    599.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "erforderlichen Kontrastmittels",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    362.8,
+    588.1,
+    572.6,
+    600.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontrastmittels",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    97.8,
+    610.5,
+    333.0,
+    623.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Mengenangabe:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    362.8,
+    616.4,
+    572.6,
+    628.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "ml",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    238.0,
+    707.1,
+    379.8,
+    719.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    425.1,
+    707.1,
+    572.6,
+    719.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    172.2,
+    61.1,
+    459.3,
+    73.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "1010 Wien, Laurenzerberg 2,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_022",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    206.7,
+    98.5,
+    456.3,
+    110.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "1050 Wien, Nikolsdorfergasse 32–36,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_023",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    185.7,
+    135.8,
+    457.8,
+    147.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "1090 Wien, Lazarettgasse 16-18,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_024",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    170.8,
+    173.1,
+    460.8,
+    185.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "1090 Wien, Löblichgasse 14,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_025",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    202.3,
+    210.4,
+    454.8,
+    222.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "1100 Wien, Ada-Christen-Gasse 2D,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_026",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    211.2,
+    247.7,
+    454.8,
+    259.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "1100 Wien, Am Hauptbahnhof 2/4 OG",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_027",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    221.2,
+    285.0,
+    460.8,
+    297.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "1110 Wien, Simmeringer Hauptstraße 101,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    216.2,
+    322.3,
+    459.3,
+    334.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "1120 Wien, Meidlinger Hauptstraße 7–9,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    174.8,
+    359.6,
+    454.8,
+    371.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "1130 Wien, Hietzinger Kai 131,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    188.8,
+    396.9,
+    454.8,
+    408.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "1140 Wien, Kuefsteingasse 15–19,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    230.3,
+    434.2,
+    441.4,
+    446.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "1140 Wien, Heinrich-Collin-Straße 30 (EG),",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    209.9,
+    471.5,
+    453.3,
+    483.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "1170 Wien, Hernalser Hauptstraße 85,,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_033",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    187.6,
+    508.8,
+    456.3,
+    520.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "1180 Wien, Gersthofer Straße 16,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_034",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    221.8,
+    546.2,
+    442.9,
+    558.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "1190 Wien, Heiligenstädter Straße 55–63,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_035",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    170.9,
+    583.5,
+    444.3,
+    595.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "1190 Wien. Billrothstraße 78,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_036",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    183.8,
+    620.8,
+    454.8,
+    632.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "1200 Wien, Pasettistraße 71–75,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_037",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    191.4,
+    658.1,
+    457.8,
+    670.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "1210 Wien, Schloßhofer Straße 17,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_038",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    142.3,
+    695.4,
+    457.8,
+    707.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "1210 Pastorstraße 2a,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_039",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    184.2,
+    732.7,
+    457.8,
+    744.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "1220 Wien, Donaustadtstraße 1,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_040",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    223.3,
+    771.2,
+    453.3,
+    783.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "1230 Wien,Perchtoldsdorfer Straße 15–19,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_041",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/oegk_ct_zuweisung/p1.png",
+   "cache/pruefung/oegk_ct_zuweisung/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "01cf3ca5340c1536",
+  "ok": true
+ }
+}

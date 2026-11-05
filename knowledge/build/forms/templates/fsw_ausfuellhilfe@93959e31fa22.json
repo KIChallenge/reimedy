@@ -1,0 +1,26 @@
+{
+ "formular_id": "fsw_ausfuellhilfe",
+ "name": "Ausfüllhilfe - Antrag einfach und vollständig ausfüllen",
+ "traeger": "FSW",
+ "sha256": "93959e31fa2228f36bd1a9687c0e4422500af0e9f2c7d97ddb9576f0cde8ed91",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/fsw-ausfuellhilfe.pdf",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "keine",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": "infoblatt_ohne_ausfuellfelder",
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "ok": false,
+  "befunde": [
+   "infoblatt_ohne_ausfuellfelder"
+  ]
+ }
+}

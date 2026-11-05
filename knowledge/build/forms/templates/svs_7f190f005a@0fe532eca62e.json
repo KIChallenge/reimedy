@@ -1,0 +1,81 @@
+{
+ "formular_id": "svs_7f190f005a",
+ "name": "Anlage_F_Bestätigung-Kriterien-Depotführung.pdf",
+ "traeger": "SVS",
+ "sha256": "0fe532eca62ee54aa4930d7b601ff43d3ed89869b5cf4d4d6280a31d3f728a5c",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.794148&version=1749102394",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Name",
+   "acro_name": "Name",
+   "page": 0,
+   "bbox": [
+    107.4,
+    303.3,
+    291.5,
+    322.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse",
+   "acro_name": "Adresse",
+   "page": 0,
+   "bbox": [
+    171.0,
+    328.3,
+    290.6,
+    347.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vertragspartnernummer:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/svs_7f190f005a/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "622d41ecd0ba48ab",
+  "ok": true
+ }
+}

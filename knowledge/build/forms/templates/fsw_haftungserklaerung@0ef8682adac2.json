@@ -1,0 +1,744 @@
+{
+ "formular_id": "fsw_haftungserklaerung",
+ "name": "Haftungserklärung für Kostenbeitrag für Minderjährige",
+ "traeger": "FSW",
+ "sha256": "0ef8682adac29c968ef0e606114e942b0287ba2f6da3ea83db1ae50593c7ba71",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/haftungserklaerung.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname KundIn",
+   "acro_name": "Familienname KundIn",
+   "page": 0,
+   "bbox": [
+    29.7,
+    267.9,
+    295.1,
+    294.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname KundIn",
+   "acro_name": "Vorname KundIn",
+   "page": 0,
+   "bbox": [
+    300.5,
+    267.9,
+    567.6,
+    294.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum KundIn 1",
+   "acro_name": "Geburtsdatum KundIn 1",
+   "page": 0,
+   "bbox": [
+    29.7,
+    337.0,
+    160.5,
+    363.4
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "kind.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Volljaehrigkeit",
+   "acro_name": "Datum Volljaehrigkeit",
+   "page": 0,
+   "bbox": [
+    164.7,
+    337.0,
+    295.5,
+    363.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Volljährigkeit Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen Adresse",
+   "acro_name": "Strassennamen Adresse",
+   "page": 0,
+   "bbox": [
+    29.7,
+    407.5,
+    343.6,
+    433.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr Adresse",
+   "acro_name": "Hausnr Adresse",
+   "page": 0,
+   "bbox": [
+    352.0,
+    407.5,
+    398.2,
+    433.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.hausnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege Adresse",
+   "acro_name": "Stiege Adresse",
+   "page": 0,
+   "bbox": [
+    407.1,
+    407.5,
+    455.1,
+    433.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.stiege",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr Adresse",
+   "acro_name": "Tuernr Adresse",
+   "page": 0,
+   "bbox": [
+    464.2,
+    407.5,
+    512.1,
+    433.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.tuer",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ Adresse",
+   "acro_name": "PLZ Adresse",
+   "page": 0,
+   "bbox": [
+    29.7,
+    451.4,
+    134.7,
+    477.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort Adresse",
+   "acro_name": "Ort Adresse",
+   "page": 0,
+   "bbox": [
+    146.7,
+    451.4,
+    343.7,
+    477.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname erste obsorgeberechtigte Person",
+   "acro_name": "Familienname erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    29.7,
+    553.4,
+    295.1,
+    579.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname erste obsorgeberechtigte Person",
+   "acro_name": "Vorname erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    300.5,
+    553.4,
+    567.6,
+    579.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung erste obsorgeberechtigte Person",
+   "acro_name": "Beziehung erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    29.7,
+    597.1,
+    295.1,
+    623.6
+   ],
+   "typ": "text",
+   "label_wörtlich": " Beziehung erste obsorgeberechtigte Person zum:zur Kunden:Kundin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.beziehung",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum erste obsorgeberechtigte Person",
+   "acro_name": "Geburtsdatum erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    29.7,
+    667.3,
+    160.5,
+    693.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum erste obsorgeberechtigte Person (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "vertreter.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen erste obsorgeberechtigte Person",
+   "acro_name": "Strassennamen erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    29.7,
+    739.5,
+    343.6,
+    766.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname der Adresse erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr erste obsorgeberechtigte Person",
+   "acro_name": "Hausnr erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    352.0,
+    739.5,
+    398.2,
+    766.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege erste obsorgeberechtigte Person",
+   "acro_name": "Stiege erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    407.1,
+    739.5,
+    455.1,
+    766.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.stiege",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr erste obsorgeberechtigte Person",
+   "acro_name": "Tuernr erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    464.2,
+    739.5,
+    512.1,
+    766.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer der Adresse erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.tuer",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ erste obsorgeberechtigte Person",
+   "acro_name": "PLZ erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    29.7,
+    784.2,
+    134.7,
+    810.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort erste obsorgeberechtigte Person",
+   "acro_name": "Ort erste obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    146.7,
+    784.2,
+    343.7,
+    810.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse erste obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname zweite obsorgeberechtigte Person",
+   "acro_name": "Familienname zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    29.7,
+    80.5,
+    295.1,
+    106.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname zweite obsorgeberechtigte Person",
+   "acro_name": "Vorname zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    300.5,
+    80.5,
+    567.6,
+    106.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung zweite obsorgeberechtigte Person",
+   "acro_name": "Beziehung zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    29.7,
+    122.7,
+    295.1,
+    149.2
+   ],
+   "typ": "text",
+   "label_wörtlich": " Beziehung zweite obsorgeberechtigte Person zum:zur Kunden:Kundin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.beziehung",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum zweite obsorgeberechtigte Person",
+   "acro_name": "Geburtsdatum zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    29.7,
+    189.3,
+    160.5,
+    215.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geburtsdatum zweite obsorgeberechtigte Person (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen zweite obsorgeberechtigte Person",
+   "acro_name": "Strassennamen zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    29.7,
+    257.4,
+    343.6,
+    283.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßenname der Adresse zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr zweite obsorgeberechtigte Person",
+   "acro_name": "Hausnr zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    352.0,
+    257.4,
+    398.2,
+    283.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege zweite obsorgeberechtigte Person",
+   "acro_name": "Stiege zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    407.1,
+    257.4,
+    455.1,
+    283.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr zweite obsorgeberechtigte Person",
+   "acro_name": "Tuernr zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    464.2,
+    257.4,
+    512.1,
+    283.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer der Adresse zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ zweite obsorgeberechtigte Person",
+   "acro_name": "PLZ zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    29.7,
+    300.6,
+    134.7,
+    327.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort zweite obsorgeberechtigte Person",
+   "acro_name": "Ort zweite obsorgeberechtigte Person",
+   "page": 1,
+   "bbox": [
+    146.7,
+    300.6,
+    343.7,
+    327.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse zweite obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift 2",
+   "acro_name": "Datum Unterschrift 2",
+   "page": 1,
+   "bbox": [
+    29.8,
+    493.8,
+    171.0,
+    533.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld 1",
+   "acro_name": "Unterschriftsfeld 1",
+   "page": 1,
+   "bbox": [
+    181.1,
+    493.9,
+    566.9,
+    533.1
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschriftsfeld der ersten obsorgeberechtigten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld 2",
+   "acro_name": "Unterschriftsfeld 2",
+   "page": 1,
+   "bbox": [
+    181.1,
+    553.8,
+    566.9,
+    593.0
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschriftsfeld der zweiten obsorgeberechtigten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 20,
+  "bilder": [
+   "cache/pruefung/fsw_haftungserklaerung/p1.png",
+   "cache/pruefung/fsw_haftungserklaerung/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Beziehung zum:zur Kunden:Kundin (1. obsorgeberechtigte Person)",
+     "problem": "Wert 'Tochter' gehört nicht zur ersten obsorgeberechtigten Person; das Feld ist falsch befüllt bzw. semantisch unplausibel.",
+     "schwer": true
+    },
+    {
+     "feld": "Beziehung zum:zur Kunden:Kundin (2. obsorgeberechtigte Person)",
+     "problem": "Wert 'Tochter' gehört nicht zur zweiten obsorgeberechtigten Person; das Feld ist falsch befüllt bzw. semantisch unplausibel.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "92615c12f3bc14e4",
+  "ok": false
+ }
+}

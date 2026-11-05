@@ -1,0 +1,938 @@
+{
+ "formular_id": "bvaeb_79d36c1b4d",
+ "name": "Bestellung von Zubehör für Blutzuckermessgeräte und Insulinpumpen",
+ "traeger": "BVAEB",
+ "sha256": "d48da4fd11ac4b4513c1d9d6b00c7e7d24c1ff6206ff5276eab0b5215e386ec5",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729179&version=1740380312",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "firmenname",
+   "acro_name": "firmenname",
+   "page": 0,
+   "bbox": [
+    72.1,
+    190.5,
+    328.7,
+    204.2
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Auswahl Firmenname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "=== Bitte wählen Sie eine Firma aus ===",
+     "label": "=== Bitte wählen Sie eine Firma aus ==="
+    },
+    {
+     "wert": "Abbott Gesellschaft m.b.H.",
+     "label": "Abbott Gesellschaft m.b.H."
+    },
+    {
+     "wert": "Sanofi-Aventis GmbH",
+     "label": "Sanofi-Aventis GmbH"
+    },
+    {
+     "wert": "Alere GmbH",
+     "label": "Alere GmbH"
+    },
+    {
+     "wert": "Lohmann & Rauscher GmbH",
+     "label": "Lohmann & Rauscher GmbH"
+    },
+    {
+     "wert": "Sanova Pharma GesmbH/Logistics 360°",
+     "label": "Sanova Pharma GesmbH/Logistics 360°"
+    },
+    {
+     "wert": "MED TRUST Handelsgesellschaft m.b.H.",
+     "label": "MED TRUST Handelsgesellschaft m.b.H."
+    },
+    {
+     "wert": "Sanibald GmbH",
+     "label": "Sanibald GmbH"
+    },
+    {
+     "wert": "Roche Diabetes Care Austria GmbH",
+     "label": "Roche Diabetes Care Austria GmbH"
+    },
+    {
+     "wert": "Wutschka GmbH (Ascensia GmbH)",
+     "label": "Wutschka GmbH (Ascensia GmbH)"
+    },
+    {
+     "wert": "Medtronic Österreich GmbH",
+     "label": "Medtronic Österreich GmbH"
+    },
+    {
+     "wert": "GSM Sedlak KEG",
+     "label": "GSM Sedlak KEG"
+    },
+    {
+     "wert": "Exel Medical GmbH",
+     "label": "Exel Medical GmbH"
+    },
+    {
+     "wert": "MENARINI / MEDITRAX GmbH",
+     "label": "MENARINI / MEDITRAX GmbH"
+    },
+    {
+     "wert": "Mirabell Medizintechnik GmbH",
+     "label": "Mirabell Medizintechnik GmbH"
+    },
+    {
+     "wert": "Eli Lilly GmbH",
+     "label": "Eli Lilly GmbH"
+    },
+    {
+     "wert": "Beurer Austria GmbH",
+     "label": "Beurer Austria GmbH"
+    },
+    {
+     "wert": "Nintamed Handels GmbH",
+     "label": "Nintamed Handels GmbH"
+    },
+    {
+     "wert": "Axonlab AG",
+     "label": "Axonlab AG"
+    },
+    {
+     "wert": "Ypsomed GmbH",
+     "label": "Ypsomed GmbH"
+    },
+    {
+     "wert": "Medical Systems EDV-Beratungsgesellschaft mbH",
+     "label": "Medical Systems EDV-Beratungsgesellschaft mbH"
+    },
+    {
+     "wert": "DIAGENT GmbH",
+     "label": "DIAGENT GmbH"
+    },
+    {
+     "wert": "Insulet Austria GmbH",
+     "label": "Insulet Austria GmbH"
+    },
+    {
+     "wert": "embecta Austria GmbH / meditrax GmbH",
+     "label": "embecta Austria GmbH / meditrax GmbH"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "firmenadresse",
+   "acro_name": "firmenadresse",
+   "page": 0,
+   "bbox": [
+    72.5,
+    204.4,
+    328.6,
+    273.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Firmenadresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_1",
+   "acro_name": "Name_1",
+   "page": 0,
+   "bbox": [
+    284.1,
+    331.9,
+    523.1,
+    346.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Nachname - Versicherte/r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    304.4,
+    352.2,
+    523.1,
+    367.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Sozialversicherungsnummer - Versicherte/r",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_2",
+   "acro_name": "Name_2",
+   "page": 0,
+   "bbox": [
+    284.1,
+    373.1,
+    523.1,
+    387.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Vor- und Familienname - Angehörige/r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_2",
+   "acro_name": "VSNR_2",
+   "page": 0,
+   "bbox": [
+    304.4,
+    393.4,
+    523.1,
+    408.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Sozialversicherungsnummer - Angehörige/r",
+   "max_zeichen": 10,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lieferadresse_1",
+   "acro_name": "Lieferadresse_1",
+   "page": 0,
+   "bbox": [
+    132.4,
+    413.2,
+    523.1,
+    428.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Lieferadresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "unterorganisation",
+   "acro_name": "unterorganisation",
+   "page": 0,
+   "bbox": [
+    259.8,
+    442.9,
+    568.1,
+    456.6
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Bitte wählen Sie Ihr(e) zuständige Landes-/Außenstelle",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "=== Bitte wählen Sie Ihre zuständige Landes-/Außenstelle ===",
+     "label": "=== Bitte wählen Sie Ihre zuständige Landes-/Außenstelle ==="
+    },
+    {
+     "wert": "Landesstelle in Wien",
+     "label": "Landesstelle in Wien"
+    },
+    {
+     "wert": "Außenstelle St. Pölten",
+     "label": "Außenstelle St. Pölten"
+    },
+    {
+     "wert": "Außenstelle Eisenstadt",
+     "label": "Außenstelle Eisenstadt"
+    },
+    {
+     "wert": "Landesstelle für Oberösterreich",
+     "label": "Landesstelle für Oberösterreich"
+    },
+    {
+     "wert": "Landesstelle für Steiermark",
+     "label": "Landesstelle für Steiermark"
+    },
+    {
+     "wert": "Landesstelle für Kärnten",
+     "label": "Landesstelle für Kärnten"
+    },
+    {
+     "wert": "Landesstelle für Salzburg",
+     "label": "Landesstelle für Salzburg"
+    },
+    {
+     "wert": "Landesstelle für Tirol",
+     "label": "Landesstelle für Tirol"
+    },
+    {
+     "wert": "Landesstelle für Vorarlberg",
+     "label": "Landesstelle für Vorarlberg"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "adresse",
+   "acro_name": "adresse",
+   "page": 0,
+   "bbox": [
+    259.8,
+    456.0,
+    568.1,
+    486.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "insulinpflichtig",
+   "acro_name": "insulinpflichtig",
+   "page": 0,
+   "bbox": [
+    96.7,
+    497.5,
+    183.0,
+    507.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ich bin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "insulinpflichtig q nicht insulinpflichtig",
+     "bbox": [
+      96.7,
+      497.5,
+      106.6,
+      507.9
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "nicht insulinpflichtig",
+     "bbox": [
+      173.7,
+      497.5,
+      183.0,
+      507.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Artikel_1",
+   "acro_name": "Artikel_1",
+   "page": 0,
+   "bbox": [
+    67.0,
+    554.9,
+    424.2,
+    568.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Artikel 1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl_1",
+   "acro_name": "Anzahl_1",
+   "page": 0,
+   "bbox": [
+    426.9,
+    554.9,
+    467.0,
+    568.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Anzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Packungsgroesse_1",
+   "acro_name": "Packungsgroesse_1",
+   "page": 0,
+   "bbox": [
+    469.8,
+    554.9,
+    552.2,
+    568.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Packungsgröße",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Artikel_2",
+   "acro_name": "Artikel_2",
+   "page": 0,
+   "bbox": [
+    67.0,
+    571.4,
+    424.2,
+    586.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Artikel 2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl_2",
+   "acro_name": "Anzahl_2",
+   "page": 0,
+   "bbox": [
+    426.9,
+    571.4,
+    467.0,
+    585.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Anzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Packungsgroesse_2",
+   "acro_name": "Packungsgroesse_2",
+   "page": 0,
+   "bbox": [
+    469.8,
+    571.4,
+    552.2,
+    585.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Packungsgröße",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Artikel_3",
+   "acro_name": "Artikel_3",
+   "page": 0,
+   "bbox": [
+    67.0,
+    588.5,
+    424.2,
+    602.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Artikel 3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl_3",
+   "acro_name": "Anzahl_3",
+   "page": 0,
+   "bbox": [
+    426.9,
+    587.9,
+    467.0,
+    602.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Anzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Packungsgroesse_3",
+   "acro_name": "Packungsgroesse_3",
+   "page": 0,
+   "bbox": [
+    469.8,
+    588.5,
+    552.2,
+    602.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Packungsgröße",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Artikel_4",
+   "acro_name": "Artikel_4",
+   "page": 0,
+   "bbox": [
+    67.0,
+    604.9,
+    424.2,
+    619.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Artikel 4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl_4",
+   "acro_name": "Anzahl_4",
+   "page": 0,
+   "bbox": [
+    426.9,
+    604.9,
+    467.0,
+    619.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Anzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Packungsgroesse_4",
+   "acro_name": "Packungsgroesse_4",
+   "page": 0,
+   "bbox": [
+    468.5,
+    603.7,
+    551.0,
+    618.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Packungsgröße",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Artikel_5",
+   "acro_name": "Artikel_5",
+   "page": 0,
+   "bbox": [
+    67.0,
+    622.0,
+    424.2,
+    635.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Artikel 5",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl_5",
+   "acro_name": "Anzahl_5",
+   "page": 0,
+   "bbox": [
+    426.9,
+    622.0,
+    467.0,
+    635.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Anzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Packungsgroesse_5",
+   "acro_name": "Packungsgroesse_5",
+   "page": 0,
+   "bbox": [
+    469.8,
+    622.0,
+    552.2,
+    635.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Packungsgröße",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Artikel_6",
+   "acro_name": "Artikel_6",
+   "page": 0,
+   "bbox": [
+    67.0,
+    638.1,
+    424.2,
+    652.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Artikel 6",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl_6",
+   "acro_name": "Anzahl_6",
+   "page": 0,
+   "bbox": [
+    426.9,
+    638.5,
+    467.0,
+    652.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Anzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Packungsgroesse_6",
+   "acro_name": "Packungsgroesse_6",
+   "page": 0,
+   "bbox": [
+    469.8,
+    638.5,
+    552.2,
+    652.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Packungsgröße",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telnr_1",
+   "acro_name": "Telnr_1",
+   "page": 0,
+   "bbox": [
+    378.0,
+    679.1,
+    553.3,
+    693.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_1",
+   "acro_name": "Ja_1",
+   "page": 0,
+   "bbox": [
+    225.8,
+    701.7,
+    294.0,
+    711.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "01/20 Ich benötige neue Bestellscheine",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ja",
+     "bbox": [
+      225.8,
+      701.7,
+      235.7,
+      711.5
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "nein",
+     "bbox": [
+      284.1,
+      701.7,
+      294.0,
+      711.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 0,
+   "bbox": [
+    100.6,
+    729.7,
+    150.0,
+    744.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Textfeld Datum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sichtbar_traeger",
+   "acro_name": "sichtbar_traeger",
+   "page": 0,
+   "bbox": [
+    396.2,
+    17.0,
+    437.4,
+    31.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "für Trägerauswahlaktivierung: Optionen/Standard :1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sichtbar",
+   "acro_name": "sichtbar",
+   "page": 0,
+   "bbox": [
+    396.2,
+    33.5,
+    437.4,
+    47.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "sichtbar",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "traeger",
+   "acro_name": "traeger",
+   "page": 0,
+   "bbox": [
+    396.2,
+    51.1,
+    437.4,
+    64.3
+   ],
+   "typ": "auswahl",
+   "label_wörtlich": "Träger",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Versicherungsanstalt öffentlich Bediensteter",
+     "label": "Versicherungsanstalt öffentlich Bediensteter"
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/bvaeb_79d36c1b4d/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "4e2e16deea70f6aa",
+  "ok": true
+ }
+}

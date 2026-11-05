@@ -1,0 +1,442 @@
+{
+ "formular_id": "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
+ "name": "VO für Heilbehelfe und Hilfsmittel",
+ "traeger": "ÖGK",
+ "sha256": "396224b71efbeb5f3350dfa76a7dd8f9be107ae19374c4146e91e9222d9620eb",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734163&version=1734516356",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   419.5
+  ],
+  [
+   595.3,
+   419.5
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    18.5,
+    12.9,
+    208.3,
+    58.1
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    214.4,
+    38.3,
+    578.3,
+    50.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Selbstvers.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    303.3,
+    71.2,
+    572.6,
+    83.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verordnung für Heilbehelfe und Hilfsmittel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    297.7,
+    92.5,
+    578.3,
+    105.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Rezeptgebührenbefreiung Ja Nein",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.0,
+    156.0,
+    296.6,
+    168.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.1,
+    191.7,
+    298.0,
+    204.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    470.1,
+    197.8,
+    571.6,
+    210.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum / Unterschrift des/der Empfängers/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    375.9,
+    221.0,
+    411.4,
+    233.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr Die Kasse übernimmt",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.8,
+    240.0,
+    297.3,
+    252.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    354.9,
+    243.5,
+    476.2,
+    256.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "höchstens EUR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    17.1,
+    267.4,
+    297.5,
+    279.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschäftigt bei (Dienstgeber/in, Dienstort)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    298.5,
+    282.3,
+    577.8,
+    294.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Diagnose",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    345.9,
+    296.3,
+    407.7,
+    308.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verrechnet am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    71.8,
+    307.1,
+    287.3,
+    319.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verordnung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    25.6,
+    328.0,
+    289.3,
+    340.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verordnung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    303.8,
+    374.4,
+    461.8,
+    386.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum Stempel der Vertragspartnerin/des Vertragspartners",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    469.7,
+    374.8,
+    571.6,
+    387.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum / Unterschrift der Rückstellerin/",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    25.6,
+    385.1,
+    130.5,
+    397.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Verordnung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    141.9,
+    385.1,
+    289.3,
+    397.6
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift und Stempel der Ärztin/des Arztes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/oegk_vo_fuer_heilbehelfe_und_hilfsmittel/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "4a37ca5ef62137a5",
+  "ok": true
+ }
+}

@@ -1,0 +1,3143 @@
+{
+ "formular_id": "bvaeb_1ce2e2b953",
+ "name": "Antrag auf Bewilligung einer kieferorthopädischen Behandlung zur Kostenerstattung",
+ "traeger": "BVAEB",
+ "sha256": "e767e5d30cb8498dcface2112e3de2abbb2863677f65165981b53640114ee98f",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.747288&version=1621238923",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Ja_1",
+   "acro_name": "Ja_1",
+   "page": 0,
+   "bbox": [
+    41.8,
+    141.8,
+    53.6,
+    153.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Interzeptive Behandlung (Kinder bis 10 Jahre)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Interzeptive#20Behandlung",
+     "label": "Interzeptive Behandlung (Kinder bis 10 Jahre)",
+     "bbox": [
+      41.8,
+      141.8,
+      53.6,
+      153.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_2",
+   "acro_name": "Ja_2",
+   "page": 0,
+   "bbox": [
+    41.8,
+    157.7,
+    53.6,
+    169.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "KFO-Hauptbehandlung (Jugendliche)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "KFO-Hauptbehandlung",
+     "label": "KFO-Hauptbehandlung (Jugendliche)",
+     "bbox": [
+      41.8,
+      157.7,
+      53.6,
+      169.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_3",
+   "acro_name": "Ja_3",
+   "page": 0,
+   "bbox": [
+    41.8,
+    174.3,
+    53.6,
+    186.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Zusätzliche Reparatur",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Zus#E4tzliche#20Reparatur",
+     "label": "Zusätzliche Reparatur",
+     "bbox": [
+      41.8,
+      174.3,
+      53.6,
+      186.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_4",
+   "acro_name": "Ja_4",
+   "page": 0,
+   "bbox": [
+    41.8,
+    206.9,
+    53.6,
+    218.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Zuschuss für abnehmbare oder festsitzende kieferorth. Behandlung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Zuschuss",
+     "label": "Zuschuss für abnehmbare oder festsitzende kieferorth. Behandlung",
+     "bbox": [
+      41.8,
+      206.9,
+      53.6,
+      218.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_1",
+   "acro_name": "Name_1",
+   "page": 0,
+   "bbox": [
+    39.8,
+    302.8,
+    403.7,
+    319.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Patient/in: Familienname, Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    405.1,
+    302.8,
+    559.3,
+    319.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer(n)",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_2",
+   "acro_name": "Name_2",
+   "page": 0,
+   "bbox": [
+    39.8,
+    332.1,
+    403.7,
+    348.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r: Familienname, Vorname – nur auszufüllen wenn Patient/in ein Angehöriger/eine Angehörige ist",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherte_person.name_voll_umgekehrt",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_2",
+   "acro_name": "VSNR_2",
+   "page": 0,
+   "bbox": [
+    405.1,
+    332.1,
+    559.3,
+    348.5
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "versicherte_person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift_1",
+   "acro_name": "Anschrift_1",
+   "page": 0,
+   "bbox": [
+    39.8,
+    361.4,
+    488.6,
+    377.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer_1",
+   "acro_name": "Telefonnummer_1",
+   "page": 0,
+   "bbox": [
+    76.2,
+    378.9,
+    233.6,
+    395.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tel.-Nr.:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Emailadresse_1",
+   "acro_name": "Emailadresse_1",
+   "page": 0,
+   "bbox": [
+    293.2,
+    378.9,
+    559.5,
+    395.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mailadresse:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 0,
+   "bbox": [
+    292.8,
+    757.0,
+    352.8,
+    772.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum (heutiges Datum automatisch eingefügt)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_5",
+   "acro_name": "Ja_5",
+   "page": 1,
+   "bbox": [
+    42.4,
+    87.0,
+    54.3,
+    98.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Zuschuss für abnehmbare oder festsitzende kieferorthopädische",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Zuschuss",
+     "label": "Zuschuss für abnehmbare oder festsitzende kieferorthopädische",
+     "bbox": [
+      42.4,
+      87.0,
+      54.3,
+      98.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_13",
+   "acro_name": "Ja_13",
+   "page": 1,
+   "bbox": [
+    67.9,
+    143.3,
+    86.8,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "5a",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "5h 5i 5m 5p 5s 4a 4b 4c 4d 4e 4f 4h 4l",
+     "bbox": [
+      67.9,
+      143.3,
+      86.8,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_14",
+   "acro_name": "Ja_14",
+   "page": 1,
+   "bbox": [
+    88.0,
+    143.3,
+    107.2,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "5h",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "5i 5m 5p 5s 4a 4b 4c 4d 4e 4f 4h 4l 4m",
+     "bbox": [
+      88.0,
+      143.3,
+      107.2,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_15",
+   "acro_name": "Ja_15",
+   "page": 1,
+   "bbox": [
+    108.5,
+    143.3,
+    127.1,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "5i",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "5m 5p 5s 4a 4b 4c 4d 4e 4f 4h 4l 4m 4t",
+     "bbox": [
+      108.5,
+      143.3,
+      127.1,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_16",
+   "acro_name": "Ja_16",
+   "page": 1,
+   "bbox": [
+    128.4,
+    143.3,
+    149.2,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "5m",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "5p 5s 4a 4b 4c 4d 4e 4f 4h 4l 4m 4t 4x",
+     "bbox": [
+      128.4,
+      143.3,
+      149.2,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_17",
+   "acro_name": "Ja_17",
+   "page": 1,
+   "bbox": [
+    150.6,
+    143.3,
+    169.8,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "5p",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "5s 4a 4b 4c 4d 4e 4f 4h 4l 4m 4t 4x 3a",
+     "bbox": [
+      150.6,
+      143.3,
+      169.8,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_18",
+   "acro_name": "Ja_18",
+   "page": 1,
+   "bbox": [
+    171.3,
+    143.3,
+    190.2,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "5s",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4a 4b 4c 4d 4e 4f 4h 4l 4m 4t 4x 3a 3b",
+     "bbox": [
+      171.3,
+      143.3,
+      190.2,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_19",
+   "acro_name": "Ja_19",
+   "page": 1,
+   "bbox": [
+    191.6,
+    143.3,
+    210.5,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4a",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4b 4c 4d 4e 4f 4h 4l 4m 4t 4x 3a 3b 3c",
+     "bbox": [
+      191.6,
+      143.3,
+      210.5,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_20",
+   "acro_name": "Ja_20",
+   "page": 1,
+   "bbox": [
+    211.8,
+    143.3,
+    231.3,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4b",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4c 4d 4e 4f 4h 4l 4m 4t 4x 3a 3b 3c 3d",
+     "bbox": [
+      211.8,
+      143.3,
+      231.3,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_21",
+   "acro_name": "Ja_21",
+   "page": 1,
+   "bbox": [
+    232.7,
+    143.3,
+    251.6,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4c",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4d 4e 4f 4h 4l 4m 4t 4x 3a 3b 3c 3d 3e",
+     "bbox": [
+      232.7,
+      143.3,
+      251.6,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_22",
+   "acro_name": "Ja_22",
+   "page": 1,
+   "bbox": [
+    252.8,
+    143.3,
+    272.1,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4d",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4e 4f 4h 4l 4m 4t 4x 3a 3b 3c 3d 3e 3f",
+     "bbox": [
+      252.8,
+      143.3,
+      272.1,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_23",
+   "acro_name": "Ja_23",
+   "page": 1,
+   "bbox": [
+    273.3,
+    143.3,
+    292.9,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4e",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4f 4h 4l 4m 4t 4x 3a 3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      273.3,
+      143.3,
+      292.9,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_24",
+   "acro_name": "Ja_24",
+   "page": 1,
+   "bbox": [
+    294.0,
+    143.3,
+    312.6,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4f",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4h 4l 4m 4t 4x 3a 3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      294.0,
+      143.3,
+      312.6,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_25",
+   "acro_name": "Ja_25",
+   "page": 1,
+   "bbox": [
+    313.6,
+    143.3,
+    332.8,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4h",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4l 4m 4t 4x 3a 3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      313.6,
+      143.3,
+      332.8,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_26",
+   "acro_name": "Ja_26",
+   "page": 1,
+   "bbox": [
+    334.2,
+    143.3,
+    352.5,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4l",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4m 4t 4x 3a 3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      334.2,
+      143.3,
+      352.5,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_27",
+   "acro_name": "Ja_27",
+   "page": 1,
+   "bbox": [
+    353.9,
+    143.3,
+    374.7,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4m",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4t 4x 3a 3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      353.9,
+      143.3,
+      374.7,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_28",
+   "acro_name": "Ja_28",
+   "page": 1,
+   "bbox": [
+    376.2,
+    143.3,
+    394.8,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4t",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4x 3a 3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      376.2,
+      143.3,
+      394.8,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_29",
+   "acro_name": "Ja_29",
+   "page": 1,
+   "bbox": [
+    396.2,
+    143.3,
+    415.2,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "4x",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "3a 3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      396.2,
+      143.3,
+      415.2,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_30",
+   "acro_name": "Ja_30",
+   "page": 1,
+   "bbox": [
+    416.5,
+    143.3,
+    435.7,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "3a",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "3b 3c 3d 3e 3f 2g",
+     "bbox": [
+      416.5,
+      143.3,
+      435.7,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_31",
+   "acro_name": "Ja_31",
+   "page": 1,
+   "bbox": [
+    436.8,
+    143.3,
+    456.0,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "3b",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "3c 3d 3e 3f 2g",
+     "bbox": [
+      436.8,
+      143.3,
+      456.0,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_32",
+   "acro_name": "Ja_32",
+   "page": 1,
+   "bbox": [
+    457.1,
+    143.3,
+    476.3,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "3c",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "3d 3e 3f 2g",
+     "bbox": [
+      457.1,
+      143.3,
+      476.3,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_33",
+   "acro_name": "Ja_33",
+   "page": 1,
+   "bbox": [
+    477.7,
+    143.3,
+    496.9,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "3d",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "3e 3f 2g",
+     "bbox": [
+      477.7,
+      143.3,
+      496.9,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_34",
+   "acro_name": "Ja_34",
+   "page": 1,
+   "bbox": [
+    498.3,
+    143.3,
+    517.2,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "3e",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "3f 2g",
+     "bbox": [
+      498.3,
+      143.3,
+      517.2,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_35",
+   "acro_name": "Ja_35",
+   "page": 1,
+   "bbox": [
+    518.6,
+    143.3,
+    537.1,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "3f",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "2g",
+     "bbox": [
+      518.6,
+      143.3,
+      537.1,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_35a",
+   "acro_name": "Ja_35a",
+   "page": 1,
+   "bbox": [
+    538.3,
+    143.3,
+    557.8,
+    151.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "3f",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "4e 4f 4h 4l 4m 4t 4x 3a 3b 3c 3d 3e 3f",
+     "bbox": [
+      538.3,
+      143.3,
+      557.8,
+      151.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_36",
+   "acro_name": "Ja_36",
+   "page": 1,
+   "bbox": [
+    39.9,
+    174.1,
+    71.0,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "18",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "17",
+     "bbox": [
+      39.9,
+      174.1,
+      71.0,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_37",
+   "acro_name": "Ja_37",
+   "page": 1,
+   "bbox": [
+    72.3,
+    174.1,
+    103.7,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "17",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "16",
+     "bbox": [
+      72.3,
+      174.1,
+      103.7,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_38",
+   "acro_name": "Ja_38",
+   "page": 1,
+   "bbox": [
+    105.0,
+    174.1,
+    136.1,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "16",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "15",
+     "bbox": [
+      105.0,
+      174.1,
+      136.1,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_39",
+   "acro_name": "Ja_39",
+   "page": 1,
+   "bbox": [
+    137.6,
+    174.1,
+    169.0,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "15",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "14",
+     "bbox": [
+      137.6,
+      174.1,
+      169.0,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_40",
+   "acro_name": "Ja_40",
+   "page": 1,
+   "bbox": [
+    170.3,
+    174.1,
+    201.4,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "14",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "13",
+     "bbox": [
+      170.3,
+      174.1,
+      201.4,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_41",
+   "acro_name": "Ja_41",
+   "page": 1,
+   "bbox": [
+    202.7,
+    174.1,
+    233.9,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "13",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "12",
+     "bbox": [
+      202.7,
+      174.1,
+      233.9,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_42",
+   "acro_name": "Ja_42",
+   "page": 1,
+   "bbox": [
+    235.1,
+    174.1,
+    266.2,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "12",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "11",
+     "bbox": [
+      235.1,
+      174.1,
+      266.2,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_43",
+   "acro_name": "Ja_43",
+   "page": 1,
+   "bbox": [
+    267.5,
+    174.1,
+    299.2,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "11",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "21",
+     "bbox": [
+      267.5,
+      174.1,
+      299.2,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_44",
+   "acro_name": "Ja_44",
+   "page": 1,
+   "bbox": [
+    300.3,
+    174.1,
+    331.5,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "21",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "22",
+     "bbox": [
+      300.3,
+      174.1,
+      331.5,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_45",
+   "acro_name": "Ja_45",
+   "page": 1,
+   "bbox": [
+    332.8,
+    174.1,
+    363.9,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "22",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "23",
+     "bbox": [
+      332.8,
+      174.1,
+      363.9,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_46",
+   "acro_name": "Ja_46",
+   "page": 1,
+   "bbox": [
+    365.2,
+    174.1,
+    396.9,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "23",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "24",
+     "bbox": [
+      365.2,
+      174.1,
+      396.9,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_47",
+   "acro_name": "Ja_47",
+   "page": 1,
+   "bbox": [
+    397.9,
+    174.1,
+    429.3,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "24",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "25",
+     "bbox": [
+      397.9,
+      174.1,
+      429.3,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_48",
+   "acro_name": "Ja_48",
+   "page": 1,
+   "bbox": [
+    430.6,
+    174.1,
+    461.7,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "25",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "26",
+     "bbox": [
+      430.6,
+      174.1,
+      461.7,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_49",
+   "acro_name": "Ja_49",
+   "page": 1,
+   "bbox": [
+    463.0,
+    174.1,
+    494.4,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "26",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "27",
+     "bbox": [
+      463.0,
+      174.1,
+      494.4,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_50",
+   "acro_name": "Ja_50",
+   "page": 1,
+   "bbox": [
+    495.7,
+    174.1,
+    526.8,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "27",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "28",
+     "bbox": [
+      495.7,
+      174.1,
+      526.8,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_51",
+   "acro_name": "Ja_51",
+   "page": 1,
+   "bbox": [
+    528.3,
+    174.1,
+    559.4,
+    185.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "28",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "11 21 22 23 24 25 26 27",
+     "bbox": [
+      528.3,
+      174.1,
+      559.4,
+      185.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_52",
+   "acro_name": "Ja_52",
+   "page": 1,
+   "bbox": [
+    137.6,
+    186.2,
+    169.0,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "55",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "54",
+     "bbox": [
+      137.6,
+      186.2,
+      169.0,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_53",
+   "acro_name": "Ja_53",
+   "page": 1,
+   "bbox": [
+    170.3,
+    186.2,
+    201.4,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "54",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "53",
+     "bbox": [
+      170.3,
+      186.2,
+      201.4,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_54",
+   "acro_name": "Ja_54",
+   "page": 1,
+   "bbox": [
+    202.7,
+    186.2,
+    233.9,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "53",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "52",
+     "bbox": [
+      202.7,
+      186.2,
+      233.9,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_55",
+   "acro_name": "Ja_55",
+   "page": 1,
+   "bbox": [
+    235.1,
+    186.2,
+    266.2,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "52",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "51",
+     "bbox": [
+      235.1,
+      186.2,
+      266.2,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_56",
+   "acro_name": "Ja_56",
+   "page": 1,
+   "bbox": [
+    267.5,
+    186.2,
+    299.2,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "51",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "61",
+     "bbox": [
+      267.5,
+      186.2,
+      299.2,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_57",
+   "acro_name": "Ja_57",
+   "page": 1,
+   "bbox": [
+    300.3,
+    186.2,
+    331.5,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "61",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "62",
+     "bbox": [
+      300.3,
+      186.2,
+      331.5,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_58",
+   "acro_name": "Ja_58",
+   "page": 1,
+   "bbox": [
+    332.8,
+    186.2,
+    363.9,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "62",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "63",
+     "bbox": [
+      332.8,
+      186.2,
+      363.9,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_59",
+   "acro_name": "Ja_59",
+   "page": 1,
+   "bbox": [
+    365.2,
+    186.2,
+    396.9,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "63",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "64",
+     "bbox": [
+      365.2,
+      186.2,
+      396.9,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_60",
+   "acro_name": "Ja_60",
+   "page": 1,
+   "bbox": [
+    397.9,
+    186.2,
+    429.3,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "64",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "65",
+     "bbox": [
+      397.9,
+      186.2,
+      429.3,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_61",
+   "acro_name": "Ja_61",
+   "page": 1,
+   "bbox": [
+    430.6,
+    186.2,
+    461.7,
+    196.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "65",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "54 53 52 51 61 62 63 64",
+     "bbox": [
+      430.6,
+      186.2,
+      461.7,
+      196.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_62",
+   "acro_name": "Ja_62",
+   "page": 1,
+   "bbox": [
+    137.6,
+    197.8,
+    169.0,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "85",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "84",
+     "bbox": [
+      137.6,
+      197.8,
+      169.0,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_63",
+   "acro_name": "Ja_63",
+   "page": 1,
+   "bbox": [
+    170.3,
+    197.8,
+    201.4,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "84",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "83",
+     "bbox": [
+      170.3,
+      197.8,
+      201.4,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_64",
+   "acro_name": "Ja_64",
+   "page": 1,
+   "bbox": [
+    202.7,
+    197.8,
+    233.9,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "83",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "82",
+     "bbox": [
+      202.7,
+      197.8,
+      233.9,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_65",
+   "acro_name": "Ja_65",
+   "page": 1,
+   "bbox": [
+    235.1,
+    197.8,
+    266.2,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "82",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "81",
+     "bbox": [
+      235.1,
+      197.8,
+      266.2,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_66",
+   "acro_name": "Ja_66",
+   "page": 1,
+   "bbox": [
+    267.5,
+    197.8,
+    299.2,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "81",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "71",
+     "bbox": [
+      267.5,
+      197.8,
+      299.2,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_67",
+   "acro_name": "Ja_67",
+   "page": 1,
+   "bbox": [
+    300.3,
+    197.8,
+    331.5,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "71",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "72",
+     "bbox": [
+      300.3,
+      197.8,
+      331.5,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_68",
+   "acro_name": "Ja_68",
+   "page": 1,
+   "bbox": [
+    332.8,
+    197.8,
+    363.9,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "72",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "73",
+     "bbox": [
+      332.8,
+      197.8,
+      363.9,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_69",
+   "acro_name": "Ja_69",
+   "page": 1,
+   "bbox": [
+    365.2,
+    197.8,
+    396.9,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "73",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "74",
+     "bbox": [
+      365.2,
+      197.8,
+      396.9,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_70",
+   "acro_name": "Ja_70",
+   "page": 1,
+   "bbox": [
+    397.9,
+    197.8,
+    429.3,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "74",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "75",
+     "bbox": [
+      397.9,
+      197.8,
+      429.3,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_71",
+   "acro_name": "Ja_71",
+   "page": 1,
+   "bbox": [
+    430.6,
+    197.8,
+    461.7,
+    208.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "75",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "84 83 82 81 71 72 73 74",
+     "bbox": [
+      430.6,
+      197.8,
+      461.7,
+      208.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_72",
+   "acro_name": "Ja_72",
+   "page": 1,
+   "bbox": [
+    39.9,
+    209.6,
+    71.0,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "48",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "47",
+     "bbox": [
+      39.9,
+      209.6,
+      71.0,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_73",
+   "acro_name": "Ja_73",
+   "page": 1,
+   "bbox": [
+    72.3,
+    209.6,
+    103.7,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "47",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "46",
+     "bbox": [
+      72.3,
+      209.6,
+      103.7,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_74",
+   "acro_name": "Ja_74",
+   "page": 1,
+   "bbox": [
+    105.0,
+    209.6,
+    136.1,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "46",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "45",
+     "bbox": [
+      105.0,
+      209.6,
+      136.1,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_75",
+   "acro_name": "Ja_75",
+   "page": 1,
+   "bbox": [
+    137.6,
+    209.6,
+    169.0,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "45",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "44",
+     "bbox": [
+      137.6,
+      209.6,
+      169.0,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_76",
+   "acro_name": "Ja_76",
+   "page": 1,
+   "bbox": [
+    170.3,
+    209.6,
+    201.4,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "44",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "43",
+     "bbox": [
+      170.3,
+      209.6,
+      201.4,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_77",
+   "acro_name": "Ja_77",
+   "page": 1,
+   "bbox": [
+    202.7,
+    209.6,
+    233.9,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "43",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "42",
+     "bbox": [
+      202.7,
+      209.6,
+      233.9,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_78",
+   "acro_name": "Ja_78",
+   "page": 1,
+   "bbox": [
+    235.1,
+    209.6,
+    266.2,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "42",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "41",
+     "bbox": [
+      235.1,
+      209.6,
+      266.2,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_79",
+   "acro_name": "Ja_79",
+   "page": 1,
+   "bbox": [
+    267.5,
+    209.6,
+    299.2,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "41",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "31",
+     "bbox": [
+      267.5,
+      209.6,
+      299.2,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_80",
+   "acro_name": "Ja_80",
+   "page": 1,
+   "bbox": [
+    300.3,
+    209.6,
+    331.5,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "31",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "32",
+     "bbox": [
+      300.3,
+      209.6,
+      331.5,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_81",
+   "acro_name": "Ja_81",
+   "page": 1,
+   "bbox": [
+    332.8,
+    209.6,
+    363.9,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "32",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "33",
+     "bbox": [
+      332.8,
+      209.6,
+      363.9,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_82",
+   "acro_name": "Ja_82",
+   "page": 1,
+   "bbox": [
+    365.2,
+    209.6,
+    396.9,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "33",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "34",
+     "bbox": [
+      365.2,
+      209.6,
+      396.9,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_83",
+   "acro_name": "Ja_83",
+   "page": 1,
+   "bbox": [
+    397.9,
+    209.6,
+    429.3,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "34",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "35",
+     "bbox": [
+      397.9,
+      209.6,
+      429.3,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_84",
+   "acro_name": "Ja_84",
+   "page": 1,
+   "bbox": [
+    430.6,
+    209.6,
+    461.7,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "35",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "36",
+     "bbox": [
+      430.6,
+      209.6,
+      461.7,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_85",
+   "acro_name": "Ja_85",
+   "page": 1,
+   "bbox": [
+    463.0,
+    209.6,
+    494.4,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "36",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "37",
+     "bbox": [
+      463.0,
+      209.6,
+      494.4,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_86",
+   "acro_name": "Ja_86",
+   "page": 1,
+   "bbox": [
+    495.7,
+    209.6,
+    526.8,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "37",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "38",
+     "bbox": [
+      495.7,
+      209.6,
+      526.8,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_87",
+   "acro_name": "Ja_87",
+   "page": 1,
+   "bbox": [
+    528.3,
+    209.6,
+    559.4,
+    220.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "38",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "1",
+     "label": "41 31 32 33 34 35 36 37",
+     "bbox": [
+      528.3,
+      209.6,
+      559.4,
+      220.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_6",
+   "acro_name": "Ja_6",
+   "page": 1,
+   "bbox": [
+    42.1,
+    283.2,
+    52.0,
+    293.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Panoramaröntgen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Panoramaroentgen",
+     "label": "Panoramaröntgen",
+     "bbox": [
+      42.1,
+      283.2,
+      52.0,
+      293.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_7",
+   "acro_name": "Ja_7",
+   "page": 1,
+   "bbox": [
+    124.3,
+    283.2,
+    134.1,
+    293.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "laterales Fernröntgen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "laterales#20Fernroentgen",
+     "label": "laterales Fernröntgen",
+     "bbox": [
+      124.3,
+      283.2,
+      134.1,
+      293.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_8",
+   "acro_name": "Ja_8",
+   "page": 1,
+   "bbox": [
+    218.1,
+    283.2,
+    228.0,
+    293.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Fotos intra-/extraoral",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Fotos#20intra#20extraoral",
+     "label": "Fotos intra-/extraoral",
+     "bbox": [
+      218.1,
+      283.2,
+      228.0,
+      293.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_9",
+   "acro_name": "Ja_9",
+   "page": 1,
+   "bbox": [
+    310.4,
+    283.2,
+    320.2,
+    293.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Modell",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Modell",
+     "label": "Modell",
+     "bbox": [
+      310.4,
+      283.2,
+      320.2,
+      293.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_10",
+   "acro_name": "Ja_10",
+   "page": 1,
+   "bbox": [
+    352.4,
+    283.2,
+    362.2,
+    293.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Digitales Modell (CD oder DVD) Sonstige",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Digitales#20Modell",
+     "label": "Digitales Modell (CD oder DVD) Sonstige",
+     "bbox": [
+      352.4,
+      283.2,
+      362.2,
+      293.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_11",
+   "acro_name": "Ja_11",
+   "page": 1,
+   "bbox": [
+    479.0,
+    283.2,
+    488.9,
+    293.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstige",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Sonstige",
+     "label": "Sonstige",
+     "bbox": [
+      479.0,
+      283.2,
+      488.9,
+      293.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Therapievorschalg_1",
+   "acro_name": "Therapievorschalg_1",
+   "page": 1,
+   "bbox": [
+    51.7,
+    324.8,
+    557.9,
+    365.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Therapievorschlag - Art der Behandlung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "OK_1",
+   "acro_name": "OK_1",
+   "page": 1,
+   "bbox": [
+    71.8,
+    394.5,
+    557.6,
+    410.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "OK:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "UK_1",
+   "acro_name": "UK_1",
+   "page": 1,
+   "bbox": [
+    71.8,
+    414.2,
+    557.6,
+    430.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "UK:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erfolgsannahme_1",
+   "acro_name": "Erfolgsannahme_1",
+   "page": 1,
+   "bbox": [
+    52.0,
+    467.6,
+    557.9,
+    484.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erfolgsannahme (allenfalls über die Indikation hinausgehende Behandlungsziele) und geplante Dauer:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_2",
+   "acro_name": "Datum_2",
+   "page": 1,
+   "bbox": [
+    69.2,
+    517.3,
+    129.3,
+    532.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_3",
+   "acro_name": "Datum_3",
+   "page": 1,
+   "bbox": [
+    350.5,
+    517.3,
+    410.5,
+    532.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_4",
+   "acro_name": "Datum_4",
+   "page": 1,
+   "bbox": [
+    264.9,
+    574.9,
+    325.0,
+    590.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum, Unterschrift und Wahlpartnerstempel:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/bvaeb_1ce2e2b953/p1.png",
+   "cache/pruefung/bvaeb_1ce2e2b953/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "dc29876d5b2fc23f",
+  "ok": true
+ }
+}

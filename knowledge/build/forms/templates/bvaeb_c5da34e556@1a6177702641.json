@@ -1,0 +1,897 @@
+{
+ "formular_id": "bvaeb_c5da34e556",
+ "name": "Verzichts- bzw. Beendigungserklärung zum Kinderbetreuungsgeld",
+ "traeger": "BVAEB",
+ "sha256": "1a6177702641e7fc6f8668f445e58911e6f6bf014e1ffdebccf08b4affa3cc6f",
+ "version_url": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638292&version=1564663178",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "vsnr_verzicht",
+   "acro_name": "vsnr_verzicht",
+   "page": 0,
+   "bbox": [
+    312.3,
+    207.0,
+    566.2,
+    232.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Antragsteller bei Verzicht",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "familienname_verzicht",
+   "acro_name": "familienname_verzicht",
+   "page": 0,
+   "bbox": [
+    101.1,
+    234.5,
+    566.2,
+    259.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n Antragsteller bei Verzicht",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "vorname_verzicht",
+   "acro_name": "vorname_verzicht",
+   "page": 0,
+   "bbox": [
+    101.1,
+    262.1,
+    566.2,
+    287.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n Antragsteller bei Verzicht",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "vsnr_kind_verzicht",
+   "acro_name": "vsnr_kind_verzicht",
+   "page": 0,
+   "bbox": [
+    312.3,
+    302.3,
+    566.2,
+    327.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Kind bei Verzicht",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "familienname_kind_verzicht",
+   "acro_name": "familienname_kind_verzicht",
+   "page": 0,
+   "bbox": [
+    101.1,
+    329.8,
+    566.2,
+    355.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n Kind bei Verzicht",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "vorname_kind_verzicht",
+   "acro_name": "vorname_kind_verzicht",
+   "page": 0,
+   "bbox": [
+    101.1,
+    357.4,
+    566.2,
+    382.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n Kind bei Verzicht",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kbg",
+   "acro_name": "kbg",
+   "page": 0,
+   "bbox": [
+    29.9,
+    415.6,
+    40.0,
+    425.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kinderbetreuungsgeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kinderbetreuungsgeld",
+     "bbox": [
+      29.9,
+      415.6,
+      40.0,
+      425.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kbg_von",
+   "acro_name": "kbg_von",
+   "page": 0,
+   "bbox": [
+    236.4,
+    405.9,
+    364.9,
+    426.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kinderbetreuungsgeld Datum von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kbg_bis",
+   "acro_name": "kbg_bis",
+   "page": 0,
+   "bbox": [
+    410.4,
+    406.7,
+    539.0,
+    425.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kinderbetreuungsgeld Letzter Bezugstag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "beihilfe_kbg",
+   "acro_name": "beihilfe_kbg",
+   "page": 0,
+   "bbox": [
+    29.6,
+    445.6,
+    40.4,
+    456.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Beihilfe zum Kinderbetrunngsgeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Beihilfe zum Kinderbetreuungsgeld",
+     "bbox": [
+      29.6,
+      445.6,
+      40.4,
+      456.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "beih_von",
+   "acro_name": "beih_von",
+   "page": 0,
+   "bbox": [
+    236.3,
+    436.7,
+    364.8,
+    456.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beilhilfe Datum von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "beih_bis",
+   "acro_name": "beih_bis",
+   "page": 0,
+   "bbox": [
+    411.1,
+    436.4,
+    539.6,
+    455.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beihilfe Letzter Bezugstag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "land-forstwirtschaftl",
+   "acro_name": "land-forstwirtschaftl",
+   "page": 0,
+   "bbox": [
+    31.1,
+    621.3,
+    41.2,
+    631.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus Land- und Forstwirtschaft (Erfolgt die Ermittlung des Gewinnes ausschließlich durch Vollpauschalierung, so ist ein Verzicht hinsichtlich dieser Einkünfte ohne Wirkung.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einkünfte aus Land- und Forstwirtschaft (Erfolgt die Ermittlung des Gewinnes",
+     "bbox": [
+      31.1,
+      621.3,
+      41.2,
+      631.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "selbstaendig",
+   "acro_name": "selbstaendig",
+   "page": 0,
+   "bbox": [
+    31.1,
+    645.4,
+    41.2,
+    655.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus selbstständiger Arbeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einkünfte aus selbstständiger Arbeit",
+     "bbox": [
+      31.1,
+      645.4,
+      41.2,
+      655.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "gewerbe",
+   "acro_name": "gewerbe",
+   "page": 0,
+   "bbox": [
+    31.1,
+    657.9,
+    41.2,
+    667.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus Gewerbebetrieb",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einkünfte aus Gewerbebetrieb",
+     "bbox": [
+      31.1,
+      657.9,
+      41.2,
+      667.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "nicht_selbststaendig",
+   "acro_name": "nicht_selbststaendig",
+   "page": 0,
+   "bbox": [
+    31.1,
+    670.0,
+    41.2,
+    679.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einkünfte aus nichtselbstständiger Arbeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einkünfte aus nichtselbstständiger Arbeit",
+     "bbox": [
+      31.1,
+      670.0,
+      41.2,
+      679.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "steuerbefreit",
+   "acro_name": "steuerbefreit",
+   "page": 0,
+   "bbox": [
+    31.1,
+    682.0,
+    41.2,
+    691.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Steuerbefreite Einkünfte aufgrund von völkerrechtlichen Verträgen (zB Internationale Organisation)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Steuerbefreite Einkünfte aufgrund von völkerrechtlichen Verträgen (zB Internationale",
+     "bbox": [
+      31.1,
+      682.0,
+      41.2,
+      691.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eu_parlament",
+   "acro_name": "eu_parlament",
+   "page": 0,
+   "bbox": [
+    31.1,
+    694.6,
+    41.2,
+    704.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einem Abgeordneten zum Europäischen Parlament oder seinen Hinterbliebenen nach Artikel 9 des Abgeordnetenstatuts des Europäischen Parlaments gebührende Bezüge",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einem Abgeordneten zum Europäischen Parlament oder seinen Hinterbliebenen",
+     "bbox": [
+      31.1,
+      694.6,
+      41.2,
+      704.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "datum_verzicht",
+   "acro_name": "datum_verzicht",
+   "page": 0,
+   "bbox": [
+    29.3,
+    761.4,
+    197.1,
+    792.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "unterschrift_verzicht",
+   "acro_name": "unterschrift_verzicht",
+   "page": 0,
+   "bbox": [
+    200.5,
+    761.2,
+    563.4,
+    791.8
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift Verzicht",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "vsnr_beendigung",
+   "acro_name": "vsnr_beendigung",
+   "page": 1,
+   "bbox": [
+    312.3,
+    206.6,
+    566.1,
+    232.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Antragsteller bei Beendigung",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "familienname_beendigung",
+   "acro_name": "familienname_beendigung",
+   "page": 1,
+   "bbox": [
+    100.2,
+    234.7,
+    565.2,
+    260.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n Antragsteller bei Beendigung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "vorname_Beendigung",
+   "acro_name": "vorname_Beendigung",
+   "page": 1,
+   "bbox": [
+    100.2,
+    262.3,
+    565.2,
+    287.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n Antragsteller bei Beendigung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "vsnr_kind_Beendigung",
+   "acro_name": "vsnr_kind_Beendigung",
+   "page": 1,
+   "bbox": [
+    311.4,
+    302.5,
+    565.2,
+    328.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer Kind bei Beendigung",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "kind.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "familienname_kind_Beendigung",
+   "acro_name": "familienname_kind_Beendigung",
+   "page": 1,
+   "bbox": [
+    100.2,
+    330.0,
+    565.2,
+    355.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname/n Kind bei Beendigung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "vorname_kind_Beendigung",
+   "acro_name": "vorname_kind_Beendigung",
+   "page": 1,
+   "bbox": [
+    100.2,
+    357.6,
+    565.2,
+    383.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname/n Kind bei Beendigung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kind.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kbg_beendigung",
+   "acro_name": "kbg_beendigung",
+   "page": 1,
+   "bbox": [
+    58.6,
+    416.3,
+    68.8,
+    426.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kinderbetreuungsgeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kinderbetreuungsgeld",
+     "bbox": [
+      58.6,
+      416.3,
+      68.8,
+      426.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "beihilfe_kbg_beendigung",
+   "acro_name": "beihilfe_kbg_beendigung",
+   "page": 1,
+   "bbox": [
+    283.9,
+    416.3,
+    294.0,
+    426.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Beihilfe zum Kinderbetrunngsgeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Beihilfe zum Kinderbetreuungsgeld",
+     "bbox": [
+      283.9,
+      416.3,
+      294.0,
+      426.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "kbg_beendigung_bis",
+   "acro_name": "kbg_beendigung_bis",
+   "page": 1,
+   "bbox": [
+    128.9,
+    427.9,
+    257.4,
+    446.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kinderbetreuungsgeld Letzter Bezugstag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "beihilfe_kbg_beendigung_bis",
+   "acro_name": "beihilfe_kbg_beendigung_bis",
+   "page": 1,
+   "bbox": [
+    353.6,
+    427.9,
+    482.1,
+    446.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beihilfe zum Kinderbetreuungsgeld Letzter Bezugstag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "datum_beendigung",
+   "acro_name": "datum_beendigung",
+   "page": 1,
+   "bbox": [
+    30.0,
+    668.9,
+    197.8,
+    700.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "unterschrift_beendigung",
+   "acro_name": "unterschrift_beendigung",
+   "page": 1,
+   "bbox": [
+    199.7,
+    669.3,
+    562.2,
+    700.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift Antragsteller/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 14,
+  "bilder": [
+   "cache/pruefung/bvaeb_c5da34e556/p1.png",
+   "cache/pruefung/bvaeb_c5da34e556/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Versicherungsnummer Antragsteller bei Verzicht",
+     "problem": "Blauer Wert steht als freie Ziffernfolge im Versicherungsnummer-Feld und wirkt passend platziert.",
+     "schwer": false
+    },
+    {
+     "feld": "Familienname/n Antragsteller bei Verzicht",
+     "problem": "Im richtigen Familienname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname/n Antragsteller bei Verzicht",
+     "problem": "Im richtigen Vorname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer Kind bei Verzicht",
+     "problem": "Blauer Wert steht im passenden Versicherungsnummer-Feld und bleibt im Feldrahmen.",
+     "schwer": false
+    },
+    {
+     "feld": "Familienname/n Kind bei Verzicht",
+     "problem": "Im richtigen Familienname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname/n Kind bei Verzicht",
+     "problem": "Im richtigen Vorname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Datum",
+     "problem": "Datum steht im Datumsfeld unten links und überdeckt keinen gedruckten Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer Antragsteller bei Beendigung",
+     "problem": "Blauer Wert steht im passenden Versicherungsnummer-Feld und bleibt im Feldrahmen.",
+     "schwer": false
+    },
+    {
+     "feld": "Familienname/n Antragsteller bei Beendigung",
+     "problem": "Im richtigen Familienname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname/n Antragsteller bei Beendigung",
+     "problem": "Im richtigen Vorname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer Kind bei Beendigung",
+     "problem": "Blauer Wert steht im passenden Versicherungsnummer-Feld und bleibt im Feldrahmen.",
+     "schwer": false
+    },
+    {
+     "feld": "Familienname/n Kind bei Beendigung",
+     "problem": "Im richtigen Familienname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname/n Kind bei Beendigung",
+     "problem": "Im richtigen Vorname-Feld und nicht auf gedrucktem Text.",
+     "schwer": false
+    },
+    {
+     "feld": "Datum",
+     "problem": "Datum steht im Datumsfeld unten links und überdeckt keinen gedruckten Text.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "a0f1ef06874225c9",
+  "ok": true
+ }
+}

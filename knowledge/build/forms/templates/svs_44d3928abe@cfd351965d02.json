@@ -1,0 +1,270 @@
+{
+ "formular_id": "svs_44d3928abe",
+ "name": "Anlage_C_Eigentumsvorbehalt.pdf",
+ "traeger": "SVS",
+ "sha256": "cfd351965d02823a126efea436bf72a2661e715696f0b115a6a55151a9c0e959",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.794145&version=1749102447",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Name",
+   "acro_name": "Name",
+   "page": 0,
+   "bbox": [
+    107.4,
+    203.2,
+    291.5,
+    222.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR",
+   "acro_name": "VSNR",
+   "page": 0,
+   "bbox": [
+    350.4,
+    203.2,
+    534.6,
+    222.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "VSNR:",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse",
+   "acro_name": "Adresse",
+   "page": 0,
+   "bbox": [
+    107.4,
+    228.2,
+    291.5,
+    267.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertr Unternehmen",
+   "acro_name": "Vertr Unternehmen",
+   "page": 0,
+   "bbox": [
+    63.0,
+    301.6,
+    275.0,
+    369.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "(Name, Adresse, Telefonnummer)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezeichnung",
+   "acro_name": "Bezeichnung",
+   "page": 0,
+   "bbox": [
+    283.8,
+    377.5,
+    535.7,
+    396.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Genaue Bezeichnung des Heilbehelfes/Hilfsmittels:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezeichnung 1",
+   "acro_name": "Bezeichnung 1",
+   "page": 0,
+   "bbox": [
+    283.8,
+    402.4,
+    535.7,
+    421.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Serien-/ Inventarnummer:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 0,
+   "bbox": [
+    56.7,
+    616.5,
+    170.7,
+    635.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "natürliche Abnützung zurückzuführen",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 10",
+   "acro_name": "Beinamputiert 10",
+   "page": 0,
+   "bbox": [
+    56.7,
+    726.3,
+    234.0,
+    737.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Informationen zur Verarbeitung Ihrer personenbezogenen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "AbgebUnternehmen 1",
+   "acro_name": "AbgebUnternehmen 1",
+   "page": 0,
+   "bbox": [
+    303.9,
+    301.6,
+    515.8,
+    369.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "(falls abweichend)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 12",
+   "acro_name": "Beinamputiert 12",
+   "page": 0,
+   "bbox": [
+    218.8,
+    763.8,
+    399.3,
+    774.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail für datenschutzrechtliche Anliegen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beinamputiert 11",
+   "acro_name": "Beinamputiert 11",
+   "page": 0,
+   "bbox": [
+    56.7,
+    740.1,
+    234.0,
+    751.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Informationen zur Verarbeitung Ihrer personenbezogenen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 4,
+  "bilder": [
+   "cache/pruefung/svs_44d3928abe/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "6e7d1170e260694a",
+  "ok": true
+ }
+}

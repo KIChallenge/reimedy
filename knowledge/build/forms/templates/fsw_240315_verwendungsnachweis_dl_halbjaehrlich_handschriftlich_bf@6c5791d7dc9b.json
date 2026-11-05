@@ -1,0 +1,512 @@
+{
+ "formular_id": "fsw_240315_verwendungsnachweis_dl_halbjaehrlich_handschriftlich_bf",
+ "name": "Verwendungsnachweis DL halbjaehrlich handschriftlich",
+ "traeger": "FSW",
+ "sha256": "6c5791d7dc9bf3e981201bb4b9f389d68f97fc6ab5060580e774753eef5699f7",
+ "version_url": "https://www.fsw.at/downloads/leben-mit-behinderung/240315_Verwendungsnachweis_DL_halbjaehrlich_handschriftlich_bf.pdf",
+ "pages": 8,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.4,
+   841.9
+  ],
+  [
+   595.4,
+   841.9
+  ],
+  [
+   595.4,
+   841.9
+  ],
+  [
+   595.4,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    489.4,
+    315.7,
+    559.1,
+    328.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Jahressumme:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    36.1,
+    383.8,
+    559.1,
+    396.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderperiode Monate von - bis:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    36.1,
+    390.4,
+    559.1,
+    402.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderperiode Monate von - bis:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    36.1,
+    589.9,
+    559.0,
+    602.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "zeitgerecht an den FSW zu schicken.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    36.1,
+    646.8,
+    559.0,
+    659.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "aktuellen aktuellen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    36.1,
+    63.7,
+    559.0,
+    76.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "1. Persönliche Assistenz",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    36.1,
+    167.5,
+    559.0,
+    180.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstleister (ohne die Stunden in Euro",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    36.1,
+    186.3,
+    558.1,
+    198.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "der Angehörigen)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    36.1,
+    326.4,
+    559.0,
+    338.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen über 6 Monate",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    36.1,
+    436.5,
+    558.0,
+    449.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienstleister Stunden/Monat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_009",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    36.1,
+    576.1,
+    558.9,
+    588.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl Assistent:innen über 6 Monate",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    36.1,
+    623.0,
+    558.9,
+    635.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Angehörigenanteil",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    36.1,
+    72.0,
+    559.1,
+    84.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Abrechnungsunterstützung / Kontoführungskosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    36.1,
+    113.5,
+    559.1,
+    126.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoführungskosten gesamt 6 Monate der Förderperiode",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_013",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    36.1,
+    128.2,
+    559.1,
+    140.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kosten",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_014",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 2,
+   "bbox": [
+    36.1,
+    187.5,
+    559.0,
+    200.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtsumme:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f03_015",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    154.6,
+    85.1,
+    159.0,
+    91.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_016",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 3,
+   "bbox": [
+    159.0,
+    85.1,
+    163.2,
+    91.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f04_017",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    179.8,
+    85.4,
+    184.9,
+    91.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_018",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    185.0,
+    85.4,
+    190.2,
+    91.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_019",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 5,
+   "bbox": [
+    106.6,
+    679.3,
+    223.9,
+    691.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "1",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f06_020",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/fsw_240315_verwendungsnachweis_dl_halbjaehrlich_handschriftlich_bf/p1.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_dl_halbjaehrlich_handschriftlich_bf/p2.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_dl_halbjaehrlich_handschriftlich_bf/p3.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_dl_halbjaehrlich_handschriftlich_bf/p4.png",
+   "cache/pruefung/fsw_240315_verwendungsnachweis_dl_halbjaehrlich_handschriftlich_bf/p6.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "30be7cb9b37b56b5",
+  "ok": true
+ }
+}

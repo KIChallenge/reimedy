@@ -1,0 +1,1994 @@
+{
+ "formular_id": "antrag_ahv_reha_unfall",
+ "name": "Antrag auf Anschlussheilverfahren oder Rehabilitation nach Unfall",
+ "traeger": "KV/PV",
+ "sha256": "bcddb76fbd36b42af84816d9e346a40775862815e2d3af7e3cfc02c45ae662c2",
+ "version_url": "https://www.pv.at/cdscontent/load?contentid=10008.781971",
+ "pages": 2,
+ "page_sizes": [
+  [
+   642.3,
+   888.9
+  ],
+  [
+   642.3,
+   888.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "krankenhaus",
+ "felder": [
+  {
+   "feld_id": "zuständiger SV-träger",
+   "acro_name": "zuständiger SV-träger",
+   "page": 0,
+   "bbox": [
+    312.3,
+    119.9,
+    589.2,
+    135.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zuständiger Kranken- bzw. Pensionsversicherungsträger:",
+   "max_zeichen": 45,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    123.7,
+    158.8,
+    418.0,
+    175.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname",
+   "max_zeichen": 48,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    427.6,
+    158.8,
+    584.0,
+    175.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    102.2,
+    182.5,
+    304.4,
+    199.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "max_zeichen": 33,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht",
+   "acro_name": "Geschlecht",
+   "page": 0,
+   "bbox": [
+    309.3,
+    191.8,
+    383.2,
+    201.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geschlecht",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "w",
+     "label": "weibl.",
+     "bbox": [
+      309.3,
+      191.8,
+      320.6,
+      201.8
+     ],
+     "wert_semantik": "weiblich"
+    },
+    {
+     "wert": "m",
+     "label": "männl.",
+     "bbox": [
+      371.9,
+      191.8,
+      383.2,
+      201.8
+     ],
+     "wert_semantik": "männlich"
+    }
+   ],
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer",
+   "acro_name": "Telefonnummer",
+   "page": 0,
+   "bbox": [
+    478.2,
+    183.3,
+    588.7,
+    200.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ weibl. Geschlecht £ männl. Telefon/Fax",
+   "max_zeichen": 17,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anschrift",
+   "acro_name": "Anschrift",
+   "page": 0,
+   "bbox": [
+    56.0,
+    213.4,
+    418.8,
+    224.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (Int. KFZ-K., PLZ, Ort, Straße, Nr.)",
+   "max_zeichen": 60,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "e-mail",
+   "acro_name": "e-mail",
+   "page": 0,
+   "bbox": [
+    421.9,
+    213.4,
+    589.6,
+    224.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "e-mail",
+   "max_zeichen": 45,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unfalltag",
+   "acro_name": "Unfalltag",
+   "page": 0,
+   "bbox": [
+    102.7,
+    252.8,
+    306.1,
+    268.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unfalltag:",
+   "max_zeichen": 33,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arbeitsunfall",
+   "acro_name": "Arbeitsunfall",
+   "page": 0,
+   "bbox": [
+    326.2,
+    255.6,
+    501.9,
+    266.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Unfalltag:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "01",
+     "label": "Arbeitsunfall",
+     "bbox": [
+      326.2,
+      256.1,
+      337.5,
+      266.0
+     ]
+    },
+    {
+     "wert": "02",
+     "label": "Privatunfall",
+     "bbox": [
+      411.0,
+      256.1,
+      422.3,
+      266.0
+     ]
+    },
+    {
+     "wert": "03",
+     "label": "Berufskrankeit",
+     "bbox": [
+      490.5,
+      255.6,
+      501.9,
+      265.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufnahme im Krankenhaus",
+   "acro_name": "Aufnahme im Krankenhaus",
+   "page": 0,
+   "bbox": [
+    181.6,
+    272.1,
+    306.1,
+    287.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aufnahme im Krankenhaus:",
+   "max_zeichen": 20,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Entlassungstag",
+   "acro_name": "Entlassungstag",
+   "page": 0,
+   "bbox": [
+    208.3,
+    293.4,
+    306.1,
+    309.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Voraussichtlicher Entlassungstag:",
+   "max_zeichen": 15,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antritt Reha",
+   "acro_name": "Antritt Reha",
+   "page": 0,
+   "bbox": [
+    165.1,
+    320.7,
+    306.1,
+    336.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "d. Optimaler Rehab-Aufenthaltes: Antrittstermin",
+   "max_zeichen": 22,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rehab-Einrichtung",
+   "acro_name": "Rehab-Einrichtung",
+   "page": 0,
+   "bbox": [
+    310.8,
+    288.3,
+    586.8,
+    337.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "d. Optimaler Voraussichtlicher Rehab-Aufenthaltes: Antrittstermin Entlassungstag:",
+   "max_zeichen": 150,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ohne fremde Hilfe",
+   "acro_name": "ohne fremde Hilfe",
+   "page": 0,
+   "bbox": [
+    365.2,
+    377.1,
+    403.1,
+    387.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ohne fremde Hilfe essen/trinken",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ohne fremde Hilfe essen/trinken",
+     "bbox": [
+      365.2,
+      377.1,
+      376.5,
+      387.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      377.5,
+      403.1,
+      387.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Körperpflege",
+   "acro_name": "Körperpflege",
+   "page": 0,
+   "bbox": [
+    365.2,
+    389.5,
+    403.1,
+    399.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "alleine die Körperpflege durchführen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "alleine die Körperpflege durchführen",
+     "bbox": [
+      365.2,
+      389.5,
+      376.5,
+      399.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      389.9,
+      403.1,
+      399.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "baden/duschen",
+   "acro_name": "baden/duschen",
+   "page": 0,
+   "bbox": [
+    365.2,
+    401.6,
+    403.1,
+    411.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "alleine baden/duschen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "alleine baden/duschen",
+     "bbox": [
+      365.2,
+      401.6,
+      376.5,
+      411.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      401.6,
+      403.1,
+      411.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "aus- und anziehen",
+   "acro_name": "aus- und anziehen",
+   "page": 0,
+   "bbox": [
+    365.2,
+    413.7,
+    403.1,
+    424.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "sich alleine aus- und anziehen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "sich alleine aus- und anziehen",
+     "bbox": [
+      365.2,
+      413.7,
+      376.5,
+      423.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      414.1,
+      403.1,
+      424.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikamente einnehmen",
+   "acro_name": "Medikamente einnehmen",
+   "page": 0,
+   "bbox": [
+    365.2,
+    425.7,
+    403.1,
+    435.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "seine/ihre Medikamente einnehmen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "seine/ihre Medikamente einnehmen",
+     "bbox": [
+      365.2,
+      425.7,
+      376.5,
+      435.7
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      425.7,
+      403.1,
+      435.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "selbständig gehen",
+   "acro_name": "selbständig gehen",
+   "page": 0,
+   "bbox": [
+    365.2,
+    437.7,
+    403.1,
+    447.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "selbständig gehen (mindestens 50 m)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "selbständig gehen (mindestens 50 m)",
+     "bbox": [
+      365.2,
+      437.7,
+      376.5,
+      447.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      437.7,
+      403.1,
+      447.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gehen mit Hilfsmittel",
+   "acro_name": "Gehen mit Hilfsmittel",
+   "page": 0,
+   "bbox": [
+    365.2,
+    449.8,
+    403.1,
+    459.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "mit Hilfsmittel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "mit Hilfsmittel",
+     "bbox": [
+      365.2,
+      449.8,
+      376.5,
+      459.7
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      449.8,
+      403.1,
+      459.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gehen ohne Hilfsmittel",
+   "acro_name": "Gehen ohne Hilfsmittel",
+   "page": 0,
+   "bbox": [
+    365.2,
+    461.9,
+    403.1,
+    471.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ohne Hilfsmittel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ohne Hilfsmittel",
+     "bbox": [
+      365.2,
+      461.9,
+      376.5,
+      471.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      461.9,
+      403.1,
+      471.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Treppe",
+   "acro_name": "Treppe",
+   "page": 0,
+   "bbox": [
+    365.2,
+    474.0,
+    403.1,
+    483.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "selbständig die Treppe auf- bzw. absteigen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "selbständig die Treppe auf- bzw. absteigen",
+     "bbox": [
+      365.2,
+      474.0,
+      376.5,
+      483.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      474.0,
+      403.1,
+      483.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Orientierungsstörungen",
+   "acro_name": "Orientierungsstörungen",
+   "page": 0,
+   "bbox": [
+    365.2,
+    507.5,
+    403.1,
+    517.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Orientierungsstörungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Orientierungsstörungen",
+     "bbox": [
+      365.2,
+      507.5,
+      376.5,
+      517.4
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      507.5,
+      403.1,
+      517.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Harninkontinenz",
+   "acro_name": "Harninkontinenz",
+   "page": 0,
+   "bbox": [
+    365.2,
+    519.8,
+    403.1,
+    529.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Harninkontinenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Harninkontinenz",
+     "bbox": [
+      365.2,
+      519.8,
+      376.5,
+      529.8
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      519.8,
+      403.1,
+      529.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stuhlinkontinenz",
+   "acro_name": "Stuhlinkontinenz",
+   "page": 0,
+   "bbox": [
+    365.2,
+    531.0,
+    403.1,
+    541.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Stuhlinkontinenz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Stuhlinkontinenz",
+     "bbox": [
+      365.2,
+      531.0,
+      376.5,
+      541.0
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      531.0,
+      403.1,
+      541.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rollstuhlbenutzer",
+   "acro_name": "Rollstuhlbenutzer",
+   "page": 0,
+   "bbox": [
+    365.2,
+    553.0,
+    403.1,
+    562.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "selbständig Rollstuhlbenutzer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "selbständig Rollstuhlbenutzer",
+     "bbox": [
+      365.2,
+      553.0,
+      376.5,
+      562.9
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      553.0,
+      403.1,
+      562.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Transfer/Rollstuhl",
+   "acro_name": "Transfer/Rollstuhl",
+   "page": 0,
+   "bbox": [
+    365.2,
+    565.2,
+    403.1,
+    575.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Transfer in/aus Rollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Transfer in/aus Rollstuhl",
+     "bbox": [
+      365.2,
+      565.2,
+      376.5,
+      575.1
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      565.2,
+      403.1,
+      575.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begleitperson für Aufenthalt",
+   "acro_name": "Begleitperson für Aufenthalt",
+   "page": 0,
+   "bbox": [
+    365.2,
+    587.6,
+    403.1,
+    597.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Begleitperson für Aufenthalt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Begleitperson für Aufenthalt",
+     "bbox": [
+      365.2,
+      587.6,
+      376.5,
+      597.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      587.6,
+      403.1,
+      597.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "öffentliche Verkehrsmittel",
+   "acro_name": "öffentliche Verkehrsmittel",
+   "page": 0,
+   "bbox": [
+    365.2,
+    599.4,
+    403.1,
+    609.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "öffentlichen Verkehrsmitteln anreisen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "öffentlichen Verkehrsmitteln anreisen",
+     "bbox": [
+      365.2,
+      599.4,
+      376.5,
+      609.3
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      599.4,
+      403.1,
+      609.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anreise",
+   "acro_name": "Anreise",
+   "page": 0,
+   "bbox": [
+    365.2,
+    611.3,
+    403.1,
+    621.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "wird für die Anreise benötigt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "wird für die Anreise benötigt",
+     "bbox": [
+      365.2,
+      611.3,
+      376.5,
+      621.2
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      611.3,
+      403.1,
+      621.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begleitperson",
+   "acro_name": "Begleitperson",
+   "page": 0,
+   "bbox": [
+    365.2,
+    623.8,
+    403.1,
+    633.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Begleitperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Begleitperson",
+     "bbox": [
+      365.2,
+      623.8,
+      376.5,
+      633.7
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      623.8,
+      403.1,
+      633.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Transport",
+   "acro_name": "Transport",
+   "page": 0,
+   "bbox": [
+    365.2,
+    635.6,
+    403.1,
+    645.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Transport",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Transport",
+     "bbox": [
+      365.2,
+      635.6,
+      376.5,
+      645.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      635.6,
+      403.1,
+      645.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sitzend",
+   "acro_name": "sitzend",
+   "page": 0,
+   "bbox": [
+    365.2,
+    647.7,
+    403.1,
+    657.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "sitzend",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "sitzend",
+     "bbox": [
+      365.2,
+      647.7,
+      376.5,
+      657.6
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      647.7,
+      403.1,
+      657.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "liegend",
+   "acro_name": "liegend",
+   "page": 0,
+   "bbox": [
+    365.2,
+    659.5,
+    403.1,
+    669.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "liegend",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "liegend",
+     "bbox": [
+      365.2,
+      659.5,
+      376.5,
+      669.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      659.5,
+      403.1,
+      669.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "mit Sanitäter",
+   "acro_name": "mit Sanitäter",
+   "page": 0,
+   "bbox": [
+    365.2,
+    671.6,
+    403.1,
+    681.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "mit Sanitäter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "mit Sanitäter",
+     "bbox": [
+      365.2,
+      671.6,
+      376.5,
+      681.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      671.6,
+      403.1,
+      681.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ohne Sanitäter",
+   "acro_name": "ohne Sanitäter",
+   "page": 0,
+   "bbox": [
+    365.2,
+    683.7,
+    403.1,
+    693.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "ohne Sanitäter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "ohne Sanitäter",
+     "bbox": [
+      365.2,
+      683.7,
+      376.5,
+      693.7
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      683.7,
+      403.1,
+      693.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstige Transportmittel",
+   "acro_name": "sonstige Transportmittel",
+   "page": 0,
+   "bbox": [
+    365.2,
+    695.7,
+    403.1,
+    705.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Sonstige Transportmittel (PKW, Taxi)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Sonstige Transportmittel (PKW, Taxi)",
+     "bbox": [
+      365.2,
+      695.7,
+      376.5,
+      705.7
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "£",
+     "bbox": [
+      391.8,
+      695.7,
+      403.1,
+      705.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PKW, Taxi",
+   "acro_name": "PKW, Taxi",
+   "page": 0,
+   "bbox": [
+    405.7,
+    686.7,
+    573.0,
+    702.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ £ £ £",
+   "max_zeichen": 27,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arzt",
+   "acro_name": "Arzt",
+   "page": 0,
+   "bbox": [
+    54.5,
+    739.4,
+    359.6,
+    756.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des zuständigen Arztes/der zuständigen Ärztin:",
+   "max_zeichen": 50,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 0,
+   "bbox": [
+    54.7,
+    774.2,
+    119.1,
+    787.6
+   ],
+   "typ": "text",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Arzt",
+   "acro_name": "Telefonnummer Arzt",
+   "page": 0,
+   "bbox": [
+    425.4,
+    728.9,
+    587.4,
+    746.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon/DW:",
+   "max_zeichen": 26,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fax Arzt",
+   "acro_name": "Fax Arzt",
+   "page": 0,
+   "bbox": [
+    395.7,
+    756.9,
+    586.5,
+    773.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Fax:",
+   "max_zeichen": 31,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "e-mail Arzt",
+   "acro_name": "e-mail Arzt",
+   "page": 0,
+   "bbox": [
+    399.4,
+    786.8,
+    587.2,
+    798.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Unterschrift und Stempel der Krankenanstalt e-mail:",
+   "max_zeichen": 45,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname#p1",
+   "acro_name": "Familienname",
+   "page": 1,
+   "bbox": [
+    88.7,
+    76.2,
+    239.9,
+    104.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "max_zeichen": 48,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname#p1",
+   "acro_name": "Vorname",
+   "page": 1,
+   "bbox": [
+    293.6,
+    76.2,
+    421.2,
+    104.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname:",
+   "max_zeichen": 33,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1#p1",
+   "acro_name": "VSNR_1",
+   "page": 1,
+   "bbox": [
+    437.3,
+    87.3,
+    588.1,
+    104.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Diagnose",
+   "acro_name": "Diagnose",
+   "page": 1,
+   "bbox": [
+    56.4,
+    136.0,
+    586.5,
+    216.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Akutereignisses bzw. der Operation:",
+   "max_zeichen": 522,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erkrankungen",
+   "acro_name": "Erkrankungen",
+   "page": 1,
+   "bbox": [
+    56.4,
+    235.2,
+    586.5,
+    274.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zusätzliche Erkrankungen und Behinderungen mit Angabe der Funktionseinschränkung:",
+   "max_zeichen": 261,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankheitsbeginn",
+   "acro_name": "Krankheitsbeginn",
+   "page": 1,
+   "bbox": [
+    55.9,
+    292.8,
+    586.0,
+    324.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krankheitsbeginn und -verlauf, Komplikationen:",
+   "max_zeichen": 174,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Therapien",
+   "acro_name": "Therapien",
+   "page": 1,
+   "bbox": [
+    55.9,
+    342.4,
+    586.0,
+    368.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bisherige Therapien (medikamentös, physikalisch):",
+   "max_zeichen": 194,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Weitere Maßnahmen",
+   "acro_name": "Weitere Maßnahmen",
+   "page": 1,
+   "bbox": [
+    55.9,
+    386.0,
+    586.0,
+    438.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erforderliche weitere diagnostische Maßnahmen:",
+   "max_zeichen": 348,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Befunde",
+   "acro_name": "Befunde",
+   "page": 1,
+   "bbox": [
+    55.9,
+    456.6,
+    586.0,
+    501.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wesentliche klinische und med. techn. Befunde:",
+   "max_zeichen": 261,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rehabilitationsziel",
+   "acro_name": "Rehabilitationsziel",
+   "page": 1,
+   "bbox": [
+    55.9,
+    521.2,
+    586.0,
+    546.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben zum Rehabilitationsziel:",
+   "max_zeichen": 194,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegegeld",
+   "acro_name": "Pflegegeld",
+   "page": 1,
+   "bbox": [
+    224.8,
+    589.6,
+    277.4,
+    599.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "beziehen Sie Pflegegeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "beziehen Sie Pflegegeld",
+     "bbox": [
+      224.8,
+      589.6,
+      236.1,
+      599.5
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "£",
+     "bbox": [
+      266.0,
+      589.6,
+      277.4,
+      599.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stufe",
+   "acro_name": "Stufe",
+   "page": 1,
+   "bbox": [
+    376.1,
+    583.2,
+    397.6,
+    596.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ £ welche Stufe:",
+   "max_zeichen": 1,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stelle Pflegegeld",
+   "acro_name": "Stelle Pflegegeld",
+   "page": 1,
+   "bbox": [
+    399.1,
+    597.2,
+    577.7,
+    608.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "von welcher Stelle:",
+   "max_zeichen": 32,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antrag Pension",
+   "acro_name": "Antrag Pension",
+   "page": 1,
+   "bbox": [
+    224.8,
+    637.9,
+    277.4,
+    647.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "auf Pensionsleistung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "auf Pensionsleistung",
+     "bbox": [
+      224.8,
+      637.9,
+      236.1,
+      647.8
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "auf Pensionsleistung £",
+     "bbox": [
+      266.0,
+      637.9,
+      277.4,
+      647.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stelle Pensionsleistung",
+   "acro_name": "Stelle Pensionsleistung",
+   "page": 1,
+   "bbox": [
+    398.7,
+    632.8,
+    577.2,
+    644.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Pensionsleistung £ £ von welcher Stelle:",
+   "max_zeichen": 32,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antrag Pflegegeld",
+   "acro_name": "Antrag Pflegegeld",
+   "page": 1,
+   "bbox": [
+    224.8,
+    650.8,
+    277.4,
+    660.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "auf Pflegegeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "n",
+     "label": "auf Pflegegeld",
+     "bbox": [
+      224.8,
+      650.8,
+      236.1,
+      660.7
+     ]
+    },
+    {
+     "wert": "j",
+     "label": "£",
+     "bbox": [
+      266.0,
+      650.8,
+      277.4,
+      660.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "welche Stelle",
+   "acro_name": "welche Stelle",
+   "page": 1,
+   "bbox": [
+    398.7,
+    646.7,
+    577.2,
+    658.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "£ £ von welcher Stelle:",
+   "max_zeichen": 32,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Patienteneinverständnis",
+   "acro_name": "Patienteneinverständnis",
+   "page": 1,
+   "bbox": [
+    229.1,
+    685.6,
+    277.1,
+    695.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Patienteneinverständnis zum Antrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "j",
+     "label": "Patienteneinverständnis zum Antrag",
+     "bbox": [
+      229.1,
+      685.6,
+      240.4,
+      695.5
+     ]
+    },
+    {
+     "wert": "n",
+     "label": "Patienteneinverständnis zum Antrag £",
+     "bbox": [
+      265.7,
+      685.6,
+      277.1,
+      695.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/antrag_ahv_reha_unfall/p1.png",
+   "cache/pruefung/antrag_ahv_reha_unfall/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "9b2e35940ebfedb5",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "9b2e35940ebfedb5",
+  "ok": true
+ }
+}

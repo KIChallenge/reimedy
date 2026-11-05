@@ -1,0 +1,753 @@
+{
+ "formular_id": "bvaeb_b810982b07",
+ "name": "Bestellformular",
+ "traeger": "BVAEB",
+ "sha256": "64920cbec775e30f68b1c0ffd67558143ae2c321a297916997407bafa497e33c",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729178&version=1755600000",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 1,
+   "bbox": [
+    65.2,
+    86.7,
+    248.5,
+    98.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Landesstelle (Außenstelle) der BVAEB",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_000",
+   "semantik": "versicherung.landesstelle",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    103.0,
+    223.3,
+    393.1,
+    235.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_001",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    446.4,
+    223.3,
+    525.9,
+    235.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNr.:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_002",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    111.7,
+    238.5,
+    527.5,
+    250.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_003",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    152.0,
+    253.7,
+    528.1,
+    265.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Reiseziel (Staat):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_004",
+   "semantik": "adresse.land",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    132.5,
+    268.8,
+    224.2,
+    280.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zeitraum von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    244.3,
+    268.8,
+    339.1,
+    280.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    100.6,
+    315.4,
+    397.6,
+    327.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_007",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    445.2,
+    315.4,
+    523.3,
+    327.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNr.:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_008",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    111.7,
+    330.6,
+    524.5,
+    342.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_009",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    152.0,
+    345.8,
+    522.0,
+    357.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Reiseziel (Staat):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_010",
+   "semantik": "adresse.land",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    132.5,
+    361.0,
+    208.8,
+    373.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zeitraum von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_011",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    229.0,
+    361.0,
+    336.0,
+    373.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_012",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    103.0,
+    407.4,
+    274.6,
+    419.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_013",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    277.7,
+    407.4,
+    393.1,
+    419.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_014",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    446.4,
+    407.4,
+    525.9,
+    419.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNr.:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_015",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    111.6,
+    422.7,
+    524.4,
+    434.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_016",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    152.0,
+    437.8,
+    525.1,
+    449.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Reiseziel (Staat):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_017",
+   "semantik": "adresse.land",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    132.5,
+    453.0,
+    224.2,
+    465.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zeitraum von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_018",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    244.3,
+    453.0,
+    339.1,
+    465.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_019",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    103.0,
+    499.6,
+    274.6,
+    511.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_020",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    277.7,
+    499.6,
+    393.1,
+    511.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_021",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    446.4,
+    499.6,
+    525.9,
+    511.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNr.:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_022",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    111.7,
+    514.7,
+    524.5,
+    526.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_023",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    152.0,
+    529.9,
+    525.1,
+    541.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Reiseziel (Staat):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_024",
+   "semantik": "adresse.land",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    132.5,
+    545.1,
+    208.8,
+    557.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zeitraum von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_025",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    229.0,
+    545.1,
+    339.1,
+    557.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_026",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    103.0,
+    591.7,
+    393.1,
+    603.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_027",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    446.5,
+    591.7,
+    522.9,
+    603.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "SVNr.:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f02_028",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    111.7,
+    606.8,
+    524.5,
+    618.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_029",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    152.0,
+    622.0,
+    522.0,
+    634.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Reiseziel (Staat):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_030",
+   "semantik": "adresse.land",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    132.5,
+    637.1,
+    224.2,
+    649.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zeitraum von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_031",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    244.3,
+    637.1,
+    342.1,
+    649.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "bis",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_032",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 23,
+  "bilder": [
+   "cache/pruefung/bvaeb_b810982b07/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Name / Berger Anna",
+     "problem": "Wert scheint in mehrere wiederholte Personenzeilen eingetragen; einige davon wirken wie Tabellen-/Zusatzzeilen statt nur Antragsstellerin",
+     "schwer": true
+    },
+    {
+     "feld": "SVNr. / 1234140348",
+     "problem": "Mehrfach in wiederholten Zeilen gefüllt; mögliche Zuordnung zu weiteren Personentabellen statt nur Antragstellerin",
+     "schwer": true
+    },
+    {
+     "feld": "Adresse / Musterstraße 12/4, 1030 Wien",
+     "problem": "Mehrfach in wiederholten Zeilen gefüllt; mögliche Zuordnung zu weiteren Personentabellen statt nur Antragstellerin",
+     "schwer": true
+    },
+    {
+     "feld": "Reiseziel (Staat) / Österreich",
+     "problem": "Mehrfach in wiederholten Zeilen gefüllt; mögliche Zuordnung zu weiteren Personentabellen statt nur Antragstellerin",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "49950c10c3049cfc",
+  "ok": false
+ }
+}

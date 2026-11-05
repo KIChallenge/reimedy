@@ -1,0 +1,676 @@
+{
+ "formular_id": "fsw_anliegen_fsw_interaktiv",
+ "name": "Ihr Anliegen an den FSW (Formular)",
+ "traeger": "FSW",
+ "sha256": "cd01f291385a0c6527076cf383e58ce316a8c90b2a0fc28f4540cf691f334578",
+ "version_url": "https://www.fsw.at/downloads/formulare/Anliegen_FSW_interaktiv.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname Kundin 3",
+   "acro_name": "Familienname Kundin 3",
+   "page": 0,
+   "bbox": [
+    28.6,
+    197.4,
+    294.0,
+    219.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname betroffene Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kundin 3",
+   "acro_name": "Vorname Kundin 3",
+   "page": 0,
+   "bbox": [
+    302.5,
+    197.4,
+    567.1,
+    219.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname betroffene Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht Kundin",
+   "acro_name": "Geschlecht Kundin",
+   "page": 0,
+   "bbox": [
+    27.8,
+    236.6,
+    281.3,
+    255.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geschlecht betroffene Person",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      27.8,
+      236.8,
+      45.8,
+      254.8
+     ],
+     "wert_semantik": "männlich"
+    },
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      95.2,
+      236.6,
+      113.2,
+      254.6
+     ],
+     "wert_semantik": "weiblich"
+    },
+    {
+     "wert": "divers#2Finter#2Foffen",
+     "label": "divers/inter/offen",
+     "bbox": [
+      163.0,
+      237.5,
+      181.0,
+      255.5
+     ],
+     "wert_semantik": "divers"
+    },
+    {
+     "wert": "keine#20Angabe",
+     "label": "keine Angabe",
+     "bbox": [
+      263.3,
+      237.5,
+      281.3,
+      255.5
+     ]
+    }
+   ],
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Akademischer Grad Kundin 2",
+   "acro_name": "Akademischer Grad Kundin 2",
+   "page": 0,
+   "bbox": [
+    367.2,
+    237.1,
+    566.9,
+    259.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Akademischer Grad/Titel betroffene Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum betroffene Person",
+   "acro_name": "Geburtsdatum betroffene Person",
+   "page": 0,
+   "bbox": [
+    28.3,
+    281.1,
+    151.7,
+    303.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum (Bitte geben Sie Tag, Monat und Jahr an), zum Beispiel 31.01.1972",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialversicherungsnummer betroffene Person",
+   "acro_name": "Sozialversicherungsnummer betroffene Person",
+   "page": 0,
+   "bbox": [
+    160.9,
+    281.1,
+    292.9,
+    303.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sozialversicherungsnummer, eine Zahl mit 10 Stellen (4 stellige Nummer und Geburtsdatum XXXX-Tag.Monat.Jahr)",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassennamen betroffene Person",
+   "acro_name": "Strassennamen betroffene Person",
+   "page": 0,
+   "bbox": [
+    28.5,
+    321.4,
+    345.5,
+    343.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straßennamen der Adresse der betroffenen Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr betroffene Person",
+   "acro_name": "Hausnr betroffene Person",
+   "page": 0,
+   "bbox": [
+    354.4,
+    321.4,
+    400.5,
+    343.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse der betroffenen Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.hausnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege betroffene Person",
+   "acro_name": "Stiege betroffene Person",
+   "page": 0,
+   "bbox": [
+    409.8,
+    321.4,
+    456.0,
+    343.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse der betroffenen Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.stiege",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr betroffene Person",
+   "acro_name": "Tuernr betroffene Person",
+   "page": 0,
+   "bbox": [
+    464.5,
+    321.4,
+    510.7,
+    343.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer der Adresse der betroffenen Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.tuer",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ betroffene Person",
+   "acro_name": "PLZ betroffene Person",
+   "page": 0,
+   "bbox": [
+    28.8,
+    363.3,
+    132.9,
+    385.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse der betroffenen Person",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort betroffene Person",
+   "acro_name": "Ort betroffene Person",
+   "page": 0,
+   "bbox": [
+    142.8,
+    363.3,
+    292.6,
+    385.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse der betroffenen Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ist Hauptwohnsitz",
+   "acro_name": "Ist Hauptwohnsitz",
+   "page": 0,
+   "bbox": [
+    301.9,
+    363.7,
+    361.2,
+    381.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Ist die angegebene Adresse Hauptwohnsitz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      301.9,
+      363.7,
+      319.9,
+      381.7
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      343.2,
+      363.7,
+      361.2,
+      381.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer betroffene Person",
+   "acro_name": "Telefonnummer betroffene Person",
+   "page": 0,
+   "bbox": [
+    29.1,
+    404.4,
+    293.8,
+    426.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer der betroffenen Person",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse betroffene Person",
+   "acro_name": "E-Mail-Adresse betroffene Person",
+   "page": 0,
+   "bbox": [
+    301.9,
+    404.4,
+    566.6,
+    426.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse der betroffenen Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anliegen",
+   "acro_name": "Anliegen",
+   "page": 0,
+   "bbox": [
+    28.8,
+    472.2,
+    565.7,
+    566.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ihr Anliegen an den Fonds Soziales Wien",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kontaktaufnahme",
+   "acro_name": "Kontaktaufnahme",
+   "page": 0,
+   "bbox": [
+    28.1,
+    598.2,
+    46.1,
+    639.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Das FSW-Kund:innenservice soll ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "mich#20selbst#20zu#20meinem#20Anliegen#20kontaktieren",
+     "label": "Das FSW-Kund:innenservice soll mich selbst zu meinem Anliegen kontaktieren.",
+     "bbox": [
+      28.1,
+      598.2,
+      46.1,
+      616.2
+     ]
+    },
+    {
+     "wert": "eine#20andere#20Person#20zu#20meinem#20Anliegen#20kontaktieren",
+     "label": "Das FSW-Kund:innenservice soll eine andere Person zu meinem Anliegen",
+     "bbox": [
+      28.1,
+      621.6,
+      46.1,
+      639.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Vertretung",
+   "acro_name": "Familienname Vertretung",
+   "page": 0,
+   "bbox": [
+    28.4,
+    659.4,
+    292.9,
+    681.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familenname der Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Vertretung",
+   "acro_name": "Vorname Vertretung",
+   "page": 0,
+   "bbox": [
+    302.3,
+    659.4,
+    565.7,
+    681.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname der Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Akademischer Grad Vertretung",
+   "acro_name": "Akademischer Grad Vertretung",
+   "page": 0,
+   "bbox": [
+    28.3,
+    701.4,
+    228.0,
+    723.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Akademischer Grad/Titel der Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.titel",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Vertretung",
+   "acro_name": "Telefonnummer Vertretung",
+   "page": 0,
+   "bbox": [
+    28.3,
+    744.8,
+    293.0,
+    767.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer der Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse Vertretung",
+   "acro_name": "E-Mail-Adresse Vertretung",
+   "page": 0,
+   "bbox": [
+    301.8,
+    744.8,
+    566.5,
+    767.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse der Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung zur betroffenen Person",
+   "acro_name": "Beziehung zur betroffenen Person",
+   "page": 0,
+   "bbox": [
+    28.3,
+    785.9,
+    566.4,
+    808.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beziehung zur betroffenen Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.beziehung",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 1,
+   "bbox": [
+    28.3,
+    731.1,
+    156.1,
+    753.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschriftsfeld 1",
+   "acro_name": "Unterschriftsfeld 1",
+   "page": 1,
+   "bbox": [
+    164.8,
+    731.1,
+    566.5,
+    770.3
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift der betroffenen Person oder einer für diese zur Vertretung befugten Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.vertreter",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name unterschreibende Person",
+   "acro_name": "Name unterschreibende Person",
+   "page": 1,
+   "bbox": [
+    164.8,
+    788.7,
+    566.4,
+    810.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der unterschreibenden Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 19,
+  "bilder": [
+   "cache/pruefung/fsw_anliegen_fsw_interaktiv/p1.png",
+   "cache/pruefung/fsw_anliegen_fsw_interaktiv/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "558ca4ad31c1d81a",
+  "ok": true
+ }
+}

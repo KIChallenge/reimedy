@@ -1,0 +1,42 @@
+{
+ "formular_id": "svs_49018a6cbe",
+ "name": "1. Änderung zum KFO GV",
+ "traeger": "SVS",
+ "sha256": "a4e5fa8d35a0251a6e353722c342135e8403e018b2abb01653a3f608cc6c6b31",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.797260&version=1753866355",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/svs_49018a6cbe/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "f815181a74c99723",
+  "ok": true
+ }
+}

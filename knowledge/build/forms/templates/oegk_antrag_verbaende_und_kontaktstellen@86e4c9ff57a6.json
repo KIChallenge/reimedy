@@ -1,0 +1,2806 @@
+{
+ "formular_id": "oegk_antrag_verbaende_und_kontaktstellen",
+ "name": "Antrag Verbände und Kontaktstellen",
+ "traeger": "ÖGK",
+ "sha256": "86e4c9ff57a62056df7b1a2597d251f6af5e138684e620eb9a22362532885a96",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.794329&version=1771495495",
+ "pages": 9,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   841.9,
+   595.3
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Summe",
+   "acro_name": "Summe",
+   "page": 0,
+   "bbox": [
+    428.9,
+    505.5,
+    520.1,
+    522.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beantragte Fördersumme von gesamt Euro",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller-Name",
+   "acro_name": "Antragsteller-Name",
+   "page": 0,
+   "bbox": [
+    111.9,
+    555.8,
+    521.8,
+    570.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller-Strasse",
+   "acro_name": "Antragsteller-Strasse",
+   "page": 0,
+   "bbox": [
+    142.2,
+    570.2,
+    521.8,
+    584.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Straße/Platz:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Antragsteller-Ort",
+   "acro_name": "Antragsteller-Ort",
+   "page": 0,
+   "bbox": [
+    122.4,
+    584.5,
+    521.8,
+    598.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "PLZ ORT:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter1-Name",
+   "acro_name": "Vertreter1-Name",
+   "page": 0,
+   "bbox": [
+    179.6,
+    630.5,
+    299.9,
+    644.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vor- und Nachname:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter1-Funktion",
+   "acro_name": "Vertreter1-Funktion",
+   "page": 0,
+   "bbox": [
+    123.7,
+    645.5,
+    299.9,
+    659.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Funktion:",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "semantik": "vertreter.rolle",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter1-Telefon",
+   "acro_name": "Vertreter1-Telefon",
+   "page": 0,
+   "bbox": [
+    118.3,
+    660.5,
+    299.9,
+    674.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter1-Email",
+   "acro_name": "Vertreter1-Email",
+   "page": 0,
+   "bbox": [
+    109.6,
+    675.3,
+    299.9,
+    689.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Email:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter2-Name",
+   "acro_name": "Vertreter2-Name",
+   "page": 0,
+   "bbox": [
+    405.5,
+    630.2,
+    521.8,
+    644.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vor- und Nachname:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter2-Funktion",
+   "acro_name": "Vertreter2-Funktion",
+   "page": 0,
+   "bbox": [
+    351.3,
+    645.4,
+    521.8,
+    659.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Funktion:",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": null,
+   "semantik": "vertreter.rolle",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter2-Telefon",
+   "acro_name": "Vertreter2-Telefon",
+   "page": 0,
+   "bbox": [
+    345.4,
+    660.2,
+    521.8,
+    674.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertreter2-Email",
+   "acro_name": "Vertreter2-Email",
+   "page": 0,
+   "bbox": [
+    335.4,
+    675.5,
+    521.8,
+    689.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Email:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verein",
+   "acro_name": "Verein",
+   "page": 0,
+   "bbox": [
+    77.3,
+    721.8,
+    90.5,
+    735.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "undefined",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Verein: Verein:",
+     "bbox": [
+      77.3,
+      721.8,
+      90.5,
+      735.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vereinsname",
+   "acro_name": "Vereinsname",
+   "page": 0,
+   "bbox": [
+    131.4,
+    720.0,
+    384.7,
+    752.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verein: Verein:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ZVRZahl",
+   "acro_name": "ZVRZahl",
+   "page": 0,
+   "bbox": [
+    438.7,
+    720.1,
+    521.8,
+    734.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Rechtsform* Verein: ZVR-Zahl:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bankverbindung-Name",
+   "acro_name": "Bankverbindung-Name",
+   "page": 1,
+   "bbox": [
+    113.9,
+    242.3,
+    521.3,
+    256.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bankverbindung Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bankverbindung-IBAN",
+   "acro_name": "Bankverbindung-IBAN",
+   "page": 1,
+   "bbox": [
+    108.3,
+    258.1,
+    521.3,
+    272.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bankverbindung IBAN",
+   "max_zeichen": null,
+   "format": "IBAN",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Organisation",
+   "acro_name": "Organisation",
+   "page": 1,
+   "bbox": [
+    76.3,
+    301.7,
+    90.6,
+    346.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Sind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Dachverband",
+     "label": "Sind",
+     "bbox": [
+      76.5,
+      301.7,
+      90.6,
+      315.9
+     ]
+    },
+    {
+     "wert": "Landesverband",
+     "label": "Sind",
+     "bbox": [
+      76.3,
+      317.2,
+      90.5,
+      331.4
+     ]
+    },
+    {
+     "wert": "Kontaktstelle",
+     "label": null,
+     "bbox": [
+      76.3,
+      332.2,
+      90.5,
+      346.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl",
+   "acro_name": "Anzahl",
+   "page": 1,
+   "bbox": [
+    422.2,
+    423.1,
+    527.0,
+    451.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "themenspezifischer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl - ehrenamtlichen",
+   "acro_name": "Anzahl - ehrenamtlichen",
+   "page": 1,
+   "bbox": [
+    422.2,
+    453.0,
+    527.0,
+    481.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anzahl der ehrenamtlichen bzw. der unentgeltlich mitarbeitenden Mitarbeiterinnen und Mitarbeiter:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorsteuer",
+   "acro_name": "Vorsteuer",
+   "page": 1,
+   "bbox": [
+    75.3,
+    509.6,
+    137.4,
+    527.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      75.3,
+      509.6,
+      93.3,
+      527.6
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      119.4,
+      509.8,
+      137.4,
+      527.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Information",
+   "acro_name": "Information",
+   "page": 1,
+   "bbox": [
+    76.9,
+    573.1,
+    91.1,
+    587.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bitte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Bitte",
+     "bbox": [
+      76.9,
+      573.1,
+      91.1,
+      587.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Förderung",
+   "acro_name": "Förderung",
+   "page": 1,
+   "bbox": [
+    76.9,
+    588.7,
+    91.1,
+    602.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Bitte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Bitte",
+     "bbox": [
+      76.9,
+      588.7,
+      91.1,
+      602.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Qualifizierung",
+   "acro_name": "Qualifizierung",
+   "page": 1,
+   "bbox": [
+    76.7,
+    603.8,
+    90.9,
+    618.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": null,
+     "bbox": [
+      76.7,
+      603.8,
+      90.9,
+      618.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Veranstaltung",
+   "acro_name": "Veranstaltung",
+   "page": 1,
+   "bbox": [
+    76.9,
+    619.7,
+    91.1,
+    633.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": null,
+     "bbox": [
+      76.9,
+      619.7,
+      91.1,
+      633.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Projekttitel",
+   "acro_name": "Projekttitel",
+   "page": 2,
+   "bbox": [
+    72.5,
+    490.6,
+    522.8,
+    595.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "(1) Projekttitel (Welchen Namen hat Ihr Projekt?)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ausgangssituation",
+   "acro_name": "Ausgangssituation",
+   "page": 2,
+   "bbox": [
+    72.5,
+    622.9,
+    522.8,
+    757.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "(2) Ausgangssituation (Welche Ausgangssituation liegt dem geplanten Projekt / der geplanten Aktivität zugrunde?)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dauer",
+   "acro_name": "Dauer",
+   "page": 3,
+   "bbox": [
+    72.5,
+    145.1,
+    522.8,
+    294.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(3) Dauer des Projektes / der Aktivität (Beginn / Ende -Bitte beachten Sie, dass der Projektzeitraum auch alle Vor-und Nacharbeiten umfasst)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Projektteam",
+   "acro_name": "Projektteam",
+   "page": 3,
+   "bbox": [
+    72.5,
+    321.4,
+    522.8,
+    470.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "(4) Projektteam (Welche Personen setzen das Projekt / die Aktivität um und wer ist dafür verantwortlich?)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ziele",
+   "acro_name": "Ziele",
+   "page": 3,
+   "bbox": [
+    72.5,
+    497.6,
+    522.8,
+    720.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "(5) Ziele des Projektes / der Aktivität (Welche Ziele sollen mit dem Projekt / der Aktivität erreicht werden und was sind die geplanten Ergebnisse?)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nichtziele",
+   "acro_name": "Nichtziele",
+   "page": 4,
+   "bbox": [
+    72.5,
+    130.4,
+    522.8,
+    338.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "(6) Nichtziele (Was soll mit dem Projekt / der Aktivität NICHT erreicht werden?)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Maßnahmen",
+   "acro_name": "Maßnahmen",
+   "page": 4,
+   "bbox": [
+    72.5,
+    394.7,
+    522.8,
+    675.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "(7) Maßnahmen und Zeitplan (Welche Maßnahmen sollen zur Zielerreichung umgesetzt werden? Bitte stellen Sie die einzelnen Maßnahmen der zeitlichen Reihenfolge nach dar. Gerne können Sie hierfür einzelne Arbeitspakete definieren und in Form eines Zeitplans darstellen.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow1",
+   "acro_name": "FörderstelleRow1",
+   "page": 5,
+   "bbox": [
+    71.9,
+    233.4,
+    282.6,
+    255.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber1",
+   "acro_name": "Fördergeber1",
+   "page": 5,
+   "bbox": [
+    299.0,
+    234.7,
+    425.5,
+    252.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "geplant",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": "geplant",
+     "bbox": [
+      299.0,
+      234.7,
+      317.0,
+      252.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": "gereicht",
+     "bbox": [
+      351.2,
+      234.7,
+      369.2,
+      252.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": "schlossen",
+     "bbox": [
+      407.5,
+      234.7,
+      425.5,
+      252.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow1",
+   "acro_name": "Betrag in EuroRow1",
+   "page": 5,
+   "bbox": [
+    447.4,
+    233.4,
+    523.3,
+    255.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow2",
+   "acro_name": "FörderstelleRow2",
+   "page": 5,
+   "bbox": [
+    71.9,
+    256.3,
+    282.6,
+    275.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber2",
+   "acro_name": "Fördergeber2",
+   "page": 5,
+   "bbox": [
+    299.0,
+    255.7,
+    425.5,
+    273.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": null,
+     "bbox": [
+      299.0,
+      255.7,
+      317.0,
+      273.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": null,
+     "bbox": [
+      351.2,
+      255.7,
+      369.2,
+      273.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": null,
+     "bbox": [
+      407.5,
+      255.7,
+      425.5,
+      273.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow2",
+   "acro_name": "Betrag in EuroRow2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    256.3,
+    523.3,
+    275.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow3",
+   "acro_name": "FörderstelleRow3",
+   "page": 5,
+   "bbox": [
+    71.9,
+    276.4,
+    282.6,
+    295.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber3",
+   "acro_name": "Fördergeber3",
+   "page": 5,
+   "bbox": [
+    299.0,
+    276.7,
+    425.5,
+    294.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": null,
+     "bbox": [
+      299.0,
+      276.7,
+      317.0,
+      294.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": null,
+     "bbox": [
+      351.2,
+      276.7,
+      369.2,
+      294.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": null,
+     "bbox": [
+      407.5,
+      276.7,
+      425.5,
+      294.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow3",
+   "acro_name": "Betrag in EuroRow3",
+   "page": 5,
+   "bbox": [
+    447.4,
+    276.4,
+    523.3,
+    295.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow4",
+   "acro_name": "FörderstelleRow4",
+   "page": 5,
+   "bbox": [
+    71.9,
+    296.4,
+    282.6,
+    315.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber4",
+   "acro_name": "Fördergeber4",
+   "page": 5,
+   "bbox": [
+    299.0,
+    296.7,
+    425.5,
+    314.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": null,
+     "bbox": [
+      299.0,
+      296.7,
+      317.0,
+      314.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": null,
+     "bbox": [
+      351.2,
+      296.7,
+      369.2,
+      314.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": null,
+     "bbox": [
+      407.5,
+      296.7,
+      425.5,
+      314.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow4",
+   "acro_name": "Betrag in EuroRow4",
+   "page": 5,
+   "bbox": [
+    447.4,
+    296.4,
+    523.3,
+    315.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow5",
+   "acro_name": "FörderstelleRow5",
+   "page": 5,
+   "bbox": [
+    71.9,
+    316.3,
+    282.6,
+    335.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_5",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber5",
+   "acro_name": "Fördergeber5",
+   "page": 5,
+   "bbox": [
+    299.0,
+    316.7,
+    425.5,
+    334.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": null,
+     "bbox": [
+      299.0,
+      316.7,
+      317.0,
+      334.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": null,
+     "bbox": [
+      351.2,
+      316.7,
+      369.2,
+      334.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": null,
+     "bbox": [
+      407.5,
+      316.7,
+      425.5,
+      334.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow5",
+   "acro_name": "Betrag in EuroRow5",
+   "page": 5,
+   "bbox": [
+    447.4,
+    316.3,
+    523.3,
+    335.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_5",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow6",
+   "acro_name": "FörderstelleRow6",
+   "page": 5,
+   "bbox": [
+    71.9,
+    336.4,
+    282.6,
+    355.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_6",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber6",
+   "acro_name": "Fördergeber6",
+   "page": 5,
+   "bbox": [
+    299.0,
+    336.7,
+    425.5,
+    354.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": null,
+     "bbox": [
+      299.0,
+      336.7,
+      317.0,
+      354.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": null,
+     "bbox": [
+      351.2,
+      336.7,
+      369.2,
+      354.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": null,
+     "bbox": [
+      407.5,
+      336.7,
+      425.5,
+      354.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow6",
+   "acro_name": "Betrag in EuroRow6",
+   "page": 5,
+   "bbox": [
+    447.4,
+    336.4,
+    523.3,
+    355.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_6",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow7",
+   "acro_name": "FörderstelleRow7",
+   "page": 5,
+   "bbox": [
+    71.9,
+    356.4,
+    282.6,
+    375.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_7",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber7",
+   "acro_name": "Fördergeber7",
+   "page": 5,
+   "bbox": [
+    299.0,
+    356.7,
+    425.5,
+    374.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": null,
+     "bbox": [
+      299.0,
+      356.7,
+      317.0,
+      374.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": null,
+     "bbox": [
+      351.2,
+      356.7,
+      369.2,
+      374.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": null,
+     "bbox": [
+      407.5,
+      356.7,
+      425.5,
+      374.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow7",
+   "acro_name": "Betrag in EuroRow7",
+   "page": 5,
+   "bbox": [
+    447.4,
+    356.4,
+    523.3,
+    375.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_7",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow8",
+   "acro_name": "FörderstelleRow8",
+   "page": 5,
+   "bbox": [
+    71.9,
+    376.3,
+    282.6,
+    395.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_8",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Fördergeber8",
+   "acro_name": "Fördergeber8",
+   "page": 5,
+   "bbox": [
+    299.0,
+    376.7,
+    425.5,
+    394.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "geplant",
+     "label": null,
+     "bbox": [
+      299.0,
+      376.7,
+      317.0,
+      394.7
+     ]
+    },
+    {
+     "wert": "eingereicht",
+     "label": null,
+     "bbox": [
+      351.2,
+      376.7,
+      369.2,
+      394.7
+     ]
+    },
+    {
+     "wert": "abgeschlossen",
+     "label": null,
+     "bbox": [
+      407.5,
+      376.7,
+      425.5,
+      394.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow8",
+   "acro_name": "Betrag in EuroRow8",
+   "page": 5,
+   "bbox": [
+    447.4,
+    376.3,
+    523.3,
+    395.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_8",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow1_2",
+   "acro_name": "FörderstelleRow1_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    500.6,
+    445.6,
+    519.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow1_2",
+   "acro_name": "Betrag in EuroRow1_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    500.6,
+    523.6,
+    519.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow2_2",
+   "acro_name": "FörderstelleRow2_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    520.6,
+    445.6,
+    539.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow2_2",
+   "acro_name": "Betrag in EuroRow2_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    520.6,
+    523.6,
+    539.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow3_2",
+   "acro_name": "FörderstelleRow3_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    540.6,
+    445.6,
+    559.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow3_2",
+   "acro_name": "Betrag in EuroRow3_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    540.6,
+    523.6,
+    559.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow4_2",
+   "acro_name": "FörderstelleRow4_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    560.6,
+    445.6,
+    579.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow4_2",
+   "acro_name": "Betrag in EuroRow4_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    560.6,
+    523.6,
+    579.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow5_2",
+   "acro_name": "FörderstelleRow5_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    580.6,
+    445.6,
+    599.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_5",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow5_2",
+   "acro_name": "Betrag in EuroRow5_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    580.6,
+    523.6,
+    599.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_5",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow6_2",
+   "acro_name": "FörderstelleRow6_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    600.6,
+    445.6,
+    619.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_6",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow6_2",
+   "acro_name": "Betrag in EuroRow6_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    600.6,
+    523.6,
+    619.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_6",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow7_2",
+   "acro_name": "FörderstelleRow7_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    620.6,
+    445.6,
+    639.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_7",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow7_2",
+   "acro_name": "Betrag in EuroRow7_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    620.6,
+    523.6,
+    639.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_7",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FörderstelleRow8_2",
+   "acro_name": "FörderstelleRow8_2",
+   "page": 5,
+   "bbox": [
+    71.8,
+    640.6,
+    445.6,
+    659.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Förderstelle_Row_8",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betrag in EuroRow8_2",
+   "acro_name": "Betrag in EuroRow8_2",
+   "page": 5,
+   "bbox": [
+    447.4,
+    640.6,
+    523.6,
+    659.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Betrag in Euro_Row_8",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Interne Personalkosten11",
+   "acro_name": "Interne Personalkosten11",
+   "page": 6,
+   "bbox": [
+    92.3,
+    176.4,
+    353.3,
+    194.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Interne Personalkosten_1.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gesamtstunden x Stundensatz  inkl Lohnnebenkosten11",
+   "acro_name": "Gesamtstunden x Stundensatz  inkl Lohnnebenkosten11",
+   "page": 6,
+   "bbox": [
+    354.8,
+    176.4,
+    655.1,
+    194.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtstunden x Stundensatz ( inkl. Lohnnebenkosten)_1.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten11",
+   "acro_name": "Kosten11",
+   "page": 6,
+   "bbox": [
+    656.6,
+    176.4,
+    774.0,
+    194.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_1.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Interne Personalkosten12",
+   "acro_name": "Interne Personalkosten12",
+   "page": 6,
+   "bbox": [
+    92.4,
+    195.6,
+    353.2,
+    215.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Interne Personalkosten_1.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gesamtstunden x Stundensatz  inkl Lohnnebenkosten12",
+   "acro_name": "Gesamtstunden x Stundensatz  inkl Lohnnebenkosten12",
+   "page": 6,
+   "bbox": [
+    355.0,
+    195.6,
+    655.0,
+    215.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtstunden x Stundensatz ( inkl. Lohnnebenkosten)_1.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten12",
+   "acro_name": "Kosten12",
+   "page": 6,
+   "bbox": [
+    656.8,
+    195.6,
+    773.9,
+    215.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_1.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Interne Personalkosten1n",
+   "acro_name": "Interne Personalkosten1n",
+   "page": 6,
+   "bbox": [
+    92.4,
+    216.5,
+    353.2,
+    236.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Interne Personalkosten_1.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gesamtstunden x Stundensatz  inkl Lohnnebenkosten1n",
+   "acro_name": "Gesamtstunden x Stundensatz  inkl Lohnnebenkosten1n",
+   "page": 6,
+   "bbox": [
+    355.0,
+    216.5,
+    655.0,
+    236.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gesamtstunden x Stundensatz ( inkl. Lohnnebenkosten)_1.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten1n",
+   "acro_name": "Kosten1n",
+   "page": 6,
+   "bbox": [
+    656.8,
+    216.5,
+    773.9,
+    236.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_1.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Externe Personalkosten21",
+   "acro_name": "Externe Personalkosten21",
+   "page": 6,
+   "bbox": [
+    92.4,
+    257.3,
+    353.2,
+    275.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Externe Personalkosten_2.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang21",
+   "acro_name": "Siehe Höchstsätze im Anhang21",
+   "page": 6,
+   "bbox": [
+    355.0,
+    257.3,
+    655.0,
+    275.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_2.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten21",
+   "acro_name": "Kosten21",
+   "page": 6,
+   "bbox": [
+    656.8,
+    257.3,
+    773.9,
+    275.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_2.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Externe Personalkosten22",
+   "acro_name": "Externe Personalkosten22",
+   "page": 6,
+   "bbox": [
+    92.4,
+    277.2,
+    353.2,
+    295.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Externe Personalkosten_2.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang22",
+   "acro_name": "Siehe Höchstsätze im Anhang22",
+   "page": 6,
+   "bbox": [
+    355.0,
+    277.2,
+    655.0,
+    295.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_2.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten22",
+   "acro_name": "Kosten22",
+   "page": 6,
+   "bbox": [
+    656.8,
+    277.2,
+    773.9,
+    295.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_2.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Externe Personalkosten2n",
+   "acro_name": "Externe Personalkosten2n",
+   "page": 6,
+   "bbox": [
+    92.4,
+    297.1,
+    353.2,
+    315.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Externe Personalkosten_2.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang2n",
+   "acro_name": "Siehe Höchstsätze im Anhang2n",
+   "page": 6,
+   "bbox": [
+    355.0,
+    297.1,
+    655.0,
+    315.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_2.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten2n",
+   "acro_name": "Kosten2n",
+   "page": 6,
+   "bbox": [
+    656.8,
+    297.1,
+    773.9,
+    315.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_2.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sachkosten31",
+   "acro_name": "Sachkosten31",
+   "page": 6,
+   "bbox": [
+    92.4,
+    337.1,
+    353.2,
+    355.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sachkosten_3.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang31",
+   "acro_name": "Siehe Höchstsätze im Anhang31",
+   "page": 6,
+   "bbox": [
+    355.0,
+    337.1,
+    655.0,
+    355.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_3.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten31",
+   "acro_name": "Kosten31",
+   "page": 6,
+   "bbox": [
+    656.8,
+    337.1,
+    773.9,
+    355.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_3.1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sachkosten32",
+   "acro_name": "Sachkosten32",
+   "page": 6,
+   "bbox": [
+    92.4,
+    357.0,
+    353.2,
+    375.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sachkosten_3.4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang32",
+   "acro_name": "Siehe Höchstsätze im Anhang32",
+   "page": 6,
+   "bbox": [
+    355.0,
+    357.0,
+    655.0,
+    375.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_3.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten32",
+   "acro_name": "Kosten32",
+   "page": 6,
+   "bbox": [
+    656.8,
+    357.0,
+    773.9,
+    375.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_3.2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sachkosten33",
+   "acro_name": "Sachkosten33",
+   "page": 6,
+   "bbox": [
+    92.4,
+    376.9,
+    353.2,
+    395.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sachkosten_3.3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang33",
+   "acro_name": "Siehe Höchstsätze im Anhang33",
+   "page": 6,
+   "bbox": [
+    355.0,
+    376.9,
+    655.0,
+    395.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_3.3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten33",
+   "acro_name": "Kosten33",
+   "page": 6,
+   "bbox": [
+    656.8,
+    376.9,
+    773.9,
+    395.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_3.3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sachkosten34",
+   "acro_name": "Sachkosten34",
+   "page": 6,
+   "bbox": [
+    92.1,
+    396.9,
+    352.9,
+    415.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sachkosten_3.4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang34",
+   "acro_name": "Siehe Höchstsätze im Anhang34",
+   "page": 6,
+   "bbox": [
+    354.7,
+    396.9,
+    654.7,
+    415.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_3.4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten34",
+   "acro_name": "Kosten34",
+   "page": 6,
+   "bbox": [
+    656.5,
+    396.9,
+    773.6,
+    415.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_3.4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sachkosten3n",
+   "acro_name": "Sachkosten3n",
+   "page": 6,
+   "bbox": [
+    92.1,
+    416.8,
+    352.9,
+    435.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sachkosten_3.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Siehe Höchstsätze im Anhang3n",
+   "acro_name": "Siehe Höchstsätze im Anhang3n",
+   "page": 6,
+   "bbox": [
+    354.7,
+    416.8,
+    654.7,
+    435.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Siehe Höchstsätze im Anhang_3.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kosten3n",
+   "acro_name": "Kosten3n",
+   "page": 6,
+   "bbox": [
+    656.5,
+    416.8,
+    773.6,
+    435.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_3.n",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KostenGesamtprojektkosten inkl USt",
+   "acro_name": "KostenGesamtprojektkosten inkl USt",
+   "page": 6,
+   "bbox": [
+    656.8,
+    436.0,
+    773.9,
+    454.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_Gesamtprojektkosten (inkl. USt)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KostenBeantragte Fördersumme",
+   "acro_name": "KostenBeantragte Fördersumme",
+   "page": 6,
+   "bbox": [
+    656.8,
+    455.9,
+    773.9,
+    474.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kosten_Beantragte Fördersumme",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Ort",
+   "acro_name": "Datum Ort",
+   "page": 7,
+   "bbox": [
+    67.3,
+    513.4,
+    264.2,
+    542.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum, Ort",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift",
+   "acro_name": "Unterschrift",
+   "page": 7,
+   "bbox": [
+    67.3,
+    581.4,
+    264.2,
+    610.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorund Nachname in",
+   "acro_name": "Vorund Nachname in",
+   "page": 7,
+   "bbox": [
+    67.3,
+    649.9,
+    264.2,
+    678.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vor-und Nachname in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Ort_2",
+   "acro_name": "Datum Ort_2",
+   "page": 7,
+   "bbox": [
+    327.8,
+    513.0,
+    528.0,
+    541.8
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum, Ort",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift_2",
+   "acro_name": "Unterschrift_2",
+   "page": 7,
+   "bbox": [
+    327.8,
+    581.4,
+    528.0,
+    610.2
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Unterschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorund Nachname in_2",
+   "acro_name": "Vorund Nachname in_2",
+   "page": 7,
+   "bbox": [
+    327.8,
+    649.9,
+    528.0,
+    678.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vor-und Nachname in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 15,
+  "bilder": [
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p1.png",
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p2.png",
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p3.png",
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p4.png",
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p5.png",
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p6.png",
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p7.png",
+   "cache/pruefung/oegk_antrag_verbaende_und_kontaktstellen/p8.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "02f758241d87764d",
+  "ok": true
+ }
+}

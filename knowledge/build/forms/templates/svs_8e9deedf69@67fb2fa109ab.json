@@ -1,0 +1,1054 @@
+{
+ "formular_id": "svs_8e9deedf69",
+ "name": "Antrag Kieferorthopädie für Vertrags- und Nichtvertragspartner",
+ "traeger": "SVS",
+ "sha256": "67fb2fa109ab51a687fe0b097831db6332bc7724f425cccf752b72f933b014a8",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.730394&version=1577082391",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    79.1,
+    66.6,
+    86.0,
+    73.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Antrag auf Reparatur für alle VertragspartnerInnen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    79.1,
+    75.8,
+    86.0,
+    82.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Angaben von KFO-VertragspartnerInnen für die",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    93.2,
+    85.0,
+    100.2,
+    91.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "IOTN-Feststellung Interzeptive Behandlung KFO-Hauptbehandlung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    171.8,
+    85.0,
+    178.8,
+    91.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Interzeptive Behandlung KFO-Hauptbehandlung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    271.8,
+    85.0,
+    278.8,
+    91.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "KFO-Hauptbehandlung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "behoerde.vermerk",
+   "semantik_herkunft": "regel",
+   "wer": "behoerde",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    79.1,
+    94.2,
+    86.0,
+    101.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Antrag auf Interzeptive Behandlung durch Vertragszahnarzt/-ärztin",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    79.1,
+    103.4,
+    86.0,
+    110.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Übermittlung von Unterlagen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    79.1,
+    124.1,
+    86.0,
+    131.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kostenerstattungs(Bewilligungs)antrag für die IOTN-Feststellung,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    269.6,
+    124.1,
+    276.6,
+    131.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "IOTN-Feststellung,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    397.1,
+    129.1,
+    566.8,
+    141.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Interzeptive Behandlung, KFO-Hauptbehandlung, Reparaturleistungen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    93.2,
+    133.3,
+    100.2,
+    140.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Interzeptive Behandlung, KFO-Hauptbehandlung, Reparaturleistungen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    195.5,
+    133.3,
+    202.4,
+    140.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "KFO-Hauptbehandlung, Reparaturleistungen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    293.6,
+    133.3,
+    300.6,
+    140.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Reparaturleistungen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    189.2,
+    156.3,
+    538.0,
+    168.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Zuständiger Sozialversicherungsträger:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.6,
+    190.3,
+    396.6,
+    202.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "PatientIn: Nachname(n), Vorname(n)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_014",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.6,
+    216.9,
+    396.6,
+    229.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherter/Versicherte: Nachname(n), Vorname(n) – nur auszufüllen wenn PatientIn ein Angehöriger/eine Angehörige ist",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_015",
+   "semantik": "versicherte_person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    432.5,
+    270.8,
+    465.7,
+    283.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "nach IOTN ist anzugeben, wenn kein digitales Modell vorgelegt wird:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_016",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    466.2,
+    270.8,
+    499.4,
+    283.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "ist anzugeben, wenn kein digitales Modell vorgelegt wird:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_017",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    499.9,
+    270.8,
+    533.0,
+    283.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "anzugeben, wenn kein digitales Modell vorgelegt wird:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_018",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    533.5,
+    270.8,
+    566.8,
+    283.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "wenn kein digitales Modell vorgelegt wird:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_019",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    29.0,
+    299.8,
+    61.6,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "18",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_020",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    62.2,
+    299.8,
+    95.3,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "17",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_021",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    95.9,
+    299.8,
+    129.0,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "16",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_022",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    466.2,
+    299.8,
+    499.3,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "83 82 81 71 72 73 74 75",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_023",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    499.9,
+    299.8,
+    532.9,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "82 81 71 72 73 74 75",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_024",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    533.5,
+    299.8,
+    566.6,
+    312.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "81 71 72 73 74 75",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_025",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    208.1,
+    324.7,
+    387.2,
+    337.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Daten zur Leistungserbringung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_026",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    387.7,
+    324.7,
+    566.8,
+    337.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Leistungserbringung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_027",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    208.3,
+    357.6,
+    387.5,
+    370.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Eingliederung:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_028",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.8,
+    487.0,
+    567.0,
+    499.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Optional – Ergänzende medizinische Informationen zum (frühzeitigen) Behandlungsende:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_029",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.6,
+    531.0,
+    566.5,
+    543.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Optional – Ergänzende medizinische Angaben:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_030",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.6,
+    559.9,
+    566.5,
+    572.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angabe der Gründe für den Behandlungsabbruch/die vorzeitige Ausgliederung:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_031",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    193.4,
+    576.7,
+    202.7,
+    586.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Interzeptiven Behandlung / der",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_032",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    343.9,
+    576.7,
+    353.2,
+    586.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "KFO-Hauptbehandlung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_033",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    28.3,
+    603.9,
+    566.3,
+    616.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben zum Grund für eine weitere Reparatur:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_034",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.6,
+    638.2,
+    310.7,
+    646.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Panoramaröntgen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_035",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    404.6,
+    638.2,
+    412.7,
+    646.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Panoramaröntgen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_036",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    33.5,
+    642.4,
+    41.5,
+    650.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Erbringung einer weiteren Reparatur",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_037",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.6,
+    648.6,
+    310.7,
+    656.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Fotos intra-/extraoral",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_038",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    404.6,
+    648.6,
+    412.7,
+    656.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Fotos intra-/extraoral",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_039",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    33.5,
+    652.7,
+    41.5,
+    660.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Interzeptive Behandlung durch Vertragszahnarzt/-ärztin",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_040",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.6,
+    658.9,
+    310.7,
+    667.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Digitales Modell",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_041",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    33.5,
+    663.0,
+    41.5,
+    671.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Interzeptive Behandlung durch WahlbehandlerIn",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_042",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    401.8,
+    665.0,
+    553.8,
+    677.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Nachweise:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_043",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    302.6,
+    669.2,
+    310.7,
+    677.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sonstige Nachweise:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_044",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    33.5,
+    673.4,
+    41.5,
+    681.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "KFO-Hauptbehandlung durch WahlbehandlerIn",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_045",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    33.5,
+    695.3,
+    41.5,
+    703.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Kostenerstattung für die beantragte(n) Leistung(en)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_046",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    26.9,
+    795.3,
+    568.3,
+    807.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "andernfalls ist ein Behandlungsabbruch vorzunehmen.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_047",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/svs_8e9deedf69/p1.png",
+   "cache/pruefung/svs_8e9deedf69/p2.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Versicherter/Versicherte: Nachname(n), Vorname(n)",
+     "problem": "Blauer Wert steht im Feld der versicherten Person, wirkt aber laut Vorgabe auf die Vertreterin bezogen; auf dem Formular ist dieses Feld nur für Angehörige gedacht.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "3ea219f7eef9b863",
+  "ok": false
+ }
+}

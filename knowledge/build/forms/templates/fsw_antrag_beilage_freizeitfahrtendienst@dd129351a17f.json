@@ -1,0 +1,725 @@
+{
+ "formular_id": "fsw_antrag_beilage_freizeitfahrtendienst",
+ "name": "Beilage Freizeitfahrtendienst für dauerhaft schwer gehbehinderte Menschen",
+ "traeger": "FSW",
+ "sha256": "dd129351a17f2a3d718cf2aa0706ae2f9ef176afb74ef6bbe58c7caaa3140632",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Freizeitfahrtendienst.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname Kundin 3",
+   "acro_name": "Familienname Kundin 3",
+   "page": 1,
+   "bbox": [
+    29.8,
+    98.0,
+    294.7,
+    123.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kundin 3",
+   "acro_name": "Vorname Kundin 3",
+   "page": 1,
+   "bbox": [
+    301.2,
+    98.0,
+    565.5,
+    123.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum Kundin 3",
+   "acro_name": "Geburtsdatum Kundin 3",
+   "page": 1,
+   "bbox": [
+    29.8,
+    141.6,
+    153.2,
+    166.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rollstuhl",
+   "acro_name": "Rollstuhl",
+   "page": 1,
+   "bbox": [
+    29.6,
+    229.3,
+    122.3,
+    247.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Verwendung Rollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      29.6,
+      229.3,
+      47.6,
+      247.3
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      104.3,
+      229.5,
+      122.3,
+      247.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Rollstuhl",
+   "acro_name": "E-Rollstuhl",
+   "page": 1,
+   "bbox": [
+    227.0,
+    229.5,
+    313.5,
+    247.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": " Verwendung E-Rollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      227.0,
+      229.5,
+      245.0,
+      247.5
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      295.5,
+      229.6,
+      313.5,
+      247.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "2 Krücken",
+   "acro_name": "2 Krücken",
+   "page": 1,
+   "bbox": [
+    29.6,
+    271.8,
+    122.3,
+    290.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Verwendung 2 Krücken",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      29.6,
+      271.8,
+      47.6,
+      289.8
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      104.3,
+      272.0,
+      122.3,
+      290.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "1 Krücke/Stock",
+   "acro_name": "1 Krücke/Stock",
+   "page": 1,
+   "bbox": [
+    227.0,
+    272.1,
+    313.6,
+    290.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Verwendung 1 Krücke/Stock",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      227.0,
+      272.1,
+      245.0,
+      290.1
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      295.6,
+      272.1,
+      313.6,
+      290.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Orthesen",
+   "acro_name": "Orthesen",
+   "page": 1,
+   "bbox": [
+    29.6,
+    309.6,
+    122.3,
+    327.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Verwendung Orthesen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      29.6,
+      309.6,
+      47.6,
+      327.6
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      104.3,
+      309.8,
+      122.3,
+      327.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Prothesen",
+   "acro_name": "Prothesen",
+   "page": 1,
+   "bbox": [
+    227.0,
+    311.7,
+    313.5,
+    329.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Verwendung Prothesen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      227.0,
+      311.7,
+      245.0,
+      329.7
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      295.5,
+      311.8,
+      313.5,
+      329.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Rollator",
+   "acro_name": "Rollator",
+   "page": 1,
+   "bbox": [
+    29.6,
+    351.9,
+    122.3,
+    370.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Verwendung Rollator",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      29.6,
+      351.9,
+      47.6,
+      369.9
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      104.3,
+      352.1,
+      122.3,
+      370.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Treppensteigen unmöglich",
+   "acro_name": "Treppensteigen unmöglich",
+   "page": 1,
+   "bbox": [
+    29.6,
+    406.6,
+    122.3,
+    424.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Treppensteigen unmöglich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      29.6,
+      406.6,
+      47.6,
+      424.6
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      104.3,
+      406.8,
+      122.3,
+      424.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufstehen unmöglich",
+   "acro_name": "Aufstehen unmöglich",
+   "page": 1,
+   "bbox": [
+    226.9,
+    406.6,
+    313.5,
+    424.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Aufstehen unmöglich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      226.9,
+      406.6,
+      244.9,
+      424.6
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      295.5,
+      406.8,
+      313.5,
+      424.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begleitung nötig",
+   "acro_name": "Begleitung nötig",
+   "page": 1,
+   "bbox": [
+    417.9,
+    406.9,
+    504.6,
+    424.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Begleitung aufgrund schwerer Gehbehinderung nötig",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      417.9,
+      406.9,
+      435.9,
+      424.9
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      486.6,
+      406.9,
+      504.6,
+      424.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angaben zur Diagnose",
+   "acro_name": "Angaben zur Diagnose",
+   "page": 1,
+   "bbox": [
+    29.8,
+    444.3,
+    565.5,
+    521.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Angaben zur Diagnose",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Seit wann Gehbehinderung 2",
+   "acro_name": "Seit wann Gehbehinderung 2",
+   "page": 1,
+   "bbox": [
+    29.8,
+    555.2,
+    199.4,
+    580.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Seit wann liegt eine Gehbehinderung vor? (Bitte geben Sie Monat und Jahr an. Beispiel Mai 2022.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "schwere Gehbehinderung",
+   "acro_name": "schwere Gehbehinderung",
+   "page": 1,
+   "bbox": [
+    29.6,
+    648.4,
+    192.0,
+    666.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Eine schwere Gehbehinderung liegt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "dauernd#20vor",
+     "label": "dauernd vor",
+     "bbox": [
+      29.6,
+      648.4,
+      47.6,
+      666.4
+     ]
+    },
+    {
+     "wert": "nicht#20vor",
+     "label": "nicht vor",
+     "bbox": [
+      104.3,
+      648.6,
+      122.3,
+      666.6
+     ]
+    },
+    {
+     "wert": "voraussichtlich#20fuer#20folgenden#20Zeitraum#20vor",
+     "label": "voraussichtlich für",
+     "bbox": [
+      174.0,
+      648.6,
+      192.0,
+      666.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeitraum",
+   "acro_name": "Zeitraum",
+   "page": 1,
+   "bbox": [
+    284.4,
+    644.9,
+    408.6,
+    671.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "voraussichtlich für (Zeitraum)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nutzung oeffentlicher Verkehrsmittel",
+   "acro_name": "Nutzung oeffentlicher Verkehrsmittel",
+   "page": 1,
+   "bbox": [
+    29.6,
+    688.4,
+    122.1,
+    706.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Nutzung öffentlicher Verkehrsmittel ist",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "zumutbar",
+     "label": "zumutbar",
+     "bbox": [
+      29.6,
+      688.4,
+      47.6,
+      706.4
+     ]
+    },
+    {
+     "wert": "unzumutbar",
+     "label": "unzumutbar",
+     "bbox": [
+      104.1,
+      688.7,
+      122.1,
+      706.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift Arzt 2",
+   "acro_name": "Datum Unterschrift Arzt 2",
+   "page": 1,
+   "bbox": [
+    29.8,
+    737.0,
+    154.0,
+    763.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschrift der:des Ärztin:Arztes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift",
+   "acro_name": "Unterschrift",
+   "page": 1,
+   "bbox": [
+    171.9,
+    737.0,
+    565.5,
+    782.6
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Stempel und Unterschrift des:der (Fach-)Arztes:Ärztin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 3,
+  "bilder": [
+   "cache/pruefung/fsw_antrag_beilage_freizeitfahrtendienst/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "73b796e6b8ec5832",
+  "ok": true
+ }
+}

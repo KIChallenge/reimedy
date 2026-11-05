@@ -1,0 +1,306 @@
+{
+ "formular_id": "bvaeb_f39df4b02c",
+ "name": "Bestätigung der ärztlichen Untersuchung vor Inanspruchnahme einer klinisch-psychologischen Behandlung",
+ "traeger": "BVAEB",
+ "sha256": "0da2fbb6a798b85244f7c35931d3a4aaa27f7172af4687e7481c208f8ccdd1c8",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.788023&version=1715575480",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   419.5
+  ],
+  [
+   595.3,
+   419.5
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    214.3,
+    35.4,
+    576.4,
+    47.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Arbeitslose bliebene",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    182.8,
+    128.8,
+    222.5,
+    141.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    428.7,
+    138.0,
+    528.8,
+    150.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Der Patient wurde am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    310.5,
+    139.0,
+    321.6,
+    150.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.4,
+    160.1,
+    293.7,
+    172.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Weise.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.7,
+    197.0,
+    293.7,
+    209.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    182.8,
+    213.9,
+    222.5,
+    226.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Männer Versicherter (nur auszufüllen, wenn Patient Angehöriger ist)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    310.5,
+    229.7,
+    321.6,
+    240.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Tag Monat Jahr",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.7,
+    245.2,
+    293.7,
+    257.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Frauen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    18.7,
+    274.3,
+    293.7,
+    286.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "sich",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    324.6,
+    361.3,
+    429.5,
+    373.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "desselben Abrechnungszeitraumes eine ärztliche",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    447.9,
+    361.3,
+    552.8,
+    373.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Abrechnungszeitraumes eine ärztliche",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/bvaeb_f39df4b02c/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Versicherungsnummer",
+     "problem": "Wert steht im passenden Feld, aber der blaue Text wirkt sehr knapp im Feld; kein klarer Fehler.",
+     "schwer": false
+    },
+    {
+     "feld": "Der Patient wurde am",
+     "problem": "Wert steht im passenden Feld und ragt nicht erkennbar über das Feld hinaus.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "78e05294ce4ced95",
+  "ok": true
+ }
+}

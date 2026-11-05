@@ -1,0 +1,3809 @@
+{
+ "formular_id": "sms_acc_20_u_fonds_antragsformular_fertig",
+ "name": "Antrag: Zuwendung aus dem Unterstützungsfonds für Menschen mit Behinderung",
+ "traeger": "Sozialministeriumservice",
+ "sha256": "9b2a29f0b7bf4cf81d8a852e73eebc8e2237d624941a58f279accb776cdb29d8",
+ "version_url": "https://www.sozialministeriumservice.gv.at/Downloads/ACC_-_20_U_Fonds_Antragsformular_fertig.pdf",
+ "pages": 6,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "bauliche Adaptierungsmaßnahmen Barrierefreiheit",
+   "acro_name": "bauliche Adaptierungsmaßnahmen Barrierefreiheit",
+   "page": 0,
+   "bbox": [
+    71.6,
+    159.7,
+    85.9,
+    174.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für auliche Adaptierungsmaßnahmen (Barrierefreiheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "bauliche Adaptierungsmaßnahmen (Barrierefreiheit)",
+     "bbox": [
+      71.6,
+      159.7,
+      85.9,
+      174.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "behinderungsbedingte Hilfsmittel oder Heilbehelfe",
+   "acro_name": "behinderungsbedingte Hilfsmittel oder Heilbehelfe",
+   "page": 0,
+   "bbox": [
+    71.6,
+    180.6,
+    85.9,
+    194.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für behinderungsbedingte) Hilfsmittel oder Heilbehelfe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "(behinderungsbedingte) Hilfsmittel oder Heilbehelfe",
+     "bbox": [
+      71.6,
+      180.6,
+      85.9,
+      194.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "mobilitätsfördernde Maßnahmen zB Rollstuhlrampen",
+   "acro_name": "mobilitätsfördernde Maßnahmen zB Rollstuhlrampen",
+   "page": 0,
+   "bbox": [
+    71.6,
+    201.5,
+    85.9,
+    215.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für mobilitätsfördernde Maßnahmen (z.B. Rollstuhlrampen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "mobilitätsfördernde Maßnahmen (z.B. Rollstuhlrampen)",
+     "bbox": [
+      71.6,
+      201.5,
+      85.9,
+      215.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Assistenzhunde",
+   "acro_name": "Assistenzhunde",
+   "page": 0,
+   "bbox": [
+    71.6,
+    222.4,
+    85.9,
+    236.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Assistenzhunde",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Assistenzhunde",
+     "bbox": [
+      71.6,
+      222.4,
+      85.9,
+      236.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "AnkaufAdaption eines Kraftfahrzeuges Kostenträger PV",
+   "acro_name": "AnkaufAdaption eines Kraftfahrzeuges Kostenträger PV",
+   "page": 0,
+   "bbox": [
+    71.6,
+    243.2,
+    85.9,
+    257.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ankauf/Adaption eines Kraftfahrzeuges (Kostenträger PV",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ankauf/Adaption eines Kraftfahrzeuges (Kostenträger",
+     "bbox": [
+      71.6,
+      243.2,
+      85.9,
+      257.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "sonstige Leistungen aus der Sozialversicherung oder der Behindertenhilfe",
+   "acro_name": "sonstige Leistungen aus der Sozialversicherung oder der Behindertenhilfe",
+   "page": 0,
+   "bbox": [
+    71.6,
+    264.1,
+    85.9,
+    278.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für sonstige Leistungen aus der Sozialversicherung oder der Behindertenhilfe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "sonstige Leistungen aus der Sozialversicherung oder",
+     "bbox": [
+      71.6,
+      264.1,
+      85.9,
+      278.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ich stimme zu",
+   "acro_name": "Ich stimme zu",
+   "page": 0,
+   "bbox": [
+    71.6,
+    500.6,
+    85.9,
+    514.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ich stimme zu",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ich stimme zu",
+     "bbox": [
+      71.6,
+      500.6,
+      85.9,
+      514.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ich stimme nicht zu",
+   "acro_name": "Ich stimme nicht zu",
+   "page": 0,
+   "bbox": [
+    369.4,
+    500.6,
+    383.6,
+    514.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ich stimme nicht zu",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ich stimme nicht zu",
+     "bbox": [
+      369.4,
+      500.6,
+      383.6,
+      514.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum und Unterschrift",
+   "acro_name": "Datum und Unterschrift",
+   "page": 0,
+   "bbox": [
+    207.7,
+    522.4,
+    357.7,
+    536.8
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Einfügen Datum und Unterschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    64.1,
+    664.6,
+    297.5,
+    679.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Familienname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    297.4,
+    664.6,
+    425.9,
+    679.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Akadem Titel",
+   "acro_name": "Akadem Titel",
+   "page": 0,
+   "bbox": [
+    426.3,
+    664.5,
+    539.6,
+    678.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Akadem. Titel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.titel",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum86",
+   "acro_name": "Geburtsdatum86",
+   "page": 0,
+   "bbox": [
+    63.6,
+    712.1,
+    198.5,
+    726.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Einfügen Geburtsdatum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaft",
+   "acro_name": "Staatsbürgerschaft",
+   "page": 0,
+   "bbox": [
+    198.8,
+    712.1,
+    297.3,
+    726.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Staatsbürgerschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.staatsbuergerschaft",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer",
+   "acro_name": "Versicherungsnummer",
+   "page": 0,
+   "bbox": [
+    333.8,
+    679.2,
+    503.8,
+    703.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "weiblich",
+   "acro_name": "weiblich",
+   "page": 0,
+   "bbox": [
+    121.3,
+    730.7,
+    133.8,
+    743.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "weiblich",
+     "bbox": [
+      121.3,
+      730.7,
+      133.8,
+      743.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "männlich",
+   "acro_name": "männlich",
+   "page": 0,
+   "bbox": [
+    205.6,
+    730.7,
+    218.0,
+    743.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "männlich",
+     "bbox": [
+      205.6,
+      730.7,
+      218.0,
+      743.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "inter",
+   "acro_name": "inter",
+   "page": 0,
+   "bbox": [
+    278.2,
+    730.7,
+    290.6,
+    743.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "inter",
+     "bbox": [
+      278.2,
+      730.7,
+      290.6,
+      743.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "divers",
+   "acro_name": "divers",
+   "page": 0,
+   "bbox": [
+    330.1,
+    730.7,
+    342.6,
+    743.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "divers",
+     "bbox": [
+      330.1,
+      730.7,
+      342.6,
+      743.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "offen",
+   "acro_name": "offen",
+   "page": 0,
+   "bbox": [
+    390.4,
+    730.7,
+    402.8,
+    743.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "offen",
+     "bbox": [
+      390.4,
+      730.7,
+      402.8,
+      743.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "keine Angabe",
+   "acro_name": "keine Angabe",
+   "page": 0,
+   "bbox": [
+    439.7,
+    730.7,
+    452.2,
+    743.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "keine Angabe",
+     "bbox": [
+      439.7,
+      730.7,
+      452.2,
+      743.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ",
+   "acro_name": "PLZ",
+   "page": 1,
+   "bbox": [
+    63.8,
+    100.6,
+    156.1,
+    115.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen PLZ",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort 1",
+   "acro_name": "Ort 1",
+   "page": 1,
+   "bbox": [
+    156.6,
+    100.4,
+    282.5,
+    114.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Ort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Straße Haus TürNr",
+   "acro_name": "Straße Haus TürNr",
+   "page": 1,
+   "bbox": [
+    280.8,
+    100.2,
+    538.8,
+    114.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Straße, Haus-, Tür-Nr.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse_hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon (Büro, tagsüber, Handy)",
+   "acro_name": "Telefon (Büro, tagsüber, Handy)",
+   "page": 1,
+   "bbox": [
+    64.2,
+    143.6,
+    276.2,
+    158.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Telefon (Büro, tagsüber, Handy)",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EMail",
+   "acro_name": "EMail",
+   "page": 1,
+   "bbox": [
+    276.3,
+    143.6,
+    539.1,
+    158.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen E-Mail",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dies ist der Hauptwohnsitz seit",
+   "acro_name": "Dies ist der Hauptwohnsitz seit",
+   "page": 1,
+   "bbox": [
+    70.0,
+    163.4,
+    82.4,
+    175.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Dies ist der Hauptwohnsitz seit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Dies ist der Hauptwohnsitz seit:",
+     "bbox": [
+      70.0,
+      163.4,
+      82.4,
+      175.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "nein, Hauptwohnsitz in (PLZ)",
+   "acro_name": "nein, Hauptwohnsitz in (PLZ)",
+   "page": 1,
+   "bbox": [
+    282.2,
+    162.4,
+    294.7,
+    174.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für nein, Hauptwohnsitz in (PLZ)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "nein, Hauptwohnsitz in (PLZ)",
+     "bbox": [
+      282.2,
+      162.4,
+      294.7,
+      174.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bei der Bank",
+   "acro_name": "Bei der Bank",
+   "page": 1,
+   "bbox": [
+    183.5,
+    228.8,
+    506.6,
+    243.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Bei der (Bank)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.institut",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lautend auf person",
+   "acro_name": "Lautend auf person",
+   "page": 1,
+   "bbox": [
+    182.7,
+    262.2,
+    506.6,
+    276.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Lautend auf (person)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein",
+   "acro_name": "Geben Sie Ihre IBAN ein",
+   "page": 1,
+   "bbox": [
+    109.0,
+    298.3,
+    164.8,
+    320.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie den ISO-Ländercode plus Kontrollnummern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (2)",
+   "acro_name": "Geben Sie Ihre IBAN ein (2)",
+   "page": 1,
+   "bbox": [
+    172.4,
+    298.3,
+    228.2,
+    320.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die erste Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (3)",
+   "acro_name": "Geben Sie Ihre IBAN ein (3)",
+   "page": 1,
+   "bbox": [
+    235.8,
+    298.3,
+    291.8,
+    320.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die zweite Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (4)",
+   "acro_name": "Geben Sie Ihre IBAN ein (4)",
+   "page": 1,
+   "bbox": [
+    299.2,
+    298.3,
+    355.2,
+    320.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die erste Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (5)",
+   "acro_name": "Geben Sie Ihre IBAN ein (5)",
+   "page": 1,
+   "bbox": [
+    362.9,
+    298.3,
+    418.7,
+    320.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die vierte Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezug der erhöhten Familienbeihilfe",
+   "acro_name": "Bezug der erhöhten Familienbeihilfe",
+   "page": 1,
+   "bbox": [
+    63.9,
+    377.5,
+    269.6,
+    391.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Bezug der erhöhten Familienbeihilfe?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "nein 1",
+   "acro_name": "nein 1",
+   "page": 1,
+   "bbox": [
+    273.6,
+    354.1,
+    285.5,
+    366.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "nein",
+     "bbox": [
+      273.6,
+      354.1,
+      285.5,
+      366.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ja 1",
+   "acro_name": "ja 1",
+   "page": 1,
+   "bbox": [
+    334.0,
+    354.1,
+    345.8,
+    366.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "ja",
+     "bbox": [
+      334.0,
+      354.1,
+      345.8,
+      366.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anzahl Für wen",
+   "acro_name": "Anzahl Für wen",
+   "page": 1,
+   "bbox": [
+    411.0,
+    353.1,
+    539.2,
+    367.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Anzahl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Für wen",
+   "acro_name": "Für wen",
+   "page": 1,
+   "bbox": [
+    417.2,
+    374.9,
+    538.3,
+    389.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Für wen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Festgestellt durch",
+   "acro_name": "Festgestellt durch",
+   "page": 1,
+   "bbox": [
+    153.8,
+    421.1,
+    269.0,
+    435.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Festgestellt durch",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "nein 2",
+   "acro_name": "nein 2",
+   "page": 1,
+   "bbox": [
+    273.6,
+    397.9,
+    285.5,
+    409.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "nein",
+     "bbox": [
+      273.6,
+      397.9,
+      285.5,
+      409.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ja 2",
+   "acro_name": "ja 2",
+   "page": 1,
+   "bbox": [
+    334.0,
+    397.9,
+    345.8,
+    409.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "ja",
+     "bbox": [
+      334.0,
+      397.9,
+      345.8,
+      409.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Höhe in",
+   "acro_name": "Höhe in",
+   "page": 1,
+   "bbox": [
+    373.4,
+    421.2,
+    537.5,
+    435.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Höhe in %",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Angabe Gesundheitsschädigung",
+   "acro_name": "Angabe Gesundheitsschädigung",
+   "page": 1,
+   "bbox": [
+    219.7,
+    435.9,
+    538.1,
+    519.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Angabe Gesundheitsschädigung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezug Pflegegeld",
+   "acro_name": "Bezug Pflegegeld",
+   "page": 1,
+   "bbox": [
+    63.9,
+    548.8,
+    176.7,
+    563.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Bezug Pflegegeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "nein 3",
+   "acro_name": "nein 3",
+   "page": 1,
+   "bbox": [
+    181.2,
+    525.5,
+    193.1,
+    537.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "nein",
+     "bbox": [
+      181.2,
+      525.5,
+      193.1,
+      537.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ja 3",
+   "acro_name": "ja 3",
+   "page": 1,
+   "bbox": [
+    241.6,
+    525.5,
+    253.4,
+    537.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "ja Stufe:",
+     "bbox": [
+      241.6,
+      525.5,
+      253.4,
+      537.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stufe",
+   "acro_name": "Stufe",
+   "page": 1,
+   "bbox": [
+    269.6,
+    548.8,
+    371.9,
+    563.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Stufe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Auszahlende Stelle",
+   "acro_name": "Auszahlende Stelle",
+   "page": 1,
+   "bbox": [
+    371.3,
+    548.8,
+    538.4,
+    563.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Auszahlende Stelle",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krankenversicherung bei",
+   "acro_name": "Krankenversicherung bei",
+   "page": 1,
+   "bbox": [
+    177.7,
+    572.5,
+    371.2,
+    586.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Krankenversicherung bei",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VersNr 1",
+   "acro_name": "VersNr 1",
+   "page": 1,
+   "bbox": [
+    417.8,
+    572.5,
+    537.7,
+    586.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Vers.-Nr.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Mitglied bei einer anderen Krankenversicherung",
+   "acro_name": "Mitglied bei einer anderen Krankenversicherung",
+   "page": 1,
+   "bbox": [
+    63.0,
+    616.2,
+    372.7,
+    630.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Mitglied bei einer anderen Krankenversicherung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wenn Ja welche",
+   "acro_name": "Wenn Ja welche",
+   "page": 1,
+   "bbox": [
+    372.6,
+    616.2,
+    538.8,
+    630.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Wenn Ja, welche",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Mitversichert bei",
+   "acro_name": "Mitversichert bei",
+   "page": 1,
+   "bbox": [
+    64.3,
+    660.9,
+    373.1,
+    675.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Mitversichert bei",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherung.traeger",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VersNr 2",
+   "acro_name": "VersNr 2",
+   "page": 1,
+   "bbox": [
+    373.4,
+    660.0,
+    537.5,
+    674.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Vers.-Nr.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name",
+   "acro_name": "Name",
+   "page": 1,
+   "bbox": [
+    110.8,
+    696.5,
+    276.7,
+    710.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse",
+   "acro_name": "Adresse",
+   "page": 1,
+   "bbox": [
+    109.7,
+    717.3,
+    276.6,
+    731.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tel",
+   "acro_name": "Tel",
+   "page": 1,
+   "bbox": [
+    109.7,
+    737.0,
+    281.6,
+    751.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Tel.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum",
+   "acro_name": "Geburtsdatum",
+   "page": 1,
+   "bbox": [
+    358.5,
+    693.5,
+    538.6,
+    707.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Geburtsdatum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "II Beschreibung des Vorhabens Welche Maßnahme Kurze Begründung der Notwendigkeit und ZweckmäßigkeitRow",
+   "acro_name": "II Beschreibung des Vorhabens Welche Maßnahme Kurze Begründung der Notwendigkeit und ZweckmäßigkeitRow",
+   "page": 2,
+   "bbox": [
+    64.2,
+    113.7,
+    538.7,
+    340.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen II. Beschreibung des Vorhabens (Welche Maßnahme? Kurze Begründung der Notwendigkeit und Zweckmäßigkeit)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gehalt aus selbständiger Tätigkeit, unselbständiger Tätigkeit oder Land- und Forstwirtschaft",
+   "acro_name": "Gehalt aus selbständiger Tätigkeit, unselbständiger Tätigkeit oder Land- und Forstwirtschaft",
+   "page": 2,
+   "bbox": [
+    68.2,
+    377.6,
+    80.0,
+    389.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Gehalt aus selbständiger Tätigkeit, unselbständiger Tätigkeit oder Land- und Forstwirtschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Gehalt aus selbständiger Tätigkeit, unselbständiger",
+     "bbox": [
+      68.2,
+      377.6,
+      80.0,
+      389.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pension",
+   "acro_name": "Pension",
+   "page": 2,
+   "bbox": [
+    68.2,
+    418.7,
+    80.0,
+    430.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Pension",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Pension",
+     "bbox": [
+      68.2,
+      418.7,
+      80.0,
+      430.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "AMSBezug zB Arbeitslosengeld Notstandshilfe",
+   "acro_name": "AMSBezug zB Arbeitslosengeld Notstandshilfe",
+   "page": 2,
+   "bbox": [
+    68.2,
+    441.6,
+    80.0,
+    453.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für AMS-Bezug (z.B. Arbeitslosengeld, Notstandshilfe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "AMS-Bezug (z.B. Arbeitslosengeld, Notstandshilfe, …)",
+     "bbox": [
+      68.2,
+      441.6,
+      80.0,
+      453.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Leistung aus gesetzlicher Krankenversicherung (z.B. Krankengeld, Kinderbetreuungsgeld, Wochengeld",
+   "acro_name": "Leistung aus gesetzlicher Krankenversicherung (z.B. Krankengeld, Kinderbetreuungsgeld, Wochengeld",
+   "page": 2,
+   "bbox": [
+    68.2,
+    464.6,
+    80.0,
+    476.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Leistung aus gesetzlicher Krankenversicherung (z.B. Krankengeld, Kinderbetreuungsgeld, Wochengeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Leistung aus gesetzlicher Krankenversicherung (z.B.",
+     "bbox": [
+      68.2,
+      464.6,
+      80.0,
+      476.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gehalt aus Vermietung Verpachtung Leibrente",
+   "acro_name": "Gehalt aus Vermietung Verpachtung Leibrente",
+   "page": 2,
+   "bbox": [
+    68.2,
+    502.7,
+    80.0,
+    514.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Gehalt aus Vermietung, Verpachtung, Leibrente",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Gehalt aus Vermietung, Verpachtung, Leibrente",
+     "bbox": [
+      68.2,
+      502.7,
+      80.0,
+      514.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sonstige B ezüge (z.B. Unfallrente, KOVG-Rente, Zulagen, Rentenbezug aus dem Ausland, Unterhaltsbeiträge",
+   "acro_name": "Sonstige B ezüge (z.B. Unfallrente, KOVG-Rente, Zulagen, Rentenbezug aus dem Ausland, Unterhaltsbeiträge",
+   "page": 2,
+   "bbox": [
+    68.2,
+    525.6,
+    80.0,
+    537.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Sonstige B ezüge (z.B. Unfallrente, KOVG-Rente, Zulagen, Rentenbezug aus dem Ausland, Unterhaltsbeiträge",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Sonstige B ezüge (z.B. Unfallrente, KOVG-Rente, Zulagen,",
+     "bbox": [
+      68.2,
+      525.6,
+      80.0,
+      537.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Leistungen aus der Sozialhilfe Mindestsicherung",
+   "acro_name": "Leistungen aus der Sozialhilfe Mindestsicherung",
+   "page": 2,
+   "bbox": [
+    68.2,
+    574.6,
+    80.0,
+    586.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Leistungen aus der Sozialhilfe (Mindestsicherung)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Leistungen aus der Sozialhilfe (Mindestsicherung)",
+     "bbox": [
+      68.2,
+      574.6,
+      80.0,
+      586.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR (Netto/Monat) 1",
+   "acro_name": "EUR (Netto/Monat) 1",
+   "page": 2,
+   "bbox": [
+    377.1,
+    391.0,
+    456.5,
+    405.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen EUR (Netto/Monat)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR (Netto/Monat) 2",
+   "acro_name": "EUR (Netto/Monat) 2",
+   "page": 2,
+   "bbox": [
+    372.6,
+    414.1,
+    452.0,
+    428.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen EUR (Netto/Monat)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR (Netto/Monat) 3",
+   "acro_name": "EUR (Netto/Monat) 3",
+   "page": 2,
+   "bbox": [
+    377.1,
+    437.1,
+    456.5,
+    451.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen EUR (Netto/Monat)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR (Netto/Monat) 4",
+   "acro_name": "EUR (Netto/Monat) 4",
+   "page": 2,
+   "bbox": [
+    379.8,
+    460.1,
+    459.2,
+    474.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen EUR (Netto/Monat)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR (Netto/Monat) 5",
+   "acro_name": "EUR (Netto/Monat) 5",
+   "page": 2,
+   "bbox": [
+    374.2,
+    498.1,
+    439.4,
+    512.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen EUR (Netto/Monat)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR (Netto/Monat) 6",
+   "acro_name": "EUR (Netto/Monat) 6",
+   "page": 2,
+   "bbox": [
+    374.2,
+    541.0,
+    453.5,
+    555.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen EUR (Netto/Monat)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EUR (Netto/Monat) 7",
+   "acro_name": "EUR (Netto/Monat) 7",
+   "page": 2,
+   "bbox": [
+    377.0,
+    570.0,
+    456.4,
+    584.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen EUR (Netto/Monat)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "NameRow1",
+   "acro_name": "NameRow1",
+   "page": 2,
+   "bbox": [
+    64.4,
+    678.6,
+    211.7,
+    701.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VersNrRow1",
+   "acro_name": "VersNrRow1",
+   "page": 2,
+   "bbox": [
+    212.8,
+    678.9,
+    268.6,
+    701.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Vers.-Nr.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschafts verhältnisRow1",
+   "acro_name": "Verwandtschafts verhältnisRow1",
+   "page": 2,
+   "bbox": [
+    269.3,
+    677.9,
+    363.1,
+    701.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Verwandtschafts- verhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des EinkommensRow1",
+   "acro_name": "Art des EinkommensRow1",
+   "page": 2,
+   "bbox": [
+    363.9,
+    678.3,
+    448.9,
+    701.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Monatliches Nettoeinkommen1",
+   "acro_name": "Monatliches Nettoeinkommen1",
+   "page": 2,
+   "bbox": [
+    457.9,
+    677.9,
+    539.1,
+    701.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Monatliches Nettoeinkommen €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "NameRow2",
+   "acro_name": "NameRow2",
+   "page": 2,
+   "bbox": [
+    64.1,
+    701.4,
+    211.7,
+    725.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VersNrRow2",
+   "acro_name": "VersNrRow2",
+   "page": 2,
+   "bbox": [
+    212.1,
+    702.4,
+    268.2,
+    725.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Vers.-Nr.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschafts verhältnisRow2",
+   "acro_name": "Verwandtschafts verhältnisRow2",
+   "page": 2,
+   "bbox": [
+    269.3,
+    702.1,
+    364.5,
+    726.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Verwandtschafts- verhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des EinkommensRow2",
+   "acro_name": "Art des EinkommensRow2",
+   "page": 2,
+   "bbox": [
+    363.5,
+    702.5,
+    449.2,
+    724.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Monatliches Nettoeinkommen2",
+   "acro_name": "Monatliches Nettoeinkommen2",
+   "page": 2,
+   "bbox": [
+    457.9,
+    702.4,
+    539.5,
+    725.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Monatliches Nettoeinkommen €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "NameRow3",
+   "acro_name": "NameRow3",
+   "page": 2,
+   "bbox": [
+    64.0,
+    725.4,
+    212.6,
+    748.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VersNrRow3",
+   "acro_name": "VersNrRow3",
+   "page": 2,
+   "bbox": [
+    212.4,
+    725.4,
+    268.2,
+    748.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Vers.-Nr.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschafts verhältnisRow3",
+   "acro_name": "Verwandtschafts verhältnisRow3",
+   "page": 2,
+   "bbox": [
+    269.3,
+    724.4,
+    363.1,
+    748.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Verwandtschafts- verhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des EinkommensRow3",
+   "acro_name": "Art des EinkommensRow3",
+   "page": 2,
+   "bbox": [
+    363.9,
+    725.1,
+    449.8,
+    748.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Art des Einkommens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Monatliches Nettoeinkommen3",
+   "acro_name": "Monatliches Nettoeinkommen3",
+   "page": 2,
+   "bbox": [
+    457.9,
+    725.1,
+    538.5,
+    749.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Monatliches Nettoeinkommen €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "einkommen.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name1",
+   "acro_name": "Name1",
+   "page": 3,
+   "bbox": [
+    64.3,
+    142.0,
+    212.4,
+    164.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GebDatum1",
+   "acro_name": "GebDatum1",
+   "page": 3,
+   "bbox": [
+    212.3,
+    142.0,
+    276.4,
+    164.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Geb.-Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschaftsverhältnis1",
+   "acro_name": "Verwandtschaftsverhältnis1",
+   "page": 3,
+   "bbox": [
+    275.9,
+    141.6,
+    407.6,
+    164.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Verwandtschafts-verhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Höhe der monatlichen €",
+   "acro_name": "Höhe der monatlichen €",
+   "page": 3,
+   "bbox": [
+    407.5,
+    153.6,
+    539.6,
+    213.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Höhe der monatlichen €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name2",
+   "acro_name": "Name2",
+   "page": 3,
+   "bbox": [
+    64.1,
+    165.2,
+    212.3,
+    188.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GebDatum2",
+   "acro_name": "GebDatum2",
+   "page": 3,
+   "bbox": [
+    213.1,
+    165.2,
+    276.2,
+    188.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Geb.-Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschaftsverhältnis2",
+   "acro_name": "Verwandtschaftsverhältnis2",
+   "page": 3,
+   "bbox": [
+    276.0,
+    164.1,
+    407.2,
+    188.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Verwandtschafts-verhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name3",
+   "acro_name": "Name3",
+   "page": 3,
+   "bbox": [
+    63.7,
+    189.4,
+    212.6,
+    213.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "GebDatum3",
+   "acro_name": "GebDatum3",
+   "page": 3,
+   "bbox": [
+    212.8,
+    188.6,
+    276.6,
+    213.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Geb.-Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschaftsverhältnis",
+   "acro_name": "Verwandtschaftsverhältnis",
+   "page": 3,
+   "bbox": [
+    276.0,
+    189.4,
+    408.2,
+    213.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Verwandtschafts-verhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "€ 1",
+   "acro_name": "€ 1",
+   "page": 3,
+   "bbox": [
+    285.2,
+    247.2,
+    537.6,
+    261.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Voraussichtliche Gesamtkosten €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "€ 2",
+   "acro_name": "€ 2",
+   "page": 3,
+   "bbox": [
+    285.2,
+    275.5,
+    537.6,
+    289.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Voraussichtliche Gesamtkosten €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Anmerkungen",
+   "acro_name": "Anmerkungen",
+   "page": 3,
+   "bbox": [
+    64.9,
+    306.2,
+    538.0,
+    320.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Anmerkungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ÖGK",
+   "acro_name": "ÖGK",
+   "page": 3,
+   "bbox": [
+    68.2,
+    342.2,
+    80.0,
+    354.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für ÖGK",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "ÖGK",
+     "bbox": [
+      68.2,
+      342.2,
+      80.0,
+      354.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PV",
+   "acro_name": "PV",
+   "page": 3,
+   "bbox": [
+    223.8,
+    342.2,
+    235.7,
+    354.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für PV",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "PV",
+     "bbox": [
+      223.8,
+      342.2,
+      235.7,
+      354.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "SVS",
+   "acro_name": "SVS",
+   "page": 3,
+   "bbox": [
+    379.7,
+    342.2,
+    391.6,
+    354.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für SVS",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "SVS",
+     "bbox": [
+      379.7,
+      342.2,
+      391.6,
+      354.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezirkshauptmannschaft",
+   "acro_name": "Bezirkshauptmannschaft",
+   "page": 3,
+   "bbox": [
+    68.2,
+    362.0,
+    80.0,
+    373.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Bezirkshauptmannschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Bezirkshauptmannschaft",
+     "bbox": [
+      68.2,
+      362.0,
+      80.0,
+      373.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Amt der Landesregierung",
+   "acro_name": "Amt der Landesregierung",
+   "page": 3,
+   "bbox": [
+    223.8,
+    362.0,
+    235.8,
+    373.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Amt der Landesregierung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Amt der Landesregierung",
+     "bbox": [
+      223.8,
+      362.0,
+      235.8,
+      373.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Private Wohlfahrt",
+   "acro_name": "Private Wohlfahrt",
+   "page": 3,
+   "bbox": [
+    379.7,
+    362.0,
+    391.6,
+    373.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Private Wohlfahrt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Private Wohlfahrt",
+     "bbox": [
+      379.7,
+      362.0,
+      391.6,
+      373.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialministeriumservice",
+   "acro_name": "Sozialministeriumservice",
+   "page": 3,
+   "bbox": [
+    68.2,
+    381.8,
+    80.0,
+    393.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Sozialministeriumservice",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Sozialministeriumservice",
+     "bbox": [
+      68.2,
+      381.8,
+      80.0,
+      393.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BVAEB",
+   "acro_name": "BVAEB",
+   "page": 3,
+   "bbox": [
+    223.8,
+    382.0,
+    235.7,
+    393.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für BVAEB",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "BVAEB",
+     "bbox": [
+      223.8,
+      382.0,
+      235.7,
+      393.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sonstige",
+   "acro_name": "Sonstige",
+   "page": 3,
+   "bbox": [
+    219.6,
+    398.6,
+    538.6,
+    418.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Sonstige",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Förderungen wurden zugesagt von1",
+   "acro_name": "Förderungen wurden zugesagt von1",
+   "page": 3,
+   "bbox": [
+    64.1,
+    441.8,
+    292.8,
+    465.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Förderungen wurden zugesagt von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Förderungen wurden zugesagt von2",
+   "acro_name": "Förderungen wurden zugesagt von2",
+   "page": 3,
+   "bbox": [
+    63.8,
+    466.6,
+    293.8,
+    489.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Förderungen wurden zugesagt von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Förderungen wurden zugesagt von3",
+   "acro_name": "Förderungen wurden zugesagt von3",
+   "page": 3,
+   "bbox": [
+    63.1,
+    490.1,
+    292.8,
+    512.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Förderungen wurden zugesagt von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "€ 3",
+   "acro_name": "€ 3",
+   "page": 3,
+   "bbox": [
+    294.5,
+    454.7,
+    538.2,
+    465.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Voraussichtliche Gesamtkosten €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "€ 4",
+   "acro_name": "€ 4",
+   "page": 3,
+   "bbox": [
+    294.5,
+    478.2,
+    538.2,
+    489.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Voraussichtliche Gesamtkosten €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "€ 5",
+   "acro_name": "€ 5",
+   "page": 3,
+   "bbox": [
+    294.5,
+    501.7,
+    538.2,
+    512.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Voraussichtliche Gesamtkosten €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nein 4",
+   "acro_name": "Nein 4",
+   "page": 3,
+   "bbox": [
+    298.0,
+    515.9,
+    309.8,
+    527.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nein",
+     "bbox": [
+      298.0,
+      515.9,
+      309.8,
+      527.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja 4",
+   "acro_name": "Ja 4",
+   "page": 3,
+   "bbox": [
+    354.4,
+    515.9,
+    366.4,
+    527.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ja",
+     "bbox": [
+      354.4,
+      515.9,
+      366.4,
+      527.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 1",
+   "acro_name": "Datum 1",
+   "page": 3,
+   "bbox": [
+    399.5,
+    534.2,
+    537.8,
+    548.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Einfügen Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nein 5",
+   "acro_name": "Nein 5",
+   "page": 3,
+   "bbox": [
+    298.0,
+    551.4,
+    309.8,
+    563.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nein",
+     "bbox": [
+      298.0,
+      551.4,
+      309.8,
+      563.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja 5",
+   "acro_name": "Ja 5",
+   "page": 3,
+   "bbox": [
+    354.5,
+    551.4,
+    366.4,
+    563.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ja",
+     "bbox": [
+      354.5,
+      551.4,
+      366.4,
+      563.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 2",
+   "acro_name": "Datum 2",
+   "page": 3,
+   "bbox": [
+    401.6,
+    568.9,
+    537.8,
+    583.3
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Einfügen Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nein 6",
+   "acro_name": "Nein 6",
+   "page": 3,
+   "bbox": [
+    298.0,
+    586.1,
+    309.8,
+    598.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nein",
+     "bbox": [
+      298.0,
+      586.1,
+      309.8,
+      598.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja 6",
+   "acro_name": "Ja 6",
+   "page": 3,
+   "bbox": [
+    354.5,
+    586.1,
+    366.4,
+    598.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ja",
+     "bbox": [
+      354.5,
+      586.1,
+      366.4,
+      598.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 3",
+   "acro_name": "Datum 3",
+   "page": 3,
+   "bbox": [
+    401.8,
+    604.8,
+    537.7,
+    619.2
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Einfügen Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ansuchenstellende Person",
+   "acro_name": "ansuchenstellende Person",
+   "page": 3,
+   "bbox": [
+    68.2,
+    666.0,
+    80.0,
+    677.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für ansuchenstellende Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "ansuchenstellende Person",
+     "bbox": [
+      68.2,
+      666.0,
+      80.0,
+      677.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ansuchenstellende Person 2",
+   "acro_name": "ansuchenstellende Person 2",
+   "page": 3,
+   "bbox": [
+    214.0,
+    681.6,
+    537.6,
+    696.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen ansuchenstellende Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lieferfirma",
+   "acro_name": "Lieferfirma",
+   "page": 3,
+   "bbox": [
+    68.2,
+    699.0,
+    80.1,
+    710.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Lieferfirma",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Lieferfirma",
+     "bbox": [
+      68.2,
+      699.0,
+      80.1,
+      710.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name Adresse",
+   "acro_name": "Name Adresse",
+   "page": 3,
+   "bbox": [
+    214.0,
+    724.3,
+    537.6,
+    738.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name, Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein#p3",
+   "acro_name": "Geben Sie Ihre IBAN ein",
+   "page": 3,
+   "bbox": [
+    257.7,
+    739.8,
+    313.5,
+    761.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie den ISO-Ländercode plus Kontrollnummern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (2)#p3",
+   "acro_name": "Geben Sie Ihre IBAN ein (2)",
+   "page": 3,
+   "bbox": [
+    321.2,
+    739.8,
+    377.2,
+    761.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die erste Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (3)#p3",
+   "acro_name": "Geben Sie Ihre IBAN ein (3)",
+   "page": 3,
+   "bbox": [
+    384.5,
+    739.5,
+    440.6,
+    761.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die zweite Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (4)#p3",
+   "acro_name": "Geben Sie Ihre IBAN ein (4)",
+   "page": 3,
+   "bbox": [
+    447.9,
+    739.4,
+    504.1,
+    761.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die erste Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (5)#p3",
+   "acro_name": "Geben Sie Ihre IBAN ein (5)",
+   "page": 3,
+   "bbox": [
+    511.7,
+    739.5,
+    538.4,
+    761.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die vierte Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort 2",
+   "acro_name": "Ort 2",
+   "page": 4,
+   "bbox": [
+    69.3,
+    642.4,
+    113.0,
+    656.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Ort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 4",
+   "acro_name": "Datum 4",
+   "page": 4,
+   "bbox": [
+    113.9,
+    642.6,
+    161.9,
+    657.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Einfügen Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift ansuchenstellende Person/gesetzliche Vertretung",
+   "acro_name": "Unterschrift ansuchenstellende Person/gesetzliche Vertretung",
+   "page": 4,
+   "bbox": [
+    177.2,
+    642.0,
+    526.3,
+    656.4
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Einfügen Unterschrift ansuchenstellende Person/gesetzliche Vertretung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.vertreter",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaftsnachweis*",
+   "acro_name": "Staatsbürgerschaftsnachweis*",
+   "page": 5,
+   "bbox": [
+    73.7,
+    105.1,
+    85.6,
+    117.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Staatsbürgerschaftsnachweis*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Staatsbürgerschaftsnachweis*",
+     "bbox": [
+      73.7,
+      105.1,
+      85.6,
+      117.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einkommensnachweis(e) (für die Punkte III und IV wie z.B. Lohnzettel, Steuererklärung, Einheitswertbescheid bei land-und forstwirtschaftlichem Besitz, etc.)",
+   "acro_name": "Einkommensnachweis(e) (für die Punkte III und IV wie z.B. Lohnzettel, Steuererklärung, Einheitswertbescheid bei land-und forstwirtschaftlichem Besitz, etc.)",
+   "page": 5,
+   "bbox": [
+    73.7,
+    126.6,
+    85.6,
+    138.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Einkommensnachweis(e) (für die Punkte III und IV wie z.B. Lohnzettel, Steuererklärung, Einheitswertbescheid bei land-und forstwirtschaftlichem Besitz, etc.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Einkommensnachweis(e) (für die Punkte III und IV wie z.B.",
+     "bbox": [
+      73.7,
+      126.6,
+      85.6,
+      138.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachweis über die gesetzliche Vertretung*, zB Gerichtsbeschluss (Punkt VIII)",
+   "acro_name": "Nachweis über die gesetzliche Vertretung*, zB Gerichtsbeschluss (Punkt VIII)",
+   "page": 5,
+   "bbox": [
+    73.7,
+    163.3,
+    85.6,
+    175.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nachweis über die gesetzliche Vertretung*, zB Gerichtsbeschluss (Punkt VIII)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nachweis über die gesetzliche Vertretung*, zB Gerichtsbeschluss",
+     "bbox": [
+      73.7,
+      163.3,
+      85.6,
+      175.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "aktuelle ärztliche Befunde, die für die Beurteilung der Notwendigkeit und Zweckmäßigkeit der beantragten Maßnahmen relevant sind und aus denen sich Art und Ausmaß der Behinderungen ergeben*",
+   "acro_name": "aktuelle ärztliche Befunde, die für die Beurteilung der Notwendigkeit und Zweckmäßigkeit der beantragten Maßnahmen relevant sind und aus denen sich Art und Ausmaß der Behinderungen ergeben*",
+   "page": 5,
+   "bbox": [
+    73.7,
+    185.2,
+    85.6,
+    197.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für aktuelle ärztliche Befunde, die für die Beurteilung der Notwendigkeit und Zweckmäßigkeit der beantragten Maßnahmen relevant sind und aus denen sich Art und Ausmaß der Behinderungen ergeben*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "aktuelle ärztliche Befunde, die für die Beurteilung der Notwendigkeit",
+     "bbox": [
+      73.7,
+      185.2,
+      85.6,
+      197.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kostenvoranschläge bzw. auf die antragstellende Person oder die gesetzliche Vertretung lautende Rechnung(en) mit Zahlungsnachweis(en)",
+   "acro_name": "Kostenvoranschläge bzw. auf die antragstellende Person oder die gesetzliche Vertretung lautende Rechnung(en) mit Zahlungsnachweis(en)",
+   "page": 5,
+   "bbox": [
+    73.7,
+    236.9,
+    85.6,
+    248.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Kostenvoranschläge bzw. auf die antragstellende Person oder die gesetzliche Vertretung lautende Rechnung(en) mit Zahlungsnachweis(en)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Kostenvoranschläge bzw. auf die antragstellende Person",
+     "bbox": [
+      73.7,
+      236.9,
+      85.6,
+      248.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachweise über Zahlungsverpflichtungen (für die Punkte IV und V)",
+   "acro_name": "Nachweise über Zahlungsverpflichtungen (für die Punkte IV und V)",
+   "page": 5,
+   "bbox": [
+    73.7,
+    273.6,
+    85.6,
+    285.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nachweise über Zahlungsverpflichtungen (für die Punkte IV und V)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nachweise über Zahlungsverpflichtungen (für die Punkte",
+     "bbox": [
+      73.7,
+      273.6,
+      85.6,
+      285.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachweis über Pflegegeld",
+   "acro_name": "Nachweis über Pflegegeld",
+   "page": 5,
+   "bbox": [
+    73.7,
+    295.3,
+    85.6,
+    307.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nachweis über Pflegegeld",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nachweis über Pflegegeld",
+     "bbox": [
+      73.7,
+      295.3,
+      85.6,
+      307.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nachweis über die bezogene Familienbeihilfe",
+   "acro_name": "Nachweis über die bezogene Familienbeihilfe",
+   "page": 5,
+   "bbox": [
+    73.7,
+    317.2,
+    85.6,
+    329.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nachweis über die bezogene Familienbeihilfe",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nachweis über die bezogene Familienbeihilfe",
+     "bbox": [
+      73.7,
+      317.2,
+      85.6,
+      329.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bei Wohnraumadaptierung: Bestätigung der Person mit Wohnungseigentum bzw. geeignetem Nachweis (Genossenschaft, Gemeinde….)",
+   "acro_name": "Bei Wohnraumadaptierung: Bestätigung der Person mit Wohnungseigentum bzw. geeignetem Nachweis (Genossenschaft, Gemeinde….)",
+   "page": 5,
+   "bbox": [
+    73.7,
+    338.9,
+    85.6,
+    350.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Bei Wohnraumadaptierung: Bestätigung der Person mit Wohnungseigentum bzw. geeignetem Nachweis (Genossenschaft, Gemeinde….)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Bei Wohnraumadaptierung: Bestätigung der Person mit Wohnungseigentum",
+     "bbox": [
+      73.7,
+      338.9,
+      85.6,
+      350.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Führerschein und Zulassung",
+   "acro_name": "Führerschein und Zulassung",
+   "page": 5,
+   "bbox": [
+    73.7,
+    411.6,
+    85.6,
+    423.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Führerschein und Zulassung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Führerschein und Zulassung",
+     "bbox": [
+      73.7,
+      411.6,
+      85.6,
+      423.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 16,
+  "bilder": [
+   "cache/pruefung/sms_acc_20_u_fonds_antragsformular_fertig/p1.png",
+   "cache/pruefung/sms_acc_20_u_fonds_antragsformular_fertig/p2.png",
+   "cache/pruefung/sms_acc_20_u_fonds_antragsformular_fertig/p3.png",
+   "cache/pruefung/sms_acc_20_u_fonds_antragsformular_fertig/p4.png",
+   "cache/pruefung/sms_acc_20_u_fonds_antragsformular_fertig/p5.png",
+   "cache/pruefung/sms_acc_20_u_fonds_antragsformular_fertig/p6.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Ort, Datum (S. 5)",
+     "problem": "Der blaue Ort/Datum-Eintrag liegt nicht sauber im vorgesehenen Formularfeld; das Datum ist rechts abgeschnitten bzw. ragt über die Linie hinaus.",
+     "schwer": false
+    },
+    {
+     "feld": "Datum (Unterschriftszeile S. 5)",
+     "problem": "Der blaue Datumswert steht in der Unterschriftszeile etwas zu tief/nahe am Linienbereich und wirkt leicht abgeschnitten.",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "e095bdc17890a22f",
+  "ok": true
+ }
+}

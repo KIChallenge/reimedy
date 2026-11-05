@@ -1,0 +1,144 @@
+{
+ "formular_id": "oegk_bewilligung_fuer_zahnbehandlung",
+ "name": "Bewilligung für Zahnbehandlung",
+ "traeger": "ÖGK",
+ "sha256": "5420f29bf7c8455501b7448ccd9b955078752523839905f76c0e73417f12f1ee",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734190&version=1585217011",
+ "pages": 1,
+ "page_sizes": [
+  [
+   297.6,
+   419.5
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    20.9,
+    56.5,
+    272.0,
+    69.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Patient/in",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    73.0,
+    100.6,
+    276.5,
+    113.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    121.1,
+    121.1,
+    276.9,
+    133.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorbezug vom",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    112.0,
+    141.6,
+    277.2,
+    154.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.4,
+    162.1,
+    276.8,
+    174.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/oegk_bewilligung_fuer_zahnbehandlung/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "8c833f2f8b23567a",
+  "ok": true
+ }
+}

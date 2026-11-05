@@ -1,0 +1,1355 @@
+{
+ "formular_id": "svs_7d5802d3d8",
+ "name": "Aufklärungs- und Dokumentationsbogen",
+ "traeger": "SVS",
+ "sha256": "0b384599f263da7f527568cba83092cff83e1772f2bcd3bdfb09c3bba39191f2",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.790607&version=1789731518",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname",
+   "acro_name": "Familienname",
+   "page": 0,
+   "bbox": [
+    34.1,
+    94.0,
+    293.7,
+    108.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname",
+   "acro_name": "Vorname",
+   "page": 0,
+   "bbox": [
+    301.9,
+    94.0,
+    561.2,
+    108.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum",
+   "acro_name": "Geburtsdatum",
+   "page": 0,
+   "bbox": [
+    301.9,
+    123.7,
+    561.2,
+    138.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum* (TT.MM.JJJJ).",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "SV-Nummer",
+   "acro_name": "SV-Nummer",
+   "page": 0,
+   "bbox": [
+    34.1,
+    123.7,
+    293.7,
+    138.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sozialversicherungsnummer* (alle 10 Ziffern).",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht-Option",
+   "acro_name": "Geschlecht-Option",
+   "page": 0,
+   "bbox": [
+    99.7,
+    143.7,
+    436.3,
+    154.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geschlecht:*",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "weiblich",
+     "bbox": [
+      99.7,
+      143.7,
+      110.3,
+      154.3
+     ],
+     "wert_semantik": "weiblich"
+    },
+    {
+     "wert": "1",
+     "label": "männlich",
+     "bbox": [
+      166.6,
+      143.7,
+      177.2,
+      154.3
+     ],
+     "wert_semantik": "männlich"
+    },
+    {
+     "wert": "2",
+     "label": "divers",
+     "bbox": [
+      236.5,
+      143.7,
+      247.0,
+      154.3
+     ],
+     "wert_semantik": "divers"
+    },
+    {
+     "wert": "3",
+     "label": "inter",
+     "bbox": [
+      302.2,
+      143.7,
+      312.8,
+      154.3
+     ]
+    },
+    {
+     "wert": "4",
+     "label": "offen",
+     "bbox": [
+      363.6,
+      143.7,
+      374.1,
+      154.3
+     ]
+    },
+    {
+     "wert": "5",
+     "label": "kein Eintrag",
+     "bbox": [
+      425.8,
+      143.7,
+      436.3,
+      154.3
+     ]
+    }
+   ],
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vertretung ",
+   "acro_name": "Vertretung ",
+   "page": 0,
+   "bbox": [
+    302.5,
+    200.1,
+    561.2,
+    214.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Gegebenfalls Name der gesetzlichen Vertretung.",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-3",
+   "acro_name": "Frage-3",
+   "page": 0,
+   "bbox": [
+    486.1,
+    376.1,
+    536.1,
+    386.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "3. Hatte die zu impfende Person schon einmal einen allergischen Schock mit Blutdruckabfall, schwerer Atemnot oder Kollaps?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.1,
+      376.1,
+      496.7,
+      386.7
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      525.5,
+      376.1,
+      536.1,
+      386.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-3-Zusatz ",
+   "acro_name": "Frage-3-Zusatz ",
+   "page": 0,
+   "bbox": [
+    113.0,
+    404.0,
+    561.3,
+    422.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "3. Wenn ja, worauf?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-5",
+   "acro_name": "Frage-5",
+   "page": 0,
+   "bbox": [
+    486.1,
+    482.8,
+    536.1,
+    493.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "5. Hat die zu impfende Person in den letzten 3 Monaten Blut, Blutprodukte oder Immunglobuline erhalten?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.1,
+      482.8,
+      496.7,
+      493.3
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      525.5,
+      482.8,
+      536.1,
+      493.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-5-Zusatz",
+   "acro_name": "Frage-5-Zusatz",
+   "page": 0,
+   "bbox": [
+    144.5,
+    496.9,
+    561.3,
+    515.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "5. Wenn ja, was und wann?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-1",
+   "acro_name": "Frage-1",
+   "page": 0,
+   "bbox": [
+    486.1,
+    286.6,
+    535.1,
+    297.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "1. Leidet oder litt die zu impfende Person in den letzten 7 Tagen an einer akuten Erkrankung oder Infektion (z. B. Fieber, Husten, Schnupfen, Halsschmerzen, andere)?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.1,
+      286.6,
+      496.7,
+      297.2
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      524.6,
+      286.6,
+      535.1,
+      297.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-1-Zusatz ",
+   "acro_name": "Frage-1-Zusatz ",
+   "page": 0,
+   "bbox": [
+    112.8,
+    301.1,
+    561.3,
+    319.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "1. Wenn ja, woran?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-4",
+   "acro_name": "Frage-4",
+   "page": 0,
+   "bbox": [
+    486.1,
+    440.2,
+    536.2,
+    450.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "4. Erfolgte bei der zu impfenden Person in den letzten 4 Wochen eine andere Impfung, oder wird derzeit eine allergenspezifische Immuntherapie / Hyposensibilisierung bei der zu impfenden Person durchgeführt?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.1,
+      440.2,
+      496.7,
+      450.8
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      525.7,
+      440.2,
+      536.2,
+      450.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-4-Zusatz ",
+   "acro_name": "Frage-4-Zusatz ",
+   "page": 0,
+   "bbox": [
+    152.9,
+    456.8,
+    561.5,
+    475.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "4. Wenn ja, welche und wann?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-8",
+   "acro_name": "Frage-8",
+   "page": 0,
+   "bbox": [
+    486.1,
+    627.8,
+    536.4,
+    638.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "8. Bestanden bei der zu impfenden Person in der Vergangenheit nach einer Impfung Beschwerden oder Nebenwirkungen (mit Ausnahme von leichten Lokalreaktionen wie Rötung, Schwellung, Schmerzen an der Stichstelle oder leichtes Fieber)?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.1,
+      627.8,
+      496.7,
+      638.3
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      525.8,
+      627.8,
+      536.4,
+      638.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-8-Zusatz",
+   "acro_name": "Frage-8-Zusatz",
+   "page": 0,
+   "bbox": [
+    219.7,
+    651.2,
+    561.5,
+    669.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "8. Wenn ja, nach welcher Impfung und welche?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-6",
+   "acro_name": "Frage-6",
+   "page": 0,
+   "bbox": [
+    486.1,
+    523.7,
+    537.8,
+    534.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "6. Nimmt die zu impfende Person regelmäßig blutverdünnende Medikamente?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.1,
+      523.7,
+      496.7,
+      534.2
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      527.3,
+      523.7,
+      537.8,
+      534.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-6-Zusatz",
+   "acro_name": "Frage-6-Zusatz",
+   "page": 0,
+   "bbox": [
+    114.8,
+    537.6,
+    561.3,
+    556.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "6. Wenn ja, welche?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-9",
+   "acro_name": "Frage-9",
+   "page": 0,
+   "bbox": [
+    485.6,
+    688.2,
+    537.3,
+    699.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "9. Liegen bei der zu impfenden Person schwere oder chronische Erkrankungen (z. B. Immunschwäche, Krebserkrankung, Autoimmun­erkrankung, Blutgerinnungsstörung, chronisch entzündliche Erkrankungen) vor?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      485.6,
+      688.5,
+      496.4,
+      699.3
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      526.5,
+      688.2,
+      537.3,
+      699.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-9-Zusatz",
+   "acro_name": "Frage-9-Zusatz",
+   "page": 0,
+   "bbox": [
+    115.0,
+    702.1,
+    561.1,
+    720.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "9. Wenn ja, welche?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-7",
+   "acro_name": "Frage-7",
+   "page": 0,
+   "bbox": [
+    486.0,
+    573.7,
+    537.4,
+    585.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "7. Wird bei der zu impfenden Person derzeit eine Chemo- und / oder Strahlentherapie durchgeführt oder nimmt die zu impfende Person immun­schwächende Medikamente ein (z. B. Cortison)?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.0,
+      573.7,
+      496.8,
+      584.5
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      526.7,
+      574.5,
+      537.4,
+      585.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-7-Zusatz",
+   "acro_name": "Frage-7-Zusatz",
+   "page": 0,
+   "bbox": [
+    115.0,
+    589.2,
+    561.1,
+    607.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "7. Wenn ja, welche?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-10-Zusatz",
+   "acro_name": "Frage-10-Zusatz",
+   "page": 0,
+   "bbox": [
+    108.4,
+    756.5,
+    561.1,
+    774.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "10. Wenn ja, wann?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-10",
+   "acro_name": "Frage-10",
+   "page": 0,
+   "bbox": [
+    485.4,
+    727.6,
+    536.1,
+    738.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "10. Wurde vor kurzem bei der zu impfenden Person ein operativer Eingriff durchgeführt oder ist ein solcher bei der zu impfenden Person geplant?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      485.4,
+      727.6,
+      496.0,
+      738.1
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      525.6,
+      727.7,
+      536.1,
+      738.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-2",
+   "acro_name": "Frage-2",
+   "page": 0,
+   "bbox": [
+    486.1,
+    326.5,
+    537.6,
+    337.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "2. Besteht bei der zu impfenden Person eine Allergie auf Medikamente oder Inhaltsstoffe des Impfstoffes (siehe Gebrauchsinformation)?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      486.1,
+      326.5,
+      496.7,
+      337.0
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      527.0,
+      326.5,
+      537.6,
+      337.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-2-Zusatz",
+   "acro_name": "Frage-2-Zusatz",
+   "page": 0,
+   "bbox": [
+    115.5,
+    351.9,
+    561.3,
+    370.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "2. Wenn ja, welche?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-11",
+   "acro_name": "Frage-11",
+   "page": 0,
+   "bbox": [
+    485.4,
+    781.3,
+    536.3,
+    791.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "11. Besteht eine Schwangerschaft bei der zu impfenden Person?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "0",
+     "label": "Ja",
+     "bbox": [
+      485.4,
+      781.3,
+      496.0,
+      791.9
+     ]
+    },
+    {
+     "wert": "1",
+     "label": "Nein",
+     "bbox": [
+      525.7,
+      781.3,
+      536.3,
+      791.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Frage-11-Zusatz",
+   "acro_name": "Frage-11-Zusatz",
+   "page": 0,
+   "bbox": [
+    212.6,
+    795.7,
+    560.6,
+    814.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "11. Wenn ja, welche Schwangerschaftswoche?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse",
+   "acro_name": "Adresse",
+   "page": 0,
+   "bbox": [
+    34.4,
+    171.4,
+    293.7,
+    185.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse (Postleitzahl, Ort, Straße, Hausnummer, Stiege, Türnummer)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon",
+   "acro_name": "Telefon",
+   "page": 0,
+   "bbox": [
+    301.7,
+    171.4,
+    561.3,
+    185.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail",
+   "acro_name": "E-Mail",
+   "page": 0,
+   "bbox": [
+    33.7,
+    200.1,
+    293.1,
+    214.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name der Impfung",
+   "acro_name": "Name der Impfung",
+   "page": 0,
+   "bbox": [
+    380.6,
+    62.6,
+    561.1,
+    79.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der Schutzimpfung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Impfende Einrichtung",
+   "acro_name": "Impfende Einrichtung",
+   "page": 1,
+   "bbox": [
+    46.0,
+    570.3,
+    294.9,
+    596.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Von der Impfstelle auszufüllen: Impfstelle/Organisation (Vertragspartnernummer, wenn vorhanden)*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arzt-Anmerkungen",
+   "acro_name": "Arzt-Anmerkungen",
+   "page": 1,
+   "bbox": [
+    304.8,
+    636.4,
+    549.9,
+    732.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Raum für ärztliche Anmerkungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorbereitung-Dritte",
+   "acro_name": "Vorbereitung-Dritte",
+   "page": 1,
+   "bbox": [
+    304.1,
+    570.0,
+    314.9,
+    580.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Vorbereitung durch Dritte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Vorbereitung durch Dritte",
+     "bbox": [
+      304.1,
+      570.0,
+      314.9,
+      580.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 1,
+   "bbox": [
+    44.6,
+    411.7,
+    129.3,
+    433.6
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum (TT.MM.JJJJ)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Charge",
+   "acro_name": "Charge",
+   "page": 1,
+   "bbox": [
+    44.6,
+    696.7,
+    292.8,
+    715.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Chargennummer (LOT oder Ch.B)*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Impfdatum",
+   "acro_name": "Impfdatum",
+   "page": 1,
+   "bbox": [
+    44.9,
+    617.1,
+    290.3,
+    635.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Impfdatum (TT.MM.JJJJ)*",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Arzt-Name",
+   "acro_name": "Arzt-Name",
+   "page": 1,
+   "bbox": [
+    45.4,
+    747.5,
+    293.5,
+    764.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der verantwortlichen Ärztin / \ndes verantwortlichen Arztes*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name-Impfende-Person",
+   "acro_name": "Name-Impfende-Person",
+   "page": 1,
+   "bbox": [
+    44.6,
+    786.5,
+    290.1,
+    804.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der impfenden Person (falls abweichend)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verabreichter Impfstoff",
+   "acro_name": "Verabreichter Impfstoff",
+   "page": 1,
+   "bbox": [
+    44.9,
+    656.3,
+    293.9,
+    674.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verabreichter Impfstoff:*",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Spezielle Indikation",
+   "acro_name": "Spezielle Indikation",
+   "page": 1,
+   "bbox": [
+    304.1,
+    586.0,
+    314.9,
+    596.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Spezielle Indikation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Spezielle Indikation",
+     "bbox": [
+      304.1,
+      586.0,
+      314.9,
+      596.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Off-Label-Anwendung ",
+   "acro_name": "Off-Label-Anwendung ",
+   "page": 1,
+   "bbox": [
+    304.1,
+    602.3,
+    314.9,
+    613.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "off-label-Anwendung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Off-Label-Anwendung",
+     "bbox": [
+      304.1,
+      602.3,
+      314.9,
+      613.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Oberarm links",
+   "acro_name": "Oberarm links",
+   "page": 1,
+   "bbox": [
+    462.0,
+    570.0,
+    472.9,
+    580.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "off-label-Anwendung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Oberarm links",
+     "bbox": [
+      462.0,
+      570.0,
+      472.9,
+      580.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Oberarm rechts",
+   "acro_name": "Oberarm rechts",
+   "page": 1,
+   "bbox": [
+    462.2,
+    586.0,
+    473.0,
+    596.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Oberarm rechts",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Oberarm rechts",
+     "bbox": [
+      462.2,
+      586.0,
+      473.0,
+      596.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 10,
+  "bilder": [
+   "cache/pruefung/svs_7d5802d3d8/p1.png",
+   "cache/pruefung/svs_7d5802d3d8/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Familienname",
+     "problem": "Wert steht im passenden Feld, aber sehr nah an der linken Feldkante; kein echter Fehler",
+     "schwer": false
+    },
+    {
+     "feld": "Adresse",
+     "problem": "Nur „1030 Wien“ eingetragen, obwohl das Feld für vollständige Adresse gedacht ist; wirkt unvollständig, aber nicht eindeutig Layout-Fehler",
+     "schwer": false
+    },
+    {
+     "feld": "Datum (TT.MM.JJJJ) / Unterschriftsbereich Seite 2",
+     "problem": "Das Datum ist korrekt im Datumsfeld, der danebenliegende Unterschriftsbereich bleibt leer; kein Problem",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "24fee8355254fbd8",
+  "ok": true
+ }
+}

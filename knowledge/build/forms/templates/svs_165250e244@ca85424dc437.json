@@ -1,0 +1,367 @@
+{
+ "formular_id": "svs_165250e244",
+ "name": "PDF (0.2MB) – Formulare & Anträge",
+ "traeger": "SVS",
+ "sha256": "ca85424dc43764983fc0995e40bf942b83875b0e7cf0d95da27c7b19ccbbf2e2",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.728127&version=1663737386",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    55.3,
+    197.6,
+    560.6,
+    210.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "nach dem Bauern-Sozialversicherungsgesetz (BSVG)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    435.2,
+    248.0,
+    561.4,
+    260.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hinweise zu beachten!",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    257.2,
+    262.5,
+    362.0,
+    275.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Daten des Antragstellers",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    363.5,
+    262.5,
+    433.8,
+    275.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Antragstellers",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "person.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    303.3,
+    255.7,
+    315.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname, Titel",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    256.4,
+    303.3,
+    362.0,
+    315.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    362.8,
+    303.3,
+    433.8,
+    315.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hauptwohnsitz anzugeben)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    332.4,
+    124.2,
+    344.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wohnanschrift (Straße/Gasse/Platz/Nr.,",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false,
+   "pruef_hinweis": "Feld zu schmal bzw. Teilformat (max. Zeichen) für typische Werte – Michi fragt nach"
+  },
+  {
+   "page": 0,
+   "bbox": [
+    124.7,
+    332.4,
+    330.8,
+    344.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "(Straße/Gasse/Platz/Nr., bei mehreren Wohnsitzen ist der Hauptwohnsitz",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    331.3,
+    332.4,
+    457.6,
+    344.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hauptwohnsitz anzugeben)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    458.0,
+    332.4,
+    561.4,
+    344.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    54.6,
+    361.3,
+    124.2,
+    373.8
+   ],
+   "typ": "text",
+   "label_wörtlich": " r2` `<\\ n9 A C T K+",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    125.6,
+    361.3,
+    330.8,
+    373.8
+   ],
+   "typ": "text",
+   "label_wörtlich": " r2` `<\\ n9 A C T K+",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_012",
+   "semantik": "adresse.plz_ort",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    332.3,
+    361.3,
+    561.4,
+    373.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail Adresse",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_013",
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 9,
+  "bilder": [
+   "cache/pruefung/svs_165250e244/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Antragstellers",
+     "problem": "Wert steht im falschen Feldbereich bzw. im Bereich der Versicherungsnummer, nicht sauber im passenden Antragssteller-Feld",
+     "schwer": true
+    },
+    {
+     "feld": "Familienname, Titel",
+     "problem": "Wert wirkt aufgeteilt/überlagert benachbarte Felder; Name steht nicht sauber im vorgesehenen Feld",
+     "schwer": false
+    },
+    {
+     "feld": "(Straße/Gasse/Platz/Nr., bei mehreren Wohnsitzen ist der Hau",
+     "problem": "Wert ist im Wohnanschrift-Feld, aber der Text erscheint doppelt bzw. über mehrere Zeilen/Felder verteilt",
+     "schwer": false
+    },
+    {
+     "feld": "Hauptwohnsitz anzugeben)",
+     "problem": "Wert ist im zugehörigen Anschriftbereich vorhanden, aber die Feldzuordnung ist durch doppelte Platzierung unklar",
+     "schwer": false
+    },
+    {
+     "feld": "Vorname",
+     "problem": "Wert steht im passenden Feld, berührt aber benachbarte Linien/Feldgrenzen knapp",
+     "schwer": false
+    },
+    {
+     "feld": "E-Mail Adresse",
+     "problem": "Wert liegt im passenden Feld, ragt aber sehr nah an die Feldgrenze; keine harte Überdeckung sichtbar",
+     "schwer": false
+    },
+    {
+     "feld": "1030 Wien",
+     "problem": "Ein Eintrag für PLZ/Ort scheint in einem Bereich zu liegen, der nicht eindeutig zum Hauptantragsteller gehört bzw. doppelt eingetragen ist",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "3f65853dd914b080",
+  "ok": false
+ }
+}

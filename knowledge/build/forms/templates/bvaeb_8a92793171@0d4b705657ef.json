@@ -1,0 +1,590 @@
+{
+ "formular_id": "bvaeb_8a92793171",
+ "name": "Beiblatt für Sekundärpatienten bei familienorientierter Reha",
+ "traeger": "BVAEB",
+ "sha256": "0d4b705657efcec3dc3f6f16ef666929e7b52f2e7111a9e5e0a057d2258a4131",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.802429&version=1768564030",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Ja_1",
+   "acro_name": "Ja_1",
+   "page": 0,
+   "bbox": [
+    261.0,
+    100.9,
+    333.2,
+    112.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "1 Familienname / Vorname(n):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      261.0,
+      100.9,
+      272.7,
+      112.6
+     ]
+    },
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      321.6,
+      100.9,
+      333.2,
+      112.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_1",
+   "acro_name": "Name_1",
+   "page": 0,
+   "bbox": [
+    66.1,
+    124.3,
+    393.6,
+    136.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname / Vorname(n): weiblich männlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_1",
+   "acro_name": "VSNR_1",
+   "page": 0,
+   "bbox": [
+    399.9,
+    115.9,
+    534.5,
+    144.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_1",
+   "acro_name": "Adresse_1",
+   "page": 0,
+   "bbox": [
+    66.1,
+    159.9,
+    547.1,
+    176.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (PLZ, Ort, Straße, Nr.):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_1",
+   "acro_name": "Telefon_1",
+   "page": 0,
+   "bbox": [
+    110.5,
+    180.3,
+    267.5,
+    194.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eMail_1",
+   "acro_name": "eMail_1",
+   "page": 0,
+   "bbox": [
+    303.8,
+    180.5,
+    546.9,
+    194.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "eMail:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschaftsverhaeltnis_1",
+   "acro_name": "Verwandtschaftsverhaeltnis_1",
+   "page": 0,
+   "bbox": [
+    200.5,
+    198.5,
+    546.8,
+    212.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandtschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum_1",
+   "acro_name": "Datum_1",
+   "page": 0,
+   "bbox": [
+    70.5,
+    246.1,
+    124.9,
+    648.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Datum (heutiges Datum automatisch eingefügt)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_2",
+   "acro_name": "Ja_2",
+   "page": 0,
+   "bbox": [
+    260.8,
+    296.3,
+    333.0,
+    308.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "2 Familienname / Vorname(n):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      260.8,
+      296.3,
+      272.4,
+      308.0
+     ]
+    },
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      321.3,
+      296.3,
+      333.0,
+      308.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_2",
+   "acro_name": "Name_2",
+   "page": 0,
+   "bbox": [
+    66.1,
+    319.7,
+    393.6,
+    332.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname / Vorname(n): weiblich männlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_2",
+   "acro_name": "VSNR_2",
+   "page": 0,
+   "bbox": [
+    398.6,
+    309.3,
+    534.2,
+    339.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_2",
+   "acro_name": "Adresse_2",
+   "page": 0,
+   "bbox": [
+    66.2,
+    354.7,
+    547.2,
+    371.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (PLZ, Ort, Straße, Nr.):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_2",
+   "acro_name": "Telefon_2",
+   "page": 0,
+   "bbox": [
+    110.6,
+    375.0,
+    267.6,
+    389.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eMail_2",
+   "acro_name": "eMail_2",
+   "page": 0,
+   "bbox": [
+    304.0,
+    375.2,
+    547.0,
+    389.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "eMail:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschaftsverhaeltnis_2",
+   "acro_name": "Verwandtschaftsverhaeltnis_2",
+   "page": 0,
+   "bbox": [
+    200.5,
+    393.6,
+    546.8,
+    407.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandtschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja_3",
+   "acro_name": "Ja_3",
+   "page": 0,
+   "bbox": [
+    261.0,
+    488.9,
+    333.1,
+    500.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "3 Familienname / Vorname(n):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      261.0,
+      488.9,
+      272.6,
+      500.5
+     ]
+    },
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      321.5,
+      488.9,
+      333.1,
+      500.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_3",
+   "acro_name": "Name_3",
+   "page": 0,
+   "bbox": [
+    66.2,
+    512.3,
+    393.8,
+    524.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname / Vorname(n): weiblich männlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "VSNR_3",
+   "acro_name": "VSNR_3",
+   "page": 0,
+   "bbox": [
+    399.5,
+    502.5,
+    534.1,
+    531.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer:",
+   "max_zeichen": 10,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_3",
+   "acro_name": "Adresse_3",
+   "page": 0,
+   "bbox": [
+    66.2,
+    547.2,
+    547.2,
+    563.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anschrift (PLZ, Ort, Straße, Nr.):",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon_3",
+   "acro_name": "Telefon_3",
+   "page": 0,
+   "bbox": [
+    109.8,
+    567.6,
+    266.8,
+    581.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon:",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "eMail_3",
+   "acro_name": "eMail_3",
+   "page": 0,
+   "bbox": [
+    303.1,
+    567.8,
+    546.2,
+    582.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "eMail:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verwandtschaftsverhaeltnis_3",
+   "acro_name": "Verwandtschaftsverhaeltnis_3",
+   "page": 0,
+   "bbox": [
+    199.7,
+    586.1,
+    546.0,
+    600.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Verwandtschaftsverhältnis",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 16,
+  "bilder": [
+   "cache/pruefung/bvaeb_8a92793171/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Familienname / Vorname(n): Berger Anna",
+     "problem": "Wert steht im Namensfeld und passt zur antragstellenden Person; wirkt korrekt platziert",
+     "schwer": false
+    },
+    {
+     "feld": "Versicherungsnummer: 1234140348",
+     "problem": "Wert steht im zugehörigen Feld und passt zur Person; keine Layoutauffälligkeit erkennbar",
+     "schwer": false
+    },
+    {
+     "feld": "Anschrift: Musterstraße 12/4, 1030 Wien",
+     "problem": "Wert steht im Anschriftsfeld und bleibt im Rahmen",
+     "schwer": false
+    },
+    {
+     "feld": "Telefon: +43 1 2345678",
+     "problem": "Wert steht im Telefonfeld und ist lesbar",
+     "schwer": false
+    },
+    {
+     "feld": "eMail: anna.berger@example.org",
+     "problem": "Wert steht im E-Mail-Feld und ist lesbar",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "5b0193021715ef44",
+  "ok": true
+ }
+}

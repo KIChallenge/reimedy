@@ -1,0 +1,3560 @@
+{
+ "formular_id": "fsw_befundbericht_kinder",
+ "name": "Befundbericht: Stationäre Pflege – Kinder",
+ "traeger": "FSW",
+ "sha256": "8bdc3c362636b71eeb59acf0a61d82425bd3244c9aa371f82f6978095850bb80",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Befundbericht-Kinder.pdf",
+ "pages": 6,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "arzt",
+ "felder": [
+  {
+   "feld_id": "Familienname KundIn",
+   "acro_name": "Familienname KundIn",
+   "page": 0,
+   "bbox": [
+    28.0,
+    272.4,
+    292.9,
+    297.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname KundIn",
+   "acro_name": "Vorname KundIn",
+   "page": 0,
+   "bbox": [
+    302.3,
+    272.4,
+    567.2,
+    297.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum KundIn",
+   "acro_name": "Geburtsdatum KundIn",
+   "page": 0,
+   "bbox": [
+    28.0,
+    316.0,
+    151.3,
+    341.0
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (im Format Tag.Monat.Jahr, zum Beispiel 31.01.1972)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Obsorgeberechtigte Person",
+   "acro_name": "Familienname Obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    28.0,
+    412.7,
+    292.9,
+    437.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.familienname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Obsorgeberechtigte Person",
+   "acro_name": "Vorname Obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    302.3,
+    412.7,
+    567.2,
+    437.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname obsorgeberechtigte Person ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.vorname",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung Obsorgeberechtigte Person 1",
+   "acro_name": "Beziehung Obsorgeberechtigte Person 1",
+   "page": 0,
+   "bbox": [
+    28.0,
+    456.3,
+    292.9,
+    481.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beziehung zur:zum Kundin:Kunden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefon Obsorgeberechtigte Person",
+   "acro_name": "Telefon Obsorgeberechtigte Person",
+   "page": 0,
+   "bbox": [
+    302.3,
+    456.3,
+    567.2,
+    481.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer obsorgeberechtigte Person",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ärzltiche Diagnosen",
+   "acro_name": "Ärzltiche Diagnosen",
+   "page": 0,
+   "bbox": [
+    28.3,
+    563.5,
+    566.9,
+    648.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bitte führen Sie hier die aktuelle(n) Diagnose(n) des:der Kund:in an",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Infektionskrankheiten",
+   "acro_name": "Infektionskrankheiten",
+   "page": 0,
+   "bbox": [
+    28.0,
+    704.0,
+    293.0,
+    729.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Infektionskrankheiten Kund:in (zum Beispiel Hepatitis C)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "KeimtraegerIn",
+   "acro_name": "KeimtraegerIn",
+   "page": 0,
+   "bbox": [
+    301.9,
+    704.0,
+    566.9,
+    729.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Der:die Kund:in ist derzeit Keimträger:in? (zum Beispiel MRSA)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lebensbedrohliche bzw. lebensverkürzende Erkrankung",
+   "acro_name": "Lebensbedrohliche bzw. lebensverkürzende Erkrankung",
+   "page": 0,
+   "bbox": [
+    28.3,
+    667.7,
+    89.6,
+    684.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Lebensbedrohliche bzw. lebensverkürzende Erkrankung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.3,
+      667.7,
+      45.4,
+      684.7
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      72.6,
+      667.7,
+      89.6,
+      684.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nahrungs- und Flüssigkeitsaufnahme Oral",
+   "acro_name": "Nahrungs- und Flüssigkeitsaufnahme Oral",
+   "page": 1,
+   "bbox": [
+    27.6,
+    60.5,
+    44.6,
+    77.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nahrungs- und Flüssigkeitsaufnahme: Oral",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "oral",
+     "bbox": [
+      27.6,
+      60.5,
+      44.6,
+      77.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nahrungs- und Flüssigkeitsaufnahme selbstständig",
+   "acro_name": "Nahrungs- und Flüssigkeitsaufnahme selbstständig",
+   "page": 1,
+   "bbox": [
+    28.0,
+    83.2,
+    45.0,
+    100.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nahrungs- und Flüssigkeitsaufnahme: selbstständig",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "selbstständg",
+     "bbox": [
+      28.0,
+      83.2,
+      45.0,
+      100.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nahrungs- und Flüssigkeitsaufnahme parernteral",
+   "acro_name": "Nahrungs- und Flüssigkeitsaufnahme parernteral",
+   "page": 1,
+   "bbox": [
+    376.7,
+    60.5,
+    393.7,
+    77.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nahrungs- und Flüssigkeitsaufnahme: parenteral",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "parenteral",
+     "bbox": [
+      376.7,
+      60.5,
+      393.7,
+      77.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nahrungs- und Flüssigkeitsaufnahme Eingabe",
+   "acro_name": "Nahrungs- und Flüssigkeitsaufnahme Eingabe",
+   "page": 1,
+   "bbox": [
+    376.7,
+    83.2,
+    393.7,
+    100.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nahrungs- und Flüssigkeitsaufnahme: Eingabe erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Eingabe erforderlich",
+     "bbox": [
+      376.7,
+      83.2,
+      393.7,
+      100.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nahrungs- und Flüssigkeitsaufnahme enteral",
+   "acro_name": "Nahrungs- und Flüssigkeitsaufnahme enteral",
+   "page": 1,
+   "bbox": [
+    196.2,
+    60.5,
+    213.2,
+    77.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nahrungs- und Flüssigkeitsaufnahme: enteral",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "enteral",
+     "bbox": [
+      196.2,
+      60.5,
+      213.2,
+      77.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nahrungs- und Flüssigkeitsaufnahme Unterstützung",
+   "acro_name": "Nahrungs- und Flüssigkeitsaufnahme Unterstützung",
+   "page": 1,
+   "bbox": [
+    196.2,
+    83.2,
+    213.2,
+    100.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Nahrungs- und Flüssigkeitsaufnahme: Unterstützung erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Unterstützung erforderlich",
+     "bbox": [
+      196.2,
+      83.2,
+      213.2,
+      100.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Appetit erhöht",
+   "acro_name": "Appetit erhöht",
+   "page": 1,
+   "bbox": [
+    376.7,
+    125.7,
+    393.7,
+    142.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Appetit: erhöht",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "erhöht",
+     "bbox": [
+      376.7,
+      125.7,
+      393.7,
+      142.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Appetit normal",
+   "acro_name": "Appetit normal",
+   "page": 1,
+   "bbox": [
+    27.6,
+    125.7,
+    44.6,
+    142.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Appetit: normal",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "normal",
+     "bbox": [
+      27.6,
+      125.7,
+      44.6,
+      142.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Appetit reduziert",
+   "acro_name": "Appetit reduziert",
+   "page": 1,
+   "bbox": [
+    196.2,
+    125.7,
+    213.2,
+    142.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Appetit: reduziert",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "reduziert",
+     "bbox": [
+      196.2,
+      125.7,
+      213.2,
+      142.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Konsistenz Breikost",
+   "acro_name": "Konsistenz Breikost",
+   "page": 1,
+   "bbox": [
+    27.6,
+    168.3,
+    44.6,
+    185.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Konsistenz: Breikost",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Breikost",
+     "bbox": [
+      27.6,
+      168.3,
+      44.6,
+      185.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Konistenz feste Nahrung",
+   "acro_name": "Konistenz feste Nahrung",
+   "page": 1,
+   "bbox": [
+    196.2,
+    168.3,
+    213.2,
+    185.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Konsistenz: feste Nahrung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "feste Nahrung",
+     "bbox": [
+      196.2,
+      168.3,
+      213.2,
+      185.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Konsistenz Muttermilch",
+   "acro_name": "Konsistenz Muttermilch",
+   "page": 1,
+   "bbox": [
+    376.7,
+    168.3,
+    393.7,
+    185.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Konsistenz: Muttermilch/Flaschenmilchnahrung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Muttermilch/Flaschenmilchnahrung",
+     "bbox": [
+      376.7,
+      168.3,
+      393.7,
+      185.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Konsistenz Sondennahrung",
+   "acro_name": "Konsistenz Sondennahrung",
+   "page": 1,
+   "bbox": [
+    28.0,
+    191.0,
+    45.0,
+    208.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Konsistenz: (zusätzliche) Sondennahrung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "(zusätzliche) Sondennahrung",
+     "bbox": [
+      28.0,
+      191.0,
+      45.0,
+      208.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "spezielle diaeten",
+   "acro_name": "spezielle diaeten",
+   "page": 1,
+   "bbox": [
+    28.3,
+    226.9,
+    567.0,
+    273.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "spezielle Diäten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ernaehrungssonde",
+   "acro_name": "Ernaehrungssonde",
+   "page": 1,
+   "bbox": [
+    28.3,
+    375.3,
+    45.3,
+    392.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ernährungssonde",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ernährungssonde",
+     "bbox": [
+      28.3,
+      375.3,
+      45.3,
+      392.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ernaehrungssonde Art",
+   "acro_name": "Ernaehrungssonde Art",
+   "page": 1,
+   "bbox": [
+    180.0,
+    374.5,
+    566.9,
+    396.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art der Ernährungssonde",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ernährung Anmerkungen",
+   "acro_name": "Ernährung Anmerkungen",
+   "page": 1,
+   "bbox": [
+    28.3,
+    420.2,
+    567.0,
+    505.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen Ernährung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ableitende Systeme Suprapubische Katheher",
+   "acro_name": "Ableitende Systeme Suprapubische Katheher",
+   "page": 1,
+   "bbox": [
+    127.9,
+    596.5,
+    145.0,
+    613.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ableitende Systeme: Suprapubische Katheter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Suprapubische Katheter",
+     "bbox": [
+      127.9,
+      596.5,
+      145.0,
+      613.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ableitende Systeme Stoma",
+   "acro_name": "Ableitende Systeme Stoma",
+   "page": 1,
+   "bbox": [
+    27.6,
+    596.5,
+    44.6,
+    613.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ableitende Systeme: Stoma",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Stoma",
+     "bbox": [
+      27.6,
+      596.5,
+      44.6,
+      613.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ableitende Systeme Blasenverweilkatheter",
+   "acro_name": "Ableitende Systeme Blasenverweilkatheter",
+   "page": 1,
+   "bbox": [
+    280.6,
+    596.5,
+    297.6,
+    613.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ableitende Systeme: Blasenverweilkatheter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Blasenverweilkatheter",
+     "bbox": [
+      280.6,
+      596.5,
+      297.6,
+      613.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einmalkatherisierung",
+   "acro_name": "Einmalkatherisierung",
+   "page": 1,
+   "bbox": [
+    28.1,
+    634.4,
+    45.1,
+    651.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einmalkatheterisierung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einmalkatheterisierung",
+     "bbox": [
+      28.1,
+      634.4,
+      45.1,
+      651.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haeufigkeit Katheterisierung",
+   "acro_name": "Haeufigkeit Katheterisierung",
+   "page": 1,
+   "bbox": [
+    179.9,
+    633.5,
+    566.7,
+    655.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Häufikgkeit Katheterisierung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erbrechen Anmerkungen",
+   "acro_name": "Erbrechen Anmerkungen",
+   "page": 1,
+   "bbox": [
+    28.3,
+    679.7,
+    567.0,
+    764.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen Ausscheidung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aspirationsgefahr",
+   "acro_name": "Aspirationsgefahr",
+   "page": 1,
+   "bbox": [
+    28.3,
+    336.0,
+    89.6,
+    353.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Aspirationsgefahr",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.3,
+      336.0,
+      45.3,
+      353.0
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      72.6,
+      336.0,
+      89.6,
+      353.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Altersentsprechend",
+   "acro_name": "Altersentsprechend",
+   "page": 1,
+   "bbox": [
+    28.3,
+    552.7,
+    89.6,
+    569.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Altersentsprechend",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.3,
+      552.7,
+      45.3,
+      569.7
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      72.6,
+      552.7,
+      89.6,
+      569.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Altersentsprechend wenn nein",
+   "acro_name": "Altersentsprechend wenn nein",
+   "page": 1,
+   "bbox": [
+    156.6,
+    552.7,
+    265.0,
+    569.7
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Altersentsprechend wenn nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Harninkontinenz",
+     "label": "Harninkontinenz",
+     "bbox": [
+      156.6,
+      552.7,
+      173.6,
+      569.7
+     ]
+    },
+    {
+     "wert": "Stuhlinkontinenz",
+     "label": "Stuhlinkontinenz",
+     "bbox": [
+      248.0,
+      552.7,
+      265.0,
+      569.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erbrechen",
+   "acro_name": "Erbrechen",
+   "page": 1,
+   "bbox": [
+    27.3,
+    295.0,
+    393.3,
+    312.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Erbrechen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "nie",
+     "label": "nie",
+     "bbox": [
+      27.3,
+      295.0,
+      44.3,
+      312.0
+     ]
+    },
+    {
+     "wert": "selten",
+     "label": "selten",
+     "bbox": [
+      195.8,
+      295.0,
+      212.8,
+      312.0
+     ]
+    },
+    {
+     "wert": "haeufig",
+     "label": "häufig",
+     "bbox": [
+      376.3,
+      295.0,
+      393.3,
+      312.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beschreibung des Hautdefektes 3",
+   "acro_name": "Beschreibung des Hautdefektes 3",
+   "page": 2,
+   "bbox": [
+    28.3,
+    95.0,
+    567.0,
+    141.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschreibung des Hautdefektes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kunde benoetigt 4",
+   "acro_name": "Kunde benoetigt 4",
+   "page": 2,
+   "bbox": [
+    290.4,
+    267.6,
+    307.4,
+    284.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Der:die Kund:in benötigt: Kinderwagen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Kinderwagen",
+     "bbox": [
+      290.4,
+      267.6,
+      307.4,
+      284.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kunde benoetigt 3",
+   "acro_name": "Kunde benoetigt 3",
+   "page": 2,
+   "bbox": [
+    128.5,
+    267.6,
+    145.5,
+    284.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Der:die Kund:in benötigt: Sitzschale",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sitzschale",
+     "bbox": [
+      128.5,
+      267.6,
+      145.5,
+      284.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kunde benoetigt 2",
+   "acro_name": "Kunde benoetigt 2",
+   "page": 2,
+   "bbox": [
+    28.2,
+    267.6,
+    45.2,
+    284.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Der:die Kund:in benötigt: Rollstuhl",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Rollstuhl",
+     "bbox": [
+      28.2,
+      267.6,
+      45.2,
+      284.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haut anfällig 2",
+   "acro_name": "Haut anfällig 2",
+   "page": 2,
+   "bbox": [
+    376.7,
+    60.5,
+    393.7,
+    77.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Haut anfällig für Defekte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "anfällig für Defekte",
+     "bbox": [
+      376.7,
+      60.5,
+      393.7,
+      77.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haut nicht intakt 2",
+   "acro_name": "Haut nicht intakt 2",
+   "page": 2,
+   "bbox": [
+    196.2,
+    60.5,
+    213.2,
+    77.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Haut nicht intakt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nicht intakt",
+     "bbox": [
+      196.2,
+      60.5,
+      213.2,
+      77.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Muskuloskelettale Einschränkungen",
+   "acro_name": "Muskuloskelettale Einschränkungen",
+   "page": 2,
+   "bbox": [
+    27.6,
+    368.3,
+    213.2,
+    385.3
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Muskuloskelettale Einschränkungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Spastik",
+     "label": "Spastik",
+     "bbox": [
+      27.6,
+      368.3,
+      44.6,
+      385.3
+     ]
+    },
+    {
+     "wert": "Hypo-#2Fhypertone#20Koerperspannung",
+     "label": "Hypo-/hypertone Körperspannung",
+     "bbox": [
+      196.2,
+      368.3,
+      213.2,
+      385.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Haut intakt 2",
+   "acro_name": "Haut intakt 2",
+   "page": 2,
+   "bbox": [
+    27.6,
+    60.5,
+    44.6,
+    77.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Haut intakt",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "intakt",
+     "bbox": [
+      27.6,
+      60.5,
+      44.6,
+      77.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Mobilitaet Anmerkungen",
+   "acro_name": "Mobilitaet Anmerkungen",
+   "page": 2,
+   "bbox": [
+    28.5,
+    469.1,
+    567.1,
+    554.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen Mobilität",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Orthopaedische Hilfsmittel",
+   "acro_name": "Orthopaedische Hilfsmittel",
+   "page": 2,
+   "bbox": [
+    28.3,
+    404.1,
+    567.0,
+    450.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Orthopädische Hilfsmittel",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Cough-Assist Haeufigkeit",
+   "acro_name": "Cough-Assist Haeufigkeit",
+   "page": 2,
+   "bbox": [
+    180.0,
+    629.1,
+    566.9,
+    650.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Cough-Assist Häufigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Cough-Assist",
+   "acro_name": "Cough-Assist",
+   "page": 2,
+   "bbox": [
+    28.3,
+    629.9,
+    45.3,
+    646.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Cough-Assist",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Cough-Assist",
+     "bbox": [
+      28.3,
+      629.9,
+      45.3,
+      646.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Inhalation",
+   "acro_name": "Inhalation",
+   "page": 2,
+   "bbox": [
+    28.3,
+    672.0,
+    45.3,
+    689.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Inhalation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Inhalation",
+     "bbox": [
+      28.3,
+      672.0,
+      45.3,
+      689.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Inhalation Haeufigkeit",
+   "acro_name": "Inhalation Haeufigkeit",
+   "page": 2,
+   "bbox": [
+    180.0,
+    671.2,
+    566.9,
+    693.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Inhalation: Womit? Häufigkeit und Dosierung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sekretloesende Massnahmen Haeufigkeit",
+   "acro_name": "Sekretloesende Massnahmen Haeufigkeit",
+   "page": 2,
+   "bbox": [
+    180.0,
+    713.3,
+    566.9,
+    735.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sekretlösende Maßnahmen: Welche? Häufigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sekretloesende Massnahmen",
+   "acro_name": "Sekretloesende Massnahmen",
+   "page": 2,
+   "bbox": [
+    28.3,
+    714.1,
+    45.3,
+    731.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sekretlösende Maßnahmen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sekretlösende Maßnahmen",
+     "bbox": [
+      28.3,
+      714.1,
+      45.3,
+      731.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sauerstofftherapie 1",
+   "acro_name": "Sauerstofftherapie 1",
+   "page": 2,
+   "bbox": [
+    28.3,
+    756.2,
+    45.3,
+    773.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sauerstofftherapie",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sauerstofftherapie",
+     "bbox": [
+      28.3,
+      756.2,
+      45.3,
+      773.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sauerstofftherapie Haeufigkeit 1",
+   "acro_name": "Sauerstofftherapie Haeufigkeit 1",
+   "page": 2,
+   "bbox": [
+    180.0,
+    755.4,
+    566.9,
+    777.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sauerstofftherapie Häufigkeit und Dosierung (Liter/Minute)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Non-invasive Heimbeatmung Haeufigkeit",
+   "acro_name": "Non-invasive Heimbeatmung Haeufigkeit",
+   "page": 2,
+   "bbox": [
+    180.0,
+    793.7,
+    566.9,
+    815.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Non-invasive Heimbeatmung: Womit? Häufigkeit des Maskenwechsels",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Non-invasive Heimbeatmung",
+   "acro_name": "Non-invasive Heimbeatmung",
+   "page": 2,
+   "bbox": [
+    28.3,
+    794.5,
+    45.3,
+    811.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Non-invasive Heimbeatmung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Non-invasive Heimbeatmung",
+     "bbox": [
+      28.3,
+      794.5,
+      45.3,
+      811.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Mobilitaet",
+   "acro_name": "Mobilitaet",
+   "page": 2,
+   "bbox": [
+    28.2,
+    227.5,
+    307.4,
+    244.5
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Mobilität",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "mobil",
+     "label": "mobil",
+     "bbox": [
+      28.2,
+      227.5,
+      45.2,
+      244.5
+     ]
+    },
+    {
+     "wert": "teilweise#20mobil",
+     "label": "teilweise mobil",
+     "bbox": [
+      128.5,
+      227.5,
+      145.5,
+      244.5
+     ]
+    },
+    {
+     "wert": "immobil",
+     "label": "immobil",
+     "bbox": [
+      290.4,
+      227.5,
+      307.4,
+      244.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Altersentsprechend Mobilitaet",
+   "acro_name": "Altersentsprechend Mobilitaet",
+   "page": 2,
+   "bbox": [
+    28.9,
+    186.6,
+    90.2,
+    203.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Altersentsprechend",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.9,
+      186.6,
+      45.9,
+      203.6
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      73.2,
+      186.6,
+      90.2,
+      203.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gehen unmoeglich",
+   "acro_name": "Gehen unmoeglich",
+   "page": 2,
+   "bbox": [
+    28.3,
+    325.2,
+    108.2,
+    343.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Gehen unmöglich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      28.3,
+      325.2,
+      46.3,
+      343.2
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      90.1,
+      325.2,
+      108.2,
+      343.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufstehen unmoeglich",
+   "acro_name": "Aufstehen unmoeglich",
+   "page": 2,
+   "bbox": [
+    165.1,
+    325.2,
+    245.0,
+    343.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Aufstehen unmöglich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      165.1,
+      325.2,
+      183.1,
+      343.2
+     ]
+    },
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      227.0,
+      325.2,
+      245.0,
+      343.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begleitung noetig",
+   "acro_name": "Begleitung noetig",
+   "page": 2,
+   "bbox": [
+    292.8,
+    325.2,
+    372.6,
+    343.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Begleitung nötig",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "zeitweise",
+     "label": "zeitweise",
+     "bbox": [
+      354.6,
+      325.2,
+      372.6,
+      343.2
+     ]
+    },
+    {
+     "wert": "staendig",
+     "label": "ständig",
+     "bbox": [
+      292.8,
+      325.2,
+      310.8,
+      343.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kardiorespiratorische Stabilitaet vorhanden",
+   "acro_name": "Kardiorespiratorische Stabilitaet vorhanden",
+   "page": 2,
+   "bbox": [
+    28.3,
+    599.2,
+    89.6,
+    616.2
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Kardiorespiratorische Stabilitaet vorhanden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.3,
+      599.2,
+      45.3,
+      616.2
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      72.6,
+      599.2,
+      89.6,
+      616.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Invasive Heimbeatmung",
+   "acro_name": "Invasive Heimbeatmung",
+   "page": 3,
+   "bbox": [
+    27.7,
+    43.4,
+    44.7,
+    60.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Invasive Heimbeatmung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Invasive Heimbeatmung",
+     "bbox": [
+      27.7,
+      43.4,
+      44.7,
+      60.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Invasive Heimbeatmung Anmerkungen",
+   "acro_name": "Invasive Heimbeatmung Anmerkungen",
+   "page": 3,
+   "bbox": [
+    179.5,
+    42.5,
+    566.3,
+    64.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Invasive Heimbeatmung Anmerkungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Blindheit",
+   "acro_name": "Blindheit",
+   "page": 3,
+   "bbox": [
+    376.7,
+    511.4,
+    393.7,
+    528.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Blindheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Blindheit",
+     "bbox": [
+      376.7,
+      511.4,
+      393.7,
+      528.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stummheit",
+   "acro_name": "Stummheit",
+   "page": 3,
+   "bbox": [
+    196.2,
+    511.4,
+    213.2,
+    528.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Stummheit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Stummheit",
+     "bbox": [
+      196.2,
+      511.4,
+      213.2,
+      528.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gehörlosigkeit",
+   "acro_name": "Gehörlosigkeit",
+   "page": 3,
+   "bbox": [
+    28.0,
+    511.4,
+    45.0,
+    528.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Gehörlosigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Gehörlosigkeit",
+     "bbox": [
+      28.0,
+      511.4,
+      45.0,
+      528.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "unterst Kommunikation",
+   "acro_name": "unterst Kommunikation",
+   "page": 3,
+   "bbox": [
+    376.7,
+    488.7,
+    393.7,
+    505.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "unterstützte Kommunikation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "unterstützte Kommunikation",
+     "bbox": [
+      376.7,
+      488.7,
+      393.7,
+      505.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "non verbal",
+   "acro_name": "non verbal",
+   "page": 3,
+   "bbox": [
+    196.2,
+    488.7,
+    213.2,
+    505.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "non-verbal",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "non-verbal",
+     "bbox": [
+      196.2,
+      488.7,
+      213.2,
+      505.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "verbal",
+   "acro_name": "verbal",
+   "page": 3,
+   "bbox": [
+    27.6,
+    488.7,
+    44.6,
+    505.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "verbal",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "verbal",
+     "bbox": [
+      27.6,
+      488.7,
+      44.6,
+      505.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Atmung Anmerkungen",
+   "acro_name": "Atmung Anmerkungen",
+   "page": 3,
+   "bbox": [
+    28.3,
+    318.0,
+    566.9,
+    403.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen Atmung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Heimmonitor",
+   "acro_name": "Heimmonitor",
+   "page": 3,
+   "bbox": [
+    27.7,
+    281.7,
+    44.7,
+    298.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Heimmonitor",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Heimmonitor",
+     "bbox": [
+      27.7,
+      281.7,
+      44.7,
+      298.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Andere atemunterstuetzende Hilfsmittel\r",
+   "acro_name": "Andere atemunterstuetzende Hilfsmittel\r",
+   "page": 3,
+   "bbox": [
+    28.3,
+    215.4,
+    567.0,
+    262.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Andere atemunterstützende Hilfsmittel\r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Absaugen erforderlich oral und nasal",
+   "acro_name": "Absaugen erforderlich oral und nasal",
+   "page": 3,
+   "bbox": [
+    355.6,
+    172.8,
+    372.6,
+    189.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Absaugen erforderlich oral und nasal",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "oral und nasal",
+     "bbox": [
+      355.6,
+      172.8,
+      372.6,
+      189.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Absaugen erforderlich oral",
+   "acro_name": "Absaugen erforderlich oral",
+   "page": 3,
+   "bbox": [
+    300.6,
+    172.8,
+    317.6,
+    189.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Absaugen erforderlich oral",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "oral",
+     "bbox": [
+      300.6,
+      172.8,
+      317.6,
+      189.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Absaugen erforderlich tracheal",
+   "acro_name": "Absaugen erforderlich tracheal",
+   "page": 3,
+   "bbox": [
+    179.2,
+    172.8,
+    196.2,
+    189.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Absaugen erforderlich tracheal",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "tracheal",
+     "bbox": [
+      179.2,
+      172.8,
+      196.2,
+      189.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Absaugen erforderlich nasal",
+   "acro_name": "Absaugen erforderlich nasal",
+   "page": 3,
+   "bbox": [
+    242.2,
+    172.8,
+    259.2,
+    189.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Absaugen erforderlich nasal",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "nasal",
+     "bbox": [
+      242.2,
+      172.8,
+      259.2,
+      189.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tracheostoma",
+   "acro_name": "Tracheostoma",
+   "page": 3,
+   "bbox": [
+    27.7,
+    85.1,
+    44.7,
+    102.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Tracheostoma",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Tracheostoma",
+     "bbox": [
+      27.7,
+      85.1,
+      44.7,
+      102.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tracheostoma Haeufigkeit",
+   "acro_name": "Tracheostoma Haeufigkeit",
+   "page": 3,
+   "bbox": [
+    179.5,
+    126.3,
+    566.3,
+    148.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tracheostoma: Häufigkeit des Wechsels",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tracheostoma Kanuele",
+   "acro_name": "Tracheostoma Kanuele",
+   "page": 3,
+   "bbox": [
+    179.5,
+    84.2,
+    566.3,
+    106.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tracheostoma Kanüle",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kommunikation sonstige",
+   "acro_name": "Kommunikation sonstige",
+   "page": 3,
+   "bbox": [
+    28.3,
+    551.6,
+    567.0,
+    571.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Sonstige Kommunikation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tag Nacht Umkehr",
+   "acro_name": "Tag Nacht Umkehr",
+   "page": 3,
+   "bbox": [
+    376.7,
+    596.2,
+    393.7,
+    613.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Tag- /Nachumkehr",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Tag- /Nachtumkehr",
+     "bbox": [
+      376.7,
+      596.2,
+      393.7,
+      613.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einschlafstoerung",
+   "acro_name": "Einschlafstoerung",
+   "page": 3,
+   "bbox": [
+    196.2,
+    596.2,
+    213.2,
+    613.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Einschlafstörung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Einschlafstörung",
+     "bbox": [
+      196.2,
+      596.2,
+      213.2,
+      613.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Durchschlafstoerung",
+   "acro_name": "Durchschlafstoerung",
+   "page": 3,
+   "bbox": [
+    27.6,
+    596.2,
+    44.6,
+    613.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Durchschlafstörung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Durschlafstörung",
+     "bbox": [
+      27.6,
+      596.2,
+      44.6,
+      613.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krampfanfaelle Medikation",
+   "acro_name": "Krampfanfaelle Medikation",
+   "page": 3,
+   "bbox": [
+    180.1,
+    720.1,
+    566.9,
+    741.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krampfanfälle Medikation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krampfanfaelle Haeufigkeit",
+   "acro_name": "Krampfanfaelle Haeufigkeit",
+   "page": 3,
+   "bbox": [
+    180.1,
+    680.8,
+    566.9,
+    702.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krampfanfälle Häufigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krampfanfaelle Art",
+   "acro_name": "Krampfanfaelle Art",
+   "page": 3,
+   "bbox": [
+    180.1,
+    642.2,
+    566.9,
+    664.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Krampfanfälle Art",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Krampfanfalle",
+   "acro_name": "Krampfanfalle",
+   "page": 3,
+   "bbox": [
+    28.0,
+    643.1,
+    45.0,
+    660.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Krampfanfälle",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Krampfanfälle",
+     "bbox": [
+      28.0,
+      643.1,
+      45.0,
+      660.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Absaugen erforderlich",
+   "acro_name": "Absaugen erforderlich",
+   "page": 3,
+   "bbox": [
+    28.3,
+    172.8,
+    89.6,
+    189.8
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Absaugen erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.3,
+      172.8,
+      45.3,
+      189.8
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      72.6,
+      172.8,
+      89.6,
+      189.8
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kognitiver Entwicklungsstand",
+   "acro_name": "Kognitiver Entwicklungsstand",
+   "page": 3,
+   "bbox": [
+    27.6,
+    448.9,
+    213.2,
+    465.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Kognitiver Entwicklungsstand",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "altersentsprechend",
+     "label": "altersentsprechend",
+     "bbox": [
+      27.6,
+      448.9,
+      44.6,
+      465.9
+     ]
+    },
+    {
+     "wert": "verzoegert",
+     "label": "verzögert",
+     "bbox": [
+      196.2,
+      448.9,
+      213.2,
+      465.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Neurologische Situation Anmerkungen",
+   "acro_name": "Neurologische Situation Anmerkungen",
+   "page": 4,
+   "bbox": [
+    28.6,
+    80.6,
+    567.3,
+    165.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen Neurologische Situation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikament Intravenoes",
+   "acro_name": "Medikament Intravenoes",
+   "page": 4,
+   "bbox": [
+    290.4,
+    215.3,
+    307.4,
+    232.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Medikamentenverabreichng Intravenös",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Intravenös",
+     "bbox": [
+      290.4,
+      215.3,
+      307.4,
+      232.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikament ueber Sonde",
+   "acro_name": "Medikament ueber Sonde",
+   "page": 4,
+   "bbox": [
+    128.5,
+    215.3,
+    145.5,
+    232.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Medikamentenverabreichng über die Sonde",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "über die Sonde",
+     "bbox": [
+      128.5,
+      215.3,
+      145.5,
+      232.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikament oral",
+   "acro_name": "Medikament oral",
+   "page": 4,
+   "bbox": [
+    28.2,
+    215.3,
+    45.2,
+    232.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Medikamentenverabreichng oral",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "oral",
+     "bbox": [
+      28.2,
+      215.3,
+      45.2,
+      232.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zugang Porth a Cath",
+   "acro_name": "Zugang Porth a Cath",
+   "page": 4,
+   "bbox": [
+    290.4,
+    253.2,
+    307.4,
+    270.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Intravenöser Zugang: Porth-a-Cath",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Porth-a-Cath",
+     "bbox": [
+      290.4,
+      253.2,
+      307.4,
+      270.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zugang ZVK",
+   "acro_name": "Zugang ZVK",
+   "page": 4,
+   "bbox": [
+    128.5,
+    253.2,
+    145.5,
+    270.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Intravenöser Zugang: ZVK",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ZVK",
+     "bbox": [
+      128.5,
+      253.2,
+      145.5,
+      270.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zugang Broviac-Katheter",
+   "acro_name": "Zugang Broviac-Katheter",
+   "page": 4,
+   "bbox": [
+    28.2,
+    253.2,
+    45.2,
+    270.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Intravenöser Zugang: Broviac-Katheter",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Broviac-Kathether",
+     "bbox": [
+      28.2,
+      253.2,
+      45.2,
+      270.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Medikation Anmerkungen",
+   "acro_name": "Medikation Anmerkungen",
+   "page": 4,
+   "bbox": [
+    28.6,
+    290.2,
+    567.3,
+    375.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Anmerkungen Medikation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Betreuung zu Hause mit mobilem Palliativteam",
+   "acro_name": "Betreuung zu Hause mit mobilem Palliativteam",
+   "page": 4,
+   "bbox": [
+    28.3,
+    439.5,
+    45.4,
+    456.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Betreuung zu Hause mit mobilem Palliativteam nicht möglich oder nicht ausreichend",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Betreuung zu Hause mit mobilem Palliativteam nicht möglich oder nicht",
+     "bbox": [
+      28.3,
+      439.5,
+      45.4,
+      456.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sterbebegleitung zu Hause",
+   "acro_name": "Sterbebegleitung zu Hause",
+   "page": 4,
+   "bbox": [
+    28.3,
+    461.1,
+    45.4,
+    478.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sterbebegleitung zu Hause nicht möglich/nicht gewünscht",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Sterbebegleitung zu Hause nicht möglich/nicht gewünscht",
+     "bbox": [
+      28.3,
+      461.1,
+      45.4,
+      478.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Entlastung/Stabilisierung des Familiensystems erforderlich",
+   "acro_name": "Entlastung/Stabilisierung des Familiensystems erforderlich",
+   "page": 4,
+   "bbox": [
+    28.3,
+    504.2,
+    45.4,
+    521.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Entlastung/Stabilisierung des Familiensystems erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Entlastung/Stabilisierung des Familiensystems erforderlich",
+     "bbox": [
+      28.3,
+      504.2,
+      45.4,
+      521.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Pflegebedarf zu hoch",
+   "acro_name": "Pflegebedarf zu hoch",
+   "page": 4,
+   "bbox": [
+    28.3,
+    482.6,
+    45.4,
+    499.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Pflegebedarf zu hoch für die mobile Pflege und Betreuung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Pflegebedarf zu hoch für die mobile Pflege und Betreuung",
+     "bbox": [
+      28.3,
+      482.6,
+      45.4,
+      499.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "24 Stunden-Versorgung durch DGKP erforderlich",
+   "acro_name": "24 Stunden-Versorgung durch DGKP erforderlich",
+   "page": 4,
+   "bbox": [
+    28.3,
+    525.7,
+    45.4,
+    542.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "24 Stunden-Versorgung durch DGKP erforderlich",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "24 Stunden-Versorgung durch DGKP erforderlich",
+     "bbox": [
+      28.3,
+      525.7,
+      45.4,
+      542.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begruendung fuer den Bedarf der dauernden Anwesenheit einer DGKP:",
+   "acro_name": "Begruendung fuer den Bedarf der dauernden Anwesenheit einer DGKP:",
+   "page": 4,
+   "bbox": [
+    28.6,
+    564.8,
+    567.3,
+    649.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung für den Bedarf der dauernden Anwesenheit einer DGKP:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Aufnahme erforderlich bis spaetestens",
+   "acro_name": "Aufnahme erforderlich bis spaetestens",
+   "page": 4,
+   "bbox": [
+    28.6,
+    670.2,
+    181.2,
+    692.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Aufnahme erforderlich bis spätestens",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Verletzungsgefahr",
+   "acro_name": "Verletzungsgefahr",
+   "page": 4,
+   "bbox": [
+    28.3,
+    44.1,
+    89.6,
+    61.1
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Verletzungsgefahr",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ja",
+     "bbox": [
+      28.3,
+      44.1,
+      45.3,
+      61.1
+     ]
+    },
+    {
+     "wert": "Nein",
+     "label": "Nein",
+     "bbox": [
+      72.6,
+      44.1,
+      89.6,
+      61.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "soziale oder psychosoziale Indikation",
+   "acro_name": "soziale oder psychosoziale Indikation",
+   "page": 5,
+   "bbox": [
+    28.3,
+    62.5,
+    45.4,
+    79.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ausgeprägte soziale oder psychosoziale Indikation",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ausgeprägte soziale oder psychosoziale Indikation",
+     "bbox": [
+      28.3,
+      62.5,
+      45.4,
+      79.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "neurologisch neuropädiatrische Symptomatik",
+   "acro_name": "neurologisch neuropädiatrische Symptomatik",
+   "page": 5,
+   "bbox": [
+    28.3,
+    106.9,
+    45.4,
+    123.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ausgeprägte neurologisch/neuropädiatrische Symptomatik",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ausgeprägte neurologisch/neuropädiatrische Symptomatik",
+     "bbox": [
+      28.3,
+      106.9,
+      45.4,
+      123.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Schmerzsymptomatik",
+   "acro_name": "Schmerzsymptomatik",
+   "page": 5,
+   "bbox": [
+    28.3,
+    84.5,
+    45.4,
+    101.5
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ausgeprägte Schmerzsymptomatik",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ausgeprägte Schmerzsymptomatik",
+     "bbox": [
+      28.3,
+      84.5,
+      45.4,
+      101.5
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "psychiatrische psychische Symptomatik",
+   "acro_name": "psychiatrische psychische Symptomatik",
+   "page": 5,
+   "bbox": [
+    28.3,
+    129.2,
+    45.4,
+    146.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ausgeprägte psychiatrische/psychische Symptomatik",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ausgeprägte psychiatrische/psychische Symptomatik",
+     "bbox": [
+      28.3,
+      129.2,
+      45.4,
+      146.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "respiratorische kardiale Symptomatik",
+   "acro_name": "respiratorische kardiale Symptomatik",
+   "page": 5,
+   "bbox": [
+    28.3,
+    151.6,
+    45.4,
+    168.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ausgeprägte respiratorische/kardiale Symptomatik",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ausgeprägte respiratorische/kardiale Symptomatik",
+     "bbox": [
+      28.3,
+      151.6,
+      45.4,
+      168.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "gastrointestinale Symptomatik",
+   "acro_name": "gastrointestinale Symptomatik",
+   "page": 5,
+   "bbox": [
+    28.3,
+    174.0,
+    45.4,
+    191.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ausgeprägte gastrointestinale Symptomatik",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ausgeprägte gastrointestinale Symptomatik",
+     "bbox": [
+      28.3,
+      174.0,
+      45.4,
+      191.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ulzerierende exulzerierende Wunden oder Tumore",
+   "acro_name": "ulzerierende exulzerierende Wunden oder Tumore",
+   "page": 5,
+   "bbox": [
+    28.3,
+    198.6,
+    45.4,
+    215.6
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ausgeprägte ulzerierende/exulzerierende Wunden oder Tumore",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "ausgeprägte ulzerierende/exulzerierende Wunden oder Tumore",
+     "bbox": [
+      28.3,
+      198.6,
+      45.4,
+      215.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begruendung des Bedarfs stationares Kinderhospiz",
+   "acro_name": "Begruendung des Bedarfs stationares Kinderhospiz",
+   "page": 5,
+   "bbox": [
+    28.4,
+    239.8,
+    567.1,
+    592.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Begründung des Bedarfs an einem stationären Kinder-Hospizplatz",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum Unterschrift Arzt 4",
+   "acro_name": "Datum Unterschrift Arzt 4",
+   "page": 5,
+   "bbox": [
+    28.5,
+    650.6,
+    152.7,
+    675.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Datum der Unterschriftszeichnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 5,
+  "bilder": [
+   "cache/pruefung/fsw_befundbericht_kinder/p1.png",
+   "cache/pruefung/fsw_befundbericht_kinder/p2.png",
+   "cache/pruefung/fsw_befundbericht_kinder/p3.png",
+   "cache/pruefung/fsw_befundbericht_kinder/p4.png",
+   "cache/pruefung/fsw_befundbericht_kinder/p5.png",
+   "cache/pruefung/fsw_befundbericht_kinder/p6.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "85e54bacc4b01f1a",
+  "ok": true
+ }
+}

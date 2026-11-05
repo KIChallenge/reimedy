@@ -1,0 +1,81 @@
+{
+ "formular_id": "bvaeb_bb7ad8f6dc",
+ "name": "AnhangStfK5AN_01.01.2021",
+ "traeger": "BVAEB",
+ "sha256": "0c1c0d29e41f5df2829935059caa212afb20a91219e768c8c90b1b7504838111",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.741720&version=1610025900",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    63.7,
+    250.7,
+    554.3,
+    263.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer (für allfällige Rückfragen):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    245.6,
+    371.1,
+    352.6,
+    383.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "▸ hat ihre/seine Ausbildung am",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 1,
+  "bilder": [
+   "cache/pruefung/bvaeb_bb7ad8f6dc/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "44ffdaaea9e722f9",
+  "ok": true
+ }
+}

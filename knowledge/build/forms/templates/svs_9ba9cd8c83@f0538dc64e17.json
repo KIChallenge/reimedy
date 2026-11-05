@@ -1,0 +1,307 @@
+{
+ "formular_id": "svs_9ba9cd8c83",
+ "name": "PDF (0.1MB) – Formulare & Anträge",
+ "traeger": "SVS",
+ "sha256": "f0538dc64e1757605d63c8d49154d9a4a62ce860ff55341f7843e99133d87cf9",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.796178&version=1751520316",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    57.4,
+    222.7,
+    339.8,
+    235.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel, Familienname, Vorname (hauptversichert)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    340.3,
+    222.7,
+    424.5,
+    235.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    425.0,
+    222.7,
+    537.9,
+    235.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.4,
+    253.1,
+    339.8,
+    265.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Titel, Familienname, Vorname (hauptversichert)",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    340.3,
+    253.1,
+    424.5,
+    265.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefon",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    425.0,
+    253.1,
+    537.9,
+    265.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    342.5,
+    68.1,
+    352.8
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "mich",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    182.5,
+    378.0,
+    538.6,
+    390.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "meinen Angehörigen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    379.8,
+    68.1,
+    390.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "meinen Angehörigen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    148.2,
+    409.2,
+    396.9,
+    421.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "mit der VSNR",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "feld_id": "f01_009",
+   "semantik": "person.svnr",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    57.7,
+    485.8,
+    68.1,
+    496.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Chemo-/Strahlentherapie mit Behandlungsbeginn",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_010",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    356.1,
+    483.9,
+    538.6,
+    496.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Chemo-/Strahlentherapie mit Behandlungsbeginn ab",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_011",
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/svs_9ba9cd8c83/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": [
+    {
+     "feld": "Anna Berger / Titel, Familienname, Vorname (hauptversichert)",
+     "problem": "Wert steht im korrekten Feld, aber derselbe Wert ist auch ein zweites Mal oben im identischen Kopfbereich eingefügt (Doppelbefüllung).",
+     "schwer": false
+    },
+    {
+     "feld": "+43 1 2345678 / Telefon",
+     "problem": "Wert steht im korrekten Feld, aber derselbe Wert ist auch ein zweites Mal oben im identischen Kopfbereich eingefügt (Doppelbefüllung).",
+     "schwer": false
+    },
+    {
+     "feld": "1234140348 / Versicherungsnummer",
+     "problem": "Wert steht im korrekten Feld, aber derselbe Wert ist auch ein zweites Mal oben im identischen Kopfbereich eingefügt (Doppelbefüllung).",
+     "schwer": false
+    }
+   ]
+  },
+  "fp": "09a079aab5a30a75",
+  "ok": true
+ }
+}

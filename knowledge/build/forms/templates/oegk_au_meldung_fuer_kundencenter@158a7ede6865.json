@@ -1,0 +1,193 @@
+{
+ "formular_id": "oegk_au_meldung_fuer_kundencenter",
+ "name": "AU Meldung für Kundencenter",
+ "traeger": "ÖGK",
+ "sha256": "158a7ede6865016607d5e90bf570405cb6d0af45811d0aec33adf86bf5965f86",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.734169&version=1585216876",
+ "pages": 1,
+ "page_sizes": [
+  [
+   419.5,
+   297.6
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    94.1,
+    62.0,
+    387.2,
+    74.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    29.6,
+    91.9,
+    140.5,
+    110.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienhnamen",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    151.6,
+    96.8,
+    389.8,
+    109.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "und Vorname",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    129.5,
+    136.4,
+    391.2,
+    148.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "ist AU gemeldet von",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    47.9,
+    176.0,
+    190.4,
+    188.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "seit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    194.7,
+    202.4,
+    391.2,
+    214.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Letzter Tag der Arbeitsunfähigkeit",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    115.3,
+    253.4,
+    390.3,
+    265.9
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Stempel und Unterschrift der Ärztin/des Arztes, die/der die Arbeitsfähigkeit festgestellt hat",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": null,
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/oegk_au_meldung_fuer_kundencenter/p1.png"
+  ],
+  "vision": {
+   "ok": false,
+   "probleme": [
+    {
+     "feld": "Versicherte/r",
+     "problem": "Blaueingabe steht im falschen Feld; passt nicht zum Label/Feldinhalt der Wohnadresse.",
+     "schwer": true
+    },
+    {
+     "feld": "Anna",
+     "problem": "Blaueingabe steht im Feld 'Wohnadresse' statt in einem passenden Vorname-Feld.",
+     "schwer": true
+    }
+   ]
+  },
+  "fp": "d39afbb6bb30da35",
+  "ok": false
+ }
+}

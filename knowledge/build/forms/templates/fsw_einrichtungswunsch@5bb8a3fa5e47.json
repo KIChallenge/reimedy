@@ -1,0 +1,367 @@
+{
+ "formular_id": "fsw_einrichtungswunsch",
+ "name": "FSW Beilage Einrichtungswunsch Wohn- und Pflegehäuser",
+ "traeger": "FSW",
+ "sha256": "5bb8a3fa5e4730e96beb50ae4fee5fc3865164347df13794151737ddf4fc40fd",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Einrichtungswunsch.pdf",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname KundIn",
+   "acro_name": "Familienname KundIn",
+   "page": 0,
+   "bbox": [
+    29.8,
+    196.3,
+    294.7,
+    222.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname des:der Kunden:Kundin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname KundIn",
+   "acro_name": "Vorname KundIn",
+   "page": 0,
+   "bbox": [
+    301.8,
+    196.3,
+    565.5,
+    222.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname des:der Kunden:Kundin",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum KundIn 3",
+   "acro_name": "Geburtsdatum KundIn 3",
+   "page": 0,
+   "bbox": [
+    29.8,
+    240.1,
+    145.5,
+    266.4
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum des:der Kunden:Kundin (Bitte geben Sie Tag, Monat und Jahr an) Beispiel 31.01.1972",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dringend 4",
+   "acro_name": "Dringend 4",
+   "page": 0,
+   "bbox": [
+    29.8,
+    359.3,
+    47.8,
+    377.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich möchte dringend in eine Einrichtung einziehen. Der FSW soll in ganz Wien nach einem Wohn- und Pflegeplatz suchen. ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich einem möchte Wohn- dringend und Pflegeplatz in eine Einrichtung suchen. einziehen. Der FSW soll in ganz",
+     "bbox": [
+      29.8,
+      359.3,
+      47.8,
+      377.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezirke dringend 4",
+   "acro_name": "Bezirke dringend 4",
+   "page": 0,
+   "bbox": [
+    50.5,
+    395.9,
+    565.5,
+    577.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Folgende Bezirke sind mir am liebsten:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Zeit 4",
+   "acro_name": "Zeit 4",
+   "page": 0,
+   "bbox": [
+    29.8,
+    593.0,
+    47.8,
+    611.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Ich habe Zeit, auf einen bestimmten Wohn- und Pflegeplatz zu warten. ",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "Ich habe Zeit, auf einen bestimmten Wohn- und Pflegeplatz zu warten.",
+     "bbox": [
+      29.8,
+      593.0,
+      47.8,
+      611.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezirke Zeit 4",
+   "acro_name": "Bezirke Zeit 4",
+   "page": 0,
+   "bbox": [
+    50.5,
+    626.3,
+    565.5,
+    808.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ich möchte nur in folgende Bezirke oder Einrichtungen ziehen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kontaktaufnahme mit mir 3",
+   "acro_name": "Kontaktaufnahme mit mir 3",
+   "page": 1,
+   "bbox": [
+    29.8,
+    86.1,
+    47.8,
+    104.1
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sobald ein Wohnplatz oder Pflegeplatz für mich frei wird, soll das FSW-Kund:innenservice mit mir Kontakt aufnehmen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "mit mir",
+     "bbox": [
+      29.8,
+      86.1,
+      47.8,
+      104.1
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kontaktaufnahme folgende Person 3",
+   "acro_name": "Kontaktaufnahme folgende Person 3",
+   "page": 1,
+   "bbox": [
+    29.8,
+    109.3,
+    47.8,
+    127.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Sobald ein Wohnplatz oder Pflegeplatz für mich frei wird, soll das FSW-Kund:innenservice Kontakt mit folgender Person aufnehmen:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ja",
+     "label": "mit folgender Person:",
+     "bbox": [
+      29.8,
+      109.3,
+      47.8,
+      127.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name Kontaktaufnahme 3",
+   "acro_name": "Name Kontaktaufnahme 3",
+   "page": 1,
+   "bbox": [
+    30.1,
+    145.1,
+    295.5,
+    171.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name der Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.name_voll",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Kontaktaufnahme 4",
+   "acro_name": "Telefonnummer Kontaktaufnahme 4",
+   "page": 1,
+   "bbox": [
+    30.1,
+    190.3,
+    295.7,
+    216.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail Adresse Kontaktaufnahme 4",
+   "acro_name": "E-Mail Adresse Kontaktaufnahme 4",
+   "page": 1,
+   "bbox": [
+    300.6,
+    190.3,
+    565.5,
+    216.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse Kontaktperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "vertreter.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum 3",
+   "acro_name": "Datum 3",
+   "page": 1,
+   "bbox": [
+    31.1,
+    265.3,
+    172.3,
+    306.1
+   ],
+   "typ": "datum",
+   "label_wörtlich": "aktuelles Datum",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/fsw_einrichtungswunsch/p1.png",
+   "cache/pruefung/fsw_einrichtungswunsch/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "ce1609e1a387cb76",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "ce1609e1a387cb76",
+  "ok": true
+ }
+}

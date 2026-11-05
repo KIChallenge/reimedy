@@ -1,0 +1,512 @@
+{
+ "formular_id": "fsw_antrag_beilage_angehoerige",
+ "name": "Beilage Angehörige für Leistungen Pflege und Betreuung, Vollbetreutes Wohnen, Pflegegeldergänzungsleistung für Persönliche Assistenz",
+ "traeger": "FSW",
+ "sha256": "94d5606f1d14ef3a1e35b4de97a1fadd386774c5546bbcd45a3d16aafa5c78f0",
+ "version_url": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Angehoerige.pdf",
+ "pages": 3,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Familienname Kundin 2",
+   "acro_name": "Familienname Kundin 2",
+   "page": 0,
+   "bbox": [
+    30.0,
+    299.7,
+    294.6,
+    326.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Kundin 2",
+   "acro_name": "Vorname Kundin 2",
+   "page": 0,
+   "bbox": [
+    302.0,
+    299.7,
+    565.8,
+    326.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Kund:in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum Kundin 2",
+   "acro_name": "Geburtsdatum Kundin 2",
+   "page": 0,
+   "bbox": [
+    30.0,
+    345.2,
+    145.7,
+    371.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Kund:in (Bitte geben Sie Tag, Monat und Jahr an) Beispiel 31.01.1972",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Status Angehoerige",
+   "acro_name": "Status Angehoerige",
+   "page": 0,
+   "bbox": [
+    29.7,
+    495.7,
+    47.7,
+    539.0
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Status",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Ich#20muss#20dem:der#20Angehoerigen#20Unterhalt#20zahlen.",
+     "label": "Ich muss dem:der Angehörigen Unterhalt zahlen.",
+     "bbox": [
+      29.7,
+      495.7,
+      47.7,
+      513.7
+     ]
+    },
+    {
+     "wert": "Ich#20bekomme#20Unterhalt#20von#20dem:der#20Angehoerigen.",
+     "label": "Ich bekomme Unterhalt von dem:der Angehörigen.",
+     "bbox": [
+      29.7,
+      521.0,
+      47.7,
+      539.0
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beziehung zur Kundin  2",
+   "acro_name": "Beziehung zur Kundin  2",
+   "page": 0,
+   "bbox": [
+    30.0,
+    557.4,
+    565.8,
+    583.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche Beziehung hat der:die Angehörige zu Ihnen? Zum Beispiel Partner:in, Kind",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Familienname Angehoerige 2",
+   "acro_name": "Familienname Angehoerige 2",
+   "page": 0,
+   "bbox": [
+    30.0,
+    623.2,
+    294.6,
+    649.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Familienname Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname Angehoerige 2",
+   "acro_name": "Vorname Angehoerige 2",
+   "page": 0,
+   "bbox": [
+    303.5,
+    623.2,
+    565.8,
+    649.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorname Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geschlecht Angehoerige",
+   "acro_name": "Geschlecht Angehoerige",
+   "page": 0,
+   "bbox": [
+    29.9,
+    664.5,
+    292.7,
+    683.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Geschlecht Angehörige:r",
+   "max_zeichen": null,
+   "format": "enum",
+   "optionen": [
+    {
+     "wert": "maennlich",
+     "label": "männlich",
+     "bbox": [
+      29.9,
+      664.5,
+      47.9,
+      682.5
+     ],
+     "wert_semantik": "männlich"
+    },
+    {
+     "wert": "weiblich",
+     "label": "weiblich",
+     "bbox": [
+      98.7,
+      665.3,
+      116.7,
+      683.4
+     ],
+     "wert_semantik": "weiblich"
+    },
+    {
+     "wert": "divers#2Finter#2Foffen",
+     "label": "divers/inter/offen",
+     "bbox": [
+      175.0,
+      665.3,
+      193.0,
+      683.4
+     ],
+     "wert_semantik": "divers"
+    },
+    {
+     "wert": "keine#20Angabe",
+     "label": "keine Angabe",
+     "bbox": [
+      274.7,
+      665.3,
+      292.7,
+      683.3
+     ]
+    }
+   ],
+   "semantik": "person.geschlecht",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geburtsdatum Angehoerige 2",
+   "acro_name": "Geburtsdatum Angehoerige 2",
+   "page": 0,
+   "bbox": [
+    30.0,
+    722.1,
+    145.7,
+    748.5
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Geburtsdatum Angehörige:r (Bitte geben Sie Tag, Monat und Jahr an) Beispiel 31.01.1972",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "person.geburtsdatum",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer Angehoerige 2",
+   "acro_name": "Telefonnummer Angehoerige 2",
+   "page": 0,
+   "bbox": [
+    30.0,
+    785.5,
+    294.6,
+    811.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer Angehörige:r",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E-Mail-Adresse Angehoerige 2",
+   "acro_name": "E-Mail-Adresse Angehoerige 2",
+   "page": 0,
+   "bbox": [
+    302.1,
+    785.5,
+    565.8,
+    811.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "E-Mail-Adresse Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Strassenname der Adresse Angehoerige 2",
+   "acro_name": "Strassenname der Adresse Angehoerige 2",
+   "page": 1,
+   "bbox": [
+    36.6,
+    55.1,
+    339.6,
+    81.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Strassenname der Adresse Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.strasse",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Hausnr Angehoerige 2",
+   "acro_name": "Hausnr Angehoerige 2",
+   "page": 1,
+   "bbox": [
+    351.0,
+    55.1,
+    397.1,
+    81.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Hausnummer der Adresse Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.hausnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Stiege Angehoerige 2",
+   "acro_name": "Stiege Angehoerige 2",
+   "page": 1,
+   "bbox": [
+    409.6,
+    55.1,
+    455.7,
+    81.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Stiege der Adresse Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.stiege",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tuernr Angehoerige 2",
+   "acro_name": "Tuernr Angehoerige 2",
+   "page": 1,
+   "bbox": [
+    468.6,
+    55.1,
+    514.7,
+    81.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Türnummer der Adresse Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.tuer",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ Angehoerige 2",
+   "acro_name": "PLZ Angehoerige 2",
+   "page": 1,
+   "bbox": [
+    36.6,
+    96.9,
+    140.7,
+    123.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Postleitzahl der Adresse Angehörige:r",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort Angehoerige 2",
+   "acro_name": "Ort Angehoerige 2",
+   "page": 1,
+   "bbox": [
+    150.2,
+    96.9,
+    338.0,
+    123.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort der Adresse Angehörige:r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Einkommen",
+   "acro_name": "Einkommen",
+   "page": 1,
+   "bbox": [
+    36.8,
+    170.8,
+    55.0,
+    425.9
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Einkommen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Der:die#20Angehoerige#20hat#20ein#20Einkommen.",
+     "label": "Der:die Angehörige hat ein Einkommen.",
+     "bbox": [
+      37.0,
+      170.8,
+      55.0,
+      188.8
+     ]
+    },
+    {
+     "wert": "Der:die#20Angehoerige#20hat#20kein#20Einkommen.",
+     "label": "Der:die Angehörige hat kein Einkommen.",
+     "bbox": [
+      36.8,
+      407.9,
+      54.9,
+      425.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 15,
+  "bilder": [
+   "cache/pruefung/fsw_antrag_beilage_angehoerige/p1.png",
+   "cache/pruefung/fsw_antrag_beilage_angehoerige/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "61aa687a06b8c998",
+  "ok": true
+ }
+}

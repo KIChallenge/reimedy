@@ -1,0 +1,695 @@
+{
+ "formular_id": "bvaeb_82e5d4f0a4",
+ "name": "Berufskrankheitenmeldung",
+ "traeger": "BVAEB",
+ "sha256": "7d63ef132be08db02d5fd8e4d997a22a1512fdb715311d27e1e84df6ecc87a0b",
+ "version_url": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729223&version=1743757728",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Versicherungsnummer",
+   "acro_name": "Versicherungsnummer",
+   "page": 0,
+   "bbox": [
+    199.3,
+    268.4,
+    536.4,
+    286.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": null,
+   "format": "NNNNTTMMJJ",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name",
+   "acro_name": "Name",
+   "page": 0,
+   "bbox": [
+    199.3,
+    287.7,
+    536.4,
+    304.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wohnadresse",
+   "acro_name": "Wohnadresse",
+   "page": 0,
+   "bbox": [
+    199.9,
+    306.1,
+    535.8,
+    347.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Wohnadresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer",
+   "acro_name": "Telefonnummer",
+   "page": 0,
+   "bbox": [
+    199.3,
+    348.8,
+    536.4,
+    366.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezeichnung",
+   "acro_name": "Bezeichnung",
+   "page": 0,
+   "bbox": [
+    199.3,
+    402.4,
+    536.4,
+    420.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bezeichnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unternehmen.name",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse",
+   "acro_name": "Adresse",
+   "page": 0,
+   "bbox": [
+    199.9,
+    422.3,
+    535.8,
+    467.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unternehmen.name",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art des Betriebs Branche",
+   "acro_name": "Art des Betriebs Branche",
+   "page": 0,
+   "bbox": [
+    199.3,
+    469.0,
+    536.4,
+    486.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art des Betriebs (Branche)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "DienstArbeitsstätte",
+   "acro_name": "DienstArbeitsstätte",
+   "page": 0,
+   "bbox": [
+    199.3,
+    487.7,
+    536.4,
+    505.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dienst-/Arbeitsstätte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_2",
+   "acro_name": "Adresse_2",
+   "page": 0,
+   "bbox": [
+    199.9,
+    507.2,
+    535.8,
+    549.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ausgeübte Tätigkeit zB Tischler",
+   "acro_name": "Ausgeübte Tätigkeit zB Tischler",
+   "page": 0,
+   "bbox": [
+    199.7,
+    591.9,
+    536.0,
+    620.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ausgeübte Tätigkeit (z.B. Tischler)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.beruf",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art der Beschäftigung Beamter Vertragsbediensteter Lehrling etc",
+   "acro_name": "Art der Beschäftigung Beamter Vertragsbediensteter Lehrling etc",
+   "page": 0,
+   "bbox": [
+    199.9,
+    622.4,
+    535.8,
+    677.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art der Beschäftigung (Beamter, Vertragsbediensteter, Lehrling, etc.)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Laufende Nummer",
+   "acro_name": "Laufende Nummer",
+   "page": 1,
+   "bbox": [
+    199.2,
+    91.0,
+    536.5,
+    105.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Laufende Nummer:",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bezeichnung_2",
+   "acro_name": "Bezeichnung_2",
+   "page": 1,
+   "bbox": [
+    199.2,
+    106.0,
+    536.5,
+    120.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Bezeichnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Subjektive Beschwerden",
+   "acro_name": "Subjektive Beschwerden",
+   "page": 1,
+   "bbox": [
+    199.3,
+    121.3,
+    536.4,
+    139.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Subjektive Beschwerden",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beginn der Erkrankung",
+   "acro_name": "Beginn der Erkrankung",
+   "page": 1,
+   "bbox": [
+    199.3,
+    140.5,
+    536.4,
+    158.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beginn der Erkrankung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Beschreibung sonstiger berufsbezogener Erkrankungen",
+   "acro_name": "Beschreibung sonstiger berufsbezogener Erkrankungen",
+   "page": 1,
+   "bbox": [
+    199.9,
+    159.7,
+    535.8,
+    203.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Beschreibung sonstiger berufsbezogener Erkrankungen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Genaue Beschreibung der Tätigkeit welche die Berufskrankheit verursacht haben kann",
+   "acro_name": "Genaue Beschreibung der Tätigkeit welche die Berufskrankheit verursacht haben kann",
+   "page": 1,
+   "bbox": [
+    51.2,
+    220.9,
+    536.2,
+    246.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Genaue Beschreibung der Tätigkeit, welche die Berufskrankheit verursacht haben kann._Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Dauer dieser Tätigkeit",
+   "acro_name": "Dauer dieser Tätigkeit",
+   "page": 1,
+   "bbox": [
+    199.3,
+    247.3,
+    536.4,
+    264.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Dauer dieser Tätigkeit",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Welche gesundheitsgefährdenden Einwirkungen bzw Stoffe werden am Arbeitsplatz vermutet",
+   "acro_name": "Welche gesundheitsgefährdenden Einwirkungen bzw Stoffe werden am Arbeitsplatz vermutet",
+   "page": 1,
+   "bbox": [
+    51.1,
+    281.7,
+    536.3,
+    301.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Welche gesundheitsgefährdenden Einwirkungen bzw. Stoffe werden am Arbeitsplatz vermutet?_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorliegende berufskrankheitsspezifische Untersuchungsbefunde",
+   "acro_name": "Vorliegende berufskrankheitsspezifische Untersuchungsbefunde",
+   "page": 1,
+   "bbox": [
+    51.2,
+    319.3,
+    536.2,
+    344.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorliegende berufskrankheitsspezifische Untersuchungsbefunde_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile1",
+   "acro_name": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile1",
+   "page": 1,
+   "bbox": [
+    51.0,
+    383.9,
+    536.4,
+    401.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandelnde Ärztinnen/Ärzte und Einrichtungen inkl. Anschrift und Behandlungszeitraum_Row_1",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile2",
+   "acro_name": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile2",
+   "page": 1,
+   "bbox": [
+    51.8,
+    402.7,
+    536.9,
+    423.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandelnde Ärztinnen/Ärzte und Einrichtungen inkl. Anschrift und Behandlungszeitraum_Row_2",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile3",
+   "acro_name": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile3",
+   "page": 1,
+   "bbox": [
+    51.1,
+    424.4,
+    536.3,
+    444.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandelnde Ärztinnen/Ärzte und Einrichtungen inkl. Anschrift und Behandlungszeitraum_Row_3",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile4",
+   "acro_name": "Behandelnde ÄrztinnenÄrzte und Einrichtungen inkl Anschrift und BehandlungszeitraumZeile4",
+   "page": 1,
+   "bbox": [
+    51.1,
+    445.6,
+    536.3,
+    465.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandelnde Ärztinnen/Ärzte und Einrichtungen inkl. Anschrift und Behandlungszeitraum_Row_4",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name_Meldende/r Ärztin/Arzt",
+   "acro_name": "Name_Meldende/r Ärztin/Arzt",
+   "page": 1,
+   "bbox": [
+    199.4,
+    502.5,
+    537.8,
+    521.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse_Meldende/r Ärztin/Arzt",
+   "acro_name": "Adresse_Meldende/r Ärztin/Arzt",
+   "page": 1,
+   "bbox": [
+    199.9,
+    523.6,
+    537.4,
+    567.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Kontoinhaberin  Bankverbindung_Meldende/r Ärztin/Arzt",
+   "acro_name": "Kontoinhaberin  Bankverbindung_Meldende/r Ärztin/Arzt",
+   "page": 1,
+   "bbox": [
+    199.6,
+    568.3,
+    537.7,
+    594.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Kontoinhaber/in / Bankverbindung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorgesetzte bzw Vorgesetzter inkl Funktion",
+   "acro_name": "Vorgesetzte bzw Vorgesetzter inkl Funktion",
+   "page": 1,
+   "bbox": [
+    199.6,
+    631.6,
+    537.7,
+    657.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Vorgesetzte bzw. Vorgesetzter inkl. Funktion",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ansprechperson für Rückfragen",
+   "acro_name": "Ansprechperson für Rückfragen",
+   "page": 1,
+   "bbox": [
+    199.6,
+    658.9,
+    537.7,
+    684.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ansprechperson für Rückfragen",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tel der Ansprechperson",
+   "acro_name": "Tel der Ansprechperson",
+   "page": 1,
+   "bbox": [
+    199.3,
+    686.0,
+    538.0,
+    704.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tel. der Ansprechperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Erstellungsdatum",
+   "acro_name": "Erstellungsdatum",
+   "page": 1,
+   "bbox": [
+    199.3,
+    705.3,
+    538.0,
+    723.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Erstellungsdatum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "arzt.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "arzt",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 7,
+  "bilder": [
+   "cache/pruefung/bvaeb_82e5d4f0a4/p1.png",
+   "cache/pruefung/bvaeb_82e5d4f0a4/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "b4e9a56cbd6bc2aa",
+  "ok": true
+ }
+}

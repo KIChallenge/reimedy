@@ -1,0 +1,374 @@
+{
+ "formular_id": "oegk_fahrtkosten_wien",
+ "name": "Antrag auf Zuschuss zu Fahrtkosten (Wien)",
+ "traeger": "ÖGK",
+ "sha256": "60b5a65fff292df62bb3f1f6d947ff97eafb226ac9886476f74f721a1e405830",
+ "version_url": "https://www.oegk.at/cdscontent/load?contentid=10008.777900&version=1785415038",
+ "pages": 2,
+ "page_sizes": [
+  [
+   595.6,
+   842.0
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Patient/in",
+   "acro_name": "Patient/in",
+   "page": 0,
+   "bbox": [
+    72.5,
+    168.1,
+    396.0,
+    189.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Patient/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.name_voll_umgekehrt",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Versicherungsnummer1",
+   "acro_name": "Versicherungsnummer1",
+   "page": 0,
+   "bbox": [
+    397.2,
+    167.8,
+    539.5,
+    189.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Adresse",
+   "acro_name": "Adresse",
+   "page": 0,
+   "bbox": [
+    72.3,
+    206.0,
+    538.9,
+    227.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "pflicht": true,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true
+  },
+  {
+   "feld_id": "Versicherte/r",
+   "acro_name": "Versicherte/r",
+   "page": 0,
+   "bbox": [
+    72.7,
+    244.8,
+    396.2,
+    266.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherte/r",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "versicherte_person.name_voll_umgekehrt",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Versicherungsnummer2",
+   "acro_name": "Versicherungsnummer2",
+   "page": 0,
+   "bbox": [
+    397.4,
+    244.5,
+    539.7,
+    266.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Versicherungsnummer",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "versicherte_person.svnr",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Behandler/in",
+   "acro_name": "Behandler/in",
+   "page": 0,
+   "bbox": [
+    71.7,
+    279.5,
+    538.3,
+    300.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Behandler/in",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Art der Behandlung",
+   "acro_name": "Art der Behandlung",
+   "page": 0,
+   "bbox": [
+    71.3,
+    314.8,
+    538.0,
+    334.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Art der Behandlung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "review",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Transportmittel",
+   "acro_name": "Transportmittel",
+   "page": 0,
+   "bbox": [
+    74.4,
+    354.1,
+    275.8,
+    378.6
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Privater PKW",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Auswahl1",
+     "label": "Öffentliches Verkehrsmittel",
+     "bbox": [
+      74.5,
+      354.3,
+      85.3,
+      365.0
+     ]
+    },
+    {
+     "wert": "Auswahl2",
+     "label": "Taxi",
+     "bbox": [
+      265.1,
+      354.1,
+      275.8,
+      364.9
+     ]
+    },
+    {
+     "wert": "Auswahl3",
+     "label": "Privater PKW",
+     "bbox": [
+      74.4,
+      367.9,
+      85.2,
+      378.6
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Tatsächliche Kosten",
+   "acro_name": "Tatsächliche Kosten",
+   "page": 0,
+   "bbox": [
+    368.5,
+    364.7,
+    446.2,
+    380.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Tatsächliche Kosten",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Begleitperson",
+   "acro_name": "Begleitperson",
+   "page": 0,
+   "bbox": [
+    169.2,
+    387.0,
+    180.2,
+    411.4
+   ],
+   "typ": "radio",
+   "label_wörtlich": "Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "Auswahl1",
+     "label": "Ja",
+     "bbox": [
+      169.4,
+      387.0,
+      180.2,
+      397.7
+     ]
+    },
+    {
+     "wert": "Auswahl2",
+     "label": "Nein",
+     "bbox": [
+      169.2,
+      400.6,
+      180.0,
+      411.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Grund",
+   "acro_name": "Grund",
+   "page": 0,
+   "bbox": [
+    361.2,
+    381.0,
+    539.1,
+    417.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Grund für eine Begleitung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "IBAN",
+   "acro_name": "IBAN",
+   "page": 0,
+   "bbox": [
+    102.2,
+    431.6,
+    417.5,
+    450.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "IBAN",
+   "max_zeichen": 20,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort/Datum",
+   "acro_name": "Ort/Datum",
+   "page": 0,
+   "bbox": [
+    125.9,
+    740.2,
+    298.0,
+    762.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Ort/Datum",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "ort_datum.heute",
+   "semantik_herkunft": "goldstandard_b5",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm+sichtpruefung",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 6,
+  "bilder": [
+   "cache/pruefung/oegk_fahrtkosten_wien/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "e2f3914aee47e404",
+  "sicht": {
+   "ok": true,
+   "am": "2026-11-05",
+   "notiz": "Sichtprüfung (Claude, Render-Bilder 05.11.2026): Werte in den passenden Feldern, keine Überlappung, Arzt-/Unterschrift-/Medizin-/Bank-Felder leer"
+  },
+  "sicht_fp": "e2f3914aee47e404",
+  "ok": true
+ }
+}

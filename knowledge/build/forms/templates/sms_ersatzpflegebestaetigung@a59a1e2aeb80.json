@@ -1,0 +1,60 @@
+{
+ "formular_id": "sms_ersatzpflegebestaetigung",
+ "name": "Ersatzpflegebestaetigung",
+ "traeger": "Sozialministeriumservice",
+ "sha256": "a59a1e2aeb80f3180544a83ec09055723765384a1aecc5702c21b88047b3c858",
+ "version_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegende_Angehoerige/Ersatzpflegebestaetigung.pdf",
+ "pages": 1,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    271.7,
+    502.8,
+    524.5,
+    515.3
+   ],
+   "typ": "text",
+   "label_wörtlich": ",",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 0,
+  "bilder": [
+   "cache/pruefung/sms_ersatzpflegebestaetigung/p1.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "8fd4e90e7f8d73c4",
+  "ok": true
+ }
+}

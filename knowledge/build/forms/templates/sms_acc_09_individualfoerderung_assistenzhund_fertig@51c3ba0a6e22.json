@@ -1,0 +1,1402 @@
+{
+ "formular_id": "sms_acc_09_individualfoerderung_assistenzhund_fertig",
+ "name": "ANTRAG auf ANSCHAFFUNG EINES ASSISTENZHUNDES",
+ "traeger": "Sozialministeriumservice",
+ "sha256": "51c3ba0a6e22a9704cd725bb62f3871d836e3acc15f312ec818667c1b3df917b",
+ "version_url": "https://www.sozialministeriumservice.gv.at/Downloads/ACC_-_09_individualfoerderung_Assistenzhund_fertig.pdf",
+ "pages": 6,
+ "page_sizes": [
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "acroform",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "feld_id": "Blindenführhundes",
+   "acro_name": "Blindenführhundes",
+   "page": 0,
+   "bbox": [
+    57.4,
+    288.8,
+    69.8,
+    301.3
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Blindenführhundes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Blindenführhundes",
+     "bbox": [
+      57.4,
+      288.8,
+      69.8,
+      301.3
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Signalhundes",
+   "acro_name": "Signalhundes",
+   "page": 0,
+   "bbox": [
+    57.4,
+    308.9,
+    69.8,
+    321.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Signalhundes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Signalhundes",
+     "bbox": [
+      57.4,
+      308.9,
+      69.8,
+      321.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Servicehundes",
+   "acro_name": "Servicehundes",
+   "page": 0,
+   "bbox": [
+    57.4,
+    328.9,
+    69.8,
+    341.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Servicehundes",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Servicehundes",
+     "bbox": [
+      57.4,
+      328.9,
+      69.8,
+      341.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FamilienNachname:",
+   "acro_name": "FamilienNachname:",
+   "page": 0,
+   "bbox": [
+    204.9,
+    452.8,
+    530.5,
+    472.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Familien-/Nachname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.familienname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Vorname:",
+   "acro_name": "Vorname:",
+   "page": 0,
+   "bbox": [
+    204.8,
+    473.3,
+    530.5,
+    492.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Vorname",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.vorname",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "männlich",
+   "acro_name": "männlich",
+   "page": 0,
+   "bbox": [
+    208.4,
+    499.7,
+    220.9,
+    512.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "männlich",
+     "bbox": [
+      208.4,
+      499.7,
+      220.9,
+      512.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "weiblich",
+   "acro_name": "weiblich",
+   "page": 0,
+   "bbox": [
+    270.8,
+    499.7,
+    283.3,
+    512.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Wählen Sie einen oder mehrere Werte",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "weiblich",
+     "bbox": [
+      270.8,
+      499.7,
+      283.3,
+      512.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Sozialversicherungsnummer:",
+   "acro_name": "Sozialversicherungsnummer:",
+   "page": 0,
+   "bbox": [
+    212.2,
+    520.4,
+    357.1,
+    543.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Sozialversicherungsnummer",
+   "max_zeichen": 10,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "person.svnr",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Staatsbürgerschaft:",
+   "acro_name": "Staatsbürgerschaft:",
+   "page": 0,
+   "bbox": [
+    204.6,
+    545.2,
+    530.3,
+    564.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Staatsbürgerschaft",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "person.staatsbuergerschaft",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Adresse:",
+   "acro_name": "Adresse:",
+   "page": 0,
+   "bbox": [
+    205.1,
+    565.7,
+    530.8,
+    584.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Adresse",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "PLZ:",
+   "acro_name": "PLZ:",
+   "page": 0,
+   "bbox": [
+    205.1,
+    585.3,
+    245.3,
+    604.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen PLZ",
+   "max_zeichen": null,
+   "format": "NNNN",
+   "optionen": null,
+   "semantik": "adresse.plz",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort 1",
+   "acro_name": "Ort 1",
+   "page": 0,
+   "bbox": [
+    283.1,
+    586.2,
+    530.8,
+    605.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Ort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer 1",
+   "acro_name": "Telefonnummer 1",
+   "page": 0,
+   "bbox": [
+    205.1,
+    606.8,
+    530.8,
+    626.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FaxNummer:",
+   "acro_name": "FaxNummer:",
+   "page": 0,
+   "bbox": [
+    205.1,
+    627.4,
+    530.8,
+    646.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Fax-Nummer",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "EMail 1",
+   "acro_name": "EMail 1",
+   "page": 0,
+   "bbox": [
+    205.1,
+    647.9,
+    530.8,
+    667.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen E-Mail",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Bei der (Bank):",
+   "acro_name": "Bei der (Bank):",
+   "page": 1,
+   "bbox": [
+    176.4,
+    78.2,
+    499.6,
+    98.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Bei der (Bank)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "bank.institut",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Lautend auf (Name der kontoführenden Person):",
+   "acro_name": "Lautend auf (Name der kontoführenden Person):",
+   "page": 1,
+   "bbox": [
+    175.7,
+    127.2,
+    499.6,
+    147.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Eingeben Lautend auf (Name der kontoführenden Person)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein",
+   "acro_name": "Geben Sie Ihre IBAN ein",
+   "page": 1,
+   "bbox": [
+    101.9,
+    161.9,
+    157.7,
+    182.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie den ISO-Ländercode plus Kontrollnummern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (2)",
+   "acro_name": "Geben Sie Ihre IBAN ein (2)",
+   "page": 1,
+   "bbox": [
+    165.3,
+    161.9,
+    221.2,
+    182.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die erste Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (3)",
+   "acro_name": "Geben Sie Ihre IBAN ein (3)",
+   "page": 1,
+   "bbox": [
+    228.7,
+    161.8,
+    284.6,
+    182.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die zweite Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (4)",
+   "acro_name": "Geben Sie Ihre IBAN ein (4)",
+   "page": 1,
+   "bbox": [
+    292.1,
+    161.9,
+    348.1,
+    182.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die erste Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Geben Sie Ihre IBAN ein (5)",
+   "acro_name": "Geben Sie Ihre IBAN ein (5)",
+   "page": 1,
+   "bbox": [
+    355.8,
+    161.9,
+    411.6,
+    182.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die vierte Gruppe von 4 Ziffern ein",
+   "max_zeichen": 4,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.iban",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BIC",
+   "acro_name": "BIC",
+   "page": 1,
+   "bbox": [
+    94.6,
+    208.9,
+    211.1,
+    229.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen BIC",
+   "max_zeichen": 8,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.bic",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BIC 2",
+   "acro_name": "BIC 2",
+   "page": 1,
+   "bbox": [
+    219.6,
+    208.9,
+    262.6,
+    230.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Geben Sie die zweite Gruppe von 3 Ziffern ein",
+   "max_zeichen": 3,
+   "format": "kaestchen_pro_zeichen",
+   "optionen": null,
+   "semantik": "bank.bic",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Firmenbezeichnung:",
+   "acro_name": "Firmenbezeichnung:",
+   "page": 1,
+   "bbox": [
+    192.1,
+    280.9,
+    530.8,
+    300.1
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Firmenbezeichnung",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Firmenanschrift:",
+   "acro_name": "Firmenanschrift:",
+   "page": 1,
+   "bbox": [
+    192.1,
+    301.4,
+    530.8,
+    320.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Firmenanschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ansprechperson:",
+   "acro_name": "Ansprechperson:",
+   "page": 1,
+   "bbox": [
+    192.1,
+    322.0,
+    530.8,
+    341.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Ansprechperson",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Telefonnummer 2",
+   "acro_name": "Telefonnummer 2",
+   "page": 1,
+   "bbox": [
+    192.1,
+    342.5,
+    530.8,
+    361.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Telefonnummer",
+   "max_zeichen": null,
+   "format": "E.164 oder national",
+   "optionen": null,
+   "semantik": "kontakt.telefon",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "E- Mail 2",
+   "acro_name": "E- Mail 2",
+   "page": 1,
+   "bbox": [
+    192.0,
+    363.1,
+    530.6,
+    382.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen E- Mail",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "kontakt.email",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Der Gesamtgrad der Behinderung beträgt:",
+   "acro_name": "Der Gesamtgrad der Behinderung beträgt:",
+   "page": 1,
+   "bbox": [
+    259.9,
+    429.8,
+    287.5,
+    444.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Gesamtgrad der Behinderung beträgt: %",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "medizinisch.angaben",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Festgestellt von:",
+   "acro_name": "Festgestellt von:",
+   "page": 1,
+   "bbox": [
+    56.8,
+    481.3,
+    531.3,
+    503.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Festgestellt von",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "ART DER GESUNDHEITSSCHÄDIGUNG",
+   "acro_name": "ART DER GESUNDHEITSSCHÄDIGUNG",
+   "page": 1,
+   "bbox": [
+    56.8,
+    553.7,
+    531.3,
+    598.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen ART DER GESUNDHEITSSCHÄDIGUNG",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "DETAILLIERTE BESCHREIBUNG DES VORHABENS UND BEGRÜNDUNG",
+   "acro_name": "DETAILLIERTE BESCHREIBUNG DES VORHABENS UND BEGRÜNDUNG",
+   "page": 1,
+   "bbox": [
+    56.9,
+    648.4,
+    526.8,
+    760.6
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen DETAILLIERTE BESCHREIBUNG DES VORHABENS UND BEGRÜNDUNG",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FirmaRow 1",
+   "acro_name": "FirmaRow 1",
+   "page": 2,
+   "bbox": [
+    57.6,
+    147.6,
+    339.4,
+    168.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Firma",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "DatumRow 1",
+   "acro_name": "DatumRow 1",
+   "page": 2,
+   "bbox": [
+    341.2,
+    147.6,
+    431.4,
+    168.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BetragRow 1",
+   "acro_name": "BetragRow 1",
+   "page": 2,
+   "bbox": [
+    433.2,
+    147.6,
+    530.8,
+    168.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Betrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "FirmaRow 2",
+   "acro_name": "FirmaRow 2",
+   "page": 2,
+   "bbox": [
+    57.6,
+    170.2,
+    339.4,
+    191.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Firma",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "DatumRow 2",
+   "acro_name": "DatumRow 2",
+   "page": 2,
+   "bbox": [
+    341.2,
+    170.2,
+    431.4,
+    191.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BetragRow 2",
+   "acro_name": "BetragRow 2",
+   "page": 2,
+   "bbox": [
+    433.2,
+    170.2,
+    530.8,
+    191.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Betrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Gesamtkosten €",
+   "acro_name": "Gesamtkosten €",
+   "page": 2,
+   "bbox": [
+    143.3,
+    205.9,
+    228.3,
+    220.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Gesamtkosten: €",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja 1",
+   "acro_name": "Ja 1",
+   "page": 2,
+   "bbox": [
+    410.2,
+    275.8,
+    422.6,
+    288.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ja",
+     "bbox": [
+      410.2,
+      275.8,
+      422.6,
+      288.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nein 1",
+   "acro_name": "Nein 1",
+   "page": 2,
+   "bbox": [
+    450.2,
+    275.8,
+    462.7,
+    288.2
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nein",
+     "bbox": [
+      450.2,
+      275.8,
+      462.7,
+      288.2
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja 2",
+   "acro_name": "Ja 2",
+   "page": 2,
+   "bbox": [
+    411.7,
+    340.9,
+    424.2,
+    353.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ja",
+     "bbox": [
+      411.7,
+      340.9,
+      424.2,
+      353.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nein 2",
+   "acro_name": "Nein 2",
+   "page": 2,
+   "bbox": [
+    449.5,
+    340.9,
+    462.0,
+    353.4
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nein",
+     "bbox": [
+      449.5,
+      340.9,
+      462.0,
+      353.4
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Wenn ja, bei welchen Stellen?",
+   "acro_name": "Wenn ja, bei welchen Stellen?",
+   "page": 2,
+   "bbox": [
+    56.9,
+    382.8,
+    531.4,
+    444.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Wenn ja, bei welchen Stellen?",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja 3",
+   "acro_name": "Ja 3",
+   "page": 2,
+   "bbox": [
+    283.9,
+    459.2,
+    296.4,
+    471.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ja",
+     "bbox": [
+      283.9,
+      459.2,
+      296.4,
+      471.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nein 3",
+   "acro_name": "Nein 3",
+   "page": 2,
+   "bbox": [
+    317.2,
+    459.2,
+    329.6,
+    471.7
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nein",
+     "bbox": [
+      317.2,
+      459.2,
+      329.6,
+      471.7
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "auszahlende StelleRow 1",
+   "acro_name": "auszahlende StelleRow 1",
+   "page": 2,
+   "bbox": [
+    57.7,
+    529.3,
+    343.7,
+    554.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Eingeben auszahlende Stelle",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BetragRow 3",
+   "acro_name": "BetragRow 3",
+   "page": 2,
+   "bbox": [
+    345.7,
+    529.3,
+    530.6,
+    554.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Betrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "auszahlende StelleRow 2",
+   "acro_name": "auszahlende StelleRow 2",
+   "page": 2,
+   "bbox": [
+    57.7,
+    555.6,
+    343.7,
+    580.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen auszahlende Stelle",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "BetragRow 4",
+   "acro_name": "BetragRow 4",
+   "page": 2,
+   "bbox": [
+    345.7,
+    555.6,
+    530.6,
+    580.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Betrag",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ja 4",
+   "acro_name": "Ja 4",
+   "page": 4,
+   "bbox": [
+    57.4,
+    97.4,
+    69.8,
+    109.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Ja",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Ja",
+     "bbox": [
+      57.4,
+      97.4,
+      69.8,
+      109.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Nein 5",
+   "acro_name": "Nein 5",
+   "page": 4,
+   "bbox": [
+    90.6,
+    97.4,
+    103.1,
+    109.9
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "Aktivieren Sie dieses Kontrollkästchen für Nein",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": [
+    {
+     "wert": "On",
+     "label": "Nein",
+     "bbox": [
+      90.6,
+      97.4,
+      103.1,
+      109.9
+     ]
+    }
+   ],
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Ort 2",
+   "acro_name": "Ort 2",
+   "page": 4,
+   "bbox": [
+    52.4,
+    164.4,
+    107.4,
+    178.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Ort",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "adresse.ort",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Datum",
+   "acro_name": "Datum",
+   "page": 4,
+   "bbox": [
+    110.2,
+    164.3,
+    243.1,
+    178.7
+   ],
+   "typ": "datum",
+   "label_wörtlich": "Einfügen Datum (TT/MM/JJJJ)",
+   "max_zeichen": null,
+   "format": "TT.MM.JJJJ",
+   "optionen": null,
+   "semantik": "datum.heute",
+   "semantik_herkunft": "regel",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Unterschrift",
+   "acro_name": "Unterschrift",
+   "page": 4,
+   "bbox": [
+    263.0,
+    164.3,
+    526.2,
+    178.7
+   ],
+   "typ": "unterschrift",
+   "label_wörtlich": "Einfügen Unterschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": "unterschrift.person",
+   "semantik_herkunft": "regel",
+   "wer": "unterschrift",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "feld_id": "Name in Blockschrift",
+   "acro_name": "Name in Blockschrift",
+   "page": 4,
+   "bbox": [
+    262.9,
+    210.9,
+    526.4,
+    225.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "Einfügen Name in Blockschrift",
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 14,
+  "bilder": [
+   "cache/pruefung/sms_acc_09_individualfoerderung_assistenzhund_fertig/p1.png",
+   "cache/pruefung/sms_acc_09_individualfoerderung_assistenzhund_fertig/p2.png",
+   "cache/pruefung/sms_acc_09_individualfoerderung_assistenzhund_fertig/p3.png",
+   "cache/pruefung/sms_acc_09_individualfoerderung_assistenzhund_fertig/p5.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "faba663444e2d001",
+  "ok": true
+ }
+}

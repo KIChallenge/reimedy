@@ -1,0 +1,384 @@
+{
+ "formular_id": "svs_7678bec1e2",
+ "name": "Ansässigkeitsbescheinigung",
+ "traeger": "SVS",
+ "sha256": "e496fd2e5f3b245cfe902c4dbac2cec7d7859c0f02887836eccca15f8d72cc2d",
+ "version_url": "https://www.svs.at/cdscontent/load?contentid=10008.728385&version=1735772195",
+ "pages": 3,
+ "page_sizes": [
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.0,
+   842.0
+  ],
+  [
+   595.3,
+   841.9
+  ]
+ ],
+ "quelle": "generiert",
+ "wer_fuellt_aus": "versicherte",
+ "felder": [
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    199.2,
+    538.3,
+    211.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "between Austria and",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_000",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    56.9,
+    230.4,
+    538.3,
+    242.9
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des anderen Vertragsstaates / Name of the other Contracting State",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_001",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.6,
+    268.2,
+    544.0,
+    280.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "Information on the recipient of income",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_002",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.6,
+    378.7,
+    544.0,
+    391.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Reference number",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_003",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.6,
+    435.3,
+    544.0,
+    447.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Full address of the taxpayer`s residence:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_004",
+   "semantik": "adresse.voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    324.0,
+    461.8,
+    333.2,
+    471.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "ja / yes",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_005",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    406.1,
+    461.8,
+    415.3,
+    471.0
+   ],
+   "typ": "checkbox",
+   "label_wörtlich": "nein / no",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_006",
+   "semantik": null,
+   "semantik_herkunft": null,
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.6,
+    472.3,
+    544.0,
+    484.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Is a permanent home available in Austria?",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_007",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 0,
+   "bbox": [
+    317.6,
+    557.2,
+    544.0,
+    569.7
+   ],
+   "typ": "text",
+   "label_wörtlich": "in other foreign countries, please specify.",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f01_008",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.5,
+    76.5,
+    538.1,
+    89.0
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name / name",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_009",
+   "semantik": "person.name_voll",
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": true,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    317.6,
+    222.8,
+    544.0,
+    235.3
+   ],
+   "typ": "text",
+   "label_wörtlich": "(full name and full address of the debtor):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_010",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    317.6,
+    270.9,
+    544.0,
+    283.4
+   ],
+   "typ": "text",
+   "label_wörtlich": "Type of income (e.g. royalties, lecturing fees):",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_011",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    62.5,
+    327.7,
+    317.2,
+    340.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "Amount of income liable to withholding tax under domes-",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_012",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    317.6,
+    327.7,
+    544.0,
+    340.2
+   ],
+   "typ": "text",
+   "label_wörtlich": "tic law:",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_013",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    68.3,
+    459.0,
+    532.6,
+    471.5
+   ],
+   "typ": "text",
+   "label_wörtlich": "accordance with the Double Taxation Convention concluded between Austria and",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_014",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  },
+  {
+   "page": 1,
+   "bbox": [
+    68.3,
+    490.3,
+    532.6,
+    502.8
+   ],
+   "typ": "text",
+   "label_wörtlich": "Name des Ansässigkeitsstaates / Name of the State of residece",
+   "acro_name": null,
+   "max_zeichen": null,
+   "format": null,
+   "optionen": null,
+   "feld_id": "f02_015",
+   "semantik": null,
+   "semantik_herkunft": "llm",
+   "wer": "versicherte",
+   "michi_fuellt": false,
+   "pflicht": false
+  }
+ ],
+ "nicht_moeglich": null,
+ "geprueft": {
+  "methode": "geometrie+vision_llm",
+  "am": "2026-11-05",
+  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+ },
+ "pruefung": {
+  "am": "2026-11-05",
+  "geometrie_ok": true,
+  "befunde": [],
+  "n_gefuellt": 2,
+  "bilder": [
+   "cache/pruefung/svs_7678bec1e2/p1.png",
+   "cache/pruefung/svs_7678bec1e2/p2.png"
+  ],
+  "vision": {
+   "ok": true,
+   "probleme": []
+  },
+  "fp": "4f447cfe365c3506",
+  "ok": true
+ }
+}
