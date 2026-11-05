@@ -329,9 +329,11 @@ def test_forms_endpunkte_ohne_und_mit_modul(tmp_path, monkeypatch):
     (fd / "forms_api.py").write_text(
         "def ontologie(): return {'keys': ['person.vorname']}\n"
         "def template(fid, nur_geprueft=True): return {'formular_id': fid, 'geprueft': True} if fid == 'x' else None\n"
-        "def empfaenger(fid, plz=None, traeger=None): return {'formular_id': fid, 'plz': plz}\n"
+        "def empfaenger(fid, plz=None, traeger=None): return {'formular_id': fid, 'plz': plz, 'kandidaten': ['pva', 'svs']}\n"
         "def pdf(fid): return (b'%PDF', 'application/pdf', fid + '.pdf') if fid == 'x' else None\n")
     assert L.forms_ontologie()["keys"] == ["person.vorname"]
     assert L.formular_template("x")["geprueft"] and L.formular_template("y")["status"] == 404
-    assert L.formular_empfaenger("x", plz="1030")["plz"] == "1030"
+    e = L.formular_empfaenger("x", plz="9020")
+    assert e["plz"] == "9020" and e["zustaendig_je_traeger"]["pva"]["stelle_id"] == "pva_k"
+    assert e["zustaendig_je_traeger"]["svs"]["name"] == "SVS-Kundencenter Kärnten" and e["rueckfragen"]
     assert L.formular_pdf("x")[2] == "x.pdf"

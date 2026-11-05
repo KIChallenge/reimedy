@@ -593,7 +593,34 @@ class Lotse:
         if not f:
             return self._nf("Empfänger")
         e = f.empfaenger(formular_id, plz=plz, traeger=traeger)
-        return self._envelope(e) if e else self._envelope({"error": f"kein Empfänger für '{formular_id}'", "status": 404})
+        if not e:
+            return self._envelope({"error": f"kein Empfänger für '{formular_id}'", "status": 404})
+        # Zuständigkeit je Kandidat-Träger aus dem Träger-Register der DB (einzige Quelle); additiv zu forms_api.zustaendig
+        if plz or e.get("bundesland"):
+            je = {}
+            for tid in e.get("kandidaten") or ([e["traeger_id"]] if e.get("traeger_id") else []):
+                r = self.traeger(tid, plz=plz, bundesland=None if plz else e.get("bundesland"))["traeger"]
+                if not r:
+                    je[tid] = {"status": "unbekannt", "grund": "Träger nicht im Register"}
+                    continue
+                z = dict(r[0].get("zustaendig") or {})
+                st = z.pop("stelle", None)
+                if st:
+                    z["stelle_id"], z["name"] = st.get("id"), st.get("name")
+                    z["post_adresse"] = ", ".join(x for x in (st.get("adresse"), " ".join(y for y in (st.get("plz"), st.get("ort")) if y)) if x) or None
+                    z.update({k: st[k] for k in ("telefon", "email", "url", "hinweis") if st.get(k)})
+                elif z.get("status") == "zentrale":
+                    zt = r[0].get("zentrale") or {}
+                    z["post_adresse"] = ", ".join(x for x in (zt.get("adresse"), " ".join(y for y in (zt.get("plz"), zt.get("ort")) if y)) if x) or None
+                    z.update({k: zt[k] for k in ("telefon", "email", "url") if zt.get(k)})
+                je[tid] = z
+            e["zustaendig_je_traeger"] = je
+            if len(je) > 1:
+                e.setdefault("rueckfragen", [])
+                if not any("Pension" in str(x) or "Träger" in str(x) for x in e["rueckfragen"]):
+                    e["rueckfragen"].append("Welcher Träger zahlt die Pension bzw. ist zuständig? (" + ", ".join(je) + ")")
+            e["zustaendig_quelle"] = "lotse.sqlite traeger/traeger_stellen"
+        return self._envelope(e)
 
     def formular_pdf(self, formular_id: str):
         """(bytes, content_type, filename) der AcroForm-angereicherten Kopie, sonst ('redirect', url) auf die geprüfte Live-URL, sonst None."""
