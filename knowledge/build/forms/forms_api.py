@@ -207,6 +207,13 @@ def empfaenger(formular_id: str, plz: str | None = None, traeger: str | None = N
     elif e["aufloesung"] == "unbekannt":
         zust = {"status": "siehe_formular", "adresse_im_formular": e.get("adresse_im_formular")}
     out["zustaendig"] = zust
+    if bl:  # je Kandidat-Träger nur die Stelle im Bundesland der PLZ (Rückfrage „Wer zahlt die Pension?“ reicht dann)
+        je = {}
+        for k in e.get("kandidaten") or []:
+            s = _stellen()["traeger"].get(k, {}).get("landesstellen", {}).get(bl)
+            je[k] = s["id"] if s else None
+        out["stellen_je_traeger"] = je
+        out["stelle_ids"] = [x for x in je.values() if x]
     out["rueckfragen"] = rueckfragen
     out["versand"] = {"mock_endpoint": f"/mock-traeger/{tid}/eingang" if tid else None,
                       "hinweis": "Demo: Versand nur über die Mock-Träger-API bzw. Mailpit, nie an echte Adressen."}

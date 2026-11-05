@@ -163,6 +163,8 @@ def test_empfaenger_regeln():
     e = F.empfaenger("pva_pal080", plz="1030")
     assert e["traeger_id"] == "pva" and e["zustaendig"]["stelle"]["stelle_id"] == "pva_w"
     assert e["aufloesung"] == "auszahlende_stelle" and e["rueckfragen"]
+    assert e["stellen_je_traeger"]["pva"] == "pva_w" and e["stellen_je_traeger"]["svs"] == "svs_w"
+    assert e["stellen_je_traeger"]["bvaeb"].startswith("bvaeb:") and len(e["stelle_ids"]) == 3
     assert F.empfaenger("pva_pal080", plz="8010", traeger="SVS")["zustaendig"]["stelle"]["stelle_id"] == "svs_st"
     e = F.empfaenger("oegk_fahrtkosten_wien", plz="1030")
     assert e["zustaendig"]["stelle"]["stelle_id"] == "oegk_w" and "1100 Wien" in e["zustaendig"]["stelle"]["post_adresse"]
