@@ -561,9 +561,40 @@ class Lotse:
 
 
 # ---------------------------------------------------------------------- HTTP
+def _built_at(path: Path):
+    try:
+        c = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+        r = c.execute("SELECT value FROM meta WHERE key='built_at'").fetchone()
+        c.close()
+        return r[0] if r else None
+    except sqlite3.Error:
+        return None
+
+
+def ensure_db(db: Path = DB_PATH) -> str:
+    """Container: DB_PATH liegt auf dem Volume. Ist es leer oder die im Image gebaute DB neuer (Redeploy mit neuen Daten),
+    wird die Image-DB atomar dorthin kopiert. Ein neuerer nächtlicher Stand im Volume bleibt unangetastet."""
+    import shutil
+    bundled = BUILD / "lotse.sqlite"
+    if db.resolve() == bundled.resolve() or not bundled.exists():
+        return "lokal"
+    vb, bb = _built_at(db) if db.exists() else None, _built_at(bundled)
+    if vb and (not bb or vb >= bb):
+        return f"volume ({vb})"
+    db.parent.mkdir(parents=True, exist_ok=True)
+    tmp = db.with_suffix(".sqlite.seed")
+    shutil.copy2(bundled, tmp)
+    tmp.replace(db)
+    for f in ("build_report.json", "snapshot.json", "graph.json"):
+        if (BUILD / f).exists() and not (db.parent / f).exists():
+            shutil.copy2(BUILD / f, db.parent / f)
+    return f"aus Image übernommen ({bb}, Volume hatte {vb})"
+
+
 def serve(port=8765, db=DB_PATH, host=None):
     import os
     host = host or os.environ.get("HOST", "127.0.0.1")
+    print(f"DB: {ensure_db(db)}")
     holder = {"lotse": Lotse(db), "mtime": db.stat().st_mtime}
 
     def lotse():

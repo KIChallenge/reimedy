@@ -237,3 +237,25 @@ def test_query_synonyme():
     assert "Rezeptgebühr" in expand_query("Die Medikamente sind so teuer", regeln)
     assert expand_query("Zahnspange Kind", regeln) == ["Kieferorthopädie", "Zahnspange"]
     assert expand_query("Wie hoch ist die Rezeptgebühr?", regeln) == []
+
+
+def test_db_path_env_und_health(tmp_path, monkeypatch):
+    import search as S
+    _, L = build(tmp_path)
+    h = L.health()
+    assert h["db"] == "t.sqlite" and not str(h).count(str(tmp_path))  # keine absoluten lokalen Pfade
+    # Volume leer → Image-DB wird übernommen; Volume neuer → bleibt
+    vol = tmp_path / "vol" / "lotse.sqlite"
+    monkeypatch.setattr(S, "BUILD", tmp_path)
+    (tmp_path / "lotse.sqlite").write_bytes((tmp_path / "t.sqlite").read_bytes())
+    assert "Image" in S.ensure_db(vol) and vol.exists()
+    assert S.ensure_db(vol).startswith("volume")
+
+
+def test_formular_unbekannte_leistung_keine_kante(tmp_path):
+    s = make_sources(tmp_path)
+    w(s / "src_f/out/formulare.jsonl", [{"formular_id": "fsw_test_formular", "name": "x",
+                                         "leistung_ids": ["mobile_pflege_fsw", "fsw_foerderung_pflege_betreuung"]}])
+    rep = build_db.build(tmp_path / "f.sqlite", s, quiet=True, embeddings=False, links_dir=tmp_path / "nolinks")
+    assert not [e for e in rep["leistungen"]["kanten_ins_leere"] if e[0] == "fsw_foerderung_pflege_betreuung"]
+    assert "fsw_test_formular→fsw_foerderung_pflege_betreuung" in rep["leistungen"]["formular_leistung_ids_unbekannt"]

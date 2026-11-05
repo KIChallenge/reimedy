@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-05T20:57:38+00:00",
+ "built_at": "2026-11-05T20:58:36+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -24720,13 +24720,6 @@
    "typ": "antrag_formular",
    "source_id": "linkcheck,pva,seed,svbox_local",
    "dangling": 0
-  },
-  {
-   "von": "fsw_foerderung_pflege_betreuung",
-   "nach": "fsw_antrag_foerderung",
-   "typ": "antrag_formular",
-   "source_id": "fsw,linkcheck,seed,svbox_local",
-   "dangling": 1
   },
   {
    "von": "mobile_fruehfoerderung_wien",

@@ -42,6 +42,18 @@ API: `GET /health` · `GET /search?q=` · `GET /leistung/<id>` · `GET /stellen?
 
 Docker: `docker build -t sv-knowledgebase . && docker run -p 8765:8765 sv-knowledgebase`
 
+**Betrieb im Container (Volume, nächtliches Update ohne Redeploy):**
+
+| Env | Default | Zweck |
+|---|---|---|
+| `DB_PATH` | `knowledge/build/lotse.sqlite` | Live-DB, im Container auf dem Volume, z. B. `/data/lotse.sqlite` |
+| `STATE_DIR` | Ordner von `DB_PATH` | snapshot, build_report, changes/, review_queue, misses, logs (überleben Redeploys) |
+| `HOST` / `PORT` | `127.0.0.1` / `8765` | HTTP-Service |
+
+- Beim Start übernimmt `search.py --serve` die im Image gebaute DB ins Volume, wenn das Volume leer oder älter ist (`meta.built_at`). Ein neuerer nächtlicher Stand bleibt erhalten.
+- Nachts (Coolify Scheduled Task): `DB_PATH=/data/lotse.sqlite python knowledge/build/update.py`. Der Lauf baut `/data/lotse.sqlite.new`, prüft die Gates und tauscht atomar. Die laufende API lädt beim nächsten Request neu (mtime).
+- `/health` gibt keine absoluten lokalen Pfade aus.
+
 ## Grenzen
 
 Kein Medizinprodukt. Die Wissensbasis enthält keine Diagnose-, Befund-, Risiko- oder Therapieaussagen. ICD-, ATC- und EKO-Daten dienen nur der administrativen Zuordnung. Leistungsangaben sind Kandidaten mit Quelle; über einen Anspruch entscheidet der zuständige Träger.
