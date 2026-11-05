@@ -1,1 +1,49 @@
-# reimedy
+# reimedy · SV-Wissensbasis
+
+Die Wissensbasis hinter dem **SV KI-Lotsen** (Team reimedy, SV KI-Challenge 2026, Use Case 1). Sie enthält Leistungen, Voraussetzungen, Zuständigkeiten, Formulare mit geprüften Live-Links, Stellen und Einrichtungen sowie Rechtsgrundlagen. Alles ist mit Quelle und Stand-Datum belegt und wird als HTTP-Service angeboten.
+
+> Die Lotse-Anwendung (App, Gespräch, Vaults, ELGA) liegt in einem separaten Repository und ruft diesen Service per HTTP auf. Personendaten (ELGA, Befunde, Uploads) sind **nicht** Teil der Wissensbasis.
+
+## Inhalt
+
+| Quelle (`knowledge/sources/<id>`) | Was |
+|---|---|
+| `oegk`, `svs`, `bvaeb`, `pva` | Leistungen, Formulare und Kundenservice der Träger |
+| `aek_wien` | Kassen-Seiten der Ärztekammer Wien |
+| `fsw` | Fonds Soziales Wien: Pflege, Betreuung, Förderanträge |
+| `sozialministeriumservice` | Behindertenpass, 24-h-Betreuung, Unterstützungsfonds |
+| `gesundheit_gv` | gesundheit.gv.at und pflege.gv.at: Vorsorge, Impfplan, System-Navigation |
+| `oesterreich_gv` | oesterreich.gv.at: Lebenslagen Gesundheit, Soziales, Familie, Pension |
+| `sozdok_ris` | 14.244 SozDok-Paragrafen (SV-Box) plus Abgleich mit der RIS OGD API |
+| `svbox_local` | SV-Box: ÖGK-Leistungsbroschüre 2026, Honorarordnungen, Erstattungskodex (nur administrativ), Formulare |
+| `reimedy_kb` | reimedy Knowledge-DB: ICD-10-AT, SNOMED-Fachrichtungen, Träger (nur administrativ, keine Deutung) |
+| `wien_ogd` | Stadt Wien OGD: Ärzt:innen, Apotheken, PVE, Spitäler und Pflegehäuser mit Koordinaten (CC BY 4.0) |
+
+Datenformat: [`knowledge/CONTRACT.md`](knowledge/CONTRACT.md). Architektur und Technologie-Entscheidungen: [`knowledge/ARCHITEKTUR.md`](knowledge/ARCHITEKTUR.md). Die SV-Box-Originale liegen unter `_Source/`.
+
+## Technik
+
+- **SQLite** als eine Datei, im Betrieb nur lesend. Die Suche kombiniert **FTS5** (bm25) und **sqlite-vec** mit dem lokalen Modell `minishlab/potion-multilingual-128M` per RRF zu einer Hybrid-Suche. Gesucht wird auf Deutsch; der Lotse übersetzt andere Sprachen vorher.
+- **Leistungsgraph:** Leistungen, Abhängigkeiten (`setzt_voraus` …) und Claims mit Quelle und Stand. Zuerst wird der Graph befragt, die Volltextsuche dient als Fallback.
+- **Live-Links:** Jede ausgelieferte URL ist geprüft (`geprueft_am`). Formular-PDFs sind versioniert (sha256, AcroForm-Felder).
+- **Updates:** `ingest.py` läuft je Quelle inkrementell (ETag, Last-Modified, sha256). Danach folgen Build, Linkcheck und Qualitäts-Gates, zuletzt wird die DB atomar getauscht.
+
+## Nutzung
+
+```bash
+uv sync
+uv run python knowledge/build/build_db.py            # DB bauen (~15 s)
+uv run pytest -q knowledge/build/test_build.py        # Tests
+uv run python knowledge/build/search.py --serve       # HTTP-API auf :8765
+uv run python knowledge/build/update.py               # Ingest → Build → Linkcheck → Gates → Swap
+```
+
+API: `GET /health` · `GET /search?q=` · `GET /leistung/<id>` · `GET /stellen?plz=&typ=&leistung_id=` · `GET /formular/<id>` · `POST /triggers` · `GET /codes/...` · `POST /codes/hints`
+
+Docker: `docker build -t sv-knowledgebase . && docker run -p 8765:8765 sv-knowledgebase`
+
+## Grenzen
+
+Kein Medizinprodukt. Die Wissensbasis enthält keine Diagnose-, Befund-, Risiko- oder Therapieaussagen. ICD-, ATC- und EKO-Daten dienen nur der administrativen Zuordnung. Leistungsangaben sind Kandidaten mit Quelle; über einen Anspruch entscheidet der zuständige Träger.
+
+**Rechte:** Die Texte von gesundheit.gv.at stehen unter „alle Rechte vorbehalten“. Sie werden nur als zitierbare Quelle mit Link genutzt, und nur in diesem privaten Hackathon-Repository. Lizenzhinweise je Quelle stehen in `knowledge/sources/*/SOURCE.md`.
