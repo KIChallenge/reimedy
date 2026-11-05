@@ -259,3 +259,31 @@ def test_formular_unbekannte_leistung_keine_kante(tmp_path):
     rep = build_db.build(tmp_path / "f.sqlite", s, quiet=True, embeddings=False, links_dir=tmp_path / "nolinks")
     assert not [e for e in rep["leistungen"]["kanten_ins_leere"] if e[0] == "fsw_foerderung_pflege_betreuung"]
     assert "fsw_test_formular→fsw_foerderung_pflege_betreuung" in rep["leistungen"]["formular_leistung_ids_unbekannt"]
+
+
+def test_http_stellen_leistung_und_leistung_id(tmp_path, monkeypatch):
+    """API-Vertrag: /stellen akzeptiert leistung UND leistung_id (README/Client nutzen leistung_id)."""
+    import json as _json
+    import socket
+    import threading
+    import time
+    import urllib.request
+    import search as S
+    _, _L = build(tmp_path)
+    monkeypatch.setattr(S, "BUILD", tmp_path / "kein_image")  # ensure_db: nichts kopieren
+    with socket.socket() as so:
+        so.bind(("127.0.0.1", 0))
+        port = so.getsockname()[1]
+    threading.Thread(target=S.serve, kwargs={"port": port, "db": tmp_path / "t.sqlite"}, daemon=True).start()
+    base = f"http://127.0.0.1:{port}"
+    for _ in range(50):
+        try:
+            urllib.request.urlopen(base + "/health", timeout=1)
+            break
+        except OSError:
+            time.sleep(0.1)
+    ids = {}
+    for param in ("leistung", "leistung_id"):
+        d = _json.load(urllib.request.urlopen(f"{base}/stellen?plz=1030&{param}=mobile_pflege_fsw", timeout=3))
+        ids[param] = [s["stelle_id"] for s in d["stellen"]]
+    assert ids["leistung"] == ids["leistung_id"] == ["fsw_beratungszentrum_pflege"]

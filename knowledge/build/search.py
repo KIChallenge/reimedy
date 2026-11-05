@@ -629,7 +629,7 @@ def serve(port=8765, db=DB_PATH, host=None):
             if m := re.fullmatch(r"/leistung/([a-z0-9_]+)", p):
                 return self._send(L.get_leistung(m[1], q.get("claims", "1") == "1"))
             if p == "/stellen":
-                return self._send(L.stellen_near(q.get("plz"), q.get("typ"), q.get("leistung"), int(q.get("limit", 10)),
+                return self._send(L.stellen_near(q.get("plz"), q.get("typ"), q.get("leistung_id") or q.get("leistung"), int(q.get("limit", 10)),
                                                  float(q["lat"]) if q.get("lat") else None, float(q["lon"]) if q.get("lon") else None))
             if m := re.fullmatch(r"/formular/([A-Za-z0-9_\-]+)", p):
                 return self._send(L.formular(m[1]))
