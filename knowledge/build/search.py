@@ -549,6 +549,58 @@ class Lotse:
                                "hinweis": "Kandidaten zum Prüfen (z. B. Zuständigkeit, Antrag) – kein Anspruch, keine medizinische Aussage. "
                                           + self.CODE_HINWEIS})
 
+    # ------------------------------------------------------------------ Formular-Templates/Empfänger (§8.1.5, Modul von kb-forms)
+    @staticmethod
+    def _forms():
+        """knowledge/build/forms/forms_api.py (kb-forms). Fehlt es, antworten die Endpunkte mit 404 'noch nicht verfügbar'."""
+        import importlib
+        fdir = BUILD / "forms"
+        if not (fdir / "forms_api.py").exists():
+            return None
+        if str(fdir) not in sys.path:
+            sys.path.insert(0, str(fdir))
+        try:
+            mod = sys.modules.get("forms_api") or importlib.import_module("forms_api")
+            m = (fdir / "forms_api.py").stat().st_mtime
+            if getattr(mod, "_lotse_mtime", m) != m:
+                mod = importlib.reload(mod)
+            mod._lotse_mtime = m
+            return mod
+        except Exception:
+            return None
+
+    def _nf(self, what):
+        return self._envelope({"error": f"{what} noch nicht verfügbar", "status": 404})
+
+    def forms_ontologie(self) -> dict:
+        f = self._forms()
+        return self._envelope(f.ontologie()) if f else self._nf("Feld-Ontologie")
+
+    def formular_template(self, formular_id: str, nur_geprueft: bool = True) -> dict:
+        f = self._forms()
+        if not f:
+            return self._nf("Formular-Templates")
+        t = f.template(formular_id) if nur_geprueft else f.template(formular_id, nur_geprueft=False)
+        return self._envelope(t) if t else self._envelope({"error": f"kein {'geprüftes ' if nur_geprueft else ''}Template für '{formular_id}'", "status": 404})
+
+    def formular_empfaenger(self, formular_id: str, plz: str | None = None, traeger: str | None = None) -> dict:
+        f = self._forms()
+        if not f:
+            return self._nf("Empfänger")
+        e = f.empfaenger(formular_id, plz=plz, traeger=traeger)
+        return self._envelope(e) if e else self._envelope({"error": f"kein Empfänger für '{formular_id}'", "status": 404})
+
+    def formular_pdf(self, formular_id: str):
+        """(bytes, content_type, filename) der AcroForm-angereicherten Kopie, sonst ('redirect', url) auf die geprüfte Live-URL, sonst None."""
+        f = self._forms()
+        r = f.pdf(formular_id) if f else None
+        if r:
+            return r
+        k = self._formular_kurz(formular_id) or {}
+        if k.get("url_pdf") and not k.get("hinweis"):  # nur echte, geprüfte Datei-URL – nie auf eine Elternseite (HTML) umleiten
+            return ("redirect", k["url_pdf"])
+        return None
+
     # ------------------------------------------------------------------ Träger-Register (§8.1.4)
     def _url_kuratiert(self, url, stand):
         """Link-Regel; kuratierte Träger-URLs, die der Linkcheck (noch) nicht kennt, tragen den Kuratierungsstand."""
@@ -686,6 +738,35 @@ def serve(port=8765, db=DB_PATH, host=None):
             if p == "/stellen":
                 return self._send(L.stellen_near(q.get("plz"), q.get("typ"), q.get("leistung_id") or q.get("leistung"), int(q.get("limit", 10)),
                                                  float(q["lat"]) if q.get("lat") else None, float(q["lon"]) if q.get("lon") else None))
+            if p == "/forms/ontologie":
+                d = L.forms_ontologie()
+                return self._send(d, d.get("status", 200))
+            if m := re.fullmatch(r"/formular/([A-Za-z0-9_\-]+)/template", p):
+                d = L.formular_template(m[1], q.get("alle") != "1")
+                return self._send(d, d.get("status", 200))
+            if m := re.fullmatch(r"/formular/([A-Za-z0-9_\-]+)/empfaenger", p):
+                d = L.formular_empfaenger(m[1], q.get("plz"), q.get("traeger"))
+                return self._send(d, d.get("status", 200))
+            if m := re.fullmatch(r"/formular/([A-Za-z0-9_\-]+)/pdf", p):
+                r = L.formular_pdf(m[1])
+                if not r:
+                    k = L._formular_kurz(m[1]) or {}
+                    return self._send({"error": f"kein geprüftes PDF für '{m[1]}'",
+                                       **{x: k[x] for x in ("online_seite", "url_pdf", "local_pdf", "hinweis") if k.get(x)}}, 404)
+                if r[0] == "redirect":
+                    self.send_response(302)
+                    self.send_header("Location", r[1])
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    return
+                body, ctype, fname = r
+                self.send_response(200)
+                self.send_header("Content-Type", ctype or "application/pdf")
+                self.send_header("Content-Disposition", f'inline; filename="{fname}"')
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(body)
+                return
             if m := re.fullmatch(r"/formular/([A-Za-z0-9_\-]+)", p):
                 return self._send(L.formular(m[1]))
             if m := re.fullmatch(r"/code/([^/]+)/([^/]+)", p):

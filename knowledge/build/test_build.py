@@ -316,3 +316,22 @@ def test_kurz_einfach_override_und_varianten(tmp_path):
     assert "Glücksmomente" not in m["kurz_einfach"] and m["kurz_einfach_quelle"]
     assert L.get_leistung("angehoerigen_entlastung")["leistung_id"] == "pflegende_angehoerige_unterstuetzung"
     assert L.get_leistung("hausarzt_kontrolle")["leistung_id"] == "hausarzt_pve"
+
+
+def test_forms_endpunkte_ohne_und_mit_modul(tmp_path, monkeypatch):
+    import search as S
+    _, L = build(tmp_path)
+    monkeypatch.setattr(S, "BUILD", tmp_path)  # kein forms/ → 404 'noch nicht verfügbar'
+    assert L.forms_ontologie()["status"] == 404
+    assert L.formular_pdf("fsw_antrag_foerderung") is None  # toter PDF-Link → nie auf die Elternseite (HTML) umleiten
+    fd = tmp_path / "forms"
+    fd.mkdir()
+    (fd / "forms_api.py").write_text(
+        "def ontologie(): return {'keys': ['person.vorname']}\n"
+        "def template(fid, nur_geprueft=True): return {'formular_id': fid, 'geprueft': True} if fid == 'x' else None\n"
+        "def empfaenger(fid, plz=None, traeger=None): return {'formular_id': fid, 'plz': plz}\n"
+        "def pdf(fid): return (b'%PDF', 'application/pdf', fid + '.pdf') if fid == 'x' else None\n")
+    assert L.forms_ontologie()["keys"] == ["person.vorname"]
+    assert L.formular_template("x")["geprueft"] and L.formular_template("y")["status"] == 404
+    assert L.formular_empfaenger("x", plz="1030")["plz"] == "1030"
+    assert L.formular_pdf("x")[2] == "x.pdf"
