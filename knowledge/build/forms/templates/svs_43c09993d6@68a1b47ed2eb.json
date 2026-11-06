@@ -1109,7 +1109,7 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "Antragstellers / Berger",
+     "feld": "Antragstellers / Muster",
      "problem": "Wert steht im Feld der Antragsteller-Zeile, aber die Platzierung wirkt nicht sauber dem richtigen Beschriftungsfeld zugeordnet; außerdem mehrfacher Eintrag derselben Person in Kopfbereich",
      "schwer": false
     },
@@ -1124,7 +1124,7 @@
      "schwer": false
     },
     {
-     "feld": "Musterstraße 12/4",
+     "feld": "Hauptstraße 12/4",
      "problem": "Text ragt in angrenzende Zelle bzw. überdeckt den gedruckten Linien-/Feldbereich leicht",
      "schwer": false
     },
@@ -1134,7 +1134,7 @@
      "schwer": false
     },
     {
-     "feld": "Berger / Anna (Daten der zu pflegenden Person)",
+     "feld": "Muster / Erika (Daten der zu pflegenden Person)",
      "problem": "Diese Werte sind in den Abschnitt 'Daten der zu pflegenden Person' eingetragen; das ist eine andere Person/Tabelle als die antragstellende Person",
      "schwer": true
     }

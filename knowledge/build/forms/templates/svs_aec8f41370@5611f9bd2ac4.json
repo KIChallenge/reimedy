@@ -4726,7 +4726,7 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "VERSICHERTE PERSON / Berger Sandra",
+     "feld": "VERSICHERTE PERSON / Muster Petra",
      "problem": "Wert scheint in Kopf-/Zeilenbereich der Tabelle zu liegen und überdeckt bzw. berührt gedruckten Text.",
      "schwer": true
     },
@@ -4737,22 +4737,22 @@
     },
     {
      "feld": "Vorname (Seite 2, Vertreterin)",
-     "problem": "Der zweite Vorname-Eintrag 'Sandra' sitzt in der Zeile und wirkt korrekt, aber der doppelte Eintrag oben bei E-Mail/Zuordnung ist auffällig.",
+     "problem": "Der zweite Vorname-Eintrag 'Petra' sitzt in der Zeile und wirkt korrekt, aber der doppelte Eintrag oben bei E-Mail/Zuordnung ist auffällig.",
      "schwer": false
     },
     {
      "feld": "E-Mail (Seite 2)",
-     "problem": "Die blaue E-Mail 'sandra.berger@example.org' steht zusätzlich außerhalb des vorgesehenen Felds am unteren Rand der Sektion und überdeckt Layoutbereich.",
+     "problem": "Die blaue E-Mail 'petra.muster@example.org' steht zusätzlich außerhalb des vorgesehenen Felds am unteren Rand der Sektion und überdeckt Layoutbereich.",
      "schwer": true
     },
     {
-     "feld": "E-Mail / sandra.berger@example.org",
+     "feld": "E-Mail / petra.muster@example.org",
      "problem": "Zweiter E-Mail-Wert ist in den Bereich der nächsten Tabellenüberschrift geraten bzw. nicht sauber im E-Mail-Feld platziert.",
      "schwer": true
     },
     {
      "feld": "Antragstellerin / Vertreterin",
-     "problem": "Insgesamt sind Werte für Anna Berger und die Vertreterin Sandra Berger gemischt; die Seite 1 enthält 'Berger Sandra' statt klarer Zuordnung zur antragstellenden Person.",
+     "problem": "Insgesamt sind Werte für Erika Muster und die Vertreterin Petra Muster gemischt; die Seite 1 enthält 'Muster Petra' statt klarer Zuordnung zur antragstellenden Person.",
      "schwer": true
     }
    ]

@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-05T22:05:07+00:00",
+ "built_at": "2026-11-06T02:32:18+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -12556,11 +12556,6 @@
      "url": "_Source/Anträge und Formulare/fsw-antrag-auf-foerderung-von-leistungen.1779095804.pdf"
     },
     {
-     "source_id": "seed",
-     "stand": "2026-10",
-     "url": "_Source/Befunde/Entlassungsbefund.pdf#page=6"
-    },
-    {
      "source_id": "fsw",
      "stand": "2026-11-05T18:58:40Z",
      "url": "https://www.fsw.at/p/pflege-betreuung-daheim"
@@ -14062,11 +14057,6 @@
      "url": "_Source/Anträge und Formulare/PAL080_0125_Mpfl_052026.pdf"
     },
     {
-     "source_id": "seed",
-     "stand": "2026-10",
-     "url": "_Source/Befunde/Entlassungsbefund.pdf#page=6"
-    },
-    {
      "source_id": "pva",
      "stand": "2026-10-21",
      "url": "https://www.pv.at/web/pflegegeld"
@@ -14355,11 +14345,10 @@
      "text": "Pflegebedarf voraussichtlich mindestens 6 Monate"
     },
     {
-     "quelle_url": "_Source/Befunde/Entlassungsbefund.pdf#page=6",
+     "quelle_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008859",
      "source_id": "seed",
      "stand": "2026-11-05",
-     "text": "Kein automatischer Anspruch durch eine Diagnose",
-     "zitat": "Ein Anspruch ist nicht automatisch durch die Krebserkrankung gegeben"
+     "text": "Maßgeblich ist der Pflegebedarf, nicht eine bestimmte Diagnose"
     },
     {
      "quelle_url": "https://www.pv.at/web/pflegegeld",
@@ -17063,7 +17052,7 @@
      {
       "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25",
       "source_id": "seed",
-      "stand": "2026-10",
+      "stand": "2026-01-01",
       "value": {
        "formular_id": "antrag_reha_kur",
        "wo": "über Hausärztin/Facharzt einreichen"
@@ -17087,7 +17076,7 @@
      {
       "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25",
       "source_id": "seed",
-      "stand": "2026-10",
+      "stand": "2026-01-01",
       "value": "Ein Reha-Aufenthalt nach einer Krebsbehandlung, damit man wieder möglichst selbstständig leben kann. Muss vorher beantragt und ärztlich begründet werden."
      },
      {
@@ -17101,7 +17090,7 @@
      {
       "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25",
       "source_id": "seed",
-      "stand": "2026-10",
+      "stand": "2026-01-01",
       "value": "Onkologische Rehabilitation"
      },
      {
@@ -17115,8 +17104,8 @@
      {
       "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25",
       "source_id": "seed",
-      "stand": "2026-10",
-      "value": "Je nach Versichertenstatus Pensions- oder Krankenversicherung – im Entlassungsbrief ausdrücklich offen („zuständige Sozialversicherung zu klären“). Gemeinsames Antragsformular."
+      "stand": "2026-01-01",
+      "value": "Je nach Versichertenstatus Pensions- oder Krankenversicherung (Pensionist:innen und Erwerbstätige meist PVA, sonst Krankenversicherungsträger). Gemeinsames Antragsformular."
      },
      {
       "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
@@ -17142,7 +17131,7 @@
    ],
    "confidence": "mittel",
    "fristen": [
-    "laut Entlassungsbrief: nach Abschluss der Bestrahlung prüfen",
+    "rechtzeitig vor dem gewünschten Reha-Beginn beantragen (Bewilligung im Vorhinein)",
     "Die Entscheidung über den Antrag wird Ihnen schriftlich mitgeteilt.",
     "Bitte kontaktieren Sie die Einrichtung innerhalb von 6 Wochen nach Erhalt des Schreibens, um den Termin zu bestätigen."
    ],
@@ -17157,11 +17146,6 @@
      "stand": "2026-01-01",
      "titel": "ÖGK – Leistungen und Services 2026 (SV-Box)",
      "url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25"
-    },
-    {
-     "source_id": "seed",
-     "stand": "2026-10",
-     "url": "_Source/Befunde/Entlassungsbefund.pdf#page=5"
     },
     {
      "source_id": "pva",
@@ -17214,16 +17198,15 @@
     {
      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25",
      "source_id": "seed",
-     "stand": "2026-10",
+     "stand": "2026-01-01",
      "text": "Antrag im Vorhinein + medizinische Begründung der behandelnden Ärztin",
      "zitat": "Die angeführten Leistungen müssen Sie im Vorhinein beantragen"
     },
     {
-     "quelle_url": "_Source/Befunde/Entlassungsbefund.pdf#page=5",
+     "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25",
      "source_id": "seed",
-     "stand": "2026-10",
-     "text": "Bewilligung und Wahl der Einrichtung durch den Kostenträger",
-     "zitat": "Die endgültige Entscheidung über die Bewilligung und die geeignete Einrichtung trifft der zuständige Kostenträger"
+     "stand": "2026-01-01",
+     "text": "Bewilligung und Wahl der Einrichtung durch den Kostenträger"
     },
     {
      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
@@ -17248,7 +17231,7 @@
     }
    ],
    "zielgruppe": "Versicherte und Pensionist:innen der PVA nach onkologischer Behandlung; Antrag über die behandelnde Ärztin oder den Arzt.",
-   "zustaendig": "Je nach Versichertenstatus Pensions- oder Krankenversicherung – im Entlassungsbrief ausdrücklich offen („zuständige Sozialversicherung zu klären“). Gemeinsames Antragsformular.",
+   "zustaendig": "Je nach Versichertenstatus Pensions- oder Krankenversicherung (Pensionist:innen und Erwerbstätige meist PVA, sonst Krankenversicherungsträger). Gemeinsames Antragsformular.",
    "review_status": "konflikt",
    "sources": [
     "pva",
@@ -17262,7 +17245,7 @@
       {
        "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25",
        "source_id": "seed",
-       "stand": "2026-10",
+       "stand": "2026-01-01",
        "value": {
         "formular_id": "antrag_reha_kur",
         "wo": "über Hausärztin/Facharzt einreichen"

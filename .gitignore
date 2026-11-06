@@ -11,3 +11,7 @@ knowledge/build/snapshots/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# Laufzeit-Logs (können Nutzerfragen enthalten) – nie versionieren
+knowledge/build/misses.jsonl
+.venv/

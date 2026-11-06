@@ -1757,17 +1757,17 @@
    "probleme": [
     {
      "feld": "Familienname Kund:in",
-     "problem": "Wert steht im passenden Feld, aber die angegebene Testperson heißt Anna Berger; im Formular ist als Vorname Lena eingetragen, das passt nicht zur Person.",
+     "problem": "Wert steht im passenden Feld, aber die angegebene Testperson heißt Erika Muster; im Formular ist als Vorname Lena eingetragen, das passt nicht zur Person.",
      "schwer": true
     },
     {
      "feld": "Vorname Kund:in",
-     "problem": "Wert steht im passenden Feld, aber der Vorname ist für die Testperson inkonsistent (Lena statt Anna).",
+     "problem": "Wert steht im passenden Feld, aber der Vorname ist für die Testperson inkonsistent (Lena statt Erika).",
      "schwer": true
     },
     {
      "feld": "Geburtsdatum Kund:in",
-     "problem": "Wert steht im passenden Feld, aber die Personendaten sind insgesamt inkonsistent zur Testperson Anna Berger.",
+     "problem": "Wert steht im passenden Feld, aber die Personendaten sind insgesamt inkonsistent zur Testperson Erika Muster.",
      "schwer": true
     },
     {

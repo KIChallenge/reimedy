@@ -271,7 +271,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -285,7 +285,7 @@
    "ok": true,
    "probleme": [
     {
-     "feld": "Anna Berger / Titel, Familienname, Vorname (hauptversichert)",
+     "feld": "Erika Muster / Titel, Familienname, Vorname (hauptversichert)",
      "problem": "Wert steht im korrekten Feld, aber derselbe Wert ist auch ein zweites Mal oben im identischen Kopfbereich eingefügt (Doppelbefüllung).",
      "schwer": false
     },
@@ -295,7 +295,7 @@
      "schwer": false
     },
     {
-     "feld": "1234140348 / Versicherungsnummer",
+     "feld": "1234010750 / Versicherungsnummer",
      "problem": "Wert steht im korrekten Feld, aber derselbe Wert ist auch ein zweites Mal oben im identischen Kopfbereich eingefügt (Doppelbefüllung).",
      "schwer": false
     }

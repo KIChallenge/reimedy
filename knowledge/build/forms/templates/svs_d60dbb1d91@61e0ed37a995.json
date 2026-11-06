@@ -1119,7 +1119,7 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "VERSICHERTE PERSON / Berger Anna",
+     "feld": "VERSICHERTE PERSON / Muster Erika",
      "problem": "Wert steht im Kopfbereich bzw. teils außerhalb des vorgesehenen Feldes und liegt über gedrucktem Tabellenrand/Trennlinien.",
      "schwer": true
     },
@@ -1134,22 +1134,22 @@
      "schwer": false
     },
     {
-     "feld": "Familienname / Berger",
+     "feld": "Familienname / Muster",
      "problem": "Wert ist nicht sauber im Familienname-Feld platziert, sondern versetzt in den Feldbereich hinein/über Linien hinweg.",
      "schwer": true
     },
     {
-     "feld": "Vorname / Anna",
+     "feld": "Vorname / Erika",
      "problem": "Wert sitzt unterhalb bzw. außerhalb des vorgesehenen Vorname-Feldes und nicht sauber im Feldrahmen.",
      "schwer": true
     },
     {
-     "feld": "Geburtsdatum / 14.03.1948",
+     "feld": "Geburtsdatum / 01.07.1950",
      "problem": "Wert liegt im Geburtsdatum-Bereich über gedruckten Linien bzw. nicht sauber innerhalb des Feldes.",
      "schwer": true
     },
     {
-     "feld": "Anna",
+     "feld": "Erika",
      "problem": "Zusätzlicher blauer Wert unterhalb der Personendaten-Tabelle, gehört nicht klar zu einem vorgesehenen Feld und wirkt außerhalb des Formularfeldes.",
      "schwer": false
     }

@@ -13,7 +13,6 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
 BRO = "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf"
-ENTL = "_Source/Befunde/Entlassungsbefund.pdf"
 
 
 def bro(page):
@@ -50,15 +49,14 @@ leistung(leistung_id="pflegegeld", name="Pflegegeld",
          zielgruppe="Menschen mit voraussichtlich mindestens 6 Monate dauerndem Pflegebedarf; Antrag oft durch Angehörige vorbereitet",
          voraussetzungen=[V("Pflegebedarf von mehr als 65 Stunden pro Monat (Stufe 1)", web("https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008859")),
                           V("Pflegebedarf voraussichtlich mindestens 6 Monate", web("https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008859")),
-                          V("Kein automatischer Anspruch durch eine Diagnose", {"url": ENTL + "#page=6"},
-                            "Ein Anspruch ist nicht automatisch durch die Krebserkrankung gegeben")],
+                          V("Maßgeblich ist der Pflegebedarf, nicht eine bestimmte Diagnose", web("https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008859"))],
          zustaendig="Der Träger, der die Pension auszahlt (ASVG-Pension → PVA; SVS-Pension → SVS; Beamte → BVAEB). Ohne Pension: meist PVA. Entscheidung per Bescheid nach Begutachtung.",
          antrag={"formular_id": "pva_pal080", "wo": "Pensionsversicherungsanstalt (Landesstelle) bzw. eigener Pensionsträger; formlos oder Formular PAL080", "online_url": "https://www.pv.at"},
          unterlagen=["ausgefülltes Antragsformular", "aktuelle Befunde/Entlassungsbrief (zur Begutachtung)", "Bankverbindung", "ggf. Vollmacht/Erwachsenenvertretung"],
          fristen=["Pflegegeld gebührt ab dem Monat nach Antragstellung → früh beantragen"],
          kosten="kostenlos", abhaengigkeiten=[],
          trigger_im_dokument=["Pflegegeld", "Pflegebedarf", "Unterstützungsbedarf", "Pflegegeldanspruch prüfen"],
-         quellen=[web("https://www.pv.at"), {"url": "_Source/Anträge und Formulare/PAL080_0125_Mpfl_052026.pdf", "stand": "2025-01-01"}, {"url": ENTL + "#page=6", "stand": "2026-10"}],
+         quellen=[web("https://www.pv.at"), {"url": "_Source/Anträge und Formulare/PAL080_0125_Mpfl_052026.pdf", "stand": "2025-01-01"}],
          confidence="mittel")
 leistung(leistung_id="mobile_pflege_fsw", name="Mobile Pflege und Betreuung zu Hause (Wien, FSW)",
          kurz_einfach="Heimhilfe und Hauskrankenpflege kommen nach Hause. In Wien organisiert und fördert das der Fonds Soziales Wien (FSW).",
@@ -70,7 +68,7 @@ leistung(leistung_id="mobile_pflege_fsw", name="Mobile Pflege und Betreuung zu H
          unterlagen=["Antrag auf Förderung von Leistungen", "Einkommensnachweise", "Pflegegeldbescheid (falls vorhanden)"],
          fristen=[], kosten="Kostenbeitrag abhängig von Einkommen und Pflegegeld",
          abhaengigkeiten=[], trigger_im_dokument=["mobile Hauskrankenpflege", "mobile Pflege", "Heimhilfe", "soziale Dienste", "Alltagshilfen"],
-         quellen=[web("https://www.fsw.at"), {"url": "_Source/Anträge und Formulare/fsw-antrag-auf-foerderung-von-leistungen.1779095804.pdf", "stand": "2026-03"}, {"url": ENTL + "#page=6", "stand": "2026-10"}],
+         quellen=[web("https://www.fsw.at"), {"url": "_Source/Anträge und Formulare/fsw-antrag-auf-foerderung-von-leistungen.1779095804.pdf", "stand": "2026-03"}],
          confidence="mittel")
 leistung(leistung_id="senior_innen_wg_fsw", name="Senior:innen-Wohngemeinschaft (Wien, FSW)",
          kurz_einfach="Gemeinsam wohnen mit Betreuung, wenn allein wohnen nicht mehr gut geht, ein Pflegeheim aber noch nicht nötig ist.",
@@ -172,14 +170,13 @@ leistung(leistung_id="reha_onkologisch", name="Onkologische Rehabilitation",
          bereich=["C"], traeger=["PVA", "ÖGK"], innerhalb_sv=True,
          voraussetzungen=[V("Antrag im Vorhinein + medizinische Begründung der behandelnden Ärztin", bro(25),
                             "Die angeführten Leistungen müssen Sie im Vorhinein beantragen"),
-                          V("Bewilligung und Wahl der Einrichtung durch den Kostenträger", {"url": ENTL + "#page=5"},
-                            "Die endgültige Entscheidung über die Bewilligung und die geeignete Einrichtung trifft der zuständige Kostenträger")],
-         zustaendig="Je nach Versichertenstatus Pensions- oder Krankenversicherung – im Entlassungsbrief ausdrücklich offen („zuständige Sozialversicherung zu klären“). Gemeinsames Antragsformular.",
+                          V("Bewilligung und Wahl der Einrichtung durch den Kostenträger", bro(25))],
+         zustaendig="Je nach Versichertenstatus Pensions- oder Krankenversicherung (Pensionist:innen und Erwerbstätige meist PVA, sonst Krankenversicherungsträger). Gemeinsames Antragsformular.",
          antrag={"formular_id": "antrag_reha_kur", "wo": "über Hausärztin/Facharzt einreichen"},
          unterlagen=["Antrag auf Rehabilitations-, Kur- bzw. Erholungsaufenthalt", "ärztliche Begründung", "relevante Befunde/Entlassungsbrief"],
-         fristen=["laut Entlassungsbrief: nach Abschluss der Bestrahlung prüfen"],
+         fristen=["rechtzeitig vor dem gewünschten Reha-Beginn beantragen (Bewilligung im Vorhinein)"],
          abhaengigkeiten=[], trigger_im_dokument=["onkologische Rehabilitation", "Rehabilitationsantrag", "rehabilitative Maßnahme"],
-         quellen=[bro(25), {"url": ENTL + "#page=5", "stand": "2026-10"}], confidence="mittel")
+         quellen=[bro(25)], confidence="mittel")
 leistung(leistung_id="anschlussheilverfahren", name="Anschlussheilverfahren / Reha nach Unfall",
          kurz_einfach="Reha direkt im Anschluss an den Spitalsaufenthalt. Den Antrag stellt das Krankenhaus.",
          bereich=["C"], traeger=["PVA", "ÖGK", "AUVA"], innerhalb_sv=True,

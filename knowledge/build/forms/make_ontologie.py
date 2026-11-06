@@ -47,45 +47,45 @@ def adresse_block(prefix, wer, a):
         k(f"{prefix}.voll", f"Komplette Anschrift {wer} in einem Feld", f'{a["strasse"]} {a["hausnr"]}/{a.get("tuer","")}, {a["plz"]} {a["ort"]}'),
     ]
 
-ANNA = dict(vorname="Anna", familienname="Berger", svnr="1234140348", geburtsdatum="14.03.1948", geschlecht="weiblich",
+PERSON = dict(vorname="Erika", familienname="Muster", svnr="1234010750", geburtsdatum="01.07.1950", geschlecht="weiblich",
             staatsbuergerschaft="Österreich", familienstand="verwitwet", familienstand_seit="02.05.2019", geburtsort="Wien",
             geburtsland="Österreich", geburtsname="Huber", beruf="Pensionistin", anrede="Frau")
-ANNA_ADR = dict(strasse="Musterstraße", hausnr="12", stiege="1", tuer="4", plz="1030", ort="Wien")
-SANDRA = dict(vorname="Sandra", familienname="Berger", svnr="5678210875", geburtsdatum="21.08.1975", geschlecht="weiblich",
+PERSON_ADR = dict(strasse="Hauptstraße", hausnr="12", stiege="1", tuer="4", plz="1030", ort="Wien")
+VERTRETER = dict(vorname="Petra", familienname="Muster", svnr="5678210875", geburtsdatum="21.08.1975", geschlecht="weiblich",
               staatsbuergerschaft="Österreich", familienstand="verheiratet", anrede="Frau", beruf="Angestellte")
 SANDRA_ADR = dict(strasse="Beispielgasse", hausnr="7", tuer="3", plz="1100", ort="Wien")
 
 keys = []
-keys += personen_block("person", "der antragstellenden/versicherten Person", ANNA)
-keys += adresse_block("adresse", "(Wohnadresse der Person)", ANNA_ADR)
+keys += personen_block("person", "der antragstellenden/versicherten Person", PERSON)
+keys += adresse_block("adresse", "(Wohnadresse der Person)", PERSON_ADR)
 keys += [
     k("kontakt.telefon", "Telefonnummer der Person", "+43 1 2345678", format="E.164 oder national"),
-    k("kontakt.email", "E-Mail-Adresse der Person", "anna.berger@example.org"),
+    k("kontakt.email", "E-Mail-Adresse der Person", "erika.muster@example.org"),
     k("versicherung.traeger", "Zuständiger Krankenversicherungsträger (Kurzname, z. B. ÖGK, SVS, BVAEB)", "ÖGK"),
     k("versicherung.landesstelle", "Landesstelle des Versicherungsträgers", "Wien"),
     k("versicherung.art", "Art der Versicherung (Pension, Erwerbstätigkeit, mitversichert …)", "Pensionistin"),
     k("versicherung.mitversichert", "Ist die Person mitversichert? (ja/nein)", "nein", typ="checkbox"),
 ]
-keys += personen_block("versicherte_person", "der Versicherten, von der die Mitversicherung abgeleitet ist", SANDRA)
+keys += personen_block("versicherte_person", "der Versicherten, von der die Mitversicherung abgeleitet ist", VERTRETER)
 keys += adresse_block("versicherte_person.adresse", "der versicherten (hauptversicherten) Person", SANDRA_ADR)
-keys += personen_block("vertreter", "der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)", SANDRA)
+keys += personen_block("vertreter", "der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)", VERTRETER)
 keys += adresse_block("vertreter.adresse", "der vertretenden Person", SANDRA_ADR)
 keys += [
     k("vertreter.rolle", "Rolle der vertretenden Person (Vorsorgevollmacht|gewählte|gesetzliche|gerichtliche Erwachsenenvertretung|Angehörige)", "Vorsorgevollmacht", format="enum"),
     k("vertreter.beziehung", "Verwandtschaftsverhältnis zur Person (z. B. Tochter)", "Tochter"),
     k("vertreter.telefon", "Telefonnummer der vertretenden Person", "+43 660 1234567"),
-    k("vertreter.email", "E-Mail der vertretenden Person", "sandra.berger@example.org"),
+    k("vertreter.email", "E-Mail der vertretenden Person", "petra.muster@example.org"),
     k("kind.vorname", "Vorname des Kindes (Familien-/Kinderformulare)", "Lena"),
-    k("kind.familienname", "Familienname des Kindes", "Berger"),
+    k("kind.familienname", "Familienname des Kindes", "Muster"),
     k("kind.geburtsdatum", "Geburtsdatum des Kindes", "03.02.2015", typ="datum", format="TT.MM.JJJJ"),
     k("kind.svnr", "Versicherungsnummer des Kindes", "4321030215", format="NNNNTTMMJJ"),
     k("partner.vorname", "Vorname Ehe-/Lebenspartner:in", "Karl"),
-    k("partner.familienname", "Familienname Ehe-/Lebenspartner:in", "Berger"),
+    k("partner.familienname", "Familienname Ehe-/Lebenspartner:in", "Muster"),
     k("partner.svnr", "Versicherungsnummer Ehe-/Lebenspartner:in", "2345050545", format="NNNNTTMMJJ"),
     k("partner.geburtsdatum", "Geburtsdatum Ehe-/Lebenspartner:in", "05.05.1945", typ="datum", format="TT.MM.JJJJ"),
     k("bank.iban", "IBAN (nur die Person selbst)", "AT61 1904 3002 3457 3201", format="IBAN", ampel="rot", michi=False),
     k("bank.bic", "BIC (nur die Person selbst)", "BKAUATWW", ampel="rot", michi=False),
-    k("bank.kontoinhaber", "Kontoinhaber:in (nur die Person selbst)", "Anna Berger", ampel="rot", michi=False),
+    k("bank.kontoinhaber", "Kontoinhaber:in (nur die Person selbst)", "Erika Muster", ampel="rot", michi=False),
     k("bank.institut", "Name des Kreditinstituts", "Musterbank", ampel="rot", michi=False),
     k("pension.bezieht", "Bezieht eine Pension (ja/nein)", "ja", typ="checkbox"),
     k("pension.traeger", "Pensionsauszahlende Stelle (z. B. PVA)", "PVA"),
@@ -119,7 +119,7 @@ keys += [
     k("behoerde.vermerk", "Vom Träger/Amt auszufüllen (Eingangsstempel, Aktenzahl) – nie füllen", None, ampel="rot", michi=False),
 ]
 ont = {"version": "1.0", "stand": "2026-11-05",
-       "hinweis": "Vertrag mit Michi (ARCHITEKTUR §8.1.1): Schlüssel werden nur additiv geändert. Beispiele sind eine fiktive Testperson (Anna Berger, Tochter Sandra als Vertreterin) für die Prüfschleife.",
+       "hinweis": "Vertrag mit Michi (ARCHITEKTUR §8.1.1): Schlüssel werden nur additiv geändert. Beispiele sind eine fiktive Testperson (Erika Muster, Tochter Petra als Vertreterin) für die Prüfschleife.",
        "regeln": {"michi_fuellt_nie": ["unterschrift.*", "arzt.*", "medizinisch.*", "behoerde.*", "einkommen.*"],
                   "nur_person_selbst": ["bank.*", "einkommen.*", "unterschrift.*"]},
        "schluessel": dict(keys)}

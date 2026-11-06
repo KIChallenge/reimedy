@@ -4508,7 +4508,7 @@
     },
     {
      "feld": "Vorname",
-     "problem": "Zweiter Vorname 'Anna' ist im Feld/Teilbereich für Titel bzw. unpassendes Feld platziert",
+     "problem": "Zweiter Vorname 'Erika' ist im Feld/Teilbereich für Titel bzw. unpassendes Feld platziert",
      "schwer": true
     },
     {
@@ -4528,7 +4528,7 @@
     },
     {
      "feld": "Dienstgeber*in",
-     "problem": "'Muster GmbH' ist erneut in einer Tabelle für weitere Dienstgeber*innen eingetragen, nicht bei Anna/Sandra",
+     "problem": "'Muster GmbH' ist erneut in einer Tabelle für weitere Dienstgeber*innen eingetragen, nicht bei Erika/Petra",
      "schwer": true
     },
     {
@@ -4537,8 +4537,8 @@
      "schwer": false
     },
     {
-     "feld": "VERSICHERTE / Berger Sandra",
-     "problem": "Wert steht im Feld der versicherten Person und wirkt passend, aber der Name ist nicht Anna Berger; für diese Prüfung nur Layout relevant, daher kein Fehler gemeldet.",
+     "feld": "VERSICHERTE / Muster Petra",
+     "problem": "Wert steht im Feld der versicherten Person und wirkt passend, aber der Name ist nicht Erika Muster; für diese Prüfung nur Layout relevant, daher kein Fehler gemeldet.",
      "schwer": false
     },
     {

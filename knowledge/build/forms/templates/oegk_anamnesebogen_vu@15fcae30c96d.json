@@ -2281,7 +2281,7 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "1234140348",
+     "feld": "1234010750",
      "problem": "Blauer Wert liegt im Feld für das Ausfülldatum (TT-MM-JJ), nicht bei der Sozialversicherungsnummer; zudem überdeckt er den gedruckten Feldbereich.",
      "schwer": true
     },
@@ -2291,7 +2291,7 @@
      "schwer": true
     },
     {
-     "feld": "Berger",
+     "feld": "Muster",
      "problem": "Blauer Wert steht in der Zeile unter den Stammdaten, nicht im Familienname/Nachname-Feld; gehört damit nicht eindeutig ins passende Feld.",
      "schwer": true
     }

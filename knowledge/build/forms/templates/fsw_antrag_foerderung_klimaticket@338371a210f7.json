@@ -1453,7 +1453,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -1471,7 +1471,7 @@
    "probleme": [
     {
      "feld": "Geburtsdatum Kund:in",
-     "problem": "Wert steht im falschen Datumsfeld-Format/Feldtext passt nicht sauber zum Feldlabel (TT.MM.JJJJ erwartet, angezeigt 14.03.1948 als Inhalt ist zwar passend, aber im Screenshot ohne klaren Feldrahmenbezug schwer prüfbar)",
+     "problem": "Wert steht im falschen Datumsfeld-Format/Feldtext passt nicht sauber zum Feldlabel (TT.MM.JJJJ erwartet, angezeigt 01.07.1950 als Inhalt ist zwar passend, aber im Screenshot ohne klaren Feldrahmenbezug schwer prüfbar)",
      "schwer": false
     },
     {

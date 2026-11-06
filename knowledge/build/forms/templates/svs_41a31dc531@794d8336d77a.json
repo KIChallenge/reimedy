@@ -4072,7 +4072,7 @@
     },
     {
      "feld": "S. 1 Wohnadresse",
-     "problem": "Straße/Gasse und Gasse/Platz sind beide mit 'Musterstraße' gefüllt; wirkt wie doppelte Befüllung eines Adressfelds.",
+     "problem": "Straße/Gasse und Gasse/Platz sind beide mit 'Hauptstraße' gefüllt; wirkt wie doppelte Befüllung eines Adressfelds.",
      "schwer": false
     },
     {
@@ -4092,7 +4092,7 @@
     },
     {
      "feld": "S. 2 Wohnadresse",
-     "problem": "Straße/Gasse und Gasse/Platz sind beide mit 'Musterstraße' gefüllt; wirkt wie doppelte Befüllung eines Adressfelds.",
+     "problem": "Straße/Gasse und Gasse/Platz sind beide mit 'Hauptstraße' gefüllt; wirkt wie doppelte Befüllung eines Adressfelds.",
      "schwer": false
     },
     {
@@ -4117,32 +4117,32 @@
     },
     {
      "feld": "Familienname",
-     "problem": "Wert steht im Feld für pflegende Angehörige, nicht erkennbar für Anna Berger als Antragstellerin",
+     "problem": "Wert steht im Feld für pflegende Angehörige, nicht erkennbar für Erika Muster als Antragstellerin",
      "schwer": true
     },
     {
      "feld": "Vorname",
-     "problem": "Wert steht im Feld für pflegende Angehörige, nicht erkennbar für Anna Berger als Antragstellerin",
+     "problem": "Wert steht im Feld für pflegende Angehörige, nicht erkennbar für Erika Muster als Antragstellerin",
      "schwer": true
     },
     {
      "feld": "Geburtsdatum",
-     "problem": "Wert steht im Bereich für pflegende Angehörige, nicht für Anna Berger als Antragstellerin",
+     "problem": "Wert steht im Bereich für pflegende Angehörige, nicht für Erika Muster als Antragstellerin",
      "schwer": true
     },
     {
      "feld": "Geschlecht",
-     "problem": "Wert steht im Bereich für pflegende Angehörige, nicht für Anna Berger als Antragstellerin",
+     "problem": "Wert steht im Bereich für pflegende Angehörige, nicht für Erika Muster als Antragstellerin",
      "schwer": true
     },
     {
      "feld": "Staatsbürgerschaft",
-     "problem": "Wert steht im Feld für pflegende Angehörige, nicht erkennbar für Anna Berger als Antragstellerin",
+     "problem": "Wert steht im Feld für pflegende Angehörige, nicht erkennbar für Erika Muster als Antragstellerin",
      "schwer": true
     },
     {
      "feld": "name",
-     "problem": "Dieses Feld gehört zur Seite für pflegende Angehörige; befüllt mit Vertreterin Sandra Berger statt der antragstellenden Person",
+     "problem": "Dieses Feld gehört zur Seite für pflegende Angehörige; befüllt mit Vertreterin Petra Muster statt der antragstellenden Person",
      "schwer": true
     },
     {

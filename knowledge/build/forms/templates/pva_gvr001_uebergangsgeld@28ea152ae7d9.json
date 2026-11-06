@@ -9440,7 +9440,7 @@
    "probleme": [
     {
      "feld": "Familienname / Vorname / Titel / Frühere Namen",
-     "problem": "Mehrere Werte sind gegenseitig vertauscht bzw. in falschen Feldern platziert (z.B. Berger, Anna, Huber).",
+     "problem": "Mehrere Werte sind gegenseitig vertauscht bzw. in falschen Feldern platziert (z.B. Muster, Erika, Huber).",
      "schwer": true
     },
     {
@@ -9455,12 +9455,12 @@
     },
     {
      "feld": "Ort / Bundesland / E-Mail / Telefonnummer",
-     "problem": "Kontakt- und Ortsangaben sind in die falschen Felder geraten (z.B. +43 1 2345678, anna.berger@example.org).",
+     "problem": "Kontakt- und Ortsangaben sind in die falschen Felder geraten (z.B. +43 1 2345678, erika.muster@example.org).",
      "schwer": true
     },
     {
      "feld": "Bevollmächtigte Person",
-     "problem": "In der Vertreter-Section sind Name und Adresse offenbar teilweise falsch zugeordnet (z.B. Berger/Sandra/Beispielgasse).",
+     "problem": "In der Vertreter-Section sind Name und Adresse offenbar teilweise falsch zugeordnet (z.B. Muster/Petra/Beispielgasse).",
      "schwer": true
     },
     {

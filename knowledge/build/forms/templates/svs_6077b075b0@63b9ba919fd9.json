@@ -1827,18 +1827,18 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "Anna",
+     "feld": "Erika",
      "problem": "Blauer Wert steht in der Zeile/Feldposition ohne passendes Label; wirkt wie versehentlich in freier Tabellenzelle statt im Vorname-Feld der hinterbliebenen Person platziert.",
      "schwer": true
     },
     {
-     "feld": "Sandra",
+     "feld": "Petra",
      "problem": "Wert steht im Vorname-Feld der verstorbenen Person statt bei der Vertreterin bzw. zur richtigen Person; falsche Person.",
      "schwer": true
     },
     {
      "feld": "Versicherungsnummer 5678210875",
-     "problem": "Zugehörigkeit zur falschen Person/Tabelle: die Nummer ist bei der verstorbenen Person eingetragen, obwohl laut Vorgabe Sandra Berger betroffen ist.",
+     "problem": "Zugehörigkeit zur falschen Person/Tabelle: die Nummer ist bei der verstorbenen Person eingetragen, obwohl laut Vorgabe Petra Muster betroffen ist.",
      "schwer": true
     }
    ]

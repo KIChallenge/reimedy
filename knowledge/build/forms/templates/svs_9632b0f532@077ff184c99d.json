@@ -3534,17 +3534,17 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "VERSICHERTE / Berger Sandra",
+     "feld": "VERSICHERTE / Muster Petra",
      "problem": "Wert gehört offenbar zur Vertreterin, steht aber im Feld der versicherten Person",
      "schwer": true
     },
     {
-     "feld": "Vorname / Sandra (S. 1)",
+     "feld": "Vorname / Petra (S. 1)",
      "problem": "im Vorname-Feld steht zusätzlich/überlappend noch ein zweiter Wert; Feld wirkt doppelt befüllt",
      "schwer": false
     },
     {
-     "feld": "Familienname / Berger (S. 1)",
+     "feld": "Familienname / Muster (S. 1)",
      "problem": "im Familienname-Feld steht zusätzlich/überlappend noch ein zweiter Wert; Feld wirkt doppelt befüllt",
      "schwer": false
     },
@@ -3554,7 +3554,7 @@
      "schwer": false
     },
     {
-     "feld": "Seite 2 – E-Mail / sandra.berger@example.org",
+     "feld": "Seite 2 – E-Mail / petra.muster@example.org",
      "problem": "Wert sitzt links außerhalb bzw. nicht sauber im vorgesehenen E-Mail-Feld (Überlauf in den Randbereich)",
      "schwer": false
     },

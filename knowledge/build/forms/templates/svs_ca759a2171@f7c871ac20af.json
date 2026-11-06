@@ -4801,7 +4801,7 @@
    "probleme": [
     {
      "feld": "Versicherungsnummer",
-     "problem": "Wert steht im Feld der verstorbenen Person; für Anna Berger als Antragstellerin nicht passend.",
+     "problem": "Wert steht im Feld der verstorbenen Person; für Erika Muster als Antragstellerin nicht passend.",
      "schwer": true
     },
     {
@@ -4811,7 +4811,7 @@
     },
     {
      "feld": "Familienname / Vorname / Geburtsdatum / Geschlecht / Staatsbürgerschaft",
-     "problem": "Werte sind in der Rubrik „Hinterbliebene Person“ eingetragen, dort aber offenbar nicht passend zur antragstellenden Person Anna Berger/Sandra Berger geprüft.",
+     "problem": "Werte sind in der Rubrik „Hinterbliebene Person“ eingetragen, dort aber offenbar nicht passend zur antragstellenden Person Erika Muster/Petra Muster geprüft.",
      "schwer": false
     },
     {

@@ -4406,17 +4406,17 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "Versicherte Person / Berger Anna",
+     "feld": "Versicherte Person / Muster Erika",
      "problem": "Wert wirkt in Kopf-/Namensfeld statt passendem Antragsfeld platziert",
      "schwer": true
     },
     {
-     "feld": "Familienname / Berger",
+     "feld": "Familienname / Muster",
      "problem": "Mehrfach in verschiedenen Feldern derselben Person eingetragen; eines liegt im falschen Teilbereich der Tabelle",
      "schwer": false
     },
     {
-     "feld": "Vorname / Sandra",
+     "feld": "Vorname / Petra",
      "problem": "In der Versicherten-Person erscheint der Vorname zusätzlich in einem benachbarten Feld; Zuordnung wirkt teils versetzt",
      "schwer": false
     },
@@ -4431,7 +4431,7 @@
      "schwer": true
     },
     {
-     "feld": "E-Mail / sandra.berger@example.org",
+     "feld": "E-Mail / petra.muster@example.org",
      "problem": "Ein E-Mail-Wert ist im Bereich der Vertreterin/Tabelle zusätzlich außerhalb des vorgesehenen Feldes platziert",
      "schwer": false
     },

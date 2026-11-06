@@ -80,7 +80,7 @@ def task(path: Path) -> tuple[str, dict]:
         prompt = PROMPT.format(name=t.get("name"), traeger=t.get("traeger"), keys=", ".join(ERLAUBT), felder="\n".join(zeilen[i:i + 80]))
         vp = ((t.get("pruefung") or {}).get("vision") or {}).get("probleme") or []
         if vp:
-            prompt += "\n\nBefunde einer Sichtprüfung der Probefüllung (Testperson Anna Berger) – korrigiere die betroffenen Felder:\n" + \
+            prompt += "\n\nBefunde einer Sichtprüfung der Probefüllung (Testperson Erika Muster) – korrigiere die betroffenen Felder:\n" + \
                 "\n".join(f"- {x.get('feld')}: {x.get('problem')}" for x in vp if x.get("schwer", True))[:3000]
         for versuch in range(4):
             try:
