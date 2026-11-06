@@ -215,4 +215,4 @@ def test_fill_regression_pal080():
     assert "Leiden" not in st and "IBAN" not in st
     import pymupdf
     vals = {w.field_name: w.field_value for pg in pymupdf.open(stream=out, filetype="pdf") for w in pg.widgets()}
-    assert vals["Fam.Name"] == "Berger" and vals["Personenstand"] in ("03", "/03")
+    assert vals["Fam.Name"] == "Muster" and vals["Personenstand"] in ("03", "/03")

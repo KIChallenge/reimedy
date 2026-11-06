@@ -726,17 +726,17 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "Name / Berger Anna",
+     "feld": "Name / Muster Erika",
      "problem": "Wert scheint in mehrere wiederholte Personenzeilen eingetragen; einige davon wirken wie Tabellen-/Zusatzzeilen statt nur Antragsstellerin",
      "schwer": true
     },
     {
-     "feld": "SVNr. / 1234140348",
+     "feld": "SVNr. / 1234010750",
      "problem": "Mehrfach in wiederholten Zeilen gefüllt; mögliche Zuordnung zu weiteren Personentabellen statt nur Antragstellerin",
      "schwer": true
     },
     {
-     "feld": "Adresse / Musterstraße 12/4, 1030 Wien",
+     "feld": "Adresse / Hauptstraße 12/4, 1030 Wien",
      "problem": "Mehrfach in wiederholten Zeilen gefüllt; mögliche Zuordnung zu weiteren Personentabellen statt nur Antragstellerin",
      "schwer": true
     },

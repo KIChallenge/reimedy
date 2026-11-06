@@ -639,12 +639,12 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "Berger",
+     "feld": "Muster",
      "problem": "Familienname der Arbeitnehmer:in im Feld für Arbeitgeber:in eingetragen",
      "schwer": true
     },
     {
-     "feld": "1234140348",
+     "feld": "1234010750",
      "problem": "Sozialversicherungsnummer im Feld für Arbeitgeber:in eingetragen",
      "schwer": true
     },
@@ -659,7 +659,7 @@
      "schwer": true
     },
     {
-     "feld": "Musterstraße 12/4",
+     "feld": "Hauptstraße 12/4",
      "problem": "Adresse im Feld für Arbeitgeber:in eingetragen",
      "schwer": true
     },
@@ -669,7 +669,7 @@
      "schwer": true
     },
     {
-     "feld": "anna.berger@example.org",
+     "feld": "erika.muster@example.org",
      "problem": "E-Mail-Adresse im Feld für Arbeitgeber:in eingetragen",
      "schwer": true
     },

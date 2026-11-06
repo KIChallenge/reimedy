@@ -821,7 +821,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -836,7 +836,7 @@
    "ok": true,
    "probleme": [
     {
-     "feld": "VERSICHERTE PERSON / Anna Berger",
+     "feld": "VERSICHERTE PERSON / Erika Muster",
      "problem": "Wert steht teils im Kopf-/Bereich oberhalb der eigentlichen Zeile und wirkt mehrfach gesetzt; passt nicht sauber ins Feld.",
      "schwer": false
     },

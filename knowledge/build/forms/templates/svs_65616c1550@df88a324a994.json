@@ -271,7 +271,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -291,17 +291,17 @@
     },
     {
      "feld": "Antragsteller:",
-     "problem": "Der Wert „Berger“ steht im Antragsteller-Bereich, passt aber nicht eindeutig zum sichtbaren Label im Feld; Layout wirkt leicht verrutscht.",
+     "problem": "Der Wert „Muster“ steht im Antragsteller-Bereich, passt aber nicht eindeutig zum sichtbaren Label im Feld; Layout wirkt leicht verrutscht.",
      "schwer": false
     },
     {
      "feld": "Familien- und Vorname(n) des/der Betriebsführer(s)",
-     "problem": "Wert „Berger Anna“ liegt im passenden Feld und überdeckt keinen gedruckten Text.",
+     "problem": "Wert „Muster Erika“ liegt im passenden Feld und überdeckt keinen gedruckten Text.",
      "schwer": false
     },
     {
      "feld": "Versicherungsnummer",
-     "problem": "Wert „1234140348“ liegt im passenden Feld und überdeckt keinen gedruckten Text.",
+     "problem": "Wert „1234010750“ liegt im passenden Feld und überdeckt keinen gedruckten Text.",
      "schwer": false
     }
    ]

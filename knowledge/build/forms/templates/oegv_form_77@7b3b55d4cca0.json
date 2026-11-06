@@ -15769,7 +15769,7 @@
    "probleme": [
     {
      "feld": "Vorname (S. 2, Vertreterin)",
-     "problem": "Wert 'Sandra' steht im Feld für die Vertreterin und passt zur Person",
+     "problem": "Wert 'Petra' steht im Feld für die Vertreterin und passt zur Person",
      "schwer": false
     },
     {
@@ -15779,7 +15779,7 @@
     },
     {
      "feld": "Familienname / Vorname (S. 2, Ehegatte/Partner)",
-     "problem": "Die eingetragenen Werte 'Berger' und 'Karl' stehen im Abschnitt für Ehegatte/Partner und nicht für die antragstellende Person",
+     "problem": "Die eingetragenen Werte 'Muster' und 'Karl' stehen im Abschnitt für Ehegatte/Partner und nicht für die antragstellende Person",
      "schwer": true
     },
     {
@@ -15793,7 +15793,7 @@
      "schwer": true
     },
     {
-     "feld": "1234140348",
+     "feld": "1234010750",
      "problem": "passt auf S. 13 in das Feld 'VSNR / Geburtsdatum' nicht zum Label; wirkt als Versicherungsnummer statt Geburtsdatum, aber auf dem Layout ist das Feld allgemein als VSNR/Geburtsdatum vorgesehen",
      "schwer": false
     },

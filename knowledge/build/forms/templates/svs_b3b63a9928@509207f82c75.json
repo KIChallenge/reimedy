@@ -964,7 +964,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -978,12 +978,12 @@
    "ok": true,
    "probleme": [
     {
-     "feld": "Versicherte(r)/Antragsteller(in): Berger",
+     "feld": "Versicherte(r)/Antragsteller(in): Muster",
      "problem": "Wert steht im Personen-Kopfbereich, nicht in einem eindeutig passenden Eingabefeld; wirkt wie doppelt befüllter Oberkopf",
      "schwer": false
     },
     {
-     "feld": "Versicherte(r)/Antragsteller(in): Berger",
+     "feld": "Versicherte(r)/Antragsteller(in): Muster",
      "problem": "Wert steht im Personen-Kopfbereich, nicht in einem eindeutig passenden Eingabefeld; wirkt wie doppelt befüllter Oberkopf",
      "schwer": false
     },

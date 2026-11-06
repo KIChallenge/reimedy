@@ -2696,7 +2696,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm+sichtpruefung",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -2711,12 +2711,12 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "Lfd.Nr. / Berger Anna",
+     "feld": "Lfd.Nr. / Muster Erika",
      "problem": "Wert steht im Feld für Name der Patientin, aber Vor- und Nachname sind vertauscht im Feldlabel-Kontext",
      "schwer": true
     },
     {
-     "feld": "Lfd.Nr. / Berger Sandra",
+     "feld": "Lfd.Nr. / Muster Petra",
      "problem": "Wert steht im Feld für die versicherte Angehörige/Vertreterin, aber Vor- und Nachname sind vertauscht im Feldlabel-Kontext",
      "schwer": true
     },

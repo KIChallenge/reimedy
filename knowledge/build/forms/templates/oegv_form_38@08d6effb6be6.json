@@ -5169,26 +5169,26 @@
    "probleme": [
     {
      "feld": "03.02.2015",
-     "problem": "Wert steht im Kinder-Tabelle/Zeile, nicht beim antragstellenden Personenfeld und gehört nicht zu Anna Berger als Hauptantragstellerin.",
+     "problem": "Wert steht im Kinder-Tabelle/Zeile, nicht beim antragstellenden Personenfeld und gehört nicht zu Erika Muster als Hauptantragstellerin.",
      "schwer": true
     },
     {
      "feld": "2345050545",
-     "problem": "VSNR/Geburtsdatum wirkt im Bereich der Ehepartner-/Partnerangaben eingetragen und damit im falschen Personenkontext (nicht eindeutig Anna Berger).",
+     "problem": "VSNR/Geburtsdatum wirkt im Bereich der Ehepartner-/Partnerangaben eingetragen und damit im falschen Personenkontext (nicht eindeutig Erika Muster).",
      "schwer": true
     },
     {
-     "feld": "Berger / Karl",
+     "feld": "Muster / Karl",
      "problem": "Einträge stehen in der Zeile für Ehepartner/eingetragene Partner; Position wirkt grundsätzlich passend, aber die Zuordnung der beiden Werte ist durch die eng gesetzte Tabellenzeile schwer lesbar.",
      "schwer": false
     },
     {
-     "feld": "Anna Berger",
+     "feld": "Erika Muster",
      "problem": "Wert steht im Feld der antragstellenden Person, aber die Zeile scheint unter der Überschrift für nicht selbst stellende versicherte Person zu liegen; dennoch kein falsches Personentableau erkennbar",
      "schwer": false
     },
     {
-     "feld": "Musterstraße / 12/1/4",
+     "feld": "Hauptstraße / 12/1/4",
      "problem": "Straße und Hausnummer wirken in getrennten Teilfeldern korrekt platziert, aber der Straßenwert ist sehr nah an der Trennlinie",
      "schwer": false
     },

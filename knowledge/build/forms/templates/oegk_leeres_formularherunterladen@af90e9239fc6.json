@@ -1325,17 +1325,17 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "Anna Berger (bei „für“)",
+     "feld": "Erika Muster (bei „für“)",
      "problem": "Wert steht im falschen Feld; gehört nicht in das kleine „für“-Feld.",
      "schwer": true
     },
     {
-     "feld": "Anna Berger (bei „Familienname und Vorname(n), Titel“)",
+     "feld": "Erika Muster (bei „Familienname und Vorname(n), Titel“)",
      "problem": "Wert ist nicht passend zur Feldbeschriftung; Personenname steht nicht eindeutig als Vor- und Nachname getrennt.",
      "schwer": true
     },
     {
-     "feld": "1234140348",
+     "feld": "1234010750",
      "problem": "Sozialversicherungsnummer steht im richtigen Feld; keine Layout-Probleme erkennbar.",
      "schwer": false
     },
@@ -1345,7 +1345,7 @@
      "schwer": false
     },
     {
-     "feld": "anna.berger@example.org",
+     "feld": "erika.muster@example.org",
      "problem": "E-Mail wirkt im Feld passend platziert, keine Überdeckung oder Feldverletzung erkennbar.",
      "schwer": false
     },

@@ -2932,7 +2932,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -2954,12 +2954,12 @@
    "probleme": [
     {
      "feld": "Vorname (Vertreterin)",
-     "problem": "Sandra steht im Vorname-Feld der Vertreterin – passt zur Person",
+     "problem": "Petra steht im Vorname-Feld der Vertreterin – passt zur Person",
      "schwer": false
     },
     {
      "feld": "Familienname (Vertreterin)",
-     "problem": "Berger steht im Familienname-Feld der Vertreterin – passt zur Person",
+     "problem": "Muster steht im Familienname-Feld der Vertreterin – passt zur Person",
      "schwer": false
     },
     {

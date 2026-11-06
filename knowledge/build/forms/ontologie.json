@@ -1,7 +1,7 @@
 {
  "version": "1.0",
  "stand": "2026-11-05",
- "hinweis": "Vertrag mit Michi (ARCHITEKTUR §8.1.1): Schlüssel werden nur additiv geändert. Beispiele sind eine fiktive Testperson (Anna Berger, Tochter Sandra als Vertreterin) für die Prüfschleife.",
+ "hinweis": "Vertrag mit Michi (ARCHITEKTUR §8.1.1): Schlüssel werden nur additiv geändert. Beispiele sind eine fiktive Testperson (Erika Muster, Tochter Petra als Vertreterin) für die Prüfschleife.",
  "regeln": {
   "michi_fuellt_nie": [
    "unterschrift.*",
@@ -37,7 +37,7 @@
    "beschreibung": "Vorname der antragstellenden/versicherten Person",
    "typ": "text",
    "format": null,
-   "beispiel": "Anna",
+   "beispiel": "Erika",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -45,7 +45,7 @@
    "beschreibung": "Familienname (Nachname) der antragstellenden/versicherten Person",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger",
+   "beispiel": "Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -53,7 +53,7 @@
    "beschreibung": "Vor- und Familienname der antragstellenden/versicherten Person in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Anna Berger",
+   "beispiel": "Erika Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -61,7 +61,7 @@
    "beschreibung": "Familienname, Vorname der antragstellenden/versicherten Person in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger Anna",
+   "beispiel": "Muster Erika",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -69,7 +69,7 @@
    "beschreibung": "Versicherungsnummer der antragstellenden/versicherten Person (10 Ziffern, 4+6: laufende Nr. + Geburtsdatum TTMMJJ)",
    "typ": "text",
    "format": "NNNNTTMMJJ",
-   "beispiel": "1234140348",
+   "beispiel": "1234010750",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -77,7 +77,7 @@
    "beschreibung": "Geburtsdatum der antragstellenden/versicherten Person",
    "typ": "datum",
    "format": "TT.MM.JJJJ",
-   "beispiel": "14.03.1948",
+   "beispiel": "01.07.1950",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -85,7 +85,7 @@
    "beschreibung": "Geburtsjahr der antragstellenden/versicherten Person",
    "typ": "zahl",
    "format": "JJJJ",
-   "beispiel": "1948",
+   "beispiel": "1950",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -157,7 +157,7 @@
    "beschreibung": "Straße (Wohnadresse der Person)",
    "typ": "text",
    "format": null,
-   "beispiel": "Musterstraße",
+   "beispiel": "Hauptstraße",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -197,7 +197,7 @@
    "beschreibung": "Straße mit Hausnr./Stiege/Tür (Wohnadresse der Person) in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Musterstraße 12/4",
+   "beispiel": "Hauptstraße 12/4",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -237,7 +237,7 @@
    "beschreibung": "Komplette Anschrift (Wohnadresse der Person) in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Musterstraße 12/4, 1030 Wien",
+   "beispiel": "Hauptstraße 12/4, 1030 Wien",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -253,7 +253,7 @@
    "beschreibung": "E-Mail-Adresse der Person",
    "typ": "text",
    "format": null,
-   "beispiel": "anna.berger@example.org",
+   "beispiel": "erika.muster@example.org",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -309,7 +309,7 @@
    "beschreibung": "Vorname der Versicherten, von der die Mitversicherung abgeleitet ist",
    "typ": "text",
    "format": null,
-   "beispiel": "Sandra",
+   "beispiel": "Petra",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -317,7 +317,7 @@
    "beschreibung": "Familienname (Nachname) der Versicherten, von der die Mitversicherung abgeleitet ist",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger",
+   "beispiel": "Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -325,7 +325,7 @@
    "beschreibung": "Vor- und Familienname der Versicherten, von der die Mitversicherung abgeleitet ist in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Sandra Berger",
+   "beispiel": "Petra Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -333,7 +333,7 @@
    "beschreibung": "Familienname, Vorname der Versicherten, von der die Mitversicherung abgeleitet ist in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger Sandra",
+   "beispiel": "Muster Petra",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -533,7 +533,7 @@
    "beschreibung": "Vorname der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
    "typ": "text",
    "format": null,
-   "beispiel": "Sandra",
+   "beispiel": "Petra",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -541,7 +541,7 @@
    "beschreibung": "Familienname (Nachname) der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige)",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger",
+   "beispiel": "Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -549,7 +549,7 @@
    "beschreibung": "Vor- und Familienname der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige) in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Sandra Berger",
+   "beispiel": "Petra Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -557,7 +557,7 @@
    "beschreibung": "Familienname, Vorname der vertretenden Person (Vollmacht/Erwachsenenvertretung/ausfüllende Angehörige) in einem Feld",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger Sandra",
+   "beispiel": "Muster Petra",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -765,7 +765,7 @@
    "beschreibung": "E-Mail der vertretenden Person",
    "typ": "text",
    "format": null,
-   "beispiel": "sandra.berger@example.org",
+   "beispiel": "petra.muster@example.org",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -781,7 +781,7 @@
    "beschreibung": "Familienname des Kindes",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger",
+   "beispiel": "Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -813,7 +813,7 @@
    "beschreibung": "Familienname Ehe-/Lebenspartner:in",
    "typ": "text",
    "format": null,
-   "beispiel": "Berger",
+   "beispiel": "Muster",
    "ampel_default": "gruen",
    "michi_fuellt": true
   },
@@ -853,7 +853,7 @@
    "beschreibung": "Kontoinhaber:in (nur die Person selbst)",
    "typ": "text",
    "format": null,
-   "beispiel": "Anna Berger",
+   "beispiel": "Erika Muster",
    "ampel_default": "rot",
    "michi_fuellt": false
   },

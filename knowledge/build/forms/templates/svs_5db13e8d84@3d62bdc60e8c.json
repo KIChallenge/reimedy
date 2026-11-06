@@ -1830,7 +1830,7 @@
     },
     {
      "feld": "Familienname / Titel",
-     "problem": "Berger steht im Titel-Feld statt nur im Familienname-Feld",
+     "problem": "Muster steht im Titel-Feld statt nur im Familienname-Feld",
      "schwer": true
     },
     {
@@ -1845,7 +1845,7 @@
     },
     {
      "feld": "Adresse",
-     "problem": "Musterstraße ist im Straßenfeld korrekt platziert, die übrigen Adresswerte ebenfalls passend zugeordnet",
+     "problem": "Hauptstraße ist im Straßenfeld korrekt platziert, die übrigen Adresswerte ebenfalls passend zugeordnet",
      "schwer": false
     },
     {

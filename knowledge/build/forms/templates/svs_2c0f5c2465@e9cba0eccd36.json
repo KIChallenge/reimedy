@@ -657,7 +657,7 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "VERSICHERTE PERSON / Berger Sandra",
+     "feld": "VERSICHERTE PERSON / Muster Petra",
      "problem": "Text steht in einem Feldbereich, der offenbar für die versicherte Person gedacht ist, wirkt aber nicht passend zur Feldbezeichnung bzw. überlappt den Bereich der Beschriftung",
      "schwer": true
     },
@@ -667,17 +667,17 @@
      "schwer": false
     },
     {
-     "feld": "Familienname / Berger",
+     "feld": "Familienname / Muster",
      "problem": "Wert ist zwar im Familiennamenbereich, aber zusätzlich erscheint derselbe Name auch in einem benachbarten Feldbereich; Layout wirkt dadurch doppelt belegt",
      "schwer": false
     },
     {
-     "feld": "Vorname / Sandra",
+     "feld": "Vorname / Petra",
      "problem": "Wert sitzt im Vornamenbereich, aber es gibt zusätzlich eine weitere blaue Einfügung unterhalb im selben Block, was auf eine falsche Zuordnung der Feldposition hindeutet",
      "schwer": false
     },
     {
-     "feld": "Vorname Geburtsdatum / Berger Sandra",
+     "feld": "Vorname Geburtsdatum / Muster Petra",
      "problem": "Kombinierter Wert steht in einem offenbar unpassenden bzw. nicht eindeutig zugeordneten Feldbereich und gehört nicht sauber zu Vorname oder Geburtsdatum",
      "schwer": true
     },

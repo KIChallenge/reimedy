@@ -2444,8 +2444,8 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "VERSICHERTE PERSON / Berger Sandra",
-     "problem": "Wert steht im Feld der versicherten Person, nicht bei der antragstellenden Person Anna Berger; zudem passt die Person nicht zum Formularteil.",
+     "feld": "VERSICHERTE PERSON / Muster Petra",
+     "problem": "Wert steht im Feld der versicherten Person, nicht bei der antragstellenden Person Erika Muster; zudem passt die Person nicht zum Formularteil.",
      "schwer": true
     },
     {
@@ -2469,7 +2469,7 @@
      "schwer": true
     },
     {
-     "feld": "Musterstraße 12/4, 1030 Wien",
+     "feld": "Hauptstraße 12/4, 1030 Wien",
      "problem": "Blaue Einträge liegen im Abschnitt mit gedrucktem Text und wirken nicht wie freie Ausfüllfelder; zudem erscheint der Wert doppelt auf der Seite.",
      "schwer": true
     }

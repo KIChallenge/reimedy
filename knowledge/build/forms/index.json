@@ -388,7 +388,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im Feld der antragstellenden Person; unter dem Abschnitt 'ZU PFLEGENDE PERSON' ist dieselbe Versicherungsnummer ebenfalls eingetragen und gehört nicht zur antragstellenden Person.; Berger/Anna sind auch im Abschnitt 'ZU PFLEGENDE PERSON' eingetragen; das wirkt wie Eintrag bei der falschen"
+   "grund": "Wert steht im Feld der antragstellenden Person; unter dem Abschnitt 'ZU PFLEGENDE PERSON' ist dieselbe Versicherungsnummer ebenfalls eingetragen und gehört nicht zur antragstellenden Person.; Muster/Erika sind auch im Abschnitt 'ZU PFLEGENDE PERSON' eingetragen; das wirkt wie Eintrag bei der falschen"
   },
   {
    "formular_id": "bvaeb_a0ee6b64e7",
@@ -563,7 +563,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im Feld des Antragstellers und passt zum Label; aber die Person ist als Antragsteller/ינ markiert, nicht als Vater. Falls als Vater gemeint, keine Tabellenzuordnung erkennbar.; Wert steht im Vorname-Feld und passt zum Label, aber der eingetragene Vorname 'Anna' gehört nicht zur antragstel"
+   "grund": "Wert steht im Feld des Antragstellers und passt zum Label; aber die Person ist als Antragsteller/ינ markiert, nicht als Vater. Falls als Vater gemeint, keine Tabellenzuordnung erkennbar.; Wert steht im Vorname-Feld und passt zum Label, aber der eingetragene Vorname 'Erika' gehört nicht zur antragstel"
   },
   {
    "formular_id": "bvaeb_d3f6e376f9",
@@ -1007,7 +1007,7 @@
    "n_arzt": 2,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im passenden Feld, aber die angegebene Testperson heißt Anna Berger; im Formular ist als Vorname Lena eingetragen, das passt nicht zur Person.; Wert steht im passenden Feld, aber der Vorname ist für die Testperson inkonsistent (Lena statt Anna).; Wert steht im passenden Feld, aber die Per"
+   "grund": "Wert steht im passenden Feld, aber die angegebene Testperson heißt Erika Muster; im Formular ist als Vorname Lena eingetragen, das passt nicht zur Person.; Wert steht im passenden Feld, aber der Vorname ist für die Testperson inkonsistent (Lena statt Erika).; Wert steht im passenden Feld, aber die Per"
   },
   {
    "formular_id": "fsw_pge_pa_antrag_handschriftlich",
@@ -1157,7 +1157,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht offenbar im Feld der antragstellenden Organisation/Personenangabe, passt aber nicht zu Anna Berger bzw. der dort angegebenen Person.; Eingetragener Wert erscheint in den zwei Vertreter:innen-Feldern; die Zuordnung wirkt layoutseitig plausibel.; Auf den sichtbaren Seiten sind mehrere erkan"
+   "grund": "Wert steht offenbar im Feld der antragstellenden Organisation/Personenangabe, passt aber nicht zu Erika Muster bzw. der dort angegebenen Person.; Eingetragener Wert erscheint in den zwei Vertreter:innen-Feldern; die Zuordnung wirkt layoutseitig plausibel.; Auf den sichtbaren Seiten sind mehrere erkan"
   },
   {
    "formular_id": "oegk_antrag_verbaende_und_kontaktstellen",
@@ -1709,7 +1709,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im falschen Feld: Anna ist als Sandra eingetragen.; Mehrere Werte sind offensichtlich in benachbarte falsche Felder gerutscht (z. B. Ort/Telefon/E-Mail), nicht passend zum Label.; Der Wert ist mit der PLZ/Ort-Zeile vermischt bzw. passt nicht eindeutig ins Adressfeld."
+   "grund": "Wert steht im falschen Feld: Erika ist als Petra eingetragen.; Mehrere Werte sind offensichtlich in benachbarte falsche Felder gerutscht (z. B. Ort/Telefon/E-Mail), nicht passend zum Label.; Der Wert ist mit der PLZ/Ort-Zeile vermischt bzw. passt nicht eindeutig ins Adressfeld."
   },
   {
    "formular_id": "oegv_form_1584",
@@ -1724,7 +1724,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im Feld für frühere Namen, passt aber offenbar nicht zur Person/ist als identischer Nachname doppelt eingetragen; Mehrere Werte scheinen in benachbarte Adressfelder verrutscht (z.B. PLZ, Ort, Bundesland, Land, Telefonnummer, E-Mail); Blauer Wert '1234140348' erscheint oben rechts außerhal"
+   "grund": "Wert steht im Feld für frühere Namen, passt aber offenbar nicht zur Person/ist als identischer Nachname doppelt eingetragen; Mehrere Werte scheinen in benachbarte Adressfelder verrutscht (z.B. PLZ, Ort, Bundesland, Land, Telefonnummer, E-Mail); Blauer Wert '1234010750' erscheint oben rechts außerhal"
   },
   {
    "formular_id": "oegv_form_233",
@@ -1792,7 +1792,7 @@
    "n_arzt": 7,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert passt nicht ins Feld/Label: eingefügt statt SVNR ein Geburtsdatum; Wert passt nicht ins Feld/Label: eingefügt statt SVNR ein Geburtsdatum; Titel-Feld mit 'Berger' und Frühere-Namen-Feld mit 'Huber' befüllt; Zuordnung wirkt vertauscht"
+   "grund": "Wert passt nicht ins Feld/Label: eingefügt statt SVNR ein Geburtsdatum; Wert passt nicht ins Feld/Label: eingefügt statt SVNR ein Geburtsdatum; Titel-Feld mit 'Muster' und Frühere-Namen-Feld mit 'Huber' befüllt; Zuordnung wirkt vertauscht"
   },
   {
    "formular_id": "oegv_form_38",
@@ -1807,7 +1807,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im Kinder-Tabelle/Zeile, nicht beim antragstellenden Personenfeld und gehört nicht zu Anna Berger als Hauptantragstellerin.; VSNR/Geburtsdatum wirkt im Bereich der Ehepartner-/Partnerangaben eingetragen und damit im falschen Personenkontext (nicht eindeutig Anna Berger).; Einträge stehen "
+   "grund": "Wert steht im Kinder-Tabelle/Zeile, nicht beim antragstellenden Personenfeld und gehört nicht zu Erika Muster als Hauptantragstellerin.; VSNR/Geburtsdatum wirkt im Bereich der Ehepartner-/Partnerangaben eingetragen und damit im falschen Personenkontext (nicht eindeutig Erika Muster).; Einträge stehen "
   },
   {
    "formular_id": "oegv_form_417",
@@ -1860,7 +1860,7 @@
    "n_arzt": 17,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert 'Sandra' steht im Feld für die Vertreterin und passt zur Person; Wert 'Beispielgasse' steht im Adressbereich der Vertreterin, die restlichen Adressbestandteile sind auf verschiedene Felder verteilt; Die eingetragenen Werte 'Berger' und 'Karl' stehen im Abschnitt für Ehegatte/Partner und nicht f"
+   "grund": "Wert 'Petra' steht im Feld für die Vertreterin und passt zur Person; Wert 'Beispielgasse' steht im Adressbereich der Vertreterin, die restlichen Adressbestandteile sind auf verschiedene Felder verteilt; Die eingetragenen Werte 'Muster' und 'Karl' stehen im Abschnitt für Ehegatte/Partner und nicht f"
   },
   {
    "formular_id": "oegv_form_819",
@@ -1921,7 +1921,7 @@
    "n_arzt": 19,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Mehrere Werte sind gegenseitig vertauscht bzw. in falschen Feldern platziert (z.B. Berger, Anna, Huber).; Blauer Wert steht im falschen Feld (Wien statt Geschlecht).; Mehrere Werte sind in den falschen Feldern platziert (z.B. Österreich, 02.05.2019)."
+   "grund": "Mehrere Werte sind gegenseitig vertauscht bzw. in falschen Feldern platziert (z.B. Muster, Erika, Huber).; Blauer Wert steht im falschen Feld (Wien statt Geschlecht).; Mehrere Werte sind in den falschen Feldern platziert (z.B. Österreich, 02.05.2019)."
   },
   {
    "formular_id": "pva_pal080",
@@ -2624,7 +2624,7 @@
    "n_arzt": 2,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im Feld der versicherten Person, nicht bei der antragstellenden Person Anna Berger; zudem passt die Person nicht zum Formularteil.; Anrede ist in ein Feld der versicherten Person gesetzt, gehört aber nicht zur antragstellenden Person im Abschnitt 1.; Feld ist mit dem blauen Wert nicht bef"
+   "grund": "Wert steht im Feld der versicherten Person, nicht bei der antragstellenden Person Erika Muster; zudem passt die Person nicht zum Formularteil.; Anrede ist in ein Feld der versicherten Person gesetzt, gehört aber nicht zur antragstellenden Person im Abschnitt 1.; Feld ist mit dem blauen Wert nicht bef"
   },
   {
    "formular_id": "svs_2f0c2c8cee",
@@ -3027,7 +3027,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert erscheint zweimal im selben Feldbereich; Berger steht im Titel-Feld statt nur im Familienname-Feld; Wert steht im richtigen Feld, aber wirkt auf die Formularlinie gedrängt; kein klarer Layoutfehler"
+   "grund": "Wert erscheint zweimal im selben Feldbereich; Muster steht im Titel-Feld statt nur im Familienname-Feld; Wert steht im richtigen Feld, aber wirkt auf die Formularlinie gedrängt; kein klarer Layoutfehler"
   },
   {
    "formular_id": "svs_5e55aeb0bb",
@@ -3338,7 +3338,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Blauer Wert 'verwitwet' steht im Feld für Aufenthaltsort statt im Personenstand-Feld; Zweiter Vorname 'Anna' ist im Feld/Teilbereich für Titel bzw. unpassendes Feld platziert; 'Beispielgasse' steht zusätzlich im Feldbereich für Gasse/Platz und teils im benachbarten Adressfeld, dadurch Fehlzuordnung"
+   "grund": "Blauer Wert 'verwitwet' steht im Feld für Aufenthaltsort statt im Personenstand-Feld; Zweiter Vorname 'Erika' ist im Feld/Teilbereich für Titel bzw. unpassendes Feld platziert; 'Beispielgasse' steht zusätzlich im Feldbereich für Gasse/Platz und teils im benachbarten Adressfeld, dadurch Fehlzuordnung"
   },
   {
    "formular_id": "svs_81122ff00f",
@@ -3847,7 +3847,7 @@
    "n_arzt": 1,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert scheint in Kopf-/Zeilenbereich der Tabelle zu liegen und überdeckt bzw. berührt gedruckten Text.; Eintrag liegt sehr nah am gedruckten Tabellenrand; kein klarer Fehlplatz erkennbar, aber die Platzierung wirkt nicht sauber im Feld.; Der zweite Vorname-Eintrag 'Sandra' sitzt in der Zeile und wirk"
+   "grund": "Wert scheint in Kopf-/Zeilenbereich der Tabelle zu liegen und überdeckt bzw. berührt gedruckten Text.; Eintrag liegt sehr nah am gedruckten Tabellenrand; kein klarer Fehlplatz erkennbar, aber die Platzierung wirkt nicht sauber im Feld.; Der zweite Vorname-Eintrag 'Petra' sitzt in der Zeile und wirk"
   },
   {
    "formular_id": "svs_af4e3a6dc6",
@@ -3930,7 +3930,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Werte wirken in den vorgesehenen Feldern platziert, aber die Kopfzeile zeigt unterschiedliche Personenbezüge (Berger Sandra statt Anna Berger); Der Wert steht im Feld passend zum Label, aber es gibt eine zusätzliche doppelte Beschriftung/Eintragung in der Zeile, wirkt etwas redundant; Der zweite E-M"
+   "grund": "Werte wirken in den vorgesehenen Feldern platziert, aber die Kopfzeile zeigt unterschiedliche Personenbezüge (Muster Petra statt Erika Muster); Der Wert steht im Feld passend zum Label, aber es gibt eine zusätzliche doppelte Beschriftung/Eintragung in der Zeile, wirkt etwas redundant; Der zweite E-M"
   },
   {
    "formular_id": "svs_b611711e7e",
@@ -4045,7 +4045,7 @@
    "n_arzt": 2,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im Feld der verstorbenen Person; für Anna Berger als Antragstellerin nicht passend.; Werte sind in der Rubrik „Verstorbene Person“ eingetragen und damit der falschen Person zugeordnet.; Werte sind in der Rubrik „Hinterbliebene Person“ eingetragen, dort aber offenbar nicht passend zur antr"
+   "grund": "Wert steht im Feld der verstorbenen Person; für Erika Muster als Antragstellerin nicht passend.; Werte sind in der Rubrik „Verstorbene Person“ eingetragen und damit der falschen Person zugeordnet.; Werte sind in der Rubrik „Hinterbliebene Person“ eingetragen, dort aber offenbar nicht passend zur antr"
   },
   {
    "formular_id": "svs_cc625de488",
@@ -4226,7 +4226,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im Feld der Antragstellenden Person bzw. zusätzlich im falschen Bereich auf Seite 2; Vertreterinnenbereich ist ansonsten leer/mehrfach befüllt; Wert Sandra gehört zur Vertreterin, aber erscheint im Bereich einer Tabelle/Feldgruppe, die nicht eindeutig zur antragstellenden Person gehört; T"
+   "grund": "Wert steht im Feld der Antragstellenden Person bzw. zusätzlich im falschen Bereich auf Seite 2; Vertreterinnenbereich ist ansonsten leer/mehrfach befüllt; Wert Petra gehört zur Vertreterin, aber erscheint im Bereich einer Tabelle/Feldgruppe, die nicht eindeutig zur antragstellenden Person gehört; T"
   },
   {
    "formular_id": "svs_de79deb4dd",
@@ -4296,7 +4296,7 @@
    "n_arzt": 2,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert 'Berger Sandra' liegt im Feld der versicherten Person, wirkt aber wie Vertreterin/versicherte Person verwechselt; zusätzlich steht daneben 'Sandra Berger' im selben Bereich; Die mehrfach eingetragenen Versicherungsnummern liegen teilweise in benachbarten/zweiten Zeilen und überlappen mit dem Fe"
+   "grund": "Wert 'Muster Petra' liegt im Feld der versicherten Person, wirkt aber wie Vertreterin/versicherte Person verwechselt; zusätzlich steht daneben 'Petra Muster' im selben Bereich; Die mehrfach eingetragenen Versicherungsnummern liegen teilweise in benachbarten/zweiten Zeilen und überlappen mit dem Fe"
   },
   {
    "formular_id": "svs_f0fd72c75d",
@@ -4365,7 +4365,7 @@
    "n_arzt": 0,
    "pdf_angereichert": false,
    "status": "ungeprueft",
-   "grund": "Wert steht im falschen Personenstand-Feld bzw. falsche Beschriftung; Eintrag sitzt im Abschnitt für weitere Angehörige, nicht bei Anna Berger; Einträge gehören in die Tabelle für weitere Angehörige, nicht zur Antragstellerin"
+   "grund": "Wert steht im falschen Personenstand-Feld bzw. falsche Beschriftung; Eintrag sitzt im Abschnitt für weitere Angehörige, nicht bei Erika Muster; Einträge gehören in die Tabelle für weitere Angehörige, nicht zur Antragstellerin"
   },
   {
    "formular_id": "svs_f839ad647c",

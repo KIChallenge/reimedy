@@ -947,7 +947,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -963,7 +963,7 @@
    "probleme": [
     {
      "feld": "Vorname im Feld 'Familienname und Vorname'",
-     "problem": "Wert 'Berger Anna' steht im kombinierten Namensfeld; Vor- und Nachname nicht getrennt",
+     "problem": "Wert 'Muster Erika' steht im kombinierten Namensfeld; Vor- und Nachname nicht getrennt",
      "schwer": false
     },
     {

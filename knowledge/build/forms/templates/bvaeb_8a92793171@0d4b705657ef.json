@@ -544,7 +544,7 @@
  "geprueft": {
   "methode": "geometrie+vision_llm",
   "am": "2026-11-05",
-  "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"
+  "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"
  },
  "pruefung": {
   "am": "2026-11-05",
@@ -558,17 +558,17 @@
    "ok": true,
    "probleme": [
     {
-     "feld": "Familienname / Vorname(n): Berger Anna",
+     "feld": "Familienname / Vorname(n): Muster Erika",
      "problem": "Wert steht im Namensfeld und passt zur antragstellenden Person; wirkt korrekt platziert",
      "schwer": false
     },
     {
-     "feld": "Versicherungsnummer: 1234140348",
+     "feld": "Versicherungsnummer: 1234010750",
      "problem": "Wert steht im zugehörigen Feld und passt zur Person; keine Layoutauffälligkeit erkennbar",
      "schwer": false
     },
     {
-     "feld": "Anschrift: Musterstraße 12/4, 1030 Wien",
+     "feld": "Anschrift: Hauptstraße 12/4, 1030 Wien",
      "problem": "Wert steht im Anschriftsfeld und bleibt im Rahmen",
      "schwer": false
     },
@@ -578,7 +578,7 @@
      "schwer": false
     },
     {
-     "feld": "eMail: anna.berger@example.org",
+     "feld": "eMail: erika.muster@example.org",
      "problem": "Wert steht im E-Mail-Feld und ist lesbar",
      "schwer": false
     }

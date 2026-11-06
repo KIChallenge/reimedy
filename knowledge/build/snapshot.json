@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-05T22:05:07+00:00",
+ "built_at": "2026-11-06T02:32:18+00:00",
  "documents": {
   "aek_wien": {
    "aek_wien:6998edc6edc959bafbefd130417e3dcb19fe95c6#0": "653f7a88e15281aa504049508476a7d310596bac1849564f4a0f7fdd409778ee",
@@ -30355,7 +30355,7 @@
  },
  "leistungen": {
   "pflegegeld": {
-   "hash": "e73f685df3de",
+   "hash": "5020700f3c42",
    "sources": [
     "bvaeb",
     "gesundheit_gv",
@@ -30484,7 +30484,7 @@
    "name": "Mitversicherung von Angehörigen"
   },
   "reha_onkologisch": {
-   "hash": "23a282b2959d",
+   "hash": "79404ec2acf3",
    "sources": [
     "pva",
     "seed"

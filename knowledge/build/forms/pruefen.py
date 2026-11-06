@@ -103,14 +103,14 @@ def render(tpl: dict, filled: bytes) -> list[Path]:
     return paths
 
 
-VISION_PROMPT = """Du prüfst ein automatisch probe-ausgefülltes österreichisches Formular (Testperson Anna Berger, fiktiv).
+VISION_PROMPT = """Du prüfst ein automatisch probe-ausgefülltes österreichisches Formular (Testperson Erika Muster, fiktiv).
 Blauer Text = von der Software eingefügte Werte. Rote Rahmen = automatisch erkannte Ausfüllfelder, die die Software füllt;
 graue Rahmen = erkannte Felder, die sie nicht füllt. Bilder = Seiten {seiten}. Eingefügte Werte auf diesen Seiten (Seite: Feld-Label → Wert):
 {werte}
 Prüfe NUR das Layout, nicht die Inhalte: (1) Steht jeder blaue Wert im Feld, das zu seinem Label passt (z. B. Vorname im Vorname-Feld)?
 (2) Überdeckt blauer Text gedruckten Formulartext oder ragt er aus dem Feld? (3) Liegen rote Rahmen auf freien Ausfüllbereichen
 (Linie, Kästchen, leere Zelle) und nicht auf gedrucktem Text? (4) Gehört jedes blau gefüllte Feld wirklich zur antragstellenden
-Person (Anna Berger) bzw. ihrer Vertreterin Sandra Berger – und NICHT zu einer Tabelle für weitere Angehörige, Einkommen, Ärzt:innen,
+Person (Erika Muster) bzw. ihrer Vertreterin Petra Muster – und NICHT zu einer Tabelle für weitere Angehörige, Einkommen, Ärzt:innen,
 Einrichtungen oder zum Amtsvermerk? Ein Wert in so einer Tabelle ist ein Problem.
 Antworte als JSON: {{"ok": true|false, "probleme": [{{"feld": "Label oder Wert", "problem": "kurz", "schwer": true|false}}]}}.
 schwer=true NUR bei echten Fehlern: Wert im falschen Feld oder bei der falschen Person/Tabelle, Wert überdeckt gedruckten Text
@@ -185,7 +185,7 @@ def pruefe(path: Path, mit_vision: bool) -> dict:
     pr["ok"] = ok
     methode = "+".join(x for x in ["geometrie", "vision_llm" if pr.get("vision") else None, "sichtpruefung" if pr.get("sicht") else None] if x)
     tpl["pruefung"] = pr
-    tpl["geprueft"] = {"methode": methode, "am": HEUTE, "testperson": "ontologie.beispiel (Anna Berger, fiktiv)"} if ok else None
+    tpl["geprueft"] = {"methode": methode, "am": HEUTE, "testperson": "ontologie.beispiel (Erika Muster, fiktiv)"} if ok else None
     path.write_text(json.dumps(tpl, ensure_ascii=False, indent=1) + "\n")
     return {**erg, "status": "geprueft" if ok else ("geometrie_fehler" if befunde else "ungeprueft"), "befunde": befunde[:5],
             "vision": pr.get("vision", {}).get("probleme") if pr.get("vision") else None}

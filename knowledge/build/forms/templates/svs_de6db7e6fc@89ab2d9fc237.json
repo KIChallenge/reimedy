@@ -5128,7 +5128,7 @@
     },
     {
      "feld": "Vorname (S. 2)",
-     "problem": "Wert Sandra gehört zur Vertreterin, aber erscheint im Bereich einer Tabelle/Feldgruppe, die nicht eindeutig zur antragstellenden Person gehört",
+     "problem": "Wert Petra gehört zur Vertreterin, aber erscheint im Bereich einer Tabelle/Feldgruppe, die nicht eindeutig zur antragstellenden Person gehört",
      "schwer": true
     },
     {
@@ -5152,12 +5152,12 @@
      "schwer": true
     },
     {
-     "feld": "Anna",
+     "feld": "Erika",
      "problem": "Ein Vorname wurde oberhalb des Abschnitts 2 in einem anderen Feldbereich platziert",
      "schwer": true
     },
     {
-     "feld": "Berger",
+     "feld": "Muster",
      "problem": "Familienname erscheint dreifach im Namensbereich; ein Eintrag liegt im Titel-/Nachbarfeld und überdeckt den Formulartext",
      "schwer": true
     },

@@ -2281,7 +2281,7 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "1234140348",
+     "feld": "1234010750",
      "problem": "Wert steht nicht im passenden Feld für die Sozialversicherungsnummer, sondern liegt über der Zeile/außerhalb des vorgesehenen Feldes.",
      "schwer": true
     },
@@ -2291,7 +2291,7 @@
      "schwer": true
     },
     {
-     "feld": "Berger",
+     "feld": "Muster",
      "problem": "Wert liegt im falschen Feldbereich (erste große Zeile/Name-Bereich), nicht eindeutig im passenden Nachnamen-Feld.",
      "schwer": true
     },

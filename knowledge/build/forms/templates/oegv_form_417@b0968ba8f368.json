@@ -20159,12 +20159,12 @@
     },
     {
      "feld": "Familienname (S. 5, Vertreterin)",
-     "problem": "Wert 'Berger' steht in einem plausiblen Feld.",
+     "problem": "Wert 'Muster' steht in einem plausiblen Feld.",
      "schwer": false
     },
     {
      "feld": "Vorname (S. 5, Vertreterin)",
-     "problem": "Wert 'Sandra' steht in einem plausiblen Feld.",
+     "problem": "Wert 'Petra' steht in einem plausiblen Feld.",
      "schwer": false
     },
     {
@@ -20183,17 +20183,17 @@
      "schwer": false
     },
     {
-     "feld": "1234140348 (S. 8/9 Kopfzeile)",
+     "feld": "1234010750 (S. 8/9 Kopfzeile)",
      "problem": "Blauer Wert steht in der Kopfzeile außerhalb des Formularfelds und nicht im passenden Ausfüllfeld",
      "schwer": true
     },
     {
-     "feld": "1234140348 (S. 8/9 Kopfzeile)",
+     "feld": "1234010750 (S. 8/9 Kopfzeile)",
      "problem": "Wert gehört offenbar zu einer wiederholten Kopfzeile, nicht zur antragstellenden Person/Vertreterin",
      "schwer": false
     },
     {
-     "feld": "1234140348 (S. 10/11/12, Kopfzeile)",
+     "feld": "1234010750 (S. 10/11/12, Kopfzeile)",
      "problem": "SVNR steht in den Kopfzeilen-/Seitennummernfeldern, nicht in einem problematischen Ausfüllfeld; kein Fehler erkennbar.",
      "schwer": false
     },
@@ -20254,7 +20254,7 @@
     },
     {
      "feld": "KINDERERZIEHUNG erkläre erzogen überwiegend und Kind 2.",
-     "problem": "‚Lena‘ steht in der 2. Kind-Spalte der Vorname-Zeile; das ist eine Tabelle für Kinder, nicht für Anna Berger/Sandra Berger",
+     "problem": "‚Lena‘ steht in der 2. Kind-Spalte der Vorname-Zeile; das ist eine Tabelle für Kinder, nicht für Erika Muster/Petra Muster",
      "schwer": true
     },
     {

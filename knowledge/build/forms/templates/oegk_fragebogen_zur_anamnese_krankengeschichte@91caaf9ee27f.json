@@ -2281,7 +2281,7 @@
    "ok": false,
    "probleme": [
     {
-     "feld": "1234140348",
+     "feld": "1234010750",
      "problem": "steht im Feld für das Ausfülldatum/Datum, nicht passend zum Sozialversicherungsnummern-Label",
      "schwer": true
     },
@@ -2291,7 +2291,7 @@
      "schwer": false
     },
     {
-     "feld": "Berger",
+     "feld": "Muster",
      "problem": "steht im Namensbereich auf der Zeile unter den Formularfeldern, nicht im passenden Nachnamen-Feld",
      "schwer": true
     },
