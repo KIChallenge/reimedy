@@ -50,8 +50,11 @@ def read_formulare_live(links_dir: Path = LINKS_DIR):
             continue
         f = dict(f)
         st = f.get("url_status")
-        if "url_pdf" not in f:  # älteres Format: url = Datei-URL, außer bei Elternseiten-Ersatz
-            f["url_pdf"] = f.get("url") if st not in ("ersetzt_b", "tot", "keine_url") else None
+        if not f.get("url_pdf"):  # älteres Format bzw. Word/Excel ohne url_pdf: url = Datei-URL, außer bei Elternseiten-Ersatz/tot
+            # „online" = Online-Formular (formgen/Formularservice), keine Datei → nicht als Download ausgeben, aber als Seite
+            f["url_pdf"] = f.get("url") if st not in ("ersetzt_b", "tot", "keine_url", "online") else None
+            if st == "online" and f.get("url"):
+                f["quelle_url"] = f.get("quelle_url") or f["url"]
         if st == "ersetzt_b" and f.get("url"):
             f["eltern_url"] = f["url"]  # Elternseite: „Formular dort herunterladen", NIE als PDF ausgeben
             f["quelle_url"] = f.get("quelle_url") or f["url"]

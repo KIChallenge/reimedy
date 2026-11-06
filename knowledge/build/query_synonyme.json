@@ -7,7 +7,8 @@
     "Pflege zu Hause",
     "Pflegegeld",
     "Heimhilfe",
-    "Pflegeberatung"
+    "Pflegeberatung",
+    "24-Stunden-Betreuung"
    ]
   },
   {
@@ -52,11 +53,47 @@
    ]
   },
   {
-   "muster": "wieder fit|erholung|nach dem spital|nach der operation",
+   "muster": "wieder fit|erholung|nach dem spital|nach der operation|spitalsaufenthalt|entlassung|entlassen",
    "begriffe": [
     "Rehabilitation",
     "Kur"
    ]
+  },
+  {
+   "muster": "^(?!.*(taxi|rettung|fahrt|transport)).*(mamma|brustkrebs|mammakarzinom|onkolog|chemo|krebs|tumor|karzinom|bestrahlung)",
+   "begriffe": [
+    "Onkologische Rehabilitation",
+    "Heilbehelfe",
+    "Krankengeld"
+   ]
+  },
+  {
+   "muster": "vorsorge(?!vollmacht|.{0,10}(vollmacht|dialog|vertretung))",
+   "begriffe": [
+    "Vorsorgeuntersuchung",
+    "Impfung",
+    "Gesundheitsförderung",
+    "Früherkennung"
+   ],
+   "nicht": [
+    "vorsorgevollmacht",
+    "erwachsenenvertretung_vollmacht"
+   ]
+  },
+  {
+   "muster": "^(?!.*(zahn|spange|impf)).*\\bkind(er|es)?\\b",
+   "begriffe": [
+    "Familienbeihilfe",
+    "erhöhte Familienbeihilfe"
+   ]
+  },
+  {
+   "muster": "peruecke|brustprothese|prothese|haarersatz",
+   "begriffe": [
+    "Heilbehelfe",
+    "Hilfsmittel"
+   ]
   }
- ]
+ ],
+ "_hinweis_nicht": "Optional 'nicht': Leistungs-IDs, die bei passender Frage nicht gelistet werden (nur Wortteil-Treffer, z. B. Vorsorge → Vorsorgevollmacht)."
 }

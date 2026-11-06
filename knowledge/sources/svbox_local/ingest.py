@@ -770,7 +770,7 @@ FORM_META = {
     "PAL080_0125_Mpfl_052026.pdf": dict(formular_id="pva_pal080", name="Antrag auf Pflegegeld nach dem BPGG (PAL 080)", traeger="PVA",
                                          leistung_ids=["pflegegeld"], wer="versicherte", hinweis="Auch durch gesetzliche Vertretung/Bevollmächtigte"),
     "fsw-antrag-auf-foerderung-von-leistungen.1779095804.pdf": dict(formular_id="fsw_antrag_foerderung", name="Antrag auf Förderung von Leistungen (FSW)", traeger="FSW",
-                                                                      leistung_ids=["fsw_foerderung_pflege_betreuung", "mobile_pflege_fsw"], wer="versicherte", hinweis="Auch durch vertretungsbefugte Person"),
+                                                                      leistung_ids=["mobile_pflege_fsw", "wohn_pflegehaus_fsw"], wer="versicherte", hinweis="Auch durch vertretungsbefugte Person"),
     "FSW-Antrag-Beilage-Einrichtungswunsch.1779345450.pdf": dict(formular_id="fsw_beilage_einrichtungswunsch", name="Einrichtungswunsch für Wohn- und Pflegehäuser (Beilage zum FSW-Antrag)", traeger="FSW",
                                                                    leistung_ids=["fsw_wohn_pflegehaus"], wer="versicherte", hinweis="Beilage zum FSW-Antrag auf Förderung"),
     "Bedarfsmeldung-Senior_innen-Wohngemeinschaft_Basispaket.1736522017.pdf": dict(formular_id="fsw_bedarfsmeldung_senior_wg", name="Bedarfsmeldung Senior:innen-Wohngemeinschaften – Basispaket", traeger="FSW",

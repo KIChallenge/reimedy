@@ -13,6 +13,11 @@ HTTP:     uv run --python 3.12 knowledge/build/search.py --serve [--port 8765]
   GET  /leistung/<id>                          → Leistung + Voraussetzungen-Kette, Formulare, Stellen, Konflikte, Claims
   GET  /stellen?plz=1030&typ=beratung&leistung=pflegegeld
   GET  /formular/<id>
+  GET  /formular/<id>/template[?alle=1]        → Template (Felder mit bbox + semantik), Standard nur geprüfte (sonst 404)
+  GET  /formular/<id>/empfaenger?plz=&traeger= → zuständige Stelle, Kanal, Rückfragen (forms/empfaenger.jsonl)
+  GET  /formular/<id>/pdf                      → angereicherte PDF-Kopie, sonst 302 auf die geprüfte Live-URL, sonst 404
+  GET  /forms/ontologie                        → Feld-Ontologie (Schlüssel für vault_map)
+  GET  /traeger?id=&plz=                       → Träger-Register mit zuständiger Landesstelle
   POST /triggers  {"text": "…Entlassungsbrief…"} → Leistungen, deren Trigger im Dokument vorkommen (mit Fundstelle)
   GET  /code/<system>/<code>                   → wörtliches Label, Hierarchie, Leistungs-Hinweise (nur administrativ)
   GET  /codes?q=…&system=ICD-10-AT             → Code-Suche über Labels
@@ -43,7 +48,7 @@ SYNONYME = BUILD / "query_synonyme.json"
 
 def _load_syn():
     try:
-        return [(re.compile(r["muster"]), r["begriffe"]) for r in json.loads(SYNONYME.read_text(encoding="utf-8"))["regeln"]]
+        return [(re.compile(r["muster"]), r["begriffe"], r.get("nicht") or []) for r in json.loads(SYNONYME.read_text(encoding="utf-8"))["regeln"]]
     except Exception:
         return []
 
@@ -51,13 +56,51 @@ def _load_syn():
 def expand_query(query: str, regeln) -> list[str]:
     """Kuratierte Umgangssprache → Fachbegriffe (deterministisch, transparent)."""
     nq, out = norm(query), []
-    for rx, begriffe in regeln:
+    for rx, begriffe, *_ in regeln:
         if rx.search(nq):
             out += [b for b in begriffe if b not in out]
     return out
 
-# PLZ → Bundesland (grob, erste Ziffer; reicht für „Stellen in meiner Region")
+# PLZ → Bundesland (grob, erste Ziffer; Fallback). Genauer: plz_bundesland() mit den Grenzbereichen.
 PLZ_BL = {"1": "W", "2": "N", "3": "N", "4": "O", "5": "S", "6": "T", "7": "B", "8": "St", "9": "K"}
+BL_NORM = {"NÖ": "N", "NOE": "N", "OÖ": "O", "OOE": "O", "ST": "St", "STMK": "St"}
+PLZ_ZENTREN = BUILD / "plz_zentren.json"
+# Leistungen ohne eigene Stellen-Zuordnung, die einem Stellen-Typ entsprechen (zustaendig_fuer bleibt leer)
+LEISTUNG_TYP = {"hausarzt_pve": "pve"}
+
+
+def bl_norm(bl):
+    return BL_NORM.get(bl, bl) if bl else bl
+
+
+def plz_bundesland(plz) -> str | None:
+    """PLZ → Bundesland inkl. bekannter Grenzbereiche (wie forms/forms_api.py)."""
+    p = str(plz or "").strip()
+    if not (len(p) == 4 and p.isdigit()):
+        return PLZ_BL.get(p[:1]) if p[:1].isdigit() else None
+    n = int(p)
+    if n < 2000:
+        return "W"
+    if n < 4000:
+        return "B" if 2421 <= n <= 2491 else "N"
+    if n < 5000:
+        return "O"
+    if n < 6000:
+        return "O" if 5100 <= n <= 5299 or 5310 <= n <= 5360 else "S"
+    if n < 7000:
+        return "V" if n >= 6700 else "T"
+    if n < 8000:
+        return "B"
+    if n < 9000:
+        return "St"
+    return "T" if n >= 9900 else "K"
+
+
+def _plz_zentren():
+    try:
+        return json.loads(PLZ_ZENTREN.read_text(encoding="utf-8"))["zentren"]
+    except Exception:
+        return {}
 
 APOTHEKEN_NOTDIENST = {
     "telefon": "1455", "name": "Apothekenruf 1455 (Österreichische Apothekerkammer)",
@@ -165,6 +208,9 @@ class Lotse:
                begriffe: list[str] | None = None) -> dict:
         """query = Originalfrage; begriffe = Fachbegriffe aus der Umschreibung durch System 1 (optional, ARCHITEKTUR §1)."""
         auto = [b for b in expand_query(query, self.syn) if b not in (begriffe or [])]
+        # Regeln mit "nicht": Leistungen, die bei dieser Frage nur über ein Wortteil (vorsorge* → Vorsorgevollmacht) treffen
+        nq_ = norm(query)
+        nicht = {x for rx, _, nn in self.syn if nn and rx.search(nq_) for x in nn}
         full = " ".join([query] + list(begriffe or []) + auto)
         q = fts_query(full)
         qvec = self.emb.query(full).tobytes() if self.emb else None
@@ -195,6 +241,8 @@ class Lotse:
                 scores[lid] = scores.get(lid, 0) + 1 / (K + rk)
         leistungen = []
         for lid in sorted(scores, key=lambda x: -scores[x]):
+            if lid in nicht:
+                continue
             r = self.con.execute("SELECT * FROM leistungen WHERE leistung_id=?", (lid,)).fetchone()
             ber, bl = _j(r["bereich"], []), _j(r["bundesland"], [])
             if bereich and bereich not in ber:
@@ -382,53 +430,122 @@ class Lotse:
         d.pop("lat", None), d.pop("lon", None)
         return d
 
-    def plz_geo(self, plz: str):
-        """PLZ → Mittelpunkt aus den Stellen mit Koordinaten in dieser PLZ (datengetrieben, kein externer Dienst)."""
+    def plz_geo(self, plz: str, grob=True):
+        """PLZ → Mittelpunkt. 1) Stellen mit Koordinaten in dieser PLZ (datengetrieben), 2) grob: plz_zentren.json
+        (längster PLZ-Präfix, Stadtzentrum). Gibt (lat, lon) oder None; self._plz_genau[plz] sagt, welche Stufe."""
+        plz = str(plz or "").strip()
+        if not plz:
+            return None
+        cache = self.__dict__.setdefault("_plz_cache", {})
+        if (plz, grob) in cache:
+            return cache[(plz, grob)]
         r = self.con.execute("SELECT avg(lat), avg(lon), count(*) FROM stellen WHERE plz=? AND lat IS NOT NULL", (plz,)).fetchone()
-        return (r[0], r[1]) if r and r[2] else None
+        res = ((r[0], r[1]), "plz") if r and r[2] else None
+        if not res and grob:
+            z = _plz_zentren()
+            for n in range(len(plz), 0, -1):
+                if plz[:n] in z:
+                    res = ((z[plz[:n]][0], z[plz[:n]][1]), "region")
+                    break
+        self.__dict__.setdefault("_plz_genau", {})[plz] = res[1] if res else None
+        cache[(plz, grob)] = res[0] if res else None
+        return cache[(plz, grob)]
 
     def stellen_near(self, plz: str | None = None, typ: str | None = None, leistung_id: str | None = None, limit=10,
-                     lat: float | None = None, lon: float | None = None) -> dict:
-        """Echte Distanz (Haversine), wo Koordinaten vorhanden sind; sonst Rangfolge PLZ → Bezirk → Bundesland → österreichweit."""
-        sql, args = "SELECT * FROM stellen WHERE 1=1", []
-        if typ:
-            sql += " AND typ=?"
-            args.append(typ)
-        if leistung_id:
-            sql += " AND zustaendig_fuer LIKE ?"
-            args.append(f'%"{self.tax.canon(leistung_id)}"%')
-        rows = [self._stelle(r) for r in self.con.execute(sql, args)]
+                     lat: float | None = None, lon: float | None = None, name: str | None = None) -> dict:
+        """Entfernung (Haversine): Stellen-Koordinaten, sonst PLZ-Mittelpunkt der Stelle. Gleiches Bundesland zuerst
+        (andere Bundesländer nur, wenn dort nichts ist), dann österreichweite Stellen. Dubletten (Name+Adresse) einmal.
+        Leistung ohne eigene Stellen (z. B. hausarzt_pve) → passender Typ; sonst Fallback: Stellen der Träger der Leistung."""
+        lid = self.tax.canon(leistung_id) if leistung_id else None
+        if lid in LEISTUNG_TYP and not typ:
+            typ, lid_filter = LEISTUNG_TYP[lid], None
+        else:
+            lid_filter = lid
+
+        def query(typ_, lid_, typ_in=None):
+            sql, args = "SELECT * FROM stellen WHERE 1=1", []
+            if typ_:
+                sql += " AND typ=?"
+                args.append(typ_)
+            if typ_in:
+                sql += f" AND typ IN ({','.join('?' * len(typ_in))})"
+                args += list(typ_in)
+            if lid_:
+                sql += " AND zustaendig_fuer LIKE ?"
+                args.append(f'%"{lid_}"%')
+            if name:
+                sql += " AND name LIKE ?"
+                args.append(f"%{name}%")
+            return [self._stelle(r) for r in self.con.execute(sql, args)]
+
+        rows = query(typ, lid_filter)
+        ersatz = None
+        if not rows and lid_filter:
+            # Keine Stelle für diese Leistung im Datenbestand → Stellen der Träger der Leistung (ehrlich markiert)
+            r = self.con.execute("SELECT traeger FROM leistungen WHERE leistung_id=?", (lid_filter,)).fetchone()
+            tr = [x for x in _j(r[0], []) if x and len(x) >= 3] if r else []
+            if tr:
+                cand = query(typ, None, None if typ else ("traeger",))
+                rows = [s for s in cand if any(norm(x) in norm(s.get("name") or "") for x in tr)]
+                if rows:
+                    ersatz = {"grund": f"Keine Einrichtung für '{lid_filter}' im Datenbestand – zuständige Träger-Stellen",
+                              "traeger": tr}
         plz = (plz or "").strip()
-        bl = PLZ_BL.get(plz[:1]) if plz else None
+        bl = plz_bundesland(plz) if plz else None
         origin = (lat, lon) if lat is not None and lon is not None else (self.plz_geo(plz) if plz else None)
+        origin_genau = "koordinaten" if lat is not None and lon is not None else (self.__dict__.get("_plz_genau", {}).get(plz) if plz else None)
 
         def rank(s):
             sp = s.get("plz") or ""
-            if origin and s.get("geo"):
-                return (0, _haversine(origin, s["geo"]), "Entfernung")
+            sbl = bl_norm(s.get("bundesland")) or (plz_bundesland(sp) if sp else None)
+            if sbl == "AT":
+                tier = 1
+            elif bl and sbl and sbl != bl:
+                tier = 2
+            else:
+                tier = 0
+            g, geo_art = s.get("geo"), "koordinaten"
+            if not g and sp and origin:
+                pg = self.plz_geo(sp, grob=False)  # nur datengetrieben – Regions-Mittelpunkte wären für Stellen zu grob
+                g, geo_art = (list(pg), "plz_mittelpunkt") if pg else (None, None)
+            if origin and g:
+                return tier, 0, _haversine(origin, g), ("Entfernung" if geo_art == "koordinaten" else "Entfernung (PLZ-Mittelpunkt)")
             if plz and sp == plz:
-                return (1, 0, "gleiche PLZ")
+                return tier, 1, 0, "gleiche PLZ"
             if plz and sp[:3] == plz[:3] and sp:
-                return (2, 0, "gleicher Bezirk/Region")
-            if bl and s.get("bundesland") == bl:
-                return (3, 0, "gleiches Bundesland")
-            if s.get("bundesland") in ("AT", None, ""):
-                return (4, 0, "österreichweit")
-            return (9, 0, "anderes Bundesland")
-        ranked = []
+                return tier, 2, 0, "gleicher Bezirk/Region"
+            if tier == 0 and bl:
+                return tier, 3, 0, "gleiches Bundesland"
+            if tier == 1:
+                return tier, 4, 0, "österreichweit"
+            return tier, 5, 0, "anderes Bundesland"
+
+        ranked, seen = [], set()
         for s in rows:
-            rk, dist, why = rank(s)
-            if rk < 9 and not (rk == 0 and bl and s.get("bundesland") not in (bl, "AT", None, "") and dist > 80):
-                ranked.append((rk if rk else 0, dist, s | {"naehe": why, **({"entfernung_km": round(dist, 2)} if rk == 0 else {})}))
-        ranked.sort(key=lambda x: (x[0] if x[0] else 0, x[1], x[2]["name"] or ""))
-        # Geo-Treffer zuerst nach Distanz, danach die ohne Koordinaten nach PLZ-Logik
+            key = (norm(s.get("name") or ""), norm(s.get("adresse") or "") or s.get("plz") or "")
+            if key in seen:
+                continue
+            seen.add(key)
+            tier, stufe, dist, why = rank(s)
+            extra = {"naehe": why}
+            if why.startswith("Entfernung"):
+                ungenau = why != "Entfernung" or origin_genau == "region"
+                extra["entfernung_km" if not ungenau else "entfernung_ca_km"] = round(dist, 1 if ungenau else 2)
+            ranked.append((tier, stufe, dist, s["name"] or "", s | extra))
+        if any(r[0] == 0 for r in ranked):  # Treffer im eigenen Bundesland → andere Bundesländer weglassen
+            ranked = [r for r in ranked if r[0] != 2]
+        ranked.sort(key=lambda x: x[:4])
         extra = {}
         if typ == "apotheke":
             # D9: Öffnungszeiten fehlen in Wien-OGD, Nachtdienste haben keine offene API (ARCHITEKTUR §5) → deterministischer Verweis
             extra["notdienst"] = APOTHEKEN_NOTDIENST
-        return self._envelope({"plz": plz, "bundesland": bl, "typ": typ, "leistung_id": leistung_id, **extra,
-                               "ursprung": origin, "stellen": [s for *_, s in ranked[:limit]],
-                               "hinweis_naehe": "Entfernung (Luftlinie) wo Koordinaten vorhanden; sonst Rangfolge nach PLZ/Bundesland."})
+        out = {"plz": plz, "bundesland": bl, "typ": typ, "leistung_id": leistung_id, **extra,
+               "ursprung": origin, "ursprung_genauigkeit": origin_genau, "stellen": [x[-1] for x in ranked[:limit]],
+               "hinweis_naehe": "Entfernung (Luftlinie): Koordinaten der Stelle, sonst PLZ-Mittelpunkt (ca.). "
+                                "Gleiches Bundesland zuerst, dann österreichweite Stellen."}
+        if ersatz:
+            out["ersatz"] = ersatz
+        return self._envelope(out)
 
     # ------------------------------------------------------------------ Formulare
     def _formular_kurz(self, fid):
@@ -832,7 +949,8 @@ def serve(port=8765, db=DB_PATH, host=None):
                 return self._send(L.get_leistung(m[1], q.get("claims", "1") == "1"))
             if p == "/stellen":
                 return self._send(L.stellen_near(q.get("plz"), q.get("typ"), q.get("leistung_id") or q.get("leistung"), int(q.get("limit", 10)),
-                                                 float(q["lat"]) if q.get("lat") else None, float(q["lon"]) if q.get("lon") else None))
+                                                 float(q["lat"]) if q.get("lat") else None, float(q["lon"]) if q.get("lon") else None,
+                                                 name=q.get("name")))
             if p == "/forms/ontologie":
                 d = L.forms_ontologie()
                 return self._send(d, d.get("status", 200))
@@ -863,7 +981,8 @@ def serve(port=8765, db=DB_PATH, host=None):
                 self.wfile.write(body)
                 return
             if m := re.fullmatch(r"/formular/([A-Za-z0-9_\-]+)", p):
-                return self._send(L.formular(m[1]))
+                f = L.formular(m[1])
+                return self._send(f, 404 if f.get("error") and "unbekannt" in f["error"] else 200)
             if m := re.fullmatch(r"/code/([^/]+)/([^/]+)", p):
                 from urllib.parse import unquote
                 return self._send(L.lookup_code(unquote(m[1]), unquote(m[2])))
@@ -876,7 +995,9 @@ def serve(port=8765, db=DB_PATH, host=None):
                 return self._send(L.impfplan(q.get("krankheit"), int(q["alter"]) if q.get("alter", "").isdigit() else None))
             if p == "/misses":
                 return self._send(L.misses())
-            self._send({"error": "unbekannter Pfad", "pfade": ["/health", "/search", "/leistung/<id>", "/stellen", "/formular/<id>", "/triggers (POST)", "/misses"]}, 404)
+            self._send({"error": "unbekannter Pfad", "pfade": ["/health", "/search", "/leistung/<id>", "/stellen", "/formular/<id>", "/formular/<id>/template",
+                                                              "/formular/<id>/empfaenger", "/formular/<id>/pdf", "/forms/ontologie", "/traeger",
+                                                              "/triggers (POST)", "/misses"]}, 404)
 
         def do_POST(self):
             n = int(self.headers.get("Content-Length") or 0)

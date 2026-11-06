@@ -1,0 +1,23 @@
+{
+ "_hinweis": "Grobe PLZ-Mittelpunkte für /stellen, wenn keine Stelle mit Koordinaten in derselben PLZ liegt (Stand 06.11.2026). Werte = Stadtzentrum (WGS84, gerundet, Ortskoordinaten der Landeshauptstädte und einiger Bezirkshauptorte – kein Geocoding-Dienst, keine amtliche PLZ-Fläche). Schlüssel = PLZ-Präfix, der längste passende gewinnt. Genauigkeit: Stadt bzw. Region, deshalb liefert die API 'entfernung_ca'.",
+ "zentren": {
+  "1": [48.2082, 16.3738, "Wien"],
+  "2": [47.8151, 16.2465, "Wiener Neustadt"],
+  "25": [48.0069, 16.2309, "Baden"],
+  "27": [47.8151, 16.2465, "Wiener Neustadt"],
+  "3": [48.2047, 15.6256, "St. Pölten"],
+  "35": [48.4108, 15.6103, "Krems"],
+  "4": [48.3069, 14.2858, "Linz"],
+  "46": [48.1575, 14.0289, "Wels"],
+  "44": [48.0427, 14.4213, "Steyr"],
+  "5": [47.8095, 13.0550, "Salzburg"],
+  "6": [47.2692, 11.4041, "Innsbruck"],
+  "67": [47.2331, 9.6000, "Feldkirch"],
+  "68": [47.4125, 9.7417, "Dornbirn"],
+  "69": [47.5031, 9.7471, "Bregenz"],
+  "7": [47.8456, 16.5233, "Eisenstadt"],
+  "8": [47.0707, 15.4395, "Graz"],
+  "9": [46.6247, 14.3053, "Klagenfurt"],
+  "95": [46.6111, 13.8558, "Villach"]
+ }
+}
