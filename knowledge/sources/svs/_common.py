@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup, Comment
 UA = "SV-Lotse-Hackathon/0.1"
 DELAY = 1.1
 NOW = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+import os
+OFFLINE = bool(os.environ.get('SV_OFFLINE'))  # nur raw/-Cache verwenden (schneller Neuaufbau der Ableitungen)
 MAXCH = 1900
 NOISE = {'center','text','textbox','tile','Mehr Informationen','Inhalte relevant für:','download_info','svscontent','Content Start','Content Ende'}
 
@@ -33,6 +35,8 @@ class Fetcher:
         if raw.exists():
             if o.get("etag"): h["If-None-Match"] = o["etag"]
             if o.get("last_modified"): h["If-Modified-Since"] = o["last_modified"]
+        if OFFLINE and raw.exists():
+            self.new[url] = {**o, "status": "offline-cache"}; return raw.read_text(encoding="utf8"), 0
         wait = DELAY - (time.time() - self.last)
         if wait > 0: time.sleep(wait)
         try: r = self.s.get(url, headers=h, timeout=30)
@@ -113,13 +117,15 @@ def guess_bereich(text):
 PHONE = re.compile(r"(?:Tel(?:efon)?\.?:?\s*)?(\+43[\d\s/\-()]{6,20}\d|0\d{1,4}[\s/\-]\d[\d\s\-]{4,16}\d)")
 MAIL = re.compile(r"[\w.\-]+@[\w\-]+\.[\w.\-]+")
 
+SPLIT = re.compile(r'(?<![0-9])(?<!z\.B)(?<!z\.b)(?<!bzw)(?<!d\.h)(?<!ca)(?<!Nr)(?<!u\.a)(?<!inkl)(?<!max)(?<!mind)(?<=[.!?])\s+(?=[A-ZÄÖÜ„"])|\n')
+
 def find_quotes(docs, patterns, maxn=4, maxlen=320):
     """Sucht wörtliche Sätze in den Dokumenten, die eines der Regex-Muster enthalten. -> [{text, quelle_url, zitat}]"""
     res, seen = [], set()
     for d in docs:
-        for sent in re.split(r"(?<=[.!?:])\s+|\n", d["text"]):
+        for sent in SPLIT.split(d["text"]):
             s = sent.strip()
-            if 25 <= len(s) <= maxlen and s not in seen and any(re.search(p, s, re.I) for p in patterns):
+            if 25 <= len(s) <= maxlen and s[-1] in ".!?:" and s[0].isupper() and s not in seen and any(re.search(p, s, re.I) for p in patterns):
                 seen.add(s); res.append({"text": s, "quelle_url": d["url"], "zitat": s})
                 if len(res) >= maxn: return res
     return res
@@ -132,7 +138,7 @@ def write_jsonl(path, rows):
 def match_docs(docs, url_or_title_re=None, text_re=None):
     out = []
     for d in docs:
-        if url_or_title_re and not re.search(url_or_title_re, d["title"] + " " + d["section"], re.I): continue
+        if url_or_title_re and not (re.search(url_or_title_re, d["title"], re.I) or re.search(url_or_title_re, d["section"], re.I)): continue
         if text_re and not re.search(text_re, d["text"], re.I): continue
         out.append(d)
     return out
@@ -229,6 +235,29 @@ def collect_stellen(docs, sid, traeger_name, url_default):
     return out
 
 
+def find_spans(docs, spans):
+    """Wörtliche Auszüge: (Regex, Länge) -> Text ab Treffer (bis Satz-/Zeilenende gekürzt). Für Aufzählungen, die der Satzsplitter zerlegt."""
+    out = []
+    for rx, n in spans:
+        for d in docs:
+            m = re.search(rx, d["text"])
+            if not m: continue
+            t = d["text"][m.start(): m.start() + n]
+            if len(d["text"]) > m.start() + n:
+                cut = max(t.rfind("\n"), t.rfind(". "))
+                if cut > 40: t = t[:cut + 1]
+            t = t.strip()
+            out.append({"text": t, "quelle_url": d["url"], "zitat": t}); break
+    return out
+
+def apply_overrides(specs, overrides, new=()):
+    by = {}
+    for sp in specs: by.setdefault(sp["leistung_id"], sp)
+    res = []
+    for sp in specs:
+        o = overrides.get(sp["leistung_id"]); res.append({**sp, **o} if o else sp)
+    return res + list(new)
+
 def make_leistungen(specs, docs, traeger, innerhalb_sv=True, forms=()):
     """specs: Liste von dicts (leistung_id, name, kurz, bereich, title_re, vq (Voraussetzungs-Regexe), kq (Kosten-Regexe), fq (Fristen), zustaendig, trigger, abh, conf).
     Zitate werden wörtlich aus den gecrawlten Dokumenten gezogen; Spezifika ohne Beleg bleiben leer."""
@@ -236,8 +265,8 @@ def make_leistungen(specs, docs, traeger, innerhalb_sv=True, forms=()):
     for sp in specs:
         ds = match_docs(docs, sp["title_re"])
         if not ds: continue
-        vq = find_quotes(ds, sp.get("vq", []), 4)
-        kq = find_quotes(ds, sp.get("kq", []), 2)
+        vq = find_spans(ds, sp.get("span", [])) + find_quotes(ds, sp.get("vq", []), 4)
+        kq = [q for q in find_quotes(ds, sp.get("kq", []), 6) if re.search(r"\d", q["zitat"])][:2]
         fq = find_quotes(ds, sp.get("fq", []), 2)
         urls = list(dict.fromkeys(d["url"] for d in ds))[:4]
         fid = [x["formular_id"] for x in forms if sp["leistung_id"] in x.get("leistung_ids", [])][:3]
@@ -247,5 +276,109 @@ def make_leistungen(specs, docs, traeger, innerhalb_sv=True, forms=()):
             "unterlagen": [], "fristen": [q["zitat"] for q in fq], "kosten": (kq[0]["zitat"] if kq else None), "kosten_belege": kq,
             "abhaengigkeiten": sp.get("abh", []), "trigger_im_dokument": sp.get("trigger", [sp["name"]]), "bundesland": ["AT"],
             "quellen": [{"url": u, "stand": NOW[:10]} for u in urls], "confidence": sp.get("conf", "mittel"),
-            "unterschied_traeger": sp.get("unterschied")})
+            "unterschied_traeger": sp.get("unterschied"), "hinweise": sp.get("hinweise")})
     return out
+
+
+# ---------- Formulare: PDFs laden, Felder extrahieren ----------
+FIELD_VOCAB = [  # (Regex auf Label, quelle_hint, typ)
+    (r"titel", "titel", "text"), (r"familienname|nachname|zuname", "nachname", "text"), (r"vorname", "vorname", "text"),
+    (r"versicherungsnummer|sv-?nummer|svnr", "svnr", "text"), (r"geburtsdatum|geboren am|geb\.?\s*datum", "geburtsdatum", "text"),
+    (r"adresse|anschrift|straße|strasse|wohnsitz", "adresse", "text"), (r"\bplz\b|postleitzahl", "plz", "text"), (r"\bort\b|wohnort", "ort", "text"),
+    (r"telefon|tel\.?-?nr|mobil", "telefon", "text"), (r"e-?mail", "email", "text"), (r"\biban\b", "iban", "text"), (r"\bbic\b", "bic", "text"),
+    (r"kontoinhaber", "kontoinhaber", "text"), (r"staatsbürgerschaft|staatsangehörigkeit", "staatsbuergerschaft", "text"), (r"familienstand", "familienstand", "text"),
+    (r"geschlecht", "geschlecht", "checkbox"), (r"arbeitgeber|dienstgeber", "arbeitgeber", "text"), (r"unterschrift", "unterschrift", "signatur"),
+    (r"^datum|datum, unterschrift|ort, datum", "datum", "text"), (r"dienststelle|personalnummer", "dienststelle", "text"), (r"kinder|anzahl der kinder", "kinder", "text"),
+    (r"pflegestufe|pflegegeld", "pflegestufe", "text"), (r"\bhausarzt|behandelnde[rn]? arzt", "arzt", "text"), (r"einkommen|nettoeinkommen", "einkommen", "text"),
+]
+
+def pdf_fields(path):
+    from pypdf import PdfReader
+    import io
+    try: r = PdfReader(str(path))
+    except Exception: return None, [], False, 0
+    meta = (r.metadata.title if r.metadata and r.metadata.title else None)
+    felder, acro = [], False
+    try:
+        fl = r.get_fields() or {}
+        for k, v in fl.items():
+            ft = str(v.get("/FT", ""))
+            felder.append({"name": k, "label": str(v.get("/TU") or k), "typ": "checkbox" if ft == "/Btn" else "text", "quelle_hint": hint_for(str(v.get("/TU") or k))})
+        acro = bool(fl)
+    except Exception: pass
+    npages = len(r.pages)
+    if not felder:  # flaches PDF: Labels aus dem Text (Vokabular)
+        seen = set()
+        try:
+            txt = "\n".join((p.extract_text() or "") for p in r.pages[:3])
+        except Exception: txt = ""
+        for line in txt.split("\n"):
+            ln = line.strip()
+            if not ln or len(ln) > 70: continue
+            for rx, h, typ in FIELD_VOCAB:
+                if re.match(r"^[\W\d]*(" + rx + r")", ln, re.I) and (h, ln) not in seen:
+                    seen.add((h, ln)); felder.append({"name": h, "label": ln, "typ": typ, "quelle_hint": h}); break
+    return meta, felder, acro, npages
+
+def hint_for(label):
+    for rx, h, _ in FIELD_VOCAB:
+        if re.search(rx, label, re.I): return h
+    return None
+
+def enrich_forms(f: Fetcher, forms, log=print, limit=None):
+    """Lädt PDF-Formulare (nur /cdscontent/load-Links dieser Träger), extrahiert Felder. Idempotent: vorhandene Dateien werden nicht neu geladen (Version steckt in der URL)."""
+    pdfdir = f.base / "raw" / "pdf"; pdfdir.mkdir(parents=True, exist_ok=True)
+    n = 0
+    for x in forms:
+        u = x.get("url_pdf")
+        if not u or "/cdscontent/load" not in u or "ambulatorien" in u: continue
+        path = pdfdir / (sha1(u) + ".pdf"); meta = pdfdir / (sha1(u) + ".meta.json")
+        if not path.exists() and OFFLINE: continue
+        if not path.exists():
+            wait = DELAY - (time.time() - f.last)
+            if wait > 0: time.sleep(wait)
+            try: r = f.s.get(u, timeout=60); f.last = time.time()
+            except Exception: continue
+            if r.status_code != 200 or not r.content[:5] == b"%PDF-": continue
+            path.write_bytes(r.content)
+            fn = None
+            m = re.search(r'filename="?([^";]+)', r.headers.get("content-disposition", ""))
+            if m: fn = m.group(1)
+            meta.write_text(json.dumps({"filename": fn, "etag": r.headers.get("ETag"), "last_modified": r.headers.get("Last-Modified"), "sha256": sha256(r.content)}))
+            n += 1
+            if limit and n >= limit: break
+        mj = json.loads(meta.read_text()) if meta.exists() else {}
+        try: title, felder, acro, npages = pdf_fields(path)
+        except Exception: title, felder, acro, npages = None, [], False, 0
+        x["local_pdf"] = str(path.relative_to(f.base.parent.parent))
+        x["felder"] = felder; x["fillable"] = acro; x["pdf_seiten"] = npages; x["pdf_sha256"] = mj.get("sha256")
+        x["felder_quelle"] = "acroform" if acro else ("text-heuristik" if felder else "keine")
+        fn = mj.get("filename")
+        if fn:
+            nm = re.sub(r"\.pdf$", "", fn, flags=re.I); nm = re.sub(r"^(VS|SVS|BVAEB)?-?\d+[_-]", "", nm).replace("_", " ").strip()
+            x["dateiname"] = fn
+            if re.match(r"^(PDF|\.\.\.|Download|Mehr)", x["name"]) or len(x["name"]) < 6: x["name"] = (title or nm)
+        elif title and re.match(r"^PDF", x["name"]): x["name"] = title
+        x["wer_fuellt_aus"] = "arzt" if re.search(r"ärztlich|arzt|befund|gutachten", x["name"], re.I) else x["wer_fuellt_aus"]
+        if n and n % 25 == 0: log(f"  pdfs geladen: {n}")
+    return forms
+
+
+def geocode_stellen(f: Fetcher, stellen):
+    """Koordinaten für Stellen mit Adresse via Nominatim (OSM), gecacht in raw/geo.json, ≤1 Req/s. Nur öffentliche Dienststellen-Adressen."""
+    cp = f.base / "raw" / "geo.json"
+    cache = json.loads(cp.read_text()) if cp.exists() else {}
+    for s in stellen:
+        a = s.get("adresse")
+        if not a or s.get("geo"): continue
+        if a not in cache:
+            wait = 1.2 - (time.time() - f.last)
+            if wait > 0: time.sleep(wait)
+            try:
+                r = f.s.get("https://nominatim.openstreetmap.org/search", params={"q": a + ", Österreich", "format": "json", "limit": 1}, timeout=30); f.last = time.time()
+                j = r.json() if r.status_code == 200 else []
+                cache[a] = [float(j[0]["lat"]), float(j[0]["lon"])] if j else None
+            except Exception: continue
+        s["geo"] = cache.get(a)
+    cp.write_text(json.dumps(cache, ensure_ascii=False))
+    return stellen

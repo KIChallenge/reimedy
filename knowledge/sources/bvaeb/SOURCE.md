@@ -21,5 +21,8 @@ Vertragspartner-Seiten (Abrechnung, ELDA, eKOS) wurden mitgecrawlt, sind für de
 - PDFs/Formularfelder nicht ausgelesen. Keine Geo-Koordinaten. Zitate sind regex-selektiert (Wörtlichkeit geprüft, Relevanz nicht) → Review.
 - Kärnten/Tirol/Vorarlberg-Landesstellen: soweit Seite sie führt (siehe stellen.jsonl).
 
-## Lizenz / robots
-`https://www.bvaeb.at/robots.txt` → HTTP 404 (keine Vorgaben). 1 Request/≥1,1 s, UA `SV-Lotse-Hackathon/0.1`, kein Login. © BVAEB; Kurzzitate mit Quellenangabe. Keine Open-Content-Lizenz erkennbar → Rücksprache für Produktivbetrieb.
+## robots / Lizenz
+robots.txt: HTTP 404 (keine Vorgaben). Crawl höflich (≥1,1 s, UA `SV-Lotse-Hackathon/0.1`, kein Login). Sidenote: Inhalte © BVAEB, keine explizite Lizenz – für den Hackathon ignoriert.
+
+## Update 05.11. abends
+Formulare (PDF geladen, Felder per AcroForm bzw. Text-Heuristik), Geokoordinaten der Landesstellen und Review-Fixes wie bei `svs` (siehe dort `SOURCE.md`, `svs/REVIEW_leistungen.md`). Neu: `nachsicht_behandlungsbeitrag_bvaeb` (formloser Antrag, 3–12 Monate, automatisch bei Rezeptgebührbefreiten, erfasst Behandlungsbeitrag + Rezeptgebühr + Kur-/Heilbehelf-/Transport-Kostenanteile). `pflegegeld` ist nur als Unfall-Pflegegeld belegt (Confidence niedrig). Caveat: Beamt:innen bei Krankengeld/Wochengeld ausgenommen laut Seite.

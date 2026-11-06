@@ -1,4 +1,4 @@
-from _common import make_leistungen
+from _common import make_leistungen, apply_overrides
 
 SPECS = [
  dict(leistung_id="behandlungsbeitrag_bvaeb", name="Behandlungsbeitrag (BVAEB)", kurz="Kostenbeteiligung bei Arztbesuchen/Behandlungen für BVAEB-Versicherte; Nachsicht bei geringem Einkommen möglich.", bereich=["C", "E"],
@@ -19,10 +19,27 @@ SPECS = [
  dict(leistung_id="unterstuetzungsfonds_bvaeb", name="Unterstützungsfonds (BVAEB)", kurz="Hilfe in finanziellen Notlagen durch den Unterstützungsfonds der BVAEB.", bereich=["E"], title_re=r"Unterstützungsfonds", vq=[r"Notlage|Unterstützung", r"Antrag|Voraussetzung"], kq=[r"€|Euro"], zustaendig="BVAEB", trigger=["Unterstützungsfonds", "Notlage"]),
  dict(leistung_id="auslandsbehandlung_ekvk", name="Auslandsbehandlung: EKVK / Urlaubskrankenschein (BVAEB)", kurz="e-card/EKVK im EU-Ausland; Urlaubskrankenschein für Länder mit Abkommen.", bereich=["C", "F"], title_re=r"EKVK|Urlaub & Ausland|Ausland & Urlaub|Urlaubskrankenschein", vq=[r"EKVK", r"Urlaubskrankenschein", r"Kosten"], kq=[r"Kostenerstattung|Selbstbehalt|€"], zustaendig="BVAEB", trigger=["EKVK", "Ausland"]),
 ]
+OVERRIDES = {
+ "behandlungsbeitrag_bvaeb": dict(title_re=r"^Behandlungsbeitrag", vq=[r"Der Behandlungsbeitrag beträgt grundsätzlich 20 ?%", r"Kinder.{0,60}ausgenommen"], span=[(r"Der Behandlungsbeitrag wird für folgende Leistungen", 520)], kq=[r"grundsätzlich 20 ?%"], unterschied="BVAEB: Behandlungsbeitrag grundsätzlich 20 % (Kinder/Waisenpensionsbezieher ausgenommen; Nachsicht möglich). SVS (GSVG): Selbstbehalt 20 %, auf 10 %/5 % senkbar. Bauern: SVS-Sonderregeln. Für ÖGK: mit ÖGK-Quelle abgleichen."),
+ "vorsorgeuntersuchung": dict(vq=[r"kein Behandlungsbeitrag", r"kostenlos|kostenfrei|gratis"], kq=[r"kein Behandlungsbeitrag"]),
+ "pflegegeld": dict(title_re=r"Pflegegeld bei Arbeitsunfall", kurz="Pflegegeld nach Arbeitsunfall/Berufskrankheit (BVAEB). Das allgemeine Pflegegeld ist in dieser Quelle nicht gecrawlt – Zuständigkeit: BVAEB nur, wenn sie die Pension zahlt.", zustaendig="BVAEB bei Pflegegeld nach Arbeitsunfall/Berufskrankheit; allgemeines Pflegegeld: Entscheidungsträger richtet sich nach dem Pensionsträger (nicht belegt in dieser Quelle)", abh=[], conf="niedrig", kq=[]),
+ "reha_medizinisch": dict(title_re=r"^Rehabilitation – medizinische|^Medizinische Rehabilitation nach|Antrag für eine stationäre|Berufliche und soziale", abh=[], kq=[r"Zuzahlung.{0,80}\d|Kostenbeitrag.{0,80}\d"], fq=[], conf="niedrig"),
+ "kur": dict(title_re=r"^Kur & |Kuraufenthalt|Genesungsaufenthalte", fq=[r"Jahren|18 Monate"], kq=[], conf="niedrig"),
+ "krankengeld": dict(title_re=r"^Krankengeld", kq=[r"43\. Tag|60 ?%|78 Wochen"], vq=[r"Krankengeld"], zielgruppe="Vertragsbedienstete/Angestellte (nicht Beamte)"),
+ "wochengeld": dict(kq=[r"Verdienstersatz|Pauschale|€ ?\d"], zielgruppe="Vertragsbedienstete, Arbeiterinnen, Angestellte; Beamtinnen kein Anspruch lt. Seite"),
+ "unfall_heilbehandlung": dict(kq=[]),
+ "rezeptgebuehrenbefreiung": dict(unterschied="Rezeptgebühr, 2-%-Obergrenze und Richtsätze laut Seiten bei SVS und BVAEB gleich; BVAEB Nachsicht erfasst zusätzlich Behandlungsbeitrag u. a. (siehe nachsicht_behandlungsbeitrag_bvaeb)."),
+}
+NEW = [
+ dict(leistung_id="nachsicht_behandlungsbeitrag_bvaeb", name="Nachsicht des Behandlungsbeitrags & anderer Kostenbeteiligungen (BVAEB)", kurz="Auf formlosen Antrag kann die BVAEB Behandlungsbeitrag, Rezeptgebühren, Kur-Zuzahlungen, Heilbehelf-/Transportkostenanteile nachsehen; bei Rezeptgebührbefreiten automatisch.",
+      bereich=["C", "E"], title_re=r"Nachsicht des Behandlungsbeitrages|Befreiung und Nachsicht", span=[(r"Kostenbeteiligungen, welche in den Nachsichtsrichtlinien", 520), (r"Es genügt also der formlose Antrag", 200)], vq=[r"Nachsichtszeitraum", r"Automatische Nachsicht bei Rezeptgebührbefreiten"], kq=[r"mindestens 3 und höchstens 12 Monate"], fq=[r"mindestens 3 und höchstens 12 Monate"],
+      zustaendig="BVAEB", abh=["rezeptgebuehrenbefreiung"], trigger=["Nachsicht", "Behandlungsbeitrag", "Rezeptgebühr", "Belastbarkeitsgrenze"],
+      unterschied="SVS: 'Befreiung vom Kostenanteil' (feste Ausnahmen wie Dialyse/Chemo/Behindertengrad ≥ 50 %/Ausgleichszulage, Antrag) + Deckel 5 % – anderes Instrument als die einkommensbasierte BVAEB-Nachsicht.", conf="hoch"),
+]
 def leistungen(docs, pages, cfg):
     import json, pathlib
     forms = [json.loads(l) for l in open(pathlib.Path(__file__).parent / "out/formulare.jsonl")]
-    return make_leistungen(SPECS, docs, ["BVAEB"], True, forms)
+    return make_leistungen(apply_overrides(SPECS, OVERRIDES, NEW), docs, ["BVAEB"], True, forms)
 
 
 def stellen_override(docs):

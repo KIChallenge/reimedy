@@ -1,0 +1,1351 @@
+{
+ "ts": "2026-11-06T0410Z",
+ "ingest": [],
+ "diff": {
+  "documents": {},
+  "leistungen": {
+   "neu": [
+    {
+     "leistung_id": "kostenanteil_befreiung_svs",
+     "hash": "8465253e6b65",
+     "sources": [
+      "svs"
+     ],
+     "status": "kandidat",
+     "name": "Befreiung vom Kostenanteil / Selbstbehalt (SVS) & Kostenanteilsdeckel"
+    },
+    {
+     "leistung_id": "nachsicht_behandlungsbeitrag_bvaeb",
+     "hash": "0d30c98285fb",
+     "sources": [
+      "bvaeb"
+     ],
+     "status": "kandidat",
+     "name": "Nachsicht des Behandlungsbeitrags & anderer Kostenbeteiligungen (BVAEB)"
+    }
+   ],
+   "geaendert": [
+    {
+     "leistung_id": "behandlung_im_ausland",
+     "name": "Behandlung im Ausland / Krankenversicherung auf Reisen",
+     "quellen_vorher": [
+      "bvaeb",
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "behandlungsbeitrag_bvaeb",
+     "name": "Behandlungsbeitrag (BVAEB)",
+     "quellen_vorher": [
+      "bvaeb"
+     ],
+     "quellen_jetzt": [
+      "bvaeb"
+     ]
+    },
+    {
+     "leistung_id": "gesundheitsangebote_svs",
+     "name": "SVS-Gesundheitsangebote (Gesundheitswochen, Pflegeauszeit, Camps)",
+     "quellen_vorher": [
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "gesundheitshunderter_svs",
+     "name": "Gesundheitshunderter (SVS)",
+     "quellen_vorher": [
+      "seed",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "heilbehelfe_hilfsmittel",
+     "name": "Heilbehelfe und Hilfsmittel",
+     "quellen_vorher": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "krankengeld",
+     "name": "Krankengeld (BVAEB)",
+     "quellen_vorher": [
+      "bvaeb",
+      "oegk",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "krankentransport",
+     "name": "Krankentransport / Krankenbeförderung",
+     "quellen_vorher": [
+      "bvaeb",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "kur",
+     "name": "Kur- und Erholungsaufenthalt",
+     "quellen_vorher": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "pva",
+      "seed",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "pva",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "pflegegeld",
+     "name": "Pflegegeld",
+     "quellen_vorher": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oesterreich_gv",
+      "pva",
+      "seed",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oesterreich_gv",
+      "pva",
+      "seed",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "reha_medizinisch",
+     "name": "Rehabilitation (Sozialversicherung, Maßnahmen)",
+     "quellen_vorher": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "oesterreich_gv",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "oesterreich_gv",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "rezeptgebuehrenbefreiung",
+     "name": "Befreiung von der Rezeptgebühr",
+     "quellen_vorher": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "oesterreich_gv",
+      "seed",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "oesterreich_gv",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "selbstaendig_gesund_svs",
+     "name": "Selbständig Gesund (SVS)",
+     "quellen_vorher": [
+      "seed",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "seed",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "unfall_heilbehandlung",
+     "name": "Leistungen nach Arbeits-/Dienstunfall & Berufskrankheit (BVAEB)",
+     "quellen_vorher": [
+      "bvaeb",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "unterstuetzungsfonds",
+     "name": "Unterstützungsfonds",
+     "quellen_vorher": [
+      "bvaeb",
+      "oegk",
+      "svbox_local"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local"
+     ]
+    },
+    {
+     "leistung_id": "vorsorgeuntersuchung",
+     "name": "Vorsorgeuntersuchung (Gesundheits-Check)",
+     "quellen_vorher": [
+      "aek_wien",
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "aek_wien",
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk",
+      "seed",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "wahlarzt_kostenerstattung",
+     "name": "Wahlarzt: Kostenerstattung (Rückerstattung)",
+     "quellen_vorher": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "gesundheit_gv",
+      "oegk"
+     ]
+    },
+    {
+     "leistung_id": "wochengeld",
+     "name": "Wochengeld (BVAEB)",
+     "quellen_vorher": [
+      "bvaeb",
+      "oegk",
+      "svbox_local",
+      "svs"
+     ],
+     "quellen_jetzt": [
+      "bvaeb",
+      "oegk",
+      "svbox_local",
+      "svs"
+     ]
+    },
+    {
+     "leistung_id": "zahnbehandlung_zahnersatz",
+     "name": "Zahnbehandlung, Zahnspange & Zahnersatz (BVAEB)",
+     "quellen_vorher": [
+      "bvaeb"
+     ],
+     "quellen_jetzt": [
+      "bvaeb"
+     ]
+    }
+   ],
+   "entfernt": [],
+   "status": []
+  },
+  "stellen": {
+   "neu": 0,
+   "entfernt": 0,
+   "geaendert": 9
+  },
+  "formulare": {
+   "neu": 0,
+   "entfernt": 0,
+   "geaendert": 366
+  },
+  "formulare_geaendert": [
+   "aek_wien_9b85e012ea",
+   "aek_wien_ba383b21db",
+   "aek_wien_df9cb73699",
+   "antrag_reha_kur",
+   "bvaeb_00501224a1",
+   "bvaeb_0069d3b964",
+   "bvaeb_01f1a165be",
+   "bvaeb_051b400811",
+   "bvaeb_0796027fc5",
+   "bvaeb_09a734f07d",
+   "bvaeb_0a67df4f3c",
+   "bvaeb_0e8b94fa7e",
+   "bvaeb_12273d96ca",
+   "bvaeb_1240b06894",
+   "bvaeb_1697155509",
+   "bvaeb_1a12297bd6",
+   "bvaeb_1c0f8f8d3a",
+   "bvaeb_1ce2e2b953",
+   "bvaeb_1d58dc8ef5",
+   "bvaeb_1f57895949",
+   "bvaeb_200740a15e",
+   "bvaeb_24be11517a",
+   "bvaeb_25ea3a3b7e",
+   "bvaeb_28933110ef",
+   "bvaeb_2aa6b404c4",
+   "bvaeb_2add9649c4",
+   "bvaeb_2bee139ee9",
+   "bvaeb_2dfe2f7289",
+   "bvaeb_2ed325adef",
+   "bvaeb_2f55cae04c",
+   "bvaeb_38a634851e",
+   "bvaeb_3982561d24",
+   "bvaeb_39db4d00e5",
+   "bvaeb_3ba0bf7a74",
+   "bvaeb_3c8c30e96f",
+   "bvaeb_404c4f26c0",
+   "bvaeb_41067e7420",
+   "bvaeb_410bedf9c6",
+   "bvaeb_4145947546",
+   "bvaeb_422efd0a45",
+   "bvaeb_446cc3f70c",
+   "bvaeb_45b0e6c87e",
+   "bvaeb_4677209e4a",
+   "bvaeb_46ab629411",
+   "bvaeb_47c564ebf1",
+   "bvaeb_4883707c21",
+   "bvaeb_4c1a6be17c",
+   "bvaeb_4c64d23b39",
+   "bvaeb_511d7d28c5",
+   "bvaeb_525f68e91e",
+   "bvaeb_5419fbbbb8",
+   "bvaeb_54d957616b",
+   "bvaeb_5527680de4",
+   "bvaeb_58839a0196",
+   "bvaeb_589cfcaaff",
+   "bvaeb_58c754344f",
+   "bvaeb_592bed5bec",
+   "bvaeb_5d0b1eec8a",
+   "bvaeb_5d4d098e01",
+   "bvaeb_5ddb0e4c68",
+   "bvaeb_5eabd48dc1",
+   "bvaeb_62785f5165",
+   "bvaeb_68226d72c0",
+   "bvaeb_68d39081bb",
+   "bvaeb_6939ede31c",
+   "bvaeb_6b46aa00ab",
+   "bvaeb_6c842c2f57",
+   "bvaeb_6d5e00c135",
+   "bvaeb_6dbed3cbf9",
+   "bvaeb_716bea428e",
+   "bvaeb_728da5a3aa",
+   "bvaeb_75188697d2",
+   "bvaeb_757a5ac305",
+   "bvaeb_781c18ad0f",
+   "bvaeb_79d36c1b4d",
+   "bvaeb_79d4a5a1ef",
+   "bvaeb_7fc8ec1068",
+   "bvaeb_82e5d4f0a4",
+   "bvaeb_843ea0d2d1",
+   "bvaeb_88631596f5",
+   "bvaeb_8a46949f88",
+   "bvaeb_8a92793171",
+   "bvaeb_8ad4444169",
+   "bvaeb_9096928de6",
+   "bvaeb_915e26012b",
+   "bvaeb_92ce5203f6",
+   "bvaeb_93f298bd73",
+   "bvaeb_95328111e5",
+   "bvaeb_973523a26f",
+   "bvaeb_988eb10ec0",
+   "bvaeb_98ad753e16",
+   "bvaeb_9a53bc924e",
+   "bvaeb_9b960a7c46",
+   "bvaeb_9d7f0d0bf6",
+   "bvaeb_9dd45ff4e4",
+   "bvaeb_9e4c8a0a44",
+   "bvaeb_a0ee6b64e7",
+   "bvaeb_a338941990",
+   "bvaeb_a4623cc302",
+   "bvaeb_a75a07408c",
+   "bvaeb_a767871cbd",
+   "bvaeb_a950d4ed52",
+   "bvaeb_aa243f7fe3",
+   "bvaeb_ab4e6964a7",
+   "bvaeb_abc51fffe6",
+   "bvaeb_ac0155333c",
+   "bvaeb_afe551a62b",
+   "bvaeb_b2dd2d5803",
+   "bvaeb_b492dbff04",
+   "bvaeb_b49ce15e03",
+   "bvaeb_b810982b07",
+   "bvaeb_b92af1405b",
+   "bvaeb_b94c860ce4",
+   "bvaeb_bb7ad8f6dc",
+   "bvaeb_c3b9f02942",
+   "bvaeb_c467dab2e3",
+   "bvaeb_c5da34e556",
+   "bvaeb_c616b64ba9",
+   "bvaeb_c89cfafb3f",
+   "bvaeb_c9064265c8",
+   "bvaeb_cc7106506f",
+   "bvaeb_d215f68314",
+   "bvaeb_d3f6e376f9",
+   "bvaeb_d44d39fd77",
+   "bvaeb_d4d77f7781",
+   "bvaeb_d5a2626631",
+   "bvaeb_d5d8b8b408",
+   "bvaeb_d85e66af90",
+   "bvaeb_d9d797a31a",
+   "bvaeb_da378a824e",
+   "bvaeb_da8753ba8e",
+   "bvaeb_db7f70fdbb",
+   "bvaeb_dc0837de70",
+   "bvaeb_dc6191e970",
+   "bvaeb_dc951b7f88",
+   "bvaeb_dd7edaf5bf",
+   "bvaeb_e1e370212a",
+   "bvaeb_e2631888a4",
+   "bvaeb_e2e49d8c39",
+   "bvaeb_e5895eef67",
+   "bvaeb_e827f16987",
+   "bvaeb_ecdbea0b2a",
+   "bvaeb_ed659af645",
+   "bvaeb_ef3e056d8c",
+   "bvaeb_f0cff6a120",
+   "bvaeb_f12eb49a57",
+   "bvaeb_f20302ae3f",
+   "bvaeb_f287b8a439",
+   "bvaeb_f2f5519e61",
+   "bvaeb_f39df4b02c",
+   "bvaeb_f4af63fcaf",
+   "bvaeb_fbefa3ab2b",
+   "svs_0070dd8de1",
+   "svs_020a5678d0",
+   "svs_02a6e5560a",
+   "svs_053ab8caef",
+   "svs_055ffc706d",
+   "svs_05ba22bfec",
+   "svs_0857765cf6",
+   "svs_087aa96b7f",
+   "svs_08f6632c05",
+   "svs_0a20090f43",
+   "svs_0ab0eb276b",
+   "svs_0ab29d9bdf",
+   "svs_0b0397c909",
+   "svs_0c5aa467a0",
+   "svs_0c79a28a3b",
+   "svs_0d0837efe6",
+   "svs_0d739443f8",
+   "svs_0e5d3a75a7",
+   "svs_10e1c7f77f",
+   "svs_12cf32e0b3",
+   "svs_1411e7434f",
+   "svs_165250e244",
+   "svs_173140ab20",
+   "svs_17a00dd106",
+   "svs_1a47a1e71a",
+   "svs_1b61761d5c",
+   "svs_1c3976a941",
+   "svs_1d9377fa4c",
+   "svs_1fa1b79e09",
+   "svs_1ff5c611a9",
+   "svs_2084babeec",
+   "svs_21857ba383",
+   "svs_2260a44917",
+   "svs_252bb97593",
+   "svs_27deb3a04c",
+   "svs_295e174633",
+   "svs_2995b69651",
+   "svs_29a2c56be7",
+   "svs_29dfd03b3c",
+   "svs_2a5d79d382",
+   "svs_2a7ede4498",
+   "svs_2b6b6b97a2",
+   "svs_2c0f5c2465",
+   "svs_2cbcc28731",
+   "svs_2edfe7df48",
+   "svs_2f0c2c8cee",
+   "svs_2f7b56fd2b",
+   "svs_307139b381",
+   "svs_3279cb3c96",
+   "svs_346feb4ecf",
+   "svs_361135b683",
+   "svs_3675e2dcc1",
+   "svs_37916134ae",
+   "svs_37975c4cb5",
+   "svs_3a04319e80",
+   "svs_3b575deede",
+   "svs_3cb811755f",
+   "svs_3cf19bb39a",
+   "svs_3e89a7492c",
+   "svs_41a31dc531",
+   "svs_43c09993d6",
+   "svs_44d3928abe",
+   "svs_451862d725",
+   "svs_46d47f7de6",
+   "svs_476c8ae372",
+   "svs_49018a6cbe",
+   "svs_4abe172341",
+   "svs_4ce64bed8c",
+   "svs_5118c37e30",
+   "svs_5654837c3a",
+   "svs_569414ac79",
+   "svs_572e3a1873",
+   "svs_5aed63facc",
+   "svs_5be35306a3",
+   "svs_5db13e8d84",
+   "svs_5e55aeb0bb",
+   "svs_5ea664782c",
+   "svs_5ea82d7f9c",
+   "svs_6077b075b0",
+   "svs_61a9860dc4",
+   "svs_61fa0aab81",
+   "svs_62426fce0d",
+   "svs_64d7a2fa52",
+   "svs_653977d251",
+   "svs_65616c1550",
+   "svs_69fb6a8e11",
+   "svs_6bb2c05b5b",
+   "svs_6d308ca16b",
+   "svs_6e0a5fdd9b",
+   "svs_6e22a33e3f",
+   "svs_6f835bdf72",
+   "svs_70346eaded",
+   "svs_71c7f92ec3",
+   "svs_73b8e92b48",
+   "svs_7471aae7d1",
+   "svs_764bfe25d7",
+   "svs_7678bec1e2",
+   "svs_778189f5ad",
+   "svs_7a4ceb55fe",
+   "svs_7a55986e00",
+   "svs_7b20bbeff0",
+   "svs_7bb6cb0222",
+   "svs_7bffe9e062",
+   "svs_7d381b7e58",
+   "svs_7d5802d3d8",
+   "svs_7f190f005a",
+   "svs_7fd685b258",
+   "svs_7fd6e87443",
+   "svs_8071a4329a",
+   "svs_81122ff00f",
+   "svs_81e79096f1",
+   "svs_826b376cc3",
+   "svs_838f02e277",
+   "svs_83f5e7f885",
+   "svs_842e58e23c",
+   "svs_84e1ffa3ee",
+   "svs_872e7c08de",
+   "svs_8a2abc7390",
+   "svs_8b3041804f",
+   "svs_8e5303e0b6",
+   "svs_8e9deedf69",
+   "svs_8ef4e4a8a0",
+   "svs_8fb4b88d50",
+   "svs_8ffbffc853",
+   "svs_90a7962ca4",
+   "svs_91b49b251d",
+   "svs_92e87cc6f1",
+   "svs_9461f559f9",
+   "svs_94be936a97",
+   "svs_9632b0f532",
+   "svs_9789119039",
+   "svs_979dc004c8",
+   "svs_9b817d61ff",
+   "svs_9ba9cd8c83",
+   "svs_9ceea8b1a5",
+   "svs_9e76b62d9d",
+   "svs_9f9974bc1b",
+   "svs_a340919067",
+   "svs_a3e61b98e0",
+   "svs_a51d6609b2",
+   "svs_a75a51eb62",
+   "svs_a87f47911c",
+   "svs_a8e19b3632",
+   "svs_aa0774943e",
+   "svs_aaa7ee0d85",
+   "svs_ab71bef6db",
+   "svs_ac2e2b8322",
+   "svs_ace9027e9b",
+   "svs_ade32a824d",
+   "svs_aec8f41370",
+   "svs_af4e3a6dc6",
+   "svs_b01fbaf337",
+   "svs_b0d99f15d7",
+   "svs_b0f3f2c43b",
+   "svs_b0f52f06ae",
+   "svs_b2a994edee",
+   "svs_b2faf9a867",
+   "svs_b309d0e7d1",
+   "svs_b324e45072",
+   "svs_b3b63a9928",
+   "svs_b547a057ec",
+   "svs_b7edec2d26",
+   "svs_b9026c0661",
+   "svs_bba4eb373f",
+   "svs_c1640d8b0b",
+   "svs_c256fa7b5e",
+   "svs_c45fa61558",
+   "svs_c98bfa5613",
+   "svs_ca0209d3a4",
+   "svs_ca3160edc9",
+   "svs_ca759a2171",
+   "svs_ce3087cbd9",
+   "svs_d13f124421",
+   "svs_d1714bfd91",
+   "svs_d1dedfbaf2",
+   "svs_d249925502",
+   "svs_d3eed22f08",
+   "svs_d476ca6794",
+   "svs_d56de5a120",
+   "svs_d60dbb1d91",
+   "svs_d7043a0c64",
+   "svs_d71a8bbaeb",
+   "svs_d79218d91e",
+   "svs_d9f78666b3",
+   "svs_da67a428d4",
+   "svs_dac53cc088",
+   "svs_dae7ddcdf1",
+   "svs_dd35620949",
+   "svs_de6db7e6fc",
+   "svs_df5710a971",
+   "svs_e10bb24dbe",
+   "svs_e291592e5a",
+   "svs_e33037dfc2",
+   "svs_e689ccd17b",
+   "svs_ed87df8349",
+   "svs_ede51eb806",
+   "svs_ee74891811",
+   "svs_f05fde2918",
+   "svs_f11a5fd2c1",
+   "svs_f189140cd4",
+   "svs_f3850678ab",
+   "svs_f63d8f90ee",
+   "svs_f691c13c05",
+   "svs_f72386e769",
+   "svs_f73b2a8dbb",
+   "svs_f7f9d5ea65",
+   "svs_f839ad647c",
+   "svs_f92a457213",
+   "svs_fbd7bfa4e7",
+   "svs_fdc851d526",
+   "svs_fdff7f61d9",
+   "svs_fe1cdb6034",
+   "svs_feaa8e28b6",
+   "svs_ffbd6f72ac"
+  ]
+ },
+ "gates": [
+  {
+   "gate": "schema_fehlerfrei",
+   "ok": true,
+   "hart": true,
+   "detail": "0 Fehler"
+  },
+  {
+   "gate": "source_md_und_manifest",
+   "ok": true,
+   "hart": true,
+   "detail": "alle vorhanden"
+  },
+  {
+   "gate": "keine_leeren_quellen",
+   "ok": true,
+   "hart": false,
+   "detail": "keine"
+  },
+  {
+   "gate": "golden (a roh): Mama packt's nicht mehr allein",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "mobile_pflege_fsw",
+     "pflegegeld"
+    ],
+    "begriffe": null,
+    "top5": [
+     "mobile_pflege_fsw",
+     "pflegekarenz",
+     "pflegegeld",
+     "mobile_dienste",
+     "pflegeberatung"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Mama packt's nicht mehr allein",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "mobile_pflege_fsw",
+     "pflegegeld"
+    ],
+    "begriffe": [
+     "Pflegegeld",
+     "mobile Pflege"
+    ],
+    "top5": [
+     "mobile_pflege_fsw",
+     "mobile_dienste",
+     "pflegegeld",
+     "pflegekarenz",
+     "pflegeberatung"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Meine Mama packt's nimma allein daham, was kann ich tun?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fsw_pflegeberatung",
+     "heimhilfe_wien",
+     "mobile_pflege_fsw",
+     "pflegeberatung",
+     "pflegegeld"
+    ],
+    "begriffe": null,
+    "top5": [
+     "mobile_pflege_fsw",
+     "pflegekarenz",
+     "mobile_dienste",
+     "pflegegeld",
+     "heimhilfe_wien"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Meine Mama packt's nimma allein daham, was kann ich tun?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fsw_pflegeberatung",
+     "heimhilfe_wien",
+     "mobile_pflege_fsw",
+     "pflegeberatung",
+     "pflegegeld"
+    ],
+    "begriffe": [
+     "Pflegegeld",
+     "Heimhilfe",
+     "Pflegeberatung"
+    ],
+    "top5": [
+     "mobile_pflege_fsw",
+     "pflegekarenz",
+     "mobile_dienste",
+     "pflegegeld",
+     "heimhilfe_wien"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Meine Mutter braucht jetzt Hilfe, was muss ich machen?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fsw_pflegeberatung",
+     "mobile_pflege_fsw",
+     "pflegeberatung",
+     "pflegegeld"
+    ],
+    "begriffe": null,
+    "top5": [
+     "pflegegeld",
+     "mobile_pflege_fsw",
+     "pflegekarenz",
+     "pflegeberatung",
+     "mobile_dienste"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Meine Mutter braucht jetzt Hilfe, was muss ich machen?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fsw_pflegeberatung",
+     "mobile_pflege_fsw",
+     "pflegeberatung",
+     "pflegegeld"
+    ],
+    "begriffe": [
+     "Pflegegeld",
+     "Pflegeberatung"
+    ],
+    "top5": [
+     "pflegegeld",
+     "mobile_pflege_fsw",
+     "pflegekarenz",
+     "pflegeberatung",
+     "mobile_dienste"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Taxi zur Bestrahlung",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fahrtkostenzuschuss",
+     "krankentransport"
+    ],
+    "begriffe": null,
+    "top5": [
+     "krankentransport",
+     "fahrtkostenzuschuss",
+     "fahrtendienst_fahrtkostenersatz_wien",
+     "fahrtkostenersatz_gehoerlose_wien",
+     "anschlussheilverfahren"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Taxi zur Bestrahlung",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fahrtkostenzuschuss",
+     "krankentransport"
+    ],
+    "begriffe": [
+     "Krankentransport",
+     "Fahrtkostenzuschuss"
+    ],
+    "top5": [
+     "fahrtkostenzuschuss",
+     "krankentransport",
+     "fahrtendienst_fahrtkostenersatz_wien",
+     "fahrtkostenersatz_gehoerlose_wien",
+     "anschlussheilverfahren"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Wer zahlt das Taxi zur Bestrahlung?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fahrtkostenzuschuss",
+     "krankentransport"
+    ],
+    "begriffe": null,
+    "top5": [
+     "krankentransport",
+     "fahrtkostenzuschuss",
+     "fahrtendienst_fahrtkostenersatz_wien",
+     "fahrtkostenersatz_gehoerlose_wien",
+     "krankengeld"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Wer zahlt das Taxi zur Bestrahlung?",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "fahrtkostenzuschuss",
+     "krankentransport"
+    ],
+    "begriffe": [
+     "Krankentransport",
+     "Fahrtkosten"
+    ],
+    "top5": [
+     "krankentransport",
+     "fahrtkostenzuschuss",
+     "fahrtendienst_fahrtkostenersatz_wien",
+     "fahrtkostenersatz_gehoerlose_wien",
+     "krankengeld"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Zahnspange Kind",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "zahnspange_kfo"
+    ],
+    "begriffe": null,
+    "top3": [
+     "zahnspange_kfo",
+     "kinderimpfprogramm",
+     "zahnbehandlung_zahnersatz"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Zahnspange Kind",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "zahnspange_kfo"
+    ],
+    "begriffe": [
+     "Kieferorthopädie"
+    ],
+    "top3": [
+     "zahnspange_kfo",
+     "kinderimpfprogramm",
+     "zahnbehandlung_zahnersatz"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Mein Bub braucht vielleicht eine Zahnspange",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "zahnspange_kfo"
+    ],
+    "begriffe": null,
+    "top5": [
+     "zahnspange_kfo",
+     "zahnbehandlung_zahnersatz",
+     "mundhygiene_kinder",
+     "zahnbehandlung",
+     "gesundheitsberatung_1450"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Mein Bub braucht vielleicht eine Zahnspange",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "zahnspange_kfo"
+    ],
+    "begriffe": [
+     "Kieferorthopädie",
+     "Gratis-Zahnspange"
+    ],
+    "top5": [
+     "zahnspange_kfo",
+     "zahnbehandlung_zahnersatz",
+     "mundhygiene_kinder",
+     "zahnbehandlung",
+     "impfungen_erwachsene"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): mehr bewegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "bewegt_im_park"
+    ],
+    "begriffe": null,
+    "top5": [
+     "bewegungsempfehlungen",
+     "gesundheitskurse_bewegung",
+     "bewegt_im_park",
+     "gesunder_ruecken",
+     "gesundheitshunderter_svs"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): mehr bewegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "bewegt_im_park"
+    ],
+    "begriffe": [
+     "Bewegung",
+     "Gesundheitsförderung"
+    ],
+    "top5": [
+     "bewegungsempfehlungen",
+     "gesundheitskurse_bewegung",
+     "bewegt_im_park",
+     "gesunder_ruecken",
+     "gesundheitshunderter_svs"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Ich will was für meine Gesundheit tun, mich mehr bewegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "bewegt_im_park",
+     "gesundheitshunderter_svs",
+     "vorsorgeuntersuchung"
+    ],
+    "begriffe": null,
+    "top5": [
+     "gesundheitskurse_bewegung",
+     "bewegungsempfehlungen",
+     "gesundheitshunderter_svs",
+     "bewegt_im_park",
+     "gesunder_ruecken"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Ich will was für meine Gesundheit tun, mich mehr bewegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "bewegt_im_park",
+     "gesundheitshunderter_svs",
+     "vorsorgeuntersuchung"
+    ],
+    "begriffe": [
+     "Gesundheitsförderung",
+     "Bewegung"
+    ],
+    "top5": [
+     "gesundheitskurse_bewegung",
+     "bewegungsempfehlungen",
+     "gesundheitshunderter_svs",
+     "bewegt_im_park",
+     "gesunder_ruecken"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Pflegegeld beantragen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "pflegegeld"
+    ],
+    "begriffe": null,
+    "top1": [
+     "pflegegeld"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Pflegegeld beantragen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "pflegegeld"
+    ],
+    "begriffe": [
+     "Pflegegeld",
+     "Antrag"
+    ],
+    "top1": [
+     "pflegegeld"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Rezeptgebühr zu teuer, kleine Pension",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "rezeptgebuehrenbefreiung"
+    ],
+    "begriffe": null,
+    "top3": [
+     "rezeptgebuehrenbefreiung",
+     "ausgleichszulage",
+     "rezeptgebuehrenobergrenze"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Rezeptgebühr zu teuer, kleine Pension",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "rezeptgebuehrenbefreiung"
+    ],
+    "begriffe": [
+     "Rezeptgebührenbefreiung"
+    ],
+    "top3": [
+     "rezeptgebuehrenbefreiung",
+     "ausgleichszulage",
+     "rezeptgebuehrenobergrenze"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Die Medikamente sind so teuer, die Mama hat nur eine kleine Pension",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "rezeptgebuehrenbefreiung"
+    ],
+    "begriffe": null,
+    "top5": [
+     "rezeptgebuehrenbefreiung",
+     "ausgleichszulage",
+     "rezeptgebuehrenobergrenze",
+     "heilmittel_bewilligungspflicht",
+     "pension_allgemein"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Die Medikamente sind so teuer, die Mama hat nur eine kleine Pension",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "rezeptgebuehrenbefreiung"
+    ],
+    "begriffe": [
+     "Rezeptgebührenbefreiung",
+     "Ausgleichszulage"
+    ],
+    "top5": [
+     "rezeptgebuehrenbefreiung",
+     "ausgleichszulage",
+     "rezeptgebuehrenobergrenze",
+     "heilmittel_bewilligungspflicht",
+     "kostenanteil_befreiung_svs"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): nach dem Spital wieder fit werden, Erholung",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "kur",
+     "reha_medizinisch",
+     "reha_onkologisch"
+    ],
+    "begriffe": null,
+    "top5": [
+     "kur",
+     "reha_onkologisch",
+     "anschlussheilverfahren",
+     "reha_beruflich",
+     "reha_kinder"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): nach dem Spital wieder fit werden, Erholung",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "kur",
+     "reha_medizinisch",
+     "reha_onkologisch"
+    ],
+    "begriffe": [
+     "Rehabilitation",
+     "Kur"
+    ],
+    "top5": [
+     "kur",
+     "reha_onkologisch",
+     "anschlussheilverfahren",
+     "reha_beruflich",
+     "reha_kinder"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (a roh): Ich muss mir frei nehmen um die Mama zu pflegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "familienhospizkarenz",
+     "pflegekarenz"
+    ],
+    "begriffe": null,
+    "top5": [
+     "pflegekarenz",
+     "pflegekarenzgeld",
+     "pflegegeld",
+     "angehoerigen_unterstuetzung_ersatzpflege",
+     "gesundheitsangebote_svs"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "golden (b umgeschrieben): Ich muss mir frei nehmen um die Mama zu pflegen",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "erwartet": [
+     "familienhospizkarenz",
+     "pflegekarenz"
+    ],
+    "begriffe": [
+     "Pflegekarenz",
+     "Pflegeteilzeit"
+    ],
+    "top5": [
+     "pflegekarenz",
+     "pflegekarenzgeld",
+     "pflegegeld",
+     "angehoerigen_unterstuetzung_ersatzpflege",
+     "gesundheitsangebote_svs"
+    ],
+    "modus": "hybrid"
+   }
+  },
+  {
+   "gate": "links_demo_formulare_100",
+   "ok": true,
+   "hart": true,
+   "detail": {
+    "live": "6/7",
+    "fallback_lokal+elternseite": [
+     "fsw_bedarfsmeldung_wg"
+    ],
+    "fehlt": []
+   }
+  },
+  {
+   "gate": "links_formulare_95",
+   "ok": true,
+   "hart": true,
+   "detail": "493/493 = 100%"
+  },
+  {
+   "gate": "traeger_register",
+   "ok": true,
+   "hart": true,
+   "detail": "9 Träger, Landesstellen vollständig"
+  },
+  {
+   "gate": "impfplan_intervalle",
+   "ok": true,
+   "hart": true,
+   "detail": "4 Krankheiten mit Version + Zitat"
+  },
+  {
+   "gate": "leistung_hat_quelle",
+   "ok": true,
+   "hart": true,
+   "detail": "alle mit Quelle"
+  },
+  {
+   "gate": "icd_hint_policy",
+   "ok": true,
+   "hart": true,
+   "detail": "ok (vom Build entfernt: 0)"
+  }
+ ],
+ "swap": true,
+ "links": {
+  "links": 26288,
+  "frisch_ok": 6104,
+  "quelle": "knowledge/build/links/links.jsonl",
+  "formulare_live": 954
+ }
+}

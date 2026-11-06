@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["requests", "beautifulsoup4", "lxml"]
+# dependencies = ["requests", "beautifulsoup4", "lxml", "pypdf", "cryptography"]
 # ///
 """BVAEB (www.bvaeb.at). `uv run knowledge/sources/bvaeb/ingest.py`."""
 import sys

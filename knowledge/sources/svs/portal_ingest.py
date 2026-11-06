@@ -21,9 +21,11 @@ def run(cfg, base: Path, extra=None):
         docs += build_docs(cfg["source_id"], url, t, secs, sh, cfg["traeger"], cfg["bundesland"], bereich, dt_, cfg["license_note"])
     write_jsonl(base / "out/documents.jsonl", docs)
     forms = collect_formulare(pages, cfg["host"], cfg["source_id"], cfg["traeger"][0], cfg["form_hints"])
+    forms = enrich_forms(f, forms)
     write_jsonl(base / "out/formulare.jsonl", forms)
     stellen = collect_stellen(docs, cfg["source_id"], cfg["traeger"][0], cfg["host"])
     if cfg.get("stellen_fn"): stellen = cfg["stellen_fn"](docs) + [x for x in stellen if not cfg.get("stellen_replace")]
+    stellen = geocode_stellen(f, stellen)
     write_jsonl(base / "out/stellen.jsonl", stellen)
     leist = extra(docs, pages, cfg) if extra else []
     write_jsonl(base / "out/leistungen.jsonl", leist)
