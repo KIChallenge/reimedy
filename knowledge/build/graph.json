@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-06T02:47:21+00:00",
+ "built_at": "2026-11-06T03:07:13+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -22728,7 +22728,6 @@
     ]
    },
    "abhaengigkeiten": [
-    "mobile_pflege_fsw",
     "pflegegeld"
    ],
    "antrag": {
@@ -23832,43 +23831,43 @@
   {
    "von": "pflegegeld",
    "nach": "rehabilitation",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,gesundheit_gv,oesterreich_gv,pva,seed,svs",
+   "typ": "verwandt",
+   "source_id": "pva",
    "dangling": 0
   },
   {
    "von": "pflegegeld",
    "nach": "pflegekarenzgeld",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,gesundheit_gv,oesterreich_gv,pva,seed,svs",
+   "typ": "verwandt",
+   "source_id": "pva",
    "dangling": 0
   },
   {
    "von": "pflegegeld",
    "nach": "angehoerigenbonus",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,gesundheit_gv,oesterreich_gv,pva,seed,svs",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "pflegegeld",
    "nach": "pflegekarenz",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,gesundheit_gv,oesterreich_gv,pva,seed,svs",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "pflegegeld",
    "nach": "foerderung_24h_betreuung",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,gesundheit_gv,oesterreich_gv,pva,seed,svs",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "pflegegeld",
    "nach": "rezeptgebuehrenbefreiung",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,gesundheit_gv,oesterreich_gv,pva,seed,svs",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
@@ -23881,8 +23880,8 @@
   {
    "von": "mobile_pflege_fsw",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "fsw,seed",
+   "typ": "verwandt",
+   "source_id": "fsw",
    "dangling": 0
   },
   {
@@ -23895,8 +23894,8 @@
   {
    "von": "senior_innen_wg_fsw",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "fsw,seed",
+   "typ": "verwandt",
+   "source_id": "fsw",
    "dangling": 0
   },
   {
@@ -23908,16 +23907,9 @@
   },
   {
    "von": "wohn_pflegehaus_fsw",
-   "nach": "mobile_pflege_fsw",
-   "typ": "setzt_voraus",
-   "source_id": "fsw,seed",
-   "dangling": 0
-  },
-  {
-   "von": "wohn_pflegehaus_fsw",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "fsw,seed",
+   "typ": "verwandt",
+   "source_id": "fsw",
    "dangling": 0
   },
   {
@@ -23931,14 +23923,14 @@
    "von": "pflegekarenz",
    "nach": "pflegegeld",
    "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oesterreich_gv,seed",
+   "source_id": "seed,oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "pflegekarenz",
    "nach": "familienhospizkarenz",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oesterreich_gv,seed",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
@@ -23951,15 +23943,15 @@
   {
    "von": "familienhospizkarenz",
    "nach": "pflegekarenz",
-   "typ": "setzt_voraus",
-   "source_id": "oesterreich_gv,seed",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "familienhospizkarenz",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "oesterreich_gv,seed",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
@@ -23986,22 +23978,22 @@
   {
    "von": "krankentransport",
    "nach": "rezeptgebuehrenbefreiung",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,oegk,seed,svbox_local,svs",
+   "typ": "verwandt",
+   "source_id": "svbox_local",
    "dangling": 0
   },
   {
    "von": "sozialhilfe_wien",
    "nach": "rezeptgebuehrenbefreiung",
-   "typ": "setzt_voraus",
-   "source_id": "oesterreich_gv,seed",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "familienbeihilfe",
    "nach": "kinderbetreuungsgeld",
-   "typ": "setzt_voraus",
-   "source_id": "oesterreich_gv,seed",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
@@ -24014,15 +24006,15 @@
   {
    "von": "reha_onkologisch",
    "nach": "rehabilitation",
-   "typ": "setzt_voraus",
-   "source_id": "pva,seed",
+   "typ": "verwandt",
+   "source_id": "pva",
    "dangling": 0
   },
   {
    "von": "reha_onkologisch",
    "nach": "krankentransport",
-   "typ": "setzt_voraus",
-   "source_id": "pva,seed",
+   "typ": "verwandt",
+   "source_id": "pva",
    "dangling": 0
   },
   {
@@ -24035,8 +24027,8 @@
   {
    "von": "anschlussheilverfahren",
    "nach": "rehabilitation",
-   "typ": "setzt_voraus",
-   "source_id": "pva,seed",
+   "typ": "verwandt",
+   "source_id": "pva",
    "dangling": 0
   },
   {
@@ -24056,8 +24048,8 @@
   {
    "von": "heilbehelfe_hilfsmittel",
    "nach": "rezeptgebuehrenbefreiung",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,gesundheit_gv,oegk,seed,svbox_local,svs",
+   "typ": "verwandt",
+   "source_id": "svbox_local",
    "dangling": 0
   },
   {
@@ -24070,8 +24062,8 @@
   {
    "von": "eltern_kind_pass",
    "nach": "wochengeld",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oegk,seed,svbox_local",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
@@ -24098,8 +24090,8 @@
   {
    "von": "wochengeld",
    "nach": "eltern_kind_pass",
-   "typ": "setzt_voraus",
-   "source_id": "bvaeb,oegk,svbox_local,svs",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
@@ -24112,7 +24104,7 @@
   {
    "von": "fsw_pflegeberatung",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24126,7 +24118,7 @@
   {
    "von": "heimhilfe_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24140,7 +24132,7 @@
   {
    "von": "hauskrankenpflege_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24154,8 +24146,8 @@
   {
    "von": "medizinische_hauskrankenpflege",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "fsw,oegk,svbox_local",
+   "typ": "verwandt",
+   "source_id": "fsw",
    "dangling": 0
   },
   {
@@ -24168,7 +24160,7 @@
   {
    "von": "essen_auf_raedern_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24182,7 +24174,7 @@
   {
    "von": "besuchs_begleitdienst_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24196,7 +24188,7 @@
   {
    "von": "waescheservice_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24210,7 +24202,7 @@
   {
    "von": "mobile_palliativbetreuung_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24224,7 +24216,7 @@
   {
    "von": "tageszentren_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24238,7 +24230,7 @@
   {
    "von": "mehrstuendige_alltagsbegleitung_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24252,7 +24244,7 @@
   {
    "von": "wohnhaus_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24266,7 +24258,7 @@
   {
    "von": "kurzzeitpflege_urlaubspflege_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24280,7 +24272,7 @@
   {
    "von": "uebergangspflege_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24294,7 +24286,7 @@
   {
    "von": "remobilisation_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24308,7 +24300,7 @@
   {
    "von": "betreutes_wohnen_angehoerige_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24322,42 +24314,42 @@
   {
    "von": "kontinenzberatung_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
   {
    "von": "ergotherapie_hilfsmittelberatung_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
   {
    "von": "pflegende_angehoerige_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
   {
    "von": "pflege_kinder_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
   {
    "von": "pflege_kinder_stationaer_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
   {
    "von": "kostenbeitrag_fsw",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24371,7 +24363,7 @@
   {
    "von": "pflegegeldergaenzungsleistung_pa_wien",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "fsw",
    "dangling": 0
   },
@@ -24392,8 +24384,8 @@
   {
    "von": "foerderung_24h_betreuung",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "fsw,gesundheit_gv,oesterreich_gv,sozialministeriumservice",
+   "typ": "verwandt",
+   "source_id": "sozialministeriumservice,oesterreich_gv,fsw",
    "dangling": 0
   },
   {
@@ -24406,22 +24398,22 @@
   {
    "von": "darmkrebs_frueherkennung",
    "nach": "vorsorgeuntersuchung",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oegk",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
    "von": "hautkrebs_frueherkennung",
    "nach": "vorsorgeuntersuchung",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oegk",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
    "von": "prostatakrebs_frueherkennung",
    "nach": "vorsorgeuntersuchung",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oegk",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
@@ -24434,15 +24426,15 @@
   {
    "von": "vorsorgevollmacht",
    "nach": "erwachsenenvertretung",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oesterreich_gv",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "angehoerigenbonus",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oesterreich_gv",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
@@ -24455,15 +24447,15 @@
   {
    "von": "behindertenpass",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oesterreich_gv,sozialministeriumservice",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "behindertenpass",
    "nach": "familienbeihilfe",
-   "typ": "setzt_voraus",
-   "source_id": "gesundheit_gv,oesterreich_gv,sozialministeriumservice",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
@@ -24476,15 +24468,15 @@
   {
    "von": "rehabilitationsgeld",
    "nach": "krankengeld",
-   "typ": "setzt_voraus",
-   "source_id": "oegk,oesterreich_gv,pva,svbox_local",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
    "von": "wiedereingliederungsgeld",
    "nach": "krankengeld",
-   "typ": "setzt_voraus",
-   "source_id": "oegk,svbox_local",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
@@ -24511,15 +24503,15 @@
   {
    "von": "kinderbetreuungsgeld",
    "nach": "familienbeihilfe",
-   "typ": "setzt_voraus",
-   "source_id": "oegk,oesterreich_gv,svbox_local",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "kinderbetreuungsgeld",
    "nach": "wochengeld",
-   "typ": "setzt_voraus",
-   "source_id": "oegk,oesterreich_gv,svbox_local",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
@@ -24532,35 +24524,35 @@
   {
    "von": "versicherung_pflegende_angehoerige",
    "nach": "mitversicherung_angehoerige",
-   "typ": "setzt_voraus",
-   "source_id": "oegk,oesterreich_gv",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
    "von": "versicherung_pflegende_angehoerige",
    "nach": "selbstversicherung",
-   "typ": "setzt_voraus",
-   "source_id": "oegk,oesterreich_gv",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
    "von": "versicherung_pflegende_angehoerige",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "oegk,oesterreich_gv",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "rechnung_einreichen",
    "nach": "wahlarzt_kostenerstattung",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "oegk",
    "dangling": 0
   },
   {
    "von": "erwachsenenvertretung",
    "nach": "vorsorgevollmacht",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "oesterreich_gv",
    "dangling": 0
   },
@@ -24574,14 +24566,14 @@
   {
    "von": "rehabilitation",
    "nach": "uebergangsgeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
   },
   {
    "von": "rehabilitation",
    "nach": "rehabilitationsgeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
   },
@@ -24595,14 +24587,14 @@
   {
    "von": "uebergangsgeld",
    "nach": "rehabilitation",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
   },
   {
    "von": "uebergangsgeld",
    "nach": "rehabilitationsgeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
   },
@@ -24616,8 +24608,8 @@
   {
    "von": "pflegekarenzgeld",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
-   "source_id": "pva,sozialministeriumservice",
+   "typ": "verwandt",
+   "source_id": "sozialministeriumservice,pva",
    "dangling": 0
   },
   {
@@ -24630,7 +24622,7 @@
   {
    "von": "parkausweis_29b",
    "nach": "behindertenpass",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "sozialministeriumservice",
    "dangling": 0
   },
@@ -24644,7 +24636,7 @@
   {
    "von": "unterstuetzungsfonds_behinderung",
    "nach": "behindertenpass",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "sozialministeriumservice",
    "dangling": 0
   },
@@ -24658,7 +24650,7 @@
   {
    "von": "angehoerigen_unterstuetzung_ersatzpflege",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "sozialministeriumservice",
    "dangling": 0
   },
@@ -24672,7 +24664,7 @@
   {
    "von": "pflegekurse_zuwendung",
    "nach": "pflegegeld",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "sozialministeriumservice",
    "dangling": 0
   },
@@ -24686,7 +24678,7 @@
   {
    "von": "rezeptgebuehrenobergrenze",
    "nach": "rezeptgebuehrenbefreiung",
-   "typ": "setzt_voraus",
+   "typ": "verwandt",
    "source_id": "svbox_local",
    "dangling": 0
   },

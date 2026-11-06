@@ -147,7 +147,8 @@ def test_triggers_entlassungsbrief(tmp_path):
 
 def test_cycle_safe(tmp_path):
     _, L = build(tmp_path)
-    assert set(L.get_leistung("zyklus_a")["reihenfolge"]) == {"zyklus_a", "zyklus_b"}
+    a = L.get_leistung("zyklus_a")  # Quell-Abhängigkeiten sind „verwandt" → keine Reihenfolge, kein Endlos-Lauf
+    assert a["reihenfolge"] == ["zyklus_a"] and [x["leistung_id"] for x in a["verwandt"]] == ["zyklus_b"]
 
 
 def test_codes_lookup_and_hint_policy(tmp_path):
@@ -357,3 +358,18 @@ def test_impfplan_intervalle(tmp_path):
     assert [x["id"] for x in r["intervalle"]] == ["tdap_ab_60"] and r["intervalle"][0]["intervall_monate"] == 60
     assert r["versionen"] == [z["version"]] and r["intervalle"][0]["zitate"][0]["seite"] == 22
     assert [x["id"] for x in L.impfplan("pertussis", alter=40)["intervalle"]] == ["tdap_bis_60"]
+
+
+def test_kantenrichtung_nur_seed_setzt_voraus(tmp_path):
+    s = make_sources(tmp_path)
+    w(s / "src_r/out/leistungen.jsonl", [
+        {"leistung_id": "pflegegeld", "name": "Pflegegeld", "abhaengigkeiten": ["reha_medizinisch", "pflegekarenz"],
+         "quellen": [{"url": "https://g.example/pg"}]},
+        {"leistung_id": "reha_medizinisch", "name": "Reha", "quellen": [{"url": "https://g.example/r"}]},
+    ])
+    build_db.build(tmp_path / "r.sqlite", s, quiet=True, embeddings=False, links_dir=tmp_path / "nolinks")
+    L = Lotse(tmp_path / "r.sqlite", log_misses=False, hybrid=False)
+    p = L.get_leistung("pflegegeld")
+    assert not p["setzt_voraus"] and p["reihenfolge"] == ["pflegegeld"]  # Quelle sagt nur „verwandt"
+    assert {"reha_medizinisch", "pflegekarenz"} <= {x["leistung_id"] for x in p["verwandt"]}
+    assert L.get_leistung("fahrtkostenzuschuss")["reihenfolge"] == ["rezeptgebuehrenbefreiung", "fahrtkostenzuschuss"]  # Seed bleibt hart

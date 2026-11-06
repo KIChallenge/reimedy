@@ -1,8 +1,8 @@
-# Änderungsbericht Wissens-DB – 2026-11-06T0247Z
+# Änderungsbericht Wissens-DB – 2026-11-06T0241Z
 
 **Swap:** ja – lotse.sqlite ist neu  
 **Links:** {'links': 26288, 'frisch_ok': 6104, 'quelle': 'knowledge/build/links/links.jsonl', 'formulare_live': 954}  
-**Embeddings:** minishlab/potion-multilingual-128M (neu 0, Cache 30512)
+**Embeddings:** minishlab/potion-multilingual-128M (neu 0, Cache 30478)
 
 ## Gates
 
@@ -40,7 +40,6 @@
 - ✓ **links_demo_formulare_100**: {'live': '6/7', 'fallback_lokal+elternseite': ['fsw_bedarfsmeldung_wg'], 'fehlt': []}
 - ✓ **links_formulare_95**: 493/493 = 100%
 - ✓ **traeger_register**: 9 Träger, Landesstellen vollständig
-- ✓ **impfplan_intervalle**: 4 Krankheiten mit Version + Zitat
 - ✓ **leistung_hat_quelle**: alle mit Quelle
 - ✓ **icd_hint_policy**: ok (vom Build entfernt: 0)
 
@@ -51,7 +50,6 @@
 | bvaeb | ok | 1346 | 15 | 9 | 185 | 0 | 0 |
 | fsw | ok | 629 | 36 | 11 | 26 | 0 | 0 |
 | gesundheit_gv | ok | 2276 | 45 | 614 | 0 | 0 | 0 |
-| impfplan | ok | 34 | 0 | 0 | 0 | 0 | 0 |
 | oegk | ok | 1154 | 48 | 277 | 115 | 0 | 0 |
 | oesterreich_gv | ok | 2216 | 22 | 13 | 63 | 0 | 0 |
 | pva | ok | 242 | 8 | 20 | 4 | 0 | 0 |
@@ -67,7 +65,7 @@
 
 ## Leistungsgraph
 - neu: 0 
-- geändert: 0 
+- geändert: 1 wohn_pflegehaus_fsw
 - entfernt: 0 
 - Statuswechsel: 
 - Konflikte: pflegegeld: ['antrag: widerspruch']; wohn_pflegehaus_fsw: ['antrag: widerspruch']; reha_onkologisch: ['antrag: widerspruch']; zahnspange_kfo: ['kosten: zahlen_abweichend']; mundhygiene_kinder: ['zustaendig: zahlen_abweichend']; reha_medizinisch: ['kosten: zahlen_abweichend', 'antrag: widerspruch']; wochengeld: ['antrag: widerspruch']; krankengeld: ['kosten: zahlen_abweichend']; foerderung_24h_betreuung: ['antrag: widerspruch']; behindertenpass: ['antrag: widerspruch']; zahnersatz: ['kosten: zahlen_abweichend']; kinderbetreuungsgeld: ['kosten: zahlen_abweichend']
