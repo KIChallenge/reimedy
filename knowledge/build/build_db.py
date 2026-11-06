@@ -608,10 +608,18 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
     edges = []
     unbekannt_fl = set()
     for lid, m in merged.items():
+        # Kantenrichtung (Notiz Session 01): Quellen nutzen `abhaengigkeiten` uneinheitlich („braucht vorher" vs.
+        # „verwandt/ermöglicht", z. B. pflegegeld → rehabilitation). Harte Voraussetzung (setzt_voraus, steuert die
+        # Reihenfolge) nur aus dem kuratierten Seed; alles andere wird ungerichtet `verwandt`.
+        herk = {(tax.canon(x["value"]) if isinstance(x["value"], str) else None): x["sources"]
+                for x in (m.get("_herkunft") or {}).get("abhaengigkeiten", [])}
         for dep in m.get("abhaengigkeiten") or []:
             dep = tax.canon(dep)
-            if dep != lid:
-                edges.append((lid, dep, "setzt_voraus", ",".join(m["_sources"]), int(dep not in merged)))
+            if dep == lid:
+                continue
+            srcs = herk.get(dep) or m["_sources"]
+            typ = "setzt_voraus" if "seed" in srcs else "verwandt"
+            edges.append((lid, dep, typ, ",".join(srcs), int(dep not in merged)))
         fid = (m.get("antrag") or {}).get("formular_id") if isinstance(m.get("antrag"), dict) else None
         if fid:
             edges.append((lid, fid, "antrag_formular", ",".join(m["_sources"]), int(fid not in fo)))

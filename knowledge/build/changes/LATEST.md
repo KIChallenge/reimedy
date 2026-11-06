@@ -1,4 +1,4 @@
-# Änderungsbericht Wissens-DB – 2026-11-05T2205Z
+# Änderungsbericht Wissens-DB – 2026-11-06T0241Z
 
 **Swap:** ja – lotse.sqlite ist neu  
 **Links:** {'links': 26288, 'frisch_ok': 6104, 'quelle': 'knowledge/build/links/links.jsonl', 'formulare_live': 954}  
@@ -65,10 +65,10 @@
 
 ## Leistungsgraph
 - neu: 0 
-- geändert: 0 
+- geändert: 1 wohn_pflegehaus_fsw
 - entfernt: 0 
 - Statuswechsel: 
 - Konflikte: pflegegeld: ['antrag: widerspruch']; wohn_pflegehaus_fsw: ['antrag: widerspruch']; reha_onkologisch: ['antrag: widerspruch']; zahnspange_kfo: ['kosten: zahlen_abweichend']; mundhygiene_kinder: ['zustaendig: zahlen_abweichend']; reha_medizinisch: ['kosten: zahlen_abweichend', 'antrag: widerspruch']; wochengeld: ['antrag: widerspruch']; krankengeld: ['kosten: zahlen_abweichend']; foerderung_24h_betreuung: ['antrag: widerspruch']; behindertenpass: ['antrag: widerspruch']; zahnersatz: ['kosten: zahlen_abweichend']; kinderbetreuungsgeld: ['kosten: zahlen_abweichend']
-- Stellen: {'neu': 0, 'entfernt': 0, 'geaendert': 0}  Formulare: {'neu': 1, 'entfernt': 0, 'geaendert': 4} (geänderte Formulare = neue Version → Feld-Mapping B5 prüfen)
+- Stellen: {'neu': 0, 'entfernt': 0, 'geaendert': 0}  Formulare: {'neu': 0, 'entfernt': 0, 'geaendert': 0} (geänderte Formulare = neue Version → Feld-Mapping B5 prüfen)
 
 **0 neue Einträge in `review_queue.jsonl`.**

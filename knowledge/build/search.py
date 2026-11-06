@@ -293,6 +293,11 @@ class Lotse:
         # Kanten (deterministisch – „Code entscheidet")
         out["setzt_voraus"] = k("SELECT * FROM kanten WHERE von=? AND typ='setzt_voraus'")
         out["ist_voraussetzung_fuer"] = k("SELECT * FROM kanten WHERE nach=? AND typ='setzt_voraus'", "von")
+        # ungerichtet verwandt (aus Quellen, KEINE Reihenfolge): beide Richtungen
+        out["verwandt"] = [x for x in (k("SELECT * FROM kanten WHERE von=? AND typ='verwandt'") +
+                                       k("SELECT * FROM kanten WHERE nach=? AND typ='verwandt'", "von"))]
+        _seen = set()
+        out["verwandt"] = [x for x in out["verwandt"] if not (x["leistung_id"] in _seen or _seen.add(x["leistung_id"]))]
         out["teil_von"] = k("SELECT * FROM kanten WHERE von=? AND typ='teil_von'")
         out["umfasst"] = k("SELECT * FROM kanten WHERE nach=? AND typ='teil_von'", "von")
         def uniq(xs):
