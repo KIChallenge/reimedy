@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-06T02:32:18+00:00",
+  "built_at": "2026-11-06T02:41:42+00:00",
   "quellen": {
     "aek_wien": {
       "status": "ok",
@@ -349,5 +349,651 @@
     "total": 954,
     "live_kanonisch": 954
   },
-  "seed_fehler": []
+  "seed_fehler": [],
+  "linkcheck": {
+    "status": "übersprungen (--no-linkcheck), vorhandene links.jsonl geladen"
+  },
+  "gates": [
+    {
+      "gate": "schema_fehlerfrei",
+      "ok": true,
+      "hart": true,
+      "detail": "0 Fehler"
+    },
+    {
+      "gate": "source_md_und_manifest",
+      "ok": true,
+      "hart": true,
+      "detail": "alle vorhanden"
+    },
+    {
+      "gate": "keine_leeren_quellen",
+      "ok": true,
+      "hart": false,
+      "detail": "keine"
+    },
+    {
+      "gate": "golden (a roh): Mama packt's nicht mehr allein",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "mobile_pflege_fsw",
+          "pflegegeld"
+        ],
+        "begriffe": null,
+        "top5": [
+          "mobile_pflege_fsw",
+          "pflegekarenz",
+          "pflegegeld",
+          "mobile_dienste",
+          "pflegeberatung"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Mama packt's nicht mehr allein",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "mobile_pflege_fsw",
+          "pflegegeld"
+        ],
+        "begriffe": [
+          "Pflegegeld",
+          "mobile Pflege"
+        ],
+        "top5": [
+          "mobile_pflege_fsw",
+          "mobile_dienste",
+          "pflegegeld",
+          "pflegekarenz",
+          "pflegeberatung"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Meine Mama packt's nimma allein daham, was kann ich tun?",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fsw_pflegeberatung",
+          "heimhilfe_wien",
+          "mobile_pflege_fsw",
+          "pflegeberatung",
+          "pflegegeld"
+        ],
+        "begriffe": null,
+        "top5": [
+          "mobile_pflege_fsw",
+          "pflegekarenz",
+          "mobile_dienste",
+          "pflegegeld",
+          "heimhilfe_wien"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Meine Mama packt's nimma allein daham, was kann ich tun?",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fsw_pflegeberatung",
+          "heimhilfe_wien",
+          "mobile_pflege_fsw",
+          "pflegeberatung",
+          "pflegegeld"
+        ],
+        "begriffe": [
+          "Pflegegeld",
+          "Heimhilfe",
+          "Pflegeberatung"
+        ],
+        "top5": [
+          "mobile_pflege_fsw",
+          "pflegekarenz",
+          "mobile_dienste",
+          "pflegegeld",
+          "heimhilfe_wien"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Meine Mutter braucht jetzt Hilfe, was muss ich machen?",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fsw_pflegeberatung",
+          "mobile_pflege_fsw",
+          "pflegeberatung",
+          "pflegegeld"
+        ],
+        "begriffe": null,
+        "top5": [
+          "pflegegeld",
+          "mobile_pflege_fsw",
+          "pflegeberatung",
+          "pflegekarenz",
+          "mobile_dienste"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Meine Mutter braucht jetzt Hilfe, was muss ich machen?",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fsw_pflegeberatung",
+          "mobile_pflege_fsw",
+          "pflegeberatung",
+          "pflegegeld"
+        ],
+        "begriffe": [
+          "Pflegegeld",
+          "Pflegeberatung"
+        ],
+        "top5": [
+          "pflegegeld",
+          "mobile_pflege_fsw",
+          "pflegeberatung",
+          "pflegekarenz",
+          "mobile_dienste"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Taxi zur Bestrahlung",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fahrtkostenzuschuss",
+          "krankentransport"
+        ],
+        "begriffe": null,
+        "top5": [
+          "krankentransport",
+          "fahrtkostenzuschuss",
+          "fahrtendienst_fahrtkostenersatz_wien",
+          "fahrtkostenersatz_gehoerlose_wien",
+          "anschlussheilverfahren"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Taxi zur Bestrahlung",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fahrtkostenzuschuss",
+          "krankentransport"
+        ],
+        "begriffe": [
+          "Krankentransport",
+          "Fahrtkostenzuschuss"
+        ],
+        "top5": [
+          "fahrtkostenzuschuss",
+          "krankentransport",
+          "fahrtendienst_fahrtkostenersatz_wien",
+          "fahrtkostenersatz_gehoerlose_wien",
+          "anschlussheilverfahren"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Wer zahlt das Taxi zur Bestrahlung?",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fahrtkostenzuschuss",
+          "krankentransport"
+        ],
+        "begriffe": null,
+        "top5": [
+          "krankentransport",
+          "fahrtkostenzuschuss",
+          "fahrtendienst_fahrtkostenersatz_wien",
+          "fahrtkostenersatz_gehoerlose_wien",
+          "krankengeld"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Wer zahlt das Taxi zur Bestrahlung?",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "fahrtkostenzuschuss",
+          "krankentransport"
+        ],
+        "begriffe": [
+          "Krankentransport",
+          "Fahrtkosten"
+        ],
+        "top5": [
+          "krankentransport",
+          "fahrtkostenzuschuss",
+          "fahrtendienst_fahrtkostenersatz_wien",
+          "fahrtkostenersatz_gehoerlose_wien",
+          "krankengeld"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Zahnspange Kind",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "zahnspange_kfo"
+        ],
+        "begriffe": null,
+        "top3": [
+          "zahnspange_kfo",
+          "kinderimpfprogramm",
+          "zahnbehandlung_zahnersatz"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Zahnspange Kind",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "zahnspange_kfo"
+        ],
+        "begriffe": [
+          "Kieferorthopädie"
+        ],
+        "top3": [
+          "zahnspange_kfo",
+          "kinderimpfprogramm",
+          "zahnbehandlung_zahnersatz"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Mein Bub braucht vielleicht eine Zahnspange",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "zahnspange_kfo"
+        ],
+        "begriffe": null,
+        "top5": [
+          "zahnspange_kfo",
+          "zahnbehandlung_zahnersatz",
+          "mundhygiene_kinder",
+          "zahnbehandlung",
+          "gesundheitsberatung_1450"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Mein Bub braucht vielleicht eine Zahnspange",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "zahnspange_kfo"
+        ],
+        "begriffe": [
+          "Kieferorthopädie",
+          "Gratis-Zahnspange"
+        ],
+        "top5": [
+          "zahnspange_kfo",
+          "zahnbehandlung_zahnersatz",
+          "mundhygiene_kinder",
+          "zahnbehandlung",
+          "impfungen_erwachsene"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): mehr bewegen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "bewegt_im_park"
+        ],
+        "begriffe": null,
+        "top5": [
+          "bewegungsempfehlungen",
+          "gesundheitskurse_bewegung",
+          "bewegt_im_park",
+          "gesunder_ruecken",
+          "gesundheitshunderter_svs"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): mehr bewegen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "bewegt_im_park"
+        ],
+        "begriffe": [
+          "Bewegung",
+          "Gesundheitsförderung"
+        ],
+        "top5": [
+          "bewegungsempfehlungen",
+          "gesundheitskurse_bewegung",
+          "bewegt_im_park",
+          "gesunder_ruecken",
+          "gesundheitshunderter_svs"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Ich will was für meine Gesundheit tun, mich mehr bewegen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "bewegt_im_park",
+          "gesundheitshunderter_svs",
+          "vorsorgeuntersuchung"
+        ],
+        "begriffe": null,
+        "top5": [
+          "gesundheitskurse_bewegung",
+          "bewegungsempfehlungen",
+          "gesundheitshunderter_svs",
+          "bewegt_im_park",
+          "gesunder_ruecken"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Ich will was für meine Gesundheit tun, mich mehr bewegen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "bewegt_im_park",
+          "gesundheitshunderter_svs",
+          "vorsorgeuntersuchung"
+        ],
+        "begriffe": [
+          "Gesundheitsförderung",
+          "Bewegung"
+        ],
+        "top5": [
+          "gesundheitskurse_bewegung",
+          "bewegungsempfehlungen",
+          "gesundheitshunderter_svs",
+          "bewegt_im_park",
+          "gesunder_ruecken"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Pflegegeld beantragen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "pflegegeld"
+        ],
+        "begriffe": null,
+        "top1": [
+          "pflegegeld"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Pflegegeld beantragen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "pflegegeld"
+        ],
+        "begriffe": [
+          "Pflegegeld",
+          "Antrag"
+        ],
+        "top1": [
+          "pflegegeld"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Rezeptgebühr zu teuer, kleine Pension",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "rezeptgebuehrenbefreiung"
+        ],
+        "begriffe": null,
+        "top3": [
+          "rezeptgebuehrenbefreiung",
+          "ausgleichszulage",
+          "rezeptgebuehrenobergrenze"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Rezeptgebühr zu teuer, kleine Pension",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "rezeptgebuehrenbefreiung"
+        ],
+        "begriffe": [
+          "Rezeptgebührenbefreiung"
+        ],
+        "top3": [
+          "rezeptgebuehrenbefreiung",
+          "ausgleichszulage",
+          "rezeptgebuehrenobergrenze"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Die Medikamente sind so teuer, die Mama hat nur eine kleine Pension",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "rezeptgebuehrenbefreiung"
+        ],
+        "begriffe": null,
+        "top5": [
+          "rezeptgebuehrenbefreiung",
+          "ausgleichszulage",
+          "rezeptgebuehrenobergrenze",
+          "heilmittel_bewilligungspflicht",
+          "pension_allgemein"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Die Medikamente sind so teuer, die Mama hat nur eine kleine Pension",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "rezeptgebuehrenbefreiung"
+        ],
+        "begriffe": [
+          "Rezeptgebührenbefreiung",
+          "Ausgleichszulage"
+        ],
+        "top5": [
+          "rezeptgebuehrenbefreiung",
+          "ausgleichszulage",
+          "rezeptgebuehrenobergrenze",
+          "heilmittel_bewilligungspflicht",
+          "pension_allgemein"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): nach dem Spital wieder fit werden, Erholung",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "kur",
+          "reha_medizinisch",
+          "reha_onkologisch"
+        ],
+        "begriffe": null,
+        "top5": [
+          "kur",
+          "reha_onkologisch",
+          "anschlussheilverfahren",
+          "reha_beruflich",
+          "reha_kinder"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): nach dem Spital wieder fit werden, Erholung",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "kur",
+          "reha_medizinisch",
+          "reha_onkologisch"
+        ],
+        "begriffe": [
+          "Rehabilitation",
+          "Kur"
+        ],
+        "top5": [
+          "kur",
+          "reha_onkologisch",
+          "anschlussheilverfahren",
+          "reha_beruflich",
+          "reha_kinder"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (a roh): Ich muss mir frei nehmen um die Mama zu pflegen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "familienhospizkarenz",
+          "pflegekarenz"
+        ],
+        "begriffe": null,
+        "top5": [
+          "pflegekarenz",
+          "pflegekarenzgeld",
+          "pflegegeld",
+          "angehoerigen_unterstuetzung_ersatzpflege",
+          "gesundheitsangebote_svs"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "golden (b umgeschrieben): Ich muss mir frei nehmen um die Mama zu pflegen",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "erwartet": [
+          "familienhospizkarenz",
+          "pflegekarenz"
+        ],
+        "begriffe": [
+          "Pflegekarenz",
+          "Pflegeteilzeit"
+        ],
+        "top5": [
+          "pflegekarenz",
+          "pflegekarenzgeld",
+          "pflegegeld",
+          "angehoerigen_unterstuetzung_ersatzpflege",
+          "gesundheitsangebote_svs"
+        ],
+        "modus": "hybrid"
+      }
+    },
+    {
+      "gate": "links_demo_formulare_100",
+      "ok": true,
+      "hart": true,
+      "detail": {
+        "live": "6/7",
+        "fallback_lokal+elternseite": [
+          "fsw_bedarfsmeldung_wg"
+        ],
+        "fehlt": []
+      }
+    },
+    {
+      "gate": "links_formulare_95",
+      "ok": true,
+      "hart": true,
+      "detail": "493/493 = 100%"
+    },
+    {
+      "gate": "traeger_register",
+      "ok": true,
+      "hart": true,
+      "detail": "9 Träger, Landesstellen vollständig"
+    },
+    {
+      "gate": "leistung_hat_quelle",
+      "ok": true,
+      "hart": true,
+      "detail": "alle mit Quelle"
+    },
+    {
+      "gate": "icd_hint_policy",
+      "ok": true,
+      "hart": true,
+      "detail": "ok (vom Build entfernt: 0)"
+    }
+  ]
 }

@@ -83,7 +83,7 @@ leistung(leistung_id="wohn_pflegehaus_fsw", name="Wohn- und Pflegehaus (Wien, FS
          bereich=["D"], traeger=["FSW"], innerhalb_sv=False, bundesland=["W"],
          zustaendig="FSW Beratungszentrum Pflege und Betreuung",
          antrag={"formular_id": "fsw_einrichtungswunsch", "wo": "Beilage zum FSW-Förderantrag"},
-         abhaengigkeiten=["mobile_pflege_fsw"], trigger_im_dokument=["Pflegeheim", "stationäre Pflege"],
+         abhaengigkeiten=[], trigger_im_dokument=["Pflegeheim", "stationäre Pflege"],
          quellen=[{"url": "_Source/Anträge und Formulare/FSW-Antrag-Beilage-Einrichtungswunsch.1779345450.pdf", "stand": "2026-05"}],
          confidence="mittel")
 leistung(leistung_id="pflegekarenz", name="Pflegekarenz / Pflegeteilzeit und Pflegekarenzgeld",

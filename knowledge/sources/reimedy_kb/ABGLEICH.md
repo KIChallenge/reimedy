@@ -1,5 +1,7 @@
 # Abgleich Wissensbasis ↔ reimedy Knowledge-Server
 
+> **Entscheidung Arne (06.11.2026):** Owner für **ICD-10-AT, SV-Träger (Register) und Fachrichtungen (SNOMED-Fachrichtungen)** ist die **SV-Wissensbasis**. Der reimedy-Server wird heute **nicht** beschrieben. Abweichend vom Vorschlag in §2 gilt das auch für die Fachrichtungen; der Server referenziert sie später über `(vocabulary_id, concept_code)`. BASG bleibt beim Server (Owner), Payer-Concept-IDs werden weiter nur referenziert (`reimedy_ref`).
+
 Stand: 05.11.2026, ~23:00. Der Server https://reimedy-server.mynu.me wurde **nur lesend** abgefragt (GET `/api/concepts/search`, GET `/api/concepts/domain/<d>/tree`). Auf den Server wurde **nichts geschrieben**; ob und was dort geändert wird, entscheidet Arne.
 
 ## 1. Was der Server hat (OMOP-artiges Concept-Modell)
@@ -17,7 +19,7 @@ Stand: 05.11.2026, ~23:00. Der Server https://reimedy-server.mynu.me wurde **nur
 
 | Datenart | Wissensbasis heute | Server | Überschneidung | Vorschlag Owner | Referenz der anderen Seite |
 |---|---|---|---|---|---|
-| **SNOMED-Fachrichtungen** | `codes` system=`SNOMED-Fachrichtung`, 79 Einträge (Kopie aus dem Repo-Seed) | 80 (Provider) | **79/79 identisch**, Server hat zusätzlich „Surgical specialty“ 394649002 | **reimedy-Server** (pflegt DE-Labels und Hierarchie) | Wissensbasis speichert nur `(vocabulary_id='SNOMED', concept_code)` + Label-Cache mit `stand`; Abgleich im Ingest statt Kopie im Code |
+| **SNOMED-Fachrichtungen** | `codes` system=`SNOMED-Fachrichtung`, 79 Einträge (Kopie aus dem Repo-Seed) | 80 (Provider) | **79/79 identisch**, Server hat zusätzlich „Surgical specialty“ 394649002 | ~~reimedy-Server~~ → **Wissensbasis** (Entscheidung 06.11.) | Server referenziert `(vocabulary_id='SNOMED', concept_code)`; die Wissensbasis pflegt Liste, DE-Labels und ergänzt „Surgical specialty“ |
 | **Payer / Träger** | **Träger-Register** `traeger` + `traeger_stellen` (`GET /traeger`): 9 Träger, ÖGK/PVA/SVS je 9 Landesstellen mit Adresse/Telefon/E-Mail (offizielle Kontaktseiten), BVAEB/SMS/FSW aus unserem Ingest, Zuständigkeitsregel je Träger | 4 SV-Payer + 17 private, nur Namen | ÖGK, SVS, BVAEB, KFA | **Wissensbasis** für SV-Träger-Struktur, Landesstellen, Kontakte, Zuständigkeit; **Server** für die Concept-ID (Payer-Identität, auch Privatversicherer) | Wissensbasis führt `reimedy_ref = {vocabulary_id:'Austrian_Payer', concept_code}` je Träger (ÖGK/SVS/BVAEB/KFA gesetzt). Server könnte PVA/AUVA/Dachverband als Payer-Konzepte ergänzen und für Adressen auf `GET /traeger/<id>` verweisen. |
 | **ATC** | `codes` system=`ATC`, 6.611 (aus dem EKO der SV-Box) | `atc_code` am BASG-Drug, in Stichprobe leer | praktisch keine (Server hat keine ATC-Werte) | **Wissensbasis** (EKO/WIdO, Lizenzhinweis in `SOURCE.md`) | Server verknüpft BASG-Drugs über `(vocabulary_id='ATC', concept_code)`; Wissensbasis liefert die Liste |
 | **BASG** | **nichts** (bewusst kein Token-/WAF-Umgehen) | 19.219 BASG-Concepts | – | **reimedy-Server** | Wissensbasis referenziert `(vocabulary_id='BASG', concept_code=Zulassungsnr.)`; Lookup live per `GET /api/concepts/search?domain=Drug` oder Export-Datei → `ingest.py --basg-file` |
@@ -36,7 +38,7 @@ Stand: 05.11.2026, ~23:00. Der Server https://reimedy-server.mynu.me wurde **nur
 - **ICD**: ETL gegen nicht mehr existente FHIR-URL; die Wissensbasis-Ingest-Logik (`ingest.py`, TerminoloGit-HTML) kann als Vorlage dienen.
 - **Payer**: PVA, AUVA, Dachverband fehlen als Konzepte; KFA ist ein Sammelkonzept für ~15 regionale Anstalten.
 
-## 5. Entscheidungen für Arne (Empfehlung)
-1. Owner-Aufteilung wie in §2 übernehmen. **Empfehlung: ja.**
-2. BASG-Export aus der reimedy-DB als Datei bereitstellen (`ingest.py --basg-file`). **Empfehlung: ja**, statt Live-Kopplung im Hackathon.
-3. Server-Korrekturen (§4) erst nach dem Hackathon. **Empfehlung: ja**, nichts unter Zeitdruck in der Produktiv-DB ändern.
+## 5. Entscheidungen (Stand 06.11.2026)
+1. Owner-Aufteilung: **entschieden** – ICD-10-AT, Träger-Register, Fachrichtungen bei der SV-Wissensbasis; BASG beim reimedy-Server; Payer-IDs nur referenziert.
+2. reimedy-Server: **heute nicht beschreiben** (entschieden). Datenfehler aus §4 bleiben gemeldet, Korrektur später.
+3. Offen: BASG-Export aus der reimedy-DB als Datei für `ingest.py --basg-file` (Empfehlung: ja, nach dem Hackathon).
