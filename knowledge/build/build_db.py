@@ -73,6 +73,9 @@ CREATE TABLE codes(system TEXT, code TEXT, label_de TEXT, label_einfach TEXT, pa
   hints_entfernt TEXT, quelle_url TEXT, stand TEXT, source_id TEXT, data_json TEXT, PRIMARY KEY(system, code));
 CREATE INDEX codes_parent ON codes(system, parent);
 CREATE VIRTUAL TABLE codes_fts USING fts5(system UNINDEXED, code, label, tokenize="unicode61 remove_diacritics 2");
+CREATE TABLE impfplan_intervalle(id TEXT PRIMARY KEY, krankheit TEXT, impfung TEXT, altersgruppe TEXT, alter_von INT,
+  alter_bis INT, intervall TEXT, intervall_monate INT, dosen INT, zeitpunkt TEXT, kostenlos_impfprogramm INT, leistung_id TEXT,
+  zitate_json TEXT, version TEXT, gueltig_ab TEXT, quelle_url TEXT, source_id TEXT, stand TEXT, hinweis TEXT);
 CREATE TABLE traeger(id TEXT PRIMARY KEY, name TEXT, typ TEXT, sparten TEXT, personenkreis TEXT, aufloesung TEXT,
   nur_bundesland TEXT, zentrale_json TEXT, online_json TEXT, kontakt_hinweis TEXT, quelle_url TEXT, stand TEXT,
   confidence TEXT, reimedy_vocabulary_id TEXT, reimedy_concept_code TEXT, reimedy_concept_id INT);
@@ -102,7 +105,7 @@ def load_source(src_dir: Path):
     # generisch als „extras" laden, an leistung_id hängen, nicht validieren.
     extras = []
     for f in sorted(out.glob("*.jsonl")) if out.exists() else []:
-        if f.stem in ("documents", "leistungen", "stellen", "formulare", "codes"):
+        if f.stem in ("documents", "leistungen", "stellen", "formulare", "codes", "impfplan_intervalle"):
             continue
         for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
             if not line.strip():
@@ -115,6 +118,23 @@ def load_source(src_dir: Path):
     if extras:
         p.warn(f"{sid}: {len(extras)} Zeilen aus Nicht-Vertragsdateien als 'extras' geladen")
     data["_extras"] = extras
+    ip = out / "impfplan_intervalle.jsonl"
+    data["_impfplan"] = []
+    if ip.exists():
+        for n, line in enumerate(ip.read_text(encoding="utf-8").splitlines(), 1):
+            if not line.strip():
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                p.err(f"{sid}/impfplan_intervalle.jsonl:{n}: kein gültiges JSON")
+                continue
+            miss = [k for k in ("id", "krankheit", "intervall", "zitat", "version", "gueltig_ab") if not rec.get(k)]
+            if miss:
+                p.err(f"{sid}/impfplan_intervalle.jsonl:{n}: Pflichtfeld(er) fehlen {miss}")
+                continue
+            rec["_source_id"] = sid
+            data["_impfplan"].append(rec)
     manifest = None
     mf = out / "manifest.json"
     if mf.exists():
@@ -476,6 +496,13 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
         all_stellen += data["stellen"]
         all_form += data["formulare"]
         all_codes += data["codes"]
+        for r in data["_impfplan"]:
+            con.execute("INSERT OR REPLACE INTO impfplan_intervalle VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+                r["id"], r["krankheit"], r.get("impfung"), r.get("altersgruppe"), r.get("alter_von"), r.get("alter_bis"),
+                r["intervall"], r.get("intervall_monate"), r.get("dosen"), r.get("zeitpunkt"),
+                None if r.get("kostenlos_impfprogramm") is None else int(bool(r["kostenlos_impfprogramm"])),
+                r.get("leistung_id"), jdump(r.get("zitate") or [{"seite": r.get("seite"), "zitat": r["zitat"]}]),
+                r["version"], r["gueltig_ab"], r.get("quelle_url"), sid, r.get("stand"), r.get("hinweis")))
         con.executemany("INSERT INTO extras VALUES (?,?,?,?)",
                         [(a, b, tax.canon(c) if c else c, d) for a, b, c, d in data["_extras"]])
         con.execute("INSERT INTO quellen VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", (

@@ -119,6 +119,14 @@ def run(db: Path = DB_PATH, golden=True) -> list[dict]:
     else:
         gate("traeger_register", False, "Tabelle traeger fehlt")
 
+    # 3c Impfplan (05 §6.4): Influenza, Tdap, Zoster, Pneumokokken mit Version + Zitat
+    if con.execute("SELECT name FROM sqlite_master WHERE name='impfplan_intervalle'").fetchone():
+        have = {r[0] for r in con.execute("SELECT krankheit FROM impfplan_intervalle WHERE zitate_json != '[]' AND version IS NOT NULL")}
+        need = {"Influenza", "Diphtherie-Tetanus-Pertussis", "Herpes Zoster", "Pneumokokken"}
+        gate("impfplan_intervalle", need <= have, sorted(need - have) or f"{len(have)} Krankheiten mit Version + Zitat")
+    else:
+        gate("impfplan_intervalle", False, "Tabelle fehlt")
+
     # 4 Leistung ohne Quelle, ICD-Hint-Policy
     ohne = [r[0] for r in con.execute("SELECT leistung_id, data_json FROM leistungen")
             if not json.loads(r[1]).get("quellen")]
