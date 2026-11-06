@@ -341,6 +341,26 @@ def test_forms_endpunkte_ohne_und_mit_modul(tmp_path, monkeypatch):
     assert L.formular_pdf("x")[2] == "x.pdf"
 
 
+def test_impfplan_intervalle(tmp_path):
+    s = make_sources(tmp_path)
+    z = {"version": "Impfplan Österreich 2026/2027, Version 1.1 vom 14.10.2026", "gueltig_ab": "2026-10-14"}
+    w(s / "impfplan/out/impfplan_intervalle.jsonl", [
+        {"id": "tdap_bis_60", "krankheit": "Diphtherie-Tetanus-Pertussis", "alter_von": 18, "alter_bis": 59, "intervall": "alle 10 Jahre",
+         "intervall_monate": 120, "zitat": "… bis zum vollendeten 60. Lebensjahr alle 10 Jahre.", "seite": 22, **z},
+        {"id": "tdap_ab_60", "krankheit": "Diphtherie-Tetanus-Pertussis", "alter_von": 60, "intervall": "alle 5 Jahre",
+         "intervall_monate": 60, "zitate": [{"seite": 22, "zitat": "Ab dem vollendeten 60. Lebensjahr … alle 5 Jahre."}],
+         "zitat": "Ab dem vollendeten 60. Lebensjahr … alle 5 Jahre.", **z},
+        {"id": "kaputt", "krankheit": "X"},  # ohne Zitat/Version → Fehler
+    ])
+    rep = build_db.build(tmp_path / "i.sqlite", s, quiet=True, embeddings=False, links_dir=tmp_path / "nolinks")
+    assert rep["quellen"]["impfplan"]["errors"] == 1
+    L = Lotse(tmp_path / "i.sqlite", log_misses=False, hybrid=False)
+    r = L.impfplan("pertussis", alter=78)
+    assert [x["id"] for x in r["intervalle"]] == ["tdap_ab_60"] and r["intervalle"][0]["intervall_monate"] == 60
+    assert r["versionen"] == [z["version"]] and r["intervalle"][0]["zitate"][0]["seite"] == 22
+    assert [x["id"] for x in L.impfplan("pertussis", alter=40)["intervalle"]] == ["tdap_bis_60"]
+
+
 def test_kantenrichtung_nur_seed_setzt_voraus(tmp_path):
     s = make_sources(tmp_path)
     w(s / "src_r/out/leistungen.jsonl", [

@@ -671,6 +671,31 @@ class Lotse:
             return ("redirect", k["url_pdf"])
         return None
 
+    # ------------------------------------------------------------------ Impfplan (Quelle impfplan, loesungen/05 §6.4)
+    def impfplan(self, krankheit: str | None = None, alter: int | None = None) -> dict:
+        """Intervalle laut Österreichischem Impfplan (mit Version, wörtlichen Zitaten, Seite). Nur Weitergabe der
+        Empfehlung des Plans; Eignung im Einzelfall klärt die Ärztin."""
+        if not self.con.execute("SELECT name FROM sqlite_master WHERE name='impfplan_intervalle'").fetchone():
+            return self._envelope({"intervalle": [], "error": "Impfplan nicht geladen"})
+        sql, args = "SELECT * FROM impfplan_intervalle WHERE 1=1", []
+        if krankheit:
+            sql += " AND (lower(krankheit) LIKE ? OR lower(impfung) LIKE ? OR id LIKE ?)"
+            k = f"%{krankheit.lower()}%"
+            args += [k, k, k]
+        if alter is not None:
+            sql += " AND (alter_von IS NULL OR alter_von <= ?) AND (alter_bis IS NULL OR alter_bis >= ?)"
+            args += [alter, alter]
+        rows = []
+        for r in self.con.execute(sql + " ORDER BY krankheit, alter_von", args):
+            d = {k: r[k] for k in r.keys()}
+            d["zitate"] = _j(d.pop("zitate_json"), [])
+            d["kostenlos_impfprogramm"] = None if d["kostenlos_impfprogramm"] is None else bool(d["kostenlos_impfprogramm"])
+            rows.append(d)
+        versions = sorted({r["version"] for r in rows})
+        return self._envelope({"krankheit": krankheit, "alter": alter, "versionen": versions, "intervalle": rows,
+                               "hinweis": "Empfehlung laut Österreichischem Impfplan (Version angegeben). Ob die Impfung im "
+                                          "Einzelfall passt, klärt die Ärztin. Fälligkeit nie als „überfällig“ formulieren."})
+
     # ------------------------------------------------------------------ Träger-Register (§8.1.4)
     def _url_kuratiert(self, url, stand):
         """Link-Regel; kuratierte Träger-URLs, die der Linkcheck (noch) nicht kennt, tragen den Kuratierungsstand."""
@@ -847,6 +872,8 @@ def serve(port=8765, db=DB_PATH, host=None):
             if p == "/traeger" or (m := re.fullmatch(r"/traeger/([a-z_]+)", p)):
                 tid = q.get("id") or (m[1] if p != "/traeger" else None)
                 return self._send(L.traeger(tid, q.get("plz"), q.get("bundesland")))
+            if p == "/impfplan":
+                return self._send(L.impfplan(q.get("krankheit"), int(q["alter"]) if q.get("alter", "").isdigit() else None))
             if p == "/misses":
                 return self._send(L.misses())
             self._send({"error": "unbekannter Pfad", "pfade": ["/health", "/search", "/leistung/<id>", "/stellen", "/formular/<id>", "/triggers (POST)", "/misses"]}, 404)
