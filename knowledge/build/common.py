@@ -207,7 +207,7 @@ def validate_formular(r, p, where):
     return ok
 
 
-CODE_SYSTEMS = {"ICD-10-AT", "ATC", "BASG", "EKO", "SNOMED-Fachrichtung"}
+CODE_SYSTEMS = {"ICD-10-AT", "ATC", "BASG", "EKO", "SNOMED-Fachrichtung", "Allergen"}
 
 
 def validate_code(r, p, where):

@@ -507,7 +507,9 @@ def load_codes(con, codes, tax, merged):
         con.execute("INSERT INTO codes VALUES (?,?,?,?,?,?,?,?,?,?,?)", (
             system, code, r["label_de"], r.get("label_einfach"), code_norm(r["parent"]) if r.get("parent") else None,
             jdump(x["hints"]), jdump(x["weg"]), r.get("quelle_url"), r.get("stand"), r["_source_id"], jdump(x["extra"])))
-        con.execute("INSERT INTO codes_fts(system, code, label) VALUES (?,?,?)", (system, code, norm(r["label_de"])))
+        # Synonyme (z. B. Allergene: „Nuss“ → Haselnuss) mitindexieren, damit die Suche sie findet; angezeigt wird label_de.
+        such = " ".join([r["label_de"], *[s for s in r.get("synonyme") or [] if isinstance(s, str)]])
+        con.execute("INSERT INTO codes_fts(system, code, label) VALUES (?,?,?)", (system, code, norm(such)))
     per_sys = {}
     for (system, _), x in by.items():
         per_sys[system] = per_sys.get(system, 0) + 1
