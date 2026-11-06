@@ -21,9 +21,10 @@ source_ids: `oegk`, `aek_wien`, `fsw`, `svs`, `bvaeb`, `sozdok_ris`, `gesundheit
 
 **Zusatz-Schema E: `codes.jsonl`** (für reimedy_kb)
 ```json
-{"system":"ICD-10-AT|ATC|BASG|SNOMED-Fachrichtung", "code":"C20", "label_de":"Bösartige Neubildung des Rektums",
+{"system":"ICD-10-AT|ATC|BASG|EKO|SNOMED-Fachrichtung|Allergen", "code":"C20", "label_de":"Bösartige Neubildung des Rektums",
  "label_einfach":null, "parent":"C15-C26", "leistung_hints":["reha_onkologisch"], "quelle_url":"…", "stand":"…"}
 ```
+Optional `synonyme: ["…"]`: werden in `codes_fts` mitindexiert (Suche), angezeigt wird `label_de` (z. B. `allergene`).
 Verwendung von ICD/Medikation nur **administrativ**: Codes normalisieren, Dokumente strukturieren, Fachrichtung und Zuständigkeit finden (z. B. C-Kapitel → onkologische Reha bzw. PVA-Rehazentren) und Leistungen *als Kandidaten* triggern. Codes werden **nie** gedeutet und **nie** für eine Risiko- oder Therapieaussage verwendet. Labels werden wörtlich angezeigt.
 
 ## Schema A: `documents.jsonl` (eine Zeile = ein zitierbarer Abschnitt, max. ~2.000 Zeichen)
