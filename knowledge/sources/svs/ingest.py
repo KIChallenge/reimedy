@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["requests", "beautifulsoup4", "lxml"]
+# dependencies = ["requests", "beautifulsoup4", "lxml", "pypdf", "cryptography"]
 # ///
 """SVS (www.svs.at). `uv run knowledge/sources/svs/ingest.py`. Inkrementell: bedingte GETs (ETag/Last-Modified), Manifest = Zustand."""
 import sys

@@ -12,5 +12,5 @@ Ansprechpersonen-Kontaktblöcke (Mitarbeiter-Namen/Mails) wurden bewusst **nicht
 ## Lücken
 Keine Tarif-/Honorarwerte (liegen in PDFs), keine Gesamtvertragstexte, keine Wahlarzt-Kostenerstattung für Patient:innen. Für Patient:innen-Fragen zu Selbstbehalten → `svs`, `bvaeb`, `oegk`.
 
-## Lizenz / robots
-robots.txt sperrt nur `/web/oak/`, `/c/portal/` (Login/Admin), kein Crawl-Delay; wir nutzen nur öffentliche Inhaltsseiten, ≥1,1 s Abstand, UA `SV-Lotse-Hackathon/0.1`. © Ärztekammer für Wien; Kurzzitate mit Quelle.
+## robots / Lizenz
+robots.txt sperrt nur `/web/oak/`, `/c/portal/`; wir nutzen nur öffentliche Inhaltsseiten (≥1,1 s, UA `SV-Lotse-Hackathon/0.1`). Sidenote: © Ärztekammer für Wien, keine explizite Lizenz – für den Hackathon ignoriert.

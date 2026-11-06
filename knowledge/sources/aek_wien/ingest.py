@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["requests", "beautifulsoup4", "lxml"]
+# dependencies = ["requests", "beautifulsoup4", "lxml", "pypdf", "cryptography"]
 # ///
 """Ärztekammer für Wien (www.aekwien.at) – Kassen-Seiten. `uv run knowledge/sources/aek_wien/ingest.py`.
 Inkrementell via bedingtem GET + sha256. PDFs werden NICHT geladen (nur Titel/Link als Formular-/Tarif-Verweis)."""

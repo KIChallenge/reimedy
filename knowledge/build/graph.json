@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-06T03:10:05+00:00",
+ "built_at": "2026-11-06T04:10:30+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -805,19 +805,19 @@
       "name": "Auslandsbehandlung: EKVK / Urlaubskrankenschein (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839570&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.853920&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840390&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840391&portal=bvaebbportal"
        }
       ],
@@ -826,23 +826,23 @@
       "voraussetzungen": [
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839570&portal=bvaebbportal",
-        "text": "e-card, EKVK oder Urlaubskrankenschein",
-        "zitat": "e-card, EKVK oder Urlaubskrankenschein"
+        "text": "Deshalb sollten Sie nicht auf die e-Card (in Österreich) und die Europäische Krankenversicherungskarte (EKVK) bzw. den Urlaubskrankenschein (im Ausland) vergessen.",
+        "zitat": "Deshalb sollten Sie nicht auf die e-Card (in Österreich) und die Europäische Krankenversicherungskarte (EKVK) bzw. den Urlaubskrankenschein (im Ausland) vergessen."
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839570&portal=bvaebbportal",
-        "text": "Deshalb sollten Sie nicht auf die e-Card (in Österreich) und die Europäische Krankenversicherungskarte (EKVK) bzw.",
-        "zitat": "Deshalb sollten Sie nicht auf die e-Card (in Österreich) und die Europäische Krankenversicherungskarte (EKVK) bzw."
+        "text": "In folgenden Staaten können Sie bei Erkrankung während eines Urlaubs mit Ihrer EKVK Sachleistungen (ärztliche Hilfe, Krankenhausaufenthalt etc.) erhalten:",
+        "zitat": "In folgenden Staaten können Sie bei Erkrankung während eines Urlaubs mit Ihrer EKVK Sachleistungen (ärztliche Hilfe, Krankenhausaufenthalt etc.) erhalten:"
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839570&portal=bvaebbportal",
-        "text": "den Urlaubskrankenschein (im Ausland) vergessen.",
-        "zitat": "den Urlaubskrankenschein (im Ausland) vergessen."
+        "text": "Für den Fall, dass Ihnen keine gültige EKVK vorliegt, können Sie eine provisorische Ersatzbescheinigung (PEB) bei Ihrer zuständigen Kundenservicestelle bestellen.",
+        "zitat": "Für den Fall, dass Ihnen keine gültige EKVK vorliegt, können Sie eine provisorische Ersatzbescheinigung (PEB) bei Ihrer zuständigen Kundenservicestelle bestellen."
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839570&portal=bvaebbportal",
-        "text": "allfälligen tarifmäßigen Kostenersatz",
-        "zitat": "allfälligen tarifmäßigen Kostenersatz"
+        "text": "Als Nachweis für Ihre Identität ist sowohl bei Vorlage der EKVK als auch einer PEB ein Lichtbildausweis notwendig.",
+        "zitat": "Als Nachweis für Ihre Identität ist sowohl bei Vorlage der EKVK als auch einer PEB ein Lichtbildausweis notwendig."
        }
       ],
       "zustaendig": "BVAEB"
@@ -955,7 +955,7 @@
     "svbox_local"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -978,30 +978,30 @@
    ],
    "confidence": "mittel",
    "innerhalb_sv": true,
-   "kosten": "prozentuelle Kostenbeteiligung",
+   "kosten": "Der Behandlungsbeitrag beträgt grundsätzlich 20 %.",
    "kurz_einfach": "Kostenbeteiligung bei Arztbesuchen/Behandlungen für BVAEB-Versicherte; Nachsicht bei geringem Einkommen möglich.",
    "leistung_id": "behandlungsbeitrag_bvaeb",
    "name": "Behandlungsbeitrag (BVAEB)",
    "quellen": [
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841568&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840481&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840349&portal=bvaebbportal"
+     "stand": "2026-11-06",
+     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.856918&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840351&portal=bvaebbportal"
+     "stand": "2026-11-06",
+     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.857145&portal=bvaebbportal"
     }
    ],
    "traeger": [
@@ -1016,30 +1016,9 @@
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841568&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Behandlungsbeitrag – Kostenbeteiligung des Versicherten",
-     "zitat": "Behandlungsbeitrag – Kostenbeteiligung des Versicherten"
-    },
-    {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841568&portal=bvaebbportal",
-     "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Unter Behandlungsbeitrag versteht man eine",
-     "zitat": "Unter Behandlungsbeitrag versteht man eine"
-    },
-    {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841568&portal=bvaebbportal",
-     "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Daher sichert der Behandlungsbeitrag das hohe",
-     "zitat": "Daher sichert der Behandlungsbeitrag das hohe"
-    },
-    {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841568&portal=bvaebbportal",
-     "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Für welche Leistungen ist ein Behandlungsbeitrag zu bezahlen?",
-     "zitat": "Für welche Leistungen ist ein Behandlungsbeitrag zu bezahlen?"
+     "stand": "2026-11-06",
+     "text": "Der Behandlungsbeitrag beträgt grundsätzlich 20 %.",
+     "zitat": "Der Behandlungsbeitrag beträgt grundsätzlich 20 %."
     }
    ],
    "zustaendig": "BVAEB",
@@ -1048,7 +1027,7 @@
     "bvaeb"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -5818,29 +5797,28 @@
    ],
    "confidence": "mittel",
    "innerhalb_sv": true,
-   "kosten": "Holen Sie sich € 100.- für Angebote im Bereich Ernährung, Bewegung, Sucht und seelische Gesundheit.",
    "kurz_einfach": "Geförderte Gesundheitswochen, Pflegeauszeit für pflegende Angehörige und weitere Angebote der SVS.",
    "leistung_id": "gesundheitsangebote_svs",
    "name": "SVS-Gesundheitsangebote (Gesundheitswochen, Pflegeauszeit, Camps)",
    "quellen": [
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.884157&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.854108&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.906527&portal=svsportal"
     }
    ],
@@ -5855,30 +5833,30 @@
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.884157&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Als Bonus für die Teilnahme können Sie den Gesundheitshunderter beantragen.",
      "zitat": "Als Bonus für die Teilnahme können Sie den Gesundheitshunderter beantragen."
     },
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.854108&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Unter SVS-Gesundheitsangebote fallen SVS-Gesundheitswochen und SVS-Frauen-Powertage.Sie können zwei Gesundheitsangebote innerhalb von fünf Kalenderjahren in Anspruch nehmen.",
      "zitat": "Unter SVS-Gesundheitsangebote fallen SVS-Gesundheitswochen und SVS-Frauen-Powertage.Sie können zwei Gesundheitsangebote innerhalb von fünf Kalenderjahren in Anspruch nehmen."
     },
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.854108&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Bei Teilnahme an einem weiteren Gesundheitsangebot muss zwischen den beiden Aufenthalten ein Abstand von einem Jahr eingehalten werden.",
      "zitat": "Bei Teilnahme an einem weiteren Gesundheitsangebot muss zwischen den beiden Aufenthalten ein Abstand von einem Jahr eingehalten werden."
     },
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.854108&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Teilnahme an einer SVS-Gesundheitswoche \"Gesunder Rücken\" von 26.2.2025 bis 04.03.2025, Auffrischer von 11.10.2025 bis 13.10.2025",
-     "zitat": "Teilnahme an einer SVS-Gesundheitswoche \"Gesunder Rücken\" von 26.2.2025 bis 04.03.2025, Auffrischer von 11.10.2025 bis 13.10.2025"
+     "stand": "2026-11-06",
+     "text": "Eine Teilnahme von Begleitpersonen als Privatzahler ist nur gestattet, wenn das vorgesehene Programm dadurch nicht beeinträchtigt wird.",
+     "zitat": "Eine Teilnahme von Begleitpersonen als Privatzahler ist nur gestattet, wenn das vorgesehene Programm dadurch nicht beeinträchtigt wird."
     }
    ],
    "zustaendig": "SVS",
@@ -5887,7 +5865,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {
@@ -6193,9 +6171,9 @@
       "value": "niedrig"
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "hoch"
      }
     ],
@@ -6207,10 +6185,24 @@
       "value": "SVS-Versicherte bekommen einmal im Jahr bis zu 100 € zurück, wenn sie z. B. einen Kurs zu Bewegung oder Ernährung machen."
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Die SVS zahlt einmal pro Jahr bis zu 100 € für gesundheitsfördernde Aktivitäten dazu – freiwillig, ohne Rechtsanspruch."
+     }
+    ],
+    "zielgruppe": [
+     {
+      "quelle_url": "https://www.svs.at",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "SVS-Versicherte (Selbstständige, Bäuerinnen/Bauern)"
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "Alle SVS-Versicherten (Gewerbetreibende, Bauern, Neue Selbständige); Junior-Variante für mitversicherte Kinder"
      }
     ],
     "zustaendig": [
@@ -6221,9 +6213,9 @@
       "value": "SVS (Einreichung z. B. über svsGO)"
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "SVS (Gewerbetreibende, Bauern, Neue Selbständige)"
      }
     ]
@@ -6245,8 +6237,10 @@
     "AT"
    ],
    "confidence": "niedrig",
+   "fristen": [
+    "Hinweis: Der Gesundheitshunderter gebührt einmal pro Kalenderjahr."
+   ],
    "innerhalb_sv": true,
-   "kosten": "Nach erfolgtem Gesundheits-Check ist eine Unterstützung in der Höhe von bis zu 100 Euro für",
    "kurz_einfach": "SVS-Versicherte bekommen einmal im Jahr bis zu 100 € zurück, wenn sie z. B. einen Kurs zu Bewegung oder Ernährung machen.",
    "leistung_id": "gesundheitshunderter_svs",
    "name": "Gesundheitshunderter (SVS)",
@@ -6258,23 +6252,18 @@
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal"
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.817071&portal=svsportal"
-    },
-    {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.817046&portal=svsportal"
     }
    ],
    "traeger": [
@@ -6288,32 +6277,18 @@
    "typ": "sv",
    "voraussetzungen": [
     {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817071&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Gesundheitshunderter Junior",
-     "zitat": "Gesundheitshunderter Junior"
+     "stand": "2026-11-06",
+     "text": "Die SVS fördert folgende Bereiche mit dem Gesundheitshunderter:\nBewegung (im Rahmen der gesundheitswirksamen Bewegungsempfehlungen)\nErnährung (Gewichtsmanagement und –reduktion, Ernährungsverhalten)\nMentale Gesundheit (Beratung zur Förderung und Stärkung der mentalen Gesundheit)\nEntspannung und Körperarbeit (z.B. Massagen)\nRauchfrei (Beratung und Entwöhnung)",
+     "zitat": "Die SVS fördert folgende Bereiche mit dem Gesundheitshunderter:\nBewegung (im Rahmen der gesundheitswirksamen Bewegungsempfehlungen)\nErnährung (Gewichtsmanagement und –reduktion, Ernährungsverhalten)\nMentale Gesundheit (Beratung zur Förderung und Stärkung der mentalen Gesundheit)\nEntspannung und Körperarbeit (z.B. Massagen)\nRauchfrei (Beratung und Entwöhnung)"
     },
     {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817071&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "absolviert, können Sie als Bonus für Ihr Kind einen Gesundheitshunderter beantragen.",
-     "zitat": "absolviert, können Sie als Bonus für Ihr Kind einen Gesundheitshunderter beantragen."
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817046&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Ihr Bonus – der Gesundheitshunderter",
-     "zitat": "Ihr Bonus – der Gesundheitshunderter"
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817046&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Nach erfolgtem Gesundheits-Check ist eine Unterstützung in der Höhe von bis zu 100 Euro für",
-     "zitat": "Nach erfolgtem Gesundheits-Check ist eine Unterstützung in der Höhe von bis zu 100 Euro für"
+     "stand": "2026-11-06",
+     "text": "Hinweis: Der Gesundheitshunderter gebührt einmal pro Kalenderjahr.",
+     "zitat": "Hinweis: Der Gesundheitshunderter gebührt einmal pro Kalenderjahr."
     }
    ],
    "zielgruppe": "SVS-Versicherte (Selbstständige, Bäuerinnen/Bauern)",
@@ -6324,7 +6299,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -7201,24 +7176,24 @@
        "wo": null
       },
       "confidence": "mittel",
-      "kosten": "beträgt der Kostenanteil 10 % der Kosten, jedoch mindestens",
+      "kosten": "Der Kostenanteil beträgt 10 % des Vertragstarifes.",
       "kurz_einfach": "Brille, Rollstuhl, Hörgerät u. a. auf Verordnung; Kostenanteil und Befreiung vom Kostenanteil.",
       "name": "Heilbehelfe & Hilfsmittel (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.852309&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840384&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840381&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840383&portal=bvaebbportal"
        }
       ],
@@ -7227,23 +7202,23 @@
       "voraussetzungen": [
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840381&portal=bvaebbportal",
-        "text": "Kostenanteil & Befreiung vom Kostenanteil für Heilbehelfe und Hilfsmittel",
-        "zitat": "Kostenanteil & Befreiung vom Kostenanteil für Heilbehelfe und Hilfsmittel"
-       },
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840381&portal=bvaebbportal",
         "text": "In diesen Fällen kommt der Mindestkostenanteil nicht zur Anwendung.",
         "zitat": "In diesen Fällen kommt der Mindestkostenanteil nicht zur Anwendung."
        },
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840381&portal=bvaebbportal",
-        "text": "von Heilbehelfen und Hilfsmitteln wird bei der Errechnung des Erstattungsbetrages ein Kostenanteil berücksichtigt.",
-        "zitat": "von Heilbehelfen und Hilfsmitteln wird bei der Errechnung des Erstattungsbetrages ein Kostenanteil berücksichtigt."
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840383&portal=bvaebbportal",
+        "text": "Ein Kostenanteil ist nicht zu bezahlen.",
+        "zitat": "Ein Kostenanteil ist nicht zu bezahlen."
        },
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840381&portal=bvaebbportal",
-        "text": "Befreiung vom Kostenanteil",
-        "zitat": "Befreiung vom Kostenanteil"
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840383&portal=bvaebbportal",
+        "text": "Ein Kostenanteil wird nicht eingehoben.",
+        "zitat": "Ein Kostenanteil wird nicht eingehoben."
+       },
+       {
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840383&portal=bvaebbportal",
+        "text": "Der Kostenanteil beträgt 10 % des Vertragstarifes.",
+        "zitat": "Der Kostenanteil beträgt 10 % des Vertragstarifes."
        }
       ],
       "zustaendig": "BVAEB"
@@ -7258,24 +7233,23 @@
        "wo": null
       },
       "confidence": "mittel",
-      "kosten": "übersteigt (Mindestselbstbehalt bzw.",
       "kurz_einfach": "Zuschuss zu Brillen, Rollstuhl, Hörgerät u. ä. auf ärztliche Verordnung.",
       "name": "Heilbehelfe & Hilfsmittel (SVS)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816804&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816805&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816810&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816811&portal=svsportal"
        }
       ],
@@ -7296,11 +7270,6 @@
         "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816810&portal=svsportal",
         "text": "Orthopädietechniker berät Sie über die Bewilligungspflicht und wendet sich im Regelfall direkt an uns um die Bewilligung für Sie einzuholen.",
         "zitat": "Orthopädietechniker berät Sie über die Bewilligungspflicht und wendet sich im Regelfall direkt an uns um die Bewilligung für Sie einzuholen."
-       },
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816810&portal=svsportal",
-        "text": "Ansonsten benötigen Sie zudem eine Bewilligung Ihrer",
-        "zitat": "Ansonsten benötigen Sie zudem eine Bewilligung Ihrer"
        }
       ],
       "zustaendig": "SVS"
@@ -7464,7 +7433,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -9213,6 +9182,94 @@
   {
    "_entschieden": {},
    "_raw_ids": [
+    "kostenanteil_befreiung_svs"
+   ],
+   "_varianten": {},
+   "abhaengigkeiten": [
+    "selbstaendig_gesund_selbstbehalt",
+    "rezeptgebuehrenbefreiung"
+   ],
+   "antrag": {
+    "formular_id": null,
+    "formular_ids": [],
+    "online_url": null,
+    "wo": null
+   },
+   "bereich": [
+    "C",
+    "E"
+   ],
+   "bundesland": [
+    "AT"
+   ],
+   "confidence": "hoch",
+   "innerhalb_sv": true,
+   "kosten": "Wird bei der quartalsmäßigen Kostenanteilsberechnung ermittelt, dass die Jahressumme der Kostenanteile 5 % des festgestellten Jahreseinkommens erreicht, wird der Kostenanteil für die erbrachten Leistungen sofort betraglich begrenzt und die weiteren Leistungen werden vom Kostenanteil befreit.",
+   "kurz_einfach": "Bei bestimmten Situationen (z. B. Dialyse, Chemotherapie, Behindertengrad ≥ 50 %, niedrige Pension) entfällt der 20-%-Selbstbehalt auf Antrag; zusätzlich Deckel bei 5 % des Jahreseinkommens.",
+   "leistung_id": "kostenanteil_befreiung_svs",
+   "name": "Befreiung vom Kostenanteil / Selbstbehalt (SVS) & Kostenanteilsdeckel",
+   "quellen": [
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816954&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816749&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816748&portal=svsportal"
+    }
+   ],
+   "traeger": [
+    "SVS"
+   ],
+   "trigger_im_dokument": [
+    "Kostenanteil",
+    "Selbstbehalt",
+    "Befreiung",
+    "Dialyse",
+    "Ausgleichszulage"
+   ],
+   "voraussetzungen": [
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816748&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Bei folgenden Ausnahmen können Sie\nper Antrag\nvom Kostenanteil befreit werden:\nfür die Dauer einer Dialysebehandlung infolge einer Nierenerkrankung\nfür die Dauer einer Strahlen- oder Chemotherapie\nnach erfolgter Organtransplantation\nfür Organspender\nbei einem Behindertengrad von mindestens 50 %\nfür Schwerversehrte\nWeiters können Versicherte über Antrag bei „besonderer sozialer Schutzbedürftigkeit“ befreit werden. Die Einkommensgrenzen beziehen sich dabei auf die\nRichtsätze für die Ausgleichszulage\n.\nDie",
+     "zitat": "Bei folgenden Ausnahmen können Sie\nper Antrag\nvom Kostenanteil befreit werden:\nfür die Dauer einer Dialysebehandlung infolge einer Nierenerkrankung\nfür die Dauer einer Strahlen- oder Chemotherapie\nnach erfolgter Organtransplantation\nfür Organspender\nbei einem Behindertengrad von mindestens 50 %\nfür Schwerversehrte\nWeiters können Versicherte über Antrag bei „besonderer sozialer Schutzbedürftigkeit“ befreit werden. Die Einkommensgrenzen beziehen sich dabei auf die\nRichtsätze für die Ausgleichszulage\n.\nDie"
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816748&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Alle Pensionisten, die eine Ausgleichszulage beziehen, sind automatisch, also ohne einen gesonderten Antrag stellen zu müssen, von der Zahlung eines Kostenanteils befreit.\nKostenanteilsdeckel",
+     "zitat": "Alle Pensionisten, die eine Ausgleichszulage beziehen, sind automatisch, also ohne einen gesonderten Antrag stellen zu müssen, von der Zahlung eines Kostenanteils befreit.\nKostenanteilsdeckel"
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816748&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Gesundheitlich beeinträchtigte Versicherte, die von keiner der bestehenden Kostenanteilsbefreiungen oder bestimmten Erkrankung oder Gebrechen erfasst sind, werden durch den Kostenanteilsdeckel (seit 01.01.2013) finanziell entlastet.",
+     "zitat": "Gesundheitlich beeinträchtigte Versicherte, die von keiner der bestehenden Kostenanteilsbefreiungen oder bestimmten Erkrankung oder Gebrechen erfasst sind, werden durch den Kostenanteilsdeckel (seit 01.01.2013) finanziell entlastet."
+    }
+   ],
+   "zielgruppe": "Gewerbetreibende und Neue Selbständige (GSVG); Bauern (BSVG) mit eigenen Regeln – siehe Quelle",
+   "zustaendig": "SVS",
+   "review_status": "kandidat",
+   "sources": [
+    "svs"
+   ],
+   "konflikte": [],
+   "stand": "2026-11-06"
+  },
+  {
+   "_entschieden": {},
+   "_raw_ids": [
     "kostenbeitrag_fsw"
    ],
    "_varianten": {},
@@ -9281,9 +9338,9 @@
    "_varianten": {
     "antrag": [
      {
-      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": {
        "formular_id": null,
        "formular_ids": [],
@@ -9310,17 +9367,6 @@
       }
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": {
-       "formular_id": null,
-       "formular_ids": [],
-       "online_url": null,
-       "wo": null
-      }
-     },
-     {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
@@ -9334,14 +9380,51 @@
         "Eine gesonderte Beantragung Besonderes Krankengeld Anspruch auf besonderes Krankengeld haben Personen in einem aufrechten Dienstverhältnis,"
        ]
       }
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": {
+       "formular_id": null,
+       "formular_ids": [],
+       "online_url": null,
+       "wo": null
+      }
+     }
+    ],
+    "confidence": [
+     {
+      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
+      "source_id": "bvaeb",
+      "stand": "2026-11-06",
+      "value": "mittel"
+     },
+     {
+      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal",
+      "source_id": "oegk",
+      "stand": "2026-11-05",
+      "value": "mittel"
+     },
+     {
+      "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
+      "source_id": "svbox_local",
+      "stand": "2026-01-01",
+      "value": "mittel"
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "niedrig"
      }
     ],
     "kosten": [
      {
-      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
-      "value": "50% der Bemessungsgrundlage"
+      "stand": "2026-11-06",
+      "value": "Der Anspruch auf Krankengeld gebührt für ein und denselben Versicherungsfall für bis zu 78 Wochen."
      },
      {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal",
@@ -9350,23 +9433,23 @@
       "value": "Gebührt ein höheres Krankengeld, so ist nur für den über EUR 30,00 hinausgehenden Betrag Lohnsteuer in der Höhe von 20 Prozent zu leisten."
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "Der Beitrag beträgt 2,5 % Ihrer Beitragsgrundlage in der Krankenversicherung, wobei der monatliche Mindestbeitrag"
-     },
-     {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
       "value": "Er bezog im Februar 2026 ein beitragspflichtiges Entgelt in der Höhe von 2.500,00 Euro. Beitragsgrundlage ......................................................................................2.500,00 Euro Tageswert (1/30) ..................................................................................................83,33 Euro Berücksichtigung der Sonderzahlungen (Zuschlag ein Sechstel) ...............................................13,89 Euro Bemessungsgrundlage 48,61 Euro (50 Prozent der Bemessungsgrundlage) täglicher Krankengeldanspruch ab 12.04.2026 brutto ......................"
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "Sie erhalten das Krankengeld für maximal 26 Wochen."
      }
     ],
     "kurz_einfach": [
      {
-      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Krankengeld für Vertragsbedienstete/Angestellte; Rehabilitationsgeld bei vorübergehender Invalidität."
      },
      {
@@ -9376,23 +9459,23 @@
       "value": "Wer wegen einer Krankheit nicht arbeitsfähig ist, kann von der Österreichischen Gesundheitskasse (ÖGK) Krankengeld erhalten."
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "Krankengeld bei Arbeitsunfähigkeit (für Selbständige: besondere Voraussetzungen)."
-     },
-     {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
       "value": "Geldleistung bei Krankenstand."
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "Krankengeld bei Arbeitsunfähigkeit (für Selbständige: besondere Voraussetzungen)."
      }
     ],
     "name": [
      {
-      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Krankengeld (BVAEB)"
      },
      {
@@ -9402,23 +9485,37 @@
       "value": "Krankengeld / Krankenstand"
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "Krankengeld (SVS)"
-     },
-     {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
       "value": "Krankengeld"
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "Krankengeld (SVS)"
+     }
+    ],
+    "zielgruppe": [
+     {
+      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
+      "source_id": "bvaeb",
+      "stand": "2026-11-06",
+      "value": "Vertragsbedienstete/Angestellte (nicht Beamte)"
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "GSVG-Versicherte (freiwillige Zusatzversicherung bzw. lt. Seite)"
      }
     ],
     "zustaendig": [
      {
-      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "BVAEB"
      },
      {
@@ -9428,16 +9525,16 @@
       "value": "Ihre Unterlagen können Sie per E-Mail, Post oder persönlich in jeder Kundenservicestelle einreichen. Für nähere individuelle Auskünfte wenden Sie sich bitte rechtzeitig (bereits während des Krankengeldbezuges) an unser Kundenservice."
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "SVS"
-     },
-     {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
       "value": "ÖGK (Österreichische Gesundheitskasse); Details laut Zitaten."
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "SVS"
      }
     ]
    },
@@ -9464,30 +9561,15 @@
     "Diese Anspruchsdauer erhöht sich auf 52 Wochen, wenn man innerhalb der letzten zwölf Monate vor Beginn der Arbeitsunfähigkeit mindestens sechs Monate in der Krankenversicherung versichert war."
    ],
    "innerhalb_sv": true,
-   "kosten": "50% der Bemessungsgrundlage",
+   "kosten": "Der Anspruch auf Krankengeld gebührt für ein und denselben Versicherungsfall für bis zu 78 Wochen.",
    "kurz_einfach": "Krankengeld für Vertragsbedienstete/Angestellte; Rehabilitationsgeld bei vorübergehender Invalidität.",
    "leistung_id": "krankengeld",
    "name": "Krankengeld (BVAEB)",
    "quellen": [
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal"
-    },
-    {
-     "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal"
-    },
-    {
-     "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal"
-    },
-    {
-     "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840460&portal=bvaebbportal"
     },
     {
      "source_id": "oegk",
@@ -9510,30 +9592,30 @@
      "url": "https://www.oegk.at/cdscontent/?contentid=10007.870714&portal=oegkportal"
     },
     {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal"
-    },
-    {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.816741&portal=svsportal"
-    },
-    {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.816736&portal=svsportal"
-    },
-    {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal"
-    },
-    {
      "seite": "PDF 27–29",
      "source_id": "svbox_local",
      "stand": "2026-01-01",
      "url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816741&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816736&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal"
     }
    ],
    "traeger": [
@@ -9554,32 +9636,32 @@
    ],
    "voraussetzungen": [
     {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Die bei der BVAEB versicherten Dienstnehmer haben im Fall einer Arbeitsunfähigkeit einen zeitlich begrenzten Entgeltfortzahlungsanspruch gegenüber ihrem Dienstgeber.",
-     "zitat": "Die bei der BVAEB versicherten Dienstnehmer haben im Fall einer Arbeitsunfähigkeit einen zeitlich begrenzten Entgeltfortzahlungsanspruch gegenüber ihrem Dienstgeber."
+     "stand": "2026-11-06",
+     "text": "Damit wir prüfen können, ob Sie einen Anspruch auf Krankengeld haben, ist ein Nachweis über Ihre Arbeitsunfähigkeit erforderlich (siehe dazu:",
+     "zitat": "Damit wir prüfen können, ob Sie einen Anspruch auf Krankengeld haben, ist ein Nachweis über Ihre Arbeitsunfähigkeit erforderlich (siehe dazu:"
     },
     {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Anschließend gebührt bei fortgesetzter Arbeitsunfähigkeit Krankengeld.",
-     "zitat": "Anschließend gebührt bei fortgesetzter Arbeitsunfähigkeit Krankengeld."
+     "stand": "2026-11-06",
+     "text": "Sobald die Arbeits- und Entgeltbestätigung sowie die Arbeitsunfähigkeitsmeldung bei uns eingelangt sind, überprüfen wir Ihren Anspruch und die Höhe Ihres Krankengeldes.",
+     "zitat": "Sobald die Arbeits- und Entgeltbestätigung sowie die Arbeitsunfähigkeitsmeldung bei uns eingelangt sind, überprüfen wir Ihren Anspruch und die Höhe Ihres Krankengeldes."
     },
     {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Beamte haben keinen Anspruch auf Krankengeld.",
-     "zitat": "Beamte haben keinen Anspruch auf Krankengeld."
+     "stand": "2026-11-06",
+     "text": "Krankengeld als Leistung der Krankenversicherung soll Ihren krankheitsbedingten Entgeltausfall teilweise ausgleichen.",
+     "zitat": "Krankengeld als Leistung der Krankenversicherung soll Ihren krankheitsbedingten Entgeltausfall teilweise ausgleichen."
     },
     {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Sind Sie nach der Entlassung weiterhin arbeitsunfähig, benötigen wir ab dem ersten Tag nach der Entlassung eine Arbeitsunfähigkeitsmeldung Ihres Arztes.",
-     "zitat": "Sind Sie nach der Entlassung weiterhin arbeitsunfähig, benötigen wir ab dem ersten Tag nach der Entlassung eine Arbeitsunfähigkeitsmeldung Ihres Arztes."
+     "stand": "2026-11-06",
+     "text": "Üben Sie eine geringfügige Beschäftigung aus und haben eine Selbstversicherung abgeschlossen, haben Sie Anspruch auf ein fixes Krankengeld.",
+     "zitat": "Üben Sie eine geringfügige Beschäftigung aus und haben eine Selbstversicherung abgeschlossen, haben Sie Anspruch auf ein fixes Krankengeld."
     },
     {
      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal",
@@ -9624,34 +9706,6 @@
      "zitat": "Dieser Anspruch verlängert sich auf bis zu 52 Wochen, wenn Sie innerhalb der letzten zwölf Monate vor Beginn des Krankenstandes mindestens sechs Monate in der gesetzlichen Krankenversicherung versichert waren (ausgenommen Schutzfrist)."
     },
     {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Sie können dieses Risiko selbst reduzieren, indem Sie eine freiwillige Zusatzversicherung mit der Leistung Krankengeld abschließen.",
-     "zitat": "Sie können dieses Risiko selbst reduzieren, indem Sie eine freiwillige Zusatzversicherung mit der Leistung Krankengeld abschließen."
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Um Krankengeld zu erhalten, müssen Sie eine Zusatzversicherung abschließen und dafür Beiträge bezahlen.",
-     "zitat": "Um Krankengeld zu erhalten, müssen Sie eine Zusatzversicherung abschließen und dafür Beiträge bezahlen."
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Geburtstag gefeiert haben.",
-     "zitat": "Geburtstag gefeiert haben."
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Geburtstag beibehalten werden.",
-     "zitat": "Geburtstag beibehalten werden."
-    },
-    {
      "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
      "seite": "PDF 27–29",
      "source_id": "svbox_local",
@@ -9690,8 +9744,37 @@
      "stand": "2026-01-01",
      "text": "Krankenstand während eines Auslandsaufenthalts Werden Sie während eines Aufenthalts im Ausland krank, müssen Sie uns die Arbeitsunfähigkeit unverzüglich melden.",
      "zitat": "Krankenstand während eines Auslandsaufenthalts Werden Sie während eines Aufenthalts im Ausland krank, müssen Sie uns die Arbeitsunfähigkeit unverzüglich melden."
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Sie können dieses Risiko selbst reduzieren, indem Sie eine freiwillige Zusatzversicherung mit der Leistung Krankengeld abschließen.",
+     "zitat": "Sie können dieses Risiko selbst reduzieren, indem Sie eine freiwillige Zusatzversicherung mit der Leistung Krankengeld abschließen."
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Um Krankengeld zu erhalten, müssen Sie eine Zusatzversicherung abschließen und dafür Beiträge bezahlen.",
+     "zitat": "Um Krankengeld zu erhalten, müssen Sie eine Zusatzversicherung abschließen und dafür Beiträge bezahlen."
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Wie bekomme ich Krankengeld und welche Meldepflichten muss ich erfüllen?",
+     "zitat": "Wie bekomme ich Krankengeld und welche Meldepflichten muss ich erfüllen?"
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816735&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Um Krankengeld zu erhalten, benötigen Sie eine ärztliche Bestätigung über Ihre Arbeitsunfähigkeit.",
+     "zitat": "Um Krankengeld zu erhalten, benötigen Sie eine ärztliche Bestätigung über Ihre Arbeitsunfähigkeit."
     }
    ],
+   "zielgruppe": "Vertragsbedienstete/Angestellte (nicht Beamte)",
    "zustaendig": "BVAEB",
    "review_status": "konflikt",
    "sources": [
@@ -9706,10 +9789,10 @@
      "feld": "kosten",
      "varianten": [
       {
-       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840457&portal=bvaebbportal",
+       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
        "source_id": "bvaeb",
-       "stand": "2026-11-05",
-       "value": "50% der Bemessungsgrundlage"
+       "stand": "2026-11-06",
+       "value": "Der Anspruch auf Krankengeld gebührt für ein und denselben Versicherungsfall für bis zu 78 Wochen."
       },
       {
        "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal",
@@ -9718,21 +9801,21 @@
        "value": "Gebührt ein höheres Krankengeld, so ist nur für den über EUR 30,00 hinausgehenden Betrag Lohnsteuer in der Höhe von 20 Prozent zu leisten."
       },
       {
-       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
-       "source_id": "svs",
-       "stand": "2026-11-05",
-       "value": "Der Beitrag beträgt 2,5 % Ihrer Beitragsgrundlage in der Krankenversicherung, wobei der monatliche Mindestbeitrag"
-      },
-      {
        "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
        "source_id": "svbox_local",
        "stand": "2026-01-01",
        "value": "Er bezog im Februar 2026 ein beitragspflichtiges Entgelt in der Höhe von 2.500,00 Euro. Beitragsgrundlage ......................................................................................2.500,00 Euro Tageswert (1/30) ..................................................................................................83,33 Euro Berücksichtigung der Sonderzahlungen (Zuschlag ein Sechstel) ...............................................13,89 Euro Bemessungsgrundlage 48,61 Euro (50 Prozent der Bemessungsgrundlage) täglicher Krankengeldanspruch ab 12.04.2026 brutto ......................"
+      },
+      {
+       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816678&portal=svsportal",
+       "source_id": "svs",
+       "stand": "2026-11-06",
+       "value": "Sie erhalten das Krankengeld für maximal 26 Wochen."
       }
      ]
     }
    ],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -10080,24 +10163,23 @@
        "wo": null
       },
       "confidence": "mittel",
-      "kosten": "Für Transporte ist ein Kostenanteil in der Höhe der Rezeptgebühr je Fahrt zu bezahlen.",
       "kurz_einfach": "Kostenübernahme bei medizinisch notwendigen Fahrten/Transporten, meist mit Kostenanteil und Bewilligung.",
       "name": "Fahrtkosten, Transportkosten & Flugrettung (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840493&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840385&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.870579&portal=bvaebbportal"
        }
       ],
@@ -10140,23 +10222,16 @@
        "wo": null
       },
       "confidence": "mittel",
-      "kurz_einfach": "Kostenübernahme für Rettungs- und Krankentransporte bei medizinischer Notwendigkeit, i. d. R. mit Selbstbehalt.",
+      "kurz_einfach": "Kostenübernahme für Rettungs- und Krankentransporte: Direktverrechnung bei Flugrettung, Taxi-Gesamtvertrag (außer Wien) – Details je Fall bei der SVS erfragen.",
       "name": "Krankentransport / Rettungstransport (SVS)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.906714&portal=svsportal"
        }
       ],
       "raw_id": "krankentransport",
       "source_id": "svs",
-      "voraussetzungen": [
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.906714&portal=svsportal",
-        "text": "Rettungs- und Krankentransporte",
-        "zitat": "Rettungs- und Krankentransporte"
-       }
-      ],
       "zustaendig": "SVS"
      }
     ]
@@ -10292,7 +10367,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -10545,25 +10620,28 @@
        "online_url": null,
        "wo": null
       },
-      "confidence": "mittel",
-      "kosten": "Der Kurkostenbeitrag wird für die Dauer von 21 Tagen in der Höhe von täglich EUR 25,00 bewilligt.",
+      "confidence": "niedrig",
+      "fristen": [
+       "Grundsätzlich können, bei medizinischer Notwendigkeit, zwei Kuren innerhalb von fünf Jahren in Anspruch genommen werden.",
+       "Ein Antrag für eine Wiederholungskur kann frühestens 18 Monate nach Beendigung der letzten Kur beantragt werden."
+      ],
       "kurz_einfach": "Kur / Gesundheitsvorsorge Aktiv (erweiterte Heilbehandlung); eigene Regeln der BVAEB.",
       "name": "Kur & Gesundheitsvorsorge Aktiv (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.860691&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840498&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840493&portal=bvaebbportal"
        }
       ],
@@ -10587,8 +10665,8 @@
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal",
-        "text": "Sie können das Antragsformular in der",
-        "zitat": "Sie können das Antragsformular in der"
+        "text": "Sie müssen den Antrag nicht persönlich abgeben.",
+        "zitat": "Sie müssen den Antrag nicht persönlich abgeben."
        }
       ],
       "zustaendig": "BVAEB"
@@ -10662,31 +10740,25 @@
        "wo": null
       },
       "confidence": "mittel",
-      "kosten": "Die Höhe des Zuschusses beträgt pro Tag",
       "kurz_einfach": "Kuraufenthalt (Heilverfahren) mit Kostenzuschuss der SVS.",
       "name": "Heilverfahren (Kur) – SVS",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816821&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816816&portal=svsportal"
        }
       ],
       "raw_id": "kur",
       "source_id": "svs",
       "voraussetzungen": [
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
-        "text": "Antrag auf Anschlussheilverfahren/Rehabilitation nach Unfall",
-        "zitat": "Antrag auf Anschlussheilverfahren/Rehabilitation nach Unfall"
-       },
        {
         "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
         "text": "Antrag auf Rehabilitations-, Kur- bzw.",
@@ -10701,6 +10773,11 @@
         "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816816&portal=svsportal",
         "text": "Der Antrag muss vom Hausarzt, Facharzt oder vom Spitalsarzt gestellt werden und vom Versicherten unterfertigt werden.",
         "zitat": "Der Antrag muss vom Hausarzt, Facharzt oder vom Spitalsarzt gestellt werden und vom Versicherten unterfertigt werden."
+       },
+       {
+        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816816&portal=svsportal",
+        "text": "Bei einem Antrag auf Heilverfahren muss die medizinische Notwendigkeit durch den behandelnden Arzt begründet werden.",
+        "zitat": "Bei einem Antrag auf Heilverfahren muss die medizinische Notwendigkeit durch den behandelnden Arzt begründet werden."
        }
       ],
       "zustaendig": "SVS"
@@ -10873,7 +10950,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -12911,6 +12988,89 @@
   {
    "_entschieden": {},
    "_raw_ids": [
+    "nachsicht_behandlungsbeitrag_bvaeb"
+   ],
+   "_varianten": {},
+   "abhaengigkeiten": [
+    "rezeptgebuehrenbefreiung"
+   ],
+   "antrag": {
+    "formular_id": null,
+    "formular_ids": [],
+    "online_url": null,
+    "wo": null
+   },
+   "bereich": [
+    "C",
+    "E"
+   ],
+   "bundesland": [
+    "AT"
+   ],
+   "confidence": "hoch",
+   "fristen": [
+    "Durch den in den Nachsichtsrichtlinien festgesetzten Nachsichtszeitraum - der mindestens 3 und höchstens 12 Monate beträgt - ist eine gerechtere Gestaltung der Nachsicht möglich."
+   ],
+   "innerhalb_sv": true,
+   "kosten": "Durch den in den Nachsichtsrichtlinien festgesetzten Nachsichtszeitraum - der mindestens 3 und höchstens 12 Monate beträgt - ist eine gerechtere Gestaltung der Nachsicht möglich.",
+   "kurz_einfach": "Auf formlosen Antrag kann die BVAEB Behandlungsbeitrag, Rezeptgebühren, Kur-Zuzahlungen, Heilbehelf-/Transportkostenanteile nachsehen; bei Rezeptgebührbefreiten automatisch.",
+   "leistung_id": "nachsicht_behandlungsbeitrag_bvaeb",
+   "name": "Nachsicht des Behandlungsbeitrags & anderer Kostenbeteiligungen (BVAEB)",
+   "quellen": [
+    {
+     "source_id": "bvaeb",
+     "stand": "2026-11-06",
+     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840351&portal=bvaebbportal"
+    },
+    {
+     "source_id": "bvaeb",
+     "stand": "2026-11-06",
+     "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840466&portal=bvaebbportal"
+    }
+   ],
+   "traeger": [
+    "BVAEB"
+   ],
+   "trigger_im_dokument": [
+    "Nachsicht",
+    "Behandlungsbeitrag",
+    "Rezeptgebühr",
+    "Belastbarkeitsgrenze"
+   ],
+   "voraussetzungen": [
+    {
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840351&portal=bvaebbportal",
+     "source_id": "bvaeb",
+     "stand": "2026-11-06",
+     "text": "Kostenbeteiligungen, welche in den Nachsichtsrichtlinien berücksichtigt werden:\nBehandlungsbeitrag\nRezeptgebühren\nZuzahlungen für Aufenthalte in Kur-, Genesungs-, Erholungs- und Rehabilitationseinrichtungen\nKostenanteil für Heilbehelfe und Hilfsmittel\nKostenanteil bei Inanspruchnahme von Transporten\nKostenbeteiligungen, die bei einer Ersatzleistung angerechnet werden (Wahlarztkosten), sofern ein geeigneter Vertragspartner in angemessener Entfernung nicht zur Verfügung steht",
+     "zitat": "Kostenbeteiligungen, welche in den Nachsichtsrichtlinien berücksichtigt werden:\nBehandlungsbeitrag\nRezeptgebühren\nZuzahlungen für Aufenthalte in Kur-, Genesungs-, Erholungs- und Rehabilitationseinrichtungen\nKostenanteil für Heilbehelfe und Hilfsmittel\nKostenanteil bei Inanspruchnahme von Transporten\nKostenbeteiligungen, die bei einer Ersatzleistung angerechnet werden (Wahlarztkosten), sofern ein geeigneter Vertragspartner in angemessener Entfernung nicht zur Verfügung steht"
+    },
+    {
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840351&portal=bvaebbportal",
+     "source_id": "bvaeb",
+     "stand": "2026-11-06",
+     "text": "Es genügt also der formlose Antrag und der Nachweis des Netto-Familieneinkommens.",
+     "zitat": "Es genügt also der formlose Antrag und der Nachweis des Netto-Familieneinkommens."
+    },
+    {
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840351&portal=bvaebbportal",
+     "source_id": "bvaeb",
+     "stand": "2026-11-06",
+     "text": "Durch den in den Nachsichtsrichtlinien festgesetzten Nachsichtszeitraum - der mindestens 3 und höchstens 12 Monate beträgt - ist eine gerechtere Gestaltung der Nachsicht möglich.",
+     "zitat": "Durch den in den Nachsichtsrichtlinien festgesetzten Nachsichtszeitraum - der mindestens 3 und höchstens 12 Monate beträgt - ist eine gerechtere Gestaltung der Nachsicht möglich."
+    }
+   ],
+   "zustaendig": "BVAEB",
+   "review_status": "kandidat",
+   "sources": [
+    "bvaeb"
+   ],
+   "konflikte": [],
+   "stand": "2026-11-06"
+  },
+  {
+   "_entschieden": {},
+   "_raw_ids": [
     "obdach_wohnungslosenhilfe_wien"
    ],
    "_varianten": {},
@@ -14197,52 +14357,25 @@
        "online_url": null,
        "wo": null
       },
-      "confidence": "mittel",
-      "kurz_einfach": "Pflegegeld für BVAEB-Pensionist:innen/-Versicherte; nach Arbeitsunfall/Berufskrankheit eigene Regeln.",
+      "confidence": "niedrig",
+      "kurz_einfach": "Pflegegeld nach Arbeitsunfall/Berufskrankheit (BVAEB). Das allgemeine Pflegegeld ist in dieser Quelle nicht gecrawlt – Zuständigkeit: BVAEB nur, wenn sie die Pension zahlt.",
       "name": "Pflegegeld (BVAEB als Entscheidungsträger)",
       "quellen": [
        {
-        "stand": "2026-11-05",
-        "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840363&portal=bvaebbportal"
-       },
-       {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839533&portal=bvaebbportal"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841271&portal=bvaebbportal"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.860182&portal=bvaebbportal"
        }
       ],
       "raw_id": "pflegegeld",
       "source_id": "bvaeb",
       "voraussetzungen": [
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840363&portal=bvaebbportal",
-        "text": "Dem Antrag sind die saldierte, detaillierte Rechnung sowie eine ärztliche Verordnung und ein Pflegeplan, in dem auch Art und Dauer der Pflegeleistungen dokumentiert sind, anzuschließen.",
-        "zitat": "Dem Antrag sind die saldierte, detaillierte Rechnung sowie eine ärztliche Verordnung und ein Pflegeplan, in dem auch Art und Dauer der Pflegeleistungen dokumentiert sind, anzuschließen."
-       },
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839533&portal=bvaebbportal",
-        "text": "Pflegegeld bei Arbeitsunfall / Berufskrankheit",
-        "zitat": "Pflegegeld bei Arbeitsunfall / Berufskrankheit"
-       },
-       {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839533&portal=bvaebbportal",
         "text": "Dienstunfalls oder einer anerkannten Berufskrankheit Voraussetzungen für einen Pflegegeldbezug vor, wird von der BVAEB-Unfallversicherung automatisch eine Zuerkennung geprüft.",
         "zitat": "Dienstunfalls oder einer anerkannten Berufskrankheit Voraussetzungen für einen Pflegegeldbezug vor, wird von der BVAEB-Unfallversicherung automatisch eine Zuerkennung geprüft."
-       },
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839533&portal=bvaebbportal",
-        "text": "Allgemeine Voraussetzungen für Pflegegeld",
-        "zitat": "Allgemeine Voraussetzungen für Pflegegeld"
        }
       ],
-      "zustaendig": "BVAEB, wenn sie die Pension/Rente zahlt; sonst PVA/SVS"
+      "zustaendig": "BVAEB bei Pflegegeld nach Arbeitsunfall/Berufskrankheit; allgemeines Pflegegeld: Entscheidungsträger richtet sich nach dem Pensionsträger (nicht belegt in dieser Quelle)"
      }
     ],
     "SVS": [
@@ -14258,55 +14391,36 @@
        "wo": null
       },
       "confidence": "mittel",
-      "fristen": [
-       "Der Pflegebedarf wird anhand von Durchschnittswerten für die pro Monat erforderlichen Betreuungs- und Hilfsverrichtungen ermittelt.",
-       "Der Pflegebedarf wird anhand von Durchschnittswerten für die pro Monat erforderlichen Zeitaufwendungen ermittelt."
-      ],
-      "kurz_einfach": "Pflegegeld bei dauerndem Pflegebedarf; für SVS-Pensions-/Rentenbeziehende entscheidet die SVS, sonst PVA/ÖGK/BVAEB.",
+      "kurz_einfach": "Pflegegeld bei dauerndem Pflegebedarf; die SVS entscheidet nur, wenn sie die Pension/Rente zahlt.",
       "name": "Pflegegeld (SVS als Entscheidungsträger)",
       "quellen": [
        {
-        "stand": "2026-11-05",
-        "url": "https://www.svs.at/"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.svs.at/cdscontent/?contentid=10007.906877&portal=svsportal"
-       },
-       {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816630&portal=svsportal"
+       },
+       {
+        "stand": "2026-11-06",
+        "url": "https://www.svs.at/cdscontent/?contentid=10007.817046&portal=svsportal"
+       },
+       {
+        "stand": "2026-11-06",
+        "url": "https://www.svs.at/cdscontent/?contentid=10007.816821&portal=svsportal"
+       },
+       {
+        "stand": "2026-11-06",
+        "url": "https://www.svs.at/cdscontent/?contentid=10007.816816&portal=svsportal"
        }
       ],
       "raw_id": "pflegegeld",
       "source_id": "svs",
       "voraussetzungen": [
        {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816616&portal=svsportal",
-        "text": "Förderung bei 24-Stundenpflege",
-        "zitat": "Förderung bei 24-Stundenpflege"
-       },
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816616&portal=svsportal",
-        "text": "bezogen wird, eine 24-Stundenbetreuung der pflegebedürftigen Person erforderlich ist und diese Betreuung den Bestimmungen des Hausbetreuungsgesetzes entspricht.",
-        "zitat": "bezogen wird, eine 24-Stundenbetreuung der pflegebedürftigen Person erforderlich ist und diese Betreuung den Bestimmungen des Hausbetreuungsgesetzes entspricht."
-       },
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816616&portal=svsportal",
-        "text": "Information des Sozialministeriums über 24 Stunden Betreuung zu Hause",
-        "zitat": "Information des Sozialministeriums über 24 Stunden Betreuung zu Hause"
-       },
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816614&portal=svsportal",
-        "text": "Die QSPG ist nunmehr bei der Sozialversicherung der Selbständigen als Kompetenzzentrum für alle drei Pflegegeldentscheidungsträger angesiedelt.",
-        "zitat": "Die QSPG ist nunmehr bei der Sozialversicherung der Selbständigen als Kompetenzzentrum für alle drei Pflegegeldentscheidungsträger angesiedelt."
+        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816625&portal=svsportal",
+        "text": "Erforderlich ist ein Pflegebedarf in einem bestimmten zeitlichen Mindestausmaß, ab der Stufe fünf gelten zusätzliche Kriterien.",
+        "zitat": "Erforderlich ist ein Pflegebedarf in einem bestimmten zeitlichen Mindestausmaß, ab der Stufe fünf gelten zusätzliche Kriterien."
        }
       ],
-      "zustaendig": "Der Entscheidungsträger richtet sich nach der Pension/Rente (z. B. SVS, PVA, BVAEB)."
+      "zustaendig": "SVS, wenn eine SVS-Pension, SVS-Vollrente (Unfallversicherung) oder Versorgungsleistung der Ärzte-/Rechtsanwaltskammer bezogen wird; sonst z. B. PVA (laut SVS-Seite)."
      }
     ]
    },
@@ -14575,7 +14689,7 @@
      ]
     }
    ],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -16681,50 +16795,49 @@
        "online_url": null,
        "wo": null
       },
-      "confidence": "mittel",
-      "kosten": "Der Kurkostenbeitrag wird für die Dauer von 21 Tagen in der Höhe von täglich EUR 25,00 bewilligt.",
+      "confidence": "niedrig",
       "kurz_einfach": "Medizinische, berufliche und soziale Rehabilitation; Antrag für stationäre/ambulante Reha.",
       "name": "Rehabilitation (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.860703&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
-        "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840460&portal=bvaebbportal"
-       },
-       {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.879043&portal=bvaebbportal"
+       },
+       {
+        "stand": "2026-11-06",
+        "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840499&portal=bvaebbportal"
+       },
+       {
+        "stand": "2026-11-06",
+        "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.870579&portal=bvaebbportal"
        }
       ],
       "raw_id": "reha_medizinisch",
       "source_id": "bvaeb",
       "voraussetzungen": [
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal",
-        "text": "Die Antragstellung für Kuraufenthalte unterliegt Fristen (siehe unter „Wie oft kann ich auf Kur/Rehabilitation/Genesung (Erholung) fahren?“).",
-        "zitat": "Die Antragstellung für Kuraufenthalte unterliegt Fristen (siehe unter „Wie oft kann ich auf Kur/Rehabilitation/Genesung (Erholung) fahren?“)."
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840499&portal=bvaebbportal",
+        "text": "Mit den medizinischen Maßnahmen der Rehabilitation wird das Ziel verfolgt, den Gesundheitszustand so weit wiederherzustellen, dass der betroffene Versicherte oder sein anspruchsberechtigter Angehöriger einen ihm angemessenen Platz in der Gemeinschaft - möglichst dauernd und ohne Betreuung oder Hilfe - einnehmen kann.",
+        "zitat": "Mit den medizinischen Maßnahmen der Rehabilitation wird das Ziel verfolgt, den Gesundheitszustand so weit wiederherzustellen, dass der betroffene Versicherte oder sein anspruchsberechtigter Angehöriger einen ihm angemessenen Platz in der Gemeinschaft - möglichst dauernd und ohne Betreuung oder Hilfe - einnehmen kann."
        },
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal",
-        "text": "Die Antragstellung für diese Aufenthalte unterliegt Fristen (siehe unter „Wie oft kann ich auf Kur/Rehabilitation/Genesung (Erholung) fahren?“).",
-        "zitat": "Die Antragstellung für diese Aufenthalte unterliegt Fristen (siehe unter „Wie oft kann ich auf Kur/Rehabilitation/Genesung (Erholung) fahren?“)."
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840499&portal=bvaebbportal",
+        "text": "Je nach Indikation werden Rehabilitationsaufenthalte auf die Dauer von 22, 29 bzw. 43 Tagen bewilligt.",
+        "zitat": "Je nach Indikation werden Rehabilitationsaufenthalte auf die Dauer von 22, 29 bzw. 43 Tagen bewilligt."
        },
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal",
-        "text": "Wie stelle ich einen Antrag zu einer Kur/einem Rehabilitationsaufenthalt?",
-        "zitat": "Wie stelle ich einen Antrag zu einer Kur/einem Rehabilitationsaufenthalt?"
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840499&portal=bvaebbportal",
+        "text": "Diese Zuzahlung ist für die gesamte Aufenthaltsdauer (für Rehabilitationsaufenthalte allerdings für maximal 28 Tage pro Kalenderjahr) vor bzw. bei Antritt des Aufenthaltes zu entrichten.",
+        "zitat": "Diese Zuzahlung ist für die gesamte Aufenthaltsdauer (für Rehabilitationsaufenthalte allerdings für maximal 28 Tage pro Kalenderjahr) vor bzw. bei Antritt des Aufenthaltes zu entrichten."
        },
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841572&portal=bvaebbportal",
-        "text": "Sie können das Antragsformular in der",
-        "zitat": "Sie können das Antragsformular in der"
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840499&portal=bvaebbportal",
+        "text": "Die Höhe der Zuzahlung für Rehabilitations-, Kur- und Genesungsaufenthalte ist vom monatlichen Bruttobezug der Hauptversicherten bzw. des Hauptversicherten (gilt auch für mitversicherte Angehörige) zum Zeitpunkt der Antragstellung abhängig.",
+        "zitat": "Die Höhe der Zuzahlung für Rehabilitations-, Kur- und Genesungsaufenthalte ist vom monatlichen Bruttobezug der Hauptversicherten bzw. des Hauptversicherten (gilt auch für mitversicherte Angehörige) zum Zeitpunkt der Antragstellung abhängig."
        }
       ],
       "zustaendig": "BVAEB"
@@ -16743,20 +16856,20 @@
       "name": "Rehabilitation (medizinisch) – SVS",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
+        "url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal"
+       },
+       {
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816823&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816821&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816818&portal=svsportal"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.svs.at/cdscontent/?contentid=10007.843278&portal=svsportal"
        }
       ],
       "raw_id": "reha_medizinisch",
@@ -17040,7 +17153,7 @@
      ]
     }
    ],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -18276,19 +18389,19 @@
       "name": "Rezeptgebühr & Befreiung (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840470&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840374&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840469&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840466&portal=bvaebbportal"
        }
       ],
@@ -18297,23 +18410,23 @@
       "voraussetzungen": [
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840470&portal=bvaebbportal",
-        "text": "Rezeptgebühr & Obergrenze der Rezeptgebühr (Rezeptgebührenkonto)",
-        "zitat": "Rezeptgebühr & Obergrenze der Rezeptgebühr (Rezeptgebührenkonto)"
+        "text": "Liegen die Kosten des Heilmittels unter der Rezeptgebühr, so müssen Sie das Medikament selbst bezahlen.",
+        "zitat": "Liegen die Kosten des Heilmittels unter der Rezeptgebühr, so müssen Sie das Medikament selbst bezahlen."
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840470&portal=bvaebbportal",
-        "text": "Allgemeines zur Rezeptgebühr",
-        "zitat": "Allgemeines zur Rezeptgebühr"
+        "text": "Eine Befreiung gab es bisher nur für Personen mit geringem Einkommen (unter dem Ausgleichszulagen-Richtsatz), die entweder eine Ausgleichszulage bezogen haben oder aufgrund eines Antrags wegen eines Einkommens unter dem Ausgleichszulagenrichtsatz befreit wurden.",
+        "zitat": "Eine Befreiung gab es bisher nur für Personen mit geringem Einkommen (unter dem Ausgleichszulagen-Richtsatz), die entweder eine Ausgleichszulage bezogen haben oder aufgrund eines Antrags wegen eines Einkommens unter dem Ausgleichszulagenrichtsatz befreit wurden."
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840470&portal=bvaebbportal",
-        "text": ", das Sie in einer Apotheke oder Hausapotheke beziehen, ist eine Rezeptgebühr zu entrichten.",
-        "zitat": ", das Sie in einer Apotheke oder Hausapotheke beziehen, ist eine Rezeptgebühr zu entrichten."
+        "text": "Seit 1.1.2008 muss jeder Versicherte nur so lange die Rezeptgebühr zahlen, bis er im laufenden Kalenderjahr mit diesen Zahlungen einen Betrag von 2% seines Jahresnettoeinkommens erreicht.",
+        "zitat": "Seit 1.1.2008 muss jeder Versicherte nur so lange die Rezeptgebühr zahlen, bis er im laufenden Kalenderjahr mit diesen Zahlungen einen Betrag von 2% seines Jahresnettoeinkommens erreicht."
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840470&portal=bvaebbportal",
-        "text": "Die Rezeptgebühr beträgt für dieses Jahr",
-        "zitat": "Die Rezeptgebühr beträgt für dieses Jahr"
+        "text": "Danach ist er für den Rest des Kalenderjahres von der Rezeptgebühr befreit.",
+        "zitat": "Danach ist er für den Rest des Kalenderjahres von der Rezeptgebühr befreit."
        }
       ],
       "zustaendig": "BVAEB"
@@ -18332,19 +18445,19 @@
       "name": "Rezeptgebühr / Befreiung (SVS)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816750&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.849613&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816804&portal=svsportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816805&portal=svsportal"
        }
       ],
@@ -18357,9 +18470,9 @@
         "zitat": "Unter gewissen Voraussetzungen sind für Gewerbetreibende, Neue Selbständige und Freiberufler bestimmte Befreiungen und Ausnahmen möglich."
        },
        {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816804&portal=svsportal",
-        "text": "Wichtige Informationen zu den Kosten und Befreiungen bei Medikamenten, Heilbehelfen und Hilfsmitteln",
-        "zitat": "Wichtige Informationen zu den Kosten und Befreiungen bei Medikamenten, Heilbehelfen und Hilfsmitteln"
+        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816805&portal=svsportal",
+        "text": "Informationen zur Rezeptgebühr und der Befreiung von der Rezeptgebühr erhalten Sie hier:",
+        "zitat": "Informationen zur Rezeptgebühr und der Befreiung von der Rezeptgebühr erhalten Sie hier:"
        },
        {
         "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816812&portal=svsportal",
@@ -18368,8 +18481,8 @@
        },
        {
         "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816812&portal=svsportal",
-        "text": "Dabei müssen Sie für den Bezug jedes Heilmittels eine Rezeptgebühr von",
-        "zitat": "Dabei müssen Sie für den Bezug jedes Heilmittels eine Rezeptgebühr von"
+        "text": "Wenn hingegen manche Präparate einen niedrigeren Preis haben als die Rezeptgebühr, ist lediglich der niedrigere Preis zu bezahlen.",
+        "zitat": "Wenn hingegen manche Präparate einen niedrigeren Preis haben als die Rezeptgebühr, ist lediglich der niedrigere Preis zu bezahlen."
        }
       ],
       "zustaendig": "Krankenversicherungsträger (SVS)"
@@ -18570,7 +18683,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -18691,7 +18804,7 @@
      {
       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "hoch"
      }
     ],
@@ -18705,7 +18818,7 @@
      {
       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Wer mit Hausarzt Gesundheitsziele vereinbart und erreicht, zahlt statt 20 % nur 10 % Selbstbehalt (bis 5 %)."
      }
     ],
@@ -18719,7 +18832,7 @@
      {
       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Selbständig Gesund – halber Selbstbehalt (SVS)"
      }
     ],
@@ -18733,8 +18846,8 @@
      {
       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "SVS (GSVG-Versicherte: Gewerbetreibende, Neue Selbständige; Bauern analog nach SVS-Regeln – siehe Quelle)"
+      "stand": "2026-11-06",
+      "value": "SVS – nur GSVG-Versicherte (Gewerbetreibende, Neue Selbständige). Bauern zahlen laut SVS-Seite 'Arztwahl' einen pauschalen Kostenanteil statt 20 %."
      }
     ]
    },
@@ -18761,7 +18874,7 @@
     "Durch die eigene, aktive Teilnahme an dem Programm und die Erreichung der Gesundheitsziele, wird nach Antragstellung (frühestens nach sechs Monaten) der Selbstbehalt um die Hälfte reduziert."
    ],
    "innerhalb_sv": true,
-   "kosten": "Nachhaltig Gesund - Weitere Reduktion des Selbstbehalts auf bis zu 5 % für Gewerbetreibende und Neue Selbständige",
+   "kosten": "Ihren Selbstbehalt auf bis zu 5 % reduzieren.",
    "kurz_einfach": "SVS-Versicherte, die Gesundheitsziele mit der Ärztin vereinbaren und erreichen, zahlen weniger Selbstbehalt (10 % statt 20 %).",
    "leistung_id": "selbstaendig_gesund_svs",
    "name": "Selbständig Gesund (SVS)",
@@ -18773,22 +18886,22 @@
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.817082&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.859661&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.816954&portal=svsportal"
     }
    ],
@@ -18803,34 +18916,35 @@
    "typ": "sv",
    "voraussetzungen": [
     {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817082&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Selbständig Gesund – halber Selbstbehalt für Gewerbetreibende und Neue Selbständige",
-     "zitat": "Selbständig Gesund – halber Selbstbehalt für Gewerbetreibende und Neue Selbständige"
+     "stand": "2026-11-06",
+     "text": "Patienten wiederum, die aktiv zur Erhaltung ihrer Gesundheit beitragen und alle Ziele des Programms erfüllen, zahlen auf Antrag nur den halben Selbstbehalt – also 10 statt 20 % – für alle ärztlichen und zahnärztlichen Behandlungen.",
+     "zitat": "Patienten wiederum, die aktiv zur Erhaltung ihrer Gesundheit beitragen und alle Ziele des Programms erfüllen, zahlen auf Antrag nur den halben Selbstbehalt – also 10 statt 20 % – für alle ärztlichen und zahnärztlichen Behandlungen."
     },
     {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817082&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Ihren Selbstbehalt und tun Sie außerdem Ihrer Gesundheit etwas Gutes.",
-     "zitat": "Ihren Selbstbehalt und tun Sie außerdem Ihrer Gesundheit etwas Gutes."
+     "stand": "2026-11-06",
+     "text": "Fünf Parameter, die jedermann selbst beeinflussen kann, stehen im Mittelpunkt des neuen Systems:",
+     "zitat": "Fünf Parameter, die jedermann selbst beeinflussen kann, stehen im Mittelpunkt des neuen Systems:"
     },
     {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817082&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Nachhaltig Gesund - Weitere Reduktion des Selbstbehalts auf bis zu 5 % für Gewerbetreibende und Neue Selbständige",
-     "zitat": "Nachhaltig Gesund - Weitere Reduktion des Selbstbehalts auf bis zu 5 % für Gewerbetreibende und Neue Selbständige"
+     "stand": "2026-11-06",
+     "text": "Zu allen fünf Parametern bespricht der Arzt gemeinsam mit dem Patienten Gesundheitsziele, die auf den Erhalt oder eine Verbesserung der erhobenen Werte innerhalb eines bestimmten Zeitraumes abzielen.",
+     "zitat": "Zu allen fünf Parametern bespricht der Arzt gemeinsam mit dem Patienten Gesundheitsziele, die auf den Erhalt oder eine Verbesserung der erhobenen Werte innerhalb eines bestimmten Zeitraumes abzielen."
     },
     {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817083&portal=svsportal",
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.817082&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Ihren Selbstbehalt auf bis zu 5 % reduzieren.",
-     "zitat": "Ihren Selbstbehalt auf bis zu 5 % reduzieren."
+     "stand": "2026-11-06",
+     "text": "Nach Ablauf des vereinbarten Zeitraumes (mindestens sechs Monate) gibt es ein Evaluierungsgespräch, bei dem überprüft wird, ob die Gesundheitsziele auch erreicht wurden.",
+     "zitat": "Nach Ablauf des vereinbarten Zeitraumes (mindestens sechs Monate) gibt es ein Evaluierungsgespräch, bei dem überprüft wird, ob die Gesundheitsziele auch erreicht wurden."
     }
    ],
+   "zielgruppe": "Gewerbetreibende und Neue Selbständige (nicht Bauern)",
    "zustaendig": "SVS",
    "review_status": "kuratiert+quellen",
    "sources": [
@@ -18838,7 +18952,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {
@@ -19985,13 +20099,13 @@
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Heilbehandlung, Reha, Pflegegeld und Renten nach Dienstunfall/Berufskrankheit."
      },
      {
       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Leistungen der SVS-Unfallversicherung nach Arbeitsunfall/Berufskrankheit."
      }
     ],
@@ -19999,13 +20113,13 @@
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Leistungen nach Arbeits-/Dienstunfall & Berufskrankheit (BVAEB)"
      },
      {
       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Unfallheilbehandlung & Rehabilitation (SVS)"
      }
     ],
@@ -20013,14 +20127,14 @@
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "BVAEB (Unfallversicherung für öffentlich Bedienstete, Eisenbahn, Bergbau; sonst AUVA)"
      },
      {
       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
       "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "SVS (AUVA ist für diese Gruppen nicht zuständig)"
+      "stand": "2026-11-06",
+      "value": "SVS (Unfallversicherung der Selbständigen)"
      }
     ]
    },
@@ -20038,49 +20152,48 @@
    ],
    "confidence": "mittel",
    "innerhalb_sv": true,
-   "kosten": "eine Minderung der Erwerbsfähigkeit von mindestens 20%",
    "kurz_einfach": "Heilbehandlung, Reha, Pflegegeld und Renten nach Dienstunfall/Berufskrankheit.",
    "leistung_id": "unfall_heilbehandlung",
    "name": "Leistungen nach Arbeits-/Dienstunfall & Berufskrankheit (BVAEB)",
    "quellen": [
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858319&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839469&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.839478&portal=bvaebbportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.816534&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.816515&portal=svsportal"
     },
     {
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.svs.at/cdscontent/?contentid=10007.816528&portal=svsportal"
     }
    ],
@@ -20097,56 +20210,56 @@
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Rehabilitation in der Unfallversicherung nach Arbeitsunfall",
-     "zitat": "Rehabilitation in der Unfallversicherung nach Arbeitsunfall"
-    },
-    {
-     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
-     "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Die medizinischen Voraussetzungen werden durch den medizinischen Dienst der BVAEB-Unfallversicherung geprüft.",
      "zitat": "Die medizinischen Voraussetzungen werden durch den medizinischen Dienst der BVAEB-Unfallversicherung geprüft."
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Unfallversicherung ist der Wiedereinstieg in die Erwerbstätigkeit.",
      "zitat": "Unfallversicherung ist der Wiedereinstieg in die Erwerbstätigkeit."
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Die BVAEB-Unfallversicherung kann",
-     "zitat": "Die BVAEB-Unfallversicherung kann"
+     "stand": "2026-11-06",
+     "text": "Ist ein Aufenthalt in einem Rehabilitations-, Kur- oder Therapiezentrum, aufgrund eines anerkannten Arbeits-/Dienstunfalles oder einer anerkannten Berufskrankheit erforderlich, senden Sie den entsprechenden Antrag bitte direkt an die BVAEB-Unfallversicherung.",
+     "zitat": "Ist ein Aufenthalt in einem Rehabilitations-, Kur- oder Therapiezentrum, aufgrund eines anerkannten Arbeits-/Dienstunfalles oder einer anerkannten Berufskrankheit erforderlich, senden Sie den entsprechenden Antrag bitte direkt an die BVAEB-Unfallversicherung."
+    },
+    {
+     "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.858607&portal=bvaebbportal",
+     "source_id": "bvaeb",
+     "stand": "2026-11-06",
+     "text": "Sozialberater der BVAEB-Unfallversicherung sind für Sie da, um Sie zu unterstützen.",
+     "zitat": "Sozialberater der BVAEB-Unfallversicherung sind für Sie da, um Sie zu unterstützen."
     },
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816515&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Wann liegt ein Arbeitsunfall vor?",
      "zitat": "Wann liegt ein Arbeitsunfall vor?"
     },
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816515&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Welchen Anspruch auf Leistungen gibt es?",
      "zitat": "Welchen Anspruch auf Leistungen gibt es?"
     },
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816515&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Was macht den Unfall zum Arbeitsunfall?",
      "zitat": "Was macht den Unfall zum Arbeitsunfall?"
     },
     {
      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816515&portal=svsportal",
      "source_id": "svs",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Nicht jeder Unfall ist automatisch auch ein Arbeitsunfall.",
      "zitat": "Nicht jeder Unfall ist automatisch auch ein Arbeitsunfall."
     }
@@ -20158,7 +20271,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -20280,7 +20393,7 @@
       "name": "Unterstützungsfonds (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840463&portal=bvaebbportal"
        }
       ],
@@ -20289,23 +20402,23 @@
       "voraussetzungen": [
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840463&portal=bvaebbportal",
-        "text": "Unterstützungsfonds – Unterstützung und Hilfe in finanziellen Notlagen",
-        "zitat": "Unterstützungsfonds – Unterstützung und Hilfe in finanziellen Notlagen"
-       },
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840463&portal=bvaebbportal",
         "text": "Was ist der Unterstützungsfonds?",
         "zitat": "Was ist der Unterstützungsfonds?"
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840463&portal=bvaebbportal",
-        "text": "können wir Ihnen mit Leistungen aus dem Unterstützungsfonds helfen.",
-        "zitat": "können wir Ihnen mit Leistungen aus dem Unterstützungsfonds helfen."
+        "text": "Unterstützungen aus dem Unterstützungsfonds sind freiwillige Leistungen, es besteht darauf kein Rechtsanspruch.",
+        "zitat": "Unterstützungen aus dem Unterstützungsfonds sind freiwillige Leistungen, es besteht darauf kein Rechtsanspruch."
        },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840463&portal=bvaebbportal",
-        "text": "Die Mittel des Unterstützungsfonds werden nach Maßgabe unserer Richtlinien für Unterstützungen der Versicherten und der anspruchsberechtigten Angehörigen unter Bedachtnahme auf die individuelle",
-        "zitat": "Die Mittel des Unterstützungsfonds werden nach Maßgabe unserer Richtlinien für Unterstützungen der Versicherten und der anspruchsberechtigten Angehörigen unter Bedachtnahme auf die individuelle"
+        "text": "Wofür erhalte ich eine Unterstützung?",
+        "zitat": "Wofür erhalte ich eine Unterstützung?"
+       },
+       {
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840463&portal=bvaebbportal",
+        "text": "Wenn durch Krankheit, Gebrechen oder Mutterschaft finanzielle Belastungen entstehen, die zu einer finanziellen Notlage führen, können Unterstützungen für folgende Aufwendungen gewährt werden:",
+        "zitat": "Wenn durch Krankheit, Gebrechen oder Mutterschaft finanzielle Belastungen entstehen, die zu einer finanziellen Notlage führen, können Unterstützungen für folgende Aufwendungen gewährt werden:"
        }
       ],
       "zustaendig": "BVAEB"
@@ -20364,7 +20477,7 @@
     "svbox_local"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -20963,9 +21076,9 @@
       }
      },
      {
-      "quelle_url": "https://www.aekwien.at/oegk",
+      "quelle_url": "https://www.aekwien.at/vorsorgeuntersuchung",
       "source_id": "aek_wien",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": {
        "formular_id": null,
        "online_url": null,
@@ -20999,9 +21112,9 @@
       "value": "mittel"
      },
      {
-      "quelle_url": "https://www.aekwien.at/oegk",
+      "quelle_url": "https://www.aekwien.at/vorsorgeuntersuchung",
       "source_id": "aek_wien",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "niedrig"
      }
     ],
@@ -21057,9 +21170,9 @@
       "value": "Kostenloser Gesundheits-Check ab 18 Jahren, meist bei der Hausärztin oder dem Hausarzt."
      },
      {
-      "quelle_url": "https://www.aekwien.at/oegk",
+      "quelle_url": "https://www.aekwien.at/vorsorgeuntersuchung",
       "source_id": "aek_wien",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Die Ärztekammer führt Tarifkataloge und Verträge für Vorsorgeuntersuchungen bei Kassenärzt:innen."
      }
     ],
@@ -21089,9 +21202,9 @@
       "value": "Vorsorgeuntersuchung (Gesundheits-Check)"
      },
      {
-      "quelle_url": "https://www.aekwien.at/oegk",
+      "quelle_url": "https://www.aekwien.at/vorsorgeuntersuchung",
       "source_id": "aek_wien",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Vorsorgeuntersuchung (Hinweis aus Kassenvertrags-Sicht)"
      }
     ],
@@ -21109,9 +21222,9 @@
       "value": "ÖGK (Österreichische Gesundheitskasse); Details laut Zitaten."
      },
      {
-      "quelle_url": "https://www.aekwien.at/oegk",
+      "quelle_url": "https://www.aekwien.at/vorsorgeuntersuchung",
       "source_id": "aek_wien",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Abrechnung über die Krankenversicherungsträger; Durchführung bei Vertragsärzt:innen"
      }
     ]
@@ -21188,8 +21301,8 @@
     },
     {
      "source_id": "aek_wien",
-     "stand": "2026-11-05",
-     "url": "https://www.aekwien.at/oegk"
+     "stand": "2026-11-06",
+     "url": "https://www.aekwien.at/vorsorgeuntersuchung"
     }
    ],
    "traeger": [
@@ -21219,19 +21332,19 @@
       "name": "Vorsorgeuntersuchung (BVAEB)",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.856924&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.891609&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.857416&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840424&portal=bvaebbportal"
        }
       ],
@@ -21239,24 +21352,9 @@
       "source_id": "bvaeb",
       "voraussetzungen": [
        {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.856924&portal=bvaebbportal",
-        "text": "Allgemeine Vorsorgeuntersuchung ab dem 18.",
-        "zitat": "Allgemeine Vorsorgeuntersuchung ab dem 18."
-       },
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.856924&portal=bvaebbportal",
-        "text": "Alle Jugendlichen, die bei der BVAEB als Dienstnehmerin, Dienstnehmer oder Lehrling pflichtversichert sind, können sich mindestens einmal im Jahr ärztlich untersuchen lassen.",
-        "zitat": "Alle Jugendlichen, die bei der BVAEB als Dienstnehmerin, Dienstnehmer oder Lehrling pflichtversichert sind, können sich mindestens einmal im Jahr ärztlich untersuchen lassen."
-       },
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.856924&portal=bvaebbportal",
-        "text": "Im ersten Jahr findet die Basisuntersuchung statt.",
-        "zitat": "Im ersten Jahr findet die Basisuntersuchung statt."
-       },
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.856924&portal=bvaebbportal",
-        "text": "In den folgenden Jahren werden die Ergebnisse der Basisuntersuchung kontrolliert bzw.",
-        "zitat": "In den folgenden Jahren werden die Ergebnisse der Basisuntersuchung kontrolliert bzw."
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840424&portal=bvaebbportal",
+        "text": "Für die Vorsorgeuntersuchung ist kein Behandlungsbeitrag zu entrichten.",
+        "zitat": "Für die Vorsorgeuntersuchung ist kein Behandlungsbeitrag zu entrichten."
        }
       ],
       "zustaendig": "BVAEB"
@@ -21276,28 +21374,18 @@
       },
       "confidence": "mittel",
       "fristen": [
-       "Lebensjahr einmal pro Jahr bei allen SVS Vertragsärzten oder Wahlärzten mit Vorsorgeuntersuchungs-Vertrag in Anspruch genommen werden.",
-       "Um den Vorsorgegedanken zusätzlich zu stärken, setzte die SVS in den vergangenen Jahren mit jährlichen Gesundheitsaktionen gezielt Anreize, um jene zu „belohnen“, die Verantwortung für ihre Gesundheit übernehmen."
+       "Lebensjahr einmal pro Jahr bei allen SVS Vertragsärzten oder Wahlärzten mit Vorsorgeuntersuchungs-Vertrag in Anspruch genommen werden."
       ],
-      "kosten": "Für alle Altersgruppen werden kostenlose Vorsorgeuntersuchungen angeboten, darüber hinaus gibt es die Initiativen zur Brustkrebs-Früherkennung.",
       "kurz_einfach": "Kostenloser Gesundheitscheck bei Vertragsärzt:innen bzw. Wahlärzt:innen mit VU-Vertrag.",
       "name": "Vorsorgeuntersuchung (SVS-Gesundheitscheck)",
       "quellen": [
        {
-        "stand": "2026-11-05",
-        "url": "https://www.svs.at/"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.svs.at/cdscontent/?contentid=10007.860990&portal=svsportal"
-       },
-       {
-        "stand": "2026-11-05",
-        "url": "https://www.svs.at/cdscontent/?contentid=10007.834962&portal=svsportal"
-       },
-       {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.838509&portal=svsportal"
+       },
+       {
+        "stand": "2026-11-06",
+        "url": "https://www.svs.at/cdscontent/?contentid=10007.816755&portal=svsportal"
        }
       ],
       "raw_id": "vorsorgeuntersuchung",
@@ -21305,23 +21393,18 @@
       "voraussetzungen": [
        {
         "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.838509&portal=svsportal",
-        "text": "Für alle Altersgruppen werden kostenlose Vorsorgeuntersuchungen angeboten, darüber hinaus gibt es die Initiativen zur Brustkrebs-Früherkennung.",
-        "zitat": "Für alle Altersgruppen werden kostenlose Vorsorgeuntersuchungen angeboten, darüber hinaus gibt es die Initiativen zur Brustkrebs-Früherkennung."
-       },
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.838509&portal=svsportal",
-        "text": "Für Bauern wird eine kostenlose Zeckenschutz-Impfung angeboten.",
-        "zitat": "Für Bauern wird eine kostenlose Zeckenschutz-Impfung angeboten."
-       },
-       {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.838509&portal=svsportal",
         "text": "Die Vorsorgeuntersuchung kann als kostenfreier Gesundheitscheck von allen Versicherten ab dem vollendeten 18.",
         "zitat": "Die Vorsorgeuntersuchung kann als kostenfreier Gesundheitscheck von allen Versicherten ab dem vollendeten 18."
        },
        {
-        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.838509&portal=svsportal",
-        "text": "Lebensjahr einmal pro Jahr bei allen SVS Vertragsärzten oder Wahlärzten mit Vorsorgeuntersuchungs-Vertrag in Anspruch genommen werden.",
-        "zitat": "Lebensjahr einmal pro Jahr bei allen SVS Vertragsärzten oder Wahlärzten mit Vorsorgeuntersuchungs-Vertrag in Anspruch genommen werden."
+        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816755&portal=svsportal",
+        "text": "Die Vorsorgeuntersuchung (VU) kann als kostenfreier Gesundheitscheck von allen Versicherten und anspruchsberechtigten Angehörigen ab dem vollendeten 18.",
+        "zitat": "Die Vorsorgeuntersuchung (VU) kann als kostenfreier Gesundheitscheck von allen Versicherten und anspruchsberechtigten Angehörigen ab dem vollendeten 18."
+       },
+       {
+        "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816755&portal=svsportal",
+        "text": "Bitte beachten Sie: Werden Leistungen bei einer Vorsorgeuntersuchung erbracht, die nicht im gesetzlichen Vorsorgeuntersuchungs-Programm vorgesehen sind, können Selbstbehalte anfallen.",
+        "zitat": "Bitte beachten Sie: Werden Leistungen bei einer Vorsorgeuntersuchung erbracht, die nicht im gesetzlichen Vorsorgeuntersuchungs-Programm vorgesehen sind, können Selbstbehalte anfallen."
        }
       ],
       "zustaendig": "Krankenversicherungsträger (SVS) – Durchführung bei Vertragsärzt:innen"
@@ -21452,7 +21535,7 @@
     "svs"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -21843,35 +21926,29 @@
       "fristen": [
        "Die Erstattung von Kosten ist ausnahmslos bei Einreichung innerhalb von 42 Monaten ab Inanspruchnahme der Leistung möglich."
       ],
-      "kosten": "keinen Vertragstarif für eine bestimmte Leistung gibt",
       "kurz_einfach": "Rechnung einreichen und Kostenerstattung für ärztliche Hilfe außerhalb des Kassenvertrags.",
       "name": "Kostenerstattung (Wahlarzt-Rechnung einreichen) – BVAEB",
       "quellen": [
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840464&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.860182&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.856918&portal=bvaebbportal"
        },
        {
-        "stand": "2026-11-05",
+        "stand": "2026-11-06",
         "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.857145&portal=bvaebbportal"
        }
       ],
       "raw_id": "kostenerstattung_wahlarzt",
       "source_id": "bvaeb",
       "voraussetzungen": [
-       {
-        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840464&portal=bvaebbportal",
-        "text": "Kostenerstattung – Rechnung einreichen",
-        "zitat": "Kostenerstattung – Rechnung einreichen"
-       },
        {
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840464&portal=bvaebbportal",
         "text": "Diese können Sie bei uns zur Kostenerstattung einreichen.",
@@ -21886,6 +21963,11 @@
         "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840464&portal=bvaebbportal",
         "text": "Sie haben mehrere Möglichkeiten Ihre Rechnung zur Erstattung bei uns einzureichen:",
         "zitat": "Sie haben mehrere Möglichkeiten Ihre Rechnung zur Erstattung bei uns einzureichen:"
+       },
+       {
+        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840464&portal=bvaebbportal",
+        "text": "Ihren Arzt auf diese einfache und bequeme Form der Rechnungsübermittlung an.",
+        "zitat": "Ihren Arzt auf diese einfache und bequeme Form der Rechnungsübermittlung an."
        }
       ],
       "zustaendig": "BVAEB"
@@ -21957,7 +22039,7 @@
     "oegk"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -22194,10 +22276,24 @@
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": {
        "formular_id": null,
        "formular_ids": [],
+       "online_url": null,
+       "wo": null
+      }
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": {
+       "formular_id": "svs_2b74591a7a",
+       "formular_ids": [
+        "svs_2b74591a7a",
+        "svs_f63d8f90ee"
+       ],
        "online_url": null,
        "wo": null
       }
@@ -22217,20 +22313,6 @@
       }
      },
      {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": {
-       "formular_id": "svs_2b74591a7a",
-       "formular_ids": [
-        "svs_2b74591a7a",
-        "svs_f63d8f90ee"
-       ],
-       "online_url": null,
-       "wo": null
-      }
-     },
-     {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
@@ -22243,12 +22325,6 @@
      }
     ],
     "kosten": [
-     {
-      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
-      "source_id": "bvaeb",
-      "stand": "2026-11-05",
-      "value": "Sonderzahlungen werden durch eine prozentuelle Erhöhung gemäß der Satzung berücksichtigt."
-     },
      {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867346&portal=oegkportal",
       "source_id": "oegk",
@@ -22266,20 +22342,20 @@
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Wochengeld vor und nach der Geburt; Sonderwochengeld."
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "Wochengeld für Selbständige rund um die Geburt bzw. Betriebshilfe; Voraussetzungen und Höhe je Versichertengruppe."
      },
      {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867346&portal=oegkportal",
       "source_id": "oegk",
       "stand": "2026-11-05",
       "value": "Wochengeld können Frauen erhalten, die wegen einer Geburt vorübergehend nicht mehr beschäftigt werden."
-     },
-     {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "Wochengeld für Selbständige rund um die Geburt bzw. Betriebshilfe; Voraussetzungen und Höhe je Versichertengruppe."
      },
      {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
@@ -22292,20 +22368,20 @@
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "Wochengeld (BVAEB)"
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "Wochengeld & Mutterschaftsbetriebshilfe (SVS)"
      },
      {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867346&portal=oegkportal",
       "source_id": "oegk",
       "stand": "2026-11-05",
       "value": "Wochengeld"
-     },
-     {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "Wochengeld & Mutterschaftsbetriebshilfe (SVS)"
      },
      {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
@@ -22318,20 +22394,20 @@
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
       "source_id": "bvaeb",
-      "stand": "2026-11-05",
+      "stand": "2026-11-06",
       "value": "BVAEB (für BVAEB-Versicherte)"
+     },
+     {
+      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+      "source_id": "svs",
+      "stand": "2026-11-06",
+      "value": "SVS"
      },
      {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867346&portal=oegkportal",
       "source_id": "oegk",
       "stand": "2026-11-05",
       "value": "Vereinbaren Sie online einen Termin für Ihre persönliche Beratung in den Kundenservicestellen der ÖGK! Kundenservice Eisenstadt Kundenservice Oberwart"
-     },
-     {
-      "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
-      "source_id": "svs",
-      "stand": "2026-11-05",
-      "value": "SVS"
      },
      {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
@@ -22360,40 +22436,60 @@
    "fristen": [
     "Weitere Details zum Antrag auf Wochengeld und der Anspruchsdauer finden Sie unter dem angeführten Link.",
     "Wie kann ich den Antrag für Kinderbetreuungsgeld, Familienzeitbonus und/ oder Partnerschaftsbonus stellen?",
+    "Wird eine Hilfskraft eingesetzt, müssen Sie deren Einsatz auf dem Antrag auf Auszahlung von Wochengeld bestätigen.",
+    "Die Auszahlung kann nur im Nachhinein für abgeschlossene Teilzeiträume erfolgen (z.B. für die 8 Wochen vor der Entbindung), in denen Hilfe geleistet wurde.",
     "Wochengeld können Frauen erhalten, die wegen einer Geburt vorübergehend nicht mehr beschäftigt werden.",
     "Das Wochengeld soll das ausfallende Gehalt ersetzen, damit sie während der Zeit des Mutterschutzes keinen finanziellen Schaden erleiden.",
     "Beratungstermin Wochengeld",
     "Um in dieser Zeit keinen finanziellen Schaden zu erleiden, erhalten Sie von uns ein Wochengeld, das den entfallenden Nettolohn zur Gänze ersetzen soll.",
-    "Für die Dauer der letzten acht Wochen vor der voraussichtlichen Entbindung,",
-    "Wird eine Hilfskraft eingesetzt, müssen Sie deren Einsatz auf dem Antrag auf Auszahlung von Wochengeld bestätigen.",
     "Nach Früh- oder Mehrlingsgeburten sowie einer Kaiserschnittentbindung verlängert sich die Frist nach der Entbindung auf zwölf Wochen.",
     "Das Wochengeld gebührt dann vor dem Beginn der 8-Wochen- Frist."
    ],
    "innerhalb_sv": true,
-   "kosten": "Sonderzahlungen werden durch eine prozentuelle Erhöhung gemäß der Satzung berücksichtigt.",
+   "kosten": "Haben Sie vorher Arbeitslosengeld oder Notstandshilfe bezogen, erhalten Sie den bisherigen Betrag plus einen Zuschlag von 80 Prozent.",
    "kurz_einfach": "Wochengeld vor und nach der Geburt; Sonderwochengeld.",
    "leistung_id": "wochengeld",
    "name": "Wochengeld (BVAEB)",
    "quellen": [
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840410&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.899136&portal=bvaebbportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.816835&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.849613&portal=svsportal"
+    },
+    {
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal"
     },
     {
      "source_id": "oegk",
@@ -22406,26 +22502,6 @@
      "url": "https://www.oegk.at/cdscontent/?contentid=10007.870708&portal=oegkportal"
     },
     {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal"
-    },
-    {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.816835&portal=svsportal"
-    },
-    {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.849613&portal=svsportal"
-    },
-    {
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal"
-    },
-    {
      "seite": "PDF 34",
      "source_id": "svbox_local",
      "stand": "2026-01-01",
@@ -22434,8 +22510,8 @@
    ],
    "traeger": [
     "BVAEB",
-    "ÖGK",
-    "SVS"
+    "SVS",
+    "ÖGK"
    ],
    "trigger_im_dokument": [
     "Wochengeld",
@@ -22452,30 +22528,58 @@
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Welche Unterlagen muss ich für den Bezug des Wochengeldes senden?",
      "zitat": "Welche Unterlagen muss ich für den Bezug des Wochengeldes senden?"
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Weitere Details zum Antrag auf Wochengeld und der Anspruchsdauer finden Sie unter dem angeführten Link.",
      "zitat": "Weitere Details zum Antrag auf Wochengeld und der Anspruchsdauer finden Sie unter dem angeführten Link."
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Wann wird mir das Wochengeld ausbezahlt?",
      "zitat": "Wann wird mir das Wochengeld ausbezahlt?"
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Das Wochengeld wird Ihnen ab Beginn des Mutterschutzes im 28-Tagesrhythmus im Nachhinein ausbezahlt.",
      "zitat": "Das Wochengeld wird Ihnen ab Beginn des Mutterschutzes im 28-Tagesrhythmus im Nachhinein ausbezahlt."
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "In der Folge finden Sie Wissenswertes zu den medizinischen Leistungen rund um die Geburt – von der Unterstützung durch Ärzte und Hebammen bis hin zur Entbindung im Spital – sowie dem Transport ins Spital, dem Wochengeld und der Mutterschaftsbetriebshilfe.",
+     "zitat": "In der Folge finden Sie Wissenswertes zu den medizinischen Leistungen rund um die Geburt – von der Unterstützung durch Ärzte und Hebammen bis hin zur Entbindung im Spital – sowie dem Transport ins Spital, dem Wochengeld und der Mutterschaftsbetriebshilfe."
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Neben den medizinischen Leistungen bei Mutterschaft bieten Ihnen das Wochengeld bzw. die Mutterschaftsbetriebshilfe zusätzliche Unterstützung.",
+     "zitat": "Neben den medizinischen Leistungen bei Mutterschaft bieten Ihnen das Wochengeld bzw. die Mutterschaftsbetriebshilfe zusätzliche Unterstützung."
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816826&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Als Gewerbetreibende oder Neue Selbständige haben Sie auch dann Anspruch auf Wochengeld, wenn Sie während des Wochengeldzeitraumes Ihre Erwerbstätigkeit mittels Ruhendmeldung des Gewerbes bzw.",
+     "zitat": "Als Gewerbetreibende oder Neue Selbständige haben Sie auch dann Anspruch auf Wochengeld, wenn Sie während des Wochengeldzeitraumes Ihre Erwerbstätigkeit mittels Ruhendmeldung des Gewerbes bzw."
+    },
+    {
+     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816826&portal=svsportal",
+     "source_id": "svs",
+     "stand": "2026-11-06",
+     "text": "Trifft ein Anspruch auf Wochengeld oder Mutterschaftsbetriebshilfe mit einem Anspruch auf Unterstützungsleistung (für Gewerbetreibende oder Neue Selbständige) zusammen, so gebührt für diesen Zeitraum nur das Wochengeld oder die Betriebshilfe.",
+     "zitat": "Trifft ein Anspruch auf Wochengeld oder Mutterschaftsbetriebshilfe mit einem Anspruch auf Unterstützungsleistung (für Gewerbetreibende oder Neue Selbständige) zusammen, so gebührt für diesen Zeitraum nur das Wochengeld oder die Betriebshilfe."
     },
     {
      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867346&portal=oegkportal",
@@ -22497,34 +22601,6 @@
      "stand": "2026-11-05",
      "text": "In diesem vorzeitigen Mutterschutz haben Sie bereits ab dem Ausstellungsdatum des Freistellungszeugnisses Anspruch auf Wochengeld.",
      "zitat": "In diesem vorzeitigen Mutterschutz haben Sie bereits ab dem Ausstellungsdatum des Freistellungszeugnisses Anspruch auf Wochengeld."
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "In der Folge finden Sie Wissenswertes zu den medizinischen Leistungen rund um die Geburt – von der Unterstützung durch Ärzte und Hebammen bis hin zur Entbindung im Spital – sowie dem Transport ins Spital, dem Wochengeld und der Mutterschaftsbetriebshilfe.",
-     "zitat": "In der Folge finden Sie Wissenswertes zu den medizinischen Leistungen rund um die Geburt – von der Unterstützung durch Ärzte und Hebammen bis hin zur Entbindung im Spital – sowie dem Transport ins Spital, dem Wochengeld und der Mutterschaftsbetriebshilfe."
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Wochengeld & Mutterschaftsbetriebshilfe",
-     "zitat": "Wochengeld & Mutterschaftsbetriebshilfe"
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.834958&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Neben den medizinischen Leistungen bei Mutterschaft bieten Ihnen das Wochengeld bzw.",
-     "zitat": "Neben den medizinischen Leistungen bei Mutterschaft bieten Ihnen das Wochengeld bzw."
-    },
-    {
-     "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.816826&portal=svsportal",
-     "source_id": "svs",
-     "stand": "2026-11-05",
-     "text": "Als Gewerbetreibende oder Neue Selbständige haben Sie auch dann Anspruch auf Wochengeld, wenn Sie während des Wochengeldzeitraumes Ihre Erwerbstätigkeit mittels Ruhendmeldung des Gewerbes bzw.",
-     "zitat": "Als Gewerbetreibende oder Neue Selbständige haben Sie auch dann Anspruch auf Wochengeld, wenn Sie während des Wochengeldzeitraumes Ihre Erwerbstätigkeit mittels Ruhendmeldung des Gewerbes bzw."
     },
     {
      "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
@@ -22567,6 +22643,7 @@
      "zitat": "Während dieses Beschäftigungsverbots besteht ein Anspruch auf Wochengeld."
     }
    ],
+   "zielgruppe": "Vertragsbedienstete, Arbeiterinnen, Angestellte; Beamtinnen kein Anspruch lt. Seite",
    "zustaendig": "BVAEB (für BVAEB-Versicherte)",
    "review_status": "konflikt",
    "sources": [
@@ -22583,10 +22660,24 @@
       {
        "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841570&portal=bvaebbportal",
        "source_id": "bvaeb",
-       "stand": "2026-11-05",
+       "stand": "2026-11-06",
        "value": {
         "formular_id": null,
         "formular_ids": [],
+        "online_url": null,
+        "wo": null
+       }
+      },
+      {
+       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
+       "source_id": "svs",
+       "stand": "2026-11-06",
+       "value": {
+        "formular_id": "svs_2b74591a7a",
+        "formular_ids": [
+         "svs_2b74591a7a",
+         "svs_f63d8f90ee"
+        ],
         "online_url": null,
         "wo": null
        }
@@ -22606,20 +22697,6 @@
        }
       },
       {
-       "quelle_url": "https://www.svs.at/cdscontent/?contentid=10007.843257&portal=svsportal",
-       "source_id": "svs",
-       "stand": "2026-11-05",
-       "value": {
-        "formular_id": "svs_2b74591a7a",
-        "formular_ids": [
-         "svs_2b74591a7a",
-         "svs_f63d8f90ee"
-        ],
-        "online_url": null,
-        "wo": null
-       }
-      },
-      {
        "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
        "source_id": "svbox_local",
        "stand": "2026-01-01",
@@ -22633,7 +22710,7 @@
      ]
     }
    ],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -23182,22 +23259,22 @@
    "quellen": [
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841576&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.854344&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840449&portal=bvaebbportal"
     },
     {
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840477&portal=bvaebbportal"
     }
    ],
@@ -23212,28 +23289,28 @@
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841576&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Bei Notwendigkeit einer früheren Erneuerung ist diese bewilligungspflichtig.",
      "zitat": "Bei Notwendigkeit einer früheren Erneuerung ist diese bewilligungspflichtig."
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841576&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
-     "text": "Ein vertraglicher Zahnersatz ist immer bewilligungspflichtig!",
-     "zitat": "Ein vertraglicher Zahnersatz ist immer bewilligungspflichtig!"
+     "stand": "2026-11-06",
+     "text": "Bitte beachten Sie: Ein vertraglicher Zahnersatz ist immer bewilligungspflichtig!",
+     "zitat": "Bitte beachten Sie: Ein vertraglicher Zahnersatz ist immer bewilligungspflichtig!"
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841576&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Einen Überblick über die bewilligungspflichtigen Leistungen stellen wir Ihnen unter dem Link \"Bewilligungspflichtige Leistungen\" zur Verfügung.",
      "zitat": "Einen Überblick über die bewilligungspflichtigen Leistungen stellen wir Ihnen unter dem Link \"Bewilligungspflichtige Leistungen\" zur Verfügung."
     },
     {
      "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.841576&portal=bvaebbportal",
      "source_id": "bvaeb",
-     "stand": "2026-11-05",
+     "stand": "2026-11-06",
      "text": "Ist Zahnersatz bewilligungspflichtig?",
      "zitat": "Ist Zahnersatz bewilligungspflichtig?"
     }
@@ -23244,7 +23321,7 @@
     "bvaeb"
    ],
    "konflikte": [],
-   "stand": "2026-11-05"
+   "stand": "2026-11-06"
   },
   {
    "_entschieden": {},
@@ -24102,6 +24179,13 @@
    "dangling": 0
   },
   {
+   "von": "nachsicht_behandlungsbeitrag_bvaeb",
+   "nach": "rezeptgebuehrenbefreiung",
+   "typ": "verwandt",
+   "source_id": "bvaeb",
+   "dangling": 0
+  },
+  {
    "von": "fsw_pflegeberatung",
    "nach": "pflegegeld",
    "typ": "verwandt",
@@ -24680,6 +24764,20 @@
    "nach": "rezeptgebuehrenbefreiung",
    "typ": "verwandt",
    "source_id": "svbox_local",
+   "dangling": 0
+  },
+  {
+   "von": "kostenanteil_befreiung_svs",
+   "nach": "selbstaendig_gesund_svs",
+   "typ": "verwandt",
+   "source_id": "svs",
+   "dangling": 0
+  },
+  {
+   "von": "kostenanteil_befreiung_svs",
+   "nach": "rezeptgebuehrenbefreiung",
+   "typ": "verwandt",
+   "source_id": "svs",
    "dangling": 0
   },
   {
@@ -161231,17 +161329,17 @@
    "formular_id": "bvaeb_12273d96ca",
    "name": "Gutachtensübermittlung",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/12273d96ca7a7a289b3db6760593723676b13d3c.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.710938&version=1770119457",
    "leistung_ids": "[\"pflegegeld\"]",
-   "wer_fuellt_aus": "versicherte",
+   "wer_fuellt_aus": "arzt",
    "source_id": "bvaeb,linkcheck"
   },
   {
    "formular_id": "bvaeb_1240b06894",
    "name": "Ratgeber Pflegegeld",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/1240b068945717b6f308c1eaf1089add9441fa53.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.712491&version=1772537898",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161251,7 +161349,7 @@
    "formular_id": "bvaeb_1f57895949",
    "name": "Antrag auf Anschlussheilverfahren/ Rehabilitation nach Unfall",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/1f5789594935a7f215d42e5f813b6fd6ad00978a.pdf",
    "url_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.555952&version=1577720109",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161261,7 +161359,7 @@
    "formular_id": "bvaeb_200740a15e",
    "name": "Health Resort Stays and Rehabilitation (englisch)",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/200740a15ef64a8586f0eb12bdd33ff4c3a28fd4.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.748891&version=1775557972",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161271,7 +161369,7 @@
    "formular_id": "bvaeb_2ed325adef",
    "name": "Antrag auf Erhöhung des Pflegegeldes",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/2ed325adef37ae00697777c66cda4cc9f3c8875e.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.711900&version=1741602482",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161291,7 +161389,7 @@
    "formular_id": "bvaeb_422efd0a45",
    "name": "Information zum Kinderbetreuungsgeld",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/422efd0a451aae69027ae36ea5f3942a97e9a52e.pdf",
    "url_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638104&version=1782206310",
    "leistung_ids": "[\"kinderbetreuungsgeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161311,7 +161409,7 @@
    "formular_id": "bvaeb_47c564ebf1",
    "name": "Antrag auf Beihilfe zum Kinderbetreuungsgeld",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/47c564ebf14677d3951aaa222ced3a22cc79a955.pdf",
    "url_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638103&version=1764919756",
    "leistung_ids": "[\"kinderbetreuungsgeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161321,7 +161419,7 @@
    "formular_id": "bvaeb_6b46aa00ab",
    "name": "Kur & Rehabilitation - Eigene Einrichtungen und Vertragseinrichtungen (deutsch)",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/6b46aa00ab19c97545030264fddb19ac1a3169dd.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729146&version=1775557962",
    "leistung_ids": "[\"kur\", \"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161331,7 +161429,7 @@
    "formular_id": "bvaeb_75188697d2",
    "name": "Folder Altern mit Zukunft - Kurse und Module",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/75188697d28992c9125bd007ef70749e88340b13.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.810805&version=1791529818",
    "leistung_ids": "[\"kur\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161341,7 +161439,7 @@
    "formular_id": "bvaeb_8a46949f88",
    "name": "Hausprospekt Gesundheitseinrichtung Bad Schallerbach",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/8a46949f883993c39639aa063faaea09bc0d1879.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729483&version=1790660217",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161351,7 +161449,7 @@
    "formular_id": "bvaeb_8a92793171",
    "name": "Beiblatt für Sekundärpatienten bei familienorientierter Reha",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/8a92793171f9d9bfad162cf15f4446c83973d740.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.802429&version=1768564030",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161361,7 +161459,7 @@
    "formular_id": "bvaeb_9096928de6",
    "name": "Antrag auf Befreiung von der Rezeptgebühr / vom Behandlungsbeitrag",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/9096928de6cb2239c8589e5159d49146dc0d32e9.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729173&version=1767962508",
    "leistung_ids": "[\"rezeptgebuehrenbefreiung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161371,7 +161469,7 @@
    "formular_id": "bvaeb_93f298bd73",
    "name": "Informationsfolder zur GuB",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/93f298bd73d9c99dad2fdaec0e9ba2909eb2f957.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.773468&version=1789646457",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161381,7 +161479,7 @@
    "formular_id": "bvaeb_9d7f0d0bf6",
    "name": "Antrag auf Angehörigenbonus für pflegende Angehörige",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/9d7f0d0bf6cde9613e0bbfba6b0a6921c593e9ab.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.779123&version=1734435563",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161391,7 +161489,7 @@
    "formular_id": "bvaeb_9dd45ff4e4",
    "name": "Hausprospekt RZ Austria",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/9dd45ff4e439d1be5f1a2d2760053d2edeb58f4e.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.729481&version=1793869196",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161421,7 +161519,7 @@
    "formular_id": "bvaeb_c3b9f02942",
    "name": "Antrag auf Kinder- und Jugendlichen Rehabilitation",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/c3b9f0294261b5cef69a7c7c066301e87dd36024.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.802430&version=1768564037",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161441,7 +161539,7 @@
    "formular_id": "bvaeb_c5da34e556",
    "name": "Verzichts- bzw. Beendigungserklärung zum Kinderbetreuungsgeld",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/c5da34e5562567de36755c5e5fd2fa41030db932.pdf",
    "url_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638292&version=1564663178",
    "leistung_ids": "[\"kinderbetreuungsgeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161451,7 +161549,7 @@
    "formular_id": "bvaeb_d215f68314",
    "name": "Antrag auf Partnerschaftsbonus",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/d215f6831444524a5fe6ffed25b3aa1641bc57a7.pdf",
    "url_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638295&version=1725539872",
    "leistung_ids": "[\"kinderbetreuungsgeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161461,7 +161559,7 @@
    "formular_id": "bvaeb_dc6191e970",
    "name": "Angehörigenbonus für pflegende Angehörige",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/dc6191e970c5466a459af9de36695556d7961be6.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.786630&version=1771939397",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -161491,7 +161589,7 @@
    "formular_id": "bvaeb_e827f16987",
    "name": "Berufliche und soziale Rehabilitation",
    "traeger": "BVAEB",
-   "local_pdf": null,
+   "local_pdf": "sources/bvaeb/raw/pdf/e827f169873e556ed737ea3188c7dfd192ab5e15.pdf",
    "url_pdf": "https://www.bvaeb.at/cdscontent/load?contentid=10008.789936&version=1725366597",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162581,7 +162679,7 @@
    "formular_id": "svs_055ffc706d",
    "name": "Prostatakrebsvorsorge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/055ffc706d74921fb578f120c1932c35acadb4f7.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806865&version=1784712804",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162591,7 +162689,7 @@
    "formular_id": "svs_0857765cf6",
    "name": "Einladung",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/0857765cf6622d377686b29949764f8c179c9e10.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794603&version=1793855256",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162611,7 +162709,7 @@
    "formular_id": "svs_173140ab20",
    "name": "Hausbesuche von Jänner bis Dezember 2025",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/173140ab205470dd49d4bde7bf2e30b03d620e6e.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.803460&version=1773134510",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162621,7 +162719,7 @@
    "formular_id": "svs_1c3976a941",
    "name": "Factsheet zur Darmkrebsvorsorge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/1c3976a94124d98ffa14364895ca317cf7f8a44f.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806860&version=1779190861",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162631,7 +162729,7 @@
    "formular_id": "svs_1fa1b79e09",
    "name": "PDF (0.1MB) – Formulare & Anträge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/1fa1b79e09c0e88c7a5aebd8fc4eb7236edb9ad4.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.773195&version=1673606482",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162651,7 +162749,7 @@
    "formular_id": "svs_252bb97593",
    "name": "Brustkrebsfrüherkennung",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/252bb9759306b8c292c89c14fa76a02a9f091291.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806859&version=1779190855",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162661,7 +162759,7 @@
    "formular_id": "svs_2995b69651",
    "name": "Factsheet Gesundheits-Check Junior",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/2995b69651b4aa8f144d2829d28e9bf60399324b.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806861&version=1779190867",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162681,7 +162779,7 @@
    "formular_id": "svs_2f7b56fd2b",
    "name": "Hausbesuche von Jänner bis Dezember 2024",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/2f7b56fd2b5add7a3a4ec767c0654cd282ce1f43.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.797369&version=1754288122",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162691,7 +162789,7 @@
    "formular_id": "svs_3675e2dcc1",
    "name": "Anlage_E_Rabattliste-Hersteller.pdf",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/3675e2dcc1c78170be4d3cc80a6204b6808b12ab.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794147&version=1749102431",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162701,7 +162799,7 @@
    "formular_id": "svs_3cb811755f",
    "name": "Depotpartner",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/3cb811755fce01117e4a841228ce90031c63260b.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794141&version=1793080325",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162711,7 +162809,7 @@
    "formular_id": "svs_43c09993d6",
    "name": "PDF (0.2MB) – Formulare & Anträge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/43c09993d687e611cf4bf7901a0684698263a866.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.728056&version=1691475289",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162721,7 +162819,7 @@
    "formular_id": "svs_44d3928abe",
    "name": "Anlage_C_Eigentumsvorbehalt.pdf",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/44d3928abeead0ac20605b4ad4f50808f874d7ac.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794145&version=1749102447",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162731,7 +162829,7 @@
    "formular_id": "svs_46d47f7de6",
    "name": "Vereinbarung zur Direktverrechnung",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/46d47f7de63bb5385bdcdf4aa7336622d6ba806e.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.797257&version=1753865767",
    "leistung_ids": "[\"krankentransport\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162741,7 +162839,7 @@
    "formular_id": "svs_476c8ae372",
    "name": "Mundhygiene",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/476c8ae372665f4f3bec3e558271ee17e2668cdf.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806864&version=1779190882",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162771,7 +162869,7 @@
    "formular_id": "svs_5654837c3a",
    "name": "Begünstigung Der Bundesgesetzgeber hat für Weiterversicherte in der Pensionsversicherung, ",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/5654837c3ac35de1dbe6dc93a37b77317410ab11.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.751504&version=1768544747",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162781,7 +162879,7 @@
    "formular_id": "svs_5ea82d7f9c",
    "name": "Impfungen",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/5ea82d7f9c716bd06fa9ed061ea1080de58fdf0d.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806863&version=1790680449",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162791,7 +162889,7 @@
    "formular_id": "svs_61a9860dc4",
    "name": "GV-Rollstuhlversorgung - Mechatroniker",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/61a9860dc4e9b504f7137182a75f0eceb1d1ca01.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806530&version=1777960765",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162801,7 +162899,7 @@
    "formular_id": "svs_64d7a2fa52",
    "name": "PDF (0.1MB) – Formulare & Anträge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/64d7a2fa5251078ba71bbf6043279c2083655f0f.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.727923&version=1674629470",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162821,7 +162919,7 @@
    "formular_id": "svs_6f835bdf72",
    "name": "Anamneseseblatt",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/6f835bdf72e26678d9b19a1482fb2794e9014eb8.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.728550&version=1575993960",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162841,7 +162939,7 @@
    "formular_id": "svs_73b8e92b48",
    "name": "Gesamtvertrag Taxi",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/73b8e92b48e5e6b27231723ab007050028a61056.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.793036&version=1738046874",
    "leistung_ids": "[\"krankentransport\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162851,7 +162949,7 @@
    "formular_id": "svs_7bffe9e062",
    "name": "Vorsorgepass_Tabelle.indd",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/7bffe9e062ffab9ae44088f66c99074739414684.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.804183&version=1790680368",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162861,7 +162959,7 @@
    "formular_id": "svs_7f190f005a",
    "name": "Anlage_F_Bestätigung-Kriterien-Depotführung.pdf",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/7f190f005ad167bb1eeabb929dd80b5e696f3dc0.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794148&version=1749102394",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162871,7 +162969,7 @@
    "formular_id": "svs_8071a4329a",
    "name": "1. ZV GV Rollstuhlversorgung",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/8071a4329aee9cf630a2fb270e48c77ba5ccd13a.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.796176&version=1749102284",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162881,7 +162979,7 @@
    "formular_id": "svs_826b376cc3",
    "name": "Factsheet zur Vorsorgeuntersuchung",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/826b376cc3ad439a0d00f1ea88a3fda1179c29da.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806866&version=1779190894",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162891,7 +162989,7 @@
    "formular_id": "svs_842e58e23c",
    "name": "Anlage_B_Rollstuhlerhebungsblatt.pdf",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/842e58e23c416c52deead37941bdeed19dfe184b.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794144&version=1749102454",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162901,7 +162999,7 @@
    "formular_id": "svs_872e7c08de",
    "name": "PAL 400",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/872e7c08de8a581eddf17beed58d8a45a5831d39.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.728381&version=1774955392",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162911,7 +163009,7 @@
    "formular_id": "svs_9461f559f9",
    "name": "Gebärmutterhalskrebsvorsorge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/9461f559f984273b412938e44bea6df18a21897b.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.806862&version=1779789753",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162931,7 +163029,7 @@
    "formular_id": "svs_979dc004c8",
    "name": "Hausbesuche von Jänner bis Dezember 2022",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/979dc004c8142a0475d1b8006c8242b2baa416a7.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.776892&version=1681976367",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162951,7 +163049,7 @@
    "formular_id": "svs_9b817d61ff",
    "name": "PDF (0.1MB) – Formulare & Anträge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/9b817d61ff3b22bd4a5e3a0300d6c5bd51fc5a1d.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.728408&version=1702453830",
    "leistung_ids": "[\"kur\", \"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162961,7 +163059,7 @@
    "formular_id": "svs_9ceea8b1a5",
    "name": "Angehörigenbonus für pflegende Angehörige",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/9ceea8b1a5a373fac8d74425ec0e27d9dd4c6dd9.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.779519&version=1768294169",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162971,7 +163069,7 @@
    "formular_id": "svs_ab71bef6db",
    "name": "GV-Rollstuhlversorgung-unterschrieben.pdf",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/ab71bef6dbeeff3b333b1e0af8fed7039868916b.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794142&version=1749102462",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162981,7 +163079,7 @@
    "formular_id": "svs_b0d99f15d7",
    "name": "Hausbesuche von Jänner bis Dezember 2021",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/b0d99f15d7b1d5662954e40f3204553f0d6b4425.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.773240&version=1674134895",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -162991,7 +163089,7 @@
    "formular_id": "svs_b0f52f06ae",
    "name": "PDF (0.1MB) – Formulare & Anträge",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/b0f52f06ae0f9e63de465794eb6f300a95cfdeea.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.728410&version=1702453857",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163001,7 +163099,7 @@
    "formular_id": "svs_b2faf9a867",
    "name": "SVS_Flyer_PflegendeAngehoerige_A5+3mm_JUL2025_PRINT.indd",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/b2faf9a867b82a487e6d7606a9a45636bb042d31.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.797762&version=1756100327",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163011,7 +163109,7 @@
    "formular_id": "svs_b324e45072",
    "name": "Hausbesuche von Jänner bis Dezember 2023",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/b324e4507208d2e2c9d6fd69e214c4ca1172eeec.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.789363&version=1721800054",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163021,7 +163119,7 @@
    "formular_id": "svs_b9026c0661",
    "name": "Vorsorgeuntersuchung-Gesamtvertrag",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/b9026c0661177d65ff2b5e3962fdfc8111238f48.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.797853&version=1756714058",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163041,7 +163139,7 @@
    "formular_id": "svs_d13f124421",
    "name": "UNFALLVERSICHERUNG Unfallversicherung im Überblick LEISTUNGEN BEI ARBEITSUNFALL UND BERUFS",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/d13f1244212480b5b48ed9ec60894ddf11782df4.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.765722",
    "leistung_ids": "[\"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163051,7 +163149,7 @@
    "formular_id": "svs_d3eed22f08",
    "name": "Folder zur Vorsorgeuntersuchung",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/d3eed22f08f1091066d60882bf5066292a3c5584.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.728549&version=1575993951",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163061,7 +163159,7 @@
    "formular_id": "svs_d476ca6794",
    "name": "Richtig gepflegt - Broschüre",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/d476ca6794b812af95b6de48860d1e21bf967c4d.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.763422",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163071,7 +163169,7 @@
    "formular_id": "svs_d9f78666b3",
    "name": "Hausbesuche von Jänner bis Dezember 2024",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/d9f78666b35ed3bdf1b627927532b38e4293fc6b.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.800992&version=1766470929",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163081,7 +163179,7 @@
    "formular_id": "svs_dac53cc088",
    "name": "Hausbesuche von Jänner bis Dezember 2024",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/dac53cc0887d916bffb8c522b5a7242917f6e76b.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.800993&version=1766471398",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163091,7 +163189,7 @@
    "formular_id": "svs_dae7ddcdf1",
    "name": "Flyer SVS-Gesundheitshunderter",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/dae7ddcdf1b0352497942ca0e8332d5d3b580d59.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.779138&version=1767082727",
    "leistung_ids": "[\"gesundheitshunderter_svs\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163111,7 +163209,7 @@
    "formular_id": "svs_e291592e5a",
    "name": "Informationen zur Darmkrebs-Früherkennung",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/e291592e5a44357824203e403267d8e0eb860eca.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.787665&version=1714374198",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163121,7 +163219,7 @@
    "formular_id": "svs_e33037dfc2",
    "name": "1 von 3 Gesetzliche Grundlage und Personenkreis Analog zur Regelung der „Abfertigung neu“ ",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/e33037dfc2fed7d10254e133d3e1984be8789866.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.765680&version=1768544948",
    "leistung_ids": "[\"vorsorgeuntersuchung\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163151,7 +163249,7 @@
    "formular_id": "svs_f11a5fd2c1",
    "name": "Rollstuhl-GV_Anlage_A_Tarifliste_ab-01.01.2026.pdf",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/f11a5fd2c136e58527bcb46fc6d6d338e21a7472.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794143&version=1783067660",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163161,7 +163259,7 @@
    "formular_id": "svs_f63d8f90ee",
    "name": "Rund um die Familie",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/f63d8f90eeacfb197904ffae11588b12afa50311.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.790885&version=1767077123",
    "leistung_ids": "[\"wochengeld\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163171,7 +163269,7 @@
    "formular_id": "svs_f73b2a8dbb",
    "name": "Standorte Leistungserbringer",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/f73b2a8dbb06b92639f7c323dcc69cfb289c944d.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794140&version=1793080339",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163181,7 +163279,7 @@
    "formular_id": "svs_fdc851d526",
    "name": "Anlage_D_Formular-Kostenvoranschlag.pdf",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/fdc851d526fe4169426a21034c8496191de4a5d0.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.794146&version=1749102440",
    "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "versicherte",
@@ -163191,7 +163289,7 @@
    "formular_id": "svs_fe1cdb6034",
    "name": "Infobroschüre",
    "traeger": "SVS",
-   "local_pdf": null,
+   "local_pdf": "sources/svs/raw/pdf/fe1cdb60344cad18c3760638f3dc65b8b3f0b2dc.pdf",
    "url_pdf": "https://www.svs.at/cdscontent/load?contentid=10008.808653&version=1784105577",
    "leistung_ids": "[\"pflegegeld\"]",
    "wer_fuellt_aus": "versicherte",

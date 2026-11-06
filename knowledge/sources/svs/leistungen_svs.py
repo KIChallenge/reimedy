@@ -1,4 +1,4 @@
-from _common import make_leistungen
+from _common import make_leistungen, apply_overrides
 
 SPECS = [
  dict(leistung_id="gesundheitshunderter_svs", name="Gesundheitshunderter (SVS)", kurz="Die SVS zahlt einmal pro Jahr bis zu 100 € für gesundheitsfördernde Aktivitäten dazu – freiwillig, ohne Rechtsanspruch.",
@@ -31,10 +31,34 @@ SPECS = [
  dict(leistung_id="unfall_heilbehandlung", name="Unfallheilbehandlung & Rehabilitation (SVS)", kurz="Leistungen der SVS-Unfallversicherung nach Arbeitsunfall/Berufskrankheit.", bereich=["C"], title_re=r"Arbeitsunfall|Berufskrankheit|Leistungen der Unfallversicherung|Unfallheilbehandlung", vq=[r"Arbeitsunfall", r"Anspruch|Voraussetzung|melden"], kq=[r"€|Euro|Prozent|%"], zustaendig="SVS (AUVA ist für diese Gruppen nicht zuständig)", trigger=["Arbeitsunfall", "Berufskrankheit"]),
  dict(leistung_id="gesundheitsangebote_svs", name="SVS-Gesundheitsangebote (Gesundheitswochen, Pflegeauszeit, Camps)", kurz="Geförderte Gesundheitswochen, Pflegeauszeit für pflegende Angehörige und weitere Angebote der SVS.", bereich=["B", "D"], title_re=r"Gesundheitsangebote|Gesundheitswoche|Pflegeauszeit|SVS-Camps|SVS-Beratungstage|Jackpot", vq=[r"Selbstbehalt|Eigenanteil|Kosten", r"Anspruch|Voraussetzung|Teilnahme"], kq=[r"€|Euro|Eigenanteil"], zustaendig="SVS", trigger=["Gesundheitswoche", "Pflegeauszeit"]),
 ]
+G = "Gewerbetreibende und Neue Selbständige (GSVG); Bauern (BSVG) mit eigenen Regeln – siehe Quelle"
+OVERRIDES = {
+ "gesundheitshunderter_svs": dict(title_re=r"^Gesundheitshunderter$|Bonus für Ihre Gesundheit", span=[(r"Die SVS fördert folgende Bereiche", 420)], vq=[r"gebührt einmal pro Kalenderjahr", r"Online-Antragstellung"], kq=[r"100 ?€|100 Euro|100,"], fq=[r"einmal pro Kalenderjahr"],
+      zielgruppe="Alle SVS-Versicherten (Gewerbetreibende, Bauern, Neue Selbständige); Junior-Variante für mitversicherte Kinder", unterschied="Nur SVS. In den gecrawlten BVAEB-Seiten nicht gefunden (dort: Jackpot.fit, Gesundheitsveranstaltungen)."),
+ "selbstaendig_gesund_selbstbehalt": dict(title_re=r"^Selbständig Gesund|Nachhaltig Gesund|Ihr Weg zum halben", vq=[r"zahlen auf Antrag nur den halben Selbstbehalt", r"Evaluierungsgespräch, bei dem", r"Fünf Parameter"], kq=[r"von 20 % auf 10 %", r"auf 5 % für einen weiteren Zeitraum", r"Selbstbehalt.{0,40}5 ?%"],
+      zielgruppe="Gewerbetreibende und Neue Selbständige (nicht Bauern)", zustaendig="SVS – nur GSVG-Versicherte (Gewerbetreibende, Neue Selbständige). Bauern zahlen laut SVS-Seite 'Arztwahl' einen pauschalen Kostenanteil statt 20 %.",
+      unterschied="SVS (GSVG): Selbstbehalt 20 %, über 'Selbständig Gesund' auf 10 %, mit 'Nachhaltig Gesund' auf 5 % senkbar. BVAEB: Behandlungsbeitrag grundsätzlich 20 %, in den gecrawlten Seiten kein Reduktionsprogramm gefunden. (Nicht verwechseln: 'Kostenanteilsdeckel' 5 % des Jahreseinkommens, siehe kostenanteil_befreiung_svs.)"),
+ "vorsorgeuntersuchung": dict(title_re=r"^Vorsorgeuntersuchung$", vq=[r"kostenfreier Gesundheitscheck", r"Selbstbehalte anfallen"], kq=[r"Selbstbehalte anfallen"], fq=[r"einmal pro Jahr"], unterschied="BVAEB: Vorsorgeuntersuchung ohne Behandlungsbeitrag (nur Leistungen im VU-Katalog); darüber hinaus behandlungsbeitragspflichtig."),
+ "pflegegeld": dict(title_re=r"^Pflegegeld$|Pflegestufen|^Antrag$", vq=[r"ist für Ihr Pflegegeld zuständig", r"Pflegebedarf in einem bestimmten", r"ab dem folgenden Monatsersten"], kq=[r"EUR \d[\d.]*,\d\d"], fq=[r"ab dem folgenden Monatsersten"], abh=[],
+      zustaendig="SVS, wenn eine SVS-Pension, SVS-Vollrente (Unfallversicherung) oder Versorgungsleistung der Ärzte-/Rechtsanwaltskammer bezogen wird; sonst z. B. PVA (laut SVS-Seite).", kurz="Pflegegeld bei dauerndem Pflegebedarf; die SVS entscheidet nur, wenn sie die Pension/Rente zahlt."),
+ "krankengeld": dict(title_re=r"^Krankengeld$", vq=[r"Krankengeld", r"Wartezeit|ab dem 4\. Tag|Arbeitsunfähigkeit"], kq=[r"60 ?%|26 Wochen"], zielgruppe="GSVG-Versicherte (freiwillige Zusatzversicherung bzw. lt. Seite)", conf="niedrig"),
+ "reha_medizinisch": dict(abh=[]),
+ "kur": dict(kq=[r"Zuschuss.{0,60}(€|EUR)\s?\d"]),
+ "krankentransport": dict(kurz="Kostenübernahme für Rettungs- und Krankentransporte: Direktverrechnung bei Flugrettung, Taxi-Gesamtvertrag (außer Wien) – Details je Fall bei der SVS erfragen.", kq=[]),
+ "unfall_heilbehandlung": dict(zustaendig="SVS (Unfallversicherung der Selbständigen)", kq=[]),
+ "gesundheitsangebote_svs": dict(hinweise="Eignung nicht durch den Lotsen beurteilen: Bei Erkrankungen, die Behandlung/Reha erfordern, zuerst Hausarzt / 1450.", kq=[r"100 ?€|100,"]),
+ "rezeptgebuehrenbefreiung": dict(kq=[r"Rezeptgebühr von\s*EUR 7,55", r"EUR 7,55"], unterschied="Rezeptgebühr (EUR 7,55 lt. SVS-Seite), 2-%-Obergrenze und Richtsätze laut Seiten bei SVS und BVAEB gleich. SVS 'Befreiung vom Kostenanteil' (Selbstbehalt) und BVAEB 'Nachsicht' sind nicht deckungsgleich."),
+}
+NEW = [
+ dict(leistung_id="kostenanteil_befreiung_svs", name="Befreiung vom Kostenanteil / Selbstbehalt (SVS) & Kostenanteilsdeckel", kurz="Bei bestimmten Situationen (z. B. Dialyse, Chemotherapie, Behindertengrad ≥ 50 %, niedrige Pension) entfällt der 20-%-Selbstbehalt auf Antrag; zusätzlich Deckel bei 5 % des Jahreseinkommens.",
+      bereich=["C", "E"], title_re=r"^Arztwahl$", span=[(r"Bei folgenden Ausnahmen können Sie", 520), (r"Alle Pensionisten, die eine Ausgleichszulage", 260), (r"Gesundheitlich beeinträchtigte Versicherte, die von keiner", 520)], vq=[r"Kostenanteilsbefreiung"], kq=[r"5 % des festgestellten Jahreseinkommens"], fq=[r"zumindest mit vier"],
+      zielgruppe=G, zustaendig="SVS", abh=["selbstaendig_gesund_selbstbehalt", "rezeptgebuehrenbefreiung"], trigger=["Kostenanteil", "Selbstbehalt", "Befreiung", "Dialyse", "Ausgleichszulage"],
+      unterschied="BVAEB: 'Nachsicht des Behandlungsbeitrags' (formloser Antrag, 3–12 Monate; automatisch bei Rezeptgebührbefreiten) – anderes Instrument.", conf="hoch"),
+]
 def leistungen(docs, pages, cfg):
     import json, pathlib
     forms = [json.loads(l) for l in open(pathlib.Path(__file__).parent / "out/formulare.jsonl")]
-    return make_leistungen(SPECS, docs, ["SVS"], True, forms)
+    return make_leistungen(apply_overrides(SPECS, OVERRIDES, NEW), docs, ["SVS"], True, forms)
 
 
 def stellen_override(docs):
