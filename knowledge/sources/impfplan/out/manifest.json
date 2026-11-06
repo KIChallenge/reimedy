@@ -1,0 +1,17 @@
+{
+ "source_id": "impfplan",
+ "fetched_at": "2026-11-06T02:47:20+00:00",
+ "n_docs": 34,
+ "n_intervalle": 6,
+ "version": "Impfplan Österreich 2026/2027, Version 1.1 vom 14.10.2026",
+ "gueltig_ab": "2026-10-14",
+ "urls": [
+  {
+   "url": "https://broschuerenservice.sozialministerium.gv.at/Home/Download?publicationId=420&attachmentName=Impfplan_Oesterreich_2026_2027.pdf",
+   "sha256": "be44f6f07a4aedd0c9af542c5ddd489b7f787967fcd37c2425a3b988917f908b",
+   "etag": null,
+   "last_modified": null,
+   "status": 200
+  }
+ ]
+}
