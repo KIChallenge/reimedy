@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-06T02:41:42+00:00",
+  "built_at": "2026-11-06T03:04:45+00:00",
   "quellen": {
     "aek_wien": {
       "status": "ok",
@@ -64,6 +64,26 @@
       "ingest_py": true,
       "beispiel_fehler": [],
       "beispiel_warnungen": []
+    },
+    "impfplan": {
+      "status": "leer",
+      "documents": 0,
+      "leistungen": 0,
+      "stellen": 0,
+      "formulare": 0,
+      "codes": 0,
+      "extras": 0,
+      "errors": 0,
+      "warnings": 3,
+      "source_md": false,
+      "manifest": false,
+      "ingest_py": false,
+      "beispiel_fehler": [],
+      "beispiel_warnungen": [
+        "impfplan: out/manifest.json fehlt → kein inkrementelles Update möglich",
+        "impfplan: SOURCE.md fehlt",
+        "impfplan: ingest.py fehlt → nicht automatisch aktualisierbar"
+      ]
     },
     "oegk": {
       "status": "ok",
@@ -254,7 +274,7 @@
     "neu_berechnet": 0,
     "aus_cache": 30478,
     "dim": 256,
-    "sekunden": 0.5,
+    "sekunden": 0.4,
     "cache_datei": "knowledge/build/emb_cache/minishlab__potion-multilingual-128M.npz"
   },
   "leistungen": {
@@ -368,9 +388,11 @@
     },
     {
       "gate": "keine_leeren_quellen",
-      "ok": true,
+      "ok": false,
       "hart": false,
-      "detail": "keine"
+      "detail": [
+        "impfplan"
+      ]
     },
     {
       "gate": "golden (a roh): Mama packt's nicht mehr allein",

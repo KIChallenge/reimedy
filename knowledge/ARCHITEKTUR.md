@@ -45,6 +45,7 @@ Regeln:
 | **Sozialministeriumservice** (Behindertenpass, Förderung 24-h-Betreuung, Unterstützungsfonds) | Bereich E | `sozialministeriumservice` |
 | Bewegt im Park, Rauchfrei-Telefon, Gesundheitskurse (Termine/Orte) | Gesundheitsförderung, Szenario D | in `oegk` bzw. `gesundheit_gv` vertiefen |
 | Leistungen mit `confidence` niedrig/mittel: Pflegegeld, Pflegekarenz, Sozialhilfe Wien, Gesundheitshunderter, Vollmacht | Kernpfade der Demo | Review mit wörtlichen Zitaten (Review-Queue) |
+| **Apotheken: Öffnungszeiten und Nachtdienst** (D9) | Medikamentenfragen: „nächste Apotheke mit Öffnungszeiten, nachts die Nachtapotheke“. Wien-OGD `APOTHEKEOGD` liefert Name, Adresse, Telefon, Web und Geo, aber **keine Öffnungszeiten**; für Nacht-/Bereitschaftsdienste gibt es **keine offene API**. | **Umgesetzt (deterministisch):** `stellen_near(typ=apotheke)` liefert die nächsten Apotheken (Entfernung, Telefon) plus Block `notdienst`: **Apothekenruf 1455** (Apothekerkammer, rund um die Uhr, nächste dienstbereite Apotheke) und Link zur Apothekensuche apothekerkammer.at (kein PLZ-Deep-Link). **Vorschlag später:** Dienstplan-Feed der Apothekerkammer anfragen (Kooperation SV/ÖAK) bzw. Öffnungszeiten aus den Apotheken-Webseiten (`WEBLINK1`) crawlen, je mit `geprueft_am`. |
 
 ## 6. Qualitäts-Gates (Build schlägt fehl, wenn …)
 - ein Schema-Fehler auftritt oder eine Quelle ohne `SOURCE.md` bzw. `manifest.json` ist (aktuell: aek_wien, bvaeb, fsw, oesterreich_gv);

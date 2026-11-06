@@ -1,4 +1,4 @@
-# Änderungsbericht Wissens-DB – 2026-11-06T0241Z
+# Änderungsbericht Wissens-DB – 2026-11-06T0304Z
 
 **Swap:** ja – lotse.sqlite ist neu  
 **Links:** {'links': 26288, 'frisch_ok': 6104, 'quelle': 'knowledge/build/links/links.jsonl', 'formulare_live': 954}  
@@ -8,7 +8,7 @@
 
 - ✓ **schema_fehlerfrei**: 0 Fehler
 - ✓ **source_md_und_manifest**: alle vorhanden
-- ✓ **keine_leeren_quellen**: keine
+- ! **keine_leeren_quellen**: ['impfplan']
 - ✓ **golden (a roh): Mama packt's nicht mehr allein**: {'erwartet': ['mobile_pflege_fsw', 'pflegegeld'], 'begriffe': None, 'top5': ['mobile_pflege_fsw', 'pflegekarenz', 'pflegegeld', 'mobile_dienste', 'pflegeberatung'], 'modus': 'hybrid'}
 - ✓ **golden (b umgeschrieben): Mama packt's nicht mehr allein**: {'erwartet': ['mobile_pflege_fsw', 'pflegegeld'], 'begriffe': ['Pflegegeld', 'mobile Pflege'], 'top5': ['mobile_pflege_fsw', 'mobile_dienste', 'pflegegeld', 'pflegekarenz', 'pflegeberatung'], 'modus': 'hybrid'}
 - ✓ **golden (a roh): Meine Mama packt's nimma allein daham, was kann ich tun?**: {'erwartet': ['fsw_pflegeberatung', 'heimhilfe_wien', 'mobile_pflege_fsw', 'pflegeberatung', 'pflegegeld'], 'begriffe': None, 'top5': ['mobile_pflege_fsw', 'pflegekarenz', 'mobile_dienste', 'pflegegeld', 'heimhilfe_wien'], 'modus': 'hybrid'}
@@ -50,6 +50,7 @@
 | bvaeb | ok | 1346 | 15 | 9 | 185 | 0 | 0 |
 | fsw | ok | 629 | 36 | 11 | 26 | 0 | 0 |
 | gesundheit_gv | ok | 2276 | 45 | 614 | 0 | 0 | 0 |
+| impfplan | leer | 0 | 0 | 0 | 0 | 0 | 3 |
 | oegk | ok | 1154 | 48 | 277 | 115 | 0 | 0 |
 | oesterreich_gv | ok | 2216 | 22 | 13 | 63 | 0 | 0 |
 | pva | ok | 242 | 8 | 20 | 4 | 0 | 0 |
@@ -65,7 +66,7 @@
 
 ## Leistungsgraph
 - neu: 0 
-- geändert: 1 wohn_pflegehaus_fsw
+- geändert: 0 
 - entfernt: 0 
 - Statuswechsel: 
 - Konflikte: pflegegeld: ['antrag: widerspruch']; wohn_pflegehaus_fsw: ['antrag: widerspruch']; reha_onkologisch: ['antrag: widerspruch']; zahnspange_kfo: ['kosten: zahlen_abweichend']; mundhygiene_kinder: ['zustaendig: zahlen_abweichend']; reha_medizinisch: ['kosten: zahlen_abweichend', 'antrag: widerspruch']; wochengeld: ['antrag: widerspruch']; krankengeld: ['kosten: zahlen_abweichend']; foerderung_24h_betreuung: ['antrag: widerspruch']; behindertenpass: ['antrag: widerspruch']; zahnersatz: ['kosten: zahlen_abweichend']; kinderbetreuungsgeld: ['kosten: zahlen_abweichend']
