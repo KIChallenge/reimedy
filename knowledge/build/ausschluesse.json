@@ -1,0 +1,189 @@
+{
+  "_hinweis": "Kuratierte Ausschlüsse beim Merge: Aussagen einer Quelle, die einer Leistung falsch zugeordnet sind (Stichwort-Treffer aus anderem Kapitel) oder der SV-Box (_Source) widersprechen. Treffer = leistung_id (nach Alias) + source_id + Feld + Teilstring. Die Dokumente bleiben in der Volltextsuche, nur die Zuordnung zur Leistung entfällt. Regeln ohne Treffer meldet der Build.",
+  "regeln": [
+    {
+      "leistung_id": "mundhygiene_kinder",
+      "source_id": "svbox_local",
+      "feld": "voraussetzungen",
+      "enthaelt": "zweimal jährlich bei Personen zwischen dem vollendeten 6.",
+      "grund": "BVAEB-Pilotprojekt 2026–2028 (Zahnärzte-HO 2026, PDF-S. 13), gilt nicht für ÖGK; ÖGK-Broschüre S. 41 und oegk.at: 10–18 Jahre, 1×/Jahr. Steht als eigene BVAEB-Voraussetzung im Seed."
+    },
+    {
+      "leistung_id": "mundhygiene_kinder",
+      "source_id": "svbox_local",
+      "feld": "voraussetzungen",
+      "enthaelt": "Zudem wird die Position 65",
+      "grund": "Teil derselben BVAEB-Pilot-Aussage"
+    },
+    {
+      "leistung_id": "mundhygiene_kinder",
+      "source_id": "svbox_local",
+      "feld": "kurz_einfach",
+      "enthaelt": "zwischen 6 und 18",
+      "grund": "BVAEB-Pilot als allgemeine Regel formuliert"
+    },
+    {
+      "leistung_id": "mundhygiene_kinder",
+      "source_id": "svbox_local",
+      "feld": "zielgruppe",
+      "enthaelt": "vollendeten 6.",
+      "grund": "BVAEB-Pilot als allgemeine Regel formuliert"
+    },
+    {
+      "leistung_id": "pflegegeld",
+      "source_id": "gesundheit_gv",
+      "feld": "voraussetzungen",
+      "enthaelt": "mindestens 65 Stunden",
+      "grund": "§ 4 Abs. 2 BPGG (Rechtstexte): Stufe 1 bei Pflegebedarf von MEHR ALS 65 Stunden"
+    },
+    {
+      "leistung_id": "rezeptgebuehrenbefreiung",
+      "source_id": "svbox_local",
+      "feld": "voraussetzungen",
+      "enthaelt": "Pflegekostenzuschuss in der Höhe von 435,81",
+      "grund": "Auslands-Anstaltspflege, kein Teil der Rezeptgebührenbefreiung (Stichwort-Treffer)"
+    },
+    {
+      "leistung_id": "impfungen",
+      "source_id": "svbox_local",
+      "feld": "voraussetzungen",
+      "enthaelt": "Rückenbeschwerden",
+      "grund": "Rückenkurs „Gesunder Rücken“, nicht Impfungen (Stichwort-Treffer) (Taxonomie: impfungen ist eigene Leistung)"
+    },
+    {
+      "leistung_id": "eltern_kind_pass",
+      "source_id": "svbox_local",
+      "feld": "voraussetzungen",
+      "enthaelt": "Antrag auf Familienzeit",
+      "grund": "Familienzeitbonus, nicht Eltern-Kind-Pass (Stichwort-Treffer)"
+    },
+    {
+      "leistung_id": "zahnspange_kfo",
+      "source_id": "svbox_local",
+      "feld": "voraussetzungen",
+      "enthaelt": "Kostenerstattung in der Höhe von 80 Prozent der entsprechenden Vertragstarife",
+      "grund": "Gilt nur bei Wahl-Kieferorthopäd:innen; ohne diesen Kontext widerspricht es „Gratis-Zahnspange“ (Broschüre S. 39)"
+    },
+    {
+      "leistung_id": "freiwillige_versicherung",
+      "source_id": "svbox_local",
+      "feld": "kosten",
+      "enthaelt": "78,84",
+      "grund": "78,84 € ist laut Broschüre S. 20/21 der Studierenden-Beitrag, nicht der allgemeine Beitrag (565,25 €/Monat 2026 laut oesterreich.gv.at)"
+    },
+    {
+      "leistung_id": "aerztliche_hilfe",
+      "source_id": "svbox_local",
+      "feld": "voraussetzungen",
+      "enthaelt": "Meine Gesundheit",
+      "grund": "Abo-Werbung für das Magazin „Meine Gesundheit“ (Broschüren-Rückseite), keine Voraussetzung (DB_FIX 06.11.)"
+    },
+    {
+      "leistung_id": "kinderbetreuungsgeld",
+      "source_id": "oegk",
+      "feld": "kosten",
+      "enthaelt": "Teilgutschrift",
+      "grund": "Pensionssplitting (Pensionskonto), keine Aussage zur Höhe des Kinderbetreuungsgeldes – Audit 06.11."
+    },
+    {
+      "leistung_id": "kinderbetreuungsgeld",
+      "source_id": "svbox_local",
+      "feld": "kosten",
+      "enthaelt": "Sonderwochengeld gebührt",
+      "grund": "Satz zum Sonderwochengeld mit KBG-Tabelle vermischt (PDF-Umbruch); Höhe steht kuratiert im Seed – Audit 06.11."
+    },
+    {
+      "leistung_id": "kinderbetreuungsgeld",
+      "source_id": "oesterreich_gv",
+      "feld": "antrag",
+      "enthaelt": "10008.638104",
+      "grund": "„Information zum Kinderbetreuungsgeld“ ist kein Antrag – Audit 06.11."
+    },
+    {
+      "leistung_id": "zahnersatz",
+      "source_id": "oegk",
+      "feld": "kosten",
+      "enthaelt": "75 Prozent der tariflichen Kosten",
+      "grund": "Regel vor 01.05.2026; dieselbe ÖGK-Seite nennt ab 01.05.2026 20–30 % Selbstbehalt (wie SV-Box S. 41) – Audit 06.11."
+    },
+    {
+      "leistung_id": "reha_medizinisch",
+      "source_id": "oesterreich_gv",
+      "feld": "antrag",
+      "enthaelt": "U_Fonds",
+      "grund": "Antrag Unterstützungsfonds (Sozialministeriumservice) ist kein Reha-Antrag – Audit 06.11."
+    },
+    {
+      "leistung_id": "reha_medizinisch",
+      "source_id": "oesterreich_gv",
+      "feld": "kosten",
+      "enthaelt": "Rezeptgebühr",
+      "grund": "Satz zur Rezeptgebühr für Heilmittel, nicht Reha – Audit 06.11."
+    },
+    {
+      "leistung_id": "reha_medizinisch",
+      "source_id": "svbox_local",
+      "feld": "kosten",
+      "enthaelt": "Vollendung des 18. Lebensjahres",
+      "grund": "Kostenanteil Krankenanstalt für Kinder, nicht Reha – Audit 06.11."
+    },
+    {
+      "leistung_id": "krankengeld",
+      "source_id": "oegk",
+      "feld": "antrag",
+      "enthaelt": "selbsthilfegruppen",
+      "grund": "Formulare der Selbsthilfe-Förderung sind kein Krankengeld-Antrag – Audit 06.11."
+    },
+    {
+      "leistung_id": "pflegegeld",
+      "source_id": "pva",
+      "feld": "antrag",
+      "enthaelt": "pva_antrag_auf_auszahlung_des_pflegegeldguthabens",
+      "grund": "Hauptformular der PVA-Seite ist der Antrag auf Auszahlung eines Guthabens (Verlassenschaft), nicht der Pflegegeldantrag; Seed: PAL080 – Audit 06.11."
+    },
+    {
+      "leistung_id": "pflegegeld",
+      "source_id": "gesundheit_gv",
+      "feld": "traeger",
+      "enthaelt": "ÖGK",
+      "grund": "Pflegegeld zahlt der Pensions- bzw. Unfallversicherungsträger (ASVG-Pension → PVA), nicht die ÖGK; Träger-Liste der Quelle meint die SV allgemein – E2E 06.11."
+    },
+    {
+      "leistung_id": "pflegegeld",
+      "source_id": "oesterreich_gv",
+      "feld": "traeger",
+      "enthaelt": "ÖGK",
+      "grund": "Pflegegeld zahlt der Pensions- bzw. Unfallversicherungsträger (ASVG-Pension → PVA), nicht die ÖGK; Träger-Liste der Quelle meint die SV allgemein – E2E 06.11."
+    },
+    {
+      "leistung_id": "pflegekarenz",
+      "source_id": "sozialministeriumservice",
+      "feld": "antrag",
+      "enthaelt": "sms_antrag_pflegekarenzgeld_kinderreha",
+      "grund": "Antrag Pflegekarenzgeld bei Begleitung einer Kinder-Reha ist ein Sonderfall, nicht der allgemeine Pflegekarenz-Antrag – Port 06.11."
+    }
+  ],
+  "formular_zuordnung": [
+    {
+      "formular_id": "oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan",
+      "leistung_id": "krankengeld",
+      "grund": "Selbsthilfe-Förderung, nicht Krankengeld (Seiten-Zuordnung der ÖGK-Formularliste)"
+    },
+    {
+      "formular_id": "oegk_ausfuellhilfe_antrag_verbaende_und_kontaktstellen",
+      "leistung_id": "krankengeld",
+      "grund": "Selbsthilfe-Förderung, nicht Krankengeld"
+    },
+    {
+      "formular_id": "oegk_ausschluss_doppelfoerderung",
+      "leistung_id": "krankengeld",
+      "grund": "Selbsthilfe-Förderung, nicht Krankengeld"
+    },
+    {
+      "formular_id": "oegk_augenoptik_unmittelbare_verordnung",
+      "leistung_id": "krankengeld",
+      "grund": "Sehbehelf-Verordnung, nicht Krankengeld"
+    }
+  ],
+  "_hinweis_formular_zuordnung": "formular_zuordnung: Formular → Leistung-Kante entfernen (auch wenn kb-links/formulare_live sie liefert)."
+}

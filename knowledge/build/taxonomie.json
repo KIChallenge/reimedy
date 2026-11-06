@@ -69,7 +69,8 @@
    "eltern": "mobile_dienste",
    "varianten": [
     "mobile_pflege_wien",
-    "mobile_pflege"
+    "mobile_pflege",
+    "fsw_foerderung_pflege_betreuung"
    ],
    "nicht_verwechseln_mit": [
     "medizinische_hauskrankenpflege"
@@ -414,7 +415,8 @@
    ],
    "eltern": null,
    "varianten": [
-    "pflegeteilzeit"
+    "pflegeteilzeit",
+    "pflegekarenzgeld"
    ],
    "nicht_verwechseln_mit": [],
    "alternative_zu": [
@@ -541,7 +543,9 @@
    ],
    "eltern": null,
    "varianten": [],
-   "nicht_verwechseln_mit": [],
+   "nicht_verwechseln_mit": [
+    "unterstuetzungsfonds_behinderung"
+   ],
    "alternative_zu": [],
    "traeger_auspraegungen": {
     "BVAEB": [
@@ -651,7 +655,8 @@
    "eltern": null,
    "varianten": [
     "rehabilitation_sv",
-    "rehabilitation_medizinisch"
+    "rehabilitation_medizinisch",
+    "rehabilitation"
    ],
    "nicht_verwechseln_mit": [
     "rehabilitationsgeld",
@@ -1304,6 +1309,20 @@
    "traeger_auspraegungen": {},
    "kurz_einfach": "Programm „Trittsicher & aktiv“ der ÖGK für ältere Menschen, um im Alltag sicherer auf den Beinen zu sein. Fragen und Buchung über die Kontaktstelle im jeweiligen Bundesland.",
    "kurz_einfach_quelle": "https://www.oegk.at/cdscontent/?contentid=10007.901313&portal=oegkportal"
+  },
+  {
+   "id": "angehoerigen_unterstuetzung_ersatzpflege",
+   "name": "Zuwendung zu den Kosten der Ersatzpflege (Sozialministeriumservice)",
+   "typ": "bund",
+   "traeger": [
+    "Sozialministeriumservice"
+   ],
+   "eltern": "pflegende_angehoerige_unterstuetzung",
+   "varianten": [],
+   "nicht_verwechseln_mit": [],
+   "alternative_zu": [],
+   "traeger_auspraegungen": {},
+   "notiz": "Eigene Leistung (Teil des Überblicks pflegende Angehörige), kein Duplikat – Prüfung 06.11."
   }
  ]
 }

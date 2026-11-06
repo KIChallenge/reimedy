@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-06T04:10:30+00:00",
+ "built_at": "2026-11-06T07:39:51+00:00",
  "leistungen": [
   {
    "_entschieden": {},
@@ -77,14 +77,6 @@
      "seite": "PDF 18–20",
      "source_id": "svbox_local",
      "stand": "2026-01-01",
-     "text": "„Meine Gesundheit” wird kostenlos an Abonnentinnen und Abonnenten verschickt. ihr Gratis-Abo gibt es unter www.meinegesundheit.at/abo Gesund werden Ärztliche hilfe Im Erkrankungsfall haben Sie grundsätzlich freie Arztwahl.",
-     "zitat": "„Meine Gesundheit” wird kostenlos an Abonnentinnen und Abonnenten verschickt. ihr Gratis-Abo gibt es unter www.meinegesundheit.at/abo Gesund werden Ärztliche hilfe Im Erkrankungsfall haben Sie grundsätzlich freie Arztwahl."
-    },
-    {
-     "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-     "seite": "PDF 18–20",
-     "source_id": "svbox_local",
-     "stand": "2026-01-01",
      "text": "Ärztliche Hilfe können Sie durch Vertragsärztinnen und Vertragsärzte oder Wahlärztinnen und Wahlärzte in Anspruch nehmen.",
      "zitat": "Ärztliche Hilfe können Sie durch Vertragsärztinnen und Vertragsärzte oder Wahlärztinnen und Wahlärzte in Anspruch nehmen."
     }
@@ -125,6 +117,7 @@
    "kurz_einfach": "Pflegende Angehörige können Geld für eine Ersatzpflege bekommen, wenn sie wegen Krankheit, Urlaub oder anderen wichtigen Gründen verhindert sind.",
    "leistung_id": "angehoerigen_unterstuetzung_ersatzpflege",
    "name": "Zuwendung zu den Kosten der Ersatzpflege (Unterstützung für pflegende Angehörige)",
+   "notiz": "Eigene Leistung (Teil des Überblicks pflegende Angehörige), kein Duplikat – Prüfung 06.11.",
    "quellen": [
     {
      "source_id": "sozialministeriumservice",
@@ -140,6 +133,7 @@
     "pflegende Angehörige",
     "Verhinderung"
    ],
+   "typ": "bund",
    "voraussetzungen": [
     {
      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegende_Angehoerige/Unterstuetzung_fuer_pflegende_Angehoerige.de.html",
@@ -402,7 +396,7 @@
       "value": {
        "formular_id": "antrag_ahv_reha_unfall",
        "formular_ids": [
-        "pva_ahv_reha_nach_unfall"
+        "antrag_ahv_reha_unfall"
        ],
        "online_url": null,
        "wo": "Formular „Antrag auf Anschlussheilverfahren oder Rehabilitation nach Unfall“ (vom Krankenhaus auszufüllen) bzw. telefonische Antragstellung durch das Krankenhaus."
@@ -3317,14 +3311,6 @@
      "stand": "2026-01-01",
      "text": "er sich im gesamten Anspruchszeitraum in Familienzeit befindet.",
      "zitat": "er sich im gesamten Anspruchszeitraum in Familienzeit befindet."
-    },
-    {
-     "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-     "seite": "PDF 38",
-     "source_id": "svbox_local",
-     "stand": "2026-01-01",
-     "text": "Ein Antrag auf Familienzeit muss innerhalb von 91 Tagen ab der Geburt des Kindes gestellt werden.",
-     "zitat": "Ein Antrag auf Familienzeit muss innerhalb von 91 Tagen ab der Geburt des Kindes gestellt werden."
     }
    ],
    "zielgruppe": "Nach Feststellen einer Schwangerschaft durch eine Ärztin oder einen Arzt erhält die schwangere Frau den Eltern-Kind-Pass.",
@@ -5322,7 +5308,6 @@
     "Die Versicherung beginnt gleichzeitig mit dem Beginn Ihrer geringfügigen Beschäftigung, wenn Sie das erste Mal einen Antrag auf diese freiwillige Versicherung stellen und das innerhalb von sechs Wochen nach Arbeitsbeginn tun."
    ],
    "innerhalb_sv": true,
-   "kosten": "Außerdem gilt: Der monatliche Beitrag beträgt 78,84 Euro. Vorliegen sozialer Schutzbedürftigkeit (nach den Richtlinien für die Befreiung von der Rezeptgebühr) Wir empfehlen Ihnen, sich mit dem Versicherungsservice der ÖGK in Verbindung zu setzen. tel +43 5 0766-112700 Selbstversicherung bei geringfügiger Beschäftigung Geringfügig Beschäftigte mit Wohnsitz im Inland können sich in der Kranken- und Pensionsversicherung zu einem monatlichen Beitrag von derzeit 83,49 Euro selbst versichern.",
    "kurz_einfach": "Wer nicht pflichtversichert ist, kann sich freiwillig in der Krankenversicherung versichern.",
    "leistung_id": "freiwillige_versicherung",
    "name": "Freiwillige Versicherung / Selbstversicherung",
@@ -6895,6 +6880,20 @@
    "_varianten": {
     "antrag": [
      {
+      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=23",
+      "source_id": "seed",
+      "stand": "2026-01-01",
+      "value": {
+       "formular_id": "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
+       "formular_ids": [
+        "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
+        "oegk_vo_fuer_sehbehelfe_und_augenprothesen",
+        "oegk_augenoptik_unmittelbare_verordnung"
+       ],
+       "wo": "Ärztliche Verordnung (Verordnungsschein); Sehbehelfe über eigenen Verordnungsschein bzw. Augenoptik"
+      }
+     },
+     {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.870456&portal=oegkportal",
       "source_id": "oegk",
       "stand": "2026-11-05",
@@ -7101,14 +7100,13 @@
     "rezeptgebuehrenbefreiung"
    ],
    "antrag": {
-    "formular_id": "oegk_augenoptik_unmittelbare_verordnung",
+    "formular_id": "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
     "formular_ids": [
-     "oegk_augenoptik_unmittelbare_verordnung",
      "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
-     "oegk_vo_fuer_sehbehelfe_und_augenprothesen"
+     "oegk_vo_fuer_sehbehelfe_und_augenprothesen",
+     "oegk_augenoptik_unmittelbare_verordnung"
     ],
-    "online_url": null,
-    "wo": null
+    "wo": "Ärztliche Verordnung (Verordnungsschein); Sehbehelfe über eigenen Verordnungsschein bzw. Augenoptik"
    },
    "bereich": [
     "C",
@@ -7282,6 +7280,8 @@
     "Hilfsmittel",
     "eingeschränkte Mobilität",
     "Pflegebett",
+    "Brustprothese",
+    "Perücke",
     "Heilbehelf",
     "Heilbehelfe"
    ],
@@ -7908,14 +7908,6 @@
      "seite": "PDF 17",
      "source_id": "svbox_local",
      "stand": "2026-01-01",
-     "text": "Das Kursprogramm steht allen ab 18 Jahren offen, die bereits an leichten Rückenbeschwerden leiden oder Risikofaktoren für das Entstehen von Rückenschmerzen aufweisen.",
-     "zitat": "Das Kursprogramm steht allen ab 18 Jahren offen, die bereits an leichten Rückenbeschwerden leiden oder Risikofaktoren für das Entstehen von Rückenschmerzen aufweisen."
-    },
-    {
-     "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-     "seite": "PDF 17",
-     "source_id": "svbox_local",
-     "stand": "2026-01-01",
      "text": "Mehr informationen unter www.oegk.at/revan impfungen Impfen ist der wirksamste Schutz gegen bestimmte Infektionskrankheiten und manchmal auch der einzige, denn: Manche dieser Krankheiten, die schwer oder sogar tödlich verlaufen können, lassen sich nur schwer behandeln.",
      "zitat": "Mehr informationen unter www.oegk.at/revan impfungen Impfen ist der wirksamste Schutz gegen bestimmte Infektionskrankheiten und manchmal auch der einzige, denn: Manche dieser Krankheiten, die schwer oder sogar tödlich verlaufen können, lassen sich nur schwer behandeln."
     },
@@ -8339,21 +8331,50 @@
    "stand": "2026-11-05"
   },
   {
-   "_entschieden": {},
+   "_entschieden": {
+    "innerhalb_sv": {
+     "durch": "taxonomie",
+     "typ": "bund",
+     "varianten": [
+      {
+       "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080613",
+       "source_id": "seed",
+       "stand": "2026-11-05",
+       "value": false
+      },
+      {
+       "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/2/Seite.080641",
+       "source_id": "oesterreich_gv",
+       "stand": "2026-12-01",
+       "value": true
+      },
+      {
+       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867463&portal=oegkportal",
+       "source_id": "oegk",
+       "stand": "2026-11-05",
+       "value": true
+      },
+      {
+       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
+       "source_id": "svbox_local",
+       "stand": "2026-01-01",
+       "value": true
+      }
+     ]
+    }
+   },
    "_raw_ids": [
     "kinderbetreuungsgeld"
    ],
    "_varianten": {
     "antrag": [
      {
-      "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/2/Seite.080641",
-      "source_id": "oesterreich_gv",
-      "stand": "2026-12-01",
+      "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080613",
+      "source_id": "seed",
+      "stand": "2026-11-05",
       "value": {
-       "formular_id": "bvaeb_422efd0a45",
-       "formular_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638104&version=1632292834",
-       "online_url": null,
-       "wo": "Der Krankenversicherungsträger, bei dem Sie das Kinderbetreuungsgeld beantragen bzw. beantragt haben"
+       "formular_id": null,
+       "wo": "Beim zuständigen Krankenversicherungsträger; frühestens am Tag der Geburt"
       }
      },
      {
@@ -8383,24 +8404,44 @@
       }
      }
     ],
-    "kosten": [
+    "innerhalb_sv": [
+     {
+      "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080613",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": false
+     },
      {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/2/Seite.080641",
       "source_id": "oesterreich_gv",
       "stand": "2026-12-01",
-      "value": "Die Beantragung der Beihilfe zum pauschalen Kinderbetreuungsgeld ist kostenlos."
+      "value": true
      },
      {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867463&portal=oegkportal",
       "source_id": "oegk",
       "stand": "2026-11-05",
-      "value": "Der Elternteil, der sich nicht überwiegend der Kindererziehung widmet und erwerbstätig ist, kann für die ersten sieben Jahre nach Geburt des Kindes bis zu 50 Prozent seiner Teilgutschrift auf das Pensionskonto des Elternteiles, der sich der Kindererziehung widmet und somit Kindererziehungszeiten erwirbt, übertragen lassen."
+      "value": true
      },
      {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
-      "value": "Sonderwochengeld gebührt in der Höhe von 60 Prozent der Bemessungsgrundlage, welche aus dem der Karenz vorangegangenen Arbeitsverdienst, gedeckelt durch die Höchstbeitragsgrundlage, gebildet wird. Für ehemals Selbstversicherte nach § 19a ASVG gebührt das Sonderwochengeld in der Höhe von 7,08 Euro (Wert 2026). Bei Bezug von beiden Elternteilen längstens für 426 Tage ab der Geburt des Kindes hÖhe Des tÄGLichen KinDer- BetreUUnGsGeLDes höchstens 80,12 Euro mindestens 41,14 Euro Bei Mehrlingsgeburten ist keine Erhöhung des Tagesbetrags vorgesehen."
+      "value": true
+     }
+    ],
+    "kosten": [
+     {
+      "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080613",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "Höhe (Wert 2026): Kinderbetreuungsgeld-Konto 17,65 Euro bis 41,14 Euro täglich (je nach Bezugsdauer); einkommensabhängig 80 Prozent der Letzteinkünfte, maximal 80,12 Euro pro Tag."
+     },
+     {
+      "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/2/Seite.080641",
+      "source_id": "oesterreich_gv",
+      "stand": "2026-12-01",
+      "value": "Die Beantragung der Beihilfe zum pauschalen Kinderbetreuungsgeld ist kostenlos."
      }
     ],
     "kurz_einfach": [
@@ -8449,10 +8490,8 @@
     "wochengeld"
    ],
    "antrag": {
-    "formular_id": "bvaeb_422efd0a45",
-    "formular_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.638104&version=1632292834",
-    "online_url": null,
-    "wo": "Der Krankenversicherungsträger, bei dem Sie das Kinderbetreuungsgeld beantragen bzw. beantragt haben"
+    "formular_id": null,
+    "wo": "Beim zuständigen Krankenversicherungsträger; frühestens am Tag der Geburt"
    },
    "bereich": [
     "E"
@@ -8475,11 +8514,22 @@
     "Das pauschale Kinderbetreuungsgeld Masson - stock.adobe.com Kalenderjahres vor der Geburt des Kindes, in dem kein Kinderbetreuungsgeld bezogen wurde."
    ],
    "innerhalb_sv": false,
-   "kosten": "Die Beantragung der Beihilfe zum pauschalen Kinderbetreuungsgeld ist kostenlos.",
+   "kosten": "Höhe (Wert 2026): Kinderbetreuungsgeld-Konto 17,65 Euro bis 41,14 Euro täglich (je nach Bezugsdauer); einkommensabhängig 80 Prozent der Letzteinkünfte, maximal 80,12 Euro pro Tag.",
    "kurz_einfach": "Geldleistung für Eltern in der Kleinkindphase (Konto-Modell oder einkommensabhängig); Antrag bei der Krankenversicherung.",
    "leistung_id": "kinderbetreuungsgeld",
    "name": "Kinderbetreuungsgeld",
    "quellen": [
+    {
+     "source_id": "seed",
+     "stand": "2026-11-05",
+     "url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080613"
+    },
+    {
+     "source_id": "seed",
+     "stand": "2026-01-01",
+     "titel": "ÖGK – Leistungen und Services 2026 (SV-Box)",
+     "url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=36"
+    },
     {
      "source_id": "oesterreich_gv",
      "stand": "2026-01-08",
@@ -8509,11 +8559,6 @@
      "source_id": "oesterreich_gv",
      "stand": "2026-01-01",
      "url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080621"
-    },
-    {
-     "source_id": "oesterreich_gv",
-     "stand": "2026-01-01",
-     "url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080613"
     },
     {
      "source_id": "oesterreich_gv",
@@ -8817,38 +8862,14 @@
     }
    ],
    "zustaendig": "Der Krankenversicherungsträger, bei dem Sie das Kinderbetreuungsgeld beantragen bzw. beantragt haben",
-   "review_status": "konflikt",
+   "review_status": "kuratiert+quellen",
    "sources": [
     "oegk",
     "oesterreich_gv",
+    "seed",
     "svbox_local"
    ],
-   "konflikte": [
-    {
-     "art": "zahlen_abweichend",
-     "feld": "kosten",
-     "varianten": [
-      {
-       "quelle_url": "https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/2/Seite.080641",
-       "source_id": "oesterreich_gv",
-       "stand": "2026-12-01",
-       "value": "Die Beantragung der Beihilfe zum pauschalen Kinderbetreuungsgeld ist kostenlos."
-      },
-      {
-       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867463&portal=oegkportal",
-       "source_id": "oegk",
-       "stand": "2026-11-05",
-       "value": "Der Elternteil, der sich nicht überwiegend der Kindererziehung widmet und erwerbstätig ist, kann für die ersten sieben Jahre nach Geburt des Kindes bis zu 50 Prozent seiner Teilgutschrift auf das Pensionskonto des Elternteiles, der sich der Kindererziehung widmet und somit Kindererziehungszeiten erwirbt, übertragen lassen."
-      },
-      {
-       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-       "source_id": "svbox_local",
-       "stand": "2026-01-01",
-       "value": "Sonderwochengeld gebührt in der Höhe von 60 Prozent der Bemessungsgrundlage, welche aus dem der Karenz vorangegangenen Arbeitsverdienst, gedeckelt durch die Höchstbeitragsgrundlage, gebildet wird. Für ehemals Selbstversicherte nach § 19a ASVG gebührt das Sonderwochengeld in der Höhe von 7,08 Euro (Wert 2026). Bei Bezug von beiden Elternteilen längstens für 426 Tage ab der Geburt des Kindes hÖhe Des tÄGLichen KinDer- BetreUUnGsGeLDes höchstens 80,12 Euro mindestens 41,14 Euro Bei Mehrlingsgeburten ist keine Erhöhung des Tagesbetrags vorgesehen."
-      }
-     ]
-    }
-   ],
+   "konflikte": [],
    "stand": "2026-12-01"
   },
   {
@@ -9338,6 +9359,15 @@
    "_varianten": {
     "antrag": [
      {
+      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=29",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": {
+       "formular_id": null,
+       "wo": "Kein eigenes Antragsformular: Die Arbeitsunfähigkeit muss der Krankenkasse gemeldet werden (Krankmeldung); für die Auszahlung braucht die Kasse die Krankmeldung und eine „Arbeits- und Entgeltbestätigung“."
+      }
+     },
+     {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
       "stand": "2026-11-06",
@@ -9346,24 +9376,6 @@
        "formular_ids": [],
        "online_url": null,
        "wo": null
-      }
-     },
-     {
-      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal",
-      "source_id": "oegk",
-      "stand": "2026-11-05",
-      "value": {
-       "formular_id": "oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan",
-       "formular_ids": [
-        "oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan",
-        "oegk_ausfuellhilfe_antrag_verbaende_und_kontaktstellen",
-        "oegk_ausschluss_doppelfoerderung",
-        "oegk_augenoptik_unmittelbare_verordnung",
-        "oegk_au_meldung_fuer_kundencenter",
-        "oegk_au_meldung"
-       ],
-       "online_url": "https://meine.oegk.at",
-       "wo": "Sie haben einen Antrag auf Invaliditäts- oder Berufsunfähigkeitspension gestellt, den Ihr Pensionsversicherungsträger abgelehnt hat."
       }
      },
      {
@@ -9394,6 +9406,12 @@
      }
     ],
     "confidence": [
+     {
+      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=29",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "mittel"
+     },
      {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
@@ -9473,6 +9491,12 @@
     ],
     "name": [
      {
+      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=29",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "Krankengeld"
+     },
+     {
       "quelle_url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal",
       "source_id": "bvaeb",
       "stand": "2026-11-06",
@@ -9540,9 +9564,7 @@
    },
    "antrag": {
     "formular_id": null,
-    "formular_ids": [],
-    "online_url": null,
-    "wo": null
+    "wo": "Kein eigenes Antragsformular: Die Arbeitsunfähigkeit muss der Krankenkasse gemeldet werden (Krankmeldung); für die Auszahlung braucht die Kasse die Krankmeldung und eine „Arbeits- und Entgeltbestätigung“."
    },
    "bereich": [
     "E",
@@ -9564,17 +9586,23 @@
    "kosten": "Der Anspruch auf Krankengeld gebührt für ein und denselben Versicherungsfall für bis zu 78 Wochen.",
    "kurz_einfach": "Krankengeld für Vertragsbedienstete/Angestellte; Rehabilitationsgeld bei vorübergehender Invalidität.",
    "leistung_id": "krankengeld",
-   "name": "Krankengeld (BVAEB)",
+   "name": "Krankengeld",
    "quellen": [
+    {
+     "source_id": "seed",
+     "stand": "2026-01-01",
+     "titel": "ÖGK – Leistungen und Services 2026 (SV-Box)",
+     "url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=29"
+    },
+    {
+     "source_id": "seed",
+     "stand": "2026-11-05",
+     "url": "https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal"
+    },
     {
      "source_id": "bvaeb",
      "stand": "2026-11-06",
      "url": "https://www.bvaeb.at/cdscontent/?contentid=10007.840458&portal=bvaebbportal"
-    },
-    {
-     "source_id": "oegk",
-     "stand": "2026-11-05",
-     "url": "https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal"
     },
     {
      "source_id": "oegk",
@@ -9619,15 +9647,17 @@
     }
    ],
    "traeger": [
-    "BVAEB",
     "ÖGK",
-    "SVS"
+    "SVS",
+    "BVAEB"
    ],
    "trigger_im_dokument": [
     "Krankengeld",
     "Krankenstand"
    ],
    "unterlagen": [
+    "Krankmeldung",
+    "Arbeits- und Entgeltbestätigung",
     "Wir benötigen folgende Unterlagen für die Auszahlung von Krankengeld:",
     "die von der Dienstgeberin bzw. dem Dienstgeber ausgestellte Arbeits- und Entgeltbestätigung (sofern sie nicht bereits zur Verfügung steht)",
     "bei stationären Aufenthalten, eine Aufenthaltsbestätigung der Krankenanstalt (Krankenhaus, Kur- bzw.",
@@ -9780,6 +9810,7 @@
    "sources": [
     "bvaeb",
     "oegk",
+    "seed",
     "svbox_local",
     "svs"
    ],
@@ -9971,7 +10002,7 @@
       "value": {
        "formular_id": "oegk_fahrtkosten_wien",
        "formular_ids": [
-        "oegk_antrag_auf_zuschuss_zu_fahrtkosten",
+        "oegk_fahrtkosten_wien",
         "oegk_krankentransportwagen",
         "oegk_vertragsfahrtendienst"
        ],
@@ -10733,8 +10764,7 @@
        "formular_id": "svs_9b817d61ff",
        "formular_ids": [
         "svs_9b817d61ff",
-        "svs_b5b23e053c",
-        "svs_f9bc485a6d"
+        "antrag_reha_kur"
        ],
        "online_url": null,
        "wo": null
@@ -11157,6 +11187,12 @@
      "typ": "sv",
      "varianten": [
       {
+       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal",
+       "source_id": "seed",
+       "stand": "2026-11-05",
+       "value": true
+      },
+      {
        "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
        "source_id": "fsw",
        "stand": "2026-11-05T19:05:56Z",
@@ -11183,6 +11219,15 @@
    ],
    "_varianten": {
     "antrag": [
+     {
+      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": {
+       "formular_id": null,
+       "wo": "Kein Antragsformular: schriftliche ärztliche Anordnung („Verordnungsschein für medizinische Hauskrankenpflege“)"
+      }
+     },
      {
       "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
       "source_id": "fsw",
@@ -11236,6 +11281,12 @@
      }
     ],
     "innerhalb_sv": [
+     {
+      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": true
+     },
      {
       "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
       "source_id": "fsw",
@@ -11291,6 +11342,12 @@
     ],
     "name": [
      {
+      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "Medizinische Hauskrankenpflege (ärztlich verordnet)"
+     },
+     {
       "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
       "source_id": "fsw",
       "stand": "2026-11-05T19:05:56Z",
@@ -11310,6 +11367,12 @@
      }
     ],
     "zustaendig": [
+     {
+      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "Krankenversicherung (ÖGK, SVS, BVAEB) auf ärztliche Anordnung; in Wien vermittelt das FSW-Kund:innenservice eine Partnerorganisation."
+     },
      {
       "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
       "source_id": "fsw",
@@ -11334,34 +11397,16 @@
     "pflegegeld"
    ],
    "antrag": {
-    "ablauf_zitat": [
-     {
-      "abschnitt": "Beratung, Vermittlung und Anmeldung",
-      "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
-      "zitat": "Das FSW-Kund:innenservice berät individuell und vermittelt eine passende Partnerorganisation."
-     },
-     {
-      "abschnitt": "Beratung und Anmeldung",
-      "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege-behinderung",
-      "zitat": "Das FSW-Kund:innenservice berät Sie gerne!"
-     },
-     {
-      "abschnitt": "Kontakt zu den Beratungsstellen \"Leben mit Behinderung\"",
-      "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege-behinderung",
-      "zitat": "Peer Beratung – Betroffene beraten Betroffene\nSchwerpunktberatungsstellen\nBeratung zu Hilfsmitteln"
-     }
-    ],
-    "formular_id": "fsw_antrag_foerderung",
-    "online_url": "https://mein.fsw.at",
-    "wo": "FSW-Kund:innenservice (Tel. 01 24 5 24), MeinFSW online, FSW Beratung und Service-Center"
+    "formular_id": null,
+    "wo": "Kein Antragsformular: schriftliche ärztliche Anordnung („Verordnungsschein für medizinische Hauskrankenpflege“)"
    },
    "bereich": [
-    "D",
-    "C"
+    "C",
+    "D"
    ],
    "bundesland": [
-    "W",
-    "AT"
+    "AT",
+    "W"
    ],
    "confidence": "mittel",
    "fristen": [
@@ -11372,23 +11417,29 @@
    "kosten": "[Förderung und Kosten] Die Kosten für diese Leistung werden von den Sozialversicherungsträgern übernommen. | [Förderung und Kosten] Die Kosten für diese Leistung werden von den Sozialversicherungsträgern übernommen.",
    "kurz_einfach": "In der Medizinischen Hauskrankenpflege arbeiten ausschließlich diplomierte Gesundheits- und Krankenpfleger:innen. Diese Leistung wird bei den Kund:innen zu Hause sowie in Wohngemeinschaften für Senior:innen erbracht und unterstützt dabei, einen Spitalsaufenthalt zu verkürzen oder sogar zu vermeiden.",
    "leistung_id": "medizinische_hauskrankenpflege",
-   "name": "Medizinische Hauskrankenpflege (Wien)",
+   "name": "Medizinische Hauskrankenpflege (ärztlich verordnet)",
    "notiz": "Krankenversicherungsleistung statt Spitalsaufenthalt; nicht die mobile Pflege/Heimhilfe des Landes",
    "quellen": [
     {
-     "source_id": "fsw",
-     "stand": "2026-11-05T18:58:40Z",
+     "source_id": "seed",
+     "stand": "2026-11-05",
+     "url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal"
+    },
+    {
+     "source_id": "seed",
+     "stand": "2026-01-01",
+     "titel": "ÖGK – Leistungen und Services 2026 (SV-Box)",
+     "url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=25"
+    },
+    {
+     "source_id": "seed",
+     "stand": "2026-11-05",
      "url": "https://www.fsw.at/p/medizinische-hauskrankenpflege"
     },
     {
      "source_id": "fsw",
      "stand": "2026-11-05T19:05:56Z",
      "url": "https://www.fsw.at/p/medizinische-hauskrankenpflege-behinderung"
-    },
-    {
-     "source_id": "oegk",
-     "stand": "2026-11-05",
-     "url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal"
     },
     {
      "seite": "PDF 25",
@@ -11398,8 +11449,10 @@
     }
    ],
    "traeger": [
-    "FSW",
-    "ÖGK"
+    "ÖGK",
+    "SVS",
+    "BVAEB",
+    "FSW"
    ],
    "trigger_im_dokument": [
     "Medizinische Hauskrankenpflege",
@@ -11414,6 +11467,13 @@
     "Sie übernehmen die Kosten der Behandlungen zuerst selbst und beantragen dann einen Kostenzuschuss."
    ],
    "voraussetzungen": [
+    {
+     "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal",
+     "source_id": "seed",
+     "stand": "2026-11-05",
+     "text": "Nur auf schriftliche ärztliche Anordnung",
+     "zitat": "Medizinische Hauskrankenpflege ist ausschließlich über schriftliche ärztliche Anordnung in Form des „Verordnungsscheins für medizinische Hauskrankenpflege“ oder eines entsprechenden EDV-Ausdrucks möglich."
+    },
     {
      "quelle_url": "https://www.fsw.at/p/medizinische-hauskrankenpflege",
      "source_id": "fsw",
@@ -11497,11 +11557,12 @@
     }
    ],
    "zielgruppe": "Menschen in Wien mit ärztlich angeordneter Pflege zu Hause",
-   "zustaendig": "Fonds Soziales Wien (FSW), Kund:innenservice; nur für Wohnsitz in Wien",
-   "review_status": "kandidat",
+   "zustaendig": "Krankenversicherung (ÖGK, SVS, BVAEB) auf ärztliche Anordnung; in Wien vermittelt das FSW-Kund:innenservice eine Partnerorganisation.",
+   "review_status": "kuratiert+quellen",
    "sources": [
     "fsw",
     "oegk",
+    "seed",
     "svbox_local"
    ],
    "konflikte": [],
@@ -12715,20 +12776,6 @@
       "value": "Tarif Pos. 65: 68,70 € (Honorar, Abrechnung mit Kasse) – Patientenanteil siehe Kostenanteile-Tabelle der Honorarordnung"
      }
     ],
-    "kurz_einfach": [
-     {
-      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=41",
-      "source_id": "seed",
-      "stand": "2026-01-01",
-      "value": "Für 10- bis 18-Jährige zahlt die ÖGK einmal im Jahr die Mundhygiene, mit fester Zahnspange zweimal."
-     },
-     {
-      "quelle_url": "file:_Source/Leistungskataloge/Zahnärzte Honorarordnung_2026_aktuellste_Version_MAI_070526.pdf",
-      "source_id": "svbox_local",
-      "stand": "2026-01-01",
-      "value": "Kinder und Jugendliche zwischen 6 und 18 können zweimal im Jahr (im Abstand von mind. 6 Monaten) eine professionelle Mundhygiene bei Vertragszahnärzt:innen bekommen. Honorar-Position 65."
-     }
-    ],
     "zustaendig": [
      {
       "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=41",
@@ -12818,20 +12865,6 @@
      "zitat": "65 Mundhygiene (für Kinder und Jugendliche vom 10. bis 18. Lebensjahr)"
     },
     {
-     "quelle_url": "file:_Source/Leistungskataloge/Zahnärzte Honorarordnung_2026_aktuellste_Version_MAI_070526.pdf",
-     "source_id": "svbox_local",
-     "stand": "2026-01-01",
-     "text": "Zudem wird die Position 65 „Mundhygiene für Kinder und Jugendliche (MH)“ ausgeweitet.",
-     "zitat": "Zudem wird die Position 65 „Mundhygiene für Kinder und Jugendliche (MH)“ ausgeweitet."
-    },
-    {
-     "quelle_url": "file:_Source/Leistungskataloge/Zahnärzte Honorarordnung_2026_aktuellste_Version_MAI_070526.pdf",
-     "source_id": "svbox_local",
-     "stand": "2026-01-01",
-     "text": "Sie ist künftig zweimal jährlich bei Personen zwischen dem vollendeten 6. und 18. Lebensjahr zu je EUR 68,70 abrechenbar (bisher: einmal jährlich, nur 10 – 18 Jahre).",
-     "zitat": "Sie ist künftig zweimal jährlich bei Personen zwischen dem vollendeten 6. und 18. Lebensjahr zu je EUR 68,70 abrechenbar (bisher: einmal jährlich, nur 10 – 18 Jahre)."
-    },
-    {
      "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
      "seite": "PDF 41",
      "source_id": "svbox_local",
@@ -12864,7 +12897,6 @@
      "zitat": "Bei Wahlzahnärztinnen und -ärzten erhalten Sie eine Kostenerstattung in der Höhe von 80 Prozent des Vertragstarifes, im Jahr 2026 sind das 54,96 Euro."
     }
    ],
-   "zielgruppe": "Kinder und Jugendliche zwischen dem vollendeten 6. und 18. Lebensjahr",
    "zustaendig": "Vertragszahnärzt:innen, Zahngesundheitszentren der ÖGK; Wahlzahnarzt: 80 % Kostenerstattung",
    "review_status": "konflikt",
    "sources": [
@@ -13973,6 +14005,10 @@
       "stand": "2026-11-05",
       "value": {
        "formular_id": "pva_pal080",
+       "formular_ids": [
+        "pva_pal080",
+        "oegv_form_265"
+       ],
        "online_url": "https://www.pv.at",
        "wo": "Pensionsversicherungsanstalt (Landesstelle) bzw. eigener Pensionsträger; formlos oder Formular PAL080"
       }
@@ -14173,6 +14209,10 @@
    ],
    "antrag": {
     "formular_id": "pva_pal080",
+    "formular_ids": [
+     "pva_pal080",
+     "oegv_form_265"
+    ],
     "online_url": "https://www.pv.at",
     "wo": "Pensionsversicherungsanstalt (Landesstelle) bzw. eigener Pensionsträger; formlos oder Formular PAL080"
    },
@@ -14341,8 +14381,7 @@
     "PVA",
     "SVS",
     "BVAEB",
-    "AUVA",
-    "ÖGK"
+    "AUVA"
    ],
    "traeger_auspraegungen": {
     "BVAEB": [
@@ -14514,13 +14553,6 @@
      "zitat": "Dadurch ist ständige Hilfe und Betreuung notwendig."
     },
     {
-     "quelle_url": "https://pflege.gv.at/de/pflegegeld",
-     "source_id": "gesundheit_gv",
-     "stand": "2026-11-04",
-     "text": "• Es wird über einen längeren Zeitraum für mindestens 65 Stunden im Monat Pflege benötigt.",
-     "zitat": "• Es wird über einen längeren Zeitraum für mindestens 65 Stunden im Monat Pflege benötigt."
-    },
-    {
      "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/4/Seite.360512",
      "source_id": "oesterreich_gv",
      "stand": "2026-09-22",
@@ -14628,7 +14660,7 @@
    ],
    "zielgruppe": "Menschen mit voraussichtlich mindestens 6 Monate dauerndem Pflegebedarf; Antrag oft durch Angehörige vorbereitet",
    "zustaendig": "Der Träger, der die Pension auszahlt (ASVG-Pension → PVA; SVS-Pension → SVS; Beamte → BVAEB). Ohne Pension: meist PVA. Entscheidung per Bescheid nach Begutachtung.",
-   "review_status": "konflikt",
+   "review_status": "kuratiert+quellen",
    "sources": [
     "bvaeb",
     "gesundheit_gv",
@@ -14637,58 +14669,7 @@
     "seed",
     "svs"
    ],
-   "konflikte": [
-    {
-     "art": "widerspruch",
-     "feld": "antrag",
-     "varianten": [
-      {
-       "quelle_url": "https://www.pv.at",
-       "source_id": "seed",
-       "stand": "2026-11-05",
-       "value": {
-        "formular_id": "pva_pal080",
-        "online_url": "https://www.pv.at",
-        "wo": "Pensionsversicherungsanstalt (Landesstelle) bzw. eigener Pensionsträger; formlos oder Formular PAL080"
-       }
-      },
-      {
-       "quelle_url": "https://www.pv.at/web/pflegegeld",
-       "source_id": "pva",
-       "stand": "2026-10-21",
-       "value": {
-        "formular_id": "pva_pal080",
-        "formular_ids": [
-         "pva_pal080"
-        ],
-        "online_url": "https://www.sozialversicherung.gv.at/formgen/?contentid=10007.892452&portal=pvportal&LO=1&layout=withNav&svtcode=02",
-        "wo": "Antrag mit Formular PAL080 (PDF) oder Online-Antrag bei der Pensionsversicherung; Hilfe nach Terminvereinbarung in der Landesstelle."
-       }
-      },
-      {
-       "quelle_url": "https://pflege.gv.at/de/pflegegeld",
-       "source_id": "gesundheit_gv",
-       "stand": "2026-11-04",
-       "value": {
-        "formular_id": null,
-        "online_url": null,
-        "wo": "Den Antrag auf Pflegegeld reichen Sie bei Ihrer zuständigen Sozialversicherung ein. Weitere Informationen finden Sie auf der folgenden Seite: Den Antrag auf Pflegegeld reichen Sie bei der Sozialversicherung ein, die Ihre Pension auszahlt."
-       }
-      },
-      {
-       "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/4/Seite.360516",
-       "source_id": "oesterreich_gv",
-       "stand": "2026-09-22",
-       "value": {
-        "formular_id": "oegv_form_265",
-        "formular_pdf": "https://www.pv.at/cdscontent/load?contentid=10008.781969&version=175688243",
-        "online_url": "https://www.sozialversicherung.gv.at/formulare-prod/formserver_pva/start.do?data.traegercode_pvstd_V1_0.textfeld_50__fgstd=02&esvcid=10007.892452&esvendurl=aHR0cHM6Ly93d3cuc296aWFsdmVyc2ljaGVydW5nLmd2LmF0L2Zvcm1nZW4vYWJzY2hsdXNzLnhodG1sP2xheW91dD13aXRoTmF2JmNvbnRlbnRpZD0xMDAwNy44OTI0NTImcG9ydGFsPXB2cG9ydGFs&esvlayout=withNav&esvportal=pvportal&esvstarturl=aHR0cHM6Ly93d3cuc296aWFsdmVyc2ljaGVydW5nLmd2LmF0L2Zvcm1nZW4vP2xheW91dD13aXRoTmF2JmNvbnRlbnRpZD0xMDAwNy44OTI0NTImcG9ydGFsPXB2cG9ydGFs&generalid=Antrag_Pflegegeld_PVAF018&hash=eaf9b8213bc3036dfb8b01a302eee2fda1c2223b9482465647857971f5a96bba&sso_override=KEINE#",
-        "wo": "Zuständiger Versicherungsträger"
-       }
-      }
-     ]
-    }
-   ],
+   "konflikte": [],
    "stand": "2026-11-06"
   },
   {
@@ -14904,10 +14885,25 @@
   {
    "_entschieden": {},
    "_raw_ids": [
-    "pflegekarenz"
+    "pflegekarenz",
+    "pflegekarenzgeld"
    ],
    "_varianten": {
     "antrag": [
+     {
+      "quelle_url": "https://www.oesterreich.gv.at",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": {
+       "formular_id": "sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit",
+       "formular_ids": [
+        "sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit",
+        "oegv_form_1002"
+       ],
+       "online_url": "https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&pn=B00dc4768dd1040ffb2d7b9cc4dc7c985",
+       "wo": "Online-Antrag beim Sozialministeriumservice (Formularservice, mit ID Austria) oder Word-Formular „Antrag Pflegekarenz“ an die Landesstelle"
+      }
+     },
      {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/5/1/Seite.360529",
       "source_id": "oesterreich_gv",
@@ -14917,6 +14913,17 @@
        "formular_pdf": null,
        "online_url": "https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&pn=B00dc4768dd1040ffb2d7b9cc4dc7c985",
        "wo": "Erfolgt die Antragstellung auf Pflegekarenzgeld innerhalb von zwei Monaten ab Beginn der Pflegekarenz, Pflegeteilzeit oder Familienhospizkarenz, so gebührt das Pflegekarenzgeld bereits ab Beginn dieser Maßnahme. Wird der Antrag nach dieser Frist, jedoch vor dem Ende der Karenzierung gestellt, gebührt das Pflegekarenzgeld ab dem Tag der Antragstellung. Anträge, die nach dem Ende der Maßnahme gestellt werden, werden als verspätet zurückgewiesen. In Fällen, in denen eine Pflegekarenz oder Pflegetei"
+      }
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+      "source_id": "pva",
+      "stand": "2026-01-08",
+      "value": {
+       "formular_id": null,
+       "formular_ids": [],
+       "online_url": null,
+       "wo": "Antrag beim Sozialministeriumservice."
       }
      },
      {
@@ -14938,9 +14945,21 @@
       "value": "niedrig"
      },
      {
+      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+      "source_id": "sozialministeriumservice",
+      "stand": "2026-11-05",
+      "value": "mittel"
+     },
+     {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/5/1/Seite.360529",
       "source_id": "oesterreich_gv",
       "stand": "2026-10-13",
+      "value": "mittel"
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+      "source_id": "pva",
+      "stand": "2026-01-08",
       "value": "mittel"
      },
      {
@@ -14958,10 +14977,22 @@
       "value": "Angehörige können sich für die Pflege eine Zeit lang von der Arbeit freistellen lassen und bekommen Pflegekarenzgeld."
      },
      {
+      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+      "source_id": "sozialministeriumservice",
+      "stand": "2026-11-05",
+      "value": "Wer einen nahen Angehörigen pflegt, kann mit dem Arbeitgeber 1 bis 3 Monate Pflegekarenz oder Pflegeteilzeit vereinbaren und dafür Pflegekarenzgeld beantragen."
+     },
+     {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/5/1/Seite.360529",
       "source_id": "oesterreich_gv",
       "stand": "2026-10-13",
       "value": "Befristete Freistellung oder Teilzeit zur Pflege von Angehörigen, mit Pflegekarenzgeld (Antrag beim Sozialministeriumservice)."
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+      "source_id": "pva",
+      "stand": "2026-01-08",
+      "value": "Berufstätige Angehörige können mit der Arbeitgeberin oder dem Arbeitgeber Pflegekarenz oder Pflegeteilzeit vereinbaren. Das Pflegekarenzgeld wird beim Sozialministeriumservice beantragt, nicht bei der PVA."
      },
      {
       "quelle_url": "https://pflege.gv.at/de/pflegefreistellung-pflegeteilzeit-und-pflegekarenz",
@@ -14978,10 +15009,22 @@
       "value": "Pflegekarenz / Pflegeteilzeit und Pflegekarenzgeld"
      },
      {
+      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+      "source_id": "sozialministeriumservice",
+      "stand": "2026-11-05",
+      "value": "Pflegekarenzgeld (Pflegekarenz und Pflegeteilzeit)"
+     },
+     {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/5/1/Seite.360529",
       "source_id": "oesterreich_gv",
       "stand": "2026-10-13",
       "value": "Pflegekarenz und Pflegeteilzeit (Pflegekarenzgeld)"
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+      "source_id": "pva",
+      "stand": "2026-01-08",
+      "value": "Pflegekarenz, Pflegeteilzeit und Pflegekarenzgeld"
      },
      {
       "quelle_url": "https://pflege.gv.at/de/pflegefreistellung-pflegeteilzeit-und-pflegekarenz",
@@ -15002,6 +15045,12 @@
       "source_id": "oesterreich_gv",
       "stand": "2026-10-13",
       "value": "Berufstätige, die nahe Angehörige mit Pflegegeld (ab Stufe 3; bei Demenz/Minderjährigen ab Stufe 1) pflegen"
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+      "source_id": "pva",
+      "stand": "2026-01-08",
+      "value": "Berufstätige, die nahe Angehörige pflegen (ab Pflegestufe 3; bei Demenz oder Minderjährigen ab Stufe 1)."
      }
     ],
     "zustaendig": [
@@ -15012,10 +15061,22 @@
       "value": "Sozialministeriumservice (Pflegekarenzgeld)"
      },
      {
+      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+      "source_id": "sozialministeriumservice",
+      "stand": "2026-11-05",
+      "value": "Sozialministeriumservice, Landesstelle des Bundeslandes."
+     },
+     {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/5/1/Seite.360529",
       "source_id": "oesterreich_gv",
       "stand": "2026-10-13",
       "value": "Erfolgt die Antragstellung auf Pflegekarenzgeld innerhalb von zwei Monaten ab Beginn der Pflegekarenz, Pflegeteilzeit oder Familienhospizkarenz, so gebührt das Pflegekarenzgeld bereits ab Beginn dieser Maßnahme. Wird der Antrag nach dieser Frist, jedoch vor dem Ende der Karenzierung gestellt, gebührt das Pflegekarenzgeld ab dem Tag der Antragstellung. Anträge, die nach dem Ende der Maßnahme gestellt werden, werden als verspätet zurückgewiesen. In Fällen, in denen eine Pflegekarenz oder Pflegetei"
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
+      "source_id": "pva",
+      "stand": "2026-01-08",
+      "value": "Um ein Pflegekarenzgeld zu erhalten, müssen Sie einen Antrag beim Sozialministeriumservice stellen."
      }
     ]
    },
@@ -15024,10 +15085,13 @@
     "familienhospizkarenz"
    ],
    "antrag": {
-    "formular_id": "oegv_form_1002",
-    "formular_pdf": null,
+    "formular_id": "sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit",
+    "formular_ids": [
+     "sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit",
+     "oegv_form_1002"
+    ],
     "online_url": "https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&pn=B00dc4768dd1040ffb2d7b9cc4dc7c985",
-    "wo": "Erfolgt die Antragstellung auf Pflegekarenzgeld innerhalb von zwei Monaten ab Beginn der Pflegekarenz, Pflegeteilzeit oder Familienhospizkarenz, so gebührt das Pflegekarenzgeld bereits ab Beginn dieser Maßnahme. Wird der Antrag nach dieser Frist, jedoch vor dem Ende der Karenzierung gestellt, gebührt das Pflegekarenzgeld ab dem Tag der Antragstellung. Anträge, die nach dem Ende der Maßnahme gestellt werden, werden als verspätet zurückgewiesen. In Fällen, in denen eine Pflegekarenz oder Pflegetei"
+    "wo": "Online-Antrag beim Sozialministeriumservice (Formularservice, mit ID Austria) oder Word-Formular „Antrag Pflegekarenz“ an die Landesstelle"
    },
    "bereich": [
     "D",
@@ -15038,7 +15102,10 @@
    ],
    "confidence": "niedrig",
    "fristen": [
+    "Die Antragsstellung kann erst nach Vollendung der Rehabilitationsmaßnahme erfolgen.",
     "Das Pflegekarenzgeld gebührt jedoch nicht länger als maximal zwölf Monate pro pflegebedürftiger Person (z.B. bei Inanspruchnahme durch zumindest zwei nahe Angehörige und neuerlicher Vereinbarung aufgrund der Erhöhung des Pflegebedarfs).",
+    "Das Pflegekarenzgeld gebührt für die vereinbarte Dauer von max. 3 Monaten der Pflegekarenz bzw. Pflegeteilzeit.",
+    "Der Rechtsanspruch ist auf 2 Wochen beschränkt.",
     "Sie erhalten das gleiche Arbeitsentgelt, das Sie auch ohne Pflegefreistellung bekommen hätten\n• Wann habe ich Anspruch auf 2 Wochen Pflegefreistellung?",
     "Eine zweite Pflegefreistellungswoche innerhalb eines Arbeitsjahres haben Sie, wenn das Kind noch keine 12 Jahre alt ist.",
     "Wenn Sie in einem Betrieb mit mehr als 5 Arbeitnehmerinnen und Arbeitnehmern tätig sind, haben Sie einen Rechtsanspruch auf 2 bis maximal 4 Wochen Pflegekarenz oder Pflegeteilzeit.",
@@ -15058,7 +15125,7 @@
     {
      "source_id": "seed",
      "stand": "2026-11-05",
-     "url": "https://www.sozialministeriumservice.gv.at"
+     "url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html"
     },
     {
      "source_id": "oesterreich_gv",
@@ -15081,6 +15148,11 @@
      "url": "https://www.oesterreich.gv.at/de/themen/pflege/5/1"
     },
     {
+     "source_id": "pva",
+     "stand": "2026-01-08",
+     "url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit"
+    },
+    {
      "source_id": "gesundheit_gv",
      "stand": "2026-11-04",
      "url": "https://pflege.gv.at/de/pflegefreistellung-pflegeteilzeit-und-pflegekarenz"
@@ -15101,9 +15173,13 @@
     "Pflegekarenz",
     "Pflegeteilzeit",
     "Pflegekarenzgeld",
+    "Familienhospizkarenz",
     "Pflegefreistellung"
    ],
    "typ": "bund",
+   "unterlagen": [
+    "Die Pflegekarenz oder Pflegeteilzeit müssen Sie mit der*dem Arbeitgeber*in schriftlich vereinbaren."
+   ],
    "voraussetzungen": [
     {
      "source_id": "seed",
@@ -15114,6 +15190,62 @@
      "source_id": "seed",
      "stand": "2026-11-05",
      "text": "Pflegebedürftige Person bezieht Pflegegeld (meist ab Stufe 3)"
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Pflege und/oder Betreuung von nahen Angehörigen mit Pflegegeldbezug ab der Stufe 3 oder",
+     "zitat": "Pflege und/oder Betreuung von nahen Angehörigen mit Pflegegeldbezug ab der Stufe 3 oder"
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Pflege und/oder Betreuung von demenziell erkrankten oder minderjährigen nahen Angehörigen mit Pflegegeldbezug der Stufe 1",
+     "zitat": "Pflege und/oder Betreuung von demenziell erkrankten oder minderjährigen nahen Angehörigen mit Pflegegeldbezug der Stufe 1"
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Erklärung der überwiegenden Pflege und Betreuung für die Dauer der Pflegekarenz oder Pflegeteilzeit",
+     "zitat": "Erklärung der überwiegenden Pflege und Betreuung für die Dauer der Pflegekarenz oder Pflegeteilzeit"
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Schriftliche Vereinbarung der Pflegekarenz oder Pflegeteilzeit mit dem Arbeitgeber oder der Arbeitgeberin – bei ununterbrochenem Arbeitsverhältnis von zumindest 3 Monaten unmittelbar vor Inanspruchnahme der Pflegekarenz oder Pflegeteilzeit – oder",
+     "zitat": "Schriftliche Vereinbarung der Pflegekarenz oder Pflegeteilzeit mit dem Arbeitgeber oder der Arbeitgeberin – bei ununterbrochenem Arbeitsverhältnis von zumindest 3 Monaten unmittelbar vor Inanspruchnahme der Pflegekarenz oder Pflegeteilzeit – oder"
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Abmeldung vom Bezug des Arbeitslosengeldes und der Notstandshilfe",
+     "zitat": "Abmeldung vom Bezug des Arbeitslosengeldes und der Notstandshilfe"
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Ein gemeinsamer Haushalt mit nahen Angehörigen ist – außer bei der Inanspruchnahme einer Familienhospizkarenz zur Begleitung schwerst erkrankter Kinder – nicht erforderlich.",
+     "zitat": "Ein gemeinsamer Haushalt mit nahen Angehörigen ist – außer bei der Inanspruchnahme einer Familienhospizkarenz zur Begleitung schwerst erkrankter Kinder – nicht erforderlich."
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Sterbebegleitung eines nahen Angehörigen oder Begleitung von schwerst erkrankten Kindern,",
+     "zitat": "Sterbebegleitung eines nahen Angehörigen oder Begleitung von schwerst erkrankten Kindern,"
+    },
+    {
+     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
+     "source_id": "sozialministeriumservice",
+     "stand": "2026-11-05",
+     "text": "Nachweis der Inanspruchnahme einer Familienhospizkarenz oder",
+     "zitat": "Nachweis der Inanspruchnahme einer Familienhospizkarenz oder"
     },
     {
      "quelle_url": "https://www.oesterreich.gv.at/de/themen/pflege/5/1/Seite.360529",
@@ -15212,198 +15344,6 @@
      "stand": "2026-10-13",
      "text": "In diesen zwei Wochen der Pflegekarenz/Pflegeteilzeit kann eine Verlängerung vereinbart werden. Kommt währenddessen keine Vereinbarung über eine Pflegekarenz/Pflegeteilzeit zustande, so besteht ein Anspruch auf Pflegekarenz/Pflegeteilzeit für bis zu weiteren zwei Wochen (insgesamt vier Wochen). Die ",
      "zitat": "In diesen zwei Wochen der Pflegekarenz/Pflegeteilzeit kann eine Verlängerung vereinbart werden. Kommt währenddessen keine Vereinbarung über eine Pflegekarenz/Pflegeteilzeit zustande, so besteht ein Anspruch auf Pflegekarenz/Pflegeteilzeit für bis zu weiteren zwei Wochen (insgesamt vier Wochen). Die so konsumierten Zeiten sind auf die gesetzlich mögliche Dauer der vereinbarten Pflegekarenz/Pflegete"
-    }
-   ],
-   "zielgruppe": "Berufstätige Angehörige einer Person mit Pflegegeld (in der Regel ab Stufe 3)",
-   "zustaendig": "Sozialministeriumservice (Pflegekarenzgeld)",
-   "review_status": "kuratiert+quellen",
-   "sources": [
-    "gesundheit_gv",
-    "oesterreich_gv",
-    "seed"
-   ],
-   "konflikte": [],
-   "stand": "2026-11-05"
-  },
-  {
-   "_entschieden": {},
-   "_raw_ids": [
-    "pflegekarenzgeld"
-   ],
-   "_varianten": {
-    "antrag": [
-     {
-      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-      "source_id": "sozialministeriumservice",
-      "stand": "2026-11-05",
-      "value": {
-       "formular_id": "sms_antrag_pflegekarenzgeld_kinderreha",
-       "online_login": "ID Austria / Bürgerkarte",
-       "online_url": "https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&pn=B00dc4768dd1040ffb2d7b9cc4dc7c985",
-       "wo": "Landesstelle des Sozialministeriumservice (Wien: Babenbergerstraße 5, 1010 Wien), per Post, E-Mail oder persönlich"
-      }
-     },
-     {
-      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
-      "source_id": "pva",
-      "stand": "2026-01-08",
-      "value": {
-       "formular_id": null,
-       "formular_ids": [],
-       "online_url": null,
-       "wo": "Antrag beim Sozialministeriumservice."
-      }
-     }
-    ],
-    "kurz_einfach": [
-     {
-      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-      "source_id": "sozialministeriumservice",
-      "stand": "2026-11-05",
-      "value": "Wer einen nahen Angehörigen pflegt, kann mit dem Arbeitgeber 1 bis 3 Monate Pflegekarenz oder Pflegeteilzeit vereinbaren und dafür Pflegekarenzgeld beantragen."
-     },
-     {
-      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
-      "source_id": "pva",
-      "stand": "2026-01-08",
-      "value": "Berufstätige Angehörige können mit der Arbeitgeberin oder dem Arbeitgeber Pflegekarenz oder Pflegeteilzeit vereinbaren. Das Pflegekarenzgeld wird beim Sozialministeriumservice beantragt, nicht bei der PVA."
-     }
-    ],
-    "name": [
-     {
-      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-      "source_id": "sozialministeriumservice",
-      "stand": "2026-11-05",
-      "value": "Pflegekarenzgeld (Pflegekarenz und Pflegeteilzeit)"
-     },
-     {
-      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
-      "source_id": "pva",
-      "stand": "2026-01-08",
-      "value": "Pflegekarenz, Pflegeteilzeit und Pflegekarenzgeld"
-     }
-    ],
-    "zustaendig": [
-     {
-      "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-      "source_id": "sozialministeriumservice",
-      "stand": "2026-11-05",
-      "value": "Sozialministeriumservice, Landesstelle des Bundeslandes."
-     },
-     {
-      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
-      "source_id": "pva",
-      "stand": "2026-01-08",
-      "value": "Um ein Pflegekarenzgeld zu erhalten, müssen Sie einen Antrag beim Sozialministeriumservice stellen."
-     }
-    ]
-   },
-   "abhaengigkeiten": [
-    "pflegegeld"
-   ],
-   "antrag": {
-    "formular_id": "sms_antrag_pflegekarenzgeld_kinderreha",
-    "online_login": "ID Austria / Bürgerkarte",
-    "online_url": "https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&pn=B00dc4768dd1040ffb2d7b9cc4dc7c985",
-    "wo": "Landesstelle des Sozialministeriumservice (Wien: Babenbergerstraße 5, 1010 Wien), per Post, E-Mail oder persönlich"
-   },
-   "bereich": [
-    "D",
-    "E"
-   ],
-   "bundesland": [
-    "AT"
-   ],
-   "confidence": "mittel",
-   "fristen": [
-    "Die Antragsstellung kann erst nach Vollendung der Rehabilitationsmaßnahme erfolgen.",
-    "Das Pflegekarenzgeld gebührt für die vereinbarte Dauer von max. 3 Monaten der Pflegekarenz bzw. Pflegeteilzeit.",
-    "Der Rechtsanspruch ist auf 2 Wochen beschränkt."
-   ],
-   "innerhalb_sv": false,
-   "kurz_einfach": "Wer einen nahen Angehörigen pflegt, kann mit dem Arbeitgeber 1 bis 3 Monate Pflegekarenz oder Pflegeteilzeit vereinbaren und dafür Pflegekarenzgeld beantragen.",
-   "leistung_id": "pflegekarenzgeld",
-   "name": "Pflegekarenzgeld (Pflegekarenz und Pflegeteilzeit)",
-   "quellen": [
-    {
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html"
-    },
-    {
-     "source_id": "pva",
-     "stand": "2026-01-08",
-     "url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit"
-    }
-   ],
-   "traeger": [
-    "Sozialministeriumservice"
-   ],
-   "trigger_im_dokument": [
-    "Pflegekarenz",
-    "Pflegeteilzeit",
-    "Pflegekarenzgeld",
-    "Familienhospizkarenz"
-   ],
-   "unterlagen": [
-    "Die Pflegekarenz oder Pflegeteilzeit müssen Sie mit der*dem Arbeitgeber*in schriftlich vereinbaren."
-   ],
-   "voraussetzungen": [
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Pflege und/oder Betreuung von nahen Angehörigen mit Pflegegeldbezug ab der Stufe 3 oder",
-     "zitat": "Pflege und/oder Betreuung von nahen Angehörigen mit Pflegegeldbezug ab der Stufe 3 oder"
-    },
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Pflege und/oder Betreuung von demenziell erkrankten oder minderjährigen nahen Angehörigen mit Pflegegeldbezug der Stufe 1",
-     "zitat": "Pflege und/oder Betreuung von demenziell erkrankten oder minderjährigen nahen Angehörigen mit Pflegegeldbezug der Stufe 1"
-    },
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Erklärung der überwiegenden Pflege und Betreuung für die Dauer der Pflegekarenz oder Pflegeteilzeit",
-     "zitat": "Erklärung der überwiegenden Pflege und Betreuung für die Dauer der Pflegekarenz oder Pflegeteilzeit"
-    },
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Schriftliche Vereinbarung der Pflegekarenz oder Pflegeteilzeit mit dem Arbeitgeber oder der Arbeitgeberin – bei ununterbrochenem Arbeitsverhältnis von zumindest 3 Monaten unmittelbar vor Inanspruchnahme der Pflegekarenz oder Pflegeteilzeit – oder",
-     "zitat": "Schriftliche Vereinbarung der Pflegekarenz oder Pflegeteilzeit mit dem Arbeitgeber oder der Arbeitgeberin – bei ununterbrochenem Arbeitsverhältnis von zumindest 3 Monaten unmittelbar vor Inanspruchnahme der Pflegekarenz oder Pflegeteilzeit – oder"
-    },
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Abmeldung vom Bezug des Arbeitslosengeldes und der Notstandshilfe",
-     "zitat": "Abmeldung vom Bezug des Arbeitslosengeldes und der Notstandshilfe"
-    },
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Ein gemeinsamer Haushalt mit nahen Angehörigen ist – außer bei der Inanspruchnahme einer Familienhospizkarenz zur Begleitung schwerst erkrankter Kinder – nicht erforderlich.",
-     "zitat": "Ein gemeinsamer Haushalt mit nahen Angehörigen ist – außer bei der Inanspruchnahme einer Familienhospizkarenz zur Begleitung schwerst erkrankter Kinder – nicht erforderlich."
-    },
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Sterbebegleitung eines nahen Angehörigen oder Begleitung von schwerst erkrankten Kindern,",
-     "zitat": "Sterbebegleitung eines nahen Angehörigen oder Begleitung von schwerst erkrankten Kindern,"
-    },
-    {
-     "quelle_url": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html",
-     "source_id": "sozialministeriumservice",
-     "stand": "2026-11-05",
-     "text": "Nachweis der Inanspruchnahme einer Familienhospizkarenz oder",
-     "zitat": "Nachweis der Inanspruchnahme einer Familienhospizkarenz oder"
     },
     {
      "quelle_url": "https://www.pv.at/web/pflegegeld/pflegende-angehoerige/pflegekarenz-und-pflegeteilzeit",
@@ -15420,11 +15360,14 @@
      "zitat": "Das Arbeitsverhältnis muss seit mind. 3 Monaten bestehen."
     }
    ],
-   "zielgruppe": "Berufstätige, die nahe Angehörige pflegen (ab Pflegestufe 3; bei Demenz oder Minderjährigen ab Stufe 1).",
-   "zustaendig": "Sozialministeriumservice, Landesstelle des Bundeslandes.",
-   "review_status": "kandidat",
+   "zielgruppe": "Berufstätige Angehörige einer Person mit Pflegegeld (in der Regel ab Stufe 3)",
+   "zustaendig": "Sozialministeriumservice (Pflegekarenzgeld)",
+   "review_status": "kuratiert+quellen",
    "sources": [
+    "gesundheit_gv",
+    "oesterreich_gv",
     "pva",
+    "seed",
     "sozialministeriumservice"
    ],
    "konflikte": [],
@@ -16553,19 +16496,38 @@
    "_entschieden": {},
    "_raw_ids": [
     "reha_medizinisch",
+    "rehabilitation",
     "rehabilitation_sv"
    ],
    "_varianten": {
     "antrag": [
      {
-      "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/1/Seite.1170160",
-      "source_id": "oesterreich_gv",
-      "stand": "2026-09-15",
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
+      "source_id": "seed",
+      "stand": "2026-11-05",
       "value": {
-       "formular_id": "sms_acc_20_u_fonds_antragsformular_fertig",
-       "formular_pdf": "https://www.sozialministeriumservice.at/Downloads/ACC_-_20_U_Fonds_Antragsformular_fertig.pdf",
+       "formular_id": "antrag_reha_kur",
+       "formular_ids": [
+        "antrag_reha_kur",
+        "pva_antrag_kur_reha",
+        "antrag_ahv_reha_unfall"
+       ],
+       "wo": "Ärztin/Arzt füllt den Antrag mit Ihnen aus und schickt ihn an die Landesstelle der Pensionsversicherung; direkt nach dem Spital (Anschlussheilverfahren) stellt das Krankenhaus den Antrag"
+      }
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+      "source_id": "pva",
+      "stand": "2026-10-16",
+      "value": {
+       "formular_id": "pva_antrag_kur_reha",
+       "formular_ids": [
+        "pva_antrag_kur_reha",
+        "antrag_ahv_reha_unfall",
+        "pva_gvr001_uebergangsgeld"
+       ],
        "online_url": null,
-       "wo": "• die zuständige (Sozial-)Abteilung der Landesregierung • die Bezirkshauptmannschaften"
+       "wo": "Formular „Antrag auf Rehabilitations-, Kur- bzw. Erholungsaufenthalt“ (ärztlich auszufüllen) an die zuständige Landesstelle."
       }
      },
      {
@@ -16594,18 +16556,44 @@
       }
      }
     ],
-    "kosten": [
+    "confidence": [
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "mittel"
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+      "source_id": "pva",
+      "stand": "2026-10-16",
+      "value": "hoch"
+     },
      {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/1/Seite.1170160",
       "source_id": "oesterreich_gv",
       "stand": "2026-09-15",
-      "value": "Für den Bezug eines Heilmittels auf Kosten des Krankenversicherungsträgers ist eine Rezeptgebühr für jede in der Apotheke auf Rezept abgegebene Packung zu bezahlen. Die tatsächlichen Kosten für Heilmittel sind in den meisten Fällen wesentlich höher. Die Rezeptgebühr beträgt 7,55 Euro (im Jahr 2026). Welche Voraussetzungen Sie erfüllen müssen, um von der Rezeptgebühr befreit zu werden, können Sie unter Befreiung von der Rezeptgebühr nachlesen."
+      "value": "mittel"
      },
      {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
       "source_id": "svbox_local",
       "stand": "2026-01-01",
-      "value": "Personen bis zur Vollendung des 18. Lebensjahres Bei medizinisch notwendigen Behandlungen in Krankenanstalten, die weder landesgesundheitsfondsfinanziert sind noch dem Privatkrankenanstalten-Finanzierungsfonds unterliegen und mit denen auch kein Vertragsverhältnis besteht (z.B. ausländische Krankenanstalten), leistet die ÖGK derzeit einen täglichen Pflegekostenzuschuss von 435,81 Euro, jedoch nicht mehr als die Die ÖGK übernimmt die Kosten bis zu festgelegten Höchstbeträgen, das sind 1.848,00 Euro. Bei Prothesen und Rollstühlen sind es 4.620,00 Euro."
+      "value": "mittel"
+     },
+     {
+      "quelle_url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/medizinische-rehabilitation.html",
+      "source_id": "gesundheit_gv",
+      "stand": "2022-06-27",
+      "value": "mittel"
+     }
+    ],
+    "kosten": [
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+      "source_id": "pva",
+      "stand": "2026-10-16",
+      "value": "Bei genehmigten Aufenthalten werden die vertraglich vereinbarten Kosten von der Pensionsversicherung (PV) übernommen. Selbst bezahlen müssen Sie eine einkommensabhängige Zuzahlung sowie die Tourismusabgabe (auch Kur- oder Ortstaxe genannt). Bei einer ambulanten Reha ist keine Zuzahlung erforderlich. Wenn Sie sehr wenig verdienen, ist eine Befreiung möglich. Kosten für Aufenthalte ohne vorherige Bewilligung durch die Pensionsversicherung werden grundsätzlich nicht übernommen."
      },
      {
       "quelle_url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/medizinische-rehabilitation.html",
@@ -16615,6 +16603,12 @@
      }
     ],
     "kurz_einfach": [
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+      "source_id": "pva",
+      "stand": "2026-10-16",
+      "value": "Reha nach einem akuten Ereignis oder bei schweren chronischen Erkrankungen. Die Ärztin oder der Arzt stellt den Antrag gemeinsam mit Ihnen bei der Landesstelle der Pensionsversicherung."
+     },
      {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/1/Seite.1170160",
       "source_id": "oesterreich_gv",
@@ -16636,6 +16630,18 @@
     ],
     "name": [
      {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "Medizinische Rehabilitation"
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+      "source_id": "pva",
+      "stand": "2026-10-16",
+      "value": "Medizinische Rehabilitation (PVA)"
+     },
+     {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/1/Seite.1170160",
       "source_id": "oesterreich_gv",
       "stand": "2026-09-15",
@@ -16654,7 +16660,33 @@
       "value": "Medizinische Rehabilitation"
      }
     ],
+    "zielgruppe": [
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+      "source_id": "pva",
+      "stand": "2026-10-16",
+      "value": "Versicherte und Pensionist:innen der PVA; Antrag über die behandelnde Ärztin bzw. den behandelnden Arzt."
+     },
+     {
+      "quelle_url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/medizinische-rehabilitation.html",
+      "source_id": "gesundheit_gv",
+      "stand": "2022-06-27",
+      "value": "Maßnahmen der medizinischen Rehabilitation auf Kosten eines Sozialversicherungsträgers werden grundsätzlich nur aufgrund eines vorherigen Antrages erbracht."
+     }
+    ],
     "zustaendig": [
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": "Je nach Versichertenstatus Pensions-, Kranken- oder Unfallversicherung; der Antrag geht an den Pensionsversicherungsträger, der den zuständigen Träger ermittelt."
+     },
+     {
+      "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+      "source_id": "pva",
+      "stand": "2026-10-16",
+      "value": "Landesstelle der PVA nach Wohnort; die PV ermittelt den zuständigen Versicherungsträger."
+     },
      {
       "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/1/Seite.1170160",
       "source_id": "oesterreich_gv",
@@ -16669,11 +16701,18 @@
      }
     ]
    },
+   "abhaengigkeiten": [
+    "uebergangsgeld",
+    "rehabilitationsgeld"
+   ],
    "antrag": {
-    "formular_id": "sms_acc_20_u_fonds_antragsformular_fertig",
-    "formular_pdf": "https://www.sozialministeriumservice.at/Downloads/ACC_-_20_U_Fonds_Antragsformular_fertig.pdf",
-    "online_url": null,
-    "wo": "• die zuständige (Sozial-)Abteilung der Landesregierung • die Bezirkshauptmannschaften"
+    "formular_id": "antrag_reha_kur",
+    "formular_ids": [
+     "antrag_reha_kur",
+     "pva_antrag_kur_reha",
+     "antrag_ahv_reha_unfall"
+    ],
+    "wo": "Ärztin/Arzt füllt den Antrag mit Ihnen aus und schickt ihn an die Landesstelle der Pensionsversicherung; direkt nach dem Spital (Anschlussheilverfahren) stellt das Krankenhaus den Antrag"
    },
    "bereich": [
     "C"
@@ -16683,15 +16722,49 @@
    ],
    "confidence": "mittel",
    "fristen": [
+    "Bitte kontaktieren Sie die Einrichtung innerhalb von 6 Wochen nach Erhalt des Schreibens, um den Termin zu bestätigen.",
+    "Bitte Warten Sie die schriftliche Verständigung unbedingt ab!",
+    "Sollte sich Ihr Gesundheitszustand wesentlich ändern, können Sie einen neuen Antrag stellen, der erneut geprüft wird.",
+    "Eine ambulante Rehabilitation dauert grundsätzlich zwischen 6 bis 10 Wochen.",
     "Sowohl der Kostenbeitrag für Versicherte als auch der Kostenbeitrag für Angehörige ist für längstens 28 Tage im Kalenderjahr zu zahlen.",
     "Bei der Unterbringung in Rehabilitationseinrichtungen ist eine Zuzahlung für höchstens 28 Tage im Kalenderjahr zu leisten."
    ],
    "innerhalb_sv": true,
-   "kosten": "Für den Bezug eines Heilmittels auf Kosten des Krankenversicherungsträgers ist eine Rezeptgebühr für jede in der Apotheke auf Rezept abgegebene Packung zu bezahlen. Die tatsächlichen Kosten für Heilmittel sind in den meisten Fällen wesentlich höher. Die Rezeptgebühr beträgt 7,55 Euro (im Jahr 2026). Welche Voraussetzungen Sie erfüllen müssen, um von der Rezeptgebühr befreit zu werden, können Sie unter Befreiung von der Rezeptgebühr nachlesen.",
-   "kurz_einfach": "Überblick über Rehabilitationsmaßnahmen und Kostenträger (Kranken-, Pensions-, Unfallversicherung).",
+   "kosten": "Bei genehmigten Aufenthalten werden die vertraglich vereinbarten Kosten von der Pensionsversicherung (PV) übernommen. Selbst bezahlen müssen Sie eine einkommensabhängige Zuzahlung sowie die Tourismusabgabe (auch Kur- oder Ortstaxe genannt). Bei einer ambulanten Reha ist keine Zuzahlung erforderlich. Wenn Sie sehr wenig verdienen, ist eine Befreiung möglich. Kosten für Aufenthalte ohne vorherige Bewilligung durch die Pensionsversicherung werden grundsätzlich nicht übernommen.",
+   "kurz_einfach": "Reha nach einem akuten Ereignis oder bei schweren chronischen Erkrankungen. Die Ärztin oder der Arzt stellt den Antrag gemeinsam mit Ihnen bei der Landesstelle der Pensionsversicherung.",
    "leistung_id": "reha_medizinisch",
-   "name": "Rehabilitation (Sozialversicherung, Maßnahmen)",
+   "name": "Medizinische Rehabilitation",
    "quellen": [
+    {
+     "source_id": "seed",
+     "stand": "2026-11-05",
+     "url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur"
+    },
+    {
+     "source_id": "seed",
+     "stand": "2026-11-05",
+     "url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation"
+    },
+    {
+     "source_id": "pva",
+     "stand": "2026-10-05",
+     "url": "https://www.pv.at/web/reha-und-praevention/reha-zentren"
+    },
+    {
+     "source_id": "pva",
+     "stand": "2026-10-16",
+     "url": "https://www.pv.at/web/reha-und-praevention/information-fuer-zuweisende-aerztinnen-und-aerzte"
+    },
+    {
+     "source_id": "pva",
+     "stand": "2026-10-09",
+     "url": "https://www.pv.at/web/reha-und-praevention/rehabilitation-und-praevention-leicht-erklaert"
+    },
+    {
+     "source_id": "pva",
+     "stand": "2026-10-16",
+     "url": "https://www.pv.at/web/medizinische-begutachtung"
+    },
     {
      "source_id": "oesterreich_gv",
      "stand": "2026-01-01",
@@ -16965,11 +17038,49 @@
    "trigger_im_dokument": [
     "Rehabilitation",
     "Reha",
+    "Reha-Antrag",
+    "Rehabilitationszentrum",
+    "ambulante Reha",
+    "stationäre Reha",
     "Kostenträger",
     "Medizinische Maßnahmen der Rehabilitation"
    ],
    "typ": "sv",
+   "unterlagen": [
+    "Antrag ausfüllen & unterschreiben: Der Antrag muss vollständig von Ihrer Ärztin*Ihrem Arzt ausgefüllt und unterschrieben werden.",
+    "Der Antrag muss über Ihre*n behandelnde*n Ärztin*Arzt vollständig ausgefüllt und unterschrieben an die zuständige Landesstelle übermittelt werden.",
+    "Für eine ambulante Reha muss im Antrag das Feld „ ambulante Rehabilitation “ angekreuzt werden.",
+    "Bitte bringen Sie zum Termin unbedingt einen Identitätsnachweis (z. B. Führerschein, Reisepass, Personalausweis) mit."
+   ],
    "voraussetzungen": [
+    {
+     "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+     "source_id": "pva",
+     "stand": "2026-10-16",
+     "text": "Medizinische Rehabilitationsmaßnahmen erfolgen im Anschluss an ein akutes medizinisches Ereignis (z. B. nach Operationen) oder bei schweren chronischen Erkrankungen.",
+     "zitat": "Medizinische Rehabilitationsmaßnahmen erfolgen im Anschluss an ein akutes medizinisches Ereignis (z. B. nach Operationen) oder bei schweren chronischen Erkrankungen."
+    },
+    {
+     "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+     "source_id": "pva",
+     "stand": "2026-10-16",
+     "text": "Den Antrag müssen Sie gemeinsam mit Ihrer*Ihrem behandelnden Ärztin*Arzt stellen.",
+     "zitat": "Den Antrag müssen Sie gemeinsam mit Ihrer*Ihrem behandelnden Ärztin*Arzt stellen."
+    },
+    {
+     "quelle_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
+     "source_id": "pva",
+     "stand": "2026-10-16",
+     "text": "Medizinische Notwendigkeit: Ihr*e behandelnde*r Ärztin*Arzt muss die Notwendigkeit für die Rehabilitation medizinisch begründen (Diagnose/Indikation).",
+     "zitat": "Medizinische Notwendigkeit: Ihr*e behandelnde*r Ärztin*Arzt muss die Notwendigkeit für die Rehabilitation medizinisch begründen (Diagnose/Indikation)."
+    },
+    {
+     "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
+     "source_id": "pva",
+     "stand": "2026-10-16",
+     "text": "Die Pensionsversicherung (PV) beurteilt die medizinische Notwendigkeit und Dringlichkeit.",
+     "zitat": "Die Pensionsversicherung (PV) beurteilt die medizinische Notwendigkeit und Dringlichkeit."
+    },
     {
      "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/Seite.1170400",
      "source_id": "oesterreich_gv",
@@ -17074,85 +17185,20 @@
      "zitat": "Die Ärztin oder der Arzt für Allgemeinmedizin oder eines bestimmten Fachgebietes begründet auf der Rückseite des Antragsformulars die medizinische Notwendigkeit und den Zweck der Rehabilitation."
     }
    ],
-   "zielgruppe": "Maßnahmen der medizinischen Rehabilitation auf Kosten eines Sozialversicherungsträgers werden grundsätzlich nur aufgrund eines vorherigen Antrages erbracht.",
-   "zustaendig": "• die zuständige (Sozial-)Abteilung der Landesregierung • die Bezirkshauptmannschaften",
-   "review_status": "konflikt",
+   "zielgruppe": "Versicherte und Pensionist:innen der PVA; Antrag über die behandelnde Ärztin bzw. den behandelnden Arzt.",
+   "zustaendig": "Je nach Versichertenstatus Pensions-, Kranken- oder Unfallversicherung; der Antrag geht an den Pensionsversicherungsträger, der den zuständigen Träger ermittelt.",
+   "review_status": "kuratiert+quellen",
    "sources": [
     "bvaeb",
     "gesundheit_gv",
     "oegk",
     "oesterreich_gv",
+    "pva",
+    "seed",
     "svbox_local",
     "svs"
    ],
-   "konflikte": [
-    {
-     "art": "zahlen_abweichend",
-     "feld": "kosten",
-     "varianten": [
-      {
-       "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/1/Seite.1170160",
-       "source_id": "oesterreich_gv",
-       "stand": "2026-09-15",
-       "value": "Für den Bezug eines Heilmittels auf Kosten des Krankenversicherungsträgers ist eine Rezeptgebühr für jede in der Apotheke auf Rezept abgegebene Packung zu bezahlen. Die tatsächlichen Kosten für Heilmittel sind in den meisten Fällen wesentlich höher. Die Rezeptgebühr beträgt 7,55 Euro (im Jahr 2026). Welche Voraussetzungen Sie erfüllen müssen, um von der Rezeptgebühr befreit zu werden, können Sie unter Befreiung von der Rezeptgebühr nachlesen."
-      },
-      {
-       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-       "source_id": "svbox_local",
-       "stand": "2026-01-01",
-       "value": "Personen bis zur Vollendung des 18. Lebensjahres Bei medizinisch notwendigen Behandlungen in Krankenanstalten, die weder landesgesundheitsfondsfinanziert sind noch dem Privatkrankenanstalten-Finanzierungsfonds unterliegen und mit denen auch kein Vertragsverhältnis besteht (z.B. ausländische Krankenanstalten), leistet die ÖGK derzeit einen täglichen Pflegekostenzuschuss von 435,81 Euro, jedoch nicht mehr als die Die ÖGK übernimmt die Kosten bis zu festgelegten Höchstbeträgen, das sind 1.848,00 Euro. Bei Prothesen und Rollstühlen sind es 4.620,00 Euro."
-      },
-      {
-       "quelle_url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/medizinische-rehabilitation.html",
-       "source_id": "gesundheit_gv",
-       "stand": "2022-06-27",
-       "value": "Bewilligt die Sozialversicherung den Reha-Aufenthalt, übernimmt sie auch einen Großteil der Kosten. Nähere Informationen zur Höhe der Zuzahlungen finden Sie unter: www.sozialversicherung.at."
-      }
-     ]
-    },
-    {
-     "art": "widerspruch",
-     "feld": "antrag",
-     "varianten": [
-      {
-       "quelle_url": "https://www.oesterreich.gv.at/de/themen/menschen_mit_behinderungen/rehabilitation/1/Seite.1170160",
-       "source_id": "oesterreich_gv",
-       "stand": "2026-09-15",
-       "value": {
-        "formular_id": "sms_acc_20_u_fonds_antragsformular_fertig",
-        "formular_pdf": "https://www.sozialministeriumservice.at/Downloads/ACC_-_20_U_Fonds_Antragsformular_fertig.pdf",
-        "online_url": null,
-        "wo": "• die zuständige (Sozial-)Abteilung der Landesregierung • die Bezirkshauptmannschaften"
-       }
-      },
-      {
-       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-       "source_id": "svbox_local",
-       "stand": "2026-01-01",
-       "value": {
-        "formular_id": "antrag_reha_kur",
-        "online_url": null,
-        "wo": "Personen, die aufgrund von Bestimmungen im Kriegsopferversorgungsgesetz, Heeresversorgungsgesetz oder Opferfürsorgegesetz der ÖGK zugeteilt sind. hilfsmittel Ob Prothesen oder Rollstühle, die ÖGK unterstützt mit Hilfsmitteln: Wenn Sie ein körperliches Gebrechen haben, verschreibt Ihnen Ihre Ärztin oder Ihr Arzt die notwendigen Hilfsmittel. Die ÖGK prüft und bewilligt diesen Antrag. Antragsformulare bekommen Sie bei den Krankenanstalten, Ärztinnen und Ärzten sowie in den Kundenservicestellen der ÖGK.",
-        "zitate_ablauf": [
-         "Personen, die aufgrund von Bestimmungen im Kriegsopferversorgungsgesetz, Heeresversorgungsgesetz oder Opferfürsorgegesetz der ÖGK zugeteilt sind. hilfsmittel Ob Prothesen oder Rollstühle, die ÖGK unterstützt mit Hilfsmitteln: Wenn Sie ein körperliches Gebrechen haben, verschreibt Ihnen Ihre Ärztin oder Ihr Arzt die notwendigen Hilfsmittel.",
-         "Die ÖGK prüft und bewilligt diesen Antrag.",
-         "Antragsformulare bekommen Sie bei den Krankenanstalten, Ärztinnen und Ärzten sowie in den Kundenservicestellen der ÖGK."
-        ]
-       }
-      },
-      {
-       "quelle_url": "https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/medizinische-rehabilitation.html",
-       "source_id": "gesundheit_gv",
-       "stand": "2022-06-27",
-       "value": {
-        "formular_id": null,
-        "online_url": null,
-        "wo": "Für die Erbringung der medizinischen Rehabilitation kommen unterschiedliche Versicherungsträger infrage:\n• Unfallversicherungsträger (z.B. AUVA)\n• Pensionsversicherungsträger (z.B."
-       }
-      }
-     ]
-    }
-   ],
+   "konflikte": [],
    "stand": "2026-11-06"
   },
   {
@@ -17466,132 +17512,6 @@
    ],
    "konflikte": [],
    "stand": "2022-06-27"
-  },
-  {
-   "_entschieden": {},
-   "_raw_ids": [
-    "rehabilitation"
-   ],
-   "_varianten": {},
-   "abhaengigkeiten": [
-    "uebergangsgeld",
-    "rehabilitationsgeld"
-   ],
-   "antrag": {
-    "formular_id": "pva_antrag_kur_reha",
-    "formular_ids": [
-     "pva_antrag_kur_reha",
-     "pva_ahv_reha_nach_unfall",
-     "pva_gvr001_uebergangsgeld"
-    ],
-    "online_url": null,
-    "wo": "Formular „Antrag auf Rehabilitations-, Kur- bzw. Erholungsaufenthalt“ (ärztlich auszufüllen) an die zuständige Landesstelle."
-   },
-   "bereich": [
-    "C"
-   ],
-   "bundesland": [
-    "AT"
-   ],
-   "confidence": "hoch",
-   "fristen": [
-    "Bitte kontaktieren Sie die Einrichtung innerhalb von 6 Wochen nach Erhalt des Schreibens, um den Termin zu bestätigen.",
-    "Bitte Warten Sie die schriftliche Verständigung unbedingt ab!",
-    "Sollte sich Ihr Gesundheitszustand wesentlich ändern, können Sie einen neuen Antrag stellen, der erneut geprüft wird.",
-    "Eine ambulante Rehabilitation dauert grundsätzlich zwischen 6 bis 10 Wochen."
-   ],
-   "innerhalb_sv": true,
-   "kosten": "Bei genehmigten Aufenthalten werden die vertraglich vereinbarten Kosten von der Pensionsversicherung (PV) übernommen. Selbst bezahlen müssen Sie eine einkommensabhängige Zuzahlung sowie die Tourismusabgabe (auch Kur- oder Ortstaxe genannt). Bei einer ambulanten Reha ist keine Zuzahlung erforderlich. Wenn Sie sehr wenig verdienen, ist eine Befreiung möglich. Kosten für Aufenthalte ohne vorherige Bewilligung durch die Pensionsversicherung werden grundsätzlich nicht übernommen.",
-   "kurz_einfach": "Reha nach einem akuten Ereignis oder bei schweren chronischen Erkrankungen. Die Ärztin oder der Arzt stellt den Antrag gemeinsam mit Ihnen bei der Landesstelle der Pensionsversicherung.",
-   "leistung_id": "rehabilitation",
-   "name": "Medizinische Rehabilitation (PVA)",
-   "quellen": [
-    {
-     "source_id": "pva",
-     "stand": "2026-05-19",
-     "url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation"
-    },
-    {
-     "source_id": "pva",
-     "stand": "2026-08-14",
-     "url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur"
-    },
-    {
-     "source_id": "pva",
-     "stand": "2026-10-05",
-     "url": "https://www.pv.at/web/reha-und-praevention/reha-zentren"
-    },
-    {
-     "source_id": "pva",
-     "stand": "2026-10-16",
-     "url": "https://www.pv.at/web/reha-und-praevention/information-fuer-zuweisende-aerztinnen-und-aerzte"
-    },
-    {
-     "source_id": "pva",
-     "stand": "2026-10-09",
-     "url": "https://www.pv.at/web/reha-und-praevention/rehabilitation-und-praevention-leicht-erklaert"
-    },
-    {
-     "source_id": "pva",
-     "stand": "2026-10-16",
-     "url": "https://www.pv.at/web/medizinische-begutachtung"
-    }
-   ],
-   "traeger": [
-    "PVA"
-   ],
-   "trigger_im_dokument": [
-    "Rehabilitation",
-    "Reha",
-    "Reha-Antrag",
-    "Rehabilitationszentrum",
-    "ambulante Reha",
-    "stationäre Reha"
-   ],
-   "unterlagen": [
-    "Antrag ausfüllen & unterschreiben: Der Antrag muss vollständig von Ihrer Ärztin*Ihrem Arzt ausgefüllt und unterschrieben werden.",
-    "Der Antrag muss über Ihre*n behandelnde*n Ärztin*Arzt vollständig ausgefüllt und unterschrieben an die zuständige Landesstelle übermittelt werden.",
-    "Für eine ambulante Reha muss im Antrag das Feld „ ambulante Rehabilitation “ angekreuzt werden.",
-    "Bitte bringen Sie zum Termin unbedingt einen Identitätsnachweis (z. B. Führerschein, Reisepass, Personalausweis) mit."
-   ],
-   "voraussetzungen": [
-    {
-     "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
-     "source_id": "pva",
-     "stand": "2026-10-16",
-     "text": "Medizinische Rehabilitationsmaßnahmen erfolgen im Anschluss an ein akutes medizinisches Ereignis (z. B. nach Operationen) oder bei schweren chronischen Erkrankungen.",
-     "zitat": "Medizinische Rehabilitationsmaßnahmen erfolgen im Anschluss an ein akutes medizinisches Ereignis (z. B. nach Operationen) oder bei schweren chronischen Erkrankungen."
-    },
-    {
-     "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
-     "source_id": "pva",
-     "stand": "2026-10-16",
-     "text": "Den Antrag müssen Sie gemeinsam mit Ihrer*Ihrem behandelnden Ärztin*Arzt stellen.",
-     "zitat": "Den Antrag müssen Sie gemeinsam mit Ihrer*Ihrem behandelnden Ärztin*Arzt stellen."
-    },
-    {
-     "quelle_url": "https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur",
-     "source_id": "pva",
-     "stand": "2026-10-16",
-     "text": "Medizinische Notwendigkeit: Ihr*e behandelnde*r Ärztin*Arzt muss die Notwendigkeit für die Rehabilitation medizinisch begründen (Diagnose/Indikation).",
-     "zitat": "Medizinische Notwendigkeit: Ihr*e behandelnde*r Ärztin*Arzt muss die Notwendigkeit für die Rehabilitation medizinisch begründen (Diagnose/Indikation)."
-    },
-    {
-     "quelle_url": "https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation",
-     "source_id": "pva",
-     "stand": "2026-10-16",
-     "text": "Die Pensionsversicherung (PV) beurteilt die medizinische Notwendigkeit und Dringlichkeit.",
-     "zitat": "Die Pensionsversicherung (PV) beurteilt die medizinische Notwendigkeit und Dringlichkeit."
-    }
-   ],
-   "zielgruppe": "Versicherte und Pensionist:innen der PVA; Antrag über die behandelnde Ärztin bzw. den behandelnden Arzt.",
-   "zustaendig": "Landesstelle der PVA nach Wohnort; die PV ermittelt den zuständigen Versicherungsträger.",
-   "review_status": "kandidat",
-   "sources": [
-    "pva"
-   ],
-   "konflikte": [],
-   "stand": "2026-10-16"
   },
   {
    "_entschieden": {},
@@ -18594,14 +18514,6 @@
      "stand": "2026-01-01",
      "text": "Staaten, mit denen Österreich kein Sozialversicherungsabkommen hat Wenn Sie Ihren Urlaub in einem Staat verbringen, mit dem Österreich kein Sozialversicherungsabkommen hat oder wenn Sie für die Krankenbehandlung keine Vertragspartnerin bzw. keinen Vertragspartner in Anspruch nehmen, müssen Sie die Kosten zunächst selbst bezahlen.",
      "zitat": "Staaten, mit denen Österreich kein Sozialversicherungsabkommen hat Wenn Sie Ihren Urlaub in einem Staat verbringen, mit dem Österreich kein Sozialversicherungsabkommen hat oder wenn Sie für die Krankenbehandlung keine Vertragspartnerin bzw. keinen Vertragspartner in Anspruch nehmen, müssen Sie die Kosten zunächst selbst bezahlen."
-    },
-    {
-     "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-     "seite": "PDF 22–23",
-     "source_id": "svbox_local",
-     "stand": "2026-01-01",
-     "text": "Wird im Jahr 2026 notwendige Anstaltspflege im Ausland in Anspruch genommen, gebührt ein Pflegekostenzuschuss in der Höhe von 435,81 Euro pro Tag.",
-     "zitat": "Wird im Jahr 2026 notwendige Anstaltspflege im Ausland in Anspruch genommen, gebührt ein Pflegekostenzuschuss in der Höhe von 435,81 Euro pro Tag."
     },
     {
      "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
@@ -21802,8 +21714,8 @@
       "value": {
        "formular_id": "oegk_aktuellen_erstattungssaetze",
        "formular_ids": [
-        "oegk_kostenerstattungslisten",
-        "oegk_antrag_auf_zuschuss_zu_fahrtkosten",
+        "oegk_aktuellen_erstattungssaetze",
+        "oegk_fahrtkosten_wien",
         "oegk_kostenzuschuss_psychotherapeutische_behandlung"
        ],
        "online_url": "https://meine.oegk.at",
@@ -21867,8 +21779,8 @@
    "antrag": {
     "formular_id": "oegk_aktuellen_erstattungssaetze",
     "formular_ids": [
-     "oegk_kostenerstattungslisten",
-     "oegk_antrag_auf_zuschuss_zu_fahrtkosten",
+     "oegk_aktuellen_erstattungssaetze",
+     "oegk_fahrtkosten_wien",
      "oegk_kostenzuschuss_psychotherapeutische_behandlung"
     ],
     "online_url": "https://meine.oegk.at",
@@ -23331,6 +23243,15 @@
    "_varianten": {
     "antrag": [
      {
+      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=41",
+      "source_id": "seed",
+      "stand": "2026-11-05",
+      "value": {
+       "formular_id": null,
+       "wo": "Die Vertragszahnärztin bzw. der Vertragszahnarzt stellt den „Antrag auf Kostenübernahme für Zahnersatz“ aus."
+      }
+     },
+     {
       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.870472&portal=oegkportal",
       "source_id": "oegk",
       "stand": "2026-11-05",
@@ -23357,10 +23278,10 @@
     ],
     "kosten": [
      {
-      "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.870472&portal=oegkportal",
-      "source_id": "oegk",
+      "quelle_url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=41",
+      "source_id": "seed",
       "stand": "2026-11-05",
-      "value": "Innerhalb der ersten acht Wochen nach Übergabe einer zur Dauerversorgung dienenden Totalprothese werden alle Kontrollen und notwendigen Änderungen kostenlos von Vertragszahnärztinnen und Vertragszahnärzten durchgeführt (z.B. Für verlorene oder nicht durch normalen Gebrauch beschädigte Zahnersatzstücke übernimmt die ÖGK vor Ablauf der Vier- bzw. Für folgende Zahnersatzleistungen werden von der ÖGK 75 Prozent der tariflichen Kosten übernommen, wenn diese von einer Vertragszahnärztin oder einem Vertragszahnarzt erbracht werden:"
+      "value": "Ab 01.05.2026: 30 Prozent der tariflichen Kosten als Selbstbehalt bei Vertragszahnärztin/Vertragszahnarzt, 20 Prozent für rezeptgebührenbefreite Personen."
      },
      {
       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
@@ -23400,9 +23321,7 @@
    },
    "antrag": {
     "formular_id": null,
-    "formular_ids": [],
-    "online_url": null,
-    "wo": "Ihre Vertragszahnärztin oder Ihr Vertragszahnarzt stellt in der Regel den Antrag für Sie."
+    "wo": "Die Vertragszahnärztin bzw. der Vertragszahnarzt stellt den „Antrag auf Kostenübernahme für Zahnersatz“ aus."
    },
    "bereich": [
     "C"
@@ -23418,13 +23337,19 @@
     "Teilkunststoffprothesen: nach vier Jahren"
    ],
    "innerhalb_sv": true,
-   "kosten": "Innerhalb der ersten acht Wochen nach Übergabe einer zur Dauerversorgung dienenden Totalprothese werden alle Kontrollen und notwendigen Änderungen kostenlos von Vertragszahnärztinnen und Vertragszahnärzten durchgeführt (z.B. Für verlorene oder nicht durch normalen Gebrauch beschädigte Zahnersatzstücke übernimmt die ÖGK vor Ablauf der Vier- bzw. Für folgende Zahnersatzleistungen werden von der ÖGK 75 Prozent der tariflichen Kosten übernommen, wenn diese von einer Vertragszahnärztin oder einem Vertragszahnarzt erbracht werden:",
+   "kosten": "Ab 01.05.2026: 30 Prozent der tariflichen Kosten als Selbstbehalt bei Vertragszahnärztin/Vertragszahnarzt, 20 Prozent für rezeptgebührenbefreite Personen.",
    "kurz_einfach": "Man unterscheidet abnehmbaren und festsitzenden Zahnersatz: Zum abnehmbaren Zahnersatz gehören Vollprothesen und Teilprothesen aus Metall oder Kunststoff.",
    "leistung_id": "zahnersatz",
    "name": "Zahnersatz",
    "quellen": [
     {
-     "source_id": "oegk",
+     "source_id": "seed",
+     "stand": "2026-01-01",
+     "titel": "ÖGK – Leistungen und Services 2026 (SV-Box)",
+     "url": "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf#page=41"
+    },
+    {
+     "source_id": "seed",
      "stand": "2026-11-05",
      "url": "https://www.oegk.at/cdscontent/?contentid=10007.870472&portal=oegkportal"
     },
@@ -23436,7 +23361,9 @@
     }
    ],
    "traeger": [
-    "ÖGK"
+    "ÖGK",
+    "SVS",
+    "BVAEB"
    ],
    "trigger_im_dokument": [
     "Zahnersatz"
@@ -23510,31 +23437,13 @@
     }
    ],
    "zustaendig": "Für weitere Informationen wenden Sie sich bitte an Ihre regionalen Ansprechpartner .",
-   "review_status": "konflikt",
+   "review_status": "kuratiert+quellen",
    "sources": [
     "oegk",
+    "seed",
     "svbox_local"
    ],
-   "konflikte": [
-    {
-     "art": "zahlen_abweichend",
-     "feld": "kosten",
-     "varianten": [
-      {
-       "quelle_url": "https://www.oegk.at/cdscontent/?contentid=10007.870472&portal=oegkportal",
-       "source_id": "oegk",
-       "stand": "2026-11-05",
-       "value": "Innerhalb der ersten acht Wochen nach Übergabe einer zur Dauerversorgung dienenden Totalprothese werden alle Kontrollen und notwendigen Änderungen kostenlos von Vertragszahnärztinnen und Vertragszahnärzten durchgeführt (z.B. Für verlorene oder nicht durch normalen Gebrauch beschädigte Zahnersatzstücke übernimmt die ÖGK vor Ablauf der Vier- bzw. Für folgende Zahnersatzleistungen werden von der ÖGK 75 Prozent der tariflichen Kosten übernommen, wenn diese von einer Vertragszahnärztin oder einem Vertragszahnarzt erbracht werden:"
-      },
-      {
-       "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-       "source_id": "svbox_local",
-       "stand": "2026-01-01",
-       "value": "30 Prozent der tariflichen Kosten bezahlen Sie als Selbstbehalt bei der Behandlung durch eine Vertragszahnärztin oder einen Vertragszahnarzt bzw. 20 Prozent, falls Sie von der Rezeptgebühr befreit sind."
-      }
-     ]
-    }
-   ],
+   "konflikte": [],
    "stand": "2026-11-05"
   },
   {
@@ -23837,14 +23746,6 @@
      "seite": "PDF 39–40",
      "source_id": "svbox_local",
      "stand": "2026-01-01",
-     "text": "erhalten von der ÖGK eine Kostenerstattung in der Höhe von 80 Prozent der entsprechenden Vertragstarife.",
-     "zitat": "erhalten von der ÖGK eine Kostenerstattung in der Höhe von 80 Prozent der entsprechenden Vertragstarife."
-    },
-    {
-     "quelle_url": "file:_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf",
-     "seite": "PDF 39–40",
-     "source_id": "svbox_local",
-     "stand": "2026-01-01",
      "text": "Kieferorthopädie und Zahnspangen Durch den regelmäßigen Besuch bei Ihrer Zahnärztin oder Ihrem Zahnarzt werden Zahnfehlstellungen rechtzeitig erkannt.",
      "zitat": "Kieferorthopädie und Zahnspangen Durch den regelmäßigen Besuch bei Ihrer Zahnärztin oder Ihrem Zahnarzt werden Zahnfehlstellungen rechtzeitig erkannt."
     },
@@ -23907,28 +23808,21 @@
  "kanten": [
   {
    "von": "pflegegeld",
-   "nach": "rehabilitation",
+   "nach": "reha_medizinisch",
    "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
   },
   {
    "von": "pflegegeld",
-   "nach": "pflegekarenzgeld",
-   "typ": "verwandt",
-   "source_id": "pva",
-   "dangling": 0
-  },
-  {
-   "von": "pflegegeld",
-   "nach": "angehoerigenbonus",
+   "nach": "pflegekarenz",
    "typ": "verwandt",
    "source_id": "oesterreich_gv",
    "dangling": 0
   },
   {
    "von": "pflegegeld",
-   "nach": "pflegekarenz",
+   "nach": "angehoerigenbonus",
    "typ": "verwandt",
    "source_id": "oesterreich_gv",
    "dangling": 0
@@ -24000,7 +23894,7 @@
    "von": "pflegekarenz",
    "nach": "pflegegeld",
    "typ": "setzt_voraus",
-   "source_id": "seed,oesterreich_gv",
+   "source_id": "seed,sozialministeriumservice,oesterreich_gv,pva",
    "dangling": 0
   },
   {
@@ -24012,9 +23906,9 @@
   },
   {
    "von": "pflegekarenz",
-   "nach": "oegv_form_1002",
+   "nach": "sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit",
    "typ": "antrag_formular",
-   "source_id": "linkcheck,oesterreich_gv",
+   "source_id": "linkcheck,sozialministeriumservice",
    "dangling": 0
   },
   {
@@ -24082,7 +23976,7 @@
   },
   {
    "von": "reha_onkologisch",
-   "nach": "rehabilitation",
+   "nach": "reha_medizinisch",
    "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
@@ -24103,7 +23997,7 @@
   },
   {
    "von": "anschlussheilverfahren",
-   "nach": "rehabilitation",
+   "nach": "reha_medizinisch",
    "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
@@ -24131,9 +24025,51 @@
   },
   {
    "von": "heilbehelfe_hilfsmittel",
-   "nach": "oegk_augenoptik_unmittelbare_verordnung",
+   "nach": "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
    "typ": "antrag_formular",
    "source_id": "linkcheck,oegk",
+   "dangling": 0
+  },
+  {
+   "von": "reha_medizinisch",
+   "nach": "uebergangsgeld",
+   "typ": "verwandt",
+   "source_id": "pva",
+   "dangling": 0
+  },
+  {
+   "von": "reha_medizinisch",
+   "nach": "rehabilitationsgeld",
+   "typ": "verwandt",
+   "source_id": "pva",
+   "dangling": 0
+  },
+  {
+   "von": "reha_medizinisch",
+   "nach": "antrag_reha_kur",
+   "typ": "antrag_formular",
+   "source_id": "bvaeb,linkcheck,oegk,oesterreich_gv,seed,svbox_local,svs",
+   "dangling": 0
+  },
+  {
+   "von": "medizinische_hauskrankenpflege",
+   "nach": "pflegegeld",
+   "typ": "verwandt",
+   "source_id": "fsw",
+   "dangling": 0
+  },
+  {
+   "von": "kinderbetreuungsgeld",
+   "nach": "familienbeihilfe",
+   "typ": "verwandt",
+   "source_id": "oesterreich_gv",
+   "dangling": 0
+  },
+  {
+   "von": "kinderbetreuungsgeld",
+   "nach": "wochengeld",
+   "typ": "verwandt",
+   "source_id": "oegk",
    "dangling": 0
   },
   {
@@ -24155,13 +24091,6 @@
    "nach": "vorsorgeuntersuchung",
    "typ": "setzt_voraus",
    "source_id": "seed,svs",
-   "dangling": 0
-  },
-  {
-   "von": "reha_medizinisch",
-   "nach": "sms_acc_20_u_fonds_antragsformular_fertig",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,oesterreich_gv,sozialministeriumservice",
    "dangling": 0
   },
   {
@@ -24225,20 +24154,6 @@
    "nach": "fsw_antrag_foerderung",
    "typ": "antrag_formular",
    "source_id": "fsw,linkcheck,seed,svbox_local",
-   "dangling": 0
-  },
-  {
-   "von": "medizinische_hauskrankenpflege",
-   "nach": "pflegegeld",
-   "typ": "verwandt",
-   "source_id": "fsw",
-   "dangling": 0
-  },
-  {
-   "von": "medizinische_hauskrankenpflege",
-   "nach": "fsw_antrag_foerderung",
-   "typ": "antrag_formular",
-   "source_id": "fsw,oegk,svbox_local",
    "dangling": 0
   },
   {
@@ -24585,27 +24500,6 @@
    "dangling": 0
   },
   {
-   "von": "kinderbetreuungsgeld",
-   "nach": "familienbeihilfe",
-   "typ": "verwandt",
-   "source_id": "oesterreich_gv",
-   "dangling": 0
-  },
-  {
-   "von": "kinderbetreuungsgeld",
-   "nach": "wochengeld",
-   "typ": "verwandt",
-   "source_id": "oegk",
-   "dangling": 0
-  },
-  {
-   "von": "kinderbetreuungsgeld",
-   "nach": "bvaeb_422efd0a45",
-   "typ": "antrag_formular",
-   "source_id": "bvaeb,linkcheck,oegk,oesterreich_gv",
-   "dangling": 0
-  },
-  {
    "von": "versicherung_pflegende_angehoerige",
    "nach": "mitversicherung_angehoerige",
    "typ": "verwandt",
@@ -24648,29 +24542,8 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
-   "nach": "uebergangsgeld",
-   "typ": "verwandt",
-   "source_id": "pva",
-   "dangling": 0
-  },
-  {
-   "von": "rehabilitation",
-   "nach": "rehabilitationsgeld",
-   "typ": "verwandt",
-   "source_id": "pva",
-   "dangling": 0
-  },
-  {
-   "von": "rehabilitation",
-   "nach": "pva_antrag_kur_reha",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,pva",
-   "dangling": 0
-  },
-  {
    "von": "uebergangsgeld",
-   "nach": "rehabilitation",
+   "nach": "reha_medizinisch",
    "typ": "verwandt",
    "source_id": "pva",
    "dangling": 0
@@ -24687,20 +24560,6 @@
    "nach": "pva_gvr001_uebergangsgeld",
    "typ": "antrag_formular",
    "source_id": "linkcheck,pva",
-   "dangling": 0
-  },
-  {
-   "von": "pflegekarenzgeld",
-   "nach": "pflegegeld",
-   "typ": "verwandt",
-   "source_id": "sozialministeriumservice,pva",
-   "dangling": 0
-  },
-  {
-   "von": "pflegekarenzgeld",
-   "nach": "sms_antrag_pflegekarenzgeld_kinderreha",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,sozialministeriumservice",
    "dangling": 0
   },
   {
@@ -24803,20 +24662,6 @@
   },
   {
    "von": "reha_medizinisch",
-   "nach": "antrag_reha_kur",
-   "typ": "antrag_formular",
-   "source_id": "bvaeb,linkcheck,oegk,oesterreich_gv,seed,svbox_local,svs",
-   "dangling": 0
-  },
-  {
-   "von": "reha_medizinisch",
-   "nach": "antrag_ahv_reha_unfall",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,pva,seed,svbox_local",
-   "dangling": 0
-  },
-  {
-   "von": "rehabilitation",
    "nach": "antrag_ahv_reha_unfall",
    "typ": "antrag_formular",
    "source_id": "linkcheck,pva,seed,svbox_local",
@@ -25139,6 +24984,13 @@
   },
   {
    "von": "kinderbetreuungsgeld",
+   "nach": "bvaeb_422efd0a45",
+   "typ": "antrag_formular",
+   "source_id": "bvaeb,linkcheck,oegk,oesterreich_gv",
+   "dangling": 0
+  },
+  {
+   "von": "kinderbetreuungsgeld",
    "nach": "bvaeb_47c564ebf1",
    "typ": "antrag_formular",
    "source_id": "bvaeb,linkcheck,oesterreich_gv",
@@ -25376,27 +25228,6 @@
    "dangling": 0
   },
   {
-   "von": "krankengeld",
-   "nach": "oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,oegk",
-   "dangling": 0
-  },
-  {
-   "von": "krankengeld",
-   "nach": "oegk_ausfuellhilfe_antrag_verbaende_und_kontaktstellen",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,oegk",
-   "dangling": 0
-  },
-  {
-   "von": "krankengeld",
-   "nach": "oegk_ausschluss_doppelfoerderung",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,oegk",
-   "dangling": 0
-  },
-  {
    "von": "zahnbehandlung",
    "nach": "oegk_kieferorthopaedie_vertragspartner_innen",
    "typ": "antrag_formular",
@@ -25425,15 +25256,8 @@
    "dangling": 0
   },
   {
-   "von": "krankengeld",
-   "nach": "oegk_augenoptik_unmittelbare_verordnung",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,oegk",
-   "dangling": 0
-  },
-  {
    "von": "heilbehelfe_hilfsmittel",
-   "nach": "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
+   "nach": "oegk_augenoptik_unmittelbare_verordnung",
    "typ": "antrag_formular",
    "source_id": "linkcheck,oegk",
    "dangling": 0
@@ -25552,6 +25376,13 @@
   },
   {
    "von": "pflegekarenz",
+   "nach": "oegv_form_1002",
+   "typ": "antrag_formular",
+   "source_id": "linkcheck,oesterreich_gv",
+   "dangling": 0
+  },
+  {
+   "von": "pflegekarenz",
    "nach": "oegv_form_1008",
    "typ": "antrag_formular",
    "source_id": "linkcheck,oesterreich_gv",
@@ -25604,6 +25435,13 @@
    "nach": "oegv_form_459",
    "typ": "antrag_formular",
    "source_id": "linkcheck,oesterreich_gv",
+   "dangling": 0
+  },
+  {
+   "von": "reha_medizinisch",
+   "nach": "sms_acc_20_u_fonds_antragsformular_fertig",
+   "typ": "antrag_formular",
+   "source_id": "linkcheck,oesterreich_gv,sozialministeriumservice",
    "dangling": 0
   },
   {
@@ -25747,10 +25585,24 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
+   "nach": "pva_antrag_kur_reha",
+   "typ": "antrag_formular",
+   "source_id": "linkcheck,pva",
+   "dangling": 0
+  },
+  {
+   "von": "reha_medizinisch",
    "nach": "pva_gvr001_uebergangsgeld",
    "typ": "antrag_formular",
    "source_id": "linkcheck,pva",
+   "dangling": 0
+  },
+  {
+   "von": "pflegekarenz",
+   "nach": "sms_antrag_pflegekarenzgeld_kinderreha",
+   "typ": "antrag_formular",
+   "source_id": "linkcheck,sozialministeriumservice",
    "dangling": 0
   },
   {
@@ -25817,15 +25669,8 @@
    "dangling": 0
   },
   {
-   "von": "pflegekarenzgeld",
+   "von": "pflegekarenz",
    "nach": "sms_pflege_pflegekarenzgeld_familienhospizkarenz_antrag_bundeswe",
-   "typ": "antrag_formular",
-   "source_id": "linkcheck,sozialministeriumservice",
-   "dangling": 0
-  },
-  {
-   "von": "pflegekarenzgeld",
-   "nach": "sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit",
    "typ": "antrag_formular",
    "source_id": "linkcheck,sozialministeriumservice",
    "dangling": 0
@@ -28869,7 +28714,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_pv_zar_graz",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -28897,7 +28742,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_pv_zar_wien",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -28925,7 +28770,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_aflenz",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -28946,7 +28791,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_alland",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -28967,7 +28812,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_bad_aussee",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -28988,7 +28833,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_bad_hofgastein",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29009,7 +28854,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_bad_ischl",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29030,7 +28875,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_bad_schallerbach",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29058,7 +28903,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_bad_tatzmannsdorf",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29079,7 +28924,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_felbring",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29100,7 +28945,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_groebming",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29121,7 +28966,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_grossgmain",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29142,7 +28987,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_hochegg",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29163,7 +29008,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_laab_im_walde",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29184,7 +29029,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_saalfelden",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29205,7 +29050,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_st_radegund",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29226,7 +29071,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_reha_reha_zentrum_weyer",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29254,7 +29099,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_landesstelle_wien",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29303,7 +29148,7 @@
    "dangling": 0
   },
   {
-   "von": "rehabilitation",
+   "von": "reha_medizinisch",
    "nach": "pva_kundenservice_telefon",
    "typ": "zustaendige_stelle",
    "source_id": "pva",
@@ -29387,7 +29232,7 @@
    "dangling": 0
   },
   {
-   "von": "pflegekarenzgeld",
+   "von": "pflegekarenz",
    "nach": "sms_landesstelle_wien",
    "typ": "zustaendige_stelle",
    "source_id": "sozialministeriumservice",
@@ -29436,7 +29281,7 @@
    "dangling": 0
   },
   {
-   "von": "pflegekarenzgeld",
+   "von": "pflegekarenz",
    "nach": "sms_hotline",
    "typ": "zustaendige_stelle",
    "source_id": "sozialministeriumservice",
@@ -29772,6 +29617,13 @@
    "dangling": 0
   },
   {
+   "von": "unterstuetzungsfonds",
+   "nach": "unterstuetzungsfonds_behinderung",
+   "typ": "nicht_verwechseln_mit",
+   "source_id": "taxonomie",
+   "dangling": 0
+  },
+  {
    "von": "rehabilitationsgeld",
    "nach": "reha_medizinisch",
    "typ": "nicht_verwechseln_mit",
@@ -29936,6 +29788,13 @@
    "von": "patientenverfuegung",
    "nach": "vorsorgevollmacht",
    "typ": "nicht_verwechseln_mit",
+   "source_id": "taxonomie",
+   "dangling": 0
+  },
+  {
+   "von": "angehoerigen_unterstuetzung_ersatzpflege",
+   "nach": "pflegende_angehoerige_unterstuetzung",
+   "typ": "teil_von",
    "source_id": "taxonomie",
    "dangling": 0
   }
@@ -33778,13 +33637,13 @@
   },
   {
    "stelle_id": "ggv_050_7661_65400",
-   "name": "050 7661 65400",
+   "name": "Mein Gesundheitszentrum Klagenfurt der ÖGK",
    "typ": "beratung",
    "adresse": null,
    "plz": null,
    "bundesland": "AT",
-   "telefon": null,
-   "url": "https://www.google.com/search?q=Mein+Gesundheitszentrum+Klagenfurt+der+%C3%96GK&rlz=1C1GCEA_enAT1057AT1057&oq=Mein+Gesundheitszentrum+Klagenfurt+der+%C3%96GK&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIKCAIQIRgWGB0YHtIBCDU5N2owajE1qAIAsAIA&sourceid=chrome&ie=UTF-8",
+   "telefon": "050 7661 65400",
+   "url": null,
    "zustaendig_fuer": "[]",
    "quelle_url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesundheitsvorsorge1/impfen.html",
    "source_id": "gesundheit_gv"
@@ -33934,13 +33793,13 @@
   },
   {
    "stelle_id": "ggv_050_7661_55543",
-   "name": "050 7661 55543",
+   "name": "Mein Gesundheitszentrum Graz der ÖGK",
    "typ": "beratung",
    "adresse": null,
    "plz": null,
    "bundesland": "AT",
-   "telefon": null,
-   "url": "https://www.google.com/search?q=Mein+Gesundheitszentrum+Graz+der+%C3%96GK&sca_esv=572195928&rlz=1C1GCEA_enAT1057AT1057&ei=Iz0lZfuJFeaO9u8PgbehmAI&ved=0ahUKEwi7p5LBt-uBAxVmh_0HHYFbCCMQ4dUDCBA&uact=5&oq=Mein+Gesundheitszentrum+Graz+der+%C3%96GK&gs_lp=Egxnd3Mtd2l6LXNlcnAiJU1laW4gR2VzdW5kaGVpdHN6ZW50cnVtIEdyYXogZGVyIMOWR0syBRAhGKABSKYHUIEDWIEDcAF4AZABAJgBigGgAYoBqgEDMC4xuAEDyAEA-AEB-AECqAIUwgIdEAAYigUY5QIY5QIY6gIYtAIYigMYtwMY1APYAQHCAhYQABgDGI8BGOUCGOoCGLQCGIwD2AECwgIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAuIDBBgAIEGIBgG6BgQIARgHugYGCAIQARgK&sclient=gws-wiz-serp",
+   "telefon": "050 7661 55543",
+   "url": null,
    "zustaendig_fuer": "[]",
    "quelle_url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesundheitsvorsorge1/impfen.html",
    "source_id": "gesundheit_gv"
@@ -34012,13 +33871,13 @@
   },
   {
    "stelle_id": "ggv_050_7661_140200",
-   "name": "050 7661 140200",
+   "name": "Mein Gesundheitszentrum Wien Floridsdorf",
    "typ": "beratung",
    "adresse": null,
    "plz": null,
    "bundesland": "AT",
-   "telefon": null,
-   "url": "https://www.google.com/search?q=Mein+Gesundheitszentrum+Wien+Floridsdorf&sca_esv=572195928&rlz=1C1GCEA_enAT1057AT1057&ei=hz0lZcv5IqKH9u8P4cip2AM&ved=0ahUKEwiL2ffwt-uBAxWig_0HHWFkCjsQ4dUDCBA&uact=5&oq=Mein+Gesundheitszentrum+Wien+Floridsdorf&gs_lp=Egxnd3Mtd2l6LXNlcnAiKE1laW4gR2VzdW5kaGVpdHN6ZW50cnVtIFdpZW4gRmxvcmlkc2RvcmYyAhAmSLEGUJsCWJsCcAF4AZABAJgBSKABSKoBATG4AQPIAQD4AQH4AQKoAhLCAh0QABiKBRjlAhjlAhjqAhi0AhiKAxi3AxjUA9gBAcICIxAuGIoFGOUCGOUCGMcBGK8BGOoCGLQCGIoDGLcDGNQD2AEBwgIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAsICFhAAGAMYjwEY5QIY6gIYtAIYjAPYAQLiAwQYACBBiAYBugYECAEYB7oGBggCEAEYCg&sclient=gws-wiz-serp",
+   "telefon": "050 7661 140200",
+   "url": null,
    "zustaendig_fuer": "[]",
    "quelle_url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesundheitsvorsorge1/impfen.html",
    "source_id": "gesundheit_gv"
@@ -34038,13 +33897,13 @@
   },
   {
    "stelle_id": "ggv_050_7661_140300",
-   "name": "050 7661 140300",
+   "name": "Mein Gesundheitszentrum Wien Landstraße",
    "typ": "beratung",
    "adresse": null,
    "plz": null,
    "bundesland": "AT",
-   "telefon": null,
-   "url": "https://www.google.com/search?q=%0D%0AMein+Gesundheitszentrum+Wien+Landstra%C3%9Fe%0D%0A&sca_esv=572195928&rlz=1C1GCEA_enAT1057AT1057&ei=jT0lZfHVIvT87_UPutGBsA0&ved=0ahUKEwix0OXzt-uBAxV0_rsIHbpoANYQ4dUDCBA&uact=5&oq=%0D%0AMein+Gesundheitszentrum+Wien+Landstra%C3%9Fe%0D%0A&gs_lp=Egxnd3Mtd2l6LXNlcnAiKgpNZWluIEdlc3VuZGhlaXRzemVudHJ1bSBXaWVuIExhbmRzdHJhw59lCjIdEAAYigUY5QIY5QIY6gIYtAIYigMYtwMY1APYAQEyHRAAGIoFGOUCGOUCGOoCGLQCGIoDGLcDGNQD2AEBMh0QABiKBRjlAhjlAhjqAhi0AhiKAxi3AxjUA9gBATIdEAAYigUY5QIY5QIY6gIYtAIYigMYtwMY1APYAQEyHRAAGIoFGOUCGOUCGOoCGLQCGIoDGLcDGNQD2AEBMh0QABiKBRjlAhjlAhjqAhi0AhiKAxi3AxjUA9gBATIdEAAYigUY5QIY5QIY6gIYtAIYigMYtwMY1APYAQEyHRAAGIoFGOUCGOUCGOoCGLQCGIoDGLcDGNQD2AEBMh0QABiKBRjlAhjlAhjqAhi0AhiKAxi3AxjUA9gBATIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAjIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAjIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAjIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAjIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAjIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAjIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAjIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAjIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAjIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAki2CFCJBFiJBHACeAGQAQCYAQCgAQCqAQC4AQPIAQD4AQH4AQKoAhPiAwQYACBBiAYBugYECAEYB7oGBggCEAEYCg&sclient=gws-wiz-serp",
+   "telefon": "050 7661 140300",
+   "url": null,
    "zustaendig_fuer": "[]",
    "quelle_url": "https://www.gesundheit.gv.at/service/beratungsstellen/gesund-leben/gesundheitsvorsorge1/impfen.html",
    "source_id": "gesundheit_gv"
@@ -42053,7 +41912,7 @@
    "bundesland": "ST",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/PV_ZAR_Graz",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"reha_onkologisch\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"reha_onkologisch\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42066,7 +41925,7 @@
    "bundesland": "W",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/PV_ZAR_Wien",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"reha_onkologisch\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"reha_onkologisch\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42079,7 +41938,7 @@
    "bundesland": "ST",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Aflenz",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42092,7 +41951,7 @@
    "bundesland": "NÖ",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Alland",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42105,7 +41964,7 @@
    "bundesland": "ST",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Bad_Aussee",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42118,7 +41977,7 @@
    "bundesland": "S",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Bad_Hofgastein",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42131,7 +41990,7 @@
    "bundesland": "OÖ",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Bad_Ischl",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42144,7 +42003,7 @@
    "bundesland": "OÖ",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Rehazentrum_Bad_Schallerbach",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"reha_onkologisch\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"reha_onkologisch\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42157,7 +42016,7 @@
    "bundesland": "B",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Bad_Tatzmannsdorf",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42170,7 +42029,7 @@
    "bundesland": "NÖ",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Felbring",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42183,7 +42042,7 @@
    "bundesland": "ST",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Groebming",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42196,7 +42055,7 @@
    "bundesland": "S",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Grossgmain",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42209,7 +42068,7 @@
    "bundesland": "NÖ",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Hochegg",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42222,7 +42081,7 @@
    "bundesland": "NÖ",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Laab_im_Walde",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42235,7 +42094,7 @@
    "bundesland": "S",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Saalfelden",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42248,7 +42107,7 @@
    "bundesland": "ST",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_St._Radegund",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42261,7 +42120,7 @@
    "bundesland": "OÖ",
    "telefon": null,
    "url": "https://www.pv.at/web/Listen/Reha-Zentren/Reha-Zentrum_Weyer",
-   "zustaendig_fuer": "[\"rehabilitation\", \"anschlussheilverfahren\", \"kur\"]",
+   "zustaendig_fuer": "[\"reha_medizinisch\", \"anschlussheilverfahren\", \"kur\"]",
    "quelle_url": "https://www.pv.at/web/reha-und-praevention/reha-zentren",
    "source_id": "pva"
   },
@@ -42274,7 +42133,7 @@
    "bundesland": "W",
    "telefon": "+43 (0)5 03 03",
    "url": "https://www.pv.at/web/service-und-kontakt/kontakt",
-   "zustaendig_fuer": "[\"pflegegeld\", \"rehabilitation\", \"reha_onkologisch\", \"anschlussheilverfahren\", \"kur\", \"uebergangsgeld\", \"rehabilitationsgeld\"]",
+   "zustaendig_fuer": "[\"pflegegeld\", \"reha_medizinisch\", \"reha_onkologisch\", \"anschlussheilverfahren\", \"kur\", \"uebergangsgeld\", \"rehabilitationsgeld\"]",
    "quelle_url": "https://www.pv.at/web/service-und-kontakt/kontakt",
    "source_id": "pva"
   },
@@ -42300,7 +42159,7 @@
    "bundesland": "AT",
    "telefon": "+43 (0)5 03 03",
    "url": "https://www.pv.at/web/service-und-kontakt/kontakt",
-   "zustaendig_fuer": "[\"pflegegeld\", \"rehabilitation\", \"reha_onkologisch\", \"anschlussheilverfahren\", \"kur\", \"uebergangsgeld\", \"rehabilitationsgeld\"]",
+   "zustaendig_fuer": "[\"pflegegeld\", \"reha_medizinisch\", \"reha_onkologisch\", \"anschlussheilverfahren\", \"kur\", \"uebergangsgeld\", \"rehabilitationsgeld\"]",
    "quelle_url": "https://www.pv.at/web/service-und-kontakt/kontakt",
    "source_id": "pva"
   },
@@ -42365,7 +42224,7 @@
    "bundesland": "W",
    "telefon": "01/588 31",
    "url": "https://www.sozialministeriumservice.gv.at/Ueber_uns/Sozialministeriumservice/Landesstellen/Wien/Sozialministeriumservice___Landesstelle_Wien.de.html",
-   "zustaendig_fuer": "[\"behindertenpass\", \"parkausweis_29b\", \"foerderung_24h_betreuung\", \"unterstuetzungsfonds_behinderung\", \"angehoerigen_unterstuetzung_ersatzpflege\", \"pflegekurse_zuwendung\", \"pflegekarenzgeld\"]",
+   "zustaendig_fuer": "[\"behindertenpass\", \"parkausweis_29b\", \"foerderung_24h_betreuung\", \"unterstuetzungsfonds_behinderung\", \"angehoerigen_unterstuetzung_ersatzpflege\", \"pflegekurse_zuwendung\", \"pflegekarenz\"]",
    "quelle_url": "https://www.sozialministeriumservice.gv.at/Ueber_uns/Sozialministeriumservice/Landesstellen/Wien/Sozialministeriumservice___Landesstelle_Wien.de.html",
    "source_id": "sozialministeriumservice"
   },
@@ -42378,7 +42237,7 @@
    "bundesland": "AT",
    "telefon": "05 99 88",
    "url": "https://www.sozialministeriumservice.gv.at/Ueber_uns/Sozialministeriumservice/Kontakt/Kontakt_zum_Sozialministeriumservice.de.html",
-   "zustaendig_fuer": "[\"behindertenpass\", \"parkausweis_29b\", \"foerderung_24h_betreuung\", \"unterstuetzungsfonds_behinderung\", \"angehoerigen_unterstuetzung_ersatzpflege\", \"pflegekurse_zuwendung\", \"pflegekarenzgeld\"]",
+   "zustaendig_fuer": "[\"behindertenpass\", \"parkausweis_29b\", \"foerderung_24h_betreuung\", \"unterstuetzungsfonds_behinderung\", \"angehoerigen_unterstuetzung_ersatzpflege\", \"pflegekurse_zuwendung\", \"pflegekarenz\"]",
    "quelle_url": "https://www.sozialministeriumservice.gv.at/",
    "source_id": "sozialministeriumservice"
   },
@@ -161301,7 +161160,7 @@
    "traeger": "KV/PV",
    "local_pdf": "_Source/Anträge und Formulare/Reha_n_Unfall_052026.pdf",
    "url_pdf": "https://www.pv.at/cdscontent/load?contentid=10008.781971",
-   "leistung_ids": "[\"anschlussheilverfahren\", \"reha_medizinisch\", \"rehabilitation\"]",
+   "leistung_ids": "[\"anschlussheilverfahren\", \"reha_medizinisch\"]",
    "wer_fuellt_aus": "krankenhaus",
    "source_id": "linkcheck,pva,seed,svbox_local"
   },
@@ -161311,7 +161170,7 @@
    "traeger": "SV (Träger im Formular wählen)",
    "local_pdf": "_Source/Anträge und Formulare/Antrag Kur und Reha.pdf",
    "url_pdf": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.555945&version=1767088043",
-   "leistung_ids": "[\"kur\", \"kur\", \"reha_medizinisch\", \"reha_onkologisch\", \"reha_medizinisch\"]",
+   "leistung_ids": "[\"kur\", \"reha_medizinisch\", \"reha_onkologisch\"]",
    "wer_fuellt_aus": "versicherte+arzt",
    "source_id": "bvaeb,linkcheck,oegk,oesterreich_gv,seed,svbox_local,svs"
   },
@@ -161691,7 +161550,7 @@
    "traeger": "FSW",
    "local_pdf": "_Source/Anträge und Formulare/fsw-antrag-auf-foerderung-von-leistungen.1779095804.pdf",
    "url_pdf": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/fsw-antrag-auf-foerderung-von-leistungen.pdf",
-   "leistung_ids": "[\"essen_auf_raedern_wien\", \"fsw_behindertenhilfe_beratung\", \"fsw_foerderung_pflege_betreuung\", \"fsw_pflegeberatung\", \"hauskrankenpflege_wien\", \"heimhilfe_wien\", \"mobile_fruehfoerderung_wien\", \"mobile_pflege_fsw\", \"mobile_pflege_fsw\", \"obdach_wohnungslosenhilfe_wien\", \"wohn_pflegehaus_fsw\", \"senior_innen_wg_fsw\", \"tageszentren_wien\", \"vollbetreutes_wohnen_wien\", \"wohn_pflegehaus_fsw\"]",
+   "leistung_ids": "[\"essen_auf_raedern_wien\", \"fsw_behindertenhilfe_beratung\", \"mobile_pflege_fsw\", \"fsw_pflegeberatung\", \"hauskrankenpflege_wien\", \"heimhilfe_wien\", \"mobile_fruehfoerderung_wien\", \"obdach_wohnungslosenhilfe_wien\", \"wohn_pflegehaus_fsw\", \"senior_innen_wg_fsw\", \"tageszentren_wien\", \"vollbetreutes_wohnen_wien\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "fsw,linkcheck,seed,svbox_local"
   },
@@ -161741,7 +161600,7 @@
    "traeger": "FSW",
    "local_pdf": "_Source/Anträge und Formulare/Bedarfsmeldung-Senior_innen-Wohngemeinschaft_Basispaket.1736522017.pdf",
    "url_pdf": null,
-   "leistung_ids": "[\"senior_innen_wg_fsw\", \"senior_innen_wg_fsw\", \"senior_innen_wg_fsw\"]",
+   "leistung_ids": "[\"senior_innen_wg_fsw\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "fsw,linkcheck,seed,svbox_local"
   },
@@ -161771,7 +161630,7 @@
    "traeger": "FSW",
    "local_pdf": "_Source/Anträge und Formulare/FSW-Antrag-Beilage-Einrichtungswunsch.1779345450.pdf",
    "url_pdf": "https://www.fsw.at/downloads/foerderwesen_anerkennung/foerderansuchen/subjektfoerderung/FSW-Antrag-Beilage-Einrichtungswunsch.pdf",
-   "leistung_ids": "[\"wohn_pflegehaus_fsw\", \"wohn_pflegehaus_fsw\", \"wohn_pflegehaus_fsw\", \"wohnhaus_wien\"]",
+   "leistung_ids": "[\"wohn_pflegehaus_fsw\", \"wohnhaus_wien\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "fsw,linkcheck,seed,svbox_local"
   },
@@ -161881,38 +161740,8 @@
    "traeger": "ÖGK",
    "local_pdf": null,
    "url_pdf": "https://www.oegk.at/cdscontent/load?contentid=10008.772974&version=1777957800",
-   "leistung_ids": "[\"heilbehelfe_hilfsmittel\", \"krankengeld\"]",
+   "leistung_ids": "[\"heilbehelfe_hilfsmittel\"]",
    "wer_fuellt_aus": "arzt",
-   "source_id": "linkcheck,oegk"
-  },
-  {
-   "formular_id": "oegk_ausfuellhilfe_antrag_selbsthilfegruppen_und_selbsthilfeorgan",
-   "name": "Ausfüllhilfe Antrag Selbsthilfegruppen und Selbsthilfeorganisationen",
-   "traeger": "ÖGK",
-   "local_pdf": null,
-   "url_pdf": "https://www.oegk.at/cdscontent/load?contentid=10008.794330&version=1770817861",
-   "leistung_ids": "[\"krankengeld\"]",
-   "wer_fuellt_aus": "versicherte",
-   "source_id": "linkcheck,oegk"
-  },
-  {
-   "formular_id": "oegk_ausfuellhilfe_antrag_verbaende_und_kontaktstellen",
-   "name": "Ausfüllhilfe Antrag Verbände und Kontaktstellen",
-   "traeger": "ÖGK",
-   "local_pdf": null,
-   "url_pdf": "https://www.oegk.at/cdscontent/load?contentid=10008.794332&version=1770817878",
-   "leistung_ids": "[\"krankengeld\"]",
-   "wer_fuellt_aus": "versicherte",
-   "source_id": "linkcheck,oegk"
-  },
-  {
-   "formular_id": "oegk_ausschluss_doppelfoerderung",
-   "name": "Ausschluss Doppelförderung",
-   "traeger": "ÖGK",
-   "local_pdf": null,
-   "url_pdf": "https://www.oegk.at/cdscontent/load?contentid=10008.785589&version=1707215129",
-   "leistung_ids": "[\"krankengeld\"]",
-   "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oegk"
   },
   {
@@ -161961,7 +161790,7 @@
    "traeger": "ÖGK",
    "local_pdf": "_Source/Anträge und Formulare/Antrag-auf-Zuschuss-zu-Fahrtkosten_Wien.pdf",
    "url_pdf": "https://www.oegk.at/cdscontent/load?contentid=10008.777900&version=1785415038",
-   "leistung_ids": "[\"fahrtkostenzuschuss\", \"krankentransport\", \"krankentransport\", \"rezeptgebuehrenbefreiung\", \"wahlarzt_kostenerstattung\"]",
+   "leistung_ids": "[\"fahrtkostenzuschuss\", \"krankentransport\", \"rezeptgebuehrenbefreiung\", \"wahlarzt_kostenerstattung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oegk,seed,svbox_local"
   },
@@ -162200,7 +162029,7 @@
    "name": "Heimvertrag - Muster",
    "traeger": null,
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://broschuerenservice.sozialministerium.gv.at/Home/Download?publicationId=108",
    "leistung_ids": "[\"pflegeheim\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,oesterreich_gv"
@@ -162451,7 +162280,7 @@
    "traeger": "PVA",
    "local_pdf": "_Source/Anträge und Formulare/Antrag Kur und Reha.pdf",
    "url_pdf": "https://www.pv.at/cdscontent/load?contentid=10008.781981",
-   "leistung_ids": "[\"kur\", \"reha_onkologisch\", \"rehabilitation\"]",
+   "leistung_ids": "[\"kur\", \"reha_onkologisch\", \"reha_medizinisch\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,pva"
   },
@@ -162461,7 +162290,7 @@
    "traeger": "PVA",
    "local_pdf": null,
    "url_pdf": "https://www.pv.at/cdscontent/load?contentid=10008.781947",
-   "leistung_ids": "[\"rehabilitation\", \"uebergangsgeld\"]",
+   "leistung_ids": "[\"reha_medizinisch\", \"uebergangsgeld\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,pva"
   },
@@ -162480,7 +162309,7 @@
    "name": "Behindertenpass - Antrag bundesweit",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/01_BEHINDERTENPASS_Antrag_bundesweit_fertig.docx",
    "leistung_ids": "[\"behindertenpass\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162490,7 +162319,7 @@
    "name": "Antrag: Parkausweis",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/02_BEHINDERTENPASS_Parkausweis_29bStVO_Antrag_bundesweit_fer.doc",
    "leistung_ids": "[\"parkausweis_29b\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162510,7 +162339,7 @@
    "name": "Ansuchen Pflegekurse",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/Ansuchen-Pflegekurse.docx",
    "leistung_ids": "[\"pflegekurse_zuwendung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162520,8 +162349,8 @@
    "name": "Antrag Pflegekarenzgeld Kinderreha",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
-   "leistung_ids": "[\"pflegekarenzgeld\"]",
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Antrag_Pflegekarenzgeld_Kinderreha.doc",
+   "leistung_ids": "[\"pflegekarenz\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
   },
@@ -162540,7 +162369,7 @@
    "name": "Ansuchen auf Gewährung eines Zuschusses zur Unterstützung der 24-Stunden-Betreuung",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Ansuchen_final.docx",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162550,7 +162379,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit BG END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_BG_END.docx",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162560,7 +162389,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit HR END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_HR_END.docx",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162570,7 +162399,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit HU END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_HU_END.docx",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162580,7 +162409,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit PL END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_PL_END.docx",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162590,7 +162419,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit RO END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_RO_END.docx",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162600,7 +162429,7 @@
    "name": "PFLEGE 24HB Antrag bundesweit SK END",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Antrag_bundesweit_SK_END.docx",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162610,7 +162439,7 @@
    "name": "24-Stunden-Betreuung: Wechsel oder den Zusatz von Betreuungspersonen - rumänisch",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_wechsel_oder_zusaetzliche_selbst_betreuungskr_4.doc",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162620,7 +162449,7 @@
    "name": "24-Stunden-Betreuung: Wechsel oder den Zusatz von Betreuungspersonen - slowakisch",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_wechsel_oder_zusaetzliche_selbst_betreuungskr_6.doc",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162630,7 +162459,7 @@
    "name": "Zuschuss zur Unterstützung der 24-Stunden-Betreuung - Wechsel und/oder zusätzliche selbständige Betreuungskraft",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/PFLEGE_24HB_Wechsel_oder_zusaetzliche_selbst_Betreuungskr_fi.doc",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162640,8 +162469,8 @@
    "name": "Pflegekarenzgeld: Antrag Familienhospizkarenz",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
-   "leistung_ids": "[\"pflegekarenzgeld\"]",
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/pflege_pflegekarenzgeld_familienhospizkarenz_antrag_bundeswe.doc",
+   "leistung_ids": "[\"pflegekarenz\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
   },
@@ -162650,8 +162479,8 @@
    "name": "Pflegekarenzgeld: Antrag Pflegekarenz",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
-   "leistung_ids": "[\"pflegekarenzgeld\"]",
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit.doc",
+   "leistung_ids": "[\"pflegekarenz\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
   },
@@ -162660,7 +162489,7 @@
    "name": "Antrag: Pflegende Angehörige",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegende_Angehoerige/pflege_pflegende_Angehoerige_antrag_bundesweit.docx",
    "leistung_ids": "[\"angehoerigen_unterstuetzung_ersatzpflege\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"
@@ -162670,7 +162499,7 @@
    "name": "24-Stunden-Betreuung: Kontoüberweisung",
    "traeger": "Sozialministeriumservice",
    "local_pdf": null,
-   "url_pdf": null,
+   "url_pdf": "https://www.sozialministeriumservice.gv.at/Downloads/sms_antrag_pflege_24h_konto-ueberweisung.doc",
    "leistung_ids": "[\"foerderung_24h_betreuung\"]",
    "wer_fuellt_aus": "versicherte",
    "source_id": "linkcheck,sozialministeriumservice"

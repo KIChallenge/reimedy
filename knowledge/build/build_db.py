@@ -39,6 +39,7 @@ SEED_FILES = {"leistungen": BUILD / "seed_leistungen.jsonl", "stellen": BUILD / 
 # Nicht als Wissensquelle laden (ARCHITEKTUR §2): ELGA = Personendaten → Vault (server/elga, B6); sources/elga = nur Fixtures.
 SKIP_SOURCES = {"elga"}
 SOURCE_TRAEGER = {"oegk": "ÖGK", "svs": "SVS", "bvaeb": "BVAEB", "pva": "PVA"}
+AUSSCHLUESSE = BUILD / "ausschluesse.json"
 
 SCALAR = ["name", "kurz_einfach", "zielgruppe", "zustaendig", "kosten", "innerhalb_sv", "antrag", "confidence"]
 LISTS = ["bereich", "traeger", "unterlagen", "fristen", "abhaengigkeiten", "trigger_im_dokument", "bundesland"]
@@ -228,7 +229,11 @@ def merge_leistungen(cands: list[dict], tax: Taxonomie):
                     kind = "widerspruch"
                 elif f == "antrag":
                     fids = {(v["value"] or {}).get("formular_id") for v in variants if isinstance(v["value"], dict)} - {None}
-                    if len(fids) > 1:
+                    # Alternative Formulare DESSELBEN Antrags (z. B. Online- und Word-Formular) sind kein Widerspruch:
+                    # deckt eine Variante mit formular_id + formular_ids alle genannten IDs ab, gilt sie als Klammer.
+                    klammer = [{(v["value"] or {}).get("formular_id"), *((v["value"] or {}).get("formular_ids") or [])}
+                               for v in variants if isinstance(v["value"], dict)]
+                    if len(fids) > 1 and not any(fids <= k for k in klammer):
                         kind = "widerspruch"
                 elif f in HARD_NUM_FIELDS:
                     # Konflikt nur, wenn zwei Quellen Zahlen nennen und KEINE gemeinsam haben (z. B. 7,55 vs 7,70).
@@ -322,6 +327,58 @@ def merge_leistungen(cands: list[dict], tax: Taxonomie):
             if (tl and ts_ and (tl <= ts_ or ts_ <= tl)) or norm(merged[lid].get("name", "")) == norm(merged[sid_].get("name", "")):
                 vorschlaege.append({"kandidat": lid, "seed": sid_})
     return merged, claims, vorschlaege
+
+
+def apply_ausschluesse(cands: list[dict], canon, regeln: list[dict]) -> dict:
+    """Kuratierte Ausschlüsse (ausschluesse.json): falsch zugeordnete oder der SV-Box widersprechende Aussagen
+    einer Quelle aus dem Merge nehmen. Gibt {angewendet, ohne_treffer} für den Bericht zurück."""
+    hits = [0] * len(regeln)
+    for r in cands:
+        lid = canon(r["leistung_id"]) if callable(canon) else canon.get(r["leistung_id"], r["leistung_id"])
+        for i, g in enumerate(regeln):
+            if g["leistung_id"] != lid or g["source_id"] != r["_source_id"]:
+                continue
+            f, sub = g["feld"], g["enthaelt"]
+            if f == "voraussetzungen":
+                vs = r.get("voraussetzungen") or []
+                keep = [v for v in vs if sub not in (v.get("text") or "") and sub not in (v.get("zitat") or "")]
+                hits[i] += len(vs) - len(keep)
+                r["voraussetzungen"] = keep
+            elif isinstance(r.get(f), list):
+                keep = [v for v in r[f] if sub not in (v if isinstance(v, str) else jdump(v))]
+                hits[i] += len(r[f]) - len(keep)
+                r[f] = keep
+            elif r.get(f) is not None and sub in (r[f] if isinstance(r[f], str) else jdump(r[f])):
+                r[f] = None
+                hits[i] += 1
+    return {"angewendet": sum(hits),
+            "ohne_treffer": [f"{g['leistung_id']}/{g['source_id']}/{g['feld']}: {g['enthaelt'][:40]}" for g, n in zip(regeln, hits) if not n]}
+
+
+TEL_NAME_RE = re.compile(r"[+\d][\d\s/()\-]{5,}")
+
+
+def fix_telefon_namen(st: dict) -> dict:
+    """Stellen, deren Name nur eine Telefonnummer ist (Linktext einer Quelle): Nummer → telefon; Name aus der
+    Google-Suchanfrage der Ziel-URL („Mein Gesundheitszentrum Graz der ÖGK"), Such-URL verwerfen. Ohne Namen → raus."""
+    from urllib.parse import parse_qs, urlparse
+    fixed, dropped = [], []
+    for k in list(st):
+        r = st[k]
+        nm = (r.get("name") or "").strip()
+        if not TEL_NAME_RE.fullmatch(nm):
+            continue
+        u = urlparse(r.get("url") or "")
+        q = (parse_qs(u.query).get("q") or [None])[0] if "google." in u.netloc else None
+        if q:
+            r["telefon"] = r.get("telefon") or nm
+            r["name"] = q.strip()
+            r["url"] = None
+            fixed.append(k)
+        else:
+            del st[k]
+            dropped.append(k)
+    return {"korrigiert": fixed, "entfernt": dropped}
 
 
 def merge_simple(recs, key):
@@ -567,9 +624,13 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
     for r in all_leist:
         if isinstance(r.get("antrag"), dict) and r["antrag"].get("formular_id"):
             r["antrag"] = {**r["antrag"], "formular_id": faliases.get(r["antrag"]["formular_id"], r["antrag"]["formular_id"])}
+        if isinstance(r.get("antrag"), dict) and r["antrag"].get("formular_ids"):
+            r["antrag"]["formular_ids"] = list(dict.fromkeys(faliases.get(x, x) for x in r["antrag"]["formular_ids"]))
     report["formular_aliase"] = len(faliases)
 
     # Leistungen
+    regeln = json.loads(AUSSCHLUESSE.read_text(encoding="utf-8")).get("regeln", []) if AUSSCHLUESSE.exists() else []
+    report["ausschluesse"] = apply_ausschluesse(all_leist, tax.canon, regeln)
     merged, claims, alias_vor = merge_leistungen(all_leist, tax)
     con.executemany("INSERT INTO leistung_claims VALUES (?,?,?,?,?,?,?,?,?)", claims)
     leist_rows = []
@@ -594,12 +655,13 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
 
     # Stellen
     st = merge_simple(all_stellen, "stelle_id")
+    report["stellen_name_ist_telefon"] = fix_telefon_namen(st)
     for k, r in st.items():
         geo = r.get("geo") or [None, None]
         con.execute("INSERT INTO stellen VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
             k, r.get("name"), r.get("typ"), r.get("adresse"), str(r.get("plz") or "") or None, r.get("bundesland"),
             r.get("telefon"), r.get("email"), r.get("url"), r.get("oeffnungszeiten"),
-            jdump([tax.canon(x) for x in r.get("zustaendig_fuer") or []]),
+            jdump(list(dict.fromkeys(tax.canon(x) for x in r.get("zustaendig_fuer") or []))),
             geo[0] if len(geo) > 1 else None, geo[1] if len(geo) > 1 else None, r.get("quelle_url"),
             ",".join(r["_sources"]), r.get("stand") or r.get("fetched_at"), jdump(r["_variants"])))
     # Formulare: Quellen + Seed, danach formulare_live drüber (kanonisch)
@@ -608,6 +670,8 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
         f["_source_id"] = "linkcheck"
         all_form.append(f)
     fo = merge_simple(all_form, "formular_id")
+    fz_regeln = json.loads(AUSSCHLUESSE.read_text(encoding="utf-8")).get("formular_zuordnung", []) if AUSSCHLUESSE.exists() else []
+    fz_treffer = set()
     live_ids = {f["formular_id"]: f for f in live}
     for k, r in fo.items():
         lv = live_ids.get(k, {})
@@ -616,17 +680,27 @@ def build(db_path: Path = DB_PATH, sources_dir: Path = SOURCES, strict=False, qu
                 r[fld] = lv[fld]
         if lv and not lv.get("url_pdf"):
             r["url_pdf"] = None  # kb-links ist kanonisch: keine bestätigte Datei-URL → keine (Quell-URL wäre ungeprüft)
+        # Kuratierte Ausschlüsse Formular → Leistung (ausschluesse.json "formular_zuordnung"): falsche Seiten-Zuordnung
+        weg = {tax.canon(g["leistung_id"]) for g in fz_regeln if g["formular_id"] == k}
+        if weg:
+            vorher = [tax.canon(x) for x in r.get("leistung_ids") or []]
+            r["leistung_ids"] = [x for x in vorher if x not in weg]
+            for g in fz_regeln:
+                if g["formular_id"] == k and tax.canon(g["leistung_id"]) in vorher:
+                    fz_treffer.add((g["formular_id"], g["leistung_id"]))
         if lv.get("eltern_url"):
             r["quelle_url"] = lv["eltern_url"]
         con.execute("INSERT INTO formulare VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
             k, r.get("name"), r.get("traeger"), r.get("url_pdf"), r.get("local_pdf"),
             None if r.get("fillable") is None else int(bool(r.get("fillable"))), jdump(r.get("felder") or []),
-            jdump([tax.canon(x) for x in r.get("leistung_ids") or []]), r.get("wer_fuellt_aus"), r.get("quelle_url"),
+            jdump(list(dict.fromkeys(tax.canon(x) for x in r.get("leistung_ids") or []))), r.get("wer_fuellt_aus"), r.get("quelle_url"),
             ",".join(r["_sources"]), lv.get("geprueft_am") or r.get("stand") or r.get("fetched_at"), jdump(r["_variants"]),
             r.get("art"), r.get("sha256"), r.get("version"), jdump(r.get("gefunden_auf") or []), int(bool(lv)),
             int(lv.get("zeigen", True)) if lv else 1, lv.get("url_status")))
 
     report["traeger"] = load_traeger(con, st)
+    report["ausschluesse"]["formular_zuordnung_ohne_treffer"] = [f"{g['formular_id']}→{g['leistung_id']}" for g in fz_regeln
+                                                                 if (g["formular_id"], g["leistung_id"]) not in fz_treffer]
 
     # Codes (Schema E): nur administrativ. Hint-Policy als Sicherheitsnetz.
     report["codes"] = load_codes(con, all_codes, tax, merged)
@@ -763,6 +837,9 @@ def print_report(r):
     print(f"  leistungen={L['total']} {L['nach_status']}")
     for lid, c in L["konflikte"].items():
         print(f"    ⚠ Konflikt {lid}: {c}")
+    if r.get("ausschluesse"):
+        print(f"  Ausschlüsse (ausschluesse.json): {r['ausschluesse']['angewendet']} angewendet"
+              + (f", ohne Treffer: {r['ausschluesse']['ohne_treffer']}" if r["ausschluesse"]["ohne_treffer"] else ""))
     if L["alias_vorschlaege"]:
         print(f"    Alias-Vorschläge: {L['alias_vorschlaege'][:10]}")
     if r.get("codes"):

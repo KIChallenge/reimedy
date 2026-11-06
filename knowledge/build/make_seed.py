@@ -13,6 +13,7 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
 BRO = "_Source/Leistungskataloge/Serviceratgeber-2026_Broschuere_A5_OEAM_99-19_klein_korr.pdf"
+# Patientendokumente (_Source/Befunde/…) sind NIE Quelle der Wissens-DB (Personendaten, ARCHITEKTUR §2).
 
 
 def bro(page):
@@ -51,7 +52,7 @@ leistung(leistung_id="pflegegeld", name="Pflegegeld",
                           V("Pflegebedarf voraussichtlich mindestens 6 Monate", web("https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008859")),
                           V("Maßgeblich ist der Pflegebedarf, nicht eine bestimmte Diagnose", web("https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008859"))],
          zustaendig="Der Träger, der die Pension auszahlt (ASVG-Pension → PVA; SVS-Pension → SVS; Beamte → BVAEB). Ohne Pension: meist PVA. Entscheidung per Bescheid nach Begutachtung.",
-         antrag={"formular_id": "pva_pal080", "wo": "Pensionsversicherungsanstalt (Landesstelle) bzw. eigener Pensionsträger; formlos oder Formular PAL080", "online_url": "https://www.pv.at"},
+         antrag={"formular_id": "pva_pal080", "formular_ids": ["pva_pal080", "oegv_form_265"], "wo": "Pensionsversicherungsanstalt (Landesstelle) bzw. eigener Pensionsträger; formlos oder Formular PAL080", "online_url": "https://www.pv.at"},
          unterlagen=["ausgefülltes Antragsformular", "aktuelle Befunde/Entlassungsbrief (zur Begutachtung)", "Bankverbindung", "ggf. Vollmacht/Erwachsenenvertretung"],
          fristen=["Pflegegeld gebührt ab dem Monat nach Antragstellung → früh beantragen"],
          kosten="kostenlos", abhaengigkeiten=[],
@@ -92,8 +93,12 @@ leistung(leistung_id="pflegekarenz", name="Pflegekarenz / Pflegeteilzeit und Pfl
          zielgruppe="Berufstätige Angehörige einer Person mit Pflegegeld (in der Regel ab Stufe 3)",
          voraussetzungen=[V("Vereinbarung mit dem Arbeitgeber"), V("Pflegebedürftige Person bezieht Pflegegeld (meist ab Stufe 3)")],
          zustaendig="Sozialministeriumservice (Pflegekarenzgeld)", abhaengigkeiten=["pflegegeld"],
+         antrag={"formular_id": "sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit",
+                 "formular_ids": ["sms_pflege_pflegekarenzgeld_pflegekarenz_antrag_bundesweit", "oegv_form_1002"],
+                 "wo": "Online-Antrag beim Sozialministeriumservice (Formularservice, mit ID Austria) oder Word-Formular „Antrag Pflegekarenz“ an die Landesstelle",
+                 "online_url": "https://www.formularservice.gv.at/site/fsrv/user/formular.aspx?pid=b74a92e8b7ba4434a1adff6eb9a8f8ad&pn=B00dc4768dd1040ffb2d7b9cc4dc7c985"},
          trigger_im_dokument=["Angehörige", "pflegende Angehörige"],
-         quellen=[web("https://www.oesterreich.gv.at"), web("https://www.sozialministeriumservice.gv.at")], confidence="niedrig")
+         quellen=[web("https://www.oesterreich.gv.at"), web("https://www.sozialministeriumservice.gv.at/Angehoerige/Pflege_und_Betreuung/Pflegekarenz_und_-teilzeit/Pflegekarenz_und_-teilzeit.de.html")], confidence="niedrig")
 leistung(leistung_id="familienhospizkarenz", name="Familienhospizkarenz",
          kurz_einfach="Freistellung von der Arbeit, um schwerst erkrankte nahe Angehörige oder Kinder zu begleiten.",
          bereich=["D", "E"], traeger=["Sozialministeriumservice"], innerhalb_sv=False,
@@ -197,8 +202,42 @@ leistung(leistung_id="heilbehelfe_hilfsmittel", name="Heilbehelfe und Hilfsmitte
          voraussetzungen=[V("Ärztliche Verordnung", bro(23), "Diese werden über ärztliche Verordnung gewährt")],
          zustaendig="Krankenkasse; manche Hilfsmittel (z. B. Krankenfahrstuhl) leihweise",
          kosten="Kostenübernahme bis 1.848,00 € (Prothesen/Rollstühle 4.620,00 €); Selbstbehalt orthopädische Maßschuhe 77,03 €",
-         trigger_im_dokument=["Gehhilfe", "Rollator", "Hilfsmittel", "eingeschränkte Mobilität", "Pflegebett"],
+         antrag={"formular_id": "oegk_vo_fuer_heilbehelfe_und_hilfsmittel",
+                 "formular_ids": ["oegk_vo_fuer_heilbehelfe_und_hilfsmittel", "oegk_vo_fuer_sehbehelfe_und_augenprothesen", "oegk_augenoptik_unmittelbare_verordnung"],
+                 "wo": "Ärztliche Verordnung (Verordnungsschein); Sehbehelfe über eigenen Verordnungsschein bzw. Augenoptik"},
+         trigger_im_dokument=["Gehhilfe", "Rollator", "Hilfsmittel", "eingeschränkte Mobilität", "Pflegebett", "Brustprothese", "Perücke"],
          quellen=[bro(23), bro(24)], confidence="hoch")
+# Kuratiert 06.11. (Audit): Antrag/Kosten aus den Quellen im Build, damit falsche Formular-Zuordnungen und Schein-Konflikte verschwinden.
+OEGV_KBG = web("https://www.oesterreich.gv.at/de/themen/familie_und_partnerschaft/finanzielle-unterstuetzungen/3/2/Seite.080613")
+PV_REHA = web("https://www.pv.at/web/reha-und-praevention/vom-antrag-zu-reha-und-kur")
+leistung(leistung_id="reha_medizinisch", name="Medizinische Rehabilitation",
+         bereich=["C"], traeger=["PVA", "ÖGK", "SVS", "BVAEB", "AUVA"], innerhalb_sv=True,
+         zustaendig="Je nach Versichertenstatus Pensions-, Kranken- oder Unfallversicherung; der Antrag geht an den Pensionsversicherungsträger, der den zuständigen Träger ermittelt.",
+         antrag={"formular_id": "antrag_reha_kur", "formular_ids": ["antrag_reha_kur", "pva_antrag_kur_reha", "antrag_ahv_reha_unfall"],
+                 "wo": "Ärztin/Arzt füllt den Antrag mit Ihnen aus und schickt ihn an die Landesstelle der Pensionsversicherung; direkt nach dem Spital (Anschlussheilverfahren) stellt das Krankenhaus den Antrag"},
+         quellen=[PV_REHA, web("https://www.pv.at/web/reha-und-praevention/medizinische-rehabilitation")], confidence="mittel")
+leistung(leistung_id="medizinische_hauskrankenpflege", name="Medizinische Hauskrankenpflege (ärztlich verordnet)",
+         bereich=["C", "D"], traeger=["ÖGK", "SVS", "BVAEB"], innerhalb_sv=True,
+         zustaendig="Krankenversicherung (ÖGK, SVS, BVAEB) auf ärztliche Anordnung; in Wien vermittelt das FSW-Kund:innenservice eine Partnerorganisation.",
+         antrag={"formular_id": None, "wo": "Kein Antragsformular: schriftliche ärztliche Anordnung („Verordnungsschein für medizinische Hauskrankenpflege“)"},
+         voraussetzungen=[V("Nur auf schriftliche ärztliche Anordnung", web("https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal"),
+                            "Medizinische Hauskrankenpflege ist ausschließlich über schriftliche ärztliche Anordnung in Form des „Verordnungsscheins für medizinische Hauskrankenpflege“ oder eines entsprechenden EDV-Ausdrucks möglich.")],
+         quellen=[web("https://www.oegk.at/cdscontent/?contentid=10007.881073&portal=oegkportal"), bro(25), web("https://www.fsw.at/p/medizinische-hauskrankenpflege")], confidence="mittel")
+leistung(leistung_id="krankengeld", name="Krankengeld",
+         bereich=["E"], traeger=["ÖGK", "SVS", "BVAEB"], innerhalb_sv=True,
+         antrag={"formular_id": None, "wo": "Kein eigenes Antragsformular: Die Arbeitsunfähigkeit muss der Krankenkasse gemeldet werden (Krankmeldung); für die Auszahlung braucht die Kasse die Krankmeldung und eine „Arbeits- und Entgeltbestätigung“."},
+         unterlagen=["Krankmeldung", "Arbeits- und Entgeltbestätigung"],
+         quellen=[bro(29), web("https://www.oegk.at/cdscontent/?contentid=10007.867467&portal=oegkportal")], confidence="mittel")
+leistung(leistung_id="kinderbetreuungsgeld", name="Kinderbetreuungsgeld",
+         bereich=["E"], traeger=["ÖGK", "SVS", "BVAEB"], innerhalb_sv=False,
+         antrag={"formular_id": None, "wo": "Beim zuständigen Krankenversicherungsträger; frühestens am Tag der Geburt"},
+         kosten="Höhe (Wert 2026): Kinderbetreuungsgeld-Konto 17,65 Euro bis 41,14 Euro täglich (je nach Bezugsdauer); einkommensabhängig 80 Prozent der Letzteinkünfte, maximal 80,12 Euro pro Tag.",
+         quellen=[OEGV_KBG, bro(36)], confidence="mittel")
+leistung(leistung_id="zahnersatz", name="Zahnersatz",
+         bereich=["C"], traeger=["ÖGK", "SVS", "BVAEB"], innerhalb_sv=True,
+         antrag={"formular_id": None, "wo": "Die Vertragszahnärztin bzw. der Vertragszahnarzt stellt den „Antrag auf Kostenübernahme für Zahnersatz“ aus."},
+         kosten="Ab 01.05.2026: 30 Prozent der tariflichen Kosten als Selbstbehalt bei Vertragszahnärztin/Vertragszahnarzt, 20 Prozent für rezeptgebührenbefreite Personen.",
+         quellen=[bro(41), web("https://www.oegk.at/cdscontent/?contentid=10007.870472&portal=oegkportal")], confidence="mittel")
 leistung(leistung_id="hausarzt_pve", name="Hausärztin / Primärversorgungseinheit (PVE)",
          kurz_einfach="Erste Anlaufstelle für Kontrollen, Überweisungen, Verordnungen und ärztliche Begründungen für Anträge.",
          bereich=["C", "F"], traeger=["ÖGK", "SVS", "BVAEB"], innerhalb_sv=True,

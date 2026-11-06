@@ -131,6 +131,9 @@ def run(db: Path = DB_PATH, golden=True) -> list[dict]:
     ohne = [r[0] for r in con.execute("SELECT leistung_id, data_json FROM leistungen")
             if not json.loads(r[1]).get("quellen")]
     gate("leistung_hat_quelle", not ohne, ohne[:20] or "alle mit Quelle")
+    # Kanten ins Leere (Leistung/Formular/Stelle fehlt im Graph) → Lotse zeigt Verweise ohne Ziel
+    leer_k = [f"{r[0]}→{r[1]} ({r[2]})" for r in con.execute("SELECT von, nach, typ FROM kanten WHERE dangling=1")]
+    gate("keine_kanten_ins_leere", not leer_k, leer_k[:20] or "0")
     bad = []
     for r in con.execute("SELECT code, leistung_hints FROM codes WHERE system='ICD-10-AT' AND leistung_hints!='[]'"):
         for hnt in json.loads(r[1]):

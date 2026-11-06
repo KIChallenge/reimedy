@@ -257,10 +257,11 @@ def test_db_path_env_und_health(tmp_path, monkeypatch):
 def test_formular_unbekannte_leistung_keine_kante(tmp_path):
     s = make_sources(tmp_path)
     w(s / "src_f/out/formulare.jsonl", [{"formular_id": "fsw_test_formular", "name": "x",
-                                         "leistung_ids": ["mobile_pflege_fsw", "fsw_foerderung_pflege_betreuung"]}])
+                                         "leistung_ids": ["mobile_pflege_fsw", "leistung_gibt_es_nicht"]}])
     rep = build_db.build(tmp_path / "f.sqlite", s, quiet=True, embeddings=False, links_dir=tmp_path / "nolinks")
-    assert not [e for e in rep["leistungen"]["kanten_ins_leere"] if e[0] == "fsw_foerderung_pflege_betreuung"]
-    assert "fsw_test_formular→fsw_foerderung_pflege_betreuung" in rep["leistungen"]["formular_leistung_ids_unbekannt"]
+    assert not [e for e in rep["leistungen"]["kanten_ins_leere"] if e[0] == "leistung_gibt_es_nicht"]
+    assert "fsw_test_formular→leistung_gibt_es_nicht" in rep["leistungen"]["formular_leistung_ids_unbekannt"]
+    # fsw_foerderung_pflege_betreuung ist seit dem Port aus reimedy-svhack eine Variante von mobile_pflege_fsw (taxonomie.json)
 
 
 def test_http_stellen_leistung_und_leistung_id(tmp_path, monkeypatch):
