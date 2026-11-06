@@ -97,7 +97,8 @@ def test_merge_alias_and_conflict(tmp_path):
     g = L.get_leistung("rezeptgebuehrenbefreiung")
     assert g["review_status"] == "konflikt"
     assert any(c["feld"] == "kosten" for c in g["konflikte"])
-    assert "7,55" in g["kosten"]  # kuratierter Seed gewinnt
+    assert "7,70" in g["kosten"]  # W4: neuere Angabe (Stand 2026-11-01) zuerst …
+    assert any("7,55" in str(v["value"]) for v in g["details"]["kosten"])  # … die kuratierte bleibt unter details
     assert {"seed", "src_a"} <= set(g["sources"])
     assert "Meldezettel" in g["unterlagen"]  # Listen werden vereinigt
     assert any(c["source_id"] == "src_a" and c["field"] == "kosten" for c in g["claims"])  # jede Aussage mit Quelle
@@ -373,3 +374,24 @@ def test_kantenrichtung_nur_seed_setzt_voraus(tmp_path):
     assert not p["setzt_voraus"] and p["reihenfolge"] == ["pflegegeld"]  # Quelle sagt nur „verwandt"
     assert {"reha_medizinisch", "pflegekarenz"} <= {x["leistung_id"] for x in p["verwandt"]}
     assert L.get_leistung("fahrtkostenzuschuss")["reihenfolge"] == ["rezeptgebuehrenbefreiung", "fahrtkostenzuschuss"]  # Seed bleibt hart
+
+
+def test_w4_neuere_angabe_zuerst_details(tmp_path):
+    s = make_sources(tmp_path)
+    w(s / "src_w/out/leistungen.jsonl", [
+        {"leistung_id": "rezeptgebuehrenbefreiung", "name": "Rezeptgebührenbefreiung", "kosten": "Rezeptgebühr 7,95 Euro",
+         "quellen": [{"url": "https://neu.example/rgb", "stand": "2027-01-01"}]}])
+    build_db.build(tmp_path / "w.sqlite", s, quiet=True, embeddings=False, links_dir=tmp_path / "nolinks")
+    L = Lotse(tmp_path / "w.sqlite", log_misses=False, hybrid=False)
+    g = L.get_leistung("rezeptgebuehrenbefreiung")
+    st = [v["stand"] for v in g["details"]["kosten"]]
+    assert st == sorted(st, reverse=True) and "7,95" in g["kosten"]  # neuere Angabe zuerst
+    assert any("7,55" in str(v["value"]) for v in g["details"]["kosten"])  # ältere bleibt unter details
+    assert g["konflikte"][0]["angezeigt"]["stand"] == "2027-01-01"
+
+
+def test_d9_apotheken_notdienst(tmp_path):
+    _, L = build(tmp_path)
+    r = L.stellen_near("1030", typ="apotheke")
+    assert r["notdienst"]["telefon"] == "1455" and "keine offene API" in r["notdienst"]["hinweis"]
+    assert "notdienst" not in L.stellen_near("1030", typ="pve")

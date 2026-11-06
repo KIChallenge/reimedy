@@ -59,6 +59,16 @@ def expand_query(query: str, regeln) -> list[str]:
 # PLZ → Bundesland (grob, erste Ziffer; reicht für „Stellen in meiner Region")
 PLZ_BL = {"1": "W", "2": "N", "3": "N", "4": "O", "5": "S", "6": "T", "7": "B", "8": "St", "9": "K"}
 
+APOTHEKEN_NOTDIENST = {
+    "telefon": "1455", "name": "Apothekenruf 1455 (Österreichische Apothekerkammer)",
+    "beschreibung": "Rund um die Uhr: nennt die nächste dienstbereite Apotheke (Nacht-, Wochenend-, Feiertagsdienst).",
+    "suche_url": "https://www.apothekerkammer.at/apothekensuche",
+    "hinweis": "Öffnungszeiten der einzelnen Apotheken sind in den Wiener OGD-Daten nicht enthalten; für Nachtdienste gibt es "
+               "keine offene API. Bei gesundheitlichen Fragen: 1450, im Notfall 144.",
+    "quellen": ["https://www.apothekerkammer.at/apothekensuche",
+                "https://www.pressetext.com/news/apothekenruf-1455-begruesst-gesundheitstelefon-1450.html"],
+    "stand": "2026-11-06"}
+
 DISCLAIMER = ("Allgemeine Information zu Leistungen und Zuständigkeiten, keine medizinische oder rechtsverbindliche Auskunft. "
               "Ob ein Anspruch besteht, entscheidet der zuständige Träger.")
 
@@ -284,6 +294,25 @@ class Lotse:
                "review_status": r["review_status"], "sources": _j(r["sources"], []), "stand": r["stand"],
                "konflikte": _j(r["conflicts_json"], []), "varianten": d.get("_varianten", {})}
         out["quellen"] = self._quellen(d.get("quellen"))
+        # W4 (Entscheidung Arne 06.11.): kein Label „ungeprüft“; bei Quellkonflikten die NEUERE Angabe zuerst,
+        # alle Varianten (mit Quelle + Stand) unter `details`, absteigend nach Stand. Additiv.
+        def _st(v):
+            return str(v.get("stand") or "")
+        details = {}
+        for k_, vs in (d.get("_varianten") or {}).items():
+            details[k_] = sorted(vs, key=_st, reverse=True)
+        for c in out["konflikte"]:
+            c["varianten"] = sorted(c.get("varianten") or [], key=_st, reverse=True)
+            if c["varianten"]:
+                out[c["feld"]] = c["varianten"][0]["value"]  # neuere Angabe zuerst
+                c["angezeigt"] = {"source_id": c["varianten"][0].get("source_id"), "stand": c["varianten"][0].get("stand")}
+            details[c["feld"]] = c["varianten"]
+        for v in details.values():
+            for x in v:
+                if x.get("quelle_url"):
+                    lk = self.link(x["quelle_url"])
+                    x["quelle_url"], x["geprueft_am"] = (lk or {}).get("url") or (x["quelle_url"] if not str(x["quelle_url"]).startswith("http") else None), (lk or {}).get("geprueft_am")
+        out["details"] = details
         if isinstance(out.get("antrag"), dict) and out["antrag"].get("online_url"):
             lk = self.link(out["antrag"]["online_url"])
             out["antrag"] = {**out["antrag"], "online_url": (lk or {}).get("url"), "online_url_geprueft_am": (lk or {}).get("geprueft_am")}
@@ -393,7 +422,11 @@ class Lotse:
                 ranked.append((rk if rk else 0, dist, s | {"naehe": why, **({"entfernung_km": round(dist, 2)} if rk == 0 else {})}))
         ranked.sort(key=lambda x: (x[0] if x[0] else 0, x[1], x[2]["name"] or ""))
         # Geo-Treffer zuerst nach Distanz, danach die ohne Koordinaten nach PLZ-Logik
-        return self._envelope({"plz": plz, "bundesland": bl, "typ": typ, "leistung_id": leistung_id,
+        extra = {}
+        if typ == "apotheke":
+            # D9: Öffnungszeiten fehlen in Wien-OGD, Nachtdienste haben keine offene API (ARCHITEKTUR §5) → deterministischer Verweis
+            extra["notdienst"] = APOTHEKEN_NOTDIENST
+        return self._envelope({"plz": plz, "bundesland": bl, "typ": typ, "leistung_id": leistung_id, **extra,
                                "ursprung": origin, "stellen": [s for *_, s in ranked[:limit]],
                                "hinweis_naehe": "Entfernung (Luftlinie) wo Koordinaten vorhanden; sonst Rangfolge nach PLZ/Bundesland."})
 
